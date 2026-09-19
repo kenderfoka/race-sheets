@@ -1,0 +1,147 @@
+{
+  "key": "BanjaLuka_2026_WWC",
+  "grade": "FAIL",
+  "reason_code": "SCHEDULE_MISSING",
+  "updated_at": "2026-09-19T22:32:45Z",
+  "siwidata": null,
+  "session_key": "kosta.2717",
+  "session_key_status": "HTTP200_empty_shell_no_rows",
+  "domain": "WWC",
+  "pww": null,
+  "format": "Classic+Sprint+Teams+Masters",
+  "dates": "2026-05-20/2026-05-23",
+  "venue": "Banja Luka (Vrbas / Canyon Tjesno), Bosnia and Herzegovina",
+  "sheet": null,
+  "accepted": false,
+  "row_count": 647,
+  "auditor": {
+    "FILE": "/workspace/race-desk/races/BanjaLuka_2026_WWC/BanjaLuka_2026_WWC_start.xlsx",
+    "L1": "pass",
+    "L1_issue_count": 0,
+    "L1_issues_sample": [],
+    "L2": "skipped-no-Connect",
+    "L3": "fail-SCHEDULE_MISSING",
+    "L4": "day4_clocks_match_sat_CS; meeting_incomplete_SCHEDULE_MISSING",
+    "L5": "skipped-why-no-knockout-source",
+    "L6": "skipped-why-no-final-results-pdf",
+    "GRADE": "FAIL",
+    "notes": [
+      "L3: only Saturday 23 May Competition Schedule PDF is public (page '5 of'); Wed\u2013Fri CS missing \u2192 SCHEDULE_MISSING",
+      "PDF_MISSING secondary: Sprint Heat 2 start list not on team-info / CDN",
+      "Connect: no sessions/kosta.2717 or 2717.initchangeset; CS_2026/siwidata/2717 404",
+      "SessionKey kosta.2717: HTTP 200 empty live shell; no competition rows",
+      "L5 SKIPPED (no knockout vision source)",
+      "L6 SKIPPED (no @Final Results PDFs located on public ICF/CDN)",
+      "L4 day4: first clocks match Saturday CS for all Final+Teams units; WC1 Final startlist n=13 vs schedule boats=12 (kept startlist, did not drop)",
+      "Team forerunners TIP\u2192Team blank; Name1/2/3=FORERUNNER as published"
+    ],
+    "grade": "FAIL",
+    "reason_code": "SCHEDULE_MISSING",
+    "note": "Competition Schedule only published for Sat 23 May; Wed\u2013Fri CS missing so L3 completeness cannot be verified. Sprint Heat 2 start list also absent. Per PaddleTagger contract: FAIL + no spreadsheet."
+  },
+  "schema_decisions": {
+    "kind": "WWC",
+    "columns": [
+      "Gender",
+      "Category",
+      "Event",
+      "Distance",
+      "Phase",
+      "Unit",
+      "Start date",
+      "Start time",
+      "Team",
+      "Bib boat",
+      "Race number",
+      "Starting lane",
+      "Rank",
+      "Rank order",
+      "Penalties",
+      "Result",
+      "Difference",
+      "Name1",
+      "Name2",
+      "Name3"
+    ],
+    "Distance": "Classic|Sprint",
+    "Phase": "Forerunner|Classic|Teams|Masters|Heats|Final",
+    "Category": "SENIOR|MASTERS",
+    "Gender_source": "official start-list section sex (no Connect)",
+    "C2_gender": "same-sex M|W (not Mixed X)",
+    "Starting_lane": "empty",
+    "Heat2": "not published \u2014 omitted, not invented"
+  },
+  "blockers": [
+    "Official Competition Schedule PDF public only for Sat 23 May (CS '5 of'); Wed\u2013Fri CS not on team-info/CDN",
+    "Sprint Heat 2 start list not published on team-info/CDN",
+    "No numeric SIWIDATA session / CS_2026 blob / Connect initchangeset for kosta.2717",
+    "Live SessionKey page empty \u2014 cannot pull sex map or results"
+  ],
+  "source_urls": {
+    "icf_event": "https://www.canoeicf.com/wildwater-canoeing-world-championships/banja-luka-2026",
+    "icf_team_info": "https://canoeicf.com/wildwater-canoeing-world-championships/banja-luka-2026/team-info",
+    "live": "https://siwidata.com/canoe123/live?SessionKey=kosta.2717",
+    "files": {
+      "start_list_classic_day1.pdf": "https://cdn.paddleworldwide.com/media/start_list_classic_day1.pdf",
+      "start_list_classic_teams_day2_update.pdf": "https://cdn.paddleworldwide.com/media/start_list_classic_teams_day2_update.pdf",
+      "start_list_sprint_heat1_day3.pdf": "https://cdn.paddleworldwide.com/media/start_list_sprint_heat1_day3.pdf",
+      "start_list_sprint_finals.pdf": "https://cdn.paddleworldwide.com/media/start_list_sprint_finals.pdf",
+      "start_list_sprint_team_event_day_4.pdf": "https://cdn.paddleworldwide.com/media/start_list_sprint_team_event_day_4.pdf",
+      "competition_schedule_saturday_23_may_2026.pdf": "https://cdn.paddleworldwide.com/media/competition_schedule_saturday_23_may_2026.pdf",
+      "bulletin.pdf": "https://www.canoeicf.com/sites/default/files/2026_icf_wwc_wc_banja_luka_bulletin.pdf",
+      "teamleaders.pdf": "https://www.canoeicf.com/sites/default/files/banjaluka2026_teamleaders_meeting_wwc.pdf"
+    }
+  },
+  "files": [
+    {
+      "name": "start_list_classic_day1.pdf",
+      "sha256": "8f9a42d891fc27412bb58c32b7ba7bb1fd5786f37160378c8166fc75b959c692",
+      "bytes": 145844,
+      "url": "https://cdn.paddleworldwide.com/media/start_list_classic_day1.pdf"
+    },
+    {
+      "name": "start_list_classic_teams_day2_update.pdf",
+      "sha256": "d07141aca9e0c9ea4adf3c176f10d9a378c6943ed44e6db5b38446ba014333d8",
+      "bytes": 366967,
+      "url": "https://cdn.paddleworldwide.com/media/start_list_classic_teams_day2_update.pdf"
+    },
+    {
+      "name": "start_list_sprint_heat1_day3.pdf",
+      "sha256": "f8e0bece8b613a133902c0a90a61fbc7b1a6593a9bde8f10b2e63033c593b822",
+      "bytes": 521252,
+      "url": "https://cdn.paddleworldwide.com/media/start_list_sprint_heat1_day3.pdf"
+    },
+    {
+      "name": "start_list_sprint_finals.pdf",
+      "sha256": "a31e546ccbef4962d7da3adc8f4acbcc90289a51f74048e04787741335920756",
+      "bytes": 125796,
+      "url": "https://cdn.paddleworldwide.com/media/start_list_sprint_finals.pdf"
+    },
+    {
+      "name": "start_list_sprint_team_event_day_4.pdf",
+      "sha256": "21cf53710037cc9883b87da87e9683aa5a03ab7d6d00fee830a9b1fe2a75c50e",
+      "bytes": 130930,
+      "url": "https://cdn.paddleworldwide.com/media/start_list_sprint_team_event_day_4.pdf"
+    },
+    {
+      "name": "competition_schedule_saturday_23_may_2026.pdf",
+      "sha256": "6598db8db263c8d6965d58515ff832e21326716755c1c78067dfbc71cd0bb3b6",
+      "bytes": 328821,
+      "url": "https://cdn.paddleworldwide.com/media/competition_schedule_saturday_23_may_2026.pdf"
+    },
+    {
+      "name": "bulletin.pdf",
+      "sha256": "188d5d3981ba3fd80658b7913f5051031ab8346549d7b212d1c8dcd52eb8b9b0",
+      "bytes": 16154479,
+      "url": "https://www.canoeicf.com/sites/default/files/2026_icf_wwc_wc_banja_luka_bulletin.pdf"
+    },
+    {
+      "name": "teamleaders.pdf",
+      "sha256": "c5cef8339031f0d672ed96baec8243b6c2d62d54bac2bd5c6bc2bac97b1ec4bc",
+      "bytes": 703622,
+      "url": "https://www.canoeicf.com/sites/default/files/banjaluka2026_teamleaders_meeting_wwc.pdf"
+    }
+  ],
+  "sheet_sha256": "c1284e54d02b7f2a1ac8875728481cbeec0e2315c28a397ed1af073305fca4e7",
+  "xlsx_published": false
+}
