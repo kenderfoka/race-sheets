@@ -1,0 +1,41 @@
+{
+  "key": "Szeged_2026_WC",
+  "venue": "Szeged",
+  "year": "2026",
+  "kind": "WC",
+  "domain": "flatwater_sprint",
+  "vendor": "digicorp",
+  "competition_id": "2494",
+  "hub": "https://results.szeged2026.com/competitions/2026-icf-canoe-sprint-world-cup",
+  "dates": "2026-05-08/2026-05-10",
+  "format": "sprint_RESULTS_PERSONS",
+  "sheet": "Szeged_2026_WC_Results.xls",
+  "accepted": true,
+  "grade": "PERFECT",
+  "updated_at": "2026-09-22T19:41:29Z",
+  "row_count": 1690,
+  "persons_count": 684,
+  "bib_boat": "intentionally_empty",
+  "notes": [
+    "Flatwater Digicorp rebuild: RESULTS 2494 + PERSONS schema (ICF_ID1-6).",
+    "BIB_BOAT left empty (not on Digicorp public).",
+    "RESULT times from Digicorp centiseconds (ms padded xx0); 11 LAP rows have no public RESULT time.",
+    "Verified against official sample excl. BIB_BOAT; PERSONS exact."
+  ],
+  "files": [
+    {
+      "kind": "sheet",
+      "name": "Szeged_2026_WC_Results.xls",
+      "sha256": "e27e6389784293760b942e1ea43b443943f1feca8e1992184632588328f3cd3b",
+      "bytes": 562688
+    }
+  ],
+  "auditor": {
+    "grade": "PERFECT",
+    "RESULTS_rows": 1690,
+    "PERSONS_rows": 684,
+    "match_pct_excl_BIB_BOAT_vs_official_sample": 99.9717,
+    "RESULT_LAP_missing": 11,
+    "RESULT_ms_padding_from_centiseconds": true
+  }
+}
