@@ -12,31 +12,34 @@
   "sheet": "Brandenburg_2026_WC_Results.xls",
   "accepted": true,
   "grade": "PERFECT",
-  "updated_at": "2026-09-22T19:55:00Z",
+  "updated_at": "2026-09-22T20:01:47Z",
   "row_count": 2187,
   "persons_count": 811,
   "bib_boat": "intentionally_empty",
   "notes": [
-    "IMAS wettkampf_315; RESULTS 315 + PERSONS. Republished after ICF fill reached 98.8%.",
-    "BIB_BOAT empty. ICF from startlist PDF Bib; SF/finals via heat name match.",
-    "Remaining ICF holes mostly SO/II exhibition finals; 2 non-exhibition athletes missing Bib (NOR EIDE, CZE SOVOVA).",
-    "No start times invented."
+    "IMAS wettkampf_315; RESULTS 315 + PERSONS.",
+    "ICF chase: NOR EIDE=74173, CZE SOVOVA=105228 (Montreal/Szeged cross-meet).",
+    "Removed 3 false exhibition name matches; SO/II finals 1001-1006 still blank (no public Bib).",
+    "ICF fill 3057/3095 (98.77%). BIB_BOAT empty."
   ],
   "files": [
     {
       "kind": "sheet",
       "name": "Brandenburg_2026_WC_Results.xls",
-      "sha256": "ac48ae8df94f96d9f2ed77e33b68e492cd11e4ff085f2cdc33dbeacb54e8b79d",
+      "sha256": "56d7be60b7cd51aa7f0f9bd48705d7d8fe8a911ba2970042f638f7928daa4b4c",
       "bytes": 715264
     }
   ],
   "auditor": {
     "grade": "PERFECT",
     "RESULTS_rows": 2187,
-    "PERSONS_rows": 811,
-    "races": 249,
-    "icf_fill_rate": 0.988,
-    "icf_filled": 3058,
-    "icf_slots": 3095
+    "icf_fill_rate": 0.9877,
+    "icf_filled": 3057,
+    "icf_slots": 3095,
+    "external_icf": {
+      "EIDE": "74173",
+      "SOVOVA": "105228"
+    },
+    "exhibition_icf_blank_slots": 38
   }
 }
