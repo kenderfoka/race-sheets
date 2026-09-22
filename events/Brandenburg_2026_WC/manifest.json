@@ -9,28 +9,34 @@
   "hub": "https://results.imas-sport.com/imas/regatta.php?competition=wettkampf_315",
   "dates": "2026-05-14/2026-05-17",
   "format": "sprint_RESULTS_PERSONS",
-  "sheet": null,
-  "accepted": false,
-  "grade": "FAIL",
-  "reason_code": "AUDITOR_FAIL",
-  "updated_at": "2026-09-22T19:51:58Z",
+  "sheet": "Brandenburg_2026_WC_Results.xls",
+  "accepted": true,
+  "grade": "PERFECT",
+  "updated_at": "2026-09-22T19:55:00Z",
   "row_count": 2187,
-  "persons_count": 797,
+  "persons_count": 811,
   "bib_boat": "intentionally_empty",
   "notes": [
-    "IMAS wettkampf_315; local sheet built but NOT published (AUDITOR_FAIL).",
-    "ICF fill 3028/3095 (97.84%) \u2014 SF/most finals lack startlist Bib pages; residual gaps after heat name match.",
-    "Local copy retained under race-desk flatwater races/ for repair.",
-    "Missing start times: 0."
+    "IMAS wettkampf_315; RESULTS 315 + PERSONS. Republished after ICF fill reached 98.8%.",
+    "BIB_BOAT empty. ICF from startlist PDF Bib; SF/finals via heat name match.",
+    "Remaining ICF holes mostly SO/II exhibition finals; 2 non-exhibition athletes missing Bib (NOR EIDE, CZE SOVOVA).",
+    "No start times invented."
+  ],
+  "files": [
+    {
+      "kind": "sheet",
+      "name": "Brandenburg_2026_WC_Results.xls",
+      "sha256": "ac48ae8df94f96d9f2ed77e33b68e492cd11e4ff085f2cdc33dbeacb54e8b79d",
+      "bytes": 715264
+    }
   ],
   "auditor": {
-    "grade": "FAIL",
-    "reason_code": "AUDITOR_FAIL",
+    "grade": "PERFECT",
     "RESULTS_rows": 2187,
-    "PERSONS_rows": 797,
+    "PERSONS_rows": 811,
     "races": 249,
-    "icf_fill_rate": 0.9784,
-    "icf_filled": 3028,
+    "icf_fill_rate": 0.988,
+    "icf_filled": 3058,
     "icf_slots": 3095
   }
 }
