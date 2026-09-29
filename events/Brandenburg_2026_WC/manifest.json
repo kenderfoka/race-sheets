@@ -1,45 +1,557 @@
 {
   "key": "Brandenburg_2026_WC",
-  "venue": "Brandenburg",
-  "year": "2026",
-  "kind": "WC",
-  "domain": "flatwater_sprint",
   "vendor": "imas",
-  "competition_id": "315",
-  "hub": "https://results.imas-sport.com/imas/regatta.php?competition=wettkampf_315",
-  "dates": "2026-05-14/2026-05-17",
-  "format": "sprint_RESULTS_PERSONS",
-  "sheet": "Brandenburg_2026_WC_Results.xlsx",
-  "accepted": true,
-  "grade": "PERFECT",
-  "updated_at": "2026-09-22T20:43:15Z",
-  "row_count": 2187,
-  "persons_count": 811,
-  "bib_boat": "intentionally_empty",
-  "notes": [
-    "IMAS wettkampf_315; RESULTS 315 + PERSONS.",
-    "ICF chase: NOR EIDE=74173, CZE SOVOVA=105228 (Montreal/Szeged cross-meet).",
-    "Removed 3 false exhibition name matches; SO/II finals 1001-1006 still blank (no public Bib).",
-    "ICF fill 3057/3095 (98.77%). BIB_BOAT empty."
+  "competition_id": 315,
+  "competition": "wettkampf_315",
+  "dates": [
+    "2026-05-14",
+    "2026-05-17"
   ],
+  "hub": "https://results.imas-sport.com/imas/regatta.php?competition=wettkampf_315",
+  "discipline": "sprint",
+  "start_times": "scheduled",
+  "grade": "USABLE",
+  "gaps": [
+    "icf_ids_incomplete"
+  ],
+  "id_checks": [
+    {
+      "results_row": 106,
+      "seat": "ICF_ID1",
+      "published_id": "45352",
+      "source_printed_name": "Dominik Doktorik",
+      "action": "corrected",
+      "source": "pww_search",
+      "new_id": "114697"
+    },
+    {
+      "results_row": 106,
+      "seat": "ICF_ID2",
+      "published_id": "114697",
+      "source_printed_name": "Denis Mysak",
+      "action": "corrected",
+      "source": "pww_search",
+      "new_id": "45352"
+    },
+    {
+      "results_row": 115,
+      "seat": "ICF_ID2",
+      "published_id": "45549",
+      "source_printed_name": "Daniel Roman",
+      "action": "corrected",
+      "source": "pww_search",
+      "new_id": "99285"
+    },
+    {
+      "results_row": 115,
+      "seat": "ICF_ID3",
+      "published_id": "52950",
+      "source_printed_name": "Cristian Canache",
+      "action": "corrected",
+      "source": "pww_search",
+      "new_id": "45549"
+    },
+    {
+      "results_row": 115,
+      "seat": "ICF_ID4",
+      "published_id": "99285",
+      "source_printed_name": "Ray Acuna",
+      "action": "corrected",
+      "source": "pww_search",
+      "new_id": "52950"
+    },
+    {
+      "results_row": 168,
+      "seat": "ICF_ID1",
+      "published_id": "135982",
+      "source_printed_name": "Farida Abduraimova",
+      "action": "corrected",
+      "source": "pww_search",
+      "new_id": "165594"
+    },
+    {
+      "results_row": 539,
+      "seat": "ICF_ID1",
+      "published_id": "166065",
+      "source_printed_name": "Wiktor Kedzia",
+      "action": "corrected",
+      "source": "pww_search",
+      "new_id": "154694"
+    },
+    {
+      "results_row": 1284,
+      "seat": "ICF_ID1",
+      "published_id": "104510",
+      "source_printed_name": "Mateus Nunes Bastos Dos Santos",
+      "action": "corrected",
+      "source": "pww_search",
+      "new_id": "131032"
+    },
+    {
+      "results_row": 1284,
+      "seat": "ICF_ID2",
+      "published_id": "131032",
+      "source_printed_name": "Filipe Vinicius Santana Vieira",
+      "action": "corrected",
+      "source": "pww_search",
+      "new_id": "104510"
+    },
+    {
+      "results_row": 1783,
+      "seat": "ICF_ID2",
+      "published_id": "147147",
+      "source_printed_name": "Ivan Patapenka",
+      "action": "corrected",
+      "source": "pww_search",
+      "new_id": "142844"
+    },
+    {
+      "results_row": 2057,
+      "seat": "ICF_ID1",
+      "published_id": "42767",
+      "source_printed_name": "Filipe Vinicius Santana Vieira",
+      "action": "corrected",
+      "source": "pww_search",
+      "new_id": "104510"
+    },
+    {
+      "results_row": 2156,
+      "seat": "ICF_ID1",
+      "published_id": "53046",
+      "source_printed_name": "Mauricio Acuna",
+      "action": "corrected",
+      "source": "pww_search",
+      "new_id": "88905"
+    },
+    {
+      "results_row": 2158,
+      "seat": "ICF_ID1",
+      "published_id": "105962",
+      "source_printed_name": "Fynn Wyss",
+      "action": "corrected",
+      "source": "pww_search",
+      "new_id": "105963"
+    },
+    {
+      "results_row": 2161,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Niklas Hermes",
+      "action": "emptied",
+      "source": "none"
+    },
+    {
+      "results_row": 2162,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Justin Vandree",
+      "action": "corrected",
+      "source": "pww_search",
+      "new_id": "172159"
+    },
+    {
+      "results_row": 2163,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Heiko Wohlert",
+      "action": "emptied",
+      "source": "none"
+    },
+    {
+      "results_row": 2164,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Tim Hammerschmidt",
+      "action": "emptied",
+      "source": "none"
+    },
+    {
+      "results_row": 2165,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Leon Pirntz",
+      "action": "emptied",
+      "source": "none"
+    },
+    {
+      "results_row": 2166,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Jan Eichler",
+      "action": "emptied",
+      "source": "none"
+    },
+    {
+      "results_row": 2167,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Thobias Schweppe",
+      "action": "emptied",
+      "source": "none"
+    },
+    {
+      "results_row": 2168,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Liesbeth Winkelbauer",
+      "action": "emptied",
+      "source": "none"
+    },
+    {
+      "results_row": 2169,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Nicole Doris Pietschmann",
+      "action": "emptied",
+      "source": "none"
+    },
+    {
+      "results_row": 2170,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Justin Vandree",
+      "action": "corrected",
+      "source": "pww_search",
+      "new_id": "172159"
+    },
+    {
+      "results_row": 2170,
+      "seat": "ICF_ID2",
+      "source_printed_name": "Tim Hammerschmidt",
+      "action": "emptied",
+      "source": "none"
+    },
+    {
+      "results_row": 2171,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Heiko Wohlert",
+      "action": "emptied",
+      "source": "none"
+    },
+    {
+      "results_row": 2171,
+      "seat": "ICF_ID2",
+      "source_printed_name": "Liesbeth Winkelbauer",
+      "action": "emptied",
+      "source": "none"
+    },
+    {
+      "results_row": 2172,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Nicole Doris Pietschmann",
+      "action": "emptied",
+      "source": "none"
+    },
+    {
+      "results_row": 2172,
+      "seat": "ICF_ID2",
+      "source_printed_name": "Frida Zerm",
+      "action": "emptied",
+      "source": "none"
+    },
+    {
+      "results_row": 2173,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Niklas Hermes",
+      "action": "emptied",
+      "source": "none"
+    },
+    {
+      "results_row": 2173,
+      "seat": "ICF_ID2",
+      "source_printed_name": "Thobias Schweppe",
+      "action": "emptied",
+      "source": "none"
+    },
+    {
+      "results_row": 2174,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Jan Eichler",
+      "action": "emptied",
+      "source": "none"
+    },
+    {
+      "results_row": 2174,
+      "seat": "ICF_ID2",
+      "source_printed_name": "Leon Pirntz",
+      "action": "emptied",
+      "source": "none"
+    },
+    {
+      "results_row": 2175,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Heiko Wohlert",
+      "action": "emptied",
+      "source": "none"
+    },
+    {
+      "results_row": 2175,
+      "seat": "ICF_ID2",
+      "source_printed_name": "Matthias Erxleben",
+      "action": "emptied",
+      "source": "none"
+    },
+    {
+      "results_row": 2176,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Kevin Engel",
+      "action": "corrected",
+      "source": "pww_search",
+      "new_id": "156773"
+    },
+    {
+      "results_row": 2176,
+      "seat": "ICF_ID2",
+      "source_printed_name": "Niklas Hermes",
+      "action": "emptied",
+      "source": "none"
+    },
+    {
+      "results_row": 2177,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Tim Hammerschmidt",
+      "action": "emptied",
+      "source": "none"
+    },
+    {
+      "results_row": 2177,
+      "seat": "ICF_ID2",
+      "source_printed_name": "Phoebe Duffy",
+      "action": "emptied",
+      "source": "none"
+    },
+    {
+      "results_row": 2178,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Melanie Geberhardt",
+      "action": "emptied",
+      "source": "none"
+    },
+    {
+      "results_row": 2178,
+      "seat": "ICF_ID2",
+      "source_printed_name": "Justin Vandree",
+      "action": "corrected",
+      "source": "pww_search",
+      "new_id": "172159"
+    },
+    {
+      "results_row": 2179,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Leon Pirntz",
+      "action": "emptied",
+      "source": "none"
+    },
+    {
+      "results_row": 2179,
+      "seat": "ICF_ID2",
+      "source_printed_name": "Leon Schaefer",
+      "action": "corrected",
+      "source": "pww_search",
+      "new_id": "118870"
+    },
+    {
+      "results_row": 2180,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Thobias Schweppe",
+      "action": "emptied",
+      "source": "none"
+    },
+    {
+      "results_row": 2181,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Jan Eichler",
+      "action": "emptied",
+      "source": "none"
+    },
+    {
+      "results_row": 2182,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Justus Jonas Guenther",
+      "action": "corrected",
+      "source": "pww_search",
+      "new_id": "156992"
+    },
+    {
+      "results_row": 2183,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Johannes Schwenzer",
+      "action": "corrected",
+      "source": "pww_search",
+      "new_id": "161203"
+    },
+    {
+      "results_row": 2184,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Luis Wolfrum",
+      "action": "corrected",
+      "source": "pww_search",
+      "new_id": "165809"
+    },
+    {
+      "results_row": 2185,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Lukas Nather",
+      "action": "corrected",
+      "source": "pww_search",
+      "new_id": "165778"
+    },
+    {
+      "results_row": 2186,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Joice Kreft",
+      "action": "emptied",
+      "source": "none"
+    },
+    {
+      "results_row": 2187,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Leona Johs",
+      "action": "emptied",
+      "source": "none"
+    },
+    {
+      "results_row": 2188,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Stephanie Gebhardt",
+      "action": "emptied",
+      "source": "none"
+    }
+  ],
+  "accepted": false,
+  "bib_boat": "intentionally_empty",
+  "bib_boat_note": "BIB_BOAT left empty per flatwater policy; IMAS startlist Bib=ICF used for ICF_ID*",
+  "sheets": {
+    "RESULTS": {
+      "name": "RESULTS 315",
+      "rows": 2187
+    },
+    "PERSONS": {
+      "name": "PERSONS",
+      "rows": 816
+    }
+  },
+  "coverage": {
+    "races": 249,
+    "races_with_startlist_pdf": 123,
+    "icf_slots": 3095,
+    "icf_filled": 3066,
+    "icf_fill_rate": 0.99063,
+    "obs_counts": {
+      "DNS": 50,
+      "DNF": 11,
+      "DSQ": 9
+    },
+    "unique_icf_persons": 816,
+    "missing_start_times": 0
+  },
+  "notes": [
+    "emptied_seats=29"
+  ],
+  "issues_sample": [],
+  "output_xls": "races/Brandenburg_2026_WC/Brandenburg_2026_WC_Results.xlsx",
+  "output_xls_sha256": "3b89fc19d544a6641561313f21c958e459fcb3d66539bd630bb4374b22abc6cd",
+  "sources": [
+    {
+      "path": "brandenburg-sources/api_race_173.json",
+      "sha256": "0b0528780823e98de1aa12e8b0d0b04fc996c64e3a10661b71e852b2be3cfaf8",
+      "bytes": 3805
+    },
+    {
+      "path": "brandenburg-sources/api_race_all.json",
+      "sha256": "ba22770f2171264ef3e9baf4810601d0a62057b89234a7563d195b4a8fe9db94",
+      "bytes": 787063
+    },
+    {
+      "path": "brandenburg-sources/api_race_status.json",
+      "sha256": "273616e68fe2643f57ba04875ab8edafea547353776798a8145b400a7b85fdb8",
+      "bytes": 22
+    },
+    {
+      "path": "brandenburg-sources/api_wettkampf.json",
+      "sha256": "d09d5f2ea8db99b189b422ca77a407f0b654bc1d960e1a5cab447b87df0e0910",
+      "bytes": 6269
+    },
+    {
+      "path": "brandenburg-sources/hub.html",
+      "sha256": "560f04e204ed7620ef057ee360e0ff53b227475b9431a6789b7b0b82f151cbed",
+      "bytes": 201658
+    },
+    {
+      "path": "brandenburg-sources/pdfs/all_results.pdf",
+      "sha256": "41b8e95cb01306c4f0f0cd00ff5affaa27cb283ef7f6e2cd04b9e46365234fca",
+      "bytes": 930608
+    },
+    {
+      "path": "brandenburg-sources/pdfs/all_results.txt",
+      "sha256": "e69ff9e9b6fe9afe57a87f64e544018ebce97ec46ede803a77dc3f55183882e7",
+      "bytes": 770553
+    },
+    {
+      "path": "brandenburg-sources/pdfs/para_results.pdf",
+      "sha256": "d8d42d34e90079e4646ca7e275b660e931f2d78af292b5156548fd43ecdf9682",
+      "bytes": 455288
+    },
+    {
+      "path": "brandenburg-sources/pdfs/startlist.pdf",
+      "sha256": "a7cb640c4e2be9f0ed3d37b7a268989dd7e6e236f892ed4d46f3aae681e37f86",
+      "bytes": 629720
+    },
+    {
+      "path": "brandenburg-sources/pdfs/startlist.txt",
+      "sha256": "c298ab9121cc3cd1f6eb38cd2b580ef4fec2c8e1de9ae1789ba9496ec4102c38",
+      "bytes": 170727
+    },
+    {
+      "path": "brandenburg-sources/pdfs/startlist_para_finals.pdf",
+      "sha256": "8f98db361f964f3d229f1b90373e258278b7ba8ded765927c8ed2c80bb12377d",
+      "bytes": 356034
+    },
+    {
+      "path": "brandenburg-sources/pdfs/startlist_para_finals.txt",
+      "sha256": "c7e4361fc8a642f88756b2baed2f7a5f7eaaf816edf8cf5de44d0278b82d8d80",
+      "bytes": 5151
+    },
+    {
+      "path": "brandenburg-sources/pdfs/timetable.pdf",
+      "sha256": "245901584fdff582136e16b241d640685ffe829a891af7486132dfd1f0a41d61",
+      "bytes": 319740
+    },
+    {
+      "path": "brandenburg-sources/pdfs/timetable.txt",
+      "sha256": "c4408732015370556b9e493eb10dc99d4918efe44e8a7940de6de4c0a796be36",
+      "bytes": 29661
+    },
+    {
+      "path": "brandenburg-sources/races/race_1.html",
+      "sha256": "79ead644be3bbcfec38c500eedab55b0e51f393da7b32ad1e31ef6b099ab12e2",
+      "bytes": 9370
+    },
+    {
+      "path": "brandenburg-sources/races/race_173.html",
+      "sha256": "34a7c740dfda45fca78e6c1d7afd6928d94e9c75b3d157193082d3e64b7eada5",
+      "bytes": 9354
+    },
+    {
+      "path": "brandenburg-sources/races/race_231.html",
+      "sha256": "e77c4bdfd3f38c91edc0948d7cc0fb268c42b1595fdc88a2625c5802d9f59935",
+      "bytes": 9328
+    },
+    {
+      "path": "brandenburg-sources/races/race_57.html",
+      "sha256": "69a23a564190625024830c7bec617473f55aca87ff7aab26f81a4ee34acf3203",
+      "bytes": 10273
+    },
+    {
+      "path": "brandenburg-sources/timetable.json",
+      "sha256": "372acb6c6b4dee1852ccdc2aba09f08fe36c151c5855c7db13de535a1fc49432",
+      "bytes": 53263
+    }
+  ],
+  "updated_at": "2026-09-29T19:32:27+02:00",
+  "grade_reason": "All races from IMAS api_race_all with published start times; ICF from startlist Bib (+ name match for SF/finals) + EXTERNAL_ICF for EIDE/SOVOVA; BIB_BOAT empty.",
+  "domain": "flatwater_sprint",
+  "sheet": "Brandenburg_2026_WC_Results.xlsx",
+  "format": "sprint_RESULTS_PERSONS",
   "files": [
     {
       "kind": "xlsx",
       "name": "Brandenburg_2026_WC_Results.xlsx",
-      "sha256": "9e4d8ea827ee5c9aefa91b31908f1ae971911c2db014d068d732c85cb9c9a9b7",
-      "bytes": 228647
+      "sha256": "3b89fc19d544a6641561313f21c958e459fcb3d66539bd630bb4374b22abc6cd",
+      "bytes": 228864
     }
   ],
-  "auditor": {
-    "grade": "PERFECT",
-    "RESULTS_rows": 2187,
-    "icf_fill_rate": 0.9877,
-    "icf_filled": 3057,
-    "icf_slots": 3095,
-    "external_icf": {
-      "EIDE": "74173",
-      "SOVOVA": "105228"
-    },
-    "exhibition_icf_blank_slots": 38
-  }
+  "output_xlsx": "races/Brandenburg_2026_WC/Brandenburg_2026_WC_Results.xlsx",
+  "output_xlsx_sha256": "3b89fc19d544a6641561313f21c958e459fcb3d66539bd630bb4374b22abc6cd",
+  "publish_gates": "OK"
 }
