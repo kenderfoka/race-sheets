@@ -1,40 +1,5667 @@
 {
   "key": "Gyor_2025_MAR",
-  "venue": "Győr",
-  "year": "2025",
-  "kind": "WCH",
-  "domain": "flatwater_marathon",
   "vendor": "digicorp",
-  "competition_id": "1962",
-  "hub": "https://results.gyor2025.com/competitions/2025-icf-canoe-marathon-world-championships",
-  "dates": "2025-09-04/2025-09-07",
-  "format": "marathon_RESULTS_PERSONS",
-  "sheet": "Gyor_2025_MAR_Results.xlsx",
-  "accepted": true,
-  "grade": "PERFECT",
-  "updated_at": "2026-09-22T20:43:15Z",
-  "row_count": 754,
-  "persons_count": 487,
-  "bib_boat": "intentionally_empty",
-  "notes": [
-    "Flatwater Digicorp rebuild: RESULTS 1962 + PERSONS (ICF from live HTML, not marathon PDF bib).",
-    "BIB_BOAT empty (not on Digicorp public).",
-    "RESULT centisecond padding; 19 LAP rows without public RESULT time.",
-    "Verified vs official sample excl. BIB_BOAT."
+  "competition_id": 1962,
+  "dates": [
+    "2025-09-04",
+    "2025-09-07"
   ],
+  "hub": "https://results.gyor2025.com/competitions/2025-icf-canoe-marathon-world-championships",
+  "discipline": "marathon",
+  "start_times": "scheduled",
+  "generated_at_utc": "2026-09-30T14:52:56Z",
+  "grade": "PERFECT",
+  "gaps": [],
+  "id_checks": [
+    {
+      "results_row": 682,
+      "seat": "ICF_ID2",
+      "published_id": "114225",
+      "source_printed_name": "Harris Hunter",
+      "action": "corrected",
+      "source": "same_meeting_bind",
+      "new_id": "147346",
+      "team": "CAN"
+    },
+    {
+      "results_row": 56,
+      "seat": "ICF_ID1",
+      "published_id": "137370",
+      "source_printed_name": "Alexandr Siman",
+      "action": "no_icf_id",
+      "source": "pww_search",
+      "team": "MDA",
+      "evidence": "printed_name='Alexandr Siman'; noc=MDA; printed_yob=2007; no ICF/bence birth years for name+NOC candidates; candidate_ids=137370,42567,131401,126005; ICF/PWW+bence: no unique profile"
+    },
+    {
+      "results_row": 493,
+      "seat": "ICF_ID1",
+      "published_id": "137370",
+      "source_printed_name": "Alexandr Siman",
+      "action": "no_icf_id",
+      "source": "pww_search",
+      "team": "MDA",
+      "evidence": "printed_name='Alexandr Siman'; noc=MDA; printed_yob=2007; no ICF/bence birth years for name+NOC candidates; candidate_ids=137370,42567,131401,126005; ICF/PWW+bence: no unique profile"
+    },
+    {
+      "results_row": 552,
+      "seat": "ICF_ID1",
+      "published_id": "137370",
+      "source_printed_name": "Alexandr Siman",
+      "action": "no_icf_id",
+      "source": "pww_search",
+      "team": "MDA",
+      "evidence": "printed_name='Alexandr Siman'; noc=MDA; printed_yob=2007; no ICF/bence birth years for name+NOC candidates; candidate_ids=137370,42567,131401,126005; ICF/PWW+bence: no unique profile"
+    }
+  ],
+  "rank_oracle": [
+    {
+      "race_number": "1",
+      "starting_lane": 7,
+      "rank": 1,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "1",
+      "starting_lane": 16,
+      "rank": 2,
+      "obs": "",
+      "team": "ITA"
+    },
+    {
+      "race_number": "1",
+      "starting_lane": 2,
+      "rank": 3,
+      "obs": "",
+      "team": "POL"
+    },
+    {
+      "race_number": "1",
+      "starting_lane": 4,
+      "rank": 4,
+      "obs": "",
+      "team": "ITA"
+    },
+    {
+      "race_number": "1",
+      "starting_lane": 12,
+      "rank": 5,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "1",
+      "starting_lane": 8,
+      "rank": 6,
+      "obs": "",
+      "team": "DEN"
+    },
+    {
+      "race_number": "1",
+      "starting_lane": 18,
+      "rank": 7,
+      "obs": "",
+      "team": "IRL"
+    },
+    {
+      "race_number": "1",
+      "starting_lane": 13,
+      "rank": 8,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "1",
+      "starting_lane": 3,
+      "rank": 9,
+      "obs": "",
+      "team": "SWE"
+    },
+    {
+      "race_number": "1",
+      "starting_lane": 11,
+      "rank": 10,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "1",
+      "starting_lane": 1,
+      "rank": 11,
+      "obs": "",
+      "team": "CZE"
+    },
+    {
+      "race_number": "1",
+      "starting_lane": 10,
+      "rank": 12,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "1",
+      "starting_lane": 6,
+      "rank": 13,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "1",
+      "starting_lane": 5,
+      "rank": 14,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "1",
+      "starting_lane": 9,
+      "rank": 15,
+      "obs": "",
+      "team": "SVK"
+    },
+    {
+      "race_number": "1",
+      "starting_lane": 17,
+      "rank": 16,
+      "obs": "",
+      "team": "ARG"
+    },
+    {
+      "race_number": "1",
+      "starting_lane": 14,
+      "rank": 17,
+      "obs": "",
+      "team": "AUS"
+    },
+    {
+      "race_number": "1",
+      "starting_lane": 15,
+      "rank": 18,
+      "obs": "",
+      "team": "BEL"
+    },
+    {
+      "race_number": "1",
+      "starting_lane": 19,
+      "rank": 19,
+      "obs": "",
+      "team": "MAC"
+    },
+    {
+      "race_number": "2",
+      "starting_lane": 33,
+      "rank": 1,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "2",
+      "starting_lane": 24,
+      "rank": 2,
+      "obs": "",
+      "team": "DEN"
+    },
+    {
+      "race_number": "2",
+      "starting_lane": 28,
+      "rank": 3,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "2",
+      "starting_lane": 22,
+      "rank": 4,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "2",
+      "starting_lane": 21,
+      "rank": 5,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "2",
+      "starting_lane": 23,
+      "rank": 6,
+      "obs": "",
+      "team": "AIN"
+    },
+    {
+      "race_number": "2",
+      "starting_lane": 27,
+      "rank": 7,
+      "obs": "",
+      "team": "SVK"
+    },
+    {
+      "race_number": "2",
+      "starting_lane": 39,
+      "rank": 8,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "2",
+      "starting_lane": 31,
+      "rank": 9,
+      "obs": "",
+      "team": "SWE"
+    },
+    {
+      "race_number": "2",
+      "starting_lane": 29,
+      "rank": 10,
+      "obs": "",
+      "team": "NZL"
+    },
+    {
+      "race_number": "2",
+      "starting_lane": 25,
+      "rank": 11,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "2",
+      "starting_lane": 30,
+      "rank": 12,
+      "obs": "",
+      "team": "ARG"
+    },
+    {
+      "race_number": "2",
+      "starting_lane": 35,
+      "rank": 13,
+      "obs": "",
+      "team": "AIN"
+    },
+    {
+      "race_number": "2",
+      "starting_lane": 36,
+      "rank": 14,
+      "obs": "",
+      "team": "JPN"
+    },
+    {
+      "race_number": "2",
+      "starting_lane": 37,
+      "rank": 15,
+      "obs": "",
+      "team": "SGP"
+    },
+    {
+      "race_number": "2",
+      "starting_lane": 32,
+      "rank": 16,
+      "obs": "",
+      "team": "IRL"
+    },
+    {
+      "race_number": "2",
+      "starting_lane": 26,
+      "rank": 17,
+      "obs": "",
+      "team": "AUS"
+    },
+    {
+      "race_number": "2",
+      "starting_lane": 34,
+      "rank": 18,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "2",
+      "starting_lane": 38,
+      "rank": 19,
+      "obs": "",
+      "team": "SGP"
+    },
+    {
+      "race_number": "2",
+      "starting_lane": 20,
+      "rank": 20,
+      "obs": "",
+      "team": "MAC"
+    },
+    {
+      "race_number": "3",
+      "starting_lane": 56,
+      "rank": "",
+      "obs": "DNS",
+      "team": "IND"
+    },
+    {
+      "race_number": "3",
+      "starting_lane": 59,
+      "rank": "",
+      "obs": "DNS",
+      "team": "CHI"
+    },
+    {
+      "race_number": "3",
+      "starting_lane": 46,
+      "rank": 1,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "3",
+      "starting_lane": 58,
+      "rank": 2,
+      "obs": "",
+      "team": "IRL"
+    },
+    {
+      "race_number": "3",
+      "starting_lane": 54,
+      "rank": 3,
+      "obs": "",
+      "team": "ITA"
+    },
+    {
+      "race_number": "3",
+      "starting_lane": 52,
+      "rank": 4,
+      "obs": "",
+      "team": "POR"
+    },
+    {
+      "race_number": "3",
+      "starting_lane": 60,
+      "rank": 5,
+      "obs": "",
+      "team": "POR"
+    },
+    {
+      "race_number": "3",
+      "starting_lane": 47,
+      "rank": 6,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "3",
+      "starting_lane": 53,
+      "rank": 7,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "3",
+      "starting_lane": 55,
+      "rank": 8,
+      "obs": "",
+      "team": "IRL"
+    },
+    {
+      "race_number": "3",
+      "starting_lane": 49,
+      "rank": 9,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "3",
+      "starting_lane": 45,
+      "rank": 10,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "3",
+      "starting_lane": 43,
+      "rank": 11,
+      "obs": "",
+      "team": "AIN"
+    },
+    {
+      "race_number": "3",
+      "starting_lane": 41,
+      "rank": 12,
+      "obs": "",
+      "team": "SGP"
+    },
+    {
+      "race_number": "3",
+      "starting_lane": 50,
+      "rank": 13,
+      "obs": "",
+      "team": "ARG"
+    },
+    {
+      "race_number": "3",
+      "starting_lane": 40,
+      "rank": 14,
+      "obs": "",
+      "team": "MDA"
+    },
+    {
+      "race_number": "3",
+      "starting_lane": 42,
+      "rank": 15,
+      "obs": "",
+      "team": "CZE"
+    },
+    {
+      "race_number": "3",
+      "starting_lane": 44,
+      "rank": 16,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "3",
+      "starting_lane": 51,
+      "rank": 17,
+      "obs": "",
+      "team": "BEL"
+    },
+    {
+      "race_number": "3",
+      "starting_lane": 48,
+      "rank": 18,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "3",
+      "starting_lane": 57,
+      "rank": 19,
+      "obs": "",
+      "team": "JPN"
+    },
+    {
+      "race_number": "4",
+      "starting_lane": 77,
+      "rank": 1,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "4",
+      "starting_lane": 78,
+      "rank": 2,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "4",
+      "starting_lane": 76,
+      "rank": 3,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "4",
+      "starting_lane": 67,
+      "rank": 4,
+      "obs": "",
+      "team": "CZE"
+    },
+    {
+      "race_number": "4",
+      "starting_lane": 66,
+      "rank": 5,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "4",
+      "starting_lane": 70,
+      "rank": 6,
+      "obs": "",
+      "team": "ARG"
+    },
+    {
+      "race_number": "4",
+      "starting_lane": 64,
+      "rank": 7,
+      "obs": "",
+      "team": "SVK"
+    },
+    {
+      "race_number": "4",
+      "starting_lane": 79,
+      "rank": 8,
+      "obs": "",
+      "team": "ITA"
+    },
+    {
+      "race_number": "4",
+      "starting_lane": 74,
+      "rank": 9,
+      "obs": "",
+      "team": "DEN"
+    },
+    {
+      "race_number": "4",
+      "starting_lane": 65,
+      "rank": 10,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "4",
+      "starting_lane": 69,
+      "rank": 11,
+      "obs": "",
+      "team": "NZL"
+    },
+    {
+      "race_number": "4",
+      "starting_lane": 61,
+      "rank": 12,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "4",
+      "starting_lane": 62,
+      "rank": 13,
+      "obs": "",
+      "team": "CYP"
+    },
+    {
+      "race_number": "4",
+      "starting_lane": 68,
+      "rank": 14,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "4",
+      "starting_lane": 73,
+      "rank": 15,
+      "obs": "",
+      "team": "BEL"
+    },
+    {
+      "race_number": "4",
+      "starting_lane": 71,
+      "rank": 16,
+      "obs": "",
+      "team": "CAN"
+    },
+    {
+      "race_number": "4",
+      "starting_lane": 63,
+      "rank": 17,
+      "obs": "",
+      "team": "SGP"
+    },
+    {
+      "race_number": "4",
+      "starting_lane": 75,
+      "rank": 18,
+      "obs": "",
+      "team": "AUS"
+    },
+    {
+      "race_number": "4",
+      "starting_lane": 72,
+      "rank": 19,
+      "obs": "",
+      "team": "CAN"
+    },
+    {
+      "race_number": "5",
+      "starting_lane": 85,
+      "rank": "",
+      "obs": "DNS",
+      "team": "IND"
+    },
+    {
+      "race_number": "5",
+      "starting_lane": 89,
+      "rank": 1,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "5",
+      "starting_lane": 93,
+      "rank": 2,
+      "obs": "",
+      "team": "MDA"
+    },
+    {
+      "race_number": "5",
+      "starting_lane": 87,
+      "rank": 3,
+      "obs": "",
+      "team": "POL"
+    },
+    {
+      "race_number": "5",
+      "starting_lane": 91,
+      "rank": 4,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "5",
+      "starting_lane": 90,
+      "rank": 5,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "5",
+      "starting_lane": 84,
+      "rank": 6,
+      "obs": "",
+      "team": "POR"
+    },
+    {
+      "race_number": "5",
+      "starting_lane": 83,
+      "rank": 7,
+      "obs": "",
+      "team": "AUS"
+    },
+    {
+      "race_number": "5",
+      "starting_lane": 81,
+      "rank": 8,
+      "obs": "",
+      "team": "AIN"
+    },
+    {
+      "race_number": "5",
+      "starting_lane": 86,
+      "rank": 9,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "5",
+      "starting_lane": 92,
+      "rank": 10,
+      "obs": "",
+      "team": "BRA"
+    },
+    {
+      "race_number": "5",
+      "starting_lane": 82,
+      "rank": 11,
+      "obs": "",
+      "team": "JPN"
+    },
+    {
+      "race_number": "5",
+      "starting_lane": 88,
+      "rank": 12,
+      "obs": "",
+      "team": "AIN"
+    },
+    {
+      "race_number": "6",
+      "starting_lane": 103,
+      "rank": "",
+      "obs": "DNS",
+      "team": "IND"
+    },
+    {
+      "race_number": "6",
+      "starting_lane": 99,
+      "rank": 1,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "6",
+      "starting_lane": 107,
+      "rank": 2,
+      "obs": "",
+      "team": "MDA"
+    },
+    {
+      "race_number": "6",
+      "starting_lane": 106,
+      "rank": 3,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "6",
+      "starting_lane": 100,
+      "rank": 4,
+      "obs": "",
+      "team": "POR"
+    },
+    {
+      "race_number": "6",
+      "starting_lane": 96,
+      "rank": 5,
+      "obs": "",
+      "team": "POL"
+    },
+    {
+      "race_number": "6",
+      "starting_lane": 104,
+      "rank": 6,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "6",
+      "starting_lane": 101,
+      "rank": 7,
+      "obs": "",
+      "team": "CAN"
+    },
+    {
+      "race_number": "6",
+      "starting_lane": 98,
+      "rank": 8,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "6",
+      "starting_lane": 102,
+      "rank": 9,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "6",
+      "starting_lane": 105,
+      "rank": 10,
+      "obs": "",
+      "team": "ITA"
+    },
+    {
+      "race_number": "6",
+      "starting_lane": 97,
+      "rank": 11,
+      "obs": "",
+      "team": "ARG"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 121,
+      "rank": "",
+      "obs": "DNS",
+      "team": "UGA"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 113,
+      "rank": 1,
+      "obs": "",
+      "team": "SWE"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 111,
+      "rank": 2,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 123,
+      "rank": 3,
+      "obs": "",
+      "team": "ITA"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 125,
+      "rank": 4,
+      "obs": "",
+      "team": "CZE"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 117,
+      "rank": 5,
+      "obs": "",
+      "team": "NZL"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 120,
+      "rank": 6,
+      "obs": "",
+      "team": "DEN"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 115,
+      "rank": 7,
+      "obs": "",
+      "team": "SVK"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 114,
+      "rank": 8,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 116,
+      "rank": 9,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 110,
+      "rank": 10,
+      "obs": "",
+      "team": "SRB"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 122,
+      "rank": 11,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 124,
+      "rank": 12,
+      "obs": "",
+      "team": "FIN"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 118,
+      "rank": 13,
+      "obs": "",
+      "team": "JPN"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 112,
+      "rank": 14,
+      "obs": "",
+      "team": "MDA"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 119,
+      "rank": 15,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 134,
+      "rank": 1,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 136,
+      "rank": 2,
+      "obs": "",
+      "team": "AUS"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 131,
+      "rank": 3,
+      "obs": "",
+      "team": "NOR"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 127,
+      "rank": 4,
+      "obs": "",
+      "team": "DEN"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 139,
+      "rank": 5,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 126,
+      "rank": 6,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 135,
+      "rank": 7,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 137,
+      "rank": 8,
+      "obs": "",
+      "team": "CZE"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 132,
+      "rank": 9,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 130,
+      "rank": 10,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 140,
+      "rank": 11,
+      "obs": "",
+      "team": "ARG"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 138,
+      "rank": 12,
+      "obs": "",
+      "team": "ITA"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 128,
+      "rank": 13,
+      "obs": "",
+      "team": "BEL"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 133,
+      "rank": 14,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 129,
+      "rank": 15,
+      "obs": "",
+      "team": "JPN"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 151,
+      "rank": 1,
+      "obs": "",
+      "team": "DEN"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 153,
+      "rank": 2,
+      "obs": "",
+      "team": "ARG"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 158,
+      "rank": 3,
+      "obs": "",
+      "team": "DEN"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 142,
+      "rank": 4,
+      "obs": "",
+      "team": "POR"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 161,
+      "rank": 5,
+      "obs": "",
+      "team": "NOR"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 155,
+      "rank": 6,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 152,
+      "rank": 7,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 157,
+      "rank": 8,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 154,
+      "rank": 9,
+      "obs": "",
+      "team": "ARG"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 148,
+      "rank": 10,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 141,
+      "rank": 11,
+      "obs": "",
+      "team": "NED"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 150,
+      "rank": 12,
+      "obs": "",
+      "team": "NZL"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 162,
+      "rank": 13,
+      "obs": "",
+      "team": "ITA"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 145,
+      "rank": 14,
+      "obs": "",
+      "team": "AUS"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 143,
+      "rank": 15,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 156,
+      "rank": 16,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 149,
+      "rank": 17,
+      "obs": "",
+      "team": "BEL"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 159,
+      "rank": 18,
+      "obs": "",
+      "team": "FIN"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 146,
+      "rank": 19,
+      "obs": "",
+      "team": "SUI"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 160,
+      "rank": 20,
+      "obs": "",
+      "team": "BUL"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 168,
+      "rank": "",
+      "obs": "DNS",
+      "team": "IND"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 173,
+      "rank": "",
+      "obs": "DNS",
+      "team": "IND"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 176,
+      "rank": 1,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 174,
+      "rank": 2,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 167,
+      "rank": 3,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 183,
+      "rank": 4,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 177,
+      "rank": 5,
+      "obs": "",
+      "team": "POR"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 169,
+      "rank": 6,
+      "obs": "",
+      "team": "SWE"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 171,
+      "rank": 7,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 180,
+      "rank": 8,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 166,
+      "rank": 9,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 181,
+      "rank": 10,
+      "obs": "",
+      "team": "SWE"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 185,
+      "rank": 11,
+      "obs": "",
+      "team": "AUS"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 172,
+      "rank": 12,
+      "obs": "",
+      "team": "CZE"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 170,
+      "rank": 13,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 178,
+      "rank": 14,
+      "obs": "",
+      "team": "JPN"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 179,
+      "rank": 15,
+      "obs": "",
+      "team": "NED"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 175,
+      "rank": 16,
+      "obs": "",
+      "team": "SVK"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 182,
+      "rank": 17,
+      "obs": "",
+      "team": "SVK"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 186,
+      "rank": 18,
+      "obs": "",
+      "team": "AIN"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 184,
+      "rank": 19,
+      "obs": "",
+      "team": "AIN"
+    },
+    {
+      "race_number": "11",
+      "starting_lane": 201,
+      "rank": 1,
+      "obs": "",
+      "team": "DEN"
+    },
+    {
+      "race_number": "11",
+      "starting_lane": 198,
+      "rank": 2,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "11",
+      "starting_lane": 199,
+      "rank": 3,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "11",
+      "starting_lane": 191,
+      "rank": 4,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "11",
+      "starting_lane": 194,
+      "rank": 5,
+      "obs": "",
+      "team": "CAN"
+    },
+    {
+      "race_number": "11",
+      "starting_lane": 193,
+      "rank": 6,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "11",
+      "starting_lane": 195,
+      "rank": 7,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "11",
+      "starting_lane": 192,
+      "rank": 8,
+      "obs": "",
+      "team": "CAN"
+    },
+    {
+      "race_number": "11",
+      "starting_lane": 197,
+      "rank": 9,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "11",
+      "starting_lane": 200,
+      "rank": 10,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "11",
+      "starting_lane": 196,
+      "rank": 11,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "12",
+      "starting_lane": 213,
+      "rank": "",
+      "obs": "DNF",
+      "team": "GER"
+    },
+    {
+      "race_number": "12",
+      "starting_lane": 211,
+      "rank": 1,
+      "obs": "",
+      "team": "AUT"
+    },
+    {
+      "race_number": "12",
+      "starting_lane": 210,
+      "rank": 2,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "12",
+      "starting_lane": 220,
+      "rank": 3,
+      "obs": "",
+      "team": "AIN"
+    },
+    {
+      "race_number": "12",
+      "starting_lane": 216,
+      "rank": 4,
+      "obs": "",
+      "team": "ITA"
+    },
+    {
+      "race_number": "12",
+      "starting_lane": 217,
+      "rank": 5,
+      "obs": "",
+      "team": "POL"
+    },
+    {
+      "race_number": "12",
+      "starting_lane": 212,
+      "rank": 6,
+      "obs": "",
+      "team": "POL"
+    },
+    {
+      "race_number": "12",
+      "starting_lane": 215,
+      "rank": 7,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "12",
+      "starting_lane": 219,
+      "rank": 8,
+      "obs": "",
+      "team": "BRA"
+    },
+    {
+      "race_number": "12",
+      "starting_lane": 218,
+      "rank": 9,
+      "obs": "",
+      "team": "BRA"
+    },
+    {
+      "race_number": "13",
+      "starting_lane": 222,
+      "rank": 1,
+      "obs": "",
+      "team": "CAN"
+    },
+    {
+      "race_number": "13",
+      "starting_lane": 227,
+      "rank": 2,
+      "obs": "",
+      "team": "ITA"
+    },
+    {
+      "race_number": "13",
+      "starting_lane": 225,
+      "rank": 3,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "13",
+      "starting_lane": 221,
+      "rank": 4,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "13",
+      "starting_lane": 229,
+      "rank": 5,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "14",
+      "starting_lane": 231,
+      "rank": 1,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "14",
+      "starting_lane": 232,
+      "rank": 2,
+      "obs": "",
+      "team": "POL"
+    },
+    {
+      "race_number": "15",
+      "starting_lane": 237,
+      "rank": 1,
+      "obs": "",
+      "team": "POL"
+    },
+    {
+      "race_number": "15",
+      "starting_lane": 234,
+      "rank": 2,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "15",
+      "starting_lane": 236,
+      "rank": 3,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "15",
+      "starting_lane": 235,
+      "rank": 4,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "15",
+      "starting_lane": 233,
+      "rank": 5,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "16",
+      "starting_lane": 244,
+      "rank": 1,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "16",
+      "starting_lane": 242,
+      "rank": 2,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "16",
+      "starting_lane": 248,
+      "rank": 3,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "16",
+      "starting_lane": 245,
+      "rank": 4,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "16",
+      "starting_lane": 241,
+      "rank": 5,
+      "obs": "",
+      "team": "POL"
+    },
+    {
+      "race_number": "16",
+      "starting_lane": 243,
+      "rank": 6,
+      "obs": "",
+      "team": "AIN"
+    },
+    {
+      "race_number": "16",
+      "starting_lane": 247,
+      "rank": 7,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "17",
+      "starting_lane": 249,
+      "rank": 1,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "17",
+      "starting_lane": 252,
+      "rank": 2,
+      "obs": "",
+      "team": "NED"
+    },
+    {
+      "race_number": "17",
+      "starting_lane": 250,
+      "rank": 3,
+      "obs": "",
+      "team": "CAN"
+    },
+    {
+      "race_number": "17",
+      "starting_lane": 251,
+      "rank": 4,
+      "obs": "",
+      "team": "AUS"
+    },
+    {
+      "race_number": "18",
+      "starting_lane": 274,
+      "rank": 1,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "18",
+      "starting_lane": 272,
+      "rank": 2,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "18",
+      "starting_lane": 260,
+      "rank": 3,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "18",
+      "starting_lane": 268,
+      "rank": 4,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "18",
+      "starting_lane": 270,
+      "rank": 5,
+      "obs": "",
+      "team": "DEN"
+    },
+    {
+      "race_number": "18",
+      "starting_lane": 259,
+      "rank": 6,
+      "obs": "",
+      "team": "ITA"
+    },
+    {
+      "race_number": "18",
+      "starting_lane": 257,
+      "rank": 7,
+      "obs": "",
+      "team": "POL"
+    },
+    {
+      "race_number": "18",
+      "starting_lane": 265,
+      "rank": 8,
+      "obs": "",
+      "team": "ITA"
+    },
+    {
+      "race_number": "18",
+      "starting_lane": 263,
+      "rank": 9,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "18",
+      "starting_lane": 271,
+      "rank": 10,
+      "obs": "",
+      "team": "SVK"
+    },
+    {
+      "race_number": "18",
+      "starting_lane": 261,
+      "rank": 11,
+      "obs": "",
+      "team": "DEN"
+    },
+    {
+      "race_number": "18",
+      "starting_lane": 264,
+      "rank": 12,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "18",
+      "starting_lane": 266,
+      "rank": 13,
+      "obs": "",
+      "team": "IRL"
+    },
+    {
+      "race_number": "18",
+      "starting_lane": 269,
+      "rank": 14,
+      "obs": "",
+      "team": "AIN"
+    },
+    {
+      "race_number": "18",
+      "starting_lane": 273,
+      "rank": 15,
+      "obs": "",
+      "team": "SWE"
+    },
+    {
+      "race_number": "18",
+      "starting_lane": 258,
+      "rank": 16,
+      "obs": "",
+      "team": "SWE"
+    },
+    {
+      "race_number": "18",
+      "starting_lane": 275,
+      "rank": 17,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "18",
+      "starting_lane": 262,
+      "rank": 18,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "18",
+      "starting_lane": 256,
+      "rank": 19,
+      "obs": "",
+      "team": "CZE"
+    },
+    {
+      "race_number": "18",
+      "starting_lane": 267,
+      "rank": 20,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "19",
+      "starting_lane": 286,
+      "rank": 1,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "19",
+      "starting_lane": 284,
+      "rank": 2,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "19",
+      "starting_lane": 290,
+      "rank": 3,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "19",
+      "starting_lane": 287,
+      "rank": 4,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "19",
+      "starting_lane": 285,
+      "rank": 5,
+      "obs": "",
+      "team": "ITA"
+    },
+    {
+      "race_number": "19",
+      "starting_lane": 300,
+      "rank": 6,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "19",
+      "starting_lane": 299,
+      "rank": 7,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "19",
+      "starting_lane": 281,
+      "rank": 8,
+      "obs": "",
+      "team": "POR"
+    },
+    {
+      "race_number": "19",
+      "starting_lane": 289,
+      "rank": 9,
+      "obs": "",
+      "team": "CZE"
+    },
+    {
+      "race_number": "19",
+      "starting_lane": 297,
+      "rank": 10,
+      "obs": "",
+      "team": "IRL"
+    },
+    {
+      "race_number": "19",
+      "starting_lane": 292,
+      "rank": 11,
+      "obs": "",
+      "team": "ITA"
+    },
+    {
+      "race_number": "19",
+      "starting_lane": 295,
+      "rank": 12,
+      "obs": "",
+      "team": "IRL"
+    },
+    {
+      "race_number": "19",
+      "starting_lane": 293,
+      "rank": 13,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "19",
+      "starting_lane": 282,
+      "rank": 14,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "19",
+      "starting_lane": 298,
+      "rank": 15,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "19",
+      "starting_lane": 291,
+      "rank": 16,
+      "obs": "",
+      "team": "ARG"
+    },
+    {
+      "race_number": "19",
+      "starting_lane": 283,
+      "rank": 17,
+      "obs": "",
+      "team": "DEN"
+    },
+    {
+      "race_number": "19",
+      "starting_lane": 296,
+      "rank": 18,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "19",
+      "starting_lane": 294,
+      "rank": 19,
+      "obs": "",
+      "team": "POR"
+    },
+    {
+      "race_number": "19",
+      "starting_lane": 288,
+      "rank": 20,
+      "obs": "",
+      "team": "SVK"
+    },
+    {
+      "race_number": "20",
+      "starting_lane": 318,
+      "rank": 1,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "20",
+      "starting_lane": 311,
+      "rank": 2,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "20",
+      "starting_lane": 315,
+      "rank": 3,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "20",
+      "starting_lane": 314,
+      "rank": 4,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "20",
+      "starting_lane": 313,
+      "rank": 5,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "20",
+      "starting_lane": 309,
+      "rank": 6,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "20",
+      "starting_lane": 303,
+      "rank": 7,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "20",
+      "starting_lane": 302,
+      "rank": 8,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "20",
+      "starting_lane": 305,
+      "rank": 9,
+      "obs": "",
+      "team": "CZE"
+    },
+    {
+      "race_number": "20",
+      "starting_lane": 317,
+      "rank": 10,
+      "obs": "",
+      "team": "CZE"
+    },
+    {
+      "race_number": "20",
+      "starting_lane": 307,
+      "rank": 11,
+      "obs": "",
+      "team": "MDA"
+    },
+    {
+      "race_number": "20",
+      "starting_lane": 312,
+      "rank": 12,
+      "obs": "",
+      "team": "POL"
+    },
+    {
+      "race_number": "20",
+      "starting_lane": 316,
+      "rank": 13,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "20",
+      "starting_lane": 306,
+      "rank": 14,
+      "obs": "",
+      "team": "AIN"
+    },
+    {
+      "race_number": "20",
+      "starting_lane": 301,
+      "rank": 15,
+      "obs": "",
+      "team": "MDA"
+    },
+    {
+      "race_number": "20",
+      "starting_lane": 310,
+      "rank": 16,
+      "obs": "",
+      "team": "FIN"
+    },
+    {
+      "race_number": "20",
+      "starting_lane": 308,
+      "rank": 17,
+      "obs": "",
+      "team": "AUS"
+    },
+    {
+      "race_number": "20",
+      "starting_lane": 304,
+      "rank": 18,
+      "obs": "",
+      "team": "AIN"
+    },
+    {
+      "race_number": "21",
+      "starting_lane": 331,
+      "rank": 1,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "21",
+      "starting_lane": 322,
+      "rank": 2,
+      "obs": "",
+      "team": "MDA"
+    },
+    {
+      "race_number": "21",
+      "starting_lane": 321,
+      "rank": 3,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "21",
+      "starting_lane": 323,
+      "rank": 4,
+      "obs": "",
+      "team": "POL"
+    },
+    {
+      "race_number": "21",
+      "starting_lane": 329,
+      "rank": 5,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "21",
+      "starting_lane": 326,
+      "rank": 6,
+      "obs": "",
+      "team": "POR"
+    },
+    {
+      "race_number": "21",
+      "starting_lane": 334,
+      "rank": 7,
+      "obs": "",
+      "team": "POL"
+    },
+    {
+      "race_number": "21",
+      "starting_lane": 333,
+      "rank": 8,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "21",
+      "starting_lane": 335,
+      "rank": 9,
+      "obs": "",
+      "team": "POR"
+    },
+    {
+      "race_number": "21",
+      "starting_lane": 324,
+      "rank": 10,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "21",
+      "starting_lane": 332,
+      "rank": 11,
+      "obs": "",
+      "team": "MDA"
+    },
+    {
+      "race_number": "21",
+      "starting_lane": 328,
+      "rank": 12,
+      "obs": "",
+      "team": "AIN"
+    },
+    {
+      "race_number": "21",
+      "starting_lane": 325,
+      "rank": 13,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "21",
+      "starting_lane": 336,
+      "rank": 14,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "21",
+      "starting_lane": 338,
+      "rank": 15,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "21",
+      "starting_lane": 327,
+      "rank": 16,
+      "obs": "",
+      "team": "AUS"
+    },
+    {
+      "race_number": "21",
+      "starting_lane": 337,
+      "rank": 17,
+      "obs": "",
+      "team": "CAN"
+    },
+    {
+      "race_number": "21",
+      "starting_lane": 330,
+      "rank": 18,
+      "obs": "",
+      "team": "BRA"
+    },
+    {
+      "race_number": "21",
+      "starting_lane": 340,
+      "rank": 19,
+      "obs": "",
+      "team": "ITA"
+    },
+    {
+      "race_number": "21",
+      "starting_lane": 339,
+      "rank": 20,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "22",
+      "starting_lane": 348,
+      "rank": "",
+      "obs": "DNS",
+      "team": "SRB"
+    },
+    {
+      "race_number": "22",
+      "starting_lane": 356,
+      "rank": 1,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "22",
+      "starting_lane": 344,
+      "rank": 2,
+      "obs": "",
+      "team": "SWE"
+    },
+    {
+      "race_number": "22",
+      "starting_lane": 351,
+      "rank": 3,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "22",
+      "starting_lane": 346,
+      "rank": 4,
+      "obs": "",
+      "team": "AUS"
+    },
+    {
+      "race_number": "22",
+      "starting_lane": 355,
+      "rank": 5,
+      "obs": "",
+      "team": "NOR"
+    },
+    {
+      "race_number": "22",
+      "starting_lane": 347,
+      "rank": 6,
+      "obs": "",
+      "team": "ITA"
+    },
+    {
+      "race_number": "22",
+      "starting_lane": 350,
+      "rank": 7,
+      "obs": "",
+      "team": "CZE"
+    },
+    {
+      "race_number": "22",
+      "starting_lane": 341,
+      "rank": 8,
+      "obs": "",
+      "team": "DEN"
+    },
+    {
+      "race_number": "22",
+      "starting_lane": 359,
+      "rank": 9,
+      "obs": "",
+      "team": "NZL"
+    },
+    {
+      "race_number": "22",
+      "starting_lane": 345,
+      "rank": 10,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "22",
+      "starting_lane": 353,
+      "rank": 11,
+      "obs": "",
+      "team": "SVK"
+    },
+    {
+      "race_number": "22",
+      "starting_lane": 343,
+      "rank": 12,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "22",
+      "starting_lane": 349,
+      "rank": 13,
+      "obs": "",
+      "team": "DEN"
+    },
+    {
+      "race_number": "22",
+      "starting_lane": 342,
+      "rank": 14,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "22",
+      "starting_lane": 358,
+      "rank": 15,
+      "obs": "",
+      "team": "CZE"
+    },
+    {
+      "race_number": "22",
+      "starting_lane": 352,
+      "rank": 16,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "22",
+      "starting_lane": 360,
+      "rank": 17,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "22",
+      "starting_lane": 357,
+      "rank": 18,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "22",
+      "starting_lane": 354,
+      "rank": 19,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "23",
+      "starting_lane": 371,
+      "rank": 1,
+      "obs": "",
+      "team": "POR"
+    },
+    {
+      "race_number": "23",
+      "starting_lane": 379,
+      "rank": 2,
+      "obs": "",
+      "team": "DEN"
+    },
+    {
+      "race_number": "23",
+      "starting_lane": 380,
+      "rank": 3,
+      "obs": "",
+      "team": "POR"
+    },
+    {
+      "race_number": "23",
+      "starting_lane": 368,
+      "rank": 4,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "23",
+      "starting_lane": 369,
+      "rank": 5,
+      "obs": "",
+      "team": "DEN"
+    },
+    {
+      "race_number": "23",
+      "starting_lane": 366,
+      "rank": 6,
+      "obs": "",
+      "team": "NOR"
+    },
+    {
+      "race_number": "23",
+      "starting_lane": 377,
+      "rank": 7,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "23",
+      "starting_lane": 378,
+      "rank": 8,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "23",
+      "starting_lane": 364,
+      "rank": 9,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "23",
+      "starting_lane": 376,
+      "rank": 10,
+      "obs": "",
+      "team": "ARG"
+    },
+    {
+      "race_number": "23",
+      "starting_lane": 361,
+      "rank": 11,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "23",
+      "starting_lane": 365,
+      "rank": 12,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "23",
+      "starting_lane": 370,
+      "rank": 13,
+      "obs": "",
+      "team": "SWE"
+    },
+    {
+      "race_number": "23",
+      "starting_lane": 363,
+      "rank": 14,
+      "obs": "",
+      "team": "ARG"
+    },
+    {
+      "race_number": "23",
+      "starting_lane": 375,
+      "rank": 15,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "23",
+      "starting_lane": 362,
+      "rank": 16,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "23",
+      "starting_lane": 372,
+      "rank": 17,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "23",
+      "starting_lane": 373,
+      "rank": 18,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "23",
+      "starting_lane": 374,
+      "rank": 19,
+      "obs": "",
+      "team": "SWE"
+    },
+    {
+      "race_number": "23",
+      "starting_lane": 367,
+      "rank": 20,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 399,
+      "rank": "",
+      "obs": "DNF",
+      "team": "BEL"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 406,
+      "rank": "",
+      "obs": "DNF",
+      "team": "HUN"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 411,
+      "rank": "",
+      "obs": "DNS",
+      "team": "ITA"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 390,
+      "rank": 1,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 401,
+      "rank": 2,
+      "obs": "",
+      "team": "DEN"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 396,
+      "rank": 3,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 402,
+      "rank": 4,
+      "obs": "",
+      "team": "ITA"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 408,
+      "rank": 5,
+      "obs": "",
+      "team": "IRL"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 398,
+      "rank": 6,
+      "obs": "",
+      "team": "AIN"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 395,
+      "rank": 7,
+      "obs": "",
+      "team": "POL"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 383,
+      "rank": 8,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 410,
+      "rank": 9,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 392,
+      "rank": 10,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 394,
+      "rank": 11,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 389,
+      "rank": 12,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 405,
+      "rank": 13,
+      "obs": "",
+      "team": "SWE"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 387,
+      "rank": 14,
+      "obs": "",
+      "team": "CZE"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 403,
+      "rank": 15,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 384,
+      "rank": 16,
+      "obs": "",
+      "team": "AUS"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 397,
+      "rank": 17,
+      "obs": "",
+      "team": "ARG"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 400,
+      "rank": 18,
+      "obs": "",
+      "team": "AIN"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 388,
+      "rank": 19,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 385,
+      "rank": 20,
+      "obs": "",
+      "team": "SWE"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 393,
+      "rank": 21,
+      "obs": "",
+      "team": "NZL"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 404,
+      "rank": 22,
+      "obs": "",
+      "team": "IRL"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 407,
+      "rank": 23,
+      "obs": "",
+      "team": "JPN"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 381,
+      "rank": 24,
+      "obs": "",
+      "team": "ARG"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 386,
+      "rank": 25,
+      "obs": "",
+      "team": "SGP"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 382,
+      "rank": 26,
+      "obs": "",
+      "team": "AUS"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 391,
+      "rank": 27,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 409,
+      "rank": 28,
+      "obs": "",
+      "team": "SGP"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 413,
+      "rank": 29,
+      "obs": "LAP",
+      "team": "MAC"
+    },
+    {
+      "race_number": "24",
+      "starting_lane": 412,
+      "rank": 30,
+      "obs": "LAP",
+      "team": "MAC"
+    },
+    {
+      "race_number": "25",
+      "starting_lane": 423,
+      "rank": "",
+      "obs": "DNF",
+      "team": "AUS"
+    },
+    {
+      "race_number": "25",
+      "starting_lane": 418,
+      "rank": 1,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "25",
+      "starting_lane": 428,
+      "rank": 2,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "25",
+      "starting_lane": 430,
+      "rank": 3,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "25",
+      "starting_lane": 426,
+      "rank": 4,
+      "obs": "",
+      "team": "POL"
+    },
+    {
+      "race_number": "25",
+      "starting_lane": 427,
+      "rank": 5,
+      "obs": "",
+      "team": "POL"
+    },
+    {
+      "race_number": "25",
+      "starting_lane": 417,
+      "rank": 6,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "25",
+      "starting_lane": 419,
+      "rank": 7,
+      "obs": "",
+      "team": "MDA"
+    },
+    {
+      "race_number": "25",
+      "starting_lane": 429,
+      "rank": 8,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "25",
+      "starting_lane": 431,
+      "rank": 9,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "25",
+      "starting_lane": 420,
+      "rank": 10,
+      "obs": "",
+      "team": "MDA"
+    },
+    {
+      "race_number": "25",
+      "starting_lane": 421,
+      "rank": 11,
+      "obs": "",
+      "team": "ITA"
+    },
+    {
+      "race_number": "25",
+      "starting_lane": 425,
+      "rank": 12,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "25",
+      "starting_lane": 416,
+      "rank": 13,
+      "obs": "",
+      "team": "CAN"
+    },
+    {
+      "race_number": "25",
+      "starting_lane": 422,
+      "rank": 14,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "25",
+      "starting_lane": 424,
+      "rank": 15,
+      "obs": "",
+      "team": "JPN"
+    },
+    {
+      "race_number": "26",
+      "starting_lane": 443,
+      "rank": 1,
+      "obs": "",
+      "team": "AIN"
+    },
+    {
+      "race_number": "26",
+      "starting_lane": 437,
+      "rank": 2,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "26",
+      "starting_lane": 441,
+      "rank": 3,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "26",
+      "starting_lane": 440,
+      "rank": 4,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "26",
+      "starting_lane": 436,
+      "rank": 5,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "26",
+      "starting_lane": 438,
+      "rank": 6,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "26",
+      "starting_lane": 439,
+      "rank": 7,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "26",
+      "starting_lane": 442,
+      "rank": 8,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "26",
+      "starting_lane": 444,
+      "rank": 9,
+      "obs": "",
+      "team": "DEN"
+    },
+    {
+      "race_number": "27",
+      "starting_lane": 450,
+      "rank": 1,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "27",
+      "starting_lane": 446,
+      "rank": 2,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "27",
+      "starting_lane": 448,
+      "rank": 3,
+      "obs": "",
+      "team": "SWE"
+    },
+    {
+      "race_number": "27",
+      "starting_lane": 449,
+      "rank": 4,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "28",
+      "starting_lane": 451,
+      "rank": 1,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "28",
+      "starting_lane": 452,
+      "rank": 2,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "28",
+      "starting_lane": 453,
+      "rank": 3,
+      "obs": "",
+      "team": "CAN"
+    },
+    {
+      "race_number": "29",
+      "starting_lane": 466,
+      "rank": 1,
+      "obs": "",
+      "team": "AUT"
+    },
+    {
+      "race_number": "29",
+      "starting_lane": 465,
+      "rank": 2,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "29",
+      "starting_lane": 459,
+      "rank": 3,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "29",
+      "starting_lane": 457,
+      "rank": 4,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "29",
+      "starting_lane": 458,
+      "rank": 5,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "29",
+      "starting_lane": 460,
+      "rank": 6,
+      "obs": "",
+      "team": "URU"
+    },
+    {
+      "race_number": "29",
+      "starting_lane": 456,
+      "rank": 7,
+      "obs": "",
+      "team": "POL"
+    },
+    {
+      "race_number": "29",
+      "starting_lane": 464,
+      "rank": 8,
+      "obs": "",
+      "team": "ITA"
+    },
+    {
+      "race_number": "29",
+      "starting_lane": 461,
+      "rank": 9,
+      "obs": "",
+      "team": "DEN"
+    },
+    {
+      "race_number": "29",
+      "starting_lane": 463,
+      "rank": 10,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "29",
+      "starting_lane": 462,
+      "rank": 11,
+      "obs": "",
+      "team": "POL"
+    },
+    {
+      "race_number": "30",
+      "starting_lane": 472,
+      "rank": 1,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "30",
+      "starting_lane": 483,
+      "rank": 2,
+      "obs": "",
+      "team": "GEO"
+    },
+    {
+      "race_number": "30",
+      "starting_lane": 475,
+      "rank": 3,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "30",
+      "starting_lane": 473,
+      "rank": 4,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "30",
+      "starting_lane": 477,
+      "rank": 5,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "30",
+      "starting_lane": 478,
+      "rank": 6,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "30",
+      "starting_lane": 479,
+      "rank": 7,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "30",
+      "starting_lane": 481,
+      "rank": 8,
+      "obs": "",
+      "team": "ITA"
+    },
+    {
+      "race_number": "30",
+      "starting_lane": 482,
+      "rank": 9,
+      "obs": "",
+      "team": "SWE"
+    },
+    {
+      "race_number": "30",
+      "starting_lane": 474,
+      "rank": 10,
+      "obs": "",
+      "team": "BRA"
+    },
+    {
+      "race_number": "30",
+      "starting_lane": 471,
+      "rank": 11,
+      "obs": "",
+      "team": "ITA"
+    },
+    {
+      "race_number": "30",
+      "starting_lane": 480,
+      "rank": 12,
+      "obs": "",
+      "team": "LUX"
+    },
+    {
+      "race_number": "31",
+      "starting_lane": 487,
+      "rank": 1,
+      "obs": "",
+      "team": "AIN"
+    },
+    {
+      "race_number": "31",
+      "starting_lane": 492,
+      "rank": 2,
+      "obs": "",
+      "team": "AIN"
+    },
+    {
+      "race_number": "31",
+      "starting_lane": 489,
+      "rank": 3,
+      "obs": "",
+      "team": "POL"
+    },
+    {
+      "race_number": "31",
+      "starting_lane": 491,
+      "rank": 4,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "31",
+      "starting_lane": 486,
+      "rank": 5,
+      "obs": "",
+      "team": "POL"
+    },
+    {
+      "race_number": "31",
+      "starting_lane": 488,
+      "rank": 6,
+      "obs": "",
+      "team": "ITA"
+    },
+    {
+      "race_number": "31",
+      "starting_lane": 490,
+      "rank": 7,
+      "obs": "",
+      "team": "BRA"
+    },
+    {
+      "race_number": "32",
+      "starting_lane": 501,
+      "rank": 1,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "32",
+      "starting_lane": 502,
+      "rank": 2,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "32",
+      "starting_lane": 503,
+      "rank": 3,
+      "obs": "",
+      "team": "POL"
+    },
+    {
+      "race_number": "33",
+      "starting_lane": 506,
+      "rank": 1,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "33",
+      "starting_lane": 507,
+      "rank": 2,
+      "obs": "",
+      "team": "POL"
+    },
+    {
+      "race_number": "33",
+      "starting_lane": 508,
+      "rank": 3,
+      "obs": "",
+      "team": "CAN"
+    },
+    {
+      "race_number": "34",
+      "starting_lane": 514,
+      "rank": 1,
+      "obs": "",
+      "team": "DEN"
+    },
+    {
+      "race_number": "34",
+      "starting_lane": 516,
+      "rank": 2,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "34",
+      "starting_lane": 515,
+      "rank": 3,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "34",
+      "starting_lane": 527,
+      "rank": 4,
+      "obs": "",
+      "team": "POR"
+    },
+    {
+      "race_number": "34",
+      "starting_lane": 522,
+      "rank": 5,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "34",
+      "starting_lane": 533,
+      "rank": 6,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "34",
+      "starting_lane": 513,
+      "rank": 7,
+      "obs": "",
+      "team": "CZE"
+    },
+    {
+      "race_number": "34",
+      "starting_lane": 517,
+      "rank": 8,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "34",
+      "starting_lane": 511,
+      "rank": 9,
+      "obs": "",
+      "team": "SVK"
+    },
+    {
+      "race_number": "34",
+      "starting_lane": 528,
+      "rank": 10,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "34",
+      "starting_lane": 521,
+      "rank": 11,
+      "obs": "",
+      "team": "ITA"
+    },
+    {
+      "race_number": "34",
+      "starting_lane": 525,
+      "rank": 12,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "34",
+      "starting_lane": 523,
+      "rank": 13,
+      "obs": "",
+      "team": "POR"
+    },
+    {
+      "race_number": "34",
+      "starting_lane": 526,
+      "rank": 14,
+      "obs": "",
+      "team": "SWE"
+    },
+    {
+      "race_number": "34",
+      "starting_lane": 518,
+      "rank": 15,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "34",
+      "starting_lane": 531,
+      "rank": 16,
+      "obs": "",
+      "team": "ARG"
+    },
+    {
+      "race_number": "34",
+      "starting_lane": 524,
+      "rank": 17,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "34",
+      "starting_lane": 519,
+      "rank": 18,
+      "obs": "",
+      "team": "DEN"
+    },
+    {
+      "race_number": "34",
+      "starting_lane": 534,
+      "rank": 19,
+      "obs": "",
+      "team": "BEL"
+    },
+    {
+      "race_number": "34",
+      "starting_lane": 530,
+      "rank": 20,
+      "obs": "",
+      "team": "MDA"
+    },
+    {
+      "race_number": "34",
+      "starting_lane": 532,
+      "rank": 21,
+      "obs": "",
+      "team": "AUS"
+    },
+    {
+      "race_number": "34",
+      "starting_lane": 512,
+      "rank": 22,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "34",
+      "starting_lane": 529,
+      "rank": 23,
+      "obs": "",
+      "team": "JPN"
+    },
+    {
+      "race_number": "34",
+      "starting_lane": 520,
+      "rank": 24,
+      "obs": "",
+      "team": "AUS"
+    },
+    {
+      "race_number": "35",
+      "starting_lane": 548,
+      "rank": "",
+      "obs": "DNF",
+      "team": "HUN"
+    },
+    {
+      "race_number": "35",
+      "starting_lane": 555,
+      "rank": "",
+      "obs": "DNF",
+      "team": "CAN"
+    },
+    {
+      "race_number": "35",
+      "starting_lane": 557,
+      "rank": "",
+      "obs": "DNS",
+      "team": "CHI"
+    },
+    {
+      "race_number": "35",
+      "starting_lane": 552,
+      "rank": 1,
+      "obs": "",
+      "team": "CZE"
+    },
+    {
+      "race_number": "35",
+      "starting_lane": 545,
+      "rank": 2,
+      "obs": "",
+      "team": "POR"
+    },
+    {
+      "race_number": "35",
+      "starting_lane": 546,
+      "rank": 3,
+      "obs": "",
+      "team": "TJK"
+    },
+    {
+      "race_number": "35",
+      "starting_lane": 556,
+      "rank": 4,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "35",
+      "starting_lane": 544,
+      "rank": 5,
+      "obs": "",
+      "team": "POL"
+    },
+    {
+      "race_number": "35",
+      "starting_lane": 547,
+      "rank": 6,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "35",
+      "starting_lane": 554,
+      "rank": 7,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "35",
+      "starting_lane": 550,
+      "rank": 8,
+      "obs": "",
+      "team": "CZE"
+    },
+    {
+      "race_number": "35",
+      "starting_lane": 541,
+      "rank": 9,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "35",
+      "starting_lane": 542,
+      "rank": 10,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "35",
+      "starting_lane": 549,
+      "rank": 11,
+      "obs": "",
+      "team": "ITA"
+    },
+    {
+      "race_number": "35",
+      "starting_lane": 553,
+      "rank": 12,
+      "obs": "",
+      "team": "AIN"
+    },
+    {
+      "race_number": "35",
+      "starting_lane": 551,
+      "rank": 13,
+      "obs": "",
+      "team": "CAN"
+    },
+    {
+      "race_number": "35",
+      "starting_lane": 543,
+      "rank": 14,
+      "obs": "",
+      "team": "HKG"
+    },
+    {
+      "race_number": "36",
+      "starting_lane": 571,
+      "rank": "",
+      "obs": "DNF",
+      "team": "UKR"
+    },
+    {
+      "race_number": "36",
+      "starting_lane": 567,
+      "rank": 1,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "36",
+      "starting_lane": 569,
+      "rank": 2,
+      "obs": "",
+      "team": "MDA"
+    },
+    {
+      "race_number": "36",
+      "starting_lane": 570,
+      "rank": 3,
+      "obs": "",
+      "team": "AIN"
+    },
+    {
+      "race_number": "36",
+      "starting_lane": 563,
+      "rank": 4,
+      "obs": "",
+      "team": "CZE"
+    },
+    {
+      "race_number": "36",
+      "starting_lane": 568,
+      "rank": 5,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "36",
+      "starting_lane": 565,
+      "rank": 6,
+      "obs": "",
+      "team": "POL"
+    },
+    {
+      "race_number": "36",
+      "starting_lane": 561,
+      "rank": 7,
+      "obs": "",
+      "team": "JPN"
+    },
+    {
+      "race_number": "36",
+      "starting_lane": 564,
+      "rank": 8,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "36",
+      "starting_lane": 562,
+      "rank": 9,
+      "obs": "",
+      "team": "FIN"
+    },
+    {
+      "race_number": "36",
+      "starting_lane": 566,
+      "rank": 10,
+      "obs": "",
+      "team": "AUS"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 578,
+      "rank": "",
+      "obs": "DNF",
+      "team": "MDA"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 605,
+      "rank": "",
+      "obs": "DNF",
+      "team": "CAN"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 584,
+      "rank": 1,
+      "obs": "",
+      "team": "DEN"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 586,
+      "rank": 2,
+      "obs": "",
+      "team": "ARG"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 576,
+      "rank": 3,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 577,
+      "rank": 4,
+      "obs": "",
+      "team": "ARG"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 589,
+      "rank": 5,
+      "obs": "",
+      "team": "POR"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 609,
+      "rank": 6,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 587,
+      "rank": 7,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 582,
+      "rank": 8,
+      "obs": "",
+      "team": "NOR"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 599,
+      "rank": 9,
+      "obs": "",
+      "team": "DEN"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 611,
+      "rank": 10,
+      "obs": "",
+      "team": "NOR"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 598,
+      "rank": 11,
+      "obs": "",
+      "team": "CZE"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 594,
+      "rank": 12,
+      "obs": "",
+      "team": "ITA"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 600,
+      "rank": 13,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 604,
+      "rank": 14,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 592,
+      "rank": 15,
+      "obs": "",
+      "team": "POL"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 601,
+      "rank": 16,
+      "obs": "",
+      "team": "POR"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 607,
+      "rank": 17,
+      "obs": "",
+      "team": "SVK"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 588,
+      "rank": 18,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 581,
+      "rank": 19,
+      "obs": "",
+      "team": "IRL"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 590,
+      "rank": 20,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 580,
+      "rank": 21,
+      "obs": "",
+      "team": "NED"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 595,
+      "rank": 22,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 585,
+      "rank": 23,
+      "obs": "",
+      "team": "NED"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 597,
+      "rank": 24,
+      "obs": "",
+      "team": "AIN"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 608,
+      "rank": 25,
+      "obs": "",
+      "team": "AUS"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 596,
+      "rank": 26,
+      "obs": "",
+      "team": "BEL"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 583,
+      "rank": 27,
+      "obs": "",
+      "team": "AIN"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 603,
+      "rank": 28,
+      "obs": "",
+      "team": "FIN"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 579,
+      "rank": 29,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 593,
+      "rank": 30,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 606,
+      "rank": 31,
+      "obs": "LAP",
+      "team": "HKG"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 591,
+      "rank": 32,
+      "obs": "LAP",
+      "team": "JPN"
+    },
+    {
+      "race_number": "37",
+      "starting_lane": 610,
+      "rank": 33,
+      "obs": "LAP",
+      "team": "JPN"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 630,
+      "rank": "",
+      "obs": "DNF",
+      "team": "GBR"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 640,
+      "rank": "",
+      "obs": "DNF",
+      "team": "ITA"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 646,
+      "rank": "",
+      "obs": "DNS",
+      "team": "CHI"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 636,
+      "rank": 1,
+      "obs": "",
+      "team": "IRL"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 618,
+      "rank": 2,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 632,
+      "rank": 3,
+      "obs": "",
+      "team": "AIN"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 633,
+      "rank": 4,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 650,
+      "rank": 5,
+      "obs": "",
+      "team": "POR"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 626,
+      "rank": 6,
+      "obs": "",
+      "team": "CZE"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 642,
+      "rank": 7,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 645,
+      "rank": 8,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 639,
+      "rank": 9,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 652,
+      "rank": 10,
+      "obs": "",
+      "team": "POR"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 623,
+      "rank": 11,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 625,
+      "rank": 12,
+      "obs": "",
+      "team": "IRL"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 628,
+      "rank": 13,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 617,
+      "rank": 14,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 643,
+      "rank": 15,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 624,
+      "rank": 16,
+      "obs": "",
+      "team": "SVK"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 616,
+      "rank": 17,
+      "obs": "",
+      "team": "ARG"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 651,
+      "rank": 18,
+      "obs": "",
+      "team": "SGP"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 627,
+      "rank": 19,
+      "obs": "",
+      "team": "ARG"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 638,
+      "rank": 20,
+      "obs": "",
+      "team": "BEL"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 619,
+      "rank": 21,
+      "obs": "",
+      "team": "CYP"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 653,
+      "rank": 22,
+      "obs": "",
+      "team": "MDA"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 629,
+      "rank": 23,
+      "obs": "",
+      "team": "CZE"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 634,
+      "rank": 24,
+      "obs": "",
+      "team": "NZL"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 622,
+      "rank": 25,
+      "obs": "",
+      "team": "DEN"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 644,
+      "rank": 26,
+      "obs": "",
+      "team": "CAN"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 648,
+      "rank": 27,
+      "obs": "",
+      "team": "AUS"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 647,
+      "rank": 28,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 635,
+      "rank": 29,
+      "obs": "",
+      "team": "SGP"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 631,
+      "rank": 30,
+      "obs": "",
+      "team": "BEL"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 637,
+      "rank": 31,
+      "obs": "",
+      "team": "AUS"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 621,
+      "rank": 32,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 620,
+      "rank": 33,
+      "obs": "",
+      "team": "CAN"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 641,
+      "rank": 34,
+      "obs": "LAP",
+      "team": "JPN"
+    },
+    {
+      "race_number": "38",
+      "starting_lane": 649,
+      "rank": 35,
+      "obs": "LAP",
+      "team": "IND"
+    },
+    {
+      "race_number": "39",
+      "starting_lane": 670,
+      "rank": "",
+      "obs": "DNS",
+      "team": "GER"
+    },
+    {
+      "race_number": "39",
+      "starting_lane": 660,
+      "rank": 1,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "39",
+      "starting_lane": 662,
+      "rank": 2,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "39",
+      "starting_lane": 672,
+      "rank": 3,
+      "obs": "",
+      "team": "DEN"
+    },
+    {
+      "race_number": "39",
+      "starting_lane": 665,
+      "rank": 4,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "39",
+      "starting_lane": 667,
+      "rank": 5,
+      "obs": "",
+      "team": "ITA"
+    },
+    {
+      "race_number": "39",
+      "starting_lane": 657,
+      "rank": 6,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "39",
+      "starting_lane": 671,
+      "rank": 7,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "39",
+      "starting_lane": 656,
+      "rank": 8,
+      "obs": "",
+      "team": "ITA"
+    },
+    {
+      "race_number": "39",
+      "starting_lane": 668,
+      "rank": 9,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "39",
+      "starting_lane": 673,
+      "rank": 10,
+      "obs": "",
+      "team": "SVK"
+    },
+    {
+      "race_number": "39",
+      "starting_lane": 664,
+      "rank": 11,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "39",
+      "starting_lane": 659,
+      "rank": 12,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "39",
+      "starting_lane": 663,
+      "rank": 13,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "39",
+      "starting_lane": 666,
+      "rank": 14,
+      "obs": "",
+      "team": "JPN"
+    },
+    {
+      "race_number": "39",
+      "starting_lane": 675,
+      "rank": 15,
+      "obs": "",
+      "team": "SGP"
+    },
+    {
+      "race_number": "39",
+      "starting_lane": 669,
+      "rank": 16,
+      "obs": "",
+      "team": "SWE"
+    },
+    {
+      "race_number": "39",
+      "starting_lane": 674,
+      "rank": 17,
+      "obs": "",
+      "team": "AUS"
+    },
+    {
+      "race_number": "39",
+      "starting_lane": 661,
+      "rank": 18,
+      "obs": "",
+      "team": "AUS"
+    },
+    {
+      "race_number": "39",
+      "starting_lane": 658,
+      "rank": 19,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "40",
+      "starting_lane": 684,
+      "rank": 1,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "40",
+      "starting_lane": 681,
+      "rank": 2,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "40",
+      "starting_lane": 683,
+      "rank": 3,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "40",
+      "starting_lane": 685,
+      "rank": 4,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "40",
+      "starting_lane": 689,
+      "rank": 5,
+      "obs": "",
+      "team": "LAT"
+    },
+    {
+      "race_number": "40",
+      "starting_lane": 682,
+      "rank": 6,
+      "obs": "",
+      "team": "CZE"
+    },
+    {
+      "race_number": "40",
+      "starting_lane": 688,
+      "rank": 7,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "40",
+      "starting_lane": 686,
+      "rank": 8,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "40",
+      "starting_lane": 687,
+      "rank": 9,
+      "obs": "",
+      "team": "CAN"
+    },
+    {
+      "race_number": "41",
+      "starting_lane": 694,
+      "rank": "",
+      "obs": "DNF",
+      "team": "GER"
+    },
+    {
+      "race_number": "41",
+      "starting_lane": 700,
+      "rank": 1,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "41",
+      "starting_lane": 699,
+      "rank": 2,
+      "obs": "",
+      "team": "MDA"
+    },
+    {
+      "race_number": "41",
+      "starting_lane": 695,
+      "rank": 3,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "41",
+      "starting_lane": 698,
+      "rank": 4,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "41",
+      "starting_lane": 693,
+      "rank": 5,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "41",
+      "starting_lane": 697,
+      "rank": 6,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "41",
+      "starting_lane": 696,
+      "rank": 7,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "41",
+      "starting_lane": 691,
+      "rank": 8,
+      "obs": "",
+      "team": "CZE"
+    },
+    {
+      "race_number": "41",
+      "starting_lane": 690,
+      "rank": 9,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "41",
+      "starting_lane": 701,
+      "rank": 10,
+      "obs": "",
+      "team": "MDA"
+    },
+    {
+      "race_number": "41",
+      "starting_lane": 723,
+      "rank": 11,
+      "obs": "",
+      "team": "POL"
+    },
+    {
+      "race_number": "41",
+      "starting_lane": 702,
+      "rank": 12,
+      "obs": "",
+      "team": "CZE"
+    },
+    {
+      "race_number": "42",
+      "starting_lane": 713,
+      "rank": "",
+      "obs": "DNF",
+      "team": "ITA"
+    },
+    {
+      "race_number": "42",
+      "starting_lane": 716,
+      "rank": "",
+      "obs": "DNF",
+      "team": "RSA"
+    },
+    {
+      "race_number": "42",
+      "starting_lane": 717,
+      "rank": "",
+      "obs": "DNF",
+      "team": "ARG"
+    },
+    {
+      "race_number": "42",
+      "starting_lane": 710,
+      "rank": 1,
+      "obs": "",
+      "team": "SWE"
+    },
+    {
+      "race_number": "42",
+      "starting_lane": 711,
+      "rank": 2,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "42",
+      "starting_lane": 708,
+      "rank": 3,
+      "obs": "",
+      "team": "NOR"
+    },
+    {
+      "race_number": "42",
+      "starting_lane": 709,
+      "rank": 4,
+      "obs": "",
+      "team": "AUS"
+    },
+    {
+      "race_number": "42",
+      "starting_lane": 721,
+      "rank": 5,
+      "obs": "",
+      "team": "DEN"
+    },
+    {
+      "race_number": "42",
+      "starting_lane": 707,
+      "rank": 6,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "42",
+      "starting_lane": 712,
+      "rank": 7,
+      "obs": "",
+      "team": "CZE"
+    },
+    {
+      "race_number": "42",
+      "starting_lane": 703,
+      "rank": 8,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "42",
+      "starting_lane": 705,
+      "rank": 9,
+      "obs": "",
+      "team": "FIN"
+    },
+    {
+      "race_number": "42",
+      "starting_lane": 715,
+      "rank": 10,
+      "obs": "",
+      "team": "NZL"
+    },
+    {
+      "race_number": "42",
+      "starting_lane": 720,
+      "rank": 11,
+      "obs": "",
+      "team": "SVK"
+    },
+    {
+      "race_number": "42",
+      "starting_lane": 706,
+      "rank": 12,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "42",
+      "starting_lane": 704,
+      "rank": 13,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "42",
+      "starting_lane": 714,
+      "rank": 14,
+      "obs": "LAP",
+      "team": "UKR"
+    },
+    {
+      "race_number": "42",
+      "starting_lane": 718,
+      "rank": 15,
+      "obs": "LAP",
+      "team": "JPN"
+    },
+    {
+      "race_number": "42",
+      "starting_lane": 719,
+      "rank": 16,
+      "obs": "LAP",
+      "team": "JPN"
+    },
+    {
+      "race_number": "43",
+      "starting_lane": 103,
+      "rank": "",
+      "obs": "DNF",
+      "team": "BRA"
+    },
+    {
+      "race_number": "43",
+      "starting_lane": 105,
+      "rank": "",
+      "obs": "DNF",
+      "team": "UKR"
+    },
+    {
+      "race_number": "43",
+      "starting_lane": 112,
+      "rank": "",
+      "obs": "DNF",
+      "team": "POR"
+    },
+    {
+      "race_number": "43",
+      "starting_lane": 120,
+      "rank": "",
+      "obs": "DNS",
+      "team": "IND"
+    },
+    {
+      "race_number": "43",
+      "starting_lane": 104,
+      "rank": 1,
+      "obs": "",
+      "team": "POL"
+    },
+    {
+      "race_number": "43",
+      "starting_lane": 108,
+      "rank": 2,
+      "obs": "",
+      "team": "POL"
+    },
+    {
+      "race_number": "43",
+      "starting_lane": 115,
+      "rank": 3,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "43",
+      "starting_lane": 107,
+      "rank": 4,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "43",
+      "starting_lane": 111,
+      "rank": 5,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "43",
+      "starting_lane": 101,
+      "rank": 6,
+      "obs": "",
+      "team": "AIN"
+    },
+    {
+      "race_number": "43",
+      "starting_lane": 116,
+      "rank": 7,
+      "obs": "",
+      "team": "MDA"
+    },
+    {
+      "race_number": "43",
+      "starting_lane": 109,
+      "rank": 8,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "43",
+      "starting_lane": 117,
+      "rank": 9,
+      "obs": "",
+      "team": "POR"
+    },
+    {
+      "race_number": "43",
+      "starting_lane": 106,
+      "rank": 10,
+      "obs": "",
+      "team": "AUS"
+    },
+    {
+      "race_number": "43",
+      "starting_lane": 102,
+      "rank": 11,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "43",
+      "starting_lane": 113,
+      "rank": 12,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "43",
+      "starting_lane": 110,
+      "rank": 13,
+      "obs": "",
+      "team": "MDA"
+    },
+    {
+      "race_number": "43",
+      "starting_lane": 114,
+      "rank": 14,
+      "obs": "",
+      "team": "JPN"
+    },
+    {
+      "race_number": "43",
+      "starting_lane": 119,
+      "rank": 15,
+      "obs": "LAP",
+      "team": "IND"
+    },
+    {
+      "race_number": "43",
+      "starting_lane": 118,
+      "rank": 16,
+      "obs": "LAP",
+      "team": "IND"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 137,
+      "rank": "",
+      "obs": "DNF",
+      "team": "POR"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 140,
+      "rank": "",
+      "obs": "DNF",
+      "team": "NOR"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 152,
+      "rank": "",
+      "obs": "DNF",
+      "team": "SVK"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 156,
+      "rank": "",
+      "obs": "DNF",
+      "team": "FRA"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 136,
+      "rank": 1,
+      "obs": "",
+      "team": "DEN"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 148,
+      "rank": 2,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 151,
+      "rank": 3,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 127,
+      "rank": 4,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 139,
+      "rank": 5,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 135,
+      "rank": 6,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 155,
+      "rank": 7,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 138,
+      "rank": 8,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 122,
+      "rank": 9,
+      "obs": "",
+      "team": "SWE"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 144,
+      "rank": 10,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 121,
+      "rank": 11,
+      "obs": "",
+      "team": "POR"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 142,
+      "rank": 12,
+      "obs": "",
+      "team": "ARG"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 126,
+      "rank": 13,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 143,
+      "rank": 14,
+      "obs": "",
+      "team": "NOR"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 131,
+      "rank": 15,
+      "obs": "",
+      "team": "CZE"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 125,
+      "rank": 16,
+      "obs": "",
+      "team": "AUS"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 130,
+      "rank": 17,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 145,
+      "rank": 18,
+      "obs": "",
+      "team": "DEN"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 128,
+      "rank": 19,
+      "obs": "",
+      "team": "NED"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 123,
+      "rank": 20,
+      "obs": "",
+      "team": "JPN"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 124,
+      "rank": 21,
+      "obs": "",
+      "team": "CZE"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 146,
+      "rank": 22,
+      "obs": "",
+      "team": "AUS"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 149,
+      "rank": 23,
+      "obs": "",
+      "team": "NZL"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 129,
+      "rank": 24,
+      "obs": "",
+      "team": "SVK"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 132,
+      "rank": 25,
+      "obs": "",
+      "team": "BEL"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 153,
+      "rank": 26,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 150,
+      "rank": 27,
+      "obs": "LAP",
+      "team": "SUI"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 154,
+      "rank": 28,
+      "obs": "LAP",
+      "team": "IND"
+    },
+    {
+      "race_number": "44",
+      "starting_lane": 157,
+      "rank": 29,
+      "obs": "LAP",
+      "team": "IND"
+    },
+    {
+      "race_number": "45",
+      "starting_lane": 180,
+      "rank": "",
+      "obs": "DNF",
+      "team": "ITA"
+    },
+    {
+      "race_number": "45",
+      "starting_lane": 181,
+      "rank": "",
+      "obs": "DNF",
+      "team": "POR"
+    },
+    {
+      "race_number": "45",
+      "starting_lane": 184,
+      "rank": "",
+      "obs": "DNF",
+      "team": "CAN"
+    },
+    {
+      "race_number": "45",
+      "starting_lane": 177,
+      "rank": 1,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "45",
+      "starting_lane": 168,
+      "rank": 2,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "45",
+      "starting_lane": 170,
+      "rank": 3,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "45",
+      "starting_lane": 169,
+      "rank": 4,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "45",
+      "starting_lane": 173,
+      "rank": 5,
+      "obs": "",
+      "team": "CZE"
+    },
+    {
+      "race_number": "45",
+      "starting_lane": 178,
+      "rank": 6,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "45",
+      "starting_lane": 175,
+      "rank": 7,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "45",
+      "starting_lane": 163,
+      "rank": 8,
+      "obs": "",
+      "team": "ARG"
+    },
+    {
+      "race_number": "45",
+      "starting_lane": 162,
+      "rank": 9,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "45",
+      "starting_lane": 172,
+      "rank": 10,
+      "obs": "",
+      "team": "ARG"
+    },
+    {
+      "race_number": "45",
+      "starting_lane": 182,
+      "rank": 11,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "45",
+      "starting_lane": 176,
+      "rank": 12,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "45",
+      "starting_lane": 183,
+      "rank": 13,
+      "obs": "",
+      "team": "SGP"
+    },
+    {
+      "race_number": "45",
+      "starting_lane": 171,
+      "rank": 14,
+      "obs": "",
+      "team": "SVK"
+    },
+    {
+      "race_number": "45",
+      "starting_lane": 164,
+      "rank": 15,
+      "obs": "",
+      "team": "AUS"
+    },
+    {
+      "race_number": "45",
+      "starting_lane": 167,
+      "rank": 16,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "45",
+      "starting_lane": 161,
+      "rank": 17,
+      "obs": "",
+      "team": "BEL"
+    },
+    {
+      "race_number": "45",
+      "starting_lane": 179,
+      "rank": 18,
+      "obs": "",
+      "team": "AUS"
+    },
+    {
+      "race_number": "45",
+      "starting_lane": 185,
+      "rank": 19,
+      "obs": "",
+      "team": "SGP"
+    },
+    {
+      "race_number": "45",
+      "starting_lane": 166,
+      "rank": 20,
+      "obs": "",
+      "team": "CAN"
+    },
+    {
+      "race_number": "45",
+      "starting_lane": 165,
+      "rank": 21,
+      "obs": "LAP",
+      "team": "JPN"
+    },
+    {
+      "race_number": "46",
+      "starting_lane": 191,
+      "rank": 1,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "46",
+      "starting_lane": 198,
+      "rank": 2,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "46",
+      "starting_lane": 193,
+      "rank": 3,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "46",
+      "starting_lane": 196,
+      "rank": 4,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "46",
+      "starting_lane": 202,
+      "rank": 5,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "46",
+      "starting_lane": 194,
+      "rank": 6,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "46",
+      "starting_lane": 201,
+      "rank": 7,
+      "obs": "",
+      "team": "SWE"
+    },
+    {
+      "race_number": "46",
+      "starting_lane": 192,
+      "rank": 8,
+      "obs": "",
+      "team": "CZE"
+    },
+    {
+      "race_number": "46",
+      "starting_lane": 200,
+      "rank": 9,
+      "obs": "",
+      "team": "POR"
+    },
+    {
+      "race_number": "46",
+      "starting_lane": 203,
+      "rank": 10,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "46",
+      "starting_lane": 199,
+      "rank": 11,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "46",
+      "starting_lane": 195,
+      "rank": 12,
+      "obs": "",
+      "team": "AUS"
+    },
+    {
+      "race_number": "46",
+      "starting_lane": 197,
+      "rank": 13,
+      "obs": "LAP",
+      "team": "ARG"
+    },
+    {
+      "race_number": "47",
+      "starting_lane": 211,
+      "rank": "",
+      "obs": "DNF",
+      "team": "ROU"
+    },
+    {
+      "race_number": "47",
+      "starting_lane": 208,
+      "rank": 1,
+      "obs": "",
+      "team": "POR"
+    },
+    {
+      "race_number": "47",
+      "starting_lane": 214,
+      "rank": 2,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "47",
+      "starting_lane": 213,
+      "rank": 3,
+      "obs": "",
+      "team": "POL"
+    },
+    {
+      "race_number": "47",
+      "starting_lane": 209,
+      "rank": 4,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "47",
+      "starting_lane": 215,
+      "rank": 5,
+      "obs": "",
+      "team": "MDA"
+    },
+    {
+      "race_number": "47",
+      "starting_lane": 206,
+      "rank": 6,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "47",
+      "starting_lane": 212,
+      "rank": 7,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "47",
+      "starting_lane": 207,
+      "rank": 8,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "47",
+      "starting_lane": 216,
+      "rank": 9,
+      "obs": "",
+      "team": "MDA"
+    },
+    {
+      "race_number": "47",
+      "starting_lane": 210,
+      "rank": 10,
+      "obs": "LAP",
+      "team": "JPN"
+    },
+    {
+      "race_number": "48",
+      "starting_lane": 224,
+      "rank": "",
+      "obs": "DNS",
+      "team": "IND"
+    },
+    {
+      "race_number": "48",
+      "starting_lane": 233,
+      "rank": "",
+      "obs": "DNF",
+      "team": "JPN"
+    },
+    {
+      "race_number": "48",
+      "starting_lane": 239,
+      "rank": "",
+      "obs": "DNF",
+      "team": "CZE"
+    },
+    {
+      "race_number": "48",
+      "starting_lane": 241,
+      "rank": "",
+      "obs": "DNF",
+      "team": "POR"
+    },
+    {
+      "race_number": "48",
+      "starting_lane": 248,
+      "rank": "",
+      "obs": "DNS",
+      "team": "IND"
+    },
+    {
+      "race_number": "48",
+      "starting_lane": 225,
+      "rank": 1,
+      "obs": "",
+      "team": "POR"
+    },
+    {
+      "race_number": "48",
+      "starting_lane": 240,
+      "rank": 2,
+      "obs": "",
+      "team": "DEN"
+    },
+    {
+      "race_number": "48",
+      "starting_lane": 236,
+      "rank": 3,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "48",
+      "starting_lane": 238,
+      "rank": 4,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "48",
+      "starting_lane": 237,
+      "rank": 5,
+      "obs": "",
+      "team": "HUN"
+    },
+    {
+      "race_number": "48",
+      "starting_lane": 228,
+      "rank": 6,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "48",
+      "starting_lane": 242,
+      "rank": 7,
+      "obs": "",
+      "team": "ESP"
+    },
+    {
+      "race_number": "48",
+      "starting_lane": 235,
+      "rank": 8,
+      "obs": "",
+      "team": "DEN"
+    },
+    {
+      "race_number": "48",
+      "starting_lane": 226,
+      "rank": 9,
+      "obs": "",
+      "team": "SWE"
+    },
+    {
+      "race_number": "48",
+      "starting_lane": 222,
+      "rank": 10,
+      "obs": "",
+      "team": "GER"
+    },
+    {
+      "race_number": "48",
+      "starting_lane": 221,
+      "rank": 11,
+      "obs": "",
+      "team": "FRA"
+    },
+    {
+      "race_number": "48",
+      "starting_lane": 232,
+      "rank": 12,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "48",
+      "starting_lane": 244,
+      "rank": 13,
+      "obs": "",
+      "team": "RSA"
+    },
+    {
+      "race_number": "48",
+      "starting_lane": 234,
+      "rank": 14,
+      "obs": "",
+      "team": "ARG"
+    },
+    {
+      "race_number": "48",
+      "starting_lane": 223,
+      "rank": 15,
+      "obs": "",
+      "team": "NOR"
+    },
+    {
+      "race_number": "48",
+      "starting_lane": 231,
+      "rank": 16,
+      "obs": "",
+      "team": "ITA"
+    },
+    {
+      "race_number": "48",
+      "starting_lane": 246,
+      "rank": 17,
+      "obs": "",
+      "team": "ARG"
+    },
+    {
+      "race_number": "48",
+      "starting_lane": 227,
+      "rank": 18,
+      "obs": "",
+      "team": "NED"
+    },
+    {
+      "race_number": "48",
+      "starting_lane": 229,
+      "rank": 19,
+      "obs": "",
+      "team": "GBR"
+    },
+    {
+      "race_number": "48",
+      "starting_lane": 245,
+      "rank": 20,
+      "obs": "",
+      "team": "UKR"
+    },
+    {
+      "race_number": "48",
+      "starting_lane": 230,
+      "rank": 21,
+      "obs": "",
+      "team": "AUS"
+    },
+    {
+      "race_number": "48",
+      "starting_lane": 243,
+      "rank": 22,
+      "obs": "",
+      "team": "AUS"
+    },
+    {
+      "race_number": "48",
+      "starting_lane": 247,
+      "rank": 23,
+      "obs": "LAP",
+      "team": "BUL"
+    }
+  ],
+  "grade_reason": "Digicorp marathon HTML rebuild; every seat via bind_seat; PERSONS only from accepted seats; RANK oracle from Digicorp results HTML; START_TIME from Digicorp timetable (scheduled \u2014 no separate STARTED actual). BIB_BOAT empty. id_checks=4 no_icf_id=3.",
+  "accepted": true,
+  "bib_boat": "intentionally_empty",
+  "bib_boat_note": "BIB_BOAT left empty \u2014 Digicorp marathon public BIB is event bib, not official BIB_BOAT (same policy as Szeged).",
+  "sheets": {
+    "RESULTS": {
+      "name": "RESULTS 1962",
+      "rows": 754
+    },
+    "PERSONS": {
+      "name": "PERSONS",
+      "rows": 475
+    }
+  },
+  "coverage": {
+    "boats": 754,
+    "icf_slots": 859,
+    "icf_filled": 856,
+    "unique_icf_persons": 475,
+    "start_times_mode": "scheduled",
+    "no_icf_id": 3
+  },
+  "golden": {
+    "path": "samples/Gyor_2025_MAR_1_Results.xls",
+    "RESULTS_rows": 754,
+    "PERSONS_rows": 487
+  },
+  "diff_summary": {
+    "RESULTS_match_pct_cells_excl_BIB_BOAT": 99.8674,
+    "RESULTS_rows_ok_with_result_tol": 731,
+    "RESULTS_common_keys": 754,
+    "RESULTS_field_mismatch": {
+      "ICF_ID1": 3,
+      "RESULT_LAP_missing": 19,
+      "ICF_ID2": 1
+    },
+    "RESULT_ms_only_diffs": 621,
+    "PERSONS_field_mismatch": {
+      "NAME": 1
+    },
+    "PERSONS_ours": 475,
+    "PERSONS_golden": 487
+  },
+  "output_xls": "races/Gyor_2025_MAR/Gyor_2025_MAR_Results.xlsx",
+  "output_xls_sha256": "1d786a9690547996e65f7cf44d47ed332245118901c9eab9cd95b077df9edd09",
+  "sources": [
+    {
+      "path": "gyor-sources/html/athletes.html",
+      "sha256": "df4a8e2bffb6a2995d0f23b01686804f983579ed11b1169c6d742940ceda649e",
+      "bytes": 1674111
+    },
+    {
+      "path": "gyor-sources/html/races/race_001.html",
+      "sha256": "1c59cde28efe70cbb9c76960a93c1703e13f198724ebd3284c08ad1ef56a8913",
+      "bytes": 107499
+    },
+    {
+      "path": "gyor-sources/html/races/race_002.html",
+      "sha256": "3b493d14164d1de63c77721c40f97420dfae14a8b90407a710b72de0896d0e27",
+      "bytes": 111954
+    },
+    {
+      "path": "gyor-sources/html/races/race_003.html",
+      "sha256": "b7f4f174f434e22529bb873be90727a5685262847db83646f6144afbac1973da",
+      "bytes": 114152
+    },
+    {
+      "path": "gyor-sources/html/races/race_004.html",
+      "sha256": "353c35b075c63e2c799d6eb375154e68defd95437fd98eb27fd6a7f8804625d2",
+      "bytes": 107846
+    },
+    {
+      "path": "gyor-sources/html/races/race_005.html",
+      "sha256": "c3084a85b414527c714543d5f7718bb4554e65344658baa868bc3eed7902c99d",
+      "bytes": 84885
+    },
+    {
+      "path": "gyor-sources/html/races/race_006.html",
+      "sha256": "edf6b25d54e05c5f282d6f95db5075c02bd892a26a8a8dc0824bada891b243b6",
+      "bytes": 80898
+    },
+    {
+      "path": "gyor-sources/html/races/race_007.html",
+      "sha256": "a0c58612c9762423672337a603fc8a89c8476d862300a57a27c3940ef44102e6",
+      "bytes": 96202
+    },
+    {
+      "path": "gyor-sources/html/races/race_008.html",
+      "sha256": "20d70bd997e8e654774f9d6e5655fcf02c6e581b6ee24f581dbdcb850adea8cb",
+      "bytes": 92836
+    },
+    {
+      "path": "gyor-sources/html/races/race_009.html",
+      "sha256": "62bf1f78e7adeb4a65f6296e5ff4fdb62f6eb1e9e4c345316e84a35bdeef685f",
+      "bytes": 111862
+    },
+    {
+      "path": "gyor-sources/html/races/race_010.html",
+      "sha256": "6e42a1c1e87c7f9bd65cb8b0137e95f4e1963dac0e918b5f2d8f38a68eb97d07",
+      "bytes": 114076
+    },
+    {
+      "path": "gyor-sources/html/races/race_011.html",
+      "sha256": "06c8aff6b14bf4a4ecd380e399b23b85b49c6588d613bb5386d9074ed25388a9",
+      "bytes": 99574
+    },
+    {
+      "path": "gyor-sources/html/races/race_012.html",
+      "sha256": "86a4a16271c2155af5ec29e8afb20e02263a0ec2e82bdc098d1583d342392898",
+      "bytes": 90627
+    },
+    {
+      "path": "gyor-sources/html/races/race_013.html",
+      "sha256": "4c79d01c82979bd80129b1a50d65bf710c160d23c85f2bb80d3f545225152db3",
+      "bytes": 61357
+    },
+    {
+      "path": "gyor-sources/html/races/race_014.html",
+      "sha256": "09d05f088914c3787e1f549e24d4837f4c961ae03b04d6966f5d16f50b919ce8",
+      "bytes": 40535
+    },
+    {
+      "path": "gyor-sources/html/races/race_015.html",
+      "sha256": "cb3e5155ece397c7cd42c631b20d1834f5741b8524ada78a8f415f9fcc2c0e05",
+      "bytes": 56397
+    },
+    {
+      "path": "gyor-sources/html/races/race_016.html",
+      "sha256": "790d05909b16d120bd709233fc79c80a58c3649823f9d264d1e913ed15ef1f4f",
+      "bytes": 66654
+    },
+    {
+      "path": "gyor-sources/html/races/race_017.html",
+      "sha256": "c7a9611d021698538e222e4e6c0b35073c432a7f7e5dd62e7f8dd2be49f3f968",
+      "bytes": 50914
+    },
+    {
+      "path": "gyor-sources/html/races/race_018.html",
+      "sha256": "1d6cc156db754d9265fdf6829022f02839c9f5adef78ea08e647887c953de911",
+      "bytes": 111490
+    },
+    {
+      "path": "gyor-sources/html/races/race_019.html",
+      "sha256": "5e259ad3dc954a1115dce888e12f4e3cf61c3cfa39921cee7f79ecd8c5235b31",
+      "bytes": 111399
+    },
+    {
+      "path": "gyor-sources/html/races/race_020.html",
+      "sha256": "bbfea2b51f9fa9c0aeee95cb8004dbcbf6daa92a2c0a8ef93186cd99b118213c",
+      "bytes": 95775
+    },
+    {
+      "path": "gyor-sources/html/races/race_021.html",
+      "sha256": "43ec0a263545fe8e235717b484792432b3b3c9cf4592f1582ecab91f586b70fe",
+      "bytes": 111595
+    },
+    {
+      "path": "gyor-sources/html/races/race_022.html",
+      "sha256": "5ed8556a9a3dd571f492995ca12f7926437c01776729de4b557cd23ef44a0661",
+      "bytes": 110798
+    },
+    {
+      "path": "gyor-sources/html/races/race_023.html",
+      "sha256": "ae872d0069239167e1292438a6382d32de69c79e7ffdf293c5904f30f7b2481a",
+      "bytes": 111315
+    },
+    {
+      "path": "gyor-sources/html/races/race_024.html",
+      "sha256": "d5c412e430b89fb9fbd66aef1e634b9bc942d0176150577f71505b37954b7404",
+      "bytes": 289656
+    },
+    {
+      "path": "gyor-sources/html/races/race_025.html",
+      "sha256": "3cfd43ac4149f21a67d78f2c70d9e583481a9c2f0268afad001e28024be4da66",
+      "bytes": 159844
+    },
+    {
+      "path": "gyor-sources/html/races/race_026.html",
+      "sha256": "0900420f7547167829bc7c18d75935bfdf9547ab0b296de2a914170d2597c9cb",
+      "bytes": 86670
+    },
+    {
+      "path": "gyor-sources/html/races/race_027.html",
+      "sha256": "7b6a1716211678a3d17f5758ce286a28662dd9636d6b57bd3679deec49b62bd5",
+      "bytes": 50915
+    },
+    {
+      "path": "gyor-sources/html/races/race_028.html",
+      "sha256": "028add2b296a7d68f737ac60ef8155b7d7a485e4a34e39d390ed78ff2f2a3299",
+      "bytes": 45559
+    },
+    {
+      "path": "gyor-sources/html/races/race_029.html",
+      "sha256": "5cdddff6643ad933787522b5d2ad304b484cb3172d7c7c93e498ce6839caa5fc",
+      "bytes": 99274
+    },
+    {
+      "path": "gyor-sources/html/races/race_030.html",
+      "sha256": "4265ef26ba07ff912d19431e1a864063f947c0902705cb9c2c7ad504d7c403ea",
+      "bytes": 105652
+    },
+    {
+      "path": "gyor-sources/html/races/race_031.html",
+      "sha256": "2265f7a731b5f518fbbe06e3c2f690a11fccfd9679cd53b793f96d90985ecfae",
+      "bytes": 66729
+    },
+    {
+      "path": "gyor-sources/html/races/race_032.html",
+      "sha256": "27c32066c881594d45168ff8f33057a0e778c71f2da9e886c397e722c7d04639",
+      "bytes": 45609
+    },
+    {
+      "path": "gyor-sources/html/races/race_033.html",
+      "sha256": "767bd0dfbaf8b878f43c20f7716c5a8a98e1c8419408ae0517125bf1cbf5c4f1",
+      "bytes": 44655
+    },
+    {
+      "path": "gyor-sources/html/races/race_034.html",
+      "sha256": "cb474aeba5d4f6d56d76e44c6094a7b60add00a38ec980eefa8f9e1cb8673c19",
+      "bytes": 256855
+    },
+    {
+      "path": "gyor-sources/html/races/race_035.html",
+      "sha256": "765441a2f0c8cc3cb66d994a587e707b31ec19d26e432ec68aae04865539decc",
+      "bytes": 144986
+    },
+    {
+      "path": "gyor-sources/html/races/race_036.html",
+      "sha256": "ff8d71980cdaf2528f50a1045a2b72f34553d50c2b5efadbcd334d8cf625ab34",
+      "bytes": 96769
+    },
+    {
+      "path": "gyor-sources/html/races/race_037.html",
+      "sha256": "21bff59caa67dc4c2adb5e98defcd0d9e9eda53d952c4f471c53d469243e7b17",
+      "bytes": 383791
+    },
+    {
+      "path": "gyor-sources/html/races/race_038.html",
+      "sha256": "437f9f15479294f22c0c2394767a36a9110475d54a36440ab2bb9b8587c207ab",
+      "bytes": 367875
+    },
+    {
+      "path": "gyor-sources/html/races/race_039.html",
+      "sha256": "6396ff13f7ebd90812ce51d4cd32b7a6627600424c73036420db20e9c3a23801",
+      "bytes": 228806
+    },
+    {
+      "path": "gyor-sources/html/races/race_040.html",
+      "sha256": "67bad9c57d58d169b44e3a0b25257c2b5fa09bf149a661c09057b5c6ad4cd8a1",
+      "bytes": 111953
+    },
+    {
+      "path": "gyor-sources/html/races/race_041.html",
+      "sha256": "8028ad14e9552c1842e1c8d4162a516ed4b186823895acdb86230c032b9fc5ee",
+      "bytes": 122374
+    },
+    {
+      "path": "gyor-sources/html/races/race_042.html",
+      "sha256": "88797b409cefb35169bca1b60888e1378d63de1a82998f519c333f0da6cfff16",
+      "bytes": 208451
+    },
+    {
+      "path": "gyor-sources/html/races/race_043.html",
+      "sha256": "0f27cb342ab5ff13f180a05c264f881e5851765940c5ab17d0ef932993acc99c",
+      "bytes": 192079
+    },
+    {
+      "path": "gyor-sources/html/races/race_044.html",
+      "sha256": "30c3363c400d0441dc491c187fa23d8054326e67c08e182fd46f7e0ae8599298",
+      "bytes": 381053
+    },
+    {
+      "path": "gyor-sources/html/races/race_045.html",
+      "sha256": "54f29a0f996a45e2744c5841550c529cec20530e0314a9ef6e56d83667ede484",
+      "bytes": 277526
+    },
+    {
+      "path": "gyor-sources/html/races/race_046.html",
+      "sha256": "2fc0682269a1ccb7c8ff45df4c0a594d9e27815accd4d66c757b3548e718dab0",
+      "bytes": 188829
+    },
+    {
+      "path": "gyor-sources/html/races/race_047.html",
+      "sha256": "00fa1fd5032a2b0669afa83f47f0e2aad5fbaa57761b70c1e5dc2e31a4f1839e",
+      "bytes": 147398
+    },
+    {
+      "path": "gyor-sources/html/races/race_048.html",
+      "sha256": "4f2dae03e63f411aa51503f56bd1e30c16adf914c78fd2234b0f748cdd466b49",
+      "bytes": 364705
+    },
+    {
+      "path": "gyor-sources/hub.html",
+      "sha256": "853a0d8a6d9e55544ee7761a7a39f7e6829bfacc03de9451c1c8db24b0cbba74",
+      "bytes": 256237
+    },
+    {
+      "path": "gyor-sources/timetable.json",
+      "sha256": "f73fef1b2025546d3f45a3d68fc87c990bff347d2784319de5b716d832e57469",
+      "bytes": 24443
+    }
+  ],
+  "updated_at": "2026-09-30T14:52:56Z",
+  "built_at": "2026-09-30T16:52:46+02:00",
+  "domain": "flatwater_marathon",
+  "sheet": "Gyor_2025_MAR_Results.xlsx",
+  "format": "marathon_RESULTS_PERSONS",
   "files": [
     {
       "kind": "xlsx",
       "name": "Gyor_2025_MAR_Results.xlsx",
-      "sha256": "5a73bc8494d6dfbe4238f2090011d98d20c91d8eb844a4e577cd6a4b8367145f",
-      "bytes": 88743
+      "sha256": "1d786a9690547996e65f7cf44d47ed332245118901c9eab9cd95b077df9edd09",
+      "bytes": 88365
     }
   ],
-  "auditor": {
-    "grade": "PERFECT",
-    "RESULTS_rows": 754,
-    "PERSONS_rows": 487,
-    "match_pct_excl_BIB_BOAT_vs_official_sample": 99.8904,
-    "RESULT_LAP_missing": 19
-  }
+  "output_xlsx": "races/Gyor_2025_MAR/Gyor_2025_MAR_Results.xlsx",
+  "output_xlsx_sha256": "1d786a9690547996e65f7cf44d47ed332245118901c9eab9cd95b077df9edd09",
+  "checks": {
+    "start-times": "pass",
+    "crews": "pass",
+    "OBS": "pass",
+    "RANK vs official results": "pass",
+    "PERSONS vs ICF": "pass",
+    "repairs": "pass",
+    "fixtures": "pass"
+  },
+  "publish_gates": "OK",
+  "venue": "Gy\u0151r",
+  "year": "2025",
+  "kind": "WCH"
 }
