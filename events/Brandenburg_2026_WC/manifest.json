@@ -10,7 +10,7 @@
   "hub": "https://results.imas-sport.com/imas/regatta.php?competition=wettkampf_315",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-09-30T16:57:48Z",
+  "generated_at_utc": "2026-09-30T17:12:10Z",
   "grade": "PERFECT",
   "gaps": [],
   "id_checks": [
@@ -178,15 +178,6 @@
       "action": "corrected",
       "source": "pww_search",
       "new_id": "172159",
-      "team": "GER"
-    },
-    {
-      "results_row": 2179,
-      "seat": "ICF_ID2",
-      "source_printed_name": "Leon Schaefer",
-      "action": "corrected",
-      "source": "pww_search",
-      "new_id": "118870",
       "team": "GER"
     },
     {
@@ -464,6 +455,16 @@
       "source": "pww_search",
       "team": "GER",
       "evidence": "printed_name='Leon Pirntz'; noc=GER; candidate_ids=54372,118870,98872,133266; ICF/PWW+bence: no unique profile"
+    },
+    {
+      "results_row": 2179,
+      "seat": "ICF_ID2",
+      "published_id": "",
+      "source_printed_name": "Leon Schaefer",
+      "action": "no_icf_id",
+      "source": "pww_search",
+      "team": "GER",
+      "evidence": "printed_name='Leon Schaefer'; noc=GER; candidate_ids=118870; ICF/PWW+bence: no unique profile"
     },
     {
       "results_row": 2180,
@@ -15857,30 +15858,30 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 816
+      "rows": 815
     }
   },
   "coverage": {
     "races": 249,
     "races_with_startlist_pdf": 123,
     "icf_slots": 3097,
-    "icf_filled": 3066,
-    "icf_fill_rate": 0.98999,
+    "icf_filled": 3065,
+    "icf_fill_rate": 0.989667,
     "obs_counts": {
       "DNS": 50,
       "DNF": 11,
       "DSQ": 9
     },
-    "unique_icf_persons": 816,
+    "unique_icf_persons": 815,
     "missing_start_times": 0,
-    "no_icf_id": 31
+    "no_icf_id": 32
   },
   "notes": [
-    "no_icf_id=31"
+    "no_icf_id=32"
   ],
   "issues_sample": [],
   "output_xls": "races/Brandenburg_2026_WC/Brandenburg_2026_WC_Results.xlsx",
-  "output_xls_sha256": "7dbe7763c4a8390c5973eed5ada17ee67e0cd06d9a8f8f3812eec5ca9386af67",
+  "output_xls_sha256": "45034fcc514ae88d05bbfbe087a20978a579485cde3c528d884c6c6830e0c31b",
   "sources": [
     {
       "path": "brandenburg-sources/api_race_173.json",
@@ -15978,8 +15979,8 @@
       "bytes": 53263
     }
   ],
-  "updated_at": "2026-09-30T18:57:48+02:00",
-  "grade_reason": "All races from IMAS api_race_all with published start times; every seat via bind_seat; PERSONS only from accepted seats; RANK oracle from IMAS results; START_TIME scheduled (no listed actual); BIB_BOAT empty. id_checks=53 no_icf_id=31.",
+  "updated_at": "2026-09-30T17:12:10Z",
+  "grade_reason": "All races from IMAS api_race_all with published start times; every seat via bind_seat; PERSONS only from accepted seats; RANK oracle from IMAS results; START_TIME scheduled (no listed actual); BIB_BOAT empty. id_checks=53 no_icf_id=32.",
   "domain": "flatwater_sprint",
   "sheet": "Brandenburg_2026_WC_Results.xlsx",
   "format": "sprint_RESULTS_PERSONS",
@@ -15987,12 +15988,12 @@
     {
       "kind": "xlsx",
       "name": "Brandenburg_2026_WC_Results.xlsx",
-      "sha256": "7dbe7763c4a8390c5973eed5ada17ee67e0cd06d9a8f8f3812eec5ca9386af67",
-      "bytes": 228689
+      "sha256": "45034fcc514ae88d05bbfbe087a20978a579485cde3c528d884c6c6830e0c31b",
+      "bytes": 228652
     }
   ],
   "output_xlsx": "races/Brandenburg_2026_WC/Brandenburg_2026_WC_Results.xlsx",
-  "output_xlsx_sha256": "7dbe7763c4a8390c5973eed5ada17ee67e0cd06d9a8f8f3812eec5ca9386af67",
+  "output_xlsx_sha256": "45034fcc514ae88d05bbfbe087a20978a579485cde3c528d884c6c6830e0c31b",
   "checks": {
     "start-times": "pass",
     "crews": "pass",
