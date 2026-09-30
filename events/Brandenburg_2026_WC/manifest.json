@@ -10,7 +10,7 @@
   "hub": "https://results.imas-sport.com/imas/regatta.php?competition=wettkampf_315",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-09-30T15:44:31Z",
+  "generated_at_utc": "2026-09-30T16:17:56Z",
   "grade": "PERFECT",
   "gaps": [],
   "id_checks": [
@@ -476,6 +476,16 @@
       "evidence": "printed_name='Thobias Schweppe'; noc=GER; candidate_ids=166889,72576,89697,61641; ICF/PWW+bence: no unique profile"
     },
     {
+      "results_row": 2180,
+      "seat": "ICF_ID2",
+      "published_id": "",
+      "source_printed_name": "Heiko Polack",
+      "action": "no_icf_id",
+      "source": "pww_search",
+      "team": "GER",
+      "evidence": "printed_name='Heiko Polack'; noc=GER; candidate_ids=132670,73417,90235; ICF/PWW+bence: no unique profile"
+    },
+    {
       "results_row": 2181,
       "seat": "ICF_ID1",
       "published_id": "",
@@ -484,6 +494,16 @@
       "source": "pww_search",
       "team": "GER",
       "evidence": "printed_name='Jan Eichler'; noc=GER; candidate_ids=83342,42364,53980,63503; ICF/PWW+bence: no unique profile"
+    },
+    {
+      "results_row": 2181,
+      "seat": "ICF_ID2",
+      "published_id": "",
+      "source_printed_name": "Sascha Kunkel",
+      "action": "no_icf_id",
+      "source": "pww_search",
+      "team": "GER",
+      "evidence": "printed_name='Sascha Kunkel'; noc=GER; candidate_ids=140313; ICF/PWW+bence: no unique profile"
     },
     {
       "results_row": 2186,
@@ -15843,9 +15863,9 @@
   "coverage": {
     "races": 249,
     "races_with_startlist_pdf": 123,
-    "icf_slots": 3095,
+    "icf_slots": 3097,
     "icf_filled": 3066,
-    "icf_fill_rate": 0.99063,
+    "icf_fill_rate": 0.98999,
     "obs_counts": {
       "DNS": 50,
       "DNF": 11,
@@ -15853,14 +15873,14 @@
     },
     "unique_icf_persons": 816,
     "missing_start_times": 0,
-    "no_icf_id": 29
+    "no_icf_id": 31
   },
   "notes": [
-    "no_icf_id=29"
+    "no_icf_id=31"
   ],
   "issues_sample": [],
   "output_xls": "races/Brandenburg_2026_WC/Brandenburg_2026_WC_Results.xlsx",
-  "output_xls_sha256": "95f952e6de34deb328bf0609a9b721a2cc459070821fe8ef1fc6bc0d6ee84654",
+  "output_xls_sha256": "7d4527a8cd02ebe433f7c74ef7feffe844b862d23d79ca80439334154f3e28df",
   "sources": [
     {
       "path": "brandenburg-sources/api_race_173.json",
@@ -15958,8 +15978,8 @@
       "bytes": 53263
     }
   ],
-  "updated_at": "2026-09-30T17:44:31+02:00",
-  "grade_reason": "All races from IMAS api_race_all with published start times; every seat via bind_seat; PERSONS only from accepted seats; RANK oracle from IMAS results; START_TIME scheduled (no listed actual); BIB_BOAT empty. id_checks=51 no_icf_id=29.",
+  "updated_at": "2026-09-30T18:17:56+02:00",
+  "grade_reason": "All races from IMAS api_race_all with published start times; every seat via bind_seat; PERSONS only from accepted seats; RANK oracle from IMAS results; START_TIME scheduled (no listed actual); BIB_BOAT empty. id_checks=53 no_icf_id=31.",
   "domain": "flatwater_sprint",
   "sheet": "Brandenburg_2026_WC_Results.xlsx",
   "format": "sprint_RESULTS_PERSONS",
@@ -15967,12 +15987,12 @@
     {
       "kind": "xlsx",
       "name": "Brandenburg_2026_WC_Results.xlsx",
-      "sha256": "95f952e6de34deb328bf0609a9b721a2cc459070821fe8ef1fc6bc0d6ee84654",
+      "sha256": "7d4527a8cd02ebe433f7c74ef7feffe844b862d23d79ca80439334154f3e28df",
       "bytes": 228686
     }
   ],
   "output_xlsx": "races/Brandenburg_2026_WC/Brandenburg_2026_WC_Results.xlsx",
-  "output_xlsx_sha256": "95f952e6de34deb328bf0609a9b721a2cc459070821fe8ef1fc6bc0d6ee84654",
+  "output_xlsx_sha256": "7d4527a8cd02ebe433f7c74ef7feffe844b862d23d79ca80439334154f3e28df",
   "checks": {
     "start-times": "pass",
     "crews": "pass",
