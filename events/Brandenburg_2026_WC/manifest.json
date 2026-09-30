@@ -10,8 +10,8 @@
   "hub": "https://results.imas-sport.com/imas/regatta.php?competition=wettkampf_315",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-09-30T16:17:56Z",
-  "grade": "PERFECT",
+  "generated_at_utc": "2026-09-30T16:49:11Z",
+  "grade": "USABLE",
   "gaps": [],
   "id_checks": [
     {
@@ -15876,11 +15876,12 @@
     "no_icf_id": 31
   },
   "notes": [
-    "no_icf_id=31"
+    "no_icf_id=31",
+    "official results file not loaded; comparison checks not_run; PERFECT forbidden"
   ],
   "issues_sample": [],
   "output_xls": "races/Brandenburg_2026_WC/Brandenburg_2026_WC_Results.xlsx",
-  "output_xls_sha256": "7d4527a8cd02ebe433f7c74ef7feffe844b862d23d79ca80439334154f3e28df",
+  "output_xls_sha256": "9a8a580283b360f5a3681e4bfc15c45f93baefe673b5d6d9df955442400070be",
   "sources": [
     {
       "path": "brandenburg-sources/api_race_173.json",
@@ -15978,8 +15979,8 @@
       "bytes": 53263
     }
   ],
-  "updated_at": "2026-09-30T18:17:56+02:00",
-  "grade_reason": "All races from IMAS api_race_all with published start times; every seat via bind_seat; PERSONS only from accepted seats; RANK oracle from IMAS results; START_TIME scheduled (no listed actual); BIB_BOAT empty. id_checks=53 no_icf_id=31.",
+  "updated_at": "2026-09-30T18:49:11+02:00",
+  "grade_reason": "USABLE: no independent official results file loaded for comparison (IMAS sources only; RANK vs official results = not_run). All races from IMAS api_race_all with published start times; every seat via bind_seat; PERSONS only from accepted seats; no Digicorp-style official results file loaded (RANK check not_run); START_TIME scheduled (no listed actual); BIB_BOAT empty. id_checks=53 no_icf_id=31.",
   "domain": "flatwater_sprint",
   "sheet": "Brandenburg_2026_WC_Results.xlsx",
   "format": "sprint_RESULTS_PERSONS",
@@ -15987,20 +15988,22 @@
     {
       "kind": "xlsx",
       "name": "Brandenburg_2026_WC_Results.xlsx",
-      "sha256": "7d4527a8cd02ebe433f7c74ef7feffe844b862d23d79ca80439334154f3e28df",
+      "sha256": "9a8a580283b360f5a3681e4bfc15c45f93baefe673b5d6d9df955442400070be",
       "bytes": 228686
     }
   ],
   "output_xlsx": "races/Brandenburg_2026_WC/Brandenburg_2026_WC_Results.xlsx",
-  "output_xlsx_sha256": "7d4527a8cd02ebe433f7c74ef7feffe844b862d23d79ca80439334154f3e28df",
+  "output_xlsx_sha256": "9a8a580283b360f5a3681e4bfc15c45f93baefe673b5d6d9df955442400070be",
   "checks": {
     "start-times": "pass",
     "crews": "pass",
     "OBS": "pass",
-    "RANK vs official results": "pass",
+    "RANK vs official results": "not_run",
     "PERSONS vs ICF": "pass",
     "repairs": "pass",
     "fixtures": "pass"
   },
+  "golden": null,
+  "official_results_loaded": false,
   "publish_gates": "OK"
 }
