@@ -2,7 +2,7 @@
   "key": "BanjaLuka_2026_WWC",
   "grade": "FAIL",
   "reason_code": "SCHEDULE_MISSING",
-  "updated_at": "2026-09-19T22:34:40Z",
+  "updated_at": "2026-10-06T20:50:19Z",
   "siwidata": null,
   "session_key": "kosta.2717",
   "session_key_status": "HTTP200_empty_shell_no_rows",
@@ -10,7 +10,7 @@
   "pww": null,
   "format": "Classic+Sprint+Teams+Masters",
   "dates": "2026-05-20/2026-05-23",
-  "venue": "Banja Luka (Vrbas / Canyon Tjesno), Bosnia and Herzegovina",
+  "venue": "Banja Luka",
   "sheet": "BanjaLuka_2026_WWC_start.xlsx",
   "accepted": false,
   "row_count": 647,
@@ -26,14 +26,14 @@
     "L6": "skipped-why-no-final-results-pdf",
     "GRADE": "FAIL",
     "notes": [
-      "L3: only Saturday 23 May Competition Schedule PDF is public (page '5 of'); Wed\u2013Fri CS missing \u2192 SCHEDULE_MISSING",
+      "L3: only Saturday 23 May Competition Schedule PDF is public (page '5 of'); Wed–Fri CS missing → SCHEDULE_MISSING",
       "PDF_MISSING secondary: Sprint Heat 2 start list not on team-info / CDN",
       "Connect: no sessions/kosta.2717 or 2717.initchangeset; CS_2026/siwidata/2717 404",
       "SessionKey kosta.2717: HTTP 200 empty live shell; no competition rows",
       "L5 SKIPPED (no knockout vision source)",
       "L6 SKIPPED (no @Final Results PDFs located on public ICF/CDN)",
       "L4 day4: first clocks match Saturday CS for all Final+Teams units; WC1 Final startlist n=13 vs schedule boats=12 (kept startlist, did not drop)",
-      "Team forerunners TIP\u2192Team blank; Name1/2/3=FORERUNNER as published"
+      "Team forerunners TIP→Team blank; Name1/2/3=FORERUNNER as published"
     ],
     "grade": "FAIL",
     "reason_code": "SCHEDULE_MISSING",
@@ -69,13 +69,13 @@
     "Gender_source": "official start-list section sex (no Connect)",
     "C2_gender": "same-sex M|W (not Mixed X)",
     "Starting_lane": "empty",
-    "Heat2": "not published \u2014 omitted, not invented"
+    "Heat2": "not published — omitted, not invented"
   },
   "blockers": [
-    "Official Competition Schedule PDF public only for Sat 23 May (CS '5 of'); Wed\u2013Fri CS not on team-info/CDN",
+    "Official Competition Schedule PDF public only for Sat 23 May (CS '5 of'); Wed–Fri CS not on team-info/CDN",
     "Sprint Heat 2 start list not published on team-info/CDN",
     "No numeric SIWIDATA session / CS_2026 blob / Connect initchangeset for kosta.2717",
-    "Live SessionKey page empty \u2014 cannot pull sex map or results"
+    "Live SessionKey page empty — cannot pull sex map or results"
   ],
   "source_urls": {
     "icf_event": "https://www.canoeicf.com/wildwater-canoeing-world-championships/banja-luka-2026",
@@ -143,5 +143,8 @@
     }
   ],
   "sheet_sha256": "c1284e54d02b7f2a1ac8875728481cbeec0e2315c28a397ed1af073305fca4e7",
-  "xlsx_published": true
+  "xlsx_published": true,
+  "year": "2026",
+  "kind": "WWC",
+  "generated_at_utc": "2026-10-06T20:50:19Z"
 }
