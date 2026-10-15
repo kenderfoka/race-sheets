@@ -10,13 +10,13 @@
  "sheet": "Augsburg_2023_WC_start.xlsx",
  "grade": "PERFECT",
  "gaps": [],
- "generated_at_utc": "2026-10-15T09:08:49Z",
- "updated_at": "2026-10-15T09:15:38Z",
+ "generated_at_utc": "2026-10-15T09:26:29Z",
+ "updated_at": "2026-10-15T09:31:45Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "Augsburg_2023_WC_start.xlsx",
-   "sha256": "7774c7610a7944250988ac3f9a6839c256cfd9aff7ea683080678d6a87864c95"
+   "sha256": "2793d6931287edc41d74b382c9456fd31da4b9bc6cbc0bd6af5c722f111b544b"
   }
  ],
  "row_count": 716,
@@ -5077,8 +5077,9 @@
    "printed_name": "FISEROVA Tereza",
    "source": "SIWIDATA session 1977 IFId + paddleworldwide.com/athlete/<id>",
    "published_id": "42016",
-   "action": "no_icf_id",
-   "detail": "archive id 42016 failed (name-check failed; keep-rule not unique; repair not unique; no ICF athlete carries given+family); contract: no ICF athlete carries the printed given+family name"
+   "action": "corrected",
+   "detail": "same-meeting bind (contract): 42016 kept on this athlete's other seats; was: archive id 42016 failed (name-check failed; keep-rule not unique; repair not unique; no ICF athlete carries given+family",
+   "new_id": "42016"
   },
   {
    "row": 614,
@@ -5174,8 +5175,9 @@
    "printed_name": "FISEROVA Tereza",
    "source": "SIWIDATA session 1977 IFId + paddleworldwide.com/athlete/<id>",
    "published_id": "42016",
-   "action": "no_icf_id",
-   "detail": "archive id 42016 failed (name-check failed; keep-rule not unique; repair not unique; no ICF athlete carries given+family); contract: no ICF athlete carries the printed given+family name"
+   "action": "corrected",
+   "detail": "same-meeting bind (contract): 42016 kept on this athlete's other seats; was: archive id 42016 failed (name-check failed; keep-rule not unique; repair not unique; no ICF athlete carries given+family",
+   "new_id": "42016"
   },
   {
    "row": 670,
@@ -5871,7 +5873,9 @@
   "forerunner_unbound": 3,
   "kept": 678,
   "name_change": 9,
-  "no_icf_id": 2
+  "no_icf_id": 0,
+  "corrected": 2,
+  "same_meeting": 2
  },
  "pending_maintainer": [],
  "issues": [],
