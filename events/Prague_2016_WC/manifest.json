@@ -11,13 +11,13 @@
  "gaps": [
   "icf_ids_incomplete"
  ],
- "generated_at_utc": "2026-10-15T08:26:03Z",
- "updated_at": "2026-10-15T08:29:55Z",
+ "generated_at_utc": "2026-10-15T09:10:03Z",
+ "updated_at": "2026-10-15T09:16:34Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "Prague_2016_WC_start.xlsx",
-   "sha256": "5514f65f55e94c32232a5938475d4c199861f37c0e49f576659441adb85bb361"
+   "sha256": "c9fcfeb30863e60da33c5b014b0d2065b5b81091e18f6dbac76dfac2e23ed92e"
   }
  ],
  "row_count": 601,
@@ -64,6 +64,8 @@
  "rank_source": "123result Final @Results.pdf",
  "unranked_finals": [],
  "ain_log": [],
+ "placeholders": [],
+ "spellings": [],
  "dropped": [
   "K1MC_XT_1: cross/trials unit in a pre-2018 123result meeting; class code unverified, left out (logged)",
   "K1WC_XT_1: cross/trials unit in a pre-2018 123result meeting; class code unverified, left out (logged)"
@@ -6087,8 +6089,9 @@
    "printed_name": "FOX Jessica",
    "source": "123result Start List PDF (CS_2016/201201/787/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 36526, but profile does not list the competition (^2016 ICF CANOE SLALOM WORLD CUP 4$) and class"
+   "action": "corrected",
+   "detail": "same-meeting bind (contract): 36526 kept on this athlete's other seats; was: no archive id: bind 36526, but profile does not list the competition (^2016 ICF CANOE SLALOM WORLD CUP 4$) and class",
+   "new_id": "36526"
   },
   {
    "row": 360,
@@ -6698,8 +6701,9 @@
    "printed_name": "FOX Jessica",
    "source": "123result Start List PDF (CS_2016/201201/787/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 36526, but profile does not list the competition (^2016 ICF CANOE SLALOM WORLD CUP 4$) and class"
+   "action": "corrected",
+   "detail": "same-meeting bind (contract): 36526 kept on this athlete's other seats; was: no archive id: bind 36526, but profile does not list the competition (^2016 ICF CANOE SLALOM WORLD CUP 4$) and class",
+   "new_id": "36526"
   },
   {
    "row": 562,
@@ -6714,9 +6718,11 @@
  ],
  "id_summary": {
   "kept": 588,
-  "emptied": 21,
+  "emptied": 19,
   "no_icf_id": 27,
-  "forerunner": 30
+  "forerunner": 30,
+  "corrected": 2,
+  "same_meeting": 2
  },
  "pending_maintainer": [],
  "issues": [],
