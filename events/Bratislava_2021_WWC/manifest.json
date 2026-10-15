@@ -10,16 +10,16 @@
  "sheet": "Bratislava_2021_WWC_start.xlsx",
  "grade": "PERFECT",
  "gaps": [],
- "generated_at_utc": "2026-10-15T07:58:56Z",
- "updated_at": "2026-10-15T07:59:07Z",
+ "generated_at_utc": "2026-10-15T09:08:49Z",
+ "updated_at": "2026-10-15T09:15:49Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "Bratislava_2021_WWC_start.xlsx",
-   "sha256": "ce660a529c2537b768f3b7b553b2d753e292e01345f65eade9c7a5f3f90ffc88"
+   "sha256": "45e90fa7087eff97fa2be8add43a08b6f1c843646eba7201dc066b2a94b1dd01"
   }
  ],
- "row_count": 323,
+ "row_count": 318,
  "source": {
   "archive": "https://siwidata.blob.core.windows.net/sessions/1267.initchangeset.session.js",
   "archive_sha256": "05a0f0dc2fe4618a3270522aa761b889c96e181aa6fd6b066cfa987cb0cfc511",
@@ -30,38 +30,13 @@
   "started_or_unit_actual": 316,
   "slot_no_actual": [
    {
-    "name": "Forerunner 2",
+    "name": null,
     "phase": "Forerunner",
-    "irm": "DNS"
-   },
-   {
-    "name": "KNEBLOVA Tereza",
-    "phase": "Teams",
     "irm": "DNS"
    },
    {
     "name": "RASNER Karel",
     "phase": "Forerunner",
-    "irm": "DNS"
-   },
-   {
-    "name": "GRZIN Alba Zoe",
-    "phase": "Heats",
-    "irm": "DNS"
-   },
-   {
-    "name": "WEGMAN Martina",
-    "phase": "Heats",
-    "irm": "DNS"
-   },
-   {
-    "name": "SOUDI Mathis",
-    "phase": "Heats",
-    "irm": "DNS"
-   },
-   {
-    "name": "OBADIC Luka",
-    "phase": "Heats",
     "irm": "DNS"
    }
   ]
@@ -69,25 +44,48 @@
  "rank_source": "SIWIDATA 1267 final RankingRow (official ranking in the archive)",
  "unranked_finals": [],
  "ain_log": [],
- "dropped": [],
+ "placeholders": [
+  {
+   "row_name": "Forerunner 1",
+   "phase": "Forerunner",
+   "date": "2021-09-22",
+   "time": "13:30:08",
+   "note": "placeholder name kept as row, name cell empty (maintainer 2026-10-15)"
+  },
+  {
+   "row_name": "Forerunner 2",
+   "phase": "Forerunner",
+   "date": "2021-09-25",
+   "time": "13:32:00",
+   "note": "placeholder name kept as row, name cell empty (maintainer 2026-10-15)"
+  }
+ ],
+ "spellings": [],
+ "dropped": [
+  "DNS KNEBLOVA Tereza C1W Sprint Teams 1 slot 2021-09-25 14:39:00: outside its own heat (['2021-09-22']); dropped+logged (maintainer 2026-10-15)",
+  "DNS GRZIN Alba Zoe K1W Sprint Heats 1 slot 2021-09-25 08:32:30: outside its own heat (['2021-09-24']); dropped+logged (maintainer 2026-10-15)",
+  "DNS WEGMAN Martina K1W Sprint Heats 2 slot 2021-09-25 09:47:00: outside its own heat (['2021-09-24']); dropped+logged (maintainer 2026-10-15)",
+  "DNS SOUDI Mathis K1M Sprint Heats 1 slot 2021-09-25 09:14:30: outside its own heat (['2021-09-24']); dropped+logged (maintainer 2026-10-15)",
+  "DNS OBADIC Luka C2M Sprint Heats 1 slot 2021-09-25 11:43:30: outside its own heat (['2021-09-24']); dropped+logged (maintainer 2026-10-15)"
+ ],
  "id_checks": [
   {
    "row": 2,
    "seat": "ICF_ID1",
-   "printed_name": "Forerunner 1",
+   "printed_name": null,
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
    "published_id": "",
    "action": "forerunner",
-   "detail": "forerunner_unbound: no ICF profile for 'Forerunner 1' 'CZE'; Gender empty, logged (maintainer 2026-10-13)"
+   "detail": "forerunner_unbound: no ICF profile for None 'CZE'; Gender empty, logged (maintainer 2026-10-13)"
   },
   {
-   "row": 258,
+   "row": 254,
    "seat": "ICF_ID1",
-   "printed_name": "Forerunner 2",
+   "printed_name": null,
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
    "published_id": "",
    "action": "forerunner",
-   "detail": "forerunner_unbound: no ICF profile for 'Forerunner 2' 'CZE'; Gender empty, logged (maintainer 2026-10-13)"
+   "detail": "forerunner_unbound: no ICF profile for None 'CZE'; Gender empty, logged (maintainer 2026-10-13)"
   },
   {
    "row": 3,
@@ -594,30 +592,6 @@
    "action": "kept"
   },
   {
-   "row": 284,
-   "seat": "ICF_ID1",
-   "printed_name": "KNEBLOVA Tereza",
-   "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
-   "published_id": "83782",
-   "action": "kept"
-  },
-  {
-   "row": 284,
-   "seat": "ICF_ID2",
-   "printed_name": "DZIADKOVA Zuzana",
-   "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
-   "published_id": "98317",
-   "action": "kept"
-  },
-  {
-   "row": 284,
-   "seat": "ICF_ID3",
-   "printed_name": "NEMCOVA Marie",
-   "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
-   "published_id": "78808",
-   "action": "kept"
-  },
-  {
    "row": 24,
    "seat": "ICF_ID1",
    "printed_name": "GAUBERT Elsa",
@@ -644,56 +618,122 @@
   {
    "row": 25,
    "seat": "ICF_ID1",
-   "printed_name": "SUCHANEK Daniel/ROLENC Ondrej",
+   "printed_name": "SUCHANEK Daniel",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
    "published_id": "",
-   "action": "team_entry",
-   "detail": "C2 team boat: NameN is the crew label as published (wildwater); one seat holds two athletes, so no single id (as Muotathal 2018)"
+   "action": "kept",
+   "new_id": "42246",
+   "detail": "on-site entry : bound by name+nation+gender to 42246; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT Men (maintainer 2026-10-13)"
   },
   {
    "row": 25,
    "seat": "ICF_ID2",
-   "printed_name": "RYGEL Marek/VESELY Petr",
+   "printed_name": "ROLENC Ondrej",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
    "published_id": "",
-   "action": "team_entry",
-   "detail": "C2 team boat: NameN is the crew label as published (wildwater); one seat holds two athletes, so no single id (as Muotathal 2018)"
+   "action": "kept",
+   "new_id": "35512",
+   "detail": "on-site entry : bound by name+nation+gender to 35512; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT Men (maintainer 2026-10-13)"
   },
   {
    "row": 25,
    "seat": "ICF_ID3",
-   "printed_name": "TOMEK Lukas/SRAMEK Michal",
+   "printed_name": "RYGEL Marek",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
    "published_id": "",
-   "action": "team_entry",
-   "detail": "C2 team boat: NameN is the crew label as published (wildwater); one seat holds two athletes, so no single id (as Muotathal 2018)"
+   "action": "kept",
+   "new_id": "53303",
+   "detail": "on-site entry : bound by name+nation+gender to 53303; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT Men (maintainer 2026-10-13)"
+  },
+  {
+   "row": 25,
+   "seat": "ICF_ID4",
+   "printed_name": "VESELY Petr",
+   "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35511",
+   "detail": "on-site entry : bound by name+nation+gender to 35511; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT Men (maintainer 2026-10-13)"
+  },
+  {
+   "row": 25,
+   "seat": "ICF_ID5",
+   "printed_name": "TOMEK Lukas",
+   "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35505",
+   "detail": "on-site entry : bound by name+nation+gender to 35505; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT TEAM Men (maintainer 2026-10-13)"
+  },
+  {
+   "row": 25,
+   "seat": "ICF_ID6",
+   "printed_name": "SRAMEK Michal",
+   "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35504",
+   "detail": "on-site entry : bound by name+nation+gender to 35504; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT TEAM Men (maintainer 2026-10-13)"
   },
   {
    "row": 26,
    "seat": "ICF_ID1",
-   "printed_name": "TROUBADY Pierre/MORET Hugues",
+   "printed_name": "TROUBADY Pierre",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
    "published_id": "",
-   "action": "team_entry",
-   "detail": "C2 team boat: NameN is the crew label as published (wildwater); one seat holds two athletes, so no single id (as Muotathal 2018)"
+   "action": "kept",
+   "new_id": "39643",
+   "detail": "on-site entry : bound by name+nation+gender to 39643; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT TEAM Men (maintainer 2026-10-13)"
   },
   {
    "row": 26,
    "seat": "ICF_ID2",
-   "printed_name": "GOURJAULT Ancelin/SAUTEUR Nicolas",
+   "printed_name": "MORET Hugues",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
    "published_id": "",
-   "action": "team_entry",
-   "detail": "C2 team boat: NameN is the crew label as published (wildwater); one seat holds two athletes, so no single id (as Muotathal 2018)"
+   "action": "kept",
+   "new_id": "56142",
+   "detail": "on-site entry : bound by name+nation+gender to 56142; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT TEAM Men (maintainer 2026-10-13)"
   },
   {
    "row": 26,
    "seat": "ICF_ID3",
-   "printed_name": "SANTAMARIA Stephane/DAZEUR Quentin",
+   "printed_name": "GOURJAULT Ancelin",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
    "published_id": "",
-   "action": "team_entry",
-   "detail": "C2 team boat: NameN is the crew label as published (wildwater); one seat holds two athletes, so no single id (as Muotathal 2018)"
+   "action": "kept",
+   "new_id": "56131",
+   "detail": "on-site entry : bound by name+nation+gender to 56131; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT TEAM Men (maintainer 2026-10-13)"
+  },
+  {
+   "row": 26,
+   "seat": "ICF_ID4",
+   "printed_name": "SAUTEUR Nicolas",
+   "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "63173",
+   "detail": "on-site entry : bound by name+nation+gender to 63173; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT TEAM Men (maintainer 2026-10-13)"
+  },
+  {
+   "row": 26,
+   "seat": "ICF_ID5",
+   "printed_name": "SANTAMARIA Stephane",
+   "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "36791",
+   "detail": "on-site entry : bound by name+nation+gender to 36791; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT TEAM Men (maintainer 2026-10-13)"
+  },
+  {
+   "row": 26,
+   "seat": "ICF_ID6",
+   "printed_name": "DAZEUR Quentin",
+   "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "43141",
+   "detail": "on-site entry : bound by name+nation+gender to 43141; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT TEAM Men (maintainer 2026-10-13)"
   },
   {
    "row": 27,
@@ -753,14 +793,6 @@
    "printed_name": "MAENPAA Iisa",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
    "published_id": "72267",
-   "action": "kept"
-  },
-  {
-   "row": 254,
-   "seat": "ICF_ID1",
-   "printed_name": "GRZIN Alba Zoe",
-   "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
-   "published_id": "39677",
    "action": "kept"
   },
   {
@@ -1006,14 +1038,6 @@
    "action": "kept"
   },
   {
-   "row": 256,
-   "seat": "ICF_ID1",
-   "printed_name": "WEGMAN Martina",
-   "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
-   "published_id": "35345",
-   "action": "kept"
-  },
-  {
    "row": 134,
    "seat": "ICF_ID1",
    "printed_name": "NOBIS Constanza",
@@ -1200,7 +1224,7 @@
    "action": "kept"
   },
   {
-   "row": 260,
+   "row": 256,
    "seat": "ICF_ID1",
    "printed_name": "PANATO Cecilia",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1208,7 +1232,7 @@
    "action": "kept"
   },
   {
-   "row": 261,
+   "row": 257,
    "seat": "ICF_ID1",
    "printed_name": "DREIER Valentina",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1218,7 +1242,7 @@
    "detail": "family-name change rule (maintainer 2026-10-13): profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / K1 SPRINT Women; NOC/gender/given name match"
   },
   {
-   "row": 262,
+   "row": 258,
    "seat": "ICF_ID1",
    "printed_name": "DOMAJNKO Helena",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1226,7 +1250,7 @@
    "action": "kept"
   },
   {
-   "row": 263,
+   "row": 259,
    "seat": "ICF_ID1",
    "printed_name": "MILNE Laura",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1234,7 +1258,7 @@
    "action": "kept"
   },
   {
-   "row": 264,
+   "row": 260,
    "seat": "ICF_ID1",
    "printed_name": "VALDENAIRE Mathilde",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1242,7 +1266,7 @@
    "action": "kept"
   },
   {
-   "row": 265,
+   "row": 261,
    "seat": "ICF_ID1",
    "printed_name": "STEBLAJ Ana",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1250,7 +1274,7 @@
    "action": "kept"
   },
   {
-   "row": 266,
+   "row": 262,
    "seat": "ICF_ID1",
    "printed_name": "VINET Lise",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1258,7 +1282,7 @@
    "action": "kept"
   },
   {
-   "row": 267,
+   "row": 263,
    "seat": "ICF_ID1",
    "printed_name": "MUELLER Hannah",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1266,7 +1290,7 @@
    "action": "kept"
   },
   {
-   "row": 268,
+   "row": 264,
    "seat": "ICF_ID1",
    "printed_name": "NEMCOVA Marie",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1274,7 +1298,7 @@
    "action": "kept"
   },
   {
-   "row": 269,
+   "row": 265,
    "seat": "ICF_ID1",
    "printed_name": "DUPRAS Phenicia",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1282,7 +1306,7 @@
    "action": "kept"
   },
   {
-   "row": 270,
+   "row": 266,
    "seat": "ICF_ID1",
    "printed_name": "ECKERT Jil-Sophie",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1290,7 +1314,7 @@
    "action": "kept"
   },
   {
-   "row": 271,
+   "row": 267,
    "seat": "ICF_ID1",
    "printed_name": "KNEBLOVA Tereza",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1298,7 +1322,7 @@
    "action": "kept"
   },
   {
-   "row": 272,
+   "row": 268,
    "seat": "ICF_ID1",
    "printed_name": "KOSTLE Elisabeth",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1306,7 +1330,7 @@
    "action": "kept"
   },
   {
-   "row": 273,
+   "row": 269,
    "seat": "ICF_ID1",
    "printed_name": "FRESLON Pauline",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1314,7 +1338,7 @@
    "action": "kept"
   },
   {
-   "row": 274,
+   "row": 270,
    "seat": "ICF_ID1",
    "printed_name": "SATKOVA Martina",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1322,7 +1346,7 @@
    "action": "kept"
   },
   {
-   "row": 259,
+   "row": 255,
    "seat": "ICF_ID1",
    "printed_name": "MRUZEK Kamil",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1332,7 +1356,7 @@
    "detail": "forerunner bound by name+nation to 35521; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)"
   },
   {
-   "row": 275,
+   "row": 271,
    "seat": "ICF_ID1",
    "printed_name": "GALE Martin",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1340,7 +1364,7 @@
    "action": "kept"
   },
   {
-   "row": 276,
+   "row": 272,
    "seat": "ICF_ID1",
    "printed_name": "DANIK Ladislav",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1348,7 +1372,7 @@
    "action": "kept"
   },
   {
-   "row": 277,
+   "row": 273,
    "seat": "ICF_ID1",
    "printed_name": "BIANCHETTI Giacomo",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1356,7 +1380,7 @@
    "action": "kept"
   },
   {
-   "row": 278,
+   "row": 274,
    "seat": "ICF_ID1",
    "printed_name": "VANEK Matej",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1364,7 +1388,7 @@
    "action": "kept"
   },
   {
-   "row": 279,
+   "row": 275,
    "seat": "ICF_ID1",
    "printed_name": "QUINTARELLI Mattia",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1372,7 +1396,7 @@
    "action": "kept"
   },
   {
-   "row": 280,
+   "row": 276,
    "seat": "ICF_ID1",
    "printed_name": "MAPELLI Tommaso",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1380,7 +1404,7 @@
    "action": "kept"
   },
   {
-   "row": 281,
+   "row": 277,
    "seat": "ICF_ID1",
    "printed_name": "SAUTEUR Nicolas",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1388,7 +1412,7 @@
    "action": "kept"
   },
   {
-   "row": 282,
+   "row": 278,
    "seat": "ICF_ID1",
    "printed_name": "FERRION Charles",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1396,7 +1420,7 @@
    "action": "kept"
   },
   {
-   "row": 283,
+   "row": 279,
    "seat": "ICF_ID1",
    "printed_name": "DAZEUR Quentin",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1404,7 +1428,7 @@
    "action": "kept"
   },
   {
-   "row": 285,
+   "row": 280,
    "seat": "ICF_ID1",
    "printed_name": "ROLENC Ondrej",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1412,7 +1436,7 @@
    "action": "kept"
   },
   {
-   "row": 286,
+   "row": 281,
    "seat": "ICF_ID1",
    "printed_name": "SLANINA Vladimir",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1420,7 +1444,7 @@
    "action": "kept"
   },
   {
-   "row": 287,
+   "row": 282,
    "seat": "ICF_ID1",
    "printed_name": "KLATT Etienne",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1588,7 +1612,7 @@
    "action": "kept"
   },
   {
-   "row": 288,
+   "row": 283,
    "seat": "ICF_ID1",
    "printed_name": "BEERSCHWENGER Bjoern",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1596,7 +1620,7 @@
    "action": "kept"
   },
   {
-   "row": 289,
+   "row": 284,
    "seat": "ICF_ID1",
    "printed_name": "FENGLER Till",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1604,7 +1628,7 @@
    "action": "kept"
   },
   {
-   "row": 290,
+   "row": 285,
    "seat": "ICF_ID1",
    "printed_name": "NOVAK Tim",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1612,7 +1636,7 @@
    "action": "kept"
   },
   {
-   "row": 291,
+   "row": 286,
    "seat": "ICF_ID1",
    "printed_name": "SATKE Adam",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1620,7 +1644,7 @@
    "action": "kept"
   },
   {
-   "row": 292,
+   "row": 287,
    "seat": "ICF_ID1",
    "printed_name": "BERNARDI Andrea",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1628,7 +1652,7 @@
    "action": "kept"
   },
   {
-   "row": 293,
+   "row": 288,
    "seat": "ICF_ID1",
    "printed_name": "BOLZERN Linus",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1636,7 +1660,7 @@
    "action": "kept"
   },
   {
-   "row": 294,
+   "row": 289,
    "seat": "ICF_ID1",
    "printed_name": "ZAPLETAL Mikulas",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1644,7 +1668,7 @@
    "action": "kept"
   },
   {
-   "row": 295,
+   "row": 290,
    "seat": "ICF_ID1",
    "printed_name": "BARONE Luca",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1652,7 +1676,7 @@
    "action": "kept"
   },
   {
-   "row": 296,
+   "row": 291,
    "seat": "ICF_ID1",
    "printed_name": "URANKAR Anze",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1660,7 +1684,7 @@
    "action": "kept"
   },
   {
-   "row": 297,
+   "row": 292,
    "seat": "ICF_ID1",
    "printed_name": "ZNIDARCIC Nejc",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1668,7 +1692,7 @@
    "action": "kept"
   },
   {
-   "row": 298,
+   "row": 293,
    "seat": "ICF_ID1",
    "printed_name": "MORET Hugues",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1676,7 +1700,7 @@
    "action": "kept"
   },
   {
-   "row": 299,
+   "row": 294,
    "seat": "ICF_ID1",
    "printed_name": "MATEJICEK Vojtech",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1684,7 +1708,7 @@
    "action": "kept"
   },
   {
-   "row": 300,
+   "row": 295,
    "seat": "ICF_ID1",
    "printed_name": "BAROUH Maxence",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1692,7 +1716,7 @@
    "action": "kept"
   },
   {
-   "row": 301,
+   "row": 296,
    "seat": "ICF_ID1",
    "printed_name": "ZAPLETAL Vojtech",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -1700,7 +1724,7 @@
    "action": "kept"
   },
   {
-   "row": 302,
+   "row": 297,
    "seat": "ICF_ID1",
    "printed_name": "LEMMEN Yannic",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2038,7 +2062,7 @@
    "action": "kept"
   },
   {
-   "row": 303,
+   "row": 298,
    "seat": "ICF_ID1",
    "printed_name": "GRZIN Alba Zoe",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2046,7 +2070,7 @@
    "action": "kept"
   },
   {
-   "row": 304,
+   "row": 299,
    "seat": "ICF_ID1",
    "printed_name": "BARM Sabrina",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2054,7 +2078,7 @@
    "action": "kept"
   },
   {
-   "row": 305,
+   "row": 300,
    "seat": "ICF_ID1",
    "printed_name": "SCHOLCZOVA Viktoria",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2062,7 +2086,7 @@
    "action": "kept"
   },
   {
-   "row": 306,
+   "row": 301,
    "seat": "ICF_ID1",
    "printed_name": "DZIADKOVA Zuzana",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2070,7 +2094,7 @@
    "action": "kept"
   },
   {
-   "row": 307,
+   "row": 302,
    "seat": "ICF_ID1",
    "printed_name": "KOPUNOVA Katarina",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2078,7 +2102,7 @@
    "action": "kept"
   },
   {
-   "row": 308,
+   "row": 303,
    "seat": "ICF_ID1",
    "printed_name": "SATKOVA Martina",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2086,7 +2110,7 @@
    "action": "kept"
   },
   {
-   "row": 309,
+   "row": 304,
    "seat": "ICF_ID1",
    "printed_name": "FONTAINE Laura",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2094,7 +2118,7 @@
    "action": "kept"
   },
   {
-   "row": 310,
+   "row": 305,
    "seat": "ICF_ID1",
    "printed_name": "RAGUENES Helene",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2102,7 +2126,7 @@
    "action": "kept"
   },
   {
-   "row": 311,
+   "row": 306,
    "seat": "ICF_ID1",
    "printed_name": "GAUBERT Elsa",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2110,7 +2134,7 @@
    "action": "kept"
   },
   {
-   "row": 312,
+   "row": 307,
    "seat": "ICF_ID1",
    "printed_name": "PANATO Cecilia",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2118,7 +2142,7 @@
    "action": "kept"
   },
   {
-   "row": 313,
+   "row": 308,
    "seat": "ICF_ID1",
    "printed_name": "KNEBLOVA Tereza",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2126,7 +2150,7 @@
    "action": "kept"
   },
   {
-   "row": 314,
+   "row": 309,
    "seat": "ICF_ID1",
    "printed_name": "NEMCOVA Marie",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2134,7 +2158,7 @@
    "action": "kept"
   },
   {
-   "row": 315,
+   "row": 310,
    "seat": "ICF_ID1",
    "printed_name": "GOURJAULT Ancelin",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2144,7 +2168,7 @@
    "detail": "on-site entry 56131.63173: bound by name+nation+gender to 56131; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT TEAM Men (maintainer 2026-10-13)"
   },
   {
-   "row": 315,
+   "row": 310,
    "seat": "ICF_ID2",
    "printed_name": "SAUTEUR Nicolas",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2154,7 +2178,7 @@
    "detail": "on-site entry 56131.63173: bound by name+nation+gender to 63173; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT TEAM Men (maintainer 2026-10-13)"
   },
   {
-   "row": 316,
+   "row": 311,
    "seat": "ICF_ID1",
    "printed_name": "TOMEK Lukas",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2164,7 +2188,7 @@
    "detail": "on-site entry 35505.35504: bound by name+nation+gender to 35505; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT TEAM Men (maintainer 2026-10-13)"
   },
   {
-   "row": 316,
+   "row": 311,
    "seat": "ICF_ID2",
    "printed_name": "SRAMEK Michal",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2174,7 +2198,7 @@
    "detail": "on-site entry 35505.35504: bound by name+nation+gender to 35504; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT TEAM Men (maintainer 2026-10-13)"
   },
   {
-   "row": 317,
+   "row": 312,
    "seat": "ICF_ID1",
    "printed_name": "GRADISEK Nejc",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2184,7 +2208,7 @@
    "detail": "on-site entry 83918.93891: bound by name+nation+gender to 83918; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT Men (maintainer 2026-10-13)"
   },
   {
-   "row": 317,
+   "row": 312,
    "seat": "ICF_ID2",
    "printed_name": "GALE Martin",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2194,7 +2218,7 @@
    "detail": "on-site entry 83918.93891: bound by name+nation+gender to 93891; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT Men (maintainer 2026-10-13)"
   },
   {
-   "row": 318,
+   "row": 313,
    "seat": "ICF_ID1",
    "printed_name": "SANTAMARIA Stephane",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2204,7 +2228,7 @@
    "detail": "on-site entry 36791.43141: bound by name+nation+gender to 36791; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT TEAM Men (maintainer 2026-10-13)"
   },
   {
-   "row": 318,
+   "row": 313,
    "seat": "ICF_ID2",
    "printed_name": "DAZEUR Quentin",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2214,7 +2238,7 @@
    "detail": "on-site entry 36791.43141: bound by name+nation+gender to 43141; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT TEAM Men (maintainer 2026-10-13)"
   },
   {
-   "row": 319,
+   "row": 314,
    "seat": "ICF_ID1",
    "printed_name": "RYGEL Marek",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2224,7 +2248,7 @@
    "detail": "on-site entry 53303.35511: bound by name+nation+gender to 53303; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT Men (maintainer 2026-10-13)"
   },
   {
-   "row": 319,
+   "row": 314,
    "seat": "ICF_ID2",
    "printed_name": "VESELY Petr",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2234,7 +2258,7 @@
    "detail": "on-site entry 53303.35511: bound by name+nation+gender to 35511; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT Men (maintainer 2026-10-13)"
   },
   {
-   "row": 320,
+   "row": 315,
    "seat": "ICF_ID1",
    "printed_name": "QUINTARELLI Federico",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2244,7 +2268,7 @@
    "detail": "on-site entry 75789.39775: bound by name+nation+gender to 75789; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT Men (maintainer 2026-10-13)"
   },
   {
-   "row": 320,
+   "row": 315,
    "seat": "ICF_ID2",
    "printed_name": "QUINTARELLI Mattia",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2254,7 +2278,7 @@
    "detail": "on-site entry 75789.39775: bound by name+nation+gender to 39775; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT Men (maintainer 2026-10-13)"
   },
   {
-   "row": 321,
+   "row": 316,
    "seat": "ICF_ID1",
    "printed_name": "HALES Antonin",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2264,7 +2288,7 @@
    "detail": "on-site entry 35515.42247: bound by name+nation+gender to 35515; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT Men (maintainer 2026-10-13)"
   },
   {
-   "row": 321,
+   "row": 316,
    "seat": "ICF_ID2",
    "printed_name": "NOVAK Martin",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2274,7 +2298,7 @@
    "detail": "on-site entry 35515.42247: bound by name+nation+gender to 42247; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT Men (maintainer 2026-10-13)"
   },
   {
-   "row": 322,
+   "row": 317,
    "seat": "ICF_ID1",
    "printed_name": "HOCHSCHORNER Pavol",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2284,7 +2308,7 @@
    "detail": "on-site entry 35356.35357: bound by name+nation+gender to 35356; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT Men (maintainer 2026-10-13)"
   },
   {
-   "row": 322,
+   "row": 317,
    "seat": "ICF_ID2",
    "printed_name": "HOCHSCHORNER Peter",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2294,7 +2318,7 @@
    "detail": "on-site entry 35356.35357: bound by name+nation+gender to 35357; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT Men (maintainer 2026-10-13)"
   },
   {
-   "row": 323,
+   "row": 318,
    "seat": "ICF_ID1",
    "printed_name": "TROUBADY Pierre",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2304,7 +2328,7 @@
    "detail": "on-site entry 39643.56142: bound by name+nation+gender to 39643; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT TEAM Men (maintainer 2026-10-13)"
   },
   {
-   "row": 323,
+   "row": 318,
    "seat": "ICF_ID2",
    "printed_name": "MORET Hugues",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2314,7 +2338,7 @@
    "detail": "on-site entry 39643.56142: bound by name+nation+gender to 56142; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT TEAM Men (maintainer 2026-10-13)"
   },
   {
-   "row": 324,
+   "row": 319,
    "seat": "ICF_ID1",
    "printed_name": "SUCHANEK Daniel",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2324,7 +2348,7 @@
    "detail": "on-site entry 42246.35512: bound by name+nation+gender to 42246; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT Men (maintainer 2026-10-13)"
   },
   {
-   "row": 324,
+   "row": 319,
    "seat": "ICF_ID2",
    "printed_name": "ROLENC Ondrej",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
@@ -2793,14 +2817,6 @@
    "printed_name": "WEWEGE Donovan",
    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
    "published_id": "39241",
-   "action": "kept"
-  },
-  {
-   "row": 255,
-   "seat": "ICF_ID1",
-   "printed_name": "SOUDI Mathis",
-   "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
-   "published_id": "69447",
    "action": "kept"
   },
   {
@@ -3408,26 +3424,6 @@
    "detail": "on-site entry 56131.63173: bound by name+nation+gender to 63173; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT TEAM Men (maintainer 2026-10-13)"
   },
   {
-   "row": 257,
-   "seat": "ICF_ID1",
-   "printed_name": "OBADIC Luka",
-   "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
-   "published_id": "",
-   "action": "kept",
-   "new_id": "39639",
-   "detail": "on-site entry 39639.39671: bound by name+nation+gender to 39639; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT Men (maintainer 2026-10-13)"
-  },
-  {
-   "row": 257,
-   "seat": "ICF_ID2",
-   "printed_name": "TOLIC Ivan",
-   "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
-   "published_id": "",
-   "action": "kept",
-   "new_id": "39671",
-   "detail": "on-site entry 39639.39671: bound by name+nation+gender to 39671; profile lists 2021 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT Men (maintainer 2026-10-13)"
-  },
-  {
    "row": 241,
    "seat": "ICF_ID1",
    "printed_name": "SKAKALA Juraj",
@@ -3491,10 +3487,9 @@
  "id_summary": {
   "forerunner_unbound": 2,
   "forerunner": 5,
-  "kept": 396,
-  "team": 6,
-  "name_change": 5,
-  "onsite_bound": 68
+  "kept": 400,
+  "onsite_bound": 78,
+  "name_change": 5
  },
  "pending_maintainer": [],
  "issues": [],

@@ -10,16 +10,16 @@
  "sheet": "Krakow_2018_WC_start.xlsx",
  "grade": "PERFECT",
  "gaps": [],
- "generated_at_utc": "2026-10-15T07:46:22Z",
- "updated_at": "2026-10-15T07:46:59Z",
+ "generated_at_utc": "2026-10-15T09:08:59Z",
+ "updated_at": "2026-10-15T09:15:49Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "Krakow_2018_WC_start.xlsx",
-   "sha256": "c58482c55a526a2f9b795bee2676ff0bf59228cebad4d87e65fc86c84ae6b932"
+   "sha256": "48dd0630c11add3e780a4ea5b87ea1a0d3f67052729943cb4829d95bbe6bdcbc"
   }
  ],
- "row_count": 714,
+ "row_count": 712,
  "source": {
   "archive": "https://siwidata.blob.core.windows.net/sessions/1301.initchangeset.session.js",
   "archive_sha256": "5cb5b21b7354ef7080465febb649eb3fa1dc852299dc03ce6fdf4d6191b61806",
@@ -30,11 +30,6 @@
   "started_or_unit_actual": 656,
   "slot_no_actual": [
    {
-    "name": "SATILA Ana",
-    "phase": "Time Trials",
-    "irm": "DNS"
-   },
-   {
     "name": "STACH Aleksandra",
     "phase": "Heats",
     "irm": null
@@ -42,11 +37,6 @@
    {
     "name": "MAJERCZAK Grzegorz",
     "phase": "Forerunner",
-    "irm": "DNS"
-   },
-   {
-    "name": "TILLARD Pierre-Antoine",
-    "phase": "Semifinal",
     "irm": "DNS"
    },
    {
@@ -324,7 +314,12 @@
  "rank_source": "SIWIDATA 1301 final RankingRow (official ranking in the archive)",
  "unranked_finals": [],
  "ain_log": [],
- "dropped": [],
+ "placeholders": [],
+ "spellings": [],
+ "dropped": [
+  "DNS SATILA Ana K1W Cross Time Trials 1 slot 2018-07-03 14:09:45: outside its own heat (['2018-06-28']); dropped+logged (maintainer 2026-10-15)",
+  "DNS TILLARD Pierre-Antoine C2X  Semifinal 1 slot 2018-07-03 14:40:00: outside its own heat (['2018-06-30']); dropped+logged (maintainer 2026-10-15)"
+ ],
  "id_checks": [
   {
    "row": 2,
@@ -428,14 +423,6 @@
    "printed_name": "WEGMAN Martina",
    "source": "SIWIDATA session 1301 Code + paddleworldwide.com/athlete/<id>",
    "published_id": "35345",
-   "action": "kept"
-  },
-  {
-   "row": 712,
-   "seat": "ICF_ID1",
-   "printed_name": "SATILA Ana",
-   "source": "SIWIDATA session 1301 Code + paddleworldwide.com/athlete/<id>",
-   "published_id": "35327",
    "action": "kept"
   },
   {
@@ -2552,7 +2539,7 @@
    "action": "kept"
   },
   {
-   "row": 715,
+   "row": 713,
    "seat": "ICF_ID1",
    "printed_name": "STACH Aleksandra",
    "source": "SIWIDATA session 1301 Code + paddleworldwide.com/athlete/<id>",
@@ -4736,7 +4723,7 @@
    "action": "kept"
   },
   {
-   "row": 713,
+   "row": 712,
    "seat": "ICF_ID1",
    "printed_name": "MAJERCZAK Grzegorz",
    "source": "SIWIDATA session 1301 Code + paddleworldwide.com/athlete/<id>",
@@ -4823,22 +4810,6 @@
    "printed_name": "MRUZEK Vojtech",
    "source": "SIWIDATA session 1301 Code + paddleworldwide.com/athlete/<id>",
    "published_id": "42012",
-   "action": "kept"
-  },
-  {
-   "row": 714,
-   "seat": "ICF_ID1",
-   "printed_name": "TILLARD Pierre-Antoine",
-   "source": "SIWIDATA session 1301 Code + paddleworldwide.com/athlete/<id>",
-   "published_id": "35413",
-   "action": "kept"
-  },
-  {
-   "row": 714,
-   "seat": "ICF_ID2",
-   "printed_name": "PRIOUX Lucie",
-   "source": "SIWIDATA session 1301 Code + paddleworldwide.com/athlete/<id>",
-   "published_id": "42984",
    "action": "kept"
   },
   {
@@ -6308,7 +6279,7 @@
   }
  ],
  "id_summary": {
-  "kept": 704,
+  "kept": 701,
   "no_icf_id": 7,
   "forerunner": 26,
   "name_change": 8
@@ -6317,15 +6288,6 @@
  "issues": [],
  "shared_start_clash": [],
  "scheduled_races": [
-  {
-   "START_DATE": "2018-07-03",
-   "START_TIME": "14:09:45",
-   "GENDER": "W",
-   "EVENT": "K1",
-   "PHASE": "Time Trials",
-   "UNIT": "1",
-   "SOURCE": "ScheduledStartTime (no actual)"
-  },
   {
    "START_DATE": "2018-07-03",
    "START_TIME": "15:04:00",
@@ -6341,15 +6303,6 @@
    "GENDER": "M",
    "EVENT": "C2",
    "PHASE": "Forerunner",
-   "UNIT": "1",
-   "SOURCE": "ScheduledStartTime (no actual)"
-  },
-  {
-   "START_DATE": "2018-07-03",
-   "START_TIME": "14:40:00",
-   "GENDER": "X",
-   "EVENT": "C2",
-   "PHASE": "Semifinal",
    "UNIT": "1",
    "SOURCE": "ScheduledStartTime (no actual)"
   },
