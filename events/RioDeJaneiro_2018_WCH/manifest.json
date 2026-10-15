@@ -8,20 +8,18 @@
  "siwidata": "1094",
  "dates": "2018-09-25/2018-09-30",
  "sheet": "RioDeJaneiro_2018_WCH_start.xlsx",
- "grade": "USABLE",
- "gaps": [
-  "icf_ids_incomplete"
- ],
- "generated_at_utc": "2026-10-15T07:53:10Z",
- "updated_at": "2026-10-15T07:54:22Z",
+ "grade": "PERFECT",
+ "gaps": [],
+ "generated_at_utc": "2026-10-15T09:10:20Z",
+ "updated_at": "2026-10-15T09:16:56Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "RioDeJaneiro_2018_WCH_start.xlsx",
-   "sha256": "de73f83dcd765a89e5ff348a096d44025215f7a56e10a48538382cb433632b24"
+   "sha256": "3cd4224d844d3519eff28d5c4c04a2c9584edb6e9ffb094fc230bc6e1029b304"
   }
  ],
- "row_count": 834,
+ "row_count": 826,
  "source": {
   "archive": "https://siwidata.blob.core.windows.net/sessions/1094.initchangeset.session.js",
   "archive_sha256": "c444e78cc5f42e152c7d397fe86300055dfe9453e6e8c1e8744df6a77f52e41c",
@@ -32,48 +30,8 @@
   "started_or_unit_actual": 715,
   "slot_no_actual": [
    {
-    "name": "CHEN Fangjia",
-    "phase": "Teams",
-    "irm": "DNS"
-   },
-   {
     "name": "CRUZ Bruno",
     "phase": "Forerunner",
-    "irm": "DNS"
-   },
-   {
-    "name": "BETTERIDGE Lois",
-    "phase": "Heats",
-    "irm": "DNS"
-   },
-   {
-    "name": "NOBIS Constanza",
-    "phase": "Heats",
-    "irm": "DNS"
-   },
-   {
-    "name": "BETTERIDGE Lois",
-    "phase": "Heats",
-    "irm": "DNS"
-   },
-   {
-    "name": "VAN DER KNIJFF Annebel",
-    "phase": "Time Trials",
-    "irm": "DNS"
-   },
-   {
-    "name": "DE GENNARO Giovanni",
-    "phase": "Time Trials",
-    "irm": "DNS"
-   },
-   {
-    "name": "DOUGOUD Martin",
-    "phase": "Time Trials",
-    "irm": "DNS"
-   },
-   {
-    "name": "LAZKANO Miren",
-    "phase": "Semifinal",
     "irm": "DNS"
    },
    {
@@ -631,61 +589,115 @@
  "rank_source": "SIWIDATA 1094 final RankingRow (official ranking in the archive)",
  "unranked_finals": [],
  "ain_log": [],
- "dropped": [],
+ "placeholders": [
+  {
+   "row_name": "Forerunners C1M",
+   "phase": "Forerunner",
+   "date": "2018-09-25",
+   "time": "09:30:01",
+   "note": "placeholder name kept as row, name cell empty (maintainer 2026-10-15)"
+  },
+  {
+   "row_name": "Forerunners K1M",
+   "phase": "Forerunner",
+   "date": "2018-09-25",
+   "time": "09:31:59",
+   "note": "placeholder name kept as row, name cell empty (maintainer 2026-10-15)"
+  },
+  {
+   "row_name": "Forerunners K1W",
+   "phase": "Forerunner",
+   "date": "2018-09-25",
+   "time": "09:34:01",
+   "note": "placeholder name kept as row, name cell empty (maintainer 2026-10-15)"
+  },
+  {
+   "row_name": "Forerunners C1M",
+   "phase": "Forerunner",
+   "date": "2018-09-25",
+   "time": "11:00:02",
+   "note": "placeholder name kept as row, name cell empty (maintainer 2026-10-15)"
+  },
+  {
+   "row_name": "Forerunners K1M",
+   "phase": "Forerunner",
+   "date": "2018-09-25",
+   "time": "11:02:30",
+   "note": "placeholder name kept as row, name cell empty (maintainer 2026-10-15)"
+  },
+  {
+   "row_name": "Forerunners K1W",
+   "phase": "Forerunner",
+   "date": "2018-09-25",
+   "time": "11:05:01",
+   "note": "placeholder name kept as row, name cell empty (maintainer 2026-10-15)"
+  }
+ ],
+ "spellings": [],
+ "dropped": [
+  "DNS CHEN Fangjia C1M  Teams 1 slot 2018-09-30 12:00:00: outside its own heat (['2018-09-25']); dropped+logged (maintainer 2026-10-15)",
+  "DNS BETTERIDGE Lois K1W  Heats 1 slot 2018-09-30 11:27:00: outside its own heat (['2018-09-26']); dropped+logged (maintainer 2026-10-15)",
+  "DNS NOBIS Constanza K1W  Heats 2 slot 2018-09-30 14:41:00: outside its own heat (['2018-09-26']); dropped+logged (maintainer 2026-10-15)",
+  "DNS BETTERIDGE Lois K1W  Heats 2 slot 2018-09-30 14:52:00: outside its own heat (['2018-09-26']); dropped+logged (maintainer 2026-10-15)",
+  "DNS VAN DER KNIJFF Annebel K1W Cross Time Trials 1 slot 2018-09-30 15:03:00: outside its own heat (['2018-09-27']); dropped+logged (maintainer 2026-10-15)",
+  "DNS DE GENNARO Giovanni K1M Cross Time Trials 1 slot 2018-09-30 15:43:30: outside its own heat (['2018-09-27']); dropped+logged (maintainer 2026-10-15)",
+  "DNS DOUGOUD Martin K1M Cross Time Trials 1 slot 2018-09-30 15:39:45: outside its own heat (['2018-09-27']); dropped+logged (maintainer 2026-10-15)",
+  "DNS LAZKANO Miren C2X  Semifinal 1 slot 2018-09-30 09:02:00: outside its own heat (['2018-09-28']); dropped+logged (maintainer 2026-10-15)"
+ ],
  "id_checks": [
   {
    "row": 2,
    "seat": "ICF_ID1",
-   "printed_name": "Forerunners C1M",
+   "printed_name": null,
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
    "published_id": "",
    "action": "forerunner",
-   "detail": "forerunner_unbound: no ICF profile for 'Forerunners C1M' 'BRA'; Gender empty, logged (maintainer 2026-10-13)"
+   "detail": "forerunner_unbound: no ICF profile for None 'BRA'; Gender empty, logged (maintainer 2026-10-13)"
   },
   {
    "row": 3,
    "seat": "ICF_ID1",
-   "printed_name": "Forerunners K1M",
+   "printed_name": null,
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
    "published_id": "",
    "action": "forerunner",
-   "detail": "forerunner_unbound: no ICF profile for 'Forerunners K1M' 'BRA'; Gender empty, logged (maintainer 2026-10-13)"
+   "detail": "forerunner_unbound: no ICF profile for None 'BRA'; Gender empty, logged (maintainer 2026-10-13)"
   },
   {
    "row": 4,
    "seat": "ICF_ID1",
-   "printed_name": "Forerunners K1W",
+   "printed_name": null,
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
    "published_id": "",
    "action": "forerunner",
-   "detail": "forerunner_unbound: no ICF profile for 'Forerunners K1W' 'BRA'; Gender empty, logged (maintainer 2026-10-13)"
+   "detail": "forerunner_unbound: no ICF profile for None 'BRA'; Gender empty, logged (maintainer 2026-10-13)"
   },
   {
    "row": 5,
    "seat": "ICF_ID1",
-   "printed_name": "Forerunners C1M",
+   "printed_name": null,
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
    "published_id": "",
    "action": "forerunner",
-   "detail": "forerunner_unbound: no ICF profile for 'Forerunners C1M' 'BRA'; Gender empty, logged (maintainer 2026-10-13)"
+   "detail": "forerunner_unbound: no ICF profile for None 'BRA'; Gender empty, logged (maintainer 2026-10-13)"
   },
   {
    "row": 6,
    "seat": "ICF_ID1",
-   "printed_name": "Forerunners K1M",
+   "printed_name": null,
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
    "published_id": "",
    "action": "forerunner",
-   "detail": "forerunner_unbound: no ICF profile for 'Forerunners K1M' 'BRA'; Gender empty, logged (maintainer 2026-10-13)"
+   "detail": "forerunner_unbound: no ICF profile for None 'BRA'; Gender empty, logged (maintainer 2026-10-13)"
   },
   {
    "row": 7,
    "seat": "ICF_ID1",
-   "printed_name": "Forerunners K1W",
+   "printed_name": null,
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
    "published_id": "",
    "action": "forerunner",
-   "detail": "forerunner_unbound: no ICF profile for 'Forerunners K1W' 'BRA'; Gender empty, logged (maintainer 2026-10-13)"
+   "detail": "forerunner_unbound: no ICF profile for None 'BRA'; Gender empty, logged (maintainer 2026-10-13)"
   },
   {
    "row": 8,
@@ -1121,32 +1133,6 @@
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
    "published_id": "39699",
    "action": "kept"
-  },
-  {
-   "row": 720,
-   "seat": "ICF_ID1",
-   "printed_name": "CHEN Fangjia",
-   "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
-   "published_id": "42638",
-   "action": "kept"
-  },
-  {
-   "row": 720,
-   "seat": "ICF_ID2",
-   "printed_name": "ZHANG Peng",
-   "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
-   "published_id": "63799",
-   "action": "kept"
-  },
-  {
-   "row": 720,
-   "seat": "ICF_ID3",
-   "printed_name": "ZHU Haoran",
-   "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
-   "published_id": "",
-   "action": "kept",
-   "new_id": "43553",
-   "detail": "on-site entry : bound by name+nation+gender to 43553; profile lists 2018 ICF CANOE SLALOM WORLD CHAMPIONSHIPS / C1x3 Men (maintainer 2026-10-13)"
   },
   {
    "row": 26,
@@ -2303,7 +2289,7 @@
    "event_log": "no source prints the class and no following block that day: Event empty (maintainer 2026-10-13 14:34)"
   },
   {
-   "row": 835,
+   "row": 827,
    "seat": "ICF_ID1",
    "printed_name": "CRUZ Bruno",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -2905,14 +2891,6 @@
    "printed_name": "SOUZA COSTA Marina",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
    "published_id": "42972",
-   "action": "kept"
-  },
-  {
-   "row": 719,
-   "seat": "ICF_ID1",
-   "printed_name": "BETTERIDGE Lois",
-   "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
-   "published_id": "60078",
    "action": "kept"
   },
   {
@@ -3600,14 +3578,6 @@
    "action": "kept"
   },
   {
-   "row": 771,
-   "seat": "ICF_ID1",
-   "printed_name": "NOBIS Constanza",
-   "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
-   "published_id": "80605",
-   "action": "kept"
-  },
-  {
    "row": 235,
    "seat": "ICF_ID1",
    "printed_name": "INZUNZA Maria",
@@ -3685,14 +3655,6 @@
    "printed_name": "SOUZA COSTA Marina",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
    "published_id": "42972",
-   "action": "kept"
-  },
-  {
-   "row": 775,
-   "seat": "ICF_ID1",
-   "printed_name": "BETTERIDGE Lois",
-   "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
-   "published_id": "60078",
    "action": "kept"
   },
   {
@@ -5490,14 +5452,6 @@
    "action": "kept"
   },
   {
-   "row": 776,
-   "seat": "ICF_ID1",
-   "printed_name": "VAN DER KNIJFF Annebel",
-   "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
-   "published_id": "39945",
-   "action": "kept"
-  },
-  {
    "row": 475,
    "seat": "ICF_ID1",
    "printed_name": "CASSINI Maria Luz",
@@ -5648,14 +5602,6 @@
    "printed_name": "HORN Stefanie",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
    "published_id": "38417",
-   "action": "kept"
-  },
-  {
-   "row": 790,
-   "seat": "ICF_ID1",
-   "printed_name": "DE GENNARO Giovanni",
-   "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
-   "published_id": "35244",
    "action": "kept"
   },
   {
@@ -5816,8 +5762,9 @@
    "printed_name": "MACKIC Dusan",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
    "published_id": "",
-   "action": "emptied",
-   "detail": "on-site entry 636736340455586047: name+nation+gender bind 72217, but profile does not list the competition (^2018 ICF CANOE SLALOM WORLD CHAMPIONSHIPS$) and class"
+   "action": "corrected",
+   "detail": "same-meeting bind (contract): 72217 kept on this athlete's other seats; was: on-site entry 636736340455586047: name+nation+gender bind 72217, but profile does not list the competition (^2018 ICF CA",
+   "new_id": "72217"
   },
   {
    "row": 493,
@@ -5865,14 +5812,6 @@
    "printed_name": "DAWSON Mike",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
    "published_id": "36656",
-   "action": "kept"
-  },
-  {
-   "row": 785,
-   "seat": "ICF_ID1",
-   "printed_name": "DOUGOUD Martin",
-   "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
-   "published_id": "35426",
    "action": "kept"
   },
   {
@@ -5941,22 +5880,6 @@
    "printed_name": "ESTACIA NETA Omira",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
    "published_id": "60494",
-   "action": "kept"
-  },
-  {
-   "row": 694,
-   "seat": "ICF_ID1",
-   "printed_name": "LAZKANO Miren",
-   "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
-   "published_id": "35748",
-   "action": "kept"
-  },
-  {
-   "row": 694,
-   "seat": "ICF_ID2",
-   "printed_name": "LLORENTE David",
-   "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
-   "published_id": "51850",
    "action": "kept"
   },
   {
@@ -7496,7 +7419,7 @@
    "action": "kept"
   },
   {
-   "row": 697,
+   "row": 696,
    "seat": "ICF_ID1",
    "printed_name": "OLIVEIRA Anderson",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7506,7 +7429,7 @@
    "detail": "forerunner bound by name+nation to 38020; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)"
   },
   {
-   "row": 698,
+   "row": 697,
    "seat": "ICF_ID1",
    "printed_name": "RODRIGUES Guilherme",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7516,7 +7439,7 @@
    "detail": "forerunner bound by name+nation to 60486; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)"
   },
   {
-   "row": 695,
+   "row": 694,
    "seat": "ICF_ID1",
    "printed_name": "ESTACIA NETA Omira",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7526,7 +7449,7 @@
    "detail": "forerunner bound by name+nation to 60494; Gender W from ICF profile; profile lists 2018 ICF CANOE SLALOM WORLD CHAMPIONSHIPS / C1 Women"
   },
   {
-   "row": 696,
+   "row": 695,
    "seat": "ICF_ID1",
    "printed_name": "VILARRUBLA Nuria",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7536,7 +7459,7 @@
    "detail": "forerunner bound by name+nation to 35746; Gender W from ICF profile; profile lists 2018 ICF CANOE SLALOM WORLD CHAMPIONSHIPS / C1x3 Women"
   },
   {
-   "row": 699,
+   "row": 698,
    "seat": "ICF_ID1",
    "printed_name": "WERATSCHNIG Nadine",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7544,7 +7467,7 @@
    "action": "kept"
   },
   {
-   "row": 700,
+   "row": 699,
    "seat": "ICF_ID1",
    "printed_name": "FISEROVA Tereza",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7554,7 +7477,7 @@
    "detail": "family-name change rule (maintainer 2026-10-13): profile lists 2018 ICF CANOE SLALOM WORLD CHAMPIONSHIPS / C1x3 Women; NOC/gender/given name match"
   },
   {
-   "row": 701,
+   "row": 700,
    "seat": "ICF_ID1",
    "printed_name": "STANOVSKA Sona",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7562,7 +7485,7 @@
    "action": "kept"
   },
   {
-   "row": 702,
+   "row": 701,
    "seat": "ICF_ID1",
    "printed_name": "STOECKLIN Lena",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7570,7 +7493,7 @@
    "action": "kept"
   },
   {
-   "row": 703,
+   "row": 702,
    "seat": "ICF_ID1",
    "printed_name": "LAWRENCE Rosalyn",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7578,7 +7501,7 @@
    "action": "kept"
   },
   {
-   "row": 704,
+   "row": 703,
    "seat": "ICF_ID1",
    "printed_name": "WOLFFHARDT Viktoria",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7586,7 +7509,7 @@
    "action": "kept"
   },
   {
-   "row": 705,
+   "row": 704,
    "seat": "ICF_ID1",
    "printed_name": "FRANKLIN Mallory",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7594,7 +7517,7 @@
    "action": "kept"
   },
   {
-   "row": 706,
+   "row": 705,
    "seat": "ICF_ID1",
    "printed_name": "SATILA Ana",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7602,7 +7525,7 @@
    "action": "kept"
   },
   {
-   "row": 707,
+   "row": 706,
    "seat": "ICF_ID1",
    "printed_name": "FOX Jessica",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7610,7 +7533,7 @@
    "action": "kept"
   },
   {
-   "row": 708,
+   "row": 707,
    "seat": "ICF_ID1",
    "printed_name": "FORROW Bethan",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7618,7 +7541,7 @@
    "action": "kept"
   },
   {
-   "row": 709,
+   "row": 708,
    "seat": "ICF_ID1",
    "printed_name": "NEVEU Boris",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7626,7 +7549,7 @@
    "action": "kept"
   },
   {
-   "row": 710,
+   "row": 709,
    "seat": "ICF_ID1",
    "printed_name": "EIGEL Pavel",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7634,7 +7557,7 @@
    "action": "kept"
   },
   {
-   "row": 711,
+   "row": 710,
    "seat": "ICF_ID1",
    "printed_name": "PRINDIS Vit",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7642,7 +7565,7 @@
    "action": "kept"
   },
   {
-   "row": 712,
+   "row": 711,
    "seat": "ICF_ID1",
    "printed_name": "AIGNER Hannes",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7650,7 +7573,7 @@
    "action": "kept"
   },
   {
-   "row": 713,
+   "row": 712,
    "seat": "ICF_ID1",
    "printed_name": "DE GENNARO Giovanni",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7658,7 +7581,7 @@
    "action": "kept"
   },
   {
-   "row": 714,
+   "row": 713,
    "seat": "ICF_ID1",
    "printed_name": "KAUZER Peter",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7666,7 +7589,7 @@
    "action": "kept"
   },
   {
-   "row": 715,
+   "row": 714,
    "seat": "ICF_ID1",
    "printed_name": "TUNKA Ondrej",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7674,7 +7597,7 @@
    "action": "kept"
   },
   {
-   "row": 716,
+   "row": 715,
    "seat": "ICF_ID1",
    "printed_name": "PRSKAVEC Jiri",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7682,7 +7605,7 @@
    "action": "kept"
   },
   {
-   "row": 717,
+   "row": 716,
    "seat": "ICF_ID1",
    "printed_name": "PASIUT Michal",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7690,7 +7613,7 @@
    "action": "kept"
   },
   {
-   "row": 718,
+   "row": 717,
    "seat": "ICF_ID1",
    "printed_name": "CLARKE Joseph",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7698,7 +7621,7 @@
    "action": "kept"
   },
   {
-   "row": 723,
+   "row": 720,
    "seat": "ICF_ID1",
    "printed_name": "WEGMAN Martina",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7706,7 +7629,7 @@
    "action": "kept"
   },
   {
-   "row": 721,
+   "row": 718,
    "seat": "ICF_ID1",
    "printed_name": "FOX Noemie",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7714,7 +7637,7 @@
    "action": "kept"
   },
   {
-   "row": 722,
+   "row": 719,
    "seat": "ICF_ID1",
    "printed_name": "MINAZOVA Alsu",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7722,7 +7645,7 @@
    "action": "kept"
   },
   {
-   "row": 724,
+   "row": 721,
    "seat": "ICF_ID1",
    "printed_name": "NEE Ashley",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7730,7 +7653,7 @@
    "action": "kept"
   },
   {
-   "row": 725,
+   "row": 722,
    "seat": "ICF_ID1",
    "printed_name": "NOVAK Ajda",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7738,7 +7661,7 @@
    "action": "kept"
   },
   {
-   "row": 727,
+   "row": 724,
    "seat": "ICF_ID1",
    "printed_name": "MUKHGALEEVA Polina",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7746,7 +7669,7 @@
    "action": "kept"
   },
   {
-   "row": 728,
+   "row": 725,
    "seat": "ICF_ID1",
    "printed_name": "STANOVSKA Sona",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7754,7 +7677,7 @@
    "action": "kept"
   },
   {
-   "row": 726,
+   "row": 723,
    "seat": "ICF_ID1",
    "printed_name": "INZUNZA Maria",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7762,7 +7685,7 @@
    "action": "kept"
   },
   {
-   "row": 729,
+   "row": 726,
    "seat": "ICF_ID1",
    "printed_name": "BAUDU Lucie",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7770,7 +7693,7 @@
    "action": "kept"
   },
   {
-   "row": 730,
+   "row": 727,
    "seat": "ICF_ID1",
    "printed_name": "LAWRENCE Rosalyn",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7778,7 +7701,7 @@
    "action": "kept"
   },
   {
-   "row": 731,
+   "row": 728,
    "seat": "ICF_ID1",
    "printed_name": "LIRA Pilar",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7786,7 +7709,7 @@
    "action": "kept"
   },
   {
-   "row": 734,
+   "row": 731,
    "seat": "ICF_ID1",
    "printed_name": "HORN Stefanie",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7794,7 +7717,7 @@
    "action": "kept"
   },
   {
-   "row": 733,
+   "row": 730,
    "seat": "ICF_ID1",
    "printed_name": "ESTACIA NETA Omira",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7802,7 +7725,7 @@
    "action": "kept"
   },
   {
-   "row": 732,
+   "row": 729,
    "seat": "ICF_ID1",
    "printed_name": "DANIELS Haley",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7810,7 +7733,7 @@
    "action": "kept"
   },
   {
-   "row": 737,
+   "row": 734,
    "seat": "ICF_ID1",
    "printed_name": "SATILA Ana",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7818,7 +7741,7 @@
    "action": "kept"
   },
   {
-   "row": 735,
+   "row": 732,
    "seat": "ICF_ID1",
    "printed_name": "LAFONT Marie-Zelia",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7826,7 +7749,7 @@
    "action": "kept"
   },
   {
-   "row": 736,
+   "row": 733,
    "seat": "ICF_ID1",
    "printed_name": "REINOSO Sofia",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7834,7 +7757,7 @@
    "action": "kept"
   },
   {
-   "row": 739,
+   "row": 736,
    "seat": "ICF_ID1",
    "printed_name": "US Viktoriia",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7842,7 +7765,7 @@
    "action": "kept"
   },
   {
-   "row": 740,
+   "row": 737,
    "seat": "ICF_ID1",
    "printed_name": "VALIKOVA Barbora",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7851,7 +7774,7 @@
    "detail": "archive id 37267 failed (name-check failed; keep-rule not unique; repair not unique; no ICF athlete carries given+family); contract: no ICF athlete carries the printed given+family name"
   },
   {
-   "row": 738,
+   "row": 735,
    "seat": "ICF_ID1",
    "printed_name": "ROSSI Carolina",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7859,7 +7782,7 @@
    "action": "kept"
   },
   {
-   "row": 743,
+   "row": 740,
    "seat": "ICF_ID1",
    "printed_name": "VOJTOVA Veronika",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7867,7 +7790,7 @@
    "action": "kept"
   },
   {
-   "row": 742,
+   "row": 739,
    "seat": "ICF_ID1",
    "printed_name": "MAHEU Florence",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7875,7 +7798,7 @@
    "action": "kept"
   },
   {
-   "row": 741,
+   "row": 738,
    "seat": "ICF_ID1",
    "printed_name": "CASSINI Maria Luz",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7883,7 +7806,7 @@
    "action": "kept"
   },
   {
-   "row": 746,
+   "row": 743,
    "seat": "ICF_ID1",
    "printed_name": "TUNKA Ondrej",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7891,7 +7814,7 @@
    "action": "kept"
   },
   {
-   "row": 744,
+   "row": 741,
    "seat": "ICF_ID1",
    "printed_name": "MAIMISTOV Sergey",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7899,7 +7822,7 @@
    "action": "kept"
   },
   {
-   "row": 745,
+   "row": 742,
    "seat": "ICF_ID1",
    "printed_name": "TSVIET Igor",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7907,7 +7830,7 @@
    "action": "kept"
   },
   {
-   "row": 747,
+   "row": 744,
    "seat": "ICF_ID1",
    "printed_name": "BERSINGER Thomas",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7915,7 +7838,7 @@
    "action": "kept"
   },
   {
-   "row": 748,
+   "row": 745,
    "seat": "ICF_ID1",
    "printed_name": "DAWSON Mike",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7923,7 +7846,7 @@
    "action": "kept"
   },
   {
-   "row": 749,
+   "row": 746,
    "seat": "ICF_ID1",
    "printed_name": "HERNANZ Samuel",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7931,7 +7854,7 @@
    "action": "kept"
   },
   {
-   "row": 750,
+   "row": 747,
    "seat": "ICF_ID1",
    "printed_name": "ROSSI Lucas",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7939,7 +7862,7 @@
    "action": "kept"
   },
   {
-   "row": 752,
+   "row": 749,
    "seat": "ICF_ID1",
    "printed_name": "NEVEU Boris",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7947,7 +7870,7 @@
    "action": "kept"
   },
   {
-   "row": 751,
+   "row": 748,
    "seat": "ICF_ID1",
    "printed_name": "KANCLER Tine",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7955,7 +7878,7 @@
    "action": "kept"
   },
   {
-   "row": 754,
+   "row": 751,
    "seat": "ICF_ID1",
    "printed_name": "WAHLEN Fredrik",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7963,7 +7886,7 @@
    "action": "kept"
   },
   {
-   "row": 753,
+   "row": 750,
    "seat": "ICF_ID1",
    "printed_name": "REINOSO DIAZ Antonio",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7971,7 +7894,7 @@
    "action": "kept"
   },
   {
-   "row": 758,
+   "row": 755,
    "seat": "ICF_ID1",
    "printed_name": "RODRIGUES Fabio",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7979,7 +7902,7 @@
    "action": "kept"
   },
   {
-   "row": 757,
+   "row": 754,
    "seat": "ICF_ID1",
    "printed_name": "HAYWARD Ben",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7987,7 +7910,7 @@
    "action": "kept"
   },
   {
-   "row": 756,
+   "row": 753,
    "seat": "ICF_ID1",
    "printed_name": "ECHEVERRIA OLGUIN Andraz",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -7995,7 +7918,7 @@
    "action": "kept"
   },
   {
-   "row": 755,
+   "row": 752,
    "seat": "ICF_ID1",
    "printed_name": "BOURHIS Yves",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8003,7 +7926,7 @@
    "action": "kept"
   },
   {
-   "row": 759,
+   "row": 756,
    "seat": "ICF_ID1",
    "printed_name": "EIGEL Pavel",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8011,7 +7934,7 @@
    "action": "kept"
   },
   {
-   "row": 761,
+   "row": 758,
    "seat": "ICF_ID1",
    "printed_name": "POLACZYK Rafal",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8019,7 +7942,7 @@
    "action": "kept"
   },
   {
-   "row": 762,
+   "row": 759,
    "seat": "ICF_ID1",
    "printed_name": "WERRO Lukas",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8027,16 +7950,17 @@
    "action": "kept"
   },
   {
-   "row": 760,
+   "row": 757,
    "seat": "ICF_ID1",
    "printed_name": "MACKIC Dusan",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
    "published_id": "",
-   "action": "emptied",
-   "detail": "on-site entry 636736340455586047: name+nation+gender bind 72217, but profile does not list the competition (^2018 ICF CANOE SLALOM WORLD CHAMPIONSHIPS$) and class"
+   "action": "corrected",
+   "detail": "same-meeting bind (contract): 72217 kept on this athlete's other seats; was: on-site entry 636736340455586047: name+nation+gender bind 72217, but profile does not list the competition (^2018 ICF CA",
+   "new_id": "72217"
   },
   {
-   "row": 764,
+   "row": 761,
    "seat": "ICF_ID1",
    "printed_name": "DE DIONIGI Christian",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8044,7 +7968,7 @@
    "action": "kept"
   },
   {
-   "row": 766,
+   "row": 763,
    "seat": "ICF_ID1",
    "printed_name": "STANOVSKY Martin",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8052,7 +7976,7 @@
    "action": "kept"
   },
   {
-   "row": 765,
+   "row": 762,
    "seat": "ICF_ID1",
    "printed_name": "LANCASTER RIAL Jaime",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8060,7 +7984,7 @@
    "action": "kept"
   },
   {
-   "row": 763,
+   "row": 760,
    "seat": "ICF_ID1",
    "printed_name": "BOURHIS Jean Pierre",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8068,7 +7992,7 @@
    "action": "kept"
   },
   {
-   "row": 768,
+   "row": 765,
    "seat": "ICF_ID1",
    "printed_name": "GONCALVES Pedro",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8076,7 +8000,7 @@
    "action": "kept"
   },
   {
-   "row": 769,
+   "row": 766,
    "seat": "ICF_ID1",
    "printed_name": "LONG Tren",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8084,7 +8008,7 @@
    "action": "kept"
   },
   {
-   "row": 770,
+   "row": 767,
    "seat": "ICF_ID1",
    "printed_name": "STANOVSKY Samuel",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8092,7 +8016,7 @@
    "action": "kept"
   },
   {
-   "row": 767,
+   "row": 764,
    "seat": "ICF_ID1",
    "printed_name": "FONSECA DIAZ Axel",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8100,7 +8024,7 @@
    "action": "kept"
   },
   {
-   "row": 772,
+   "row": 768,
    "seat": "ICF_ID1",
    "printed_name": "PRINDIS Vit",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8108,7 +8032,7 @@
    "action": "kept"
   },
   {
-   "row": 773,
+   "row": 769,
    "seat": "ICF_ID1",
    "printed_name": "SMOLEN Michal",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8116,7 +8040,7 @@
    "action": "kept"
   },
   {
-   "row": 774,
+   "row": 770,
    "seat": "ICF_ID1",
    "printed_name": "STANOVSKY Jakub",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8124,7 +8048,7 @@
    "action": "kept"
   },
   {
-   "row": 780,
+   "row": 774,
    "seat": "ICF_ID1",
    "printed_name": "WEGMAN Martina",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8132,7 +8056,7 @@
    "action": "kept"
   },
   {
-   "row": 777,
+   "row": 771,
    "seat": "ICF_ID1",
    "printed_name": "FOX Noemie",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8140,7 +8064,7 @@
    "action": "kept"
   },
   {
-   "row": 778,
+   "row": 772,
    "seat": "ICF_ID1",
    "printed_name": "NEE Ashley",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8148,7 +8072,7 @@
    "action": "kept"
   },
   {
-   "row": 779,
+   "row": 773,
    "seat": "ICF_ID1",
    "printed_name": "NOVAK Ajda",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8156,7 +8080,7 @@
    "action": "kept"
   },
   {
-   "row": 783,
+   "row": 777,
    "seat": "ICF_ID1",
    "printed_name": "MUKHGALEEVA Polina",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8164,7 +8088,7 @@
    "action": "kept"
   },
   {
-   "row": 784,
+   "row": 778,
    "seat": "ICF_ID1",
    "printed_name": "STANOVSKA Sona",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8172,7 +8096,7 @@
    "action": "kept"
   },
   {
-   "row": 781,
+   "row": 775,
    "seat": "ICF_ID1",
    "printed_name": "BAUDU Lucie",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8180,7 +8104,7 @@
    "action": "kept"
   },
   {
-   "row": 782,
+   "row": 776,
    "seat": "ICF_ID1",
    "printed_name": "LAWRENCE Rosalyn",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8188,7 +8112,7 @@
    "action": "kept"
   },
   {
-   "row": 787,
+   "row": 780,
    "seat": "ICF_ID1",
    "printed_name": "ESTACIA NETA Omira",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8196,7 +8120,7 @@
    "action": "kept"
   },
   {
-   "row": 786,
+   "row": 779,
    "seat": "ICF_ID1",
    "printed_name": "DANIELS Haley",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8204,7 +8128,7 @@
    "action": "kept"
   },
   {
-   "row": 789,
+   "row": 782,
    "seat": "ICF_ID1",
    "printed_name": "SATILA Ana",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8212,7 +8136,7 @@
    "action": "kept"
   },
   {
-   "row": 788,
+   "row": 781,
    "seat": "ICF_ID1",
    "printed_name": "LAFONT Marie-Zelia",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8220,7 +8144,7 @@
    "action": "kept"
   },
   {
-   "row": 793,
+   "row": 785,
    "seat": "ICF_ID1",
    "printed_name": "US Viktoriia",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8228,7 +8152,7 @@
    "action": "kept"
   },
   {
-   "row": 794,
+   "row": 786,
    "seat": "ICF_ID1",
    "printed_name": "VALIKOVA Barbora",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8237,7 +8161,7 @@
    "detail": "archive id 37267 failed (name-check failed; keep-rule not unique; repair not unique; no ICF athlete carries given+family); contract: no ICF athlete carries the printed given+family name"
   },
   {
-   "row": 792,
+   "row": 784,
    "seat": "ICF_ID1",
    "printed_name": "MAHEU Florence",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8245,7 +8169,7 @@
    "action": "kept"
   },
   {
-   "row": 791,
+   "row": 783,
    "seat": "ICF_ID1",
    "printed_name": "CASSINI Maria Luz",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8253,7 +8177,7 @@
    "action": "kept"
   },
   {
-   "row": 798,
+   "row": 790,
    "seat": "ICF_ID1",
    "printed_name": "TSVIET Igor",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8261,7 +8185,7 @@
    "action": "kept"
   },
   {
-   "row": 796,
+   "row": 788,
    "seat": "ICF_ID1",
    "printed_name": "MAIMISTOV Sergey",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8269,7 +8193,7 @@
    "action": "kept"
   },
   {
-   "row": 795,
+   "row": 787,
    "seat": "ICF_ID1",
    "printed_name": "BERSINGER Thomas",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8277,7 +8201,7 @@
    "action": "kept"
   },
   {
-   "row": 797,
+   "row": 789,
    "seat": "ICF_ID1",
    "printed_name": "ROSSI Lucas",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8285,7 +8209,7 @@
    "action": "kept"
   },
   {
-   "row": 801,
+   "row": 793,
    "seat": "ICF_ID1",
    "printed_name": "NEVEU Boris",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8293,7 +8217,7 @@
    "action": "kept"
   },
   {
-   "row": 802,
+   "row": 794,
    "seat": "ICF_ID1",
    "printed_name": "WAHLEN Fredrik",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8301,7 +8225,7 @@
    "action": "kept"
   },
   {
-   "row": 800,
+   "row": 792,
    "seat": "ICF_ID1",
    "printed_name": "HAYWARD Ben",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8309,7 +8233,7 @@
    "action": "kept"
   },
   {
-   "row": 799,
+   "row": 791,
    "seat": "ICF_ID1",
    "printed_name": "ECHEVERRIA OLGUIN Andraz",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8317,7 +8241,7 @@
    "action": "kept"
   },
   {
-   "row": 804,
+   "row": 796,
    "seat": "ICF_ID1",
    "printed_name": "EIGEL Pavel",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8325,7 +8249,7 @@
    "action": "kept"
   },
   {
-   "row": 806,
+   "row": 798,
    "seat": "ICF_ID1",
    "printed_name": "WERRO Lukas",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8333,7 +8257,7 @@
    "action": "kept"
   },
   {
-   "row": 803,
+   "row": 795,
    "seat": "ICF_ID1",
    "printed_name": "DE DIONIGI Christian",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8341,7 +8265,7 @@
    "action": "kept"
   },
   {
-   "row": 805,
+   "row": 797,
    "seat": "ICF_ID1",
    "printed_name": "LANCASTER RIAL Jaime",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8349,7 +8273,7 @@
    "action": "kept"
   },
   {
-   "row": 807,
+   "row": 799,
    "seat": "ICF_ID1",
    "printed_name": "GONCALVES Pedro",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8357,7 +8281,7 @@
    "action": "kept"
   },
   {
-   "row": 808,
+   "row": 800,
    "seat": "ICF_ID1",
    "printed_name": "LONG Tren",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8365,7 +8289,7 @@
    "action": "kept"
   },
   {
-   "row": 809,
+   "row": 801,
    "seat": "ICF_ID1",
    "printed_name": "PRINDIS Vit",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8373,7 +8297,7 @@
    "action": "kept"
   },
   {
-   "row": 810,
+   "row": 802,
    "seat": "ICF_ID1",
    "printed_name": "STANOVSKY Jakub",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8381,7 +8305,7 @@
    "action": "kept"
   },
   {
-   "row": 811,
+   "row": 803,
    "seat": "ICF_ID1",
    "printed_name": "FOX Noemie",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8389,7 +8313,7 @@
    "action": "kept"
   },
   {
-   "row": 814,
+   "row": 806,
    "seat": "ICF_ID1",
    "printed_name": "WEGMAN Martina",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8397,7 +8321,7 @@
    "action": "kept"
   },
   {
-   "row": 812,
+   "row": 804,
    "seat": "ICF_ID1",
    "printed_name": "LAWRENCE Rosalyn",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8405,7 +8329,7 @@
    "action": "kept"
   },
   {
-   "row": 813,
+   "row": 805,
    "seat": "ICF_ID1",
    "printed_name": "MUKHGALEEVA Polina",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8413,7 +8337,7 @@
    "action": "kept"
   },
   {
-   "row": 817,
+   "row": 809,
    "seat": "ICF_ID1",
    "printed_name": "SATILA Ana",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8421,7 +8345,7 @@
    "action": "kept"
   },
   {
-   "row": 815,
+   "row": 807,
    "seat": "ICF_ID1",
    "printed_name": "LAFONT Marie-Zelia",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8429,7 +8353,7 @@
    "action": "kept"
   },
   {
-   "row": 816,
+   "row": 808,
    "seat": "ICF_ID1",
    "printed_name": "MAHEU Florence",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8437,7 +8361,7 @@
    "action": "kept"
   },
   {
-   "row": 818,
+   "row": 810,
    "seat": "ICF_ID1",
    "printed_name": "US Viktoriia",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8445,7 +8369,7 @@
    "action": "kept"
   },
   {
-   "row": 822,
+   "row": 814,
    "seat": "ICF_ID1",
    "printed_name": "TSVIET Igor",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8453,7 +8377,7 @@
    "action": "kept"
   },
   {
-   "row": 819,
+   "row": 811,
    "seat": "ICF_ID1",
    "printed_name": "BERSINGER Thomas",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8461,7 +8385,7 @@
    "action": "kept"
   },
   {
-   "row": 821,
+   "row": 813,
    "seat": "ICF_ID1",
    "printed_name": "NEVEU Boris",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8469,7 +8393,7 @@
    "action": "kept"
   },
   {
-   "row": 820,
+   "row": 812,
    "seat": "ICF_ID1",
    "printed_name": "HAYWARD Ben",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8477,7 +8401,7 @@
    "action": "kept"
   },
   {
-   "row": 823,
+   "row": 815,
    "seat": "ICF_ID1",
    "printed_name": "DE DIONIGI Christian",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8485,7 +8409,7 @@
    "action": "kept"
   },
   {
-   "row": 826,
+   "row": 818,
    "seat": "ICF_ID1",
    "printed_name": "WERRO Lukas",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8493,7 +8417,7 @@
    "action": "kept"
   },
   {
-   "row": 824,
+   "row": 816,
    "seat": "ICF_ID1",
    "printed_name": "GONCALVES Pedro",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8501,7 +8425,7 @@
    "action": "kept"
   },
   {
-   "row": 825,
+   "row": 817,
    "seat": "ICF_ID1",
    "printed_name": "PRINDIS Vit",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8509,7 +8433,7 @@
    "action": "kept"
   },
   {
-   "row": 828,
+   "row": 820,
    "seat": "ICF_ID1",
    "printed_name": "MUKHGALEEVA Polina",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8517,7 +8441,7 @@
    "action": "kept"
   },
   {
-   "row": 830,
+   "row": 822,
    "seat": "ICF_ID1",
    "printed_name": "WEGMAN Martina",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8525,7 +8449,7 @@
    "action": "kept"
   },
   {
-   "row": 827,
+   "row": 819,
    "seat": "ICF_ID1",
    "printed_name": "LAFONT Marie-Zelia",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8533,7 +8457,7 @@
    "action": "kept"
   },
   {
-   "row": 829,
+   "row": 821,
    "seat": "ICF_ID1",
    "printed_name": "SATILA Ana",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8541,7 +8465,7 @@
    "action": "kept"
   },
   {
-   "row": 831,
+   "row": 823,
    "seat": "ICF_ID1",
    "printed_name": "BERSINGER Thomas",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8549,7 +8473,7 @@
    "action": "kept"
   },
   {
-   "row": 833,
+   "row": 825,
    "seat": "ICF_ID1",
    "printed_name": "NEVEU Boris",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8557,7 +8481,7 @@
    "action": "kept"
   },
   {
-   "row": 834,
+   "row": 826,
    "seat": "ICF_ID1",
    "printed_name": "PRINDIS Vit",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8565,7 +8489,7 @@
    "action": "kept"
   },
   {
-   "row": 832,
+   "row": 824,
    "seat": "ICF_ID1",
    "printed_name": "DE DIONIGI Christian",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
@@ -8576,12 +8500,13 @@
  "id_summary": {
   "forerunner_unbound": 14,
   "forerunner": 40,
-  "kept": 925,
+  "kept": 914,
   "no_icf_id": 8,
   "name_change": 13,
-  "onsite_bound": 4,
-  "corrected": 2,
-  "emptied": 2
+  "onsite_bound": 3,
+  "corrected": 4,
+  "emptied": 0,
+  "same_meeting": 2
  },
  "pending_maintainer": [],
  "issues": [],
@@ -8589,82 +8514,10 @@
  "scheduled_races": [
   {
    "START_DATE": "2018-09-30",
-   "START_TIME": "12:00:00",
-   "GENDER": "M",
-   "EVENT": "C1",
-   "PHASE": "Teams",
-   "UNIT": "1",
-   "SOURCE": "ScheduledStartTime (no actual)"
-  },
-  {
-   "START_DATE": "2018-09-30",
    "START_TIME": "16:34:00",
    "GENDER": "M",
    "EVENT": null,
    "PHASE": "Forerunner",
-   "UNIT": "1",
-   "SOURCE": "ScheduledStartTime (no actual)"
-  },
-  {
-   "START_DATE": "2018-09-30",
-   "START_TIME": "11:27:00",
-   "GENDER": "W",
-   "EVENT": "K1",
-   "PHASE": "Heats",
-   "UNIT": "1",
-   "SOURCE": "ScheduledStartTime (no actual)"
-  },
-  {
-   "START_DATE": "2018-09-30",
-   "START_TIME": "14:41:00",
-   "GENDER": "W",
-   "EVENT": "K1",
-   "PHASE": "Heats",
-   "UNIT": "2",
-   "SOURCE": "ScheduledStartTime (no actual)"
-  },
-  {
-   "START_DATE": "2018-09-30",
-   "START_TIME": "14:52:00",
-   "GENDER": "W",
-   "EVENT": "K1",
-   "PHASE": "Heats",
-   "UNIT": "2",
-   "SOURCE": "ScheduledStartTime (no actual)"
-  },
-  {
-   "START_DATE": "2018-09-30",
-   "START_TIME": "15:03:00",
-   "GENDER": "W",
-   "EVENT": "K1",
-   "PHASE": "Time Trials",
-   "UNIT": "1",
-   "SOURCE": "ScheduledStartTime (no actual)"
-  },
-  {
-   "START_DATE": "2018-09-30",
-   "START_TIME": "15:43:30",
-   "GENDER": "M",
-   "EVENT": "K1",
-   "PHASE": "Time Trials",
-   "UNIT": "1",
-   "SOURCE": "ScheduledStartTime (no actual)"
-  },
-  {
-   "START_DATE": "2018-09-30",
-   "START_TIME": "15:39:45",
-   "GENDER": "M",
-   "EVENT": "K1",
-   "PHASE": "Time Trials",
-   "UNIT": "1",
-   "SOURCE": "ScheduledStartTime (no actual)"
-  },
-  {
-   "START_DATE": "2018-09-30",
-   "START_TIME": "09:02:00",
-   "GENDER": "X",
-   "EVENT": "C2",
-   "PHASE": "Semifinal",
    "UNIT": "1",
    "SOURCE": "ScheduledStartTime (no actual)"
   },
