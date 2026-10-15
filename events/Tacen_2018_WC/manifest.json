@@ -10,13 +10,13 @@
  "sheet": "Tacen_2018_WC_start.xlsx",
  "grade": "PERFECT",
  "gaps": [],
- "generated_at_utc": "2026-10-15T07:34:07Z",
- "updated_at": "2026-10-15T07:35:36Z",
+ "generated_at_utc": "2026-10-15T09:27:37Z",
+ "updated_at": "2026-10-15T09:32:38Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "Tacen_2018_WC_start.xlsx",
-   "sha256": "fde642e5972b97908476185b950a55262e309f533ec0d7304052412edcd51d8f"
+   "sha256": "13144cf2efd57af5827b26b473918a8372923b79d1f02f5cb29806ae2c3a1ad3"
   }
  ],
  "row_count": 367,
@@ -124,6 +124,8 @@
  "rank_source": "SIWIDATA 1304 final RankingRow (official ranking in the archive)",
  "unranked_finals": [],
  "ain_log": [],
+ "placeholders": [],
+ "spellings": [],
  "dropped": [
   "K1W Cross Time Trials DONNELLY Sage 2018-09-04 14:15:45: never run (jury cancelled Sun 2 Sep 2018, ICF report); dropped",
   "K1W Cross Time Trials NEE Ashley 2018-09-04 14:16:30: never run (jury cancelled Sun 2 Sep 2018, ICF report); dropped",
@@ -3063,8 +3065,9 @@
    "printed_name": "FISEROVA Tereza",
    "source": "SIWIDATA session 1304 Code + paddleworldwide.com/athlete/<id>",
    "published_id": "42016",
-   "action": "no_icf_id",
-   "detail": "archive id 42016 failed (name-check failed; keep-rule not unique; repair not unique; no ICF athlete carries given+family); contract: no ICF athlete carries the printed given+family name"
+   "action": "corrected",
+   "detail": "same-meeting bind (contract): 42016 kept on this athlete's other seats; was: archive id 42016 failed (name-check failed; keep-rule not unique; repair not unique; no ICF athlete carries given+family",
+   "new_id": "42016"
   },
   {
    "row": 346,
@@ -3128,8 +3131,9 @@
    "printed_name": "FISEROVA Tereza",
    "source": "SIWIDATA session 1304 Code + paddleworldwide.com/athlete/<id>",
    "published_id": "42016",
-   "action": "no_icf_id",
-   "detail": "archive id 42016 failed (name-check failed; keep-rule not unique; repair not unique; no ICF athlete carries given+family); contract: no ICF athlete carries the printed given+family name"
+   "action": "corrected",
+   "detail": "same-meeting bind (contract): 42016 kept on this athlete's other seats; was: archive id 42016 failed (name-check failed; keep-rule not unique; repair not unique; no ICF athlete carries given+family",
+   "new_id": "42016"
   },
   {
    "row": 350,
@@ -3288,8 +3292,10 @@
   "forerunner": 18,
   "forerunner_unbound": 1,
   "kept": 349,
-  "no_icf_id": 8,
-  "name_change": 2
+  "no_icf_id": 6,
+  "name_change": 2,
+  "corrected": 2,
+  "same_meeting": 2
  },
  "pending_maintainer": [],
  "issues": [],
