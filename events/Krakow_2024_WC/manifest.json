@@ -10,13 +10,13 @@
  "sheet": "Krakow_2024_WC_start.xlsx",
  "grade": "PERFECT",
  "gaps": [],
- "generated_at_utc": "2026-10-15T09:09:11Z",
- "updated_at": "2026-10-15T09:15:49Z",
+ "generated_at_utc": "2026-10-15T09:26:43Z",
+ "updated_at": "2026-10-15T09:31:56Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "Krakow_2024_WC_start.xlsx",
-   "sha256": "923a9102ea688c1e8650936297ab199b7a490d99143991890c9b79eb3e285b7e"
+   "sha256": "375004904281e595cd05b452eae077ef8f5733f4e45d3eb18dfb3c4f08568284"
   }
  ],
  "row_count": 630,
@@ -4714,8 +4714,9 @@
    "printed_name": "STACH Aleksandra",
    "source": "SIWIDATA session 2193 IFId + paddleworldwide.com/athlete/<id>",
    "published_id": "61261",
-   "action": "no_icf_id",
-   "detail": "archive id 61261 failed (name-check failed; keep-rule not unique; repair not unique; no ICF athlete carries given+family); contract: no ICF athlete carries the printed given+family name"
+   "action": "corrected",
+   "detail": "same-meeting bind (contract): 61261 kept on this athlete's other seats; was: archive id 61261 failed (name-check failed; keep-rule not unique; repair not unique; no ICF athlete carries given+family",
+   "new_id": "61261"
   },
   {
    "row": 531,
@@ -5211,7 +5212,9 @@
   "forerunner_unbound": 16,
   "kept": 592,
   "name_change": 2,
-  "no_icf_id": 2
+  "no_icf_id": 1,
+  "corrected": 1,
+  "same_meeting": 1
  },
  "pending_maintainer": [],
  "issues": [],
