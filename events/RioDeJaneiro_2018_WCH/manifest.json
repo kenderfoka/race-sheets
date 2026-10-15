@@ -8,15 +8,17 @@
  "siwidata": "1094",
  "dates": "2018-09-25/2018-09-30",
  "sheet": "RioDeJaneiro_2018_WCH_start.xlsx",
- "grade": "PERFECT",
- "gaps": [],
- "generated_at_utc": "2026-10-15T07:35:25Z",
- "updated_at": "2026-10-15T07:35:36Z",
+ "grade": "USABLE",
+ "gaps": [
+  "icf_ids_incomplete"
+ ],
+ "generated_at_utc": "2026-10-15T07:53:10Z",
+ "updated_at": "2026-10-15T07:54:22Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "RioDeJaneiro_2018_WCH_start.xlsx",
-   "sha256": "f18a1234f5532278bdcd095f871ed09bd504d6d7904af4dbab5e438c5119e4f3"
+   "sha256": "de73f83dcd765a89e5ff348a096d44025215f7a56e10a48538382cb433632b24"
   }
  ],
  "row_count": 834,
@@ -5814,9 +5816,8 @@
    "printed_name": "MACKIC Dusan",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
    "published_id": "",
-   "action": "corrected",
-   "detail": "same-meeting bind (contract): 72217 kept on this athlete's other seats; was: on-site entry 636736340455586047: name+nation+gender bind 72217, but profile does not list the competition (^2018 ICF CA",
-   "new_id": "72217"
+   "action": "emptied",
+   "detail": "on-site entry 636736340455586047: name+nation+gender bind 72217, but profile does not list the competition (^2018 ICF CANOE SLALOM WORLD CHAMPIONSHIPS$) and class"
   },
   {
    "row": 493,
@@ -8031,9 +8032,8 @@
    "printed_name": "MACKIC Dusan",
    "source": "SIWIDATA session 1094 Code + paddleworldwide.com/athlete/<id>",
    "published_id": "",
-   "action": "corrected",
-   "detail": "same-meeting bind (contract): 72217 kept on this athlete's other seats; was: on-site entry 636736340455586047: name+nation+gender bind 72217, but profile does not list the competition (^2018 ICF CA",
-   "new_id": "72217"
+   "action": "emptied",
+   "detail": "on-site entry 636736340455586047: name+nation+gender bind 72217, but profile does not list the competition (^2018 ICF CANOE SLALOM WORLD CHAMPIONSHIPS$) and class"
   },
   {
    "row": 764,
@@ -8580,9 +8580,8 @@
   "no_icf_id": 8,
   "name_change": 13,
   "onsite_bound": 4,
-  "corrected": 4,
-  "emptied": 0,
-  "same_meeting": 2
+  "corrected": 2,
+  "emptied": 2
  },
  "pending_maintainer": [],
  "issues": [],
