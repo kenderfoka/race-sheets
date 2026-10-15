@@ -11,9 +11,11 @@
   "index": "https://domtel-sport.pl/wyniki,zawody,6467",
   "discipline": "sprint",
   "start_times": "actual",
-  "generated_at_utc": "2026-10-06T20:50:19Z",
-  "grade": "PERFECT",
-  "gaps": [],
+  "generated_at_utc": "2026-10-15T11:01:58Z",
+  "grade": "USABLE",
+  "gaps": [
+    "icf_ids_incomplete"
+  ],
   "id_checks": [
     {
       "results_row": 62,
@@ -59,64 +61,78 @@
       "results_row": 2117,
       "seat": "ICF_ID2",
       "source_printed_name": "Kevin ENGEL",
-      "action": "corrected",
+      "action": "emptied",
       "source": "pww_search",
       "new_id": "156773",
-      "team": "GER"
+      "team": "GER",
+      "emptied_id": "156773",
+      "detail": "name-bound id 156773: PWW profile (fetched fresh 2026-10-15) does not list this competition+event; seat emptied (icf_ids_incomplete)"
     },
     {
       "results_row": 2118,
       "seat": "ICF_ID2",
       "source_printed_name": "Phoebe DUFFY",
-      "action": "corrected",
+      "action": "emptied",
       "source": "pww_search",
       "new_id": "167063",
-      "team": "GER"
+      "team": "GER",
+      "emptied_id": "167063",
+      "detail": "name-bound id 167063: PWW profile (fetched fresh 2026-10-15) does not list this competition+event; seat emptied (icf_ids_incomplete)"
     },
     {
       "results_row": 2119,
       "seat": "ICF_ID1",
       "source_printed_name": "Dominik PASIŃSKI",
-      "action": "corrected",
+      "action": "emptied",
       "source": "pww_search",
       "new_id": "147628",
-      "team": "POL"
+      "team": "POL",
+      "emptied_id": "147628",
+      "detail": "name-bound id 147628: PWW profile (fetched fresh 2026-10-15) does not list this competition+event; seat emptied (icf_ids_incomplete)"
     },
     {
       "results_row": 2122,
       "seat": "ICF_ID1",
       "source_printed_name": "Jacek MAZANOWSKI",
-      "action": "corrected",
+      "action": "emptied",
       "source": "pww_search",
       "new_id": "134661",
-      "team": "POL"
+      "team": "POL",
+      "emptied_id": "134661",
+      "detail": "name-bound id 134661: PWW profile (fetched fresh 2026-10-15) does not list this competition+event; seat emptied (icf_ids_incomplete)"
     },
     {
       "results_row": 2122,
       "seat": "ICF_ID2",
       "source_printed_name": "Grzegorz WARZECHA",
-      "action": "corrected",
+      "action": "emptied",
       "source": "pww_search",
       "new_id": "152584",
-      "team": "POL"
+      "team": "POL",
+      "emptied_id": "152584",
+      "detail": "name-bound id 152584: PWW profile (fetched fresh 2026-10-15) does not list this competition+event; seat emptied (icf_ids_incomplete)"
     },
     {
       "results_row": 2124,
       "seat": "ICF_ID2",
       "source_printed_name": "Phoebe DUFFY",
-      "action": "corrected",
+      "action": "emptied",
       "source": "pww_search",
       "new_id": "167063",
-      "team": "GER"
+      "team": "GER",
+      "emptied_id": "167063",
+      "detail": "name-bound id 167063: PWW profile (fetched fresh 2026-10-15) does not list this competition+event; seat emptied (icf_ids_incomplete)"
     },
     {
       "results_row": 2128,
       "seat": "ICF_ID2",
       "source_printed_name": "Weronika LOTZ",
-      "action": "corrected",
+      "action": "emptied",
       "source": "pww_search",
       "new_id": "134658",
-      "team": "POL"
+      "team": "POL",
+      "emptied_id": "134658",
+      "detail": "name-bound id 134658: PWW profile (fetched fresh 2026-10-15) does not list this competition+event; seat emptied (icf_ids_incomplete)"
     },
     {
       "results_row": 2116,
@@ -15782,7 +15798,6 @@
       "team": "POL"
     }
   ],
-  "accepted": false,
   "bib_boat": "intentionally_empty",
   "bib_boat_note": "BIB_BOAT left empty — Domtel startlist/HTML Bib is ICF athlete id (verified vs Montreal/Szeged PERSONS and paddleworldwide.com/athlete/{id}); no distinct boat bib published.",
   "sheets": {
@@ -15894,7 +15909,7 @@
   "fetch_fail": [],
   "empty_races": [],
   "output_xls": "races/Poznan_2026_WC/Poznan_2026_WC_Results.xlsx",
-  "output_xls_sha256": "39e103a8adbbf7f8eebf41a3cff58de632916b78ede891ce173c45643814b84d",
+  "output_xls_sha256": "420dc569057c5209e189dfbe4cc9699703d361fe3f5966d612e1d0f8e730f60f",
   "sources": [
     {
       "path": "poznan-sources/html/day1.html",
@@ -17522,7 +17537,7 @@
       "bytes": 534912
     }
   ],
-  "updated_at": "2026-10-06T20:50:19Z",
+  "updated_at": "2026-10-15T11:01:58Z",
   "grade_reason": "All Domtel day-pack races 1–242 + exhibition 901–907 parsed from live HTML; START_TIME from DomTel STARTED when present (249 actual / 0 slot); Bib=ICF verified; BIB_BOAT empty; every seat via bind_seat.",
   "domain": "flatwater_sprint",
   "sheet": "Poznan_2026_WC_Results.xlsx",
@@ -17531,12 +17546,12 @@
     {
       "kind": "xlsx",
       "name": "Poznan_2026_WC_Results.xlsx",
-      "sha256": "39e103a8adbbf7f8eebf41a3cff58de632916b78ede891ce173c45643814b84d",
-      "bytes": 226622
+      "sha256": "420dc569057c5209e189dfbe4cc9699703d361fe3f5966d612e1d0f8e730f60f",
+      "bytes": 176249
     }
   ],
   "output_xlsx": "races/Poznan_2026_WC/Poznan_2026_WC_Results.xlsx",
-  "output_xlsx_sha256": "39e103a8adbbf7f8eebf41a3cff58de632916b78ede891ce173c45643814b84d",
+  "output_xlsx_sha256": "420dc569057c5209e189dfbe4cc9699703d361fe3f5966d612e1d0f8e730f60f",
   "checks": {
     "start-times": "pass",
     "crews": "pass",
@@ -17547,7 +17562,27 @@
     "fixtures": "pass"
   },
   "publish_gates": "OK",
+  "name_bound_check": {
+    "completed": true,
+    "profiles_checked": 6,
+    "same_meeting_unified": 0,
+    "rule": "2013+ name-bound ids kept only if PWW profile lists competition+event",
+    "competition_regex": "2026.*POZNA",
+    "kept": 0,
+    "emptied": 7,
+    "persons_dropped": 6,
+    "olympic": false
+  },
+  "check_diff_summaries": {
+    "start-times": "START_TIME = Domtel STARTED clock (else slot) on Domtel wc26.domtel-sport.pl race pages; sheet_audit A/B/C/D",
+    "crews": "crew size vs class on Domtel wc26.domtel-sport.pl race pages",
+    "OBS": "DNS/DNF/DSQ verbatim from Domtel wc26.domtel-sport.pl race pages",
+    "RANK vs official results": "RANK vs Domtel wc26.domtel-sport.pl race pages",
+    "PERSONS vs ICF": "PERSONS from bind_seat seats, printed names Domtel wc26.domtel-sport.pl race pages",
+    "repairs": "name-bound seats vs printed names on Domtel wc26.domtel-sport.pl race pages",
+    "fixtures": "skill fixtures belong to other meetings; reference Domtel wc26.domtel-sport.pl race pages"
+  },
   "venue": "Poznan",
-  "year": "2026",
-  "kind": "WCH"
+  "kind": "WCH",
+  "year": "2026"
 }
