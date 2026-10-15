@@ -10,13 +10,13 @@
  "sheet": "LaSeu_2019_WWC_start.xlsx",
  "grade": "PERFECT",
  "gaps": [],
- "generated_at_utc": "2026-10-15T09:09:13Z",
- "updated_at": "2026-10-15T09:15:58Z",
+ "generated_at_utc": "2026-10-15T09:26:51Z",
+ "updated_at": "2026-10-15T09:32:06Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "LaSeu_2019_WWC_start.xlsx",
-   "sha256": "ccbb8ba27257fd98965ea3380e9c196a9fce5d83504c50abc93743782a70f8ff"
+   "sha256": "ebaf032c64640aa41166e7d9e0b0a75699759e57f09e32c643403d4398f7584a"
   }
  ],
  "row_count": 376,
@@ -770,8 +770,9 @@
    "printed_name": "SLANINA Vladimir",
    "source": "SIWIDATA session 951 Code + paddleworldwide.com/athlete/<id>",
    "published_id": "",
-   "action": "no_icf_id",
-   "detail": "archive c2team code ; no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['152052', '35516', '43076']"
+   "action": "corrected",
+   "detail": "same-meeting bind (contract): 35516 kept on this athlete's other seats; was: archive c2team code ; no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['152052', '35516',",
+   "new_id": "35516"
   },
   {
    "row": 35,
@@ -4280,8 +4281,10 @@
   "forerunner": 9,
   "kept": 499,
   "onsite_bound": 40,
-  "no_icf_id": 5,
-  "name_change": 5
+  "no_icf_id": 4,
+  "name_change": 5,
+  "corrected": 1,
+  "same_meeting": 1
  },
  "pending_maintainer": [],
  "issues": [],
