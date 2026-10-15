@@ -10,16 +10,16 @@
  "sheet": "Pau_2020_WC_start.xlsx",
  "grade": "PERFECT",
  "gaps": [],
- "generated_at_utc": "2026-10-15T07:50:51Z",
- "updated_at": "2026-10-15T07:51:00Z",
+ "generated_at_utc": "2026-10-15T09:09:52Z",
+ "updated_at": "2026-10-15T09:16:18Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "Pau_2020_WC_start.xlsx",
-   "sha256": "a516652b0d161c1476aa715a66670cf4f54a91a9cf5428d14b0414d7ac0fa5db"
+   "sha256": "af007a2842b9ade6734244d40a1d8bb04c55cb3b2cf574185d2372facf5e89af"
   }
  ],
- "row_count": 357,
+ "row_count": 355,
  "source": {
   "archive": "https://siwidata.blob.core.windows.net/sessions/1551.initchangeset.session.js",
   "archive_sha256": "1b0633616112fe5ef72ec769fa3b600151e99ea71b74252e3f6337c662579301",
@@ -29,16 +29,6 @@
  "actual_starts": {
   "started_or_unit_actual": 300,
   "slot_no_actual": [
-   {
-    "name": "SALESSE Laurine",
-    "phase": "Time Trials",
-    "irm": "DNS"
-   },
-   {
-    "name": "SRIBAR Ria",
-    "phase": "Time Trials",
-    "irm": "DNS"
-   },
    {
     "name": "DEGREMONT Alix",
     "phase": "Semifinal",
@@ -319,7 +309,12 @@
  "rank_source": "SIWIDATA 1551 final RankingRow (official ranking in the archive)",
  "unranked_finals": [],
  "ain_log": [],
- "dropped": [],
+ "placeholders": [],
+ "spellings": [],
+ "dropped": [
+  "DNS SALESSE Laurine K1W Cross Time Trials 1 slot 2020-11-08 14:00:45: outside its own heat (['2020-11-07']); dropped+logged (maintainer 2026-10-15)",
+  "DNS SRIBAR Ria K1W Cross Time Trials 1 slot 2020-11-08 14:01:30: outside its own heat (['2020-11-07']); dropped+logged (maintainer 2026-10-15)"
+ ],
  "id_checks": [
   {
    "row": 2,
@@ -1435,22 +1430,6 @@
    "printed_name": "TORRES BRICENO Marianna",
    "source": "SIWIDATA session 1551 Code + paddleworldwide.com/athlete/<id>",
    "published_id": "75357",
-   "action": "kept"
-  },
-  {
-   "row": 357,
-   "seat": "ICF_ID1",
-   "printed_name": "SALESSE Laurine",
-   "source": "SIWIDATA session 1551 Code + paddleworldwide.com/athlete/<id>",
-   "published_id": "85387",
-   "action": "kept"
-  },
-  {
-   "row": 358,
-   "seat": "ICF_ID1",
-   "printed_name": "SRIBAR Ria",
-   "source": "SIWIDATA session 1551 Code + paddleworldwide.com/athlete/<id>",
-   "published_id": "75645",
    "action": "kept"
   },
   {
@@ -3256,31 +3235,13 @@
  ],
  "id_summary": {
   "forerunner": 32,
-  "kept": 319,
+  "kept": 317,
   "corrected": 6
  },
  "pending_maintainer": [],
  "issues": [],
  "shared_start_clash": [],
  "scheduled_races": [
-  {
-   "START_DATE": "2020-11-08",
-   "START_TIME": "14:00:45",
-   "GENDER": "W",
-   "EVENT": "K1",
-   "PHASE": "Time Trials",
-   "UNIT": "1",
-   "SOURCE": "ScheduledStartTime (no actual)"
-  },
-  {
-   "START_DATE": "2020-11-08",
-   "START_TIME": "14:01:30",
-   "GENDER": "W",
-   "EVENT": "K1",
-   "PHASE": "Time Trials",
-   "UNIT": "1",
-   "SOURCE": "ScheduledStartTime (no actual)"
-  },
   {
    "START_DATE": "2020-11-07",
    "START_TIME": "16:54:00",
