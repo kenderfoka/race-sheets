@@ -8,15 +8,17 @@
  "siwidata": "1302",
  "dates": "2018-06-21/2018-06-24",
  "sheet": "LiptovskyMikulas_2018_WC_start.xlsx",
- "grade": "PERFECT",
- "gaps": [],
- "generated_at_utc": "2026-10-15T07:46:42Z",
- "updated_at": "2026-10-15T07:46:59Z",
+ "grade": "USABLE",
+ "gaps": [
+  "icf_ids_incomplete"
+ ],
+ "generated_at_utc": "2026-10-15T07:52:38Z",
+ "updated_at": "2026-10-15T07:54:14Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "LiptovskyMikulas_2018_WC_start.xlsx",
-   "sha256": "5765bf78e489f7fc13a4113fbf6e97ec3c21eedf5cc040244616aeb5d3317e04"
+   "sha256": "186d431695d5bd27a90f44a56fd8819abe462004a51f2e9c45dc9dcacc5a71ee"
   }
  ],
  "row_count": 724,
@@ -635,9 +637,8 @@
    "printed_name": "STANOVSKY Samuel",
    "source": "SIWIDATA session 1302 Code + paddleworldwide.com/athlete/<id>",
    "published_id": "",
-   "action": "corrected",
-   "detail": "same-meeting bind (contract): 84121 kept on this athlete's other seats; was: on-site entry 636651806122505457: name+nation+gender bind 84121, but profile does not list the competition (^2018 ICF CA",
-   "new_id": "84121"
+   "action": "emptied",
+   "detail": "on-site entry 636651806122505457: name+nation+gender bind 84121, but profile does not list the competition (^2018 ICF CANOE SLALOM WORLD CUP 1$) and class"
   },
   {
    "row": 37,
@@ -6114,9 +6115,8 @@
    "printed_name": "STANOVSKY Samuel",
    "source": "SIWIDATA session 1302 Code + paddleworldwide.com/athlete/<id>",
    "published_id": "",
-   "action": "corrected",
-   "detail": "same-meeting bind (contract): 84121 kept on this athlete's other seats; was: on-site entry 636651806122505457: name+nation+gender bind 84121, but profile does not list the competition (^2018 ICF CA",
-   "new_id": "84121"
+   "action": "emptied",
+   "detail": "on-site entry 636651806122505457: name+nation+gender bind 84121, but profile does not list the competition (^2018 ICF CANOE SLALOM WORLD CUP 1$) and class"
   },
   {
    "row": 684,
@@ -6422,12 +6422,11 @@
  "id_summary": {
   "kept": 704,
   "no_icf_id": 12,
-  "emptied": 0,
+  "emptied": 2,
   "forerunner": 26,
   "forerunner_unbound": 3,
   "name_change": 13,
-  "corrected": 4,
-  "same_meeting": 2
+  "corrected": 2
  },
  "pending_maintainer": [],
  "issues": [],
