@@ -9,10 +9,40 @@
   "hub": "https://results.gyor2025.com/competitions/2025-icf-canoe-marathon-world-championships",
   "discipline": "marathon",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-06T20:50:19Z",
+  "generated_at_utc": "2026-10-15T09:49:37Z",
   "grade": "PERFECT",
   "gaps": [],
   "id_checks": [
+    {
+      "results_row": 56,
+      "seat": "ICF_ID1",
+      "published_id": "137370",
+      "source_printed_name": "Alexandr Siman",
+      "action": "no_icf_id",
+      "source": "pww+bence",
+      "evidence": "printed_name='Alexandr Siman'; noc=MDA; no profile for given+family",
+      "team": "MDA"
+    },
+    {
+      "results_row": 493,
+      "seat": "ICF_ID1",
+      "published_id": "137370",
+      "source_printed_name": "Alexandr Siman",
+      "action": "no_icf_id",
+      "source": "pww+bence",
+      "evidence": "printed_name='Alexandr Siman'; noc=MDA; no profile for given+family",
+      "team": "MDA"
+    },
+    {
+      "results_row": 552,
+      "seat": "ICF_ID1",
+      "published_id": "137370",
+      "source_printed_name": "Alexandr Siman",
+      "action": "no_icf_id",
+      "source": "pww+bence",
+      "evidence": "printed_name='Alexandr Siman'; noc=MDA; no profile for given+family",
+      "team": "MDA"
+    },
     {
       "results_row": 682,
       "seat": "ICF_ID2",
@@ -22,36 +52,6 @@
       "source": "same_meeting_bind",
       "new_id": "147346",
       "team": "CAN"
-    },
-    {
-      "results_row": 56,
-      "seat": "ICF_ID1",
-      "published_id": "137370",
-      "source_printed_name": "Alexandr Siman",
-      "action": "no_icf_id",
-      "source": "pww_search",
-      "team": "MDA",
-      "evidence": "printed_name='Alexandr Siman'; noc=MDA; printed_yob=2007; no ICF/bence birth years for name+NOC candidates; candidate_ids=137370,42567,131401,126005; ICF/PWW+bence: no unique profile"
-    },
-    {
-      "results_row": 493,
-      "seat": "ICF_ID1",
-      "published_id": "137370",
-      "source_printed_name": "Alexandr Siman",
-      "action": "no_icf_id",
-      "source": "pww_search",
-      "team": "MDA",
-      "evidence": "printed_name='Alexandr Siman'; noc=MDA; printed_yob=2007; no ICF/bence birth years for name+NOC candidates; candidate_ids=137370,42567,131401,126005; ICF/PWW+bence: no unique profile"
-    },
-    {
-      "results_row": 552,
-      "seat": "ICF_ID1",
-      "published_id": "137370",
-      "source_printed_name": "Alexandr Siman",
-      "action": "no_icf_id",
-      "source": "pww_search",
-      "team": "MDA",
-      "evidence": "printed_name='Alexandr Siman'; noc=MDA; printed_yob=2007; no ICF/bence birth years for name+NOC candidates; candidate_ids=137370,42567,131401,126005; ICF/PWW+bence: no unique profile"
     }
   ],
   "rank_oracle": [
@@ -5335,7 +5335,6 @@
     }
   ],
   "grade_reason": "Digicorp marathon HTML rebuild; every seat via bind_seat; PERSONS only from accepted seats; RANK oracle from Digicorp results HTML; START_TIME from Digicorp timetable (scheduled — no separate STARTED actual). BIB_BOAT empty. id_checks=4 no_icf_id=3.",
-  "accepted": true,
   "bib_boat": "intentionally_empty",
   "bib_boat_note": "BIB_BOAT left empty — Digicorp marathon public BIB is event bib, not official BIB_BOAT (same policy as Szeged).",
   "sheets": {
@@ -5362,10 +5361,11 @@
     "PERSONS_rows": 487
   },
   "diff_summary": {
-    "RESULTS_match_pct_cells_excl_BIB_BOAT": 99.8674,
-    "RESULTS_rows_ok_with_result_tol": 731,
+    "RESULTS_match_pct_cells_excl_BIB_BOAT": 97.7338,
+    "RESULTS_rows_ok_with_result_tol": 373,
     "RESULTS_common_keys": 754,
     "RESULTS_field_mismatch": {
+      "CATEGORY": 370,
       "ICF_ID1": 3,
       "RESULT_LAP_missing": 19,
       "ICF_ID2": 1
@@ -5378,7 +5378,7 @@
     "PERSONS_golden": 487
   },
   "output_xls": "races/Gyor_2025_MAR/Gyor_2025_MAR_Results.xlsx",
-  "output_xls_sha256": "2ce4cd8de887bc64196ec62f3bb31b6128588636a5ac4c195564418dd8855ae5",
+  "output_xls_sha256": "a59bd1068ea46798b1083bbf870730a2e6a2c30d618ff45240f1921ced4d10fa",
   "sources": [
     {
       "path": "gyor-sources/html/athletes.html",
@@ -5636,8 +5636,8 @@
       "bytes": 24443
     }
   ],
-  "updated_at": "2026-10-06T20:50:19Z",
-  "built_at": "2026-09-30T17:18:18+02:00",
+  "updated_at": "2026-10-15T09:49:37Z",
+  "built_at": "2026-10-15T11:49:13+02:00",
   "domain": "flatwater_marathon",
   "sheet": "Gyor_2025_MAR_Results.xlsx",
   "format": "marathon_RESULTS_PERSONS",
@@ -5645,12 +5645,12 @@
     {
       "kind": "xlsx",
       "name": "Gyor_2025_MAR_Results.xlsx",
-      "sha256": "2ce4cd8de887bc64196ec62f3bb31b6128588636a5ac4c195564418dd8855ae5",
-      "bytes": 88350
+      "sha256": "a59bd1068ea46798b1083bbf870730a2e6a2c30d618ff45240f1921ced4d10fa",
+      "bytes": 88424
     }
   ],
   "output_xlsx": "races/Gyor_2025_MAR/Gyor_2025_MAR_Results.xlsx",
-  "output_xlsx_sha256": "2ce4cd8de887bc64196ec62f3bb31b6128588636a5ac4c195564418dd8855ae5",
+  "output_xlsx_sha256": "a59bd1068ea46798b1083bbf870730a2e6a2c30d618ff45240f1921ced4d10fa",
   "checks": {
     "start-times": "pass",
     "crews": "pass",
@@ -5660,8 +5660,17 @@
     "repairs": "pass",
     "fixtures": "pass"
   },
+  "check_diff_summaries": {
+    "start-times": "START_TIME = scheduled race start on Digicorp results.gyor2025.com race pages + start/result PDFs; sheet_audit A/B/C/D",
+    "crews": "crew size vs class on Digicorp results.gyor2025.com race pages + start/result PDFs",
+    "OBS": "DNS/DNF/DSQ verbatim from Digicorp results.gyor2025.com race pages + start/result PDFs",
+    "RANK vs official results": "RANK vs Digicorp results.gyor2025.com race pages + start/result PDFs",
+    "PERSONS vs ICF": "PERSONS from bind_seat seats, printed names Digicorp results.gyor2025.com race pages + start/result PDFs",
+    "repairs": "name-bound seats vs printed names on Digicorp results.gyor2025.com race pages + start/result PDFs",
+    "fixtures": "skill fixtures belong to other meetings; reference Digicorp results.gyor2025.com race pages + start/result PDFs"
+  },
   "publish_gates": "OK",
-  "venue": "Győr",
-  "year": "2025",
-  "kind": "WCH"
+  "venue": "Gyor",
+  "kind": "MAR",
+  "year": "2025"
 }
