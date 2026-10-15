@@ -10,13 +10,13 @@
  "sheet": "LeeValley_2023_WCH_start.xlsx",
  "grade": "PERFECT",
  "gaps": [],
- "generated_at_utc": "2026-10-15T09:09:42Z",
- "updated_at": "2026-10-15T09:16:08Z",
+ "generated_at_utc": "2026-10-15T09:27:07Z",
+ "updated_at": "2026-10-15T09:32:16Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "LeeValley_2023_WCH_start.xlsx",
-   "sha256": "686d0712b630f773812daed4c2f853e5d6bd247d92ac25f7b3519d5eb87c249f"
+   "sha256": "954423dfc731690e57fab5f02e14d03f4d6fc46c1af5718e2386ee6fd91c45b2"
   }
  ],
  "row_count": 923,
@@ -8236,8 +8236,9 @@
    "printed_name": "FISEROVA Tereza",
    "source": "SIWIDATA session 1711 IFId + paddleworldwide.com/athlete/<id>",
    "published_id": "42016",
-   "action": "no_icf_id",
-   "detail": "archive id 42016 failed (name-check failed; keep-rule not unique; repair not unique; no ICF athlete carries given+family); contract: no ICF athlete carries the printed given+family name"
+   "action": "corrected",
+   "detail": "same-meeting bind (contract): 42016 kept on this athlete's other seats; was: archive id 42016 failed (name-check failed; keep-rule not unique; repair not unique; no ICF athlete carries given+family",
+   "new_id": "42016"
   },
   {
    "row": 814,
@@ -8812,8 +8813,10 @@
   "forerunner": 64,
   "kept": 1008,
   "name_change": 9,
-  "no_icf_id": 3,
-  "forerunner_unbound": 1
+  "no_icf_id": 2,
+  "forerunner_unbound": 1,
+  "corrected": 1,
+  "same_meeting": 1
  },
  "pending_maintainer": [],
  "issues": [],

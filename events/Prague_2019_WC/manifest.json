@@ -12,13 +12,13 @@
  "gaps": [
   "ranks_missing"
  ],
- "generated_at_utc": "2026-10-15T09:10:04Z",
- "updated_at": "2026-10-15T09:16:34Z",
+ "generated_at_utc": "2026-10-15T09:27:11Z",
+ "updated_at": "2026-10-15T09:32:16Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "Prague_2019_WC_start.xlsx",
-   "sha256": "8ee28849ed7950fe166a97ff5d7313f6bc9171c62613554f4d25e25ecf76feb7"
+   "sha256": "000e9fa3812502c178ca5bf30fea8bc7562de2948557a6b0f2e1c4fec1e0c165"
   }
  ],
  "row_count": 606,
@@ -5011,8 +5011,9 @@
    "printed_name": "FISEROVA Tereza",
    "source": "SIWIDATA session 1273 Code + paddleworldwide.com/athlete/<id>",
    "published_id": "42016",
-   "action": "no_icf_id",
-   "detail": "archive id 42016 failed (name-check failed; keep-rule not unique; repair not unique; no ICF athlete carries given+family); contract: no ICF athlete carries the printed given+family name"
+   "action": "corrected",
+   "detail": "same-meeting bind (contract): 42016 kept on this athlete's other seats; was: archive id 42016 failed (name-check failed; keep-rule not unique; repair not unique; no ICF athlete carries given+family",
+   "new_id": "42016"
   },
   {
    "row": 607,
@@ -5067,7 +5068,9 @@
   "forerunner": 35,
   "kept": 574,
   "name_change": 8,
-  "no_icf_id": 1
+  "no_icf_id": 0,
+  "corrected": 1,
+  "same_meeting": 1
  },
  "pending_maintainer": [],
  "issues": [],
