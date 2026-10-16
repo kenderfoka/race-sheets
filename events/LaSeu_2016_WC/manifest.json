@@ -12,12 +12,12 @@
   "icf_ids_incomplete"
  ],
  "generated_at_utc": "2026-10-15T09:33:13Z",
- "updated_at": "2026-10-16T08:56:31Z",
+ "updated_at": "2026-10-16T09:05:09Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "LaSeu_2016_WC_start.xlsx",
-   "sha256": "894e19fd42022e380fbeb7e564cf9aab501c062ec88b887622f20f84df6d0602"
+   "sha256": "4c1f52dda604358adf27ea25cb7f4f165e6fb6de4ac15f14df6647d220798f45"
   }
  ],
  "row_count": 681,
@@ -383,8 +383,9 @@
    "printed_name": "MERJAN Richard",
    "source": "123result Start List PDF (CS_2016/201201/780/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
    "published_id": "",
-   "action": "no_icf_id",
-   "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['45918', '130072']"
+   "action": "emptied",
+   "detail": "name-bound 45918 (unique name+NOC LBN+gender): PWW profile does not list competition ^2016 ICF CANOE SLALOM WORLD CUP 2$ + C1M; seat empty, logged (maintainer 2026-10-16 10:57)",
+   "new_id": ""
   },
   {
    "row": 37,
@@ -1010,8 +1011,9 @@
    "printed_name": "MERJAN Richard",
    "source": "123result Start List PDF (CS_2016/201201/780/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
    "published_id": "",
-   "action": "no_icf_id",
-   "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['45918', '130072']"
+   "action": "emptied",
+   "detail": "name-bound 45918 (unique name+NOC LBN+gender): PWW profile does not list competition ^2016 ICF CANOE SLALOM WORLD CUP 2$ + C1M; seat empty, logged (maintainer 2026-10-16 10:57)",
+   "new_id": ""
   },
   {
    "row": 220,
@@ -7561,9 +7563,8 @@
  ],
  "id_summary": {
   "kept": 651,
-  "no_icf_id": 31,
-  "emptied": 17,
-  "forerunner_unbound": 10,
+  "emptied": 19,
+  "no_icf_id": 29,
   "forerunner": 49
  },
  "pending_maintainer": [],
@@ -7585,6 +7586,16 @@
    "printed": "LIB",
    "written": "LBN",
    "note": "old NOC code: current code written, printed code logged (maintainer 2026-10-16 10:52)"
+  }
+ ],
+ "merjan_log": [
+  {
+   "row": 36,
+   "action": "emptied"
+  },
+  {
+   "row": 219,
+   "action": "emptied"
   }
  ]
 }

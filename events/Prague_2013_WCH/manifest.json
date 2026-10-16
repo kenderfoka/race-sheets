@@ -12,12 +12,12 @@
   "icf_ids_incomplete"
  ],
  "generated_at_utc": "2026-10-16T04:04:50Z",
- "updated_at": "2026-10-16T08:56:40Z",
+ "updated_at": "2026-10-16T09:05:09Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "Prague_2013_WCH_start.xlsx",
-   "sha256": "1c6d064ea018e9e2d4849227b5a35f6cf93d4f538642af7d21ca42d1ed90a050"
+   "sha256": "2b63b70f14f3155e35bafa24ee91bced9b38f8d871f9e26de41bc8a0136e56cc"
   }
  ],
  "row_count": 906,
@@ -2396,8 +2396,9 @@
    "printed_name": "MERJAN Richard Rashid",
    "source": "123result Start List PDF (CS_2013/siwidata/297/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
    "published_id": "",
-   "action": "no_icf_id",
-   "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['45918', '130072']"
+   "action": "corrected",
+   "detail": "kept: profile lists 2013 ICF CANOE SLALOM SENIOR WORLD CHAMPIONSHIPS / C1 Men (maintainer 2026-10-16 10:57)",
+   "new_id": "45918"
   },
   {
    "row": 232,
@@ -3465,8 +3466,9 @@
    "printed_name": "MERJAN Richard Rashid",
    "source": "123result Start List PDF (CS_2013/siwidata/297/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
    "published_id": "",
-   "action": "no_icf_id",
-   "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['45918', '130072']"
+   "action": "corrected",
+   "detail": "kept: profile lists 2013 ICF CANOE SLALOM SENIOR WORLD CHAMPIONSHIPS / C1 Men (maintainer 2026-10-16 10:57)",
+   "new_id": "45918"
   },
   {
    "row": 342,
@@ -11585,13 +11587,11 @@
   }
  ],
  "id_summary": {
-  "kept": 844,
-  "no_icf_id": 209,
+  "forerunner": 34,
+  "no_icf_id": 207,
   "emptied": 67,
-  "forerunner_unbound": 10,
-  "forerunner": 39,
-  "corrected": 14,
-  "same_meeting": 14
+  "kept": 844,
+  "corrected": 16
  },
  "pending_maintainer": [],
  "issues": [],
@@ -11626,6 +11626,16 @@
    "printed": "LIB",
    "written": "LBN",
    "note": "old NOC code: current code written, printed code logged (maintainer 2026-10-16 10:52)"
+  }
+ ],
+ "merjan_log": [
+  {
+   "row": 231,
+   "action": "corrected"
+  },
+  {
+   "row": 341,
+   "action": "corrected"
   }
  ]
 }
