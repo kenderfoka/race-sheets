@@ -12,12 +12,12 @@
  ],
  "start_times": "scheduled",
  "generated_at_utc": "2026-10-16T04:04:51Z",
- "updated_at": "2026-10-16T08:56:31Z",
+ "updated_at": "2026-10-16T09:05:00Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "Deodoro_2016_OG_start.xlsx",
-   "sha256": "4b5ed844495085dba8fbb30ac89f5ec05f649fddd3175072bf5755732b0ad202"
+   "sha256": "219128c255c746e4c8d43ec77613ce5e574c0f6337e41cbdfec52bd5e99af968"
   }
  ],
  "row_count": 257,
@@ -93,8 +93,9 @@
    "seat": "ICF_ID1",
    "printed_name": "MERJAN Richard",
    "source": "Olympic Games rule: name+nation+gender bind (ICF/PWW search + bence), no profile check",
-   "action": "emptied",
-   "detail": "no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['45918', '130072']"
+   "action": "bound_by_name",
+   "detail": "Olympic Games rule: bound by name (unique name+NOC LBN+gender after LIB->LBN) (maintainer 2026-10-16 10:57)",
+   "new_id": "45918"
   },
   {
    "row": 8,
@@ -450,8 +451,9 @@
    "seat": "ICF_ID1",
    "printed_name": "MERJAN Richard",
    "source": "Olympic Games rule: name+nation+gender bind (ICF/PWW search + bence), no profile check",
-   "action": "emptied",
-   "detail": "no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['45918', '130072']"
+   "action": "bound_by_name",
+   "detail": "Olympic Games rule: bound by name (unique name+NOC LBN+gender after LIB->LBN) (maintainer 2026-10-16 10:57)",
+   "new_id": "45918"
   },
   {
    "row": 48,
@@ -2770,11 +2772,10 @@
   }
  ],
  "id_summary": {
-  "bound_by_name": 266,
-  "no_icf_id": 8,
-  "emptied": 12,
-  "forerunner": 16,
-  "forerunner_unbound": 6
+  "forerunner": 20,
+  "bound_by_name": 268,
+  "emptied": 10,
+  "no_icf_id": 8
  },
  "issues": [],
  "shared_start_clash": [],
@@ -2833,6 +2834,16 @@
    "printed": "LIB",
    "written": "LBN",
    "note": "old NOC code: current code written, printed code logged (maintainer 2026-10-16 10:52)"
+  }
+ ],
+ "merjan_log": [
+  {
+   "row": 7,
+   "action": "bound_by_name"
+  },
+  {
+   "row": 47,
+   "action": "bound_by_name"
   }
  ]
 }
