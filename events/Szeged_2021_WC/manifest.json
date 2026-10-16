@@ -31,7 +31,7 @@
   "dates": "2021-05-12/2021-05-16",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-16T04:35:46Z",
+  "generated_at_utc": "2026-10-16T08:45:29Z",
   "grade": "USABLE",
   "gaps": [
     "icf_ids_incomplete"
@@ -15398,12 +15398,12 @@
       "results_row": 143,
       "seat": "ICF_ID1",
       "source_printed_name": "Maria-Lorena MANOLICA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "given_family_unique",
-      "new_id": "",
+      "new_id": "75566",
       "team": "ROU",
       "name_bound_profile": "kept: profile lists 2021 CANOE SPRINT EUROPEAN OLYMPIC QUALIFIER / K1 Women 200m",
-      "detail": "; emptied: profile NOC AZE vs printed ROU (gate3 token/keep-rule), seat emptied per skill 'repair or empty'"
+      "detail": "nation_change: id 75566 kept with printed TEAM ROU (profile NOC now AZE); maintainer 2026-10-16 10:39"
     },
     {
       "results_row": 144,
@@ -16387,12 +16387,12 @@
       "results_row": 209,
       "seat": "ICF_ID1",
       "source_printed_name": "Maria-Lorena MANOLICA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "given_family_unique",
-      "new_id": "",
+      "new_id": "75566",
       "team": "ROU",
       "name_bound_profile": "kept: profile lists 2021 CANOE SPRINT EUROPEAN OLYMPIC QUALIFIER / K1 Women 200m",
-      "detail": "; emptied: profile NOC AZE vs printed ROU (gate3 token/keep-rule), seat emptied per skill 'repair or empty'"
+      "detail": "nation_change: id 75566 kept with printed TEAM ROU (profile NOC now AZE); maintainer 2026-10-16 10:39"
     },
     {
       "results_row": 210,
@@ -21378,12 +21378,12 @@
       "results_row": 642,
       "seat": "ICF_ID1",
       "source_printed_name": "Maria-Lorena MANOLICA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "given_family_unique",
-      "new_id": "",
+      "new_id": "75566",
       "team": "ROU",
       "name_bound_profile": "kept: profile lists 2021 CANOE SPRINT EUROPEAN OLYMPIC QUALIFIER / K1 Women 200m",
-      "detail": "; emptied: profile NOC AZE vs printed ROU (gate3 token/keep-rule), seat emptied per skill 'repair or empty'"
+      "detail": "nation_change: id 75566 kept with printed TEAM ROU (profile NOC now AZE); maintainer 2026-10-16 10:39"
     },
     {
       "results_row": 643,
@@ -41570,12 +41570,12 @@
     {
       "kind": "xlsx",
       "name": "Szeged_2021_WC_Results.xlsx",
-      "sha256": "1d4f0ee38de70d848586e3d93fd0a4d7e5d875d68e6d6a9a95d6b532bcc897ea",
-      "bytes": 160797
+      "sha256": "3e8256617b55b8128733bb64208021e1b6d307d8bba69c0b2649ec4d3a30ef24",
+      "bytes": 160847
     }
   ],
   "output_xlsx": "Szeged_2021_WC_Results.xlsx",
-  "output_xlsx_sha256": "1d4f0ee38de70d848586e3d93fd0a4d7e5d875d68e6d6a9a95d6b532bcc897ea",
+  "output_xlsx_sha256": "3e8256617b55b8128733bb64208021e1b6d307d8bba69c0b2649ec4d3a30ef24",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -41614,14 +41614,29 @@
     "persons_dropped": 126,
     "olympic": false
   },
-  "updated_at": "2026-10-16T04:35:46Z",
+  "updated_at": "2026-10-16T08:45:29Z",
   "gate_repairs": [
     {
       "icf_id": "75566",
       "printed": "Maria-Lorena MANOLICA ROU",
       "profile_noc": "AZE",
       "seats": 3,
-      "action": "emptied (publish_gates GATE3)"
+      "action": "reverted 2026-10-16: refilled as nation_change (maintainer 10:39)"
+    }
+  ],
+  "nation_change_log": [
+    {
+      "id": "75566",
+      "name": "Maria-Lorena MANOLICA",
+      "printed_team": "ROU",
+      "profile_noc": "AZE",
+      "seats": 3,
+      "results_rows": [
+        143,
+        209,
+        642
+      ],
+      "note": "nation changed after the event; id and printed nation kept (maintainer 2026-10-16 10:39)"
     }
   ]
 }
