@@ -11,7 +11,7 @@
   "dates": "2013-08-28/2013-09-01",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-16T08:55:24Z",
+  "generated_at_utc": "2026-10-16T09:24:17Z",
   "grade": "USABLE",
   "gaps": [
     "icf_ids_incomplete"
@@ -268,16 +268,20 @@
     {
       "race_number": "7",
       "starting_lane": 8,
-      "rank": 4,
+      "rank": 5,
       "obs": "",
-      "team": "CAN"
+      "team": "CAN",
+      "imas_rank": 4,
+      "rank_source": "ICF results book (maintainer 2026-10-16 11:22)"
     },
     {
       "race_number": "7",
       "starting_lane": 6,
-      "rank": null,
+      "rank": 4,
       "obs": "",
-      "team": "USA"
+      "team": "USA",
+      "imas_rank": null,
+      "rank_source": "ICF results book (maintainer 2026-10-16 11:22)"
     },
     {
       "race_number": "8",
@@ -46139,12 +46143,12 @@
     {
       "kind": "xlsx",
       "name": "Duisburg_2013_WCH_Results.xlsx",
-      "sha256": "1f638722b82cc711964cf69ca07231367f24fe1156391a0fa29e3de62eb08b95",
-      "bytes": 151562
+      "sha256": "a6fec2b78400d640d97ecd2e9120082a6180ffc956da713be165c4da9c276e2b",
+      "bytes": 151566
     }
   ],
   "output_xlsx": "Duisburg_2013_WCH_Results.xlsx",
-  "output_xlsx_sha256": "1f638722b82cc711964cf69ca07231367f24fe1156391a0fa29e3de62eb08b95",
+  "output_xlsx_sha256": "a6fec2b78400d640d97ecd2e9120082a6180ffc956da713be165c4da9c276e2b",
   "checks": {
     "start-times": {
       "status": "pass",
@@ -46314,7 +46318,7 @@
       "lane": 6,
       "printed": "01:08:101",
       "written": "00:01:08.101",
-      "note": "other results of the race 00:55.646-01:12.212 -> read as 1:08.101 (maintainer 2026-10-16 10:39). IMAS prints no rank; RANK left empty as printed. The ICF results book (results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf) prints USA 4th in 01:08.101 and CAN 5th - open question"
+      "note": "other results of the race 00:55.646-01:12.212 -> read as 1:08.101 (maintainer 2026-10-16 10:39). Rank now from the ICF book, see rank_source_log."
     }
   ],
   "shared_clock_log": [
@@ -46347,5 +46351,25 @@
     "persons_dropped": 35,
     "olympic": false
   },
-  "updated_at": "2026-10-16T08:55:24Z"
+  "updated_at": "2026-10-16T09:24:17Z",
+  "rank_source_log": [
+    {
+      "race": 7,
+      "rows": [
+        {
+          "race": 7,
+          "team": "CAN",
+          "imas_rank": 4,
+          "written": 5
+        },
+        {
+          "race": 7,
+          "team": "USA",
+          "imas_rank": null,
+          "written": 4
+        }
+      ],
+      "note": "ranks taken from the ICF results book (results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf: USA 4th 01:08.101, CAN 5th 01:12.212); IMAS race page prints CAN 4th and USA without rank (maintainer 2026-10-16 11:22)"
+    }
+  ]
 }
