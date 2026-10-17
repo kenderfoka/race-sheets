@@ -10,7 +10,7 @@
   "dates": "2021-09-16/2021-09-19",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-15T15:16:54Z",
+  "generated_at_utc": "2026-10-17T15:54:46Z",
   "grade": "USABLE",
   "gaps": [
     "icf_ids_incomplete",
@@ -10203,10 +10203,12 @@
       "results_row": 73,
       "seat": "ICF_ID2",
       "source_printed_name": "Anja OSTERMAN",
-      "action": "no_icf_id",
-      "source": "pww+bence",
+      "action": "corrected",
+      "source": "name_change",
       "evidence": "printed_name='Anja OSTERMAN'; noc=SLO; no profile for given+family",
-      "team": "SLO"
+      "team": "SLO",
+      "new_id": "42444",
+      "detail": "name_change rule (maintainer 2026-10-17 Fix 1): printed 'Anja OSTERMAN', profile Anja APOLLONIO 42444; profile lists 2021 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K2 Women 500m; was no_icf_id"
     },
     {
       "results_row": 74,
@@ -12966,10 +12968,12 @@
       "results_row": 277,
       "seat": "ICF_ID2",
       "source_printed_name": "Anja OSTERMAN",
-      "action": "no_icf_id",
-      "source": "pww+bence",
+      "action": "corrected",
+      "source": "name_change",
       "evidence": "printed_name='Anja OSTERMAN'; noc=SLO; no profile for given+family",
-      "team": "SLO"
+      "team": "SLO",
+      "new_id": "42444",
+      "detail": "name_change rule (maintainer 2026-10-17 Fix 1): printed 'Anja OSTERMAN', profile Anja APOLLONIO 42444; profile lists 2021 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K2 Women 500m; was no_icf_id"
     },
     {
       "results_row": 278,
@@ -25706,10 +25710,12 @@
       "results_row": 1097,
       "seat": "ICF_ID1",
       "source_printed_name": "Anja OSTERMAN",
-      "action": "no_icf_id",
-      "source": "pww+bence",
+      "action": "corrected",
+      "source": "name_change",
       "evidence": "printed_name='Anja OSTERMAN'; noc=SLO; no profile for given+family",
-      "team": "SLO"
+      "team": "SLO",
+      "new_id": "42444",
+      "detail": "name_change rule (maintainer 2026-10-17 Fix 1): printed 'Anja OSTERMAN', profile Anja APOLLONIO 42444; profile lists 2021 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K2 Mixed 200m; was no_icf_id"
     },
     {
       "results_row": 1097,
@@ -29444,12 +29450,12 @@
     {
       "kind": "xlsx",
       "name": "Copenhagen_2021_WCH_Results.xlsx",
-      "sha256": "61be77f30382d20e02b484b1a401ec8640675834ffa8029fe41af0177e5edf59",
-      "bytes": 112679
+      "sha256": "fb86d62aed1207703ec4af008e0a372404398b9156d25c6252bb202e455b0dee",
+      "bytes": 112734
     }
   ],
   "output_xlsx": "Copenhagen_2021_WCH_Results.xlsx",
-  "output_xlsx_sha256": "61be77f30382d20e02b484b1a401ec8640675834ffa8029fe41af0177e5edf59",
+  "output_xlsx_sha256": "fb86d62aed1207703ec4af008e0a372404398b9156d25c6252bb202e455b0dee",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -29486,5 +29492,37 @@
     "persons_dropped": 116,
     "olympic": false
   },
-  "updated_at": "2026-10-15T15:16:54Z"
+  "updated_at": "2026-10-17T15:54:46Z",
+  "name_change_log": [
+    {
+      "results_row": 73,
+      "seat": "ICF_ID2",
+      "printed": "Anja OSTERMAN",
+      "icf_id": "42444",
+      "profile_name": "Anja APOLLONIO",
+      "rule": "name_change",
+      "evidence": "profile lists 2021 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K2 Women 500m",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 277,
+      "seat": "ICF_ID2",
+      "printed": "Anja OSTERMAN",
+      "icf_id": "42444",
+      "profile_name": "Anja APOLLONIO",
+      "rule": "name_change",
+      "evidence": "profile lists 2021 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K2 Women 500m",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 1097,
+      "seat": "ICF_ID1",
+      "printed": "Anja OSTERMAN",
+      "icf_id": "42444",
+      "profile_name": "Anja APOLLONIO",
+      "rule": "name_change",
+      "evidence": "profile lists 2021 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K2 Mixed 200m",
+      "was": "no_icf_id"
+    }
+  ]
 }

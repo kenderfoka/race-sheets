@@ -11,7 +11,7 @@
   "dates": "2016-05-17/2016-05-22",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-16T04:26:49Z",
+  "generated_at_utc": "2026-10-17T15:54:46Z",
   "grade": "USABLE",
   "gaps": [
     "icf_ids_incomplete"
@@ -17237,10 +17237,12 @@
       "results_row": 120,
       "seat": "ICF_ID1",
       "source_printed_name": "Alyssa BULL",
-      "action": "no_icf_id",
-      "source": "pww+bence",
+      "action": "corrected",
+      "source": "name_change",
       "evidence": "printed_name='Alyssa BULL'; noc=AUS; no profile for given+family",
-      "team": "AUS"
+      "team": "AUS",
+      "new_id": "61249",
+      "detail": "name_change rule (maintainer 2026-10-17 Fix 1): printed 'Alyssa BULL', profile Alyssa BUCK 61249; profile lists 2016 ICF CANOE SPRINT WORLD CUP 1 / K2 Women 500m; was no_icf_id"
     },
     {
       "results_row": 120,
@@ -20740,10 +20742,12 @@
       "results_row": 375,
       "seat": "ICF_ID1",
       "source_printed_name": "Alyssa BULL",
-      "action": "no_icf_id",
-      "source": "pww+bence",
+      "action": "corrected",
+      "source": "name_change",
       "evidence": "printed_name='Alyssa BULL'; noc=AUS; no profile for given+family",
-      "team": "AUS"
+      "team": "AUS",
+      "new_id": "61249",
+      "detail": "name_change rule (maintainer 2026-10-17 Fix 1): printed 'Alyssa BULL', profile Alyssa BUCK 61249; profile lists 2016 ICF CANOE SPRINT WORLD CUP 1 / K2 Women 500m; was no_icf_id"
     },
     {
       "results_row": 375,
@@ -24966,10 +24970,12 @@
       "results_row": 718,
       "seat": "ICF_ID1",
       "source_printed_name": "Alyssa BULL",
-      "action": "no_icf_id",
-      "source": "pww+bence",
+      "action": "corrected",
+      "source": "name_change",
       "evidence": "printed_name='Alyssa BULL'; noc=AUS; no profile for given+family",
-      "team": "AUS"
+      "team": "AUS",
+      "new_id": "61249",
+      "detail": "name_change rule (maintainer 2026-10-17 Fix 1): printed 'Alyssa BULL', profile Alyssa BUCK 61249; profile lists 2016 ICF CANOE SPRINT WORLD CUP 1 / K2 Women 500m; was no_icf_id"
     },
     {
       "results_row": 718,
@@ -27182,10 +27188,12 @@
       "results_row": 871,
       "seat": "ICF_ID1",
       "source_printed_name": "Alyssa BULL",
-      "action": "no_icf_id",
-      "source": "pww+bence",
+      "action": "corrected",
+      "source": "name_change",
       "evidence": "printed_name='Alyssa BULL'; noc=AUS; no profile for given+family",
-      "team": "AUS"
+      "team": "AUS",
+      "new_id": "61249",
+      "detail": "name_change rule (maintainer 2026-10-17 Fix 1): printed 'Alyssa BULL', profile Alyssa BUCK 61249; profile lists 2016 ICF CANOE SPRINT WORLD CUP 1 / K2 Women 500m; was no_icf_id"
     },
     {
       "results_row": 871,
@@ -37295,10 +37303,12 @@
       "results_row": 1437,
       "seat": "ICF_ID1",
       "source_printed_name": "Alyssa BULL",
-      "action": "no_icf_id",
-      "source": "pww+bence",
+      "action": "corrected",
+      "source": "name_change",
       "evidence": "printed_name='Alyssa BULL'; noc=AUS; no profile for given+family",
-      "team": "AUS"
+      "team": "AUS",
+      "new_id": "61249",
+      "detail": "name_change rule (maintainer 2026-10-17 Fix 1): printed 'Alyssa BULL', profile Alyssa BUCK 61249; profile lists 2016 ICF CANOE SPRINT WORLD CUP 1 / K1 Women 5000m; was no_icf_id"
     },
     {
       "results_row": 1438,
@@ -47851,12 +47861,12 @@
     {
       "kind": "xlsx",
       "name": "Duisburg_2016_WC_Results.xlsx",
-      "sha256": "b0255fc48f8770d5776a2ccd2bb5737e15d6dbbab67a4fd790e4d519eb04a213",
-      "bytes": 162888
+      "sha256": "84232eb7c67d5f1e9b3d1d80e04a2a74dfd0d86d7564ab2a0e3f0de5e4d40d1d",
+      "bytes": 162952
     }
   ],
   "output_xlsx": "Duisburg_2016_WC_Results.xlsx",
-  "output_xlsx_sha256": "b0255fc48f8770d5776a2ccd2bb5737e15d6dbbab67a4fd790e4d519eb04a213",
+  "output_xlsx_sha256": "84232eb7c67d5f1e9b3d1d80e04a2a74dfd0d86d7564ab2a0e3f0de5e4d40d1d",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -47894,5 +47904,57 @@
     "persons_dropped": 167,
     "olympic": false
   },
-  "updated_at": "2026-10-16T04:26:49Z"
+  "updated_at": "2026-10-17T15:54:46Z",
+  "name_change_log": [
+    {
+      "results_row": 120,
+      "seat": "ICF_ID1",
+      "printed": "Alyssa BULL",
+      "icf_id": "61249",
+      "profile_name": "Alyssa BUCK",
+      "rule": "name_change",
+      "evidence": "profile lists 2016 ICF CANOE SPRINT WORLD CUP 1 / K2 Women 500m",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 375,
+      "seat": "ICF_ID1",
+      "printed": "Alyssa BULL",
+      "icf_id": "61249",
+      "profile_name": "Alyssa BUCK",
+      "rule": "name_change",
+      "evidence": "profile lists 2016 ICF CANOE SPRINT WORLD CUP 1 / K2 Women 500m",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 718,
+      "seat": "ICF_ID1",
+      "printed": "Alyssa BULL",
+      "icf_id": "61249",
+      "profile_name": "Alyssa BUCK",
+      "rule": "name_change",
+      "evidence": "profile lists 2016 ICF CANOE SPRINT WORLD CUP 1 / K2 Women 500m",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 871,
+      "seat": "ICF_ID1",
+      "printed": "Alyssa BULL",
+      "icf_id": "61249",
+      "profile_name": "Alyssa BUCK",
+      "rule": "name_change",
+      "evidence": "profile lists 2016 ICF CANOE SPRINT WORLD CUP 1 / K2 Women 500m",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 1437,
+      "seat": "ICF_ID1",
+      "printed": "Alyssa BULL",
+      "icf_id": "61249",
+      "profile_name": "Alyssa BUCK",
+      "rule": "name_change",
+      "evidence": "profile lists 2016 ICF CANOE SPRINT WORLD CUP 1 / K1 Women 5000m",
+      "was": "no_icf_id"
+    }
+  ]
 }
