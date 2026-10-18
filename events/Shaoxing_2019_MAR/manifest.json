@@ -10,7 +10,7 @@
   "dates": "2019-10-17/2019-10-20",
   "discipline": "marathon",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-16T22:30:24Z",
+  "generated_at_utc": "2026-10-18T22:18:57Z",
   "grade": "USABLE",
   "gaps": [
     "icf_ids_incomplete"
@@ -8754,12 +8754,12 @@
     {
       "kind": "xlsx",
       "name": "Shaoxing_2019_MAR_Results.xlsx",
-      "sha256": "228debe86fc50b4f6282a2904184670778b69328f85151d271a8f7abb8943dd7",
-      "bytes": 45944
+      "sha256": "e9c29f68a5c2d352c5fd6ce5e30e4eeb339fb29a5a025af85b25b063006805e2",
+      "bytes": 45945
     }
   ],
   "output_xlsx": "Shaoxing_2019_MAR_Results.xlsx",
-  "output_xlsx_sha256": "228debe86fc50b4f6282a2904184670778b69328f85151d271a8f7abb8943dd7",
+  "output_xlsx_sha256": "e9c29f68a5c2d352c5fd6ce5e30e4eeb339fb29a5a025af85b25b063006805e2",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -8796,5 +8796,50 @@
     "persons_dropped": 2,
     "olympic": false
   },
-  "updated_at": "2026-10-16T22:30:24Z"
+  "updated_at": "2026-10-18T22:18:57Z",
+  "persons_split_log": [
+    {
+      "id": "80854",
+      "was": [
+        "Emily O’ROURKE",
+        null
+      ],
+      "now": [
+        "Emily",
+        "O’ROURKE"
+      ],
+      "rule": "MAINTAINER_ANSWERS_2026-10-18c Fix 2 scan: split into family and given name as printed"
+    }
+  ],
+  "printed_field_counts": {
+    "source": "official MemoSoft marathon results PDF, all pages; boat count per race counted in the Run 9 audit (pdftotext), equal to the sheet",
+    "rule": "MAINTAINER_ANSWERS_2026-10-18c Fix 1: printed count decides",
+    "counts": {
+      "1": 29,
+      "2": 14,
+      "3": 10,
+      "4": 12,
+      "5": 17,
+      "6": 18,
+      "7": 35,
+      "8": 16,
+      "9": 20,
+      "10": 19,
+      "11": 20,
+      "12": 19,
+      "13": 10,
+      "14": 9,
+      "15": 19,
+      "16": 12,
+      "17": 18,
+      "18": 28,
+      "19": 15,
+      "20": 20,
+      "21": 19,
+      "22": 35,
+      "23": 9,
+      "24": 15,
+      "25": 22
+    }
+  }
 }
