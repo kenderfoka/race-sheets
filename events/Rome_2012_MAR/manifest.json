@@ -10,7 +10,7 @@
   "dates": "2012-09-21/2012-09-23",
   "discipline": "marathon",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-17T16:26:23Z",
+  "generated_at_utc": "2026-10-18T11:06:38Z",
   "grade": "USABLE",
   "gaps": [
     "icf_ids_incomplete"
@@ -3624,11 +3624,10 @@
       "results_row": 114,
       "seat": "ICF_ID1",
       "source_printed_name": "Rahul KUMAR",
-      "action": "bound_by_name_unconfirmed",
-      "source": "pww_search",
-      "new_id": "126891",
+      "action": "emptied",
+      "source": "pww+bence",
       "team": "IND",
-      "detail": "contract: 2008-2012 profiles list no results; bound by name, nation and gender only, logged bound_by_name_unconfirmed"
+      "evidence": "2026-10-18 maintainer Fix 2: 126891 is a profile named only 'Rahul' with no results, nation or gender; bence dump has no Rahul KUMAR (IND, M) and no other single athlete matches name+nation+gender; seat emptied"
     },
     {
       "results_row": 115,
@@ -7268,12 +7267,12 @@
     {
       "kind": "xlsx",
       "name": "Rome_2012_MAR_Results.xlsx",
-      "sha256": "6fd091facaeb0620b441c102407efefd21b5c72fca71a818055a6d8758c289e0",
-      "bytes": 38010
+      "sha256": "02a0ec56c050d3ab14360a8cc7bd5a7dad6e8d4745a5c07cba992534556287aa",
+      "bytes": 37977
     }
   ],
   "output_xlsx": "Rome_2012_MAR_Results.xlsx",
-  "output_xlsx_sha256": "6fd091facaeb0620b441c102407efefd21b5c72fca71a818055a6d8758c289e0",
+  "output_xlsx_sha256": "02a0ec56c050d3ab14360a8cc7bd5a7dad6e8d4745a5c07cba992534556287aa",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -7299,7 +7298,7 @@
     "repairs": "name-bound seats vs printed names on Organiser results book (ICF-hosted PDF) https://cdn.paddleworldwide.com/media/2012-world-ch-rome_ita.pdf (vendor published results, text rebuilt from glyph positions)",
     "fixtures": "skill fixtures belong to other meetings; reference Organiser results book (ICF-hosted PDF) https://cdn.paddleworldwide.com/media/2012-world-ch-rome_ita.pdf (vendor published results, text rebuilt from glyph positions)"
   },
-  "updated_at": "2026-10-17T16:26:23Z",
+  "updated_at": "2026-10-18T11:06:38Z",
   "nation_change_log": [
     {
       "id": "48800",
@@ -7323,6 +7322,17 @@
         335
       ],
       "note": "contract line 387: unique ICF athlete with the printed name, profile NOC IRL; id and printed GBR kept, logged"
+    }
+  ],
+  "id_fix_log": [
+    {
+      "row": 114,
+      "seat": "ICF_ID1",
+      "printed": "Rahul KUMAR",
+      "team": "IND",
+      "old_id": "126891",
+      "new_id": null,
+      "source": "MAINTAINER_ANSWERS_2026-10-18.md Fix 2"
     }
   ]
 }
