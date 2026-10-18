@@ -10,7 +10,7 @@
   "dates": "2012-09-21/2012-09-23",
   "discipline": "marathon",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-18T11:06:38Z",
+  "generated_at_utc": "2026-10-18T16:24:17Z",
   "grade": "USABLE",
   "gaps": [
     "icf_ids_incomplete"
@@ -2811,11 +2811,11 @@
       "results_row": 29,
       "seat": "ICF_ID1",
       "source_printed_name": "Vinicius Zabot SANTOS",
-      "action": "bound_by_name_unconfirmed",
+      "action": "emptied",
       "source": "pww_search",
-      "new_id": "178014",
       "team": "BRA",
-      "detail": "contract: 2008-2012 profiles list no results; bound by name, nation and gender only, logged bound_by_name_unconfirmed"
+      "detail": "maintainer 2026-10-18b Fix 3: 178014 (Joao VINICIUS BASTOS SOARES, b.1999) shares only a given name with printed 'Vinicius Zabot SANTOS'; no single BRA athlete matches the printed name; seat emptied, row kept",
+      "old_id": "178014"
     },
     {
       "results_row": 30,
@@ -4294,11 +4294,11 @@
       "results_row": 165,
       "seat": "ICF_ID1",
       "source_printed_name": "Vinicius Zabot SANTOS",
-      "action": "bound_by_name_unconfirmed",
+      "action": "emptied",
       "source": "pww_search",
-      "new_id": "178014",
       "team": "BRA",
-      "detail": "contract: 2008-2012 profiles list no results; bound by name, nation and gender only, logged bound_by_name_unconfirmed"
+      "detail": "maintainer 2026-10-18b Fix 3: 178014 (Joao VINICIUS BASTOS SOARES, b.1999) shares only a given name with printed 'Vinicius Zabot SANTOS'; no single BRA athlete matches the printed name; seat emptied, row kept",
+      "old_id": "178014"
     },
     {
       "results_row": 165,
@@ -7248,7 +7248,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 221
+      "rows": 218
     }
   },
   "empty_crew_log": [
@@ -7267,12 +7267,12 @@
     {
       "kind": "xlsx",
       "name": "Rome_2012_MAR_Results.xlsx",
-      "sha256": "02a0ec56c050d3ab14360a8cc7bd5a7dad6e8d4745a5c07cba992534556287aa",
-      "bytes": 37977
+      "sha256": "932286db49182082b81f08ac02411948d470fba29d1c8ea05d559399edc10136",
+      "bytes": 37928
     }
   ],
   "output_xlsx": "Rome_2012_MAR_Results.xlsx",
-  "output_xlsx_sha256": "02a0ec56c050d3ab14360a8cc7bd5a7dad6e8d4745a5c07cba992534556287aa",
+  "output_xlsx_sha256": "932286db49182082b81f08ac02411948d470fba29d1c8ea05d559399edc10136",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -7298,7 +7298,7 @@
     "repairs": "name-bound seats vs printed names on Organiser results book (ICF-hosted PDF) https://cdn.paddleworldwide.com/media/2012-world-ch-rome_ita.pdf (vendor published results, text rebuilt from glyph positions)",
     "fixtures": "skill fixtures belong to other meetings; reference Organiser results book (ICF-hosted PDF) https://cdn.paddleworldwide.com/media/2012-world-ch-rome_ita.pdf (vendor published results, text rebuilt from glyph positions)"
   },
-  "updated_at": "2026-10-18T11:06:38Z",
+  "updated_at": "2026-10-18T16:24:17Z",
   "nation_change_log": [
     {
       "id": "48800",
@@ -7333,6 +7333,19 @@
       "old_id": "126891",
       "new_id": null,
       "source": "MAINTAINER_ANSWERS_2026-10-18.md Fix 2"
+    }
+  ],
+  "emptied_seats_log": [
+    {
+      "rows": [
+        29,
+        165
+      ],
+      "seat": "ICF_ID1",
+      "old_id": "178014",
+      "printed": "Vinicius Zabot SANTOS",
+      "rule": "MAINTAINER_ANSWERS_2026-10-18b Fix 3",
+      "persons_dropped": true
     }
   ]
 }

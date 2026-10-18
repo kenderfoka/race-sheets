@@ -10,7 +10,7 @@
   "dates": "2025-05-16/2025-05-18",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-17T15:54:46Z",
+  "generated_at_utc": "2026-10-18T16:24:17Z",
   "grade": "USABLE",
   "gaps": [
     "icf_ids_incomplete",
@@ -30864,12 +30864,12 @@
     {
       "kind": "xlsx",
       "name": "Szeged_2025_WC_Results.xlsx",
-      "sha256": "c7862446878653014fd5cb35b15da03a04d7f66cbd10ed4b80bd7d26d89fad0e",
-      "bytes": 123360
+      "sha256": "3817e1f4698cac4442728f3a07e5b9f78f978fe7dd2344e7599e97542cb24655",
+      "bytes": 123329
     }
   ],
   "output_xlsx": "Szeged_2025_WC_Results.xlsx",
-  "output_xlsx_sha256": "c7862446878653014fd5cb35b15da03a04d7f66cbd10ed4b80bd7d26d89fad0e",
+  "output_xlsx_sha256": "3817e1f4698cac4442728f3a07e5b9f78f978fe7dd2344e7599e97542cb24655",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -30906,7 +30906,7 @@
     "persons_dropped": 0,
     "olympic": false
   },
-  "updated_at": "2026-10-17T15:54:46Z",
+  "updated_at": "2026-10-18T16:24:17Z",
   "name_change_log": [
     {
       "results_row": 65,
@@ -31058,5 +31058,109 @@
       "evidence": "profile lists 2025 ICF CANOE SPRINT WORLD CUP SZEGED / K2 Women 500m",
       "was": "no_icf_id"
     }
-  ]
+  ],
+  "soft_hyphen_fix_log": {
+    "note": "Maintainer 2026-10-18b Fix 1: U+00AD -> \"-\"; a whole name in NAME split into NAME (given) and SURNAME (the caps family name as printed)",
+    "entries": [
+      {
+        "id": "53889",
+        "old": [
+          "Lucy LEE­SMITH",
+          null
+        ],
+        "new": [
+          "Lucy",
+          "LEE-SMITH"
+        ]
+      },
+      {
+        "id": "131896",
+        "old": [
+          "Nathan ZOUALEGH­BLANCHOT",
+          null
+        ],
+        "new": [
+          "Nathan",
+          "ZOUALEGH-BLANCHOT"
+        ]
+      },
+      {
+        "id": "72133",
+        "old": [
+          "Simon SCHULDT­JENSEN",
+          null
+        ],
+        "new": [
+          "Simon",
+          "SCHULDT-JENSEN"
+        ]
+      },
+      {
+        "id": "93705",
+        "old": [
+          "Sulaiman Ahmed Saeed AL­SAMARRAIE",
+          null
+        ],
+        "new": [
+          "Sulaiman Ahmed Saeed",
+          "AL-SAMARRAIE"
+        ]
+      },
+      {
+        "id": "35720",
+        "old": [
+          "Tom LIEBSCHER­LUCZ",
+          null
+        ],
+        "new": [
+          "Tom",
+          "LIEBSCHER-LUCZ"
+        ]
+      },
+      {
+        "id": "114660",
+        "old": [
+          "Georgel­Laurentiu",
+          "BARAGAU"
+        ],
+        "new": [
+          "Georgel-Laurentiu",
+          "BARAGAU"
+        ]
+      },
+      {
+        "id": "89175",
+        "old": [
+          "Lina­Marie",
+          "BIELICKE"
+        ],
+        "new": [
+          "Lina-Marie",
+          "BIELICKE"
+        ]
+      },
+      {
+        "id": "54736",
+        "old": [
+          "Conrad­Robin",
+          "SCHEIBNER"
+        ],
+        "new": [
+          "Conrad-Robin",
+          "SCHEIBNER"
+        ]
+      },
+      {
+        "id": "122388",
+        "old": [
+          "Elsa­Marie Tvetene",
+          "STENSHOLT"
+        ],
+        "new": [
+          "Elsa-Marie Tvetene",
+          "STENSHOLT"
+        ]
+      }
+    ]
+  }
 }
