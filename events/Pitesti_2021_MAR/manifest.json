@@ -10,7 +10,7 @@
   "dates": "2021-09-30/2021-10-03",
   "discipline": "marathon",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-16T22:24:02Z",
+  "generated_at_utc": "2026-10-18T22:18:43Z",
   "grade": "USABLE",
   "gaps": [
     "icf_ids_incomplete"
@@ -9328,12 +9328,12 @@
     {
       "kind": "xlsx",
       "name": "Pitesti_2021_MAR_Results.xlsx",
-      "sha256": "a7ccf2f7375751cb08a3e272355538fcc5c2898ae35b5dddeefa9395fa9047b4",
-      "bytes": 47931
+      "sha256": "29912f3522d7bb57fdc54ba023e730909e71c0ff4f3f3835ecf1497f7285200e",
+      "bytes": 47930
     }
   ],
   "output_xlsx": "Pitesti_2021_MAR_Results.xlsx",
-  "output_xlsx_sha256": "a7ccf2f7375751cb08a3e272355538fcc5c2898ae35b5dddeefa9395fa9047b4",
+  "output_xlsx_sha256": "29912f3522d7bb57fdc54ba023e730909e71c0ff4f3f3835ecf1497f7285200e",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -9370,5 +9370,50 @@
     "persons_dropped": 1,
     "olympic": false
   },
-  "updated_at": "2026-10-16T22:24:02Z"
+  "updated_at": "2026-10-18T22:18:43Z",
+  "persons_split_log": [
+    {
+      "id": "112722",
+      "was": [
+        "Eavan O’KEEFFE",
+        null
+      ],
+      "now": [
+        "Eavan",
+        "O’KEEFFE"
+      ],
+      "rule": "MAINTAINER_ANSWERS_2026-10-18c Fix 2 scan: split into family and given name as printed"
+    }
+  ],
+  "printed_field_counts": {
+    "source": "official MemoSoft marathon results PDF, all pages; boat count per race counted in the Run 9 audit (pdftotext), equal to the sheet",
+    "rule": "MAINTAINER_ANSWERS_2026-10-18c Fix 1: printed count decides",
+    "counts": {
+      "1": 25,
+      "2": 10,
+      "3": 13,
+      "4": 14,
+      "5": 22,
+      "6": 21,
+      "7": 17,
+      "8": 15,
+      "9": 19,
+      "10": 20,
+      "11": 20,
+      "12": 18,
+      "13": 15,
+      "14": 19,
+      "15": 9,
+      "16": 29,
+      "17": 35,
+      "18": 15,
+      "19": 12,
+      "20": 23,
+      "21": 39,
+      "22": 25,
+      "23": 11,
+      "24": 18,
+      "25": 25
+    }
+  }
 }
