@@ -10,7 +10,7 @@
   "dates": "2018-09-06/2018-09-09",
   "discipline": "marathon",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-18T11:24:13Z",
+  "generated_at_utc": "2026-10-18T22:19:10Z",
   "grade": "USABLE",
   "gaps": [
     "icf_ids_incomplete"
@@ -6412,12 +6412,12 @@
     {
       "kind": "xlsx",
       "name": "VilaVerde_2018_MAR_Results.xlsx",
-      "sha256": "06912d7538ca8f6ba8443004bb416299e2b75b8de1e13c08527f368af846dbee",
-      "bytes": 35958
+      "sha256": "c5a76d33678f807c44365fc35f9f3520ec734769d79fff674a4aabce9d875f7e",
+      "bytes": 35957
     }
   ],
   "output_xlsx": "VilaVerde_2018_MAR_Results.xlsx",
-  "output_xlsx_sha256": "06912d7538ca8f6ba8443004bb416299e2b75b8de1e13c08527f368af846dbee",
+  "output_xlsx_sha256": "c5a76d33678f807c44365fc35f9f3520ec734769d79fff674a4aabce9d875f7e",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -6454,5 +6454,41 @@
     "persons_dropped": 3,
     "olympic": false
   },
-  "updated_at": "2026-10-18T11:24:13Z"
+  "updated_at": "2026-10-18T22:19:10Z",
+  "persons_split_log": [
+    {
+      "id": "80854",
+      "was": [
+        "O’ROURKE Emily",
+        null
+      ],
+      "now": [
+        "Emily",
+        "O’ROURKE"
+      ],
+      "rule": "MAINTAINER_ANSWERS_2026-10-18c Fix 2 scan: split into family and given name as printed"
+    }
+  ],
+  "printed_field_counts": {
+    "source": "official MemoSoft marathon results PDF, all pages; boat count per race counted in the Run 9 audit (pdftotext), equal to the sheet",
+    "rule": "MAINTAINER_ANSWERS_2026-10-18c Fix 1: printed count decides",
+    "counts": {
+      "1": 29,
+      "2": 13,
+      "3": 14,
+      "4": 13,
+      "5": 35,
+      "6": 16,
+      "7": 14,
+      "8": 23,
+      "10": 28,
+      "11": 14,
+      "12": 16,
+      "13": 25,
+      "14": 32,
+      "15": 13,
+      "16": 14,
+      "17": 24
+    }
+  }
 }
