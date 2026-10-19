@@ -10,7 +10,7 @@
   "dates": "2012-09-21/2012-09-23",
   "discipline": "marathon",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-19T17:52:00Z",
+  "generated_at_utc": "2026-10-19T18:46:20Z",
   "grade": "USABLE",
   "gaps": [
     "icf_ids_incomplete"
@@ -5454,9 +5454,12 @@
       "results_row": 247,
       "seat": "ICF_ID1",
       "source_printed_name": "Nuno BARROS",
-      "action": "emptied",
-      "source": "none",
-      "team": "POR"
+      "action": "bound_by_name_unconfirmed",
+      "source": "pww_search",
+      "team": "POR",
+      "new_id": "58775",
+      "rule_q78a": "MAINTAINER_ANSWERS_2026-10-19f Q78a: with under-14 namesakes dropped (Q76), a printed name that now fits exactly one same-nation same-gender athlete binds (Q71), logged unconfirmed; Q80(b): a candidate left single only by the age filter matches every printed name token",
+      "detail": "Q78a: under-14 namesakes no longer count (Q76); 58775 is the single same-nation same-gender athlete of the right age carrying the printed name; bound by name, nation and gender, unconfirmed (Q44)"
     },
     {
       "results_row": 248,
@@ -6324,9 +6327,12 @@
       "results_row": 315,
       "seat": "ICF_ID2",
       "source_printed_name": "Nuno BARROS",
-      "action": "emptied",
-      "source": "none",
-      "team": "POR"
+      "action": "bound_by_name_unconfirmed",
+      "source": "pww_search",
+      "team": "POR",
+      "new_id": "58775",
+      "rule_q78a": "MAINTAINER_ANSWERS_2026-10-19f Q78a: with under-14 namesakes dropped (Q76), a printed name that now fits exactly one same-nation same-gender athlete binds (Q71), logged unconfirmed; Q80(b): a candidate left single only by the age filter matches every printed name token",
+      "detail": "Q78a: under-14 namesakes no longer count (Q76); 58775 is the single same-nation same-gender athlete of the right age carrying the printed name; bound by name, nation and gender, unconfirmed (Q44)"
     },
     {
       "results_row": 316,
@@ -6778,9 +6784,12 @@
       "results_row": 339,
       "seat": "ICF_ID1",
       "source_printed_name": "Nestor PINTA",
-      "action": "emptied",
-      "source": "none",
-      "team": "ARG"
+      "action": "bound_by_name_unconfirmed",
+      "source": "pww_search",
+      "team": "ARG",
+      "new_id": "58936",
+      "rule_q78a": "MAINTAINER_ANSWERS_2026-10-19f Q78a: with under-14 namesakes dropped (Q76), a printed name that now fits exactly one same-nation same-gender athlete binds (Q71), logged unconfirmed; Q80(b): a candidate left single only by the age filter matches every printed name token",
+      "detail": "Q78a: under-14 namesakes no longer count (Q76); 58936 is the single same-nation same-gender athlete of the right age carrying the printed name; bound by name, nation and gender, unconfirmed (Q44)"
     },
     {
       "results_row": 339,
@@ -7250,7 +7259,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 217
+      "rows": 219
     }
   },
   "empty_crew_log": [
@@ -7269,12 +7278,12 @@
     {
       "kind": "xlsx",
       "name": "Rome_2012_MAR_Results.xlsx",
-      "sha256": "b0a1ce9c007d91e83eedcb9e53de1cd8ec9da2583fd4da7efadf0bd1f2b99147",
-      "bytes": 37887
+      "sha256": "69c46d8a65fed2846d8e4c677cc1a4d8fe0220be3bd58bb6d974d568bde7bc44",
+      "bytes": 37958
     }
   ],
   "output_xlsx": "Rome_2012_MAR_Results.xlsx",
-  "output_xlsx_sha256": "b0a1ce9c007d91e83eedcb9e53de1cd8ec9da2583fd4da7efadf0bd1f2b99147",
+  "output_xlsx_sha256": "69c46d8a65fed2846d8e4c677cc1a4d8fe0220be3bd58bb6d974d568bde7bc44",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -7300,7 +7309,7 @@
     "repairs": "name-bound seats vs printed names on Organiser results book (ICF-hosted PDF) https://cdn.paddleworldwide.com/media/2012-world-ch-rome_ita.pdf (vendor published results, text rebuilt from glyph positions)",
     "fixtures": "skill fixtures belong to other meetings; reference Organiser results book (ICF-hosted PDF) https://cdn.paddleworldwide.com/media/2012-world-ch-rome_ita.pdf (vendor published results, text rebuilt from glyph positions)"
   },
-  "updated_at": "2026-10-19T17:52:00Z",
+  "updated_at": "2026-10-19T18:46:20Z",
   "nation_change_log": [
     {
       "id": "48800",
@@ -7397,7 +7406,55 @@
     "persons_added": []
   },
   "name_bound_check": {
-    "unconfirmed": 269,
-    "emptied": 16
+    "unconfirmed": 272,
+    "emptied": 13
+  },
+  "q78a_age_filter_binds": {
+    "rule": "MAINTAINER_ANSWERS_2026-10-19f Q78a: with under-14 namesakes dropped (Q76), a printed name that now fits exactly one same-nation same-gender athlete binds (Q71), logged unconfirmed; Q80(b): a candidate left single only by the age filter matches every printed name token",
+    "first_day": "2012-09-21",
+    "seats": [
+      {
+        "results_row": 247,
+        "seat": "ICF_ID1",
+        "printed": "Nuno BARROS",
+        "team": "POR",
+        "row_gender": "M",
+        "new_id": "58775",
+        "birth_date": "1981-11-16",
+        "previous_action": "bound_by_name_unconfirmed"
+      },
+      {
+        "results_row": 315,
+        "seat": "ICF_ID2",
+        "printed": "Nuno BARROS",
+        "team": "POR",
+        "row_gender": "M",
+        "new_id": "58775",
+        "birth_date": "1981-11-16",
+        "previous_action": "bound_by_name_unconfirmed"
+      },
+      {
+        "results_row": 339,
+        "seat": "ICF_ID1",
+        "printed": "Nestor PINTA",
+        "team": "ARG",
+        "row_gender": "M",
+        "new_id": "58936",
+        "birth_date": "1977-01-03",
+        "previous_action": "bound_by_name_unconfirmed"
+      }
+    ],
+    "persons_added": [
+      {
+        "id": "58775",
+        "NAME": "Nuno",
+        "SURNAME": "BARROS"
+      },
+      {
+        "id": "58936",
+        "NAME": "Nestor",
+        "SURNAME": "PINTA"
+      }
+    ]
   }
 }
