@@ -11,7 +11,7 @@
   "dates": "2014-08-06/2014-08-10",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-19T15:09:48Z",
+  "generated_at_utc": "2026-10-19T15:42:49Z",
   "grade": "USABLE",
   "gaps": [
     "icf_ids_incomplete"
@@ -14547,7 +14547,7 @@
     },
     {
       "race_number": "1535",
-      "starting_lane": null,
+      "starting_lane": 3,
       "rank": null,
       "obs": "DNS",
       "team": "BLR"
@@ -48492,12 +48492,12 @@
     {
       "kind": "xlsx",
       "name": "Moscow_2014_WCH_Results.xlsx",
-      "sha256": "328ca04266b7b26150620c8882505d23507b3abad2a2c764ef40918d2b0208e0",
-      "bytes": 164367
+      "sha256": "153e24b42ca9d1585fc6457d5e6b5f50bec8679a0bbf5a0310d3c10e5f0f7356",
+      "bytes": 164372
     }
   ],
   "output_xlsx": "Moscow_2014_WCH_Results.xlsx",
-  "output_xlsx_sha256": "328ca04266b7b26150620c8882505d23507b3abad2a2c764ef40918d2b0208e0",
+  "output_xlsx_sha256": "153e24b42ca9d1585fc6457d5e6b5f50bec8679a0bbf5a0310d3c10e5f0f7356",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -48536,7 +48536,7 @@
     "persons_dropped": 0,
     "olympic": false
   },
-  "updated_at": "2026-10-19T15:09:48Z",
+  "updated_at": "2026-10-19T15:42:49Z",
   "printed_field_counts": {
     "source": "boats per race as parsed from the published source ( +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  + ); back-filled 2026-10-19 from the published RESULTS (the builder parse), race coverage cross-checked independently by GATE10b",
     "rule": "MAINTAINER_ANSWERS_2026-10-18c Fix 1: printed count decides",
@@ -48805,12 +48805,12 @@
         "race": 1535,
         "printed_race_number": 35,
         "printed_lane": "3",
-        "lane_written": null,
+        "lane_written": 3,
         "team": "BLR",
         "printed": "CANCEL",
         "written": "DNS",
         "source": "imas-sources/Moscow_2014_WCH/race_25.html",
-        "ruling": "MAINTAINER_ANSWERS_2026-10-19b Q69: own row, STARTING_LANE empty, OBS DNS"
+        "ruling": "MAINTAINER_ANSWERS_2026-10-19c Q69: lane printed (3) -> STARTING_LANE 3; own row, OBS DNS"
       }
     ]
   }
