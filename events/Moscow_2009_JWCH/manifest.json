@@ -10,7 +10,7 @@
   "dates": "2009-07-31/2009-08-02",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-19T12:46:32Z",
+  "generated_at_utc": "2026-10-19T17:52:00Z",
   "grade": "USABLE",
   "gaps": [
     "icf_ids_incomplete"
@@ -10308,11 +10308,13 @@
       "results_row": 185,
       "seat": "ICF_ID1",
       "source_printed_name": "Luis Morais Alvarez",
-      "action": "bound_by_name_unconfirmed",
+      "action": "emptied",
       "source": "pww_search",
-      "new_id": "90936",
       "team": "ESP",
-      "detail": "bound by name, nation and gender; PWW profiles do not list this competition (MAINTAINER_ANSWERS_2026-10-19 Q44)"
+      "detail": "Q76: 90936 (born 2001-01-13) was under 14 on 2009-07-31; no single same-nation same-gender athlete of the right age carries the printed name; seat empty",
+      "q76_emptied_id": "90936",
+      "q76_birth_date": "2001-01-13",
+      "rule_q76": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age"
     },
     {
       "results_row": 185,
@@ -14318,11 +14320,13 @@
       "results_row": 402,
       "seat": "ICF_ID1",
       "source_printed_name": "Luis Morais Alvarez",
-      "action": "bound_by_name_unconfirmed",
+      "action": "emptied",
       "source": "pww_search",
-      "new_id": "90936",
       "team": "ESP",
-      "detail": "bound by name, nation and gender; PWW profiles do not list this competition (MAINTAINER_ANSWERS_2026-10-19 Q44)"
+      "detail": "Q76: 90936 (born 2001-01-13) was under 14 on 2009-07-31; no single same-nation same-gender athlete of the right age carries the printed name; seat empty",
+      "q76_emptied_id": "90936",
+      "q76_birth_date": "2001-01-13",
+      "rule_q76": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age"
     },
     {
       "results_row": 402,
@@ -18031,11 +18035,13 @@
       "results_row": 590,
       "seat": "ICF_ID1",
       "source_printed_name": "Luis Morais Alvarez",
-      "action": "bound_by_name_unconfirmed",
+      "action": "emptied",
       "source": "pww_search",
-      "new_id": "90936",
       "team": "ESP",
-      "detail": "bound by name, nation and gender; PWW profiles do not list this competition (MAINTAINER_ANSWERS_2026-10-19 Q44)"
+      "detail": "Q76: 90936 (born 2001-01-13) was under 14 on 2009-07-31; no single same-nation same-gender athlete of the right age carries the printed name; seat empty",
+      "q76_emptied_id": "90936",
+      "q76_birth_date": "2001-01-13",
+      "rule_q76": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age"
     },
     {
       "results_row": 590,
@@ -23188,11 +23194,13 @@
       "results_row": 882,
       "seat": "ICF_ID1",
       "source_printed_name": "Luis Morais Alvarez",
-      "action": "bound_by_name_unconfirmed",
+      "action": "emptied",
       "source": "pww_search",
-      "new_id": "90936",
       "team": "ESP",
-      "detail": "bound by name, nation and gender; PWW profiles do not list this competition (MAINTAINER_ANSWERS_2026-10-19 Q44)"
+      "detail": "Q76: 90936 (born 2001-01-13) was under 14 on 2009-07-31; no single same-nation same-gender athlete of the right age carries the printed name; seat empty",
+      "q76_emptied_id": "90936",
+      "q76_birth_date": "2001-01-13",
+      "rule_q76": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age"
     },
     {
       "results_row": 882,
@@ -27940,7 +27948,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 122
+      "rows": 121
     }
   },
   "printed_field_counts": {
@@ -28090,12 +28098,12 @@
     {
       "kind": "xlsx",
       "name": "Moscow_2009_JWCH_Results.xlsx",
-      "sha256": "8c98e154a2a6075e861e4e20eef176df35058e90deac176b1ce0130a69e594aa",
-      "bytes": 76494
+      "sha256": "dbaecad8d19e74e3e385ee055b590883ba774e1c6b699d16c749a9f395eba6bf",
+      "bytes": 76413
     }
   ],
   "output_xlsx": "Moscow_2009_JWCH_Results.xlsx",
-  "output_xlsx_sha256": "8c98e154a2a6075e861e4e20eef176df35058e90deac176b1ce0130a69e594aa",
+  "output_xlsx_sha256": "dbaecad8d19e74e3e385ee055b590883ba774e1c6b699d16c749a9f395eba6bf",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -28124,12 +28132,12 @@
   "name_bound_check": {
     "completed": true,
     "rule": "MAINTAINER_ANSWERS_2026-10-19 Q44: bound by name, nation and gender, logged bound_by_name_unconfirmed (no profile check possible)",
-    "unconfirmed": 604,
+    "unconfirmed": 600,
     "restored_from_emptied": 0,
-    "emptied": 13,
+    "emptied": 17,
     "refused": []
   },
-  "updated_at": "2026-10-19T12:46:32Z",
+  "updated_at": "2026-10-19T17:52:00Z",
   "races_not_printed": [
     {
       "race": 29,
@@ -28156,5 +28164,68 @@
       "note": "no page for this number in the results book and no start list in an approved source; no rows",
       "rule": "MAINTAINER_ANSWERS_2026-10-19 Q57"
     }
-  ]
+  ],
+  "q76_under14_log": {
+    "rule": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age",
+    "first_day": "2009-07-31",
+    "source": "ICF (bence) birthDate",
+    "seats": [
+      {
+        "results_row": 185,
+        "seat": "ICF_ID1",
+        "printed": "Luis Morais Alvarez",
+        "team": "ESP",
+        "row_gender": "M",
+        "emptied_id": "90936",
+        "birth_date": "2001-01-13",
+        "first_day": "2009-07-31",
+        "rule": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age",
+        "outcome": "emptied",
+        "rebind_reason": "no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+      },
+      {
+        "results_row": 402,
+        "seat": "ICF_ID1",
+        "printed": "Luis Morais Alvarez",
+        "team": "ESP",
+        "row_gender": "M",
+        "emptied_id": "90936",
+        "birth_date": "2001-01-13",
+        "first_day": "2009-07-31",
+        "rule": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age",
+        "outcome": "emptied",
+        "rebind_reason": "no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+      },
+      {
+        "results_row": 590,
+        "seat": "ICF_ID1",
+        "printed": "Luis Morais Alvarez",
+        "team": "ESP",
+        "row_gender": "M",
+        "emptied_id": "90936",
+        "birth_date": "2001-01-13",
+        "first_day": "2009-07-31",
+        "rule": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age",
+        "outcome": "emptied",
+        "rebind_reason": "no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+      },
+      {
+        "results_row": 882,
+        "seat": "ICF_ID1",
+        "printed": "Luis Morais Alvarez",
+        "team": "ESP",
+        "row_gender": "M",
+        "emptied_id": "90936",
+        "birth_date": "2001-01-13",
+        "first_day": "2009-07-31",
+        "rule": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age",
+        "outcome": "emptied",
+        "rebind_reason": "no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+      }
+    ],
+    "persons_removed": [
+      "90936"
+    ],
+    "persons_added": []
+  }
 }

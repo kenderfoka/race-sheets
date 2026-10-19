@@ -10,7 +10,7 @@
   "dates": "2009-09-18/2009-09-20",
   "discipline": "marathon",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-19T15:42:49Z",
+  "generated_at_utc": "2026-10-19T17:52:00Z",
   "grade": "USABLE",
   "gaps": [
     "icf_ids_incomplete"
@@ -2827,11 +2827,13 @@
       "results_row": 63,
       "seat": "ICF_ID1",
       "source_printed_name": "Diogo FERREIRA",
-      "action": "bound_by_name_unconfirmed",
+      "action": "emptied",
       "source": "pww_search",
-      "new_id": "129697",
       "team": "POR",
-      "detail": "bound by name, nation and gender; PWW profiles do not list this competition (MAINTAINER_ANSWERS_2026-10-19 Q44)"
+      "detail": "Q76: 129697 (born 2005-05-10) was under 14 on 2009-09-18; no single same-nation same-gender athlete of the right age carries the printed name; seat empty",
+      "q76_emptied_id": "129697",
+      "q76_birth_date": "2005-05-10",
+      "rule_q76": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age"
     },
     {
       "results_row": 64,
@@ -3667,11 +3669,13 @@
       "results_row": 140,
       "seat": "ICF_ID1",
       "source_printed_name": "Bence SZABO",
-      "action": "bound_by_name_unconfirmed",
+      "action": "emptied",
       "source": "pww_search",
-      "new_id": "73762",
       "team": "HUN",
-      "detail": "bound by name, nation and gender; PWW profiles do not list this competition (MAINTAINER_ANSWERS_2026-10-19 Q44)"
+      "detail": "Q76: 73762 (born 2000-03-05) was under 14 on 2009-09-18; no single same-nation same-gender athlete of the right age carries the printed name; seat empty",
+      "q76_emptied_id": "73762",
+      "q76_birth_date": "2000-03-05",
+      "rule_q76": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age"
     },
     {
       "results_row": 140,
@@ -4444,11 +4448,13 @@
       "results_row": 181,
       "seat": "ICF_ID2",
       "source_printed_name": "Adrian GONZÁLEZ",
-      "action": "bound_by_name_unconfirmed",
+      "action": "emptied",
       "source": "pww_search",
-      "new_id": "72616",
       "team": "ESP",
-      "detail": "bound by name, nation and gender; PWW profiles do not list this competition (MAINTAINER_ANSWERS_2026-10-19 Q44)"
+      "detail": "Q76: 72616 (born 1999-02-19) was under 14 on 2009-09-18; no single same-nation same-gender athlete of the right age carries the printed name; seat empty",
+      "q76_emptied_id": "72616",
+      "q76_birth_date": "1999-02-19",
+      "rule_q76": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age"
     },
     {
       "results_row": 182,
@@ -9036,7 +9042,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 122
+      "rows": 119
     }
   },
   "printed_field_counts": {
@@ -9067,21 +9073,21 @@
     {
       "kind": "xlsx",
       "name": "Crestuma_2009_MAR_Results.xlsx",
-      "sha256": "1f3906070955a6007d248c34feebefc55d5a390e6a3c1d01d07c2d9a306c61dd",
-      "bytes": 28258
+      "sha256": "fe7b33c235e89ae56f261aca694c80dfc05413a25c14a3a8e955642d889994cf",
+      "bytes": 28150
     }
   ],
   "output_xlsx": "Crestuma_2009_MAR_Results.xlsx",
-  "output_xlsx_sha256": "1f3906070955a6007d248c34feebefc55d5a390e6a3c1d01d07c2d9a306c61dd",
+  "output_xlsx_sha256": "fe7b33c235e89ae56f261aca694c80dfc05413a25c14a3a8e955642d889994cf",
   "name_bound_check": {
     "completed": true,
     "rule": "MAINTAINER_ANSWERS_2026-10-19 Q44: bound by name, nation and gender, logged bound_by_name_unconfirmed (no profile check possible)",
-    "unconfirmed": 150,
+    "unconfirmed": 147,
     "restored_from_emptied": 0,
-    "emptied": 10,
+    "emptied": 13,
     "refused": []
   },
-  "updated_at": "2026-10-19T15:42:49Z",
+  "updated_at": "2026-10-19T17:52:00Z",
   "audit": {
     "fails": [],
     "nfails": 0,
@@ -9108,5 +9114,57 @@
     "fixtures": "skill fixtures belong to other meetings; reference ICF archive results book https://cdn.paddleworldwide.com/media/2009_world_ch_gaia_por.pdf (icf_archive_book, official results)"
   },
   "status_word_log": "printed D.N.F. -> DNF, D.N.S./D.N.S -> DNS, DISQ -> DSQ (Q59 mapping precedent)",
-  "gender_unspecified_ruling": "MAINTAINER_ANSWERS_2026-10-19c Q70: race 9 \"C2 Junior\" GENDER empty, logged — accepted"
+  "gender_unspecified_ruling": "MAINTAINER_ANSWERS_2026-10-19c Q70: race 9 \"C2 Junior\" GENDER empty, logged — accepted",
+  "q76_under14_log": {
+    "rule": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age",
+    "first_day": "2009-09-18",
+    "source": "ICF (bence) birthDate",
+    "seats": [
+      {
+        "results_row": 63,
+        "seat": "ICF_ID1",
+        "printed": "Diogo FERREIRA",
+        "team": "POR",
+        "row_gender": "M",
+        "emptied_id": "129697",
+        "birth_date": "2005-05-10",
+        "first_day": "2009-09-18",
+        "rule": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age",
+        "outcome": "emptied",
+        "rebind_reason": "no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+      },
+      {
+        "results_row": 140,
+        "seat": "ICF_ID1",
+        "printed": "Bence SZABO",
+        "team": "HUN",
+        "row_gender": "M",
+        "emptied_id": "73762",
+        "birth_date": "2000-03-05",
+        "first_day": "2009-09-18",
+        "rule": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age",
+        "outcome": "emptied",
+        "rebind_reason": "no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+      },
+      {
+        "results_row": 181,
+        "seat": "ICF_ID2",
+        "printed": "Adrian GONZÁLEZ",
+        "team": "ESP",
+        "row_gender": "",
+        "emptied_id": "72616",
+        "birth_date": "1999-02-19",
+        "first_day": "2009-09-18",
+        "rule": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age",
+        "outcome": "emptied",
+        "rebind_reason": "no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+      }
+    ],
+    "persons_removed": [
+      "129697",
+      "72616",
+      "73762"
+    ],
+    "persons_added": []
+  }
 }

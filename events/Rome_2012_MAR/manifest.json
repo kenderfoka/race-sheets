@@ -10,7 +10,7 @@
   "dates": "2012-09-21/2012-09-23",
   "discipline": "marathon",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-18T16:24:17Z",
+  "generated_at_utc": "2026-10-19T17:52:00Z",
   "grade": "USABLE",
   "gaps": [
     "icf_ids_incomplete"
@@ -4651,11 +4651,13 @@
       "results_row": 183,
       "seat": "ICF_ID2",
       "source_printed_name": "Paula GARCÍA",
-      "action": "bound_by_name_unconfirmed",
+      "action": "emptied",
       "source": "pww_search",
-      "new_id": "85415",
       "team": "ESP",
-      "detail": "contract: 2008-2012 profiles list no results; bound by name, nation and gender only, logged bound_by_name_unconfirmed"
+      "detail": "Q76: 85415 (born 2000-05-15) was under 14 on 2012-09-21; no single same-nation same-gender athlete of the right age carries the printed name; seat empty",
+      "q76_emptied_id": "85415",
+      "q76_birth_date": "2000-05-15",
+      "rule_q76": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age"
     },
     {
       "results_row": 184,
@@ -7248,7 +7250,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 218
+      "rows": 217
     }
   },
   "empty_crew_log": [
@@ -7267,21 +7269,21 @@
     {
       "kind": "xlsx",
       "name": "Rome_2012_MAR_Results.xlsx",
-      "sha256": "932286db49182082b81f08ac02411948d470fba29d1c8ea05d559399edc10136",
-      "bytes": 37928
+      "sha256": "b0a1ce9c007d91e83eedcb9e53de1cd8ec9da2583fd4da7efadf0bd1f2b99147",
+      "bytes": 37887
     }
   ],
   "output_xlsx": "Rome_2012_MAR_Results.xlsx",
-  "output_xlsx_sha256": "932286db49182082b81f08ac02411948d470fba29d1c8ea05d559399edc10136",
+  "output_xlsx_sha256": "b0a1ce9c007d91e83eedcb9e53de1cd8ec9da2583fd4da7efadf0bd1f2b99147",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
     "crews": "pass",
     "OBS": "pass",
     "RANK vs official results": "pass",
-    "PERSONS vs ICF": "not_run",
-    "repairs": "not_run",
-    "fixtures": "not_run"
+    "PERSONS vs ICF": "pass",
+    "repairs": "pass",
+    "fixtures": "pass"
   },
   "audit": {
     "fails": [],
@@ -7298,7 +7300,7 @@
     "repairs": "name-bound seats vs printed names on Organiser results book (ICF-hosted PDF) https://cdn.paddleworldwide.com/media/2012-world-ch-rome_ita.pdf (vendor published results, text rebuilt from glyph positions)",
     "fixtures": "skill fixtures belong to other meetings; reference Organiser results book (ICF-hosted PDF) https://cdn.paddleworldwide.com/media/2012-world-ch-rome_ita.pdf (vendor published results, text rebuilt from glyph positions)"
   },
-  "updated_at": "2026-10-18T16:24:17Z",
+  "updated_at": "2026-10-19T17:52:00Z",
   "nation_change_log": [
     {
       "id": "48800",
@@ -7347,5 +7349,55 @@
       "rule": "MAINTAINER_ANSWERS_2026-10-18b Fix 3",
       "persons_dropped": true
     }
-  ]
+  ],
+  "printed_field_counts": {
+    "source": "boats per race as parsed from the published source (https://cdn.paddleworldwide.com/media/2012-world-ch-rome_ita.pdf); back-filled 2026-10-19 from the published RESULTS (the builder parse), race coverage cross-checked independently by GATE10b",
+    "rule": "MAINTAINER_ANSWERS_2026-10-18c Fix 1: printed count decides",
+    "counts": {
+      "1": 36,
+      "2": 24,
+      "3": 13,
+      "4": 25,
+      "5": 15,
+      "6": 31,
+      "7": 28,
+      "8": 17,
+      "9": 13,
+      "10": 27,
+      "11": 20,
+      "12": 42,
+      "13": 19,
+      "14": 17,
+      "15": 34
+    },
+    "backfilled": "2026-10-19"
+  },
+  "q76_under14_log": {
+    "rule": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age",
+    "first_day": "2012-09-21",
+    "source": "ICF (bence) birthDate",
+    "seats": [
+      {
+        "results_row": 183,
+        "seat": "ICF_ID2",
+        "printed": "Paula GARCÍA",
+        "team": "ESP",
+        "row_gender": "W",
+        "emptied_id": "85415",
+        "birth_date": "2000-05-15",
+        "first_day": "2012-09-21",
+        "rule": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age",
+        "outcome": "emptied",
+        "rebind_reason": "no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+      }
+    ],
+    "persons_removed": [
+      "85415"
+    ],
+    "persons_added": []
+  },
+  "name_bound_check": {
+    "unconfirmed": 269,
+    "emptied": 16
+  }
 }

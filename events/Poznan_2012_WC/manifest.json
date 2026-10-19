@@ -10,7 +10,7 @@
   "dates": "2012-05-18/2012-05-20",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-18T22:22:39Z",
+  "generated_at_utc": "2026-10-19T17:52:00Z",
   "grade": "USABLE",
   "gaps": [
     "icf_ids_incomplete"
@@ -20919,11 +20919,13 @@
       "results_row": 758,
       "seat": "ICF_ID2",
       "source_printed_name": "Hong ZHANG",
-      "action": "bound_by_name_unconfirmed",
+      "action": "emptied",
       "source": "pww_search",
-      "new_id": "133041",
       "team": "CHN",
-      "detail": "contract: 2008-2012 profiles list no results; bound by name, nation and gender only, logged bound_by_name_unconfirmed (maintainer 2026-10-17 Q19 / 2026-10-18b Q33)"
+      "detail": "Q76: 133041 (born 2004-08-21) was under 14 on 2012-05-18; no single same-nation same-gender athlete of the right age carries the printed name; seat empty",
+      "q76_emptied_id": "133041",
+      "q76_birth_date": "2004-08-21",
+      "rule_q76": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age"
     },
     {
       "results_row": 759,
@@ -23909,11 +23911,13 @@
       "results_row": 985,
       "seat": "ICF_ID2",
       "source_printed_name": "Hong ZHANG",
-      "action": "bound_by_name_unconfirmed",
+      "action": "emptied",
       "source": "pww_search",
-      "new_id": "133041",
       "team": "CHN",
-      "detail": "contract: 2008-2012 profiles list no results; bound by name, nation and gender only, logged bound_by_name_unconfirmed (maintainer 2026-10-17 Q19 / 2026-10-18b Q33)"
+      "detail": "Q76: 133041 (born 2004-08-21) was under 14 on 2012-05-18; no single same-nation same-gender athlete of the right age carries the printed name; seat empty",
+      "q76_emptied_id": "133041",
+      "q76_birth_date": "2004-08-21",
+      "rule_q76": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age"
     },
     {
       "results_row": 986,
@@ -27590,11 +27594,13 @@
       "results_row": 1281,
       "seat": "ICF_ID2",
       "source_printed_name": "Hong ZHANG",
-      "action": "bound_by_name_unconfirmed",
+      "action": "emptied",
       "source": "pww_search",
-      "new_id": "133041",
       "team": "CHN",
-      "detail": "contract: 2008-2012 profiles list no results; bound by name, nation and gender only, logged bound_by_name_unconfirmed (maintainer 2026-10-17 Q19 / 2026-10-18b Q33)"
+      "detail": "Q76: 133041 (born 2004-08-21) was under 14 on 2012-05-18; no single same-nation same-gender athlete of the right age carries the printed name; seat empty",
+      "q76_emptied_id": "133041",
+      "q76_birth_date": "2004-08-21",
+      "rule_q76": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age"
     },
     {
       "results_row": 1282,
@@ -31364,7 +31370,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 279
+      "rows": 278
     }
   },
   "domain": "flatwater_sprint",
@@ -31374,12 +31380,12 @@
     {
       "kind": "xlsx",
       "name": "Poznan_2012_WC_Results.xlsx",
-      "sha256": "d8c915f5e2a88cca16c0971619e0bcfc192e84154b44f53c983d03d3d72980d6",
-      "bytes": 104238
+      "sha256": "e6656e06656fd7f38b7089e0cc68403c5e28eb66fc300fe18469e70363dcaded",
+      "bytes": 104192
     }
   ],
   "output_xlsx": "Poznan_2012_WC_Results.xlsx",
-  "output_xlsx_sha256": "d8c915f5e2a88cca16c0971619e0bcfc192e84154b44f53c983d03d3d72980d6",
+  "output_xlsx_sha256": "e6656e06656fd7f38b7089e0cc68403c5e28eb66fc300fe18469e70363dcaded",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -31408,10 +31414,10 @@
   "name_bound_check": {
     "completed": true,
     "rule": "2012: no PWW profile lists pre-2013 results; seats bound by name, nation and gender and logged bound_by_name_unconfirmed (Q19)",
-    "unconfirmed": 1164,
-    "emptied": 0
+    "unconfirmed": 1154,
+    "emptied": 31
   },
-  "updated_at": "2026-10-18T22:22:39Z",
+  "updated_at": "2026-10-19T17:52:00Z",
   "nation_change_log": [
     {
       "id": "99700",
@@ -31670,5 +31676,55 @@
       "174": 21,
       "175": 41
     }
+  },
+  "q76_under14_log": {
+    "rule": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age",
+    "first_day": "2012-05-18",
+    "source": "ICF (bence) birthDate",
+    "seats": [
+      {
+        "results_row": 758,
+        "seat": "ICF_ID2",
+        "printed": "Hong ZHANG",
+        "team": "CHN",
+        "row_gender": "W",
+        "emptied_id": "133041",
+        "birth_date": "2004-08-21",
+        "first_day": "2012-05-18",
+        "rule": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age",
+        "outcome": "emptied",
+        "rebind_reason": "no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+      },
+      {
+        "results_row": 985,
+        "seat": "ICF_ID2",
+        "printed": "Hong ZHANG",
+        "team": "CHN",
+        "row_gender": "W",
+        "emptied_id": "133041",
+        "birth_date": "2004-08-21",
+        "first_day": "2012-05-18",
+        "rule": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age",
+        "outcome": "emptied",
+        "rebind_reason": "no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+      },
+      {
+        "results_row": 1281,
+        "seat": "ICF_ID2",
+        "printed": "Hong ZHANG",
+        "team": "CHN",
+        "row_gender": "W",
+        "emptied_id": "133041",
+        "birth_date": "2004-08-21",
+        "first_day": "2012-05-18",
+        "rule": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age",
+        "outcome": "emptied",
+        "rebind_reason": "no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+      }
+    ],
+    "persons_removed": [
+      "133041"
+    ],
+    "persons_added": []
   }
 }
