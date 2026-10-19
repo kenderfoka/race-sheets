@@ -11,7 +11,7 @@
   "index": "https://domtel-sport.pl/wyniki,zawody,5283",
   "discipline": "sprint",
   "start_times": "mixed",
-  "generated_at_utc": "2026-10-19T01:11:49Z",
+  "generated_at_utc": "2026-10-19T12:32:59Z",
   "grade": "USABLE",
   "gaps": [
     "icf_ids_incomplete"
@@ -884,18 +884,20 @@
       "seat": "ICF_ID1",
       "published_id": "69364",
       "source_printed_name": "Aukai Manson",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "printed 'Aukai Manson'; ICF 69364 is 'Colbert MANSON' (no logged former name/ruling); corrected bind_seat: no ICF athlete carries given+family"
+      "action": "kept",
+      "source": "maintainer_ruling",
+      "team": "USA",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-19 (t51u Fix 2): Colbert MANSON 69364's profile lists exactly these two events at the 2022 Poznan World Cup and he is the only US man named MANSON; contract keep-rule (surname, nation, gender unique) keeps him"
     },
     {
       "results_row": 525,
       "seat": "ICF_ID1",
       "published_id": "69364",
       "source_printed_name": "Aukai Manson",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "printed 'Aukai Manson'; ICF 69364 is 'Colbert MANSON' (no logged former name/ruling); corrected bind_seat: no ICF athlete carries given+family"
+      "action": "kept",
+      "source": "maintainer_ruling",
+      "team": "USA",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-19 (t51u Fix 2): Colbert MANSON 69364's profile lists exactly these two events at the 2022 Poznan World Cup and he is the only US man named MANSON; contract keep-rule (surname, nation, gender unique) keeps him"
     }
   ],
   "rank_oracle": [
@@ -9603,7 +9605,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 523
+      "rows": 524
     }
   },
   "coverage": {
@@ -13005,7 +13007,7 @@
       "bytes": 71878
     }
   ],
-  "updated_at": "2026-10-19T01:11:49Z",
+  "updated_at": "2026-10-19T12:32:59Z",
   "reason_code": "NO_RACE_FOR_DATES",
   "grade_reason": "races_catalog=180 races_with_boats=151; icf_overall=1833/1889 (97.04%); icf_non_exhibition=1833/1889 (97.04%); empty_or_failed_races=[78, 86, 87, 90, 91, 114, 115, 118, 119, 120, 121, 122, 123, 124, 125, 126, 128, 145, 154, 156]",
   "scheduled_races": [
@@ -13234,12 +13236,12 @@
     {
       "kind": "xlsx",
       "name": "Poznan_2022_WC_Results.xlsx",
-      "sha256": "318caa782dfbf2cf90e59659cdec81cbd6eb1e0e48401a8336026a1adf4988f3",
-      "bytes": 133264
+      "sha256": "f5135fa6bad28730d2946a7697ebc8489b723ef02a30f79af8e6c30221f3525e",
+      "bytes": 104824
     }
   ],
   "output_xlsx": "races/Poznan_2022_WC/Poznan_2022_WC_Results.xlsx",
-  "output_xlsx_sha256": "318caa782dfbf2cf90e59659cdec81cbd6eb1e0e48401a8336026a1adf4988f3",
+  "output_xlsx_sha256": "f5135fa6bad28730d2946a7697ebc8489b723ef02a30f79af8e6c30221f3525e",
   "checks": {
     "start-times": "pass",
     "crews": "pass",
@@ -13617,6 +13619,26 @@
     {
       "date": "2026-10-19",
       "note": "last-resort given+family bind ignored gender: 6 seats (rows 29, 234: 60006 male in W K4; rows 134, 330, 423, 657: 104048 female in M K1) rebound through the corrected bind_seat -> no unique athlete -> emptied, logged no_icf_id; rows 65, 525: 69364 Colbert MANSON on printed Aukai Manson (name check fail) -> emptied, logged no_icf_id"
+    },
+    {
+      "date": "2026-10-19",
+      "note": "maintainer t51u Fix 2: rows 65 and 525 (USA K4 500 / K2 500 heats) ICF_ID1 restored to 69364 (Colbert MANSON, printed Aukai Manson) under the keep-rule; my emptying of them in Run 14 was wrong. The six ZHANG seats stay empty."
+    }
+  ],
+  "ruled_binds": [
+    {
+      "icf_id": "69364",
+      "results_row": 65,
+      "seat": "ICF_ID1",
+      "printed": "Aukai Manson",
+      "ruling": "MAINTAINER_ANSWERS_2026-10-19 Fix 2: keep-rule, restore 69364"
+    },
+    {
+      "icf_id": "69364",
+      "results_row": 525,
+      "seat": "ICF_ID1",
+      "printed": "Aukai Manson",
+      "ruling": "MAINTAINER_ANSWERS_2026-10-19 Fix 2: keep-rule, restore 69364"
     }
   ]
 }
