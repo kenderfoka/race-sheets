@@ -5,148 +5,93 @@
  "kind": "OG",
  "discipline": "slalom",
  "start_times": "scheduled",
- "start_times_kind": "heat",
+ "start_times_kind": "per-boat",
  "dates": "2012-07-29/2012-08-02",
  "sheet": "LeeValley_2012_OG_start.xlsx",
  "grade": "USABLE",
  "gaps": [
   "icf_ids_incomplete"
  ],
- "generated_at_utc": "2026-10-19T15:12:03Z",
- "updated_at": "2026-10-19T15:13:48Z",
+ "generated_at_utc": "2026-10-19T15:50:59Z",
+ "updated_at": "2026-10-19T15:51:13Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "LeeValley_2012_OG_start.xlsx",
-   "sha256": "7471fbd9ed713e455b0fb2e099d34f643ad7b0253a577ece5d1272d2b3a9e622"
+   "sha256": "d61690deb4e2ad63c4082bc18548723d485847e654f9315b7836281d63146171"
   }
  ],
  "row_count": 232,
  "source": {
   "files": [
-   "https://www.canoeslalom.net/lib/exe/fetch.php/archiv/2012/2012-08-02-ergebnisliste-os2012-london.pdf",
-   "https://en.wikipedia.org/wiki/Canoeing_at_the_2012_Summer_Olympics_–_Men%27s_slalom_C-1",
-   "https://en.wikipedia.org/wiki/Canoeing_at_the_2012_Summer_Olympics_–_Men%27s_slalom_K-1",
-   "https://en.wikipedia.org/wiki/Canoeing_at_the_2012_Summer_Olympics_–_Women%27s_slalom_K-1",
-   "https://en.wikipedia.org/wiki/Canoeing_at_the_2012_Summer_Olympics_–_Men%27s_slalom_C-2"
+   "https://web.archive.org/web/20130511031521id_/http://www.london2012.com/mm/Document/sport/General/01/32/14/68/CANOESLALOMRESULTSBOOKV4_Neutral.pdf",
+   "http://web.archive.org/web/20120728000000/http://www.london2012.com/canoe-slalom/event/canoe-single-men/",
+   "http://web.archive.org/web/20120728000000/http://www.london2012.com/canoe-slalom/event/kayak-men/",
+   "http://web.archive.org/web/20120728000000/http://www.london2012.com/canoe-slalom/event/kayak-women/",
+   "http://web.archive.org/web/20120728000000/http://www.london2012.com/canoe-slalom/event/canoe-double-men/",
+   "https://www.canoeslalom.net/lib/exe/fetch.php/archiv/2012/2012-08-02-ergebnisliste-os2012-london.pdf"
   ],
-  "note": "Athletes/bibs from canoeslalom.net; NOCs from Wikipedia; heat run 1+2 session times from Wikipedia LOCOG schedule (separate times, not W19 combined). Semi/final times from canoeslalom.net."
+  "note": "NOCs from official results book (Wayback). Heat run 1+2 per-boat scheduled clocks from Wayback london2012.com event pages (per-boat wins over session heat times). Semi/final session times from canoeslalom.net. No Wikipedia."
  },
  "heat_times": [
   {
-   "unit": "C1M-H1",
-   "date": "2012-07-29",
-   "heat_time": "13:30:00",
-   "source": "Wikipedia LOCOG schedule table",
-   "note": "Heats run 1 session start"
-  },
-  {
-   "unit": "K1M-H1",
-   "date": "2012-07-29",
-   "heat_time": "14:24:00",
-   "source": "Wikipedia LOCOG schedule table",
-   "note": "Heats run 1 session start"
-  },
-  {
-   "unit": "C2M-H1",
-   "date": "2012-07-30",
-   "heat_time": "13:30:00",
-   "source": "Wikipedia LOCOG schedule table",
-   "note": "Heats run 1 session start"
-  },
-  {
-   "unit": "K1W-H1",
-   "date": "2012-07-30",
-   "heat_time": "14:12:00",
-   "source": "Wikipedia LOCOG schedule table",
-   "note": "Heats run 1 session start"
-  },
-  {
-   "unit": "C1M-H2",
-   "date": "2012-07-29",
-   "heat_time": "15:42:00",
-   "source": "Wikipedia LOCOG schedule table",
-   "note": "Heats run 2 session start (separate from run 1)"
-  },
-  {
-   "unit": "K1M-H2",
-   "date": "2012-07-29",
-   "heat_time": "16:36:00",
-   "source": "Wikipedia LOCOG schedule table",
-   "note": "Heats run 2 session start (separate from run 1)"
-  },
-  {
-   "unit": "C2M-H2",
-   "date": "2012-07-30",
-   "heat_time": "15:42:00",
-   "source": "Wikipedia LOCOG schedule table",
-   "note": "Heats run 2 session start (separate from run 1)"
-  },
-  {
-   "unit": "K1W-H2",
-   "date": "2012-07-30",
-   "heat_time": "16:24:00",
-   "source": "Wikipedia LOCOG schedule table",
-   "note": "Heats run 2 session start (separate from run 1)"
-  },
-  {
-   "unit": "C1M-Se",
+   "unit": "C1M-Semifinal",
    "date": "2012-07-31",
    "heat_time": "13:30:00",
-   "source": "canoeslalom.net London 2012 PDF",
-   "note": "Semifinal session heat time on every boat"
+   "source": "canoeslalom.net",
+   "note": "session heat time"
   },
   {
-   "unit": "C1M-Fi",
+   "unit": "C1M-Final",
    "date": "2012-07-31",
    "heat_time": "15:06:00",
-   "source": "canoeslalom.net London 2012 PDF",
-   "note": "Final session heat time on every boat"
+   "source": "canoeslalom.net",
+   "note": "session heat time"
   },
   {
-   "unit": "K1M-Se",
+   "unit": "K1M-Semifinal",
    "date": "2012-08-01",
    "heat_time": "13:30:00",
-   "source": "canoeslalom.net London 2012 PDF",
-   "note": "Semifinal session heat time on every boat"
+   "source": "canoeslalom.net",
+   "note": "session heat time"
   },
   {
-   "unit": "K1M-Fi",
+   "unit": "K1M-Final",
    "date": "2012-08-01",
    "heat_time": "15:15:00",
-   "source": "canoeslalom.net London 2012 PDF",
-   "note": "Final session heat time on every boat"
+   "source": "canoeslalom.net",
+   "note": "session heat time"
   },
   {
-   "unit": "C2M-Se",
+   "unit": "C2M-Semifinal",
    "date": "2012-08-02",
    "heat_time": "13:30:00",
-   "source": "canoeslalom.net London 2012 PDF",
-   "note": "Semifinal session heat time on every boat"
+   "source": "canoeslalom.net",
+   "note": "session heat time"
   },
   {
-   "unit": "C2M-Fi",
+   "unit": "C2M-Final",
    "date": "2012-08-02",
    "heat_time": "15:18:00",
-   "source": "canoeslalom.net London 2012 PDF",
-   "note": "Final session heat time on every boat"
+   "source": "canoeslalom.net",
+   "note": "session heat time"
   },
   {
-   "unit": "K1W-Se",
+   "unit": "K1W-Semifinal",
    "date": "2012-08-02",
    "heat_time": "14:12:00",
-   "source": "canoeslalom.net London 2012 PDF",
-   "note": "Semifinal session heat time on every boat"
+   "source": "canoeslalom.net",
+   "note": "session heat time"
   },
   {
-   "unit": "K1W-Fi",
+   "unit": "K1W-Final",
    "date": "2012-08-02",
    "heat_time": "15:57:00",
-   "source": "canoeslalom.net London 2012 PDF",
-   "note": "Final session heat time on every boat"
+   "source": "canoeslalom.net",
+   "note": "session heat time"
   }
  ],
- "start_time_note": "Heats: LOCOG schedule prints two session starts (run 1 and run 2); each on every boat of that unit. Semi/Final: canoeslalom.net session start.",
+ "start_time_note": "Heats: per-boat scheduled start clocks from Wayback london2012.com start lists (run 1 and run 2). Semi/Final: canoeslalom.net session start as heat time on every boat.",
  "id_checks": [
   {
    "row": 2,
@@ -2570,13 +2515,315 @@
  "placeholders": [],
  "spellings": [],
  "dropped": [],
- "pending_maintainer": [],
  "issues": [],
  "shared_start_clash": [],
  "shared_clock_log": [],
  "rank_source": "canoeslalom.net final ranks",
  "siwidata": null,
  "noted": [
-  "K1M/K1W heat run 1 times from Wikipedia LOCOG schedule (14:24 / 14:12); canoeslalom printed 14:31 / 14:22."
- ]
+  "Rebuilt 2026-10-19 from approved sources only (results book + Wayback london2012.com); Wikipedia removed."
+ ],
+ "rebuild_diff": {
+  "team_changes": [],
+  "time_changes_count": 146,
+  "time_changes_sample": [
+   {
+    "field": "Start time",
+    "bib": 3,
+    "name": "Michal Martikán",
+    "phase": "Heats",
+    "unit": "1",
+    "event": "C1",
+    "gender": "M",
+    "old": "13:30:00",
+    "new": "14:12:00",
+    "date": "2012-07-29"
+   },
+   {
+    "field": "Start time",
+    "bib": 3,
+    "name": "Michal Martikán",
+    "phase": "Heats",
+    "unit": "2",
+    "event": "C1",
+    "gender": "M",
+    "old": "15:42:00",
+    "new": "16:29:00",
+    "date": "2012-07-29"
+   },
+   {
+    "field": "Start time",
+    "bib": 9,
+    "name": "Benjamin Savšek",
+    "phase": "Heats",
+    "unit": "1",
+    "event": "C1",
+    "gender": "M",
+    "old": "13:30:00",
+    "new": "13:54:00",
+    "date": "2012-07-29"
+   },
+   {
+    "field": "Start time",
+    "bib": 9,
+    "name": "Benjamin Savšek",
+    "phase": "Heats",
+    "unit": "2",
+    "event": "C1",
+    "gender": "M",
+    "old": "15:42:00",
+    "new": "16:11:00",
+    "date": "2012-07-29"
+   },
+   {
+    "field": "Start time",
+    "bib": 8,
+    "name": "Takuya Haneda",
+    "phase": "Heats",
+    "unit": "1",
+    "event": "C1",
+    "gender": "M",
+    "old": "13:30:00",
+    "new": "13:57:00",
+    "date": "2012-07-29"
+   },
+   {
+    "field": "Start time",
+    "bib": 8,
+    "name": "Takuya Haneda",
+    "phase": "Heats",
+    "unit": "2",
+    "event": "C1",
+    "gender": "M",
+    "old": "15:42:00",
+    "new": "16:14:00",
+    "date": "2012-07-29"
+   },
+   {
+    "field": "Start time",
+    "bib": 5,
+    "name": "Sideris Tasiadis",
+    "phase": "Heats",
+    "unit": "1",
+    "event": "C1",
+    "gender": "M",
+    "old": "13:30:00",
+    "new": "14:06:00",
+    "date": "2012-07-29"
+   },
+   {
+    "field": "Start time",
+    "bib": 5,
+    "name": "Sideris Tasiadis",
+    "phase": "Heats",
+    "unit": "2",
+    "event": "C1",
+    "gender": "M",
+    "old": "15:42:00",
+    "new": "16:23:00",
+    "date": "2012-07-29"
+   },
+   {
+    "field": "Start time",
+    "bib": 1,
+    "name": "David Florence",
+    "phase": "Heats",
+    "unit": "1",
+    "event": "C1",
+    "gender": "M",
+    "old": "13:30:00",
+    "new": "14:18:00",
+    "date": "2012-07-29"
+   },
+   {
+    "field": "Start time",
+    "bib": 1,
+    "name": "David Florence",
+    "phase": "Heats",
+    "unit": "2",
+    "event": "C1",
+    "gender": "M",
+    "old": "15:42:00",
+    "new": "16:35:00",
+    "date": "2012-07-29"
+   },
+   {
+    "field": "Start time",
+    "bib": 6,
+    "name": "Ander Elosegi",
+    "phase": "Heats",
+    "unit": "1",
+    "event": "C1",
+    "gender": "M",
+    "old": "13:30:00",
+    "new": "14:03:00",
+    "date": "2012-07-29"
+   },
+   {
+    "field": "Start time",
+    "bib": 6,
+    "name": "Ander Elosegi",
+    "phase": "Heats",
+    "unit": "2",
+    "event": "C1",
+    "gender": "M",
+    "old": "15:42:00",
+    "new": "16:20:00",
+    "date": "2012-07-29"
+   },
+   {
+    "field": "Start time",
+    "bib": 2,
+    "name": "Tony Estanguet",
+    "phase": "Heats",
+    "unit": "1",
+    "event": "C1",
+    "gender": "M",
+    "old": "13:30:00",
+    "new": "14:15:00",
+    "date": "2012-07-29"
+   },
+   {
+    "field": "Start time",
+    "bib": 2,
+    "name": "Tony Estanguet",
+    "phase": "Heats",
+    "unit": "2",
+    "event": "C1",
+    "gender": "M",
+    "old": "15:42:00",
+    "new": "16:32:00",
+    "date": "2012-07-29"
+   },
+   {
+    "field": "Start time",
+    "bib": 12,
+    "name": "Grzegorz Kiljanek",
+    "phase": "Heats",
+    "unit": "1",
+    "event": "C1",
+    "gender": "M",
+    "old": "13:30:00",
+    "new": "13:45:00",
+    "date": "2012-07-29"
+   },
+   {
+    "field": "Start time",
+    "bib": 12,
+    "name": "Grzegorz Kiljanek",
+    "phase": "Heats",
+    "unit": "2",
+    "event": "C1",
+    "gender": "M",
+    "old": "15:42:00",
+    "new": "16:02:00",
+    "date": "2012-07-29"
+   },
+   {
+    "field": "Start time",
+    "bib": 4,
+    "name": "Stanislav Ježek",
+    "phase": "Heats",
+    "unit": "1",
+    "event": "C1",
+    "gender": "M",
+    "old": "13:30:00",
+    "new": "14:09:00",
+    "date": "2012-07-29"
+   },
+   {
+    "field": "Start time",
+    "bib": 4,
+    "name": "Stanislav Ježek",
+    "phase": "Heats",
+    "unit": "2",
+    "event": "C1",
+    "gender": "M",
+    "old": "15:42:00",
+    "new": "16:26:00",
+    "date": "2012-07-29"
+   },
+   {
+    "field": "Start time",
+    "bib": 11,
+    "name": "Alexander Lipatov",
+    "phase": "Heats",
+    "unit": "1",
+    "event": "C1",
+    "gender": "M",
+    "old": "13:30:00",
+    "new": "13:48:00",
+    "date": "2012-07-29"
+   },
+   {
+    "field": "Start time",
+    "bib": 11,
+    "name": "Alexander Lipatov",
+    "phase": "Heats",
+    "unit": "2",
+    "event": "C1",
+    "gender": "M",
+    "old": "15:42:00",
+    "new": "16:05:00",
+    "date": "2012-07-29"
+   }
+  ],
+  "race_number_changes": 231,
+  "missing": [
+   [
+    "Team",
+    11,
+    "Alexander Lipatov",
+    "RUS"
+   ],
+   [
+    "Team",
+    11,
+    "Alexander Lipatov",
+    "RUS"
+   ],
+   [
+    "Team",
+    11,
+    "Alexander Lipatov",
+    "RUS"
+   ],
+   [
+    "Team",
+    8,
+    "Michael Kurt",
+    "SUI"
+   ],
+   [
+    "Team",
+    8,
+    "Michael Kurt",
+    "SUI"
+   ],
+   [
+    "Team",
+    13,
+    "Michael Dawson",
+    "NZL"
+   ],
+   [
+    "Team",
+    13,
+    "Michael Dawson",
+    "NZL"
+   ],
+   [
+    "Team",
+    8,
+    "Michael Kurt",
+    "SUI"
+   ],
+   [
+    "Team",
+    13,
+    "Michael Dawson",
+    "NZL"
+   ]
+  ]
+ }
 }
