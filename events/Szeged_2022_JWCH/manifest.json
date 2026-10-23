@@ -10,11 +10,9 @@
   "dates": "2022-08-31/2022-09-04",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-18T11:08:47Z",
-  "grade": "USABLE",
-  "gaps": [
-    "icf_ids_incomplete"
-  ],
+  "generated_at_utc": "2026-10-23T18:47:56Z",
+  "grade": "PERFECT",
+  "gaps": [],
   "note": "Digicorp (Prawn) results book prints the scheduled race start to the minute (written HH:MM:00); Digicorp hub dead, no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule). OQ/para races in the same book are kept (one key).",
   "race_numbers_missing": [],
   "issues": [],
@@ -18260,20 +18258,26 @@
       "results_row": 53,
       "seat": "ICF_ID1",
       "source_printed_name": "Samalulu CLIFTON",
-      "action": "emptied",
+      "action": "corrected",
       "source": "given_family_unique",
       "new_id": "142039",
       "team": "NZL",
-      "emptied_id": "142039",
-      "detail": "name-bound id 142039: PWW profile (fetched fresh 2026-10-15) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 142039",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 54,
       "seat": "ICF_ID1",
       "source_printed_name": "Jemma SMITH",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "AUS"
+      "team": "AUS",
+      "new_id": "100256",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 100256 (Jemma SMITH), also_ids=['79452']",
+      "also_ids": [
+        "79452"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 55,
@@ -18879,17 +18883,29 @@
       "results_row": 70,
       "seat": "ICF_ID1",
       "source_printed_name": "Titouan CESCHIN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "FRA"
+      "team": "FRA",
+      "new_id": "111784",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 111784 (Titouan CESCHIN), also_ids=['110908']",
+      "also_ids": [
+        "110908"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 70,
       "seat": "ICF_ID2",
       "source_printed_name": "Paul Arthur VIDEIRA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "FRA"
+      "team": "FRA",
+      "new_id": "111782",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 111782 (Paul Arthur VIDEIRA), also_ids=['110924']",
+      "also_ids": [
+        "110924"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 70,
@@ -18905,9 +18921,15 @@
       "results_row": 70,
       "seat": "ICF_ID4",
       "source_printed_name": "Julien MADELAINE",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "FRA"
+      "team": "FRA",
+      "new_id": "111783",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 111783 (Julien MADELAINE), also_ids=['110919']",
+      "also_ids": [
+        "110919"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 71,
@@ -18995,8 +19017,9 @@
       "source_printed_name": "Jack KILPATRICK",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Jack KILPATRICK'; noc=USA; no profile for given+family",
-      "team": "USA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jack KILPATRICK (USA, M)",
+      "team": "USA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jack KILPATRICK (USA, M)"
     },
     {
       "results_row": 73,
@@ -19232,17 +19255,29 @@
       "results_row": 84,
       "seat": "ICF_ID1",
       "source_printed_name": "Mirjalol KAMILOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UZB"
+      "team": "UZB",
+      "new_id": "123004",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 123004 (Mirjalol KAMILOV), also_ids=['145395']",
+      "also_ids": [
+        "145395"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 84,
       "seat": "ICF_ID2",
       "source_printed_name": "Kamronbek AKHTAMOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UZB"
+      "team": "UZB",
+      "new_id": "118519",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 118519 (Kamronbek AKHTAMOV), also_ids=['79113']",
+      "also_ids": [
+        "79113"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 85,
@@ -19808,9 +19843,15 @@
       "results_row": 130,
       "seat": "ICF_ID1",
       "source_printed_name": "Daniel GRIJALBA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "120068",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 120068 (Daniel GRIJALBA), also_ids=['112336']",
+      "also_ids": [
+        "112336"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 131,
@@ -20256,9 +20297,12 @@
       "results_row": 156,
       "seat": "ICF_ID1",
       "source_printed_name": "Bruno GARCIA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "111011",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 111011 (Bruno GARCIA)",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 156,
@@ -20654,10 +20698,13 @@
       "results_row": 167,
       "seat": "ICF_ID3",
       "source_printed_name": "Tereza TETTINGEROVA",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Tereza TETTINGEROVA'; noc=CZE; no profile for given+family",
-      "team": "CZE"
+      "team": "CZE",
+      "new_id": "105227",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 105227 (Terezie TETTINGEROVA), also_ids=[]",
+      "printed_form": "Tereza TETTINGEROVA",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 167,
@@ -20953,10 +21000,13 @@
       "results_row": 175,
       "seat": "ICF_ID1",
       "source_printed_name": "Nicoleata Georgiana BELIBOU",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Nicoleata Georgiana BELIBOU'; noc=ROU; no profile for given+family",
-      "team": "ROU"
+      "team": "ROU",
+      "new_id": "111770",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 111770 (Nicoleta Georgiana BELIBOU), also_ids=[]",
+      "printed_form": "Nicoleata Georgiana BELIBOU",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 175,
@@ -21272,9 +21322,15 @@
       "results_row": 186,
       "seat": "ICF_ID1",
       "source_printed_name": "Li LI",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "CHN"
+      "team": "CHN",
+      "new_id": "118700",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 118700 (Li LI)",
+      "also_ids": [
+        "166499"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 186,
@@ -21420,10 +21476,13 @@
       "results_row": 193,
       "seat": "ICF_ID2",
       "source_printed_name": "Ulyana KISELYEVA",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Ulyana KISELYEVA'; noc=KAZ; no profile for given+family",
-      "team": "KAZ"
+      "team": "KAZ",
+      "new_id": "118529",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 118529 (Ulyana KISSELEVA), also_ids=[]",
+      "printed_form": "Ulyana KISELYEVA",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 194,
@@ -21549,10 +21608,13 @@
       "results_row": 200,
       "seat": "ICF_ID1",
       "source_printed_name": "Maria MORENO",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Maria MORENO'; noc=ESP; no profile for given+family",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "112684",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (compound given name Maria dels Angels): bound 112684 (Angels MORENO) lists Szeged_2022_JWCH",
+      "printed_form": "Maria MORENO",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 200,
@@ -21948,10 +22010,13 @@
       "results_row": 213,
       "seat": "ICF_ID3",
       "source_printed_name": "Toshka BESHARAH-HREBACKA",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Toshka BESHARAH-HREBACKA'; noc=CAN; no profile for given+family",
-      "team": "CAN"
+      "team": "CAN",
+      "new_id": "98683",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 98683 (Toshka BESHARAH), also_ids=[]",
+      "printed_form": "Toshka BESHARAH-HREBACKA",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 213,
@@ -22457,9 +22522,15 @@
       "results_row": 230,
       "seat": "ICF_ID2",
       "source_printed_name": "Nathan JEANNEST",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "FRA"
+      "team": "FRA",
+      "new_id": "113596",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 113596 (Nathan JEANNEST), also_ids=['105151']",
+      "also_ids": [
+        "105151"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 231,
@@ -22665,17 +22736,29 @@
       "results_row": 241,
       "seat": "ICF_ID1",
       "source_printed_name": "Martin LOPEZ",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "122563",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 122563 (Martin LOPEZ), also_ids=['120080']",
+      "also_ids": [
+        "120080"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 241,
       "seat": "ICF_ID2",
       "source_printed_name": "Javier GARCIA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "122564",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 122564 (Javier GARCIA), also_ids=['110939']",
+      "also_ids": [
+        "110939"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 242,
@@ -23061,9 +23144,16 @@
       "results_row": 261,
       "seat": "ICF_ID1",
       "source_printed_name": "Pavlo TARASIUK",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UKR"
+      "team": "UKR",
+      "new_id": "122918",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 122918 (Pavlo TARASIUK), also_ids=['121635', '115161']",
+      "also_ids": [
+        "121635",
+        "115161"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 261,
@@ -23239,9 +23329,15 @@
       "results_row": 276,
       "seat": "ICF_ID1",
       "source_printed_name": "Volodymyr SAVCHYN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UKR"
+      "team": "UKR",
+      "new_id": "125093",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 125093 (Volodymyr SAVCHYN), also_ids=['96874']",
+      "also_ids": [
+        "96874"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 277,
@@ -23909,8 +24005,9 @@
       "source_printed_name": "Aukai MANSON",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Aukai MANSON'; noc=USA; no profile for given+family",
-      "team": "USA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Aukai MANSON (USA, M)",
+      "team": "USA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Aukai MANSON (USA, M)"
     },
     {
       "results_row": 303,
@@ -24606,12 +24703,12 @@
       "results_row": 353,
       "seat": "ICF_ID1",
       "source_printed_name": "Samalulu CLIFTON",
-      "action": "emptied",
+      "action": "corrected",
       "source": "given_family_unique",
       "new_id": "142039",
       "team": "NZL",
-      "emptied_id": "142039",
-      "detail": "name-bound id 142039: PWW profile (fetched fresh 2026-10-15) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 142039",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 354,
@@ -25027,17 +25124,29 @@
       "results_row": 365,
       "seat": "ICF_ID1",
       "source_printed_name": "Titouan CESCHIN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "FRA"
+      "team": "FRA",
+      "new_id": "111784",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 111784 (Titouan CESCHIN), also_ids=['110908']",
+      "also_ids": [
+        "110908"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 365,
       "seat": "ICF_ID2",
       "source_printed_name": "Paul Arthur VIDEIRA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "FRA"
+      "team": "FRA",
+      "new_id": "111782",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 111782 (Paul Arthur VIDEIRA), also_ids=['110924']",
+      "also_ids": [
+        "110924"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 365,
@@ -25053,9 +25162,15 @@
       "results_row": 365,
       "seat": "ICF_ID4",
       "source_printed_name": "Julien MADELAINE",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "FRA"
+      "team": "FRA",
+      "new_id": "111783",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 111783 (Julien MADELAINE), also_ids=['110919']",
+      "also_ids": [
+        "110919"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 366,
@@ -25223,8 +25338,9 @@
       "source_printed_name": "Jack KILPATRICK",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Jack KILPATRICK'; noc=USA; no profile for given+family",
-      "team": "USA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jack KILPATRICK (USA, M)",
+      "team": "USA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jack KILPATRICK (USA, M)"
     },
     {
       "results_row": 370,
@@ -25320,17 +25436,29 @@
       "results_row": 374,
       "seat": "ICF_ID1",
       "source_printed_name": "Mirjalol KAMILOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UZB"
+      "team": "UZB",
+      "new_id": "123004",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 123004 (Mirjalol KAMILOV), also_ids=['145395']",
+      "also_ids": [
+        "145395"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 374,
       "seat": "ICF_ID2",
       "source_printed_name": "Kamronbek AKHTAMOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UZB"
+      "team": "UZB",
+      "new_id": "118519",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 118519 (Kamronbek AKHTAMOV), also_ids=['79113']",
+      "also_ids": [
+        "79113"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 375,
@@ -25646,9 +25774,15 @@
       "results_row": 394,
       "seat": "ICF_ID1",
       "source_printed_name": "Daniel GRIJALBA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "120068",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 120068 (Daniel GRIJALBA), also_ids=['112336']",
+      "also_ids": [
+        "112336"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 395,
@@ -26214,9 +26348,12 @@
       "results_row": 436,
       "seat": "ICF_ID1",
       "source_printed_name": "Bruno GARCIA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "111011",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 111011 (Bruno GARCIA)",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 436,
@@ -26512,10 +26649,13 @@
       "results_row": 447,
       "seat": "ICF_ID1",
       "source_printed_name": "Nicoleata Georgiana BELIBOU",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Nicoleata Georgiana BELIBOU'; noc=ROU; no profile for given+family",
-      "team": "ROU"
+      "team": "ROU",
+      "new_id": "111770",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 111770 (Nicoleta Georgiana BELIBOU), also_ids=[]",
+      "printed_form": "Nicoleata Georgiana BELIBOU",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 447,
@@ -26811,10 +26951,13 @@
       "results_row": 454,
       "seat": "ICF_ID3",
       "source_printed_name": "Tereza TETTINGEROVA",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Tereza TETTINGEROVA'; noc=CZE; no profile for given+family",
-      "team": "CZE"
+      "team": "CZE",
+      "new_id": "105227",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 105227 (Terezie TETTINGEROVA), also_ids=[]",
+      "printed_form": "Tereza TETTINGEROVA",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 454,
@@ -27350,10 +27493,13 @@
       "results_row": 472,
       "seat": "ICF_ID3",
       "source_printed_name": "Toshka BESHARAH-HREBACKA",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Toshka BESHARAH-HREBACKA'; noc=CAN; no profile for given+family",
-      "team": "CAN"
+      "team": "CAN",
+      "new_id": "98683",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 98683 (Toshka BESHARAH), also_ids=[]",
+      "printed_form": "Toshka BESHARAH-HREBACKA",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 472,
@@ -27969,17 +28115,29 @@
       "results_row": 497,
       "seat": "ICF_ID1",
       "source_printed_name": "Martin LOPEZ",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "122563",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 122563 (Martin LOPEZ), also_ids=['120080']",
+      "also_ids": [
+        "120080"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 497,
       "seat": "ICF_ID2",
       "source_printed_name": "Javier GARCIA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "122564",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 122564 (Javier GARCIA), also_ids=['110939']",
+      "also_ids": [
+        "110939"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 498,
@@ -28045,9 +28203,16 @@
       "results_row": 501,
       "seat": "ICF_ID1",
       "source_printed_name": "Pavlo TARASIUK",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UKR"
+      "team": "UKR",
+      "new_id": "122918",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 122918 (Pavlo TARASIUK), also_ids=['121635', '115161']",
+      "also_ids": [
+        "121635",
+        "115161"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 501,
@@ -28193,9 +28358,15 @@
       "results_row": 511,
       "seat": "ICF_ID1",
       "source_printed_name": "Volodymyr SAVCHYN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UKR"
+      "team": "UKR",
+      "new_id": "125093",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 125093 (Volodymyr SAVCHYN), also_ids=['96874']",
+      "also_ids": [
+        "96874"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 512,
@@ -28653,8 +28824,9 @@
       "source_printed_name": "Aukai MANSON",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Aukai MANSON'; noc=USA; no profile for given+family",
-      "team": "USA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Aukai MANSON (USA, M)",
+      "team": "USA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Aukai MANSON (USA, M)"
     },
     {
       "results_row": 532,
@@ -29210,19 +29382,25 @@
       "results_row": 551,
       "seat": "ICF_ID2",
       "source_printed_name": "Ulyana KISELYEVA",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Ulyana KISELYEVA'; noc=KAZ; no profile for given+family",
-      "team": "KAZ"
+      "team": "KAZ",
+      "new_id": "118529",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 118529 (Ulyana KISSELEVA), also_ids=[]",
+      "printed_form": "Ulyana KISELYEVA",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 552,
       "seat": "ICF_ID1",
       "source_printed_name": "Maria MORENO",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Maria MORENO'; noc=ESP; no profile for given+family",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "112684",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (compound given name Maria dels Angels): bound 112684 (Angels MORENO) lists Szeged_2022_JWCH",
+      "printed_form": "Maria MORENO",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 552,
@@ -29318,9 +29496,15 @@
       "results_row": 557,
       "seat": "ICF_ID1",
       "source_printed_name": "Polina NUROVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UKR"
+      "team": "UKR",
+      "new_id": "115164",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 115164 (Polina NUROVA), also_ids=['132886']",
+      "also_ids": [
+        "132886"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 557,
@@ -29556,10 +29740,13 @@
       "results_row": 569,
       "seat": "ICF_ID1",
       "source_printed_name": "Nicoleata Georgiana BELIBOU",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Nicoleata Georgiana BELIBOU'; noc=ROU; no profile for given+family",
-      "team": "ROU"
+      "team": "ROU",
+      "new_id": "111770",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 111770 (Nicoleta Georgiana BELIBOU), also_ids=[]",
+      "printed_form": "Nicoleata Georgiana BELIBOU",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 569,
@@ -29985,10 +30172,13 @@
       "results_row": 590,
       "seat": "ICF_ID2",
       "source_printed_name": "Tereza TETTINGEROVA",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Tereza TETTINGEROVA'; noc=CZE; no profile for given+family",
-      "team": "CZE"
+      "team": "CZE",
+      "new_id": "105227",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 105227 (Terezie TETTINGEROVA), also_ids=[]",
+      "printed_form": "Tereza TETTINGEROVA",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 591,
@@ -30254,10 +30444,13 @@
       "results_row": 604,
       "seat": "ICF_ID1",
       "source_printed_name": "Malanija CAMANE",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Malanija CAMANE'; noc=LAT; no profile for given+family",
-      "team": "LAT"
+      "team": "LAT",
+      "new_id": "110598",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 110598 (Melanija CAMANE), also_ids=[]",
+      "printed_form": "Malanija CAMANE",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 604,
@@ -30283,10 +30476,13 @@
       "results_row": 605,
       "seat": "ICF_ID2",
       "source_printed_name": "Nicoleata Georgiana BELIBOU",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Nicoleata Georgiana BELIBOU'; noc=ROU; no profile for given+family",
-      "team": "ROU"
+      "team": "ROU",
+      "new_id": "111770",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 111770 (Nicoleta Georgiana BELIBOU), also_ids=[]",
+      "printed_form": "Nicoleata Georgiana BELIBOU",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 606,
@@ -30772,9 +30968,15 @@
       "results_row": 630,
       "seat": "ICF_ID1",
       "source_printed_name": "Bertram Sollann SORENSEN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "DEN"
+      "team": "DEN",
+      "new_id": "115035",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 115035 (Bertram Sollann SORENSEN), also_ids=['110840']",
+      "also_ids": [
+        "110840"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 630,
@@ -31080,9 +31282,15 @@
       "results_row": 643,
       "seat": "ICF_ID2",
       "source_printed_name": "Carlos PICON",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "122562",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 122562 (Carlos PICON), also_ids=['112350']",
+      "also_ids": [
+        "112350"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 643,
@@ -31248,9 +31456,12 @@
       "results_row": 647,
       "seat": "ICF_ID3",
       "source_printed_name": "Mykyta TESSA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UKR"
+      "team": "UKR",
+      "new_id": "120594",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 120594 (Mykyta TESSA)",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 647,
@@ -31446,9 +31657,15 @@
       "results_row": 657,
       "seat": "ICF_ID1",
       "source_printed_name": "Humaira Binte RIDWAN DAMIA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "SGP"
+      "team": "SGP",
+      "new_id": "125455",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 125455 (Humaira Binte Ridwan DAMIA), also_ids=['155131']",
+      "also_ids": [
+        "155131"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 658,
@@ -31565,9 +31782,15 @@
       "results_row": 669,
       "seat": "ICF_ID1",
       "source_printed_name": "Jemma SMITH",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "AUS"
+      "team": "AUS",
+      "new_id": "100256",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 100256 (Jemma SMITH), also_ids=['79452']",
+      "also_ids": [
+        "79452"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 670,
@@ -31843,17 +32066,29 @@
       "results_row": 694,
       "seat": "ICF_ID1",
       "source_printed_name": "Mirjalol KAMILOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UZB"
+      "team": "UZB",
+      "new_id": "123004",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 123004 (Mirjalol KAMILOV), also_ids=['145395']",
+      "also_ids": [
+        "145395"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 694,
       "seat": "ICF_ID2",
       "source_printed_name": "Kamronbek AKHTAMOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UZB"
+      "team": "UZB",
+      "new_id": "118519",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 118519 (Kamronbek AKHTAMOV), also_ids=['79113']",
+      "also_ids": [
+        "79113"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 695,
@@ -32419,9 +32654,12 @@
       "results_row": 742,
       "seat": "ICF_ID1",
       "source_printed_name": "Ahmed MOHAMED",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "EGY"
+      "team": "EGY",
+      "new_id": "118969",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 118969 (Ahmed MOHAMED)",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 743,
@@ -32787,9 +33025,15 @@
       "results_row": 772,
       "seat": "ICF_ID2",
       "source_printed_name": "Nathan JEANNEST",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "FRA"
+      "team": "FRA",
+      "new_id": "113596",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 113596 (Nathan JEANNEST), also_ids=['105151']",
+      "also_ids": [
+        "105151"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 773,
@@ -32915,9 +33159,12 @@
       "results_row": 779,
       "seat": "ICF_ID1",
       "source_printed_name": "Mykyta TESSA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UKR"
+      "team": "UKR",
+      "new_id": "120594",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 120594 (Mykyta TESSA)",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 779,
@@ -33223,9 +33470,12 @@
       "results_row": 806,
       "seat": "ICF_ID1",
       "source_printed_name": "Filip ARSENIC",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "CRO"
+      "team": "CRO",
+      "new_id": "123419",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 123419 (Filip ARSENIC)",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 807,
@@ -33441,9 +33691,15 @@
       "results_row": 828,
       "seat": "ICF_ID1",
       "source_printed_name": "Li LI",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "CHN"
+      "team": "CHN",
+      "new_id": "118700",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 118700 (Li LI)",
+      "also_ids": [
+        "166499"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 829,
@@ -33461,8 +33717,9 @@
       "source_printed_name": "Viktoriia YARCHEVSKA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Viktoriia YARCHEVSKA'; noc=UKR; no profile for given+family",
-      "team": "UKR"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Viktoriia YARCHEVSKA (UKR, W)",
+      "team": "UKR",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Viktoriia YARCHEVSKA (UKR, W)"
     },
     {
       "results_row": 831,
@@ -33678,12 +33935,12 @@
       "results_row": 847,
       "seat": "ICF_ID1",
       "source_printed_name": "Samalulu CLIFTON",
-      "action": "emptied",
+      "action": "corrected",
       "source": "given_family_unique",
       "new_id": "142039",
       "team": "NZL",
-      "emptied_id": "142039",
-      "detail": "name-bound id 142039: PWW profile (fetched fresh 2026-10-15) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 142039",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 847,
@@ -34029,10 +34286,13 @@
       "results_row": 864,
       "seat": "ICF_ID2",
       "source_printed_name": "Toshka BESHARAH-HREBACKA",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Toshka BESHARAH-HREBACKA'; noc=CAN; no profile for given+family",
-      "team": "CAN"
+      "team": "CAN",
+      "new_id": "98683",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 98683 (Toshka BESHARAH), also_ids=[]",
+      "printed_form": "Toshka BESHARAH-HREBACKA",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 865,
@@ -34228,9 +34488,12 @@
       "results_row": 874,
       "seat": "ICF_ID2",
       "source_printed_name": "Ahmed MOHAMED",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "EGY"
+      "team": "EGY",
+      "new_id": "118969",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 118969 (Ahmed MOHAMED)",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 875,
@@ -34338,8 +34601,9 @@
       "source_printed_name": "Geert WIJNEN",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Geert WIJNEN'; noc=NED; no profile for given+family",
-      "team": "NED"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Geert WIJNEN (NED, M)",
+      "team": "NED",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Geert WIJNEN (NED, M)"
     },
     {
       "results_row": 880,
@@ -34525,10 +34789,13 @@
       "results_row": 889,
       "seat": "ICF_ID2",
       "source_printed_name": "Alex CANNING",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Alex CANNING'; noc=CAN; no profile for given+family",
-      "team": "CAN"
+      "team": "CAN",
+      "new_id": "89385",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 89385 (Alexander CANNING), also_ids=[]",
+      "printed_form": "Alex CANNING",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 890,
@@ -34894,10 +35161,13 @@
       "results_row": 908,
       "seat": "ICF_ID1",
       "source_printed_name": "Malanija CAMANE",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Malanija CAMANE'; noc=LAT; no profile for given+family",
-      "team": "LAT"
+      "team": "LAT",
+      "new_id": "110598",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 110598 (Melanija CAMANE), also_ids=[]",
+      "printed_form": "Malanija CAMANE",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 908,
@@ -34943,10 +35213,13 @@
       "results_row": 910,
       "seat": "ICF_ID2",
       "source_printed_name": "Nicoleata Georgiana BELIBOU",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Nicoleata Georgiana BELIBOU'; noc=ROU; no profile for given+family",
-      "team": "ROU"
+      "team": "ROU",
+      "new_id": "111770",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 111770 (Nicoleta Georgiana BELIBOU), also_ids=[]",
+      "printed_form": "Nicoleata Georgiana BELIBOU",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 911,
@@ -35322,10 +35595,13 @@
       "results_row": 929,
       "seat": "ICF_ID2",
       "source_printed_name": "Tereza TETTINGEROVA",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Tereza TETTINGEROVA'; noc=CZE; no profile for given+family",
-      "team": "CZE"
+      "team": "CZE",
+      "new_id": "105227",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 105227 (Terezie TETTINGEROVA), also_ids=[]",
+      "printed_form": "Tereza TETTINGEROVA",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 930,
@@ -35871,9 +36147,15 @@
       "results_row": 957,
       "seat": "ICF_ID1",
       "source_printed_name": "Bertram Sollann SORENSEN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "DEN"
+      "team": "DEN",
+      "new_id": "115035",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 115035 (Bertram Sollann SORENSEN), also_ids=['110840']",
+      "also_ids": [
+        "110840"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 957,
@@ -36269,9 +36551,15 @@
       "results_row": 982,
       "seat": "ICF_ID1",
       "source_printed_name": "Jemma SMITH",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "AUS"
+      "team": "AUS",
+      "new_id": "100256",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 100256 (Jemma SMITH), also_ids=['79452']",
+      "also_ids": [
+        "79452"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 983,
@@ -36417,17 +36705,29 @@
       "results_row": 993,
       "seat": "ICF_ID1",
       "source_printed_name": "Mirjalol KAMILOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UZB"
+      "team": "UZB",
+      "new_id": "123004",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 123004 (Mirjalol KAMILOV), also_ids=['145395']",
+      "also_ids": [
+        "145395"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 993,
       "seat": "ICF_ID2",
       "source_printed_name": "Kamronbek AKHTAMOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UZB"
+      "team": "UZB",
+      "new_id": "118519",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 118519 (Kamronbek AKHTAMOV), also_ids=['79113']",
+      "also_ids": [
+        "79113"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 994,
@@ -36943,9 +37243,12 @@
       "results_row": 1042,
       "seat": "ICF_ID1",
       "source_printed_name": "Mykyta TESSA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UKR"
+      "team": "UKR",
+      "new_id": "120594",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 120594 (Mykyta TESSA)",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1042,
@@ -37031,9 +37334,15 @@
       "results_row": 1046,
       "seat": "ICF_ID2",
       "source_printed_name": "Nathan JEANNEST",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "FRA"
+      "team": "FRA",
+      "new_id": "113596",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 113596 (Nathan JEANNEST), also_ids=['105151']",
+      "also_ids": [
+        "105151"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1047,
@@ -37421,8 +37730,9 @@
       "source_printed_name": "Viktoriia YARCHEVSKA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Viktoriia YARCHEVSKA'; noc=UKR; no profile for given+family",
-      "team": "UKR"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Viktoriia YARCHEVSKA (UKR, W)",
+      "team": "UKR",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Viktoriia YARCHEVSKA (UKR, W)"
     },
     {
       "results_row": 1083,
@@ -37628,12 +37938,12 @@
       "results_row": 1098,
       "seat": "ICF_ID1",
       "source_printed_name": "Samalulu CLIFTON",
-      "action": "emptied",
+      "action": "corrected",
       "source": "given_family_unique",
       "new_id": "142039",
       "team": "NZL",
-      "emptied_id": "142039",
-      "detail": "name-bound id 142039: PWW profile (fetched fresh 2026-10-15) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 142039",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 1098,
@@ -37799,10 +38109,13 @@
       "results_row": 1106,
       "seat": "ICF_ID2",
       "source_printed_name": "Toshka BESHARAH-HREBACKA",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Toshka BESHARAH-HREBACKA'; noc=CAN; no profile for given+family",
-      "team": "CAN"
+      "team": "CAN",
+      "new_id": "98683",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 98683 (Toshka BESHARAH), also_ids=[]",
+      "printed_form": "Toshka BESHARAH-HREBACKA",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1107,
@@ -38050,8 +38363,9 @@
       "source_printed_name": "Geert WIJNEN",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Geert WIJNEN'; noc=NED; no profile for given+family",
-      "team": "NED"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Geert WIJNEN (NED, M)",
+      "team": "NED",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Geert WIJNEN (NED, M)"
     },
     {
       "results_row": 1119,
@@ -38217,10 +38531,13 @@
       "results_row": 1127,
       "seat": "ICF_ID2",
       "source_printed_name": "Alex CANNING",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Alex CANNING'; noc=CAN; no profile for given+family",
-      "team": "CAN"
+      "team": "CAN",
+      "new_id": "89385",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 89385 (Alexander CANNING), also_ids=[]",
+      "printed_form": "Alex CANNING",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1128,
@@ -38426,10 +38743,13 @@
       "results_row": 1138,
       "seat": "ICF_ID1",
       "source_printed_name": "Maria MORENO",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Maria MORENO'; noc=ESP; no profile for given+family",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "112684",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (compound given name Maria dels Angels): bound 112684 (Angels MORENO) lists Szeged_2022_JWCH",
+      "printed_form": "Maria MORENO",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1138,
@@ -38685,9 +39005,15 @@
       "results_row": 1151,
       "seat": "ICF_ID1",
       "source_printed_name": "Polina NUROVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UKR"
+      "team": "UKR",
+      "new_id": "115164",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 115164 (Polina NUROVA), also_ids=['132886']",
+      "also_ids": [
+        "132886"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1151,
@@ -38863,10 +39189,13 @@
       "results_row": 1160,
       "seat": "ICF_ID1",
       "source_printed_name": "Nicoleata Georgiana BELIBOU",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Nicoleata Georgiana BELIBOU'; noc=ROU; no profile for given+family",
-      "team": "ROU"
+      "team": "ROU",
+      "new_id": "111770",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 111770 (Nicoleta Georgiana BELIBOU), also_ids=[]",
+      "printed_form": "Nicoleata Georgiana BELIBOU",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1160,
@@ -39282,10 +39611,13 @@
       "results_row": 1181,
       "seat": "ICF_ID1",
       "source_printed_name": "Malanija CAMANE",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Malanija CAMANE'; noc=LAT; no profile for given+family",
-      "team": "LAT"
+      "team": "LAT",
+      "new_id": "110598",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 110598 (Melanija CAMANE), also_ids=[]",
+      "printed_form": "Malanija CAMANE",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1181,
@@ -39791,12 +40123,12 @@
       "results_row": 1215,
       "seat": "ICF_ID1",
       "source_printed_name": "Samalulu CLIFTON",
-      "action": "emptied",
+      "action": "corrected",
       "source": "given_family_unique",
       "new_id": "142039",
       "team": "NZL",
-      "emptied_id": "142039",
-      "detail": "name-bound id 142039: PWW profile (fetched fresh 2026-10-15) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 142039",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 1216,
@@ -40202,17 +40534,29 @@
       "results_row": 1227,
       "seat": "ICF_ID1",
       "source_printed_name": "Mirjalol KAMILOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UZB"
+      "team": "UZB",
+      "new_id": "123004",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 123004 (Mirjalol KAMILOV), also_ids=['145395']",
+      "also_ids": [
+        "145395"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1227,
       "seat": "ICF_ID2",
       "source_printed_name": "Kamronbek AKHTAMOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UZB"
+      "team": "UZB",
+      "new_id": "118519",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 118519 (Kamronbek AKHTAMOV), also_ids=['79113']",
+      "also_ids": [
+        "79113"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1228,
@@ -40378,10 +40722,13 @@
       "results_row": 1235,
       "seat": "ICF_ID1",
       "source_printed_name": "Nicoleata Georgiana BELIBOU",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Nicoleata Georgiana BELIBOU'; noc=ROU; no profile for given+family",
-      "team": "ROU"
+      "team": "ROU",
+      "new_id": "111770",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 111770 (Nicoleta Georgiana BELIBOU), also_ids=[]",
+      "printed_form": "Nicoleata Georgiana BELIBOU",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1235,
@@ -41267,9 +41614,16 @@
       "results_row": 1268,
       "seat": "ICF_ID1",
       "source_printed_name": "Pavlo TARASIUK",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UKR"
+      "team": "UKR",
+      "new_id": "122918",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 122918 (Pavlo TARASIUK), also_ids=['121635', '115161']",
+      "also_ids": [
+        "121635",
+        "115161"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1268,
@@ -41345,9 +41699,12 @@
       "results_row": 1272,
       "seat": "ICF_ID1",
       "source_printed_name": "Bruno GARCIA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "111011",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 111011 (Bruno GARCIA)",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1272,
@@ -41533,9 +41890,15 @@
       "results_row": 1285,
       "seat": "ICF_ID1",
       "source_printed_name": "Volodymyr SAVCHYN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UKR"
+      "team": "UKR",
+      "new_id": "125093",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 125093 (Volodymyr SAVCHYN), also_ids=['96874']",
+      "also_ids": [
+        "96874"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1286,
@@ -42052,17 +42415,29 @@
       "results_row": 1313,
       "seat": "ICF_ID1",
       "source_printed_name": "Titouan CESCHIN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "FRA"
+      "team": "FRA",
+      "new_id": "111784",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 111784 (Titouan CESCHIN), also_ids=['110908']",
+      "also_ids": [
+        "110908"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1313,
       "seat": "ICF_ID2",
       "source_printed_name": "Paul Arthur VIDEIRA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "FRA"
+      "team": "FRA",
+      "new_id": "111782",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 111782 (Paul Arthur VIDEIRA), also_ids=['110924']",
+      "also_ids": [
+        "110924"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1313,
@@ -42078,9 +42453,15 @@
       "results_row": 1313,
       "seat": "ICF_ID4",
       "source_printed_name": "Julien MADELAINE",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "FRA"
+      "team": "FRA",
+      "new_id": "111783",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 111783 (Julien MADELAINE), also_ids=['110919']",
+      "also_ids": [
+        "110919"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1314,
@@ -42386,9 +42767,15 @@
       "results_row": 1335,
       "seat": "ICF_ID1",
       "source_printed_name": "Daniel GRIJALBA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "120068",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 120068 (Daniel GRIJALBA), also_ids=['112336']",
+      "also_ids": [
+        "112336"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1336,
@@ -42644,9 +43031,15 @@
       "results_row": 1351,
       "seat": "ICF_ID1",
       "source_printed_name": "Li LI",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "CHN"
+      "team": "CHN",
+      "new_id": "118700",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 118700 (Li LI)",
+      "also_ids": [
+        "166499"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1351,
@@ -43102,10 +43495,13 @@
       "results_row": 1366,
       "seat": "ICF_ID3",
       "source_printed_name": "Tereza TETTINGEROVA",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Tereza TETTINGEROVA'; noc=CZE; no profile for given+family",
-      "team": "CZE"
+      "team": "CZE",
+      "new_id": "105227",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 105227 (Terezie TETTINGEROVA), also_ids=[]",
+      "printed_form": "Tereza TETTINGEROVA",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1366,
@@ -43221,10 +43617,13 @@
       "results_row": 1371,
       "seat": "ICF_ID1",
       "source_printed_name": "Maria MORENO",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Maria MORENO'; noc=ESP; no profile for given+family",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "112684",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (compound given name Maria dels Angels): bound 112684 (Angels MORENO) lists Szeged_2022_JWCH",
+      "printed_form": "Maria MORENO",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1371,
@@ -43250,10 +43649,13 @@
       "results_row": 1372,
       "seat": "ICF_ID2",
       "source_printed_name": "Ulyana KISELYEVA",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Ulyana KISELYEVA'; noc=KAZ; no profile for given+family",
-      "team": "KAZ"
+      "team": "KAZ",
+      "new_id": "118529",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 118529 (Ulyana KISSELEVA), also_ids=[]",
+      "printed_form": "Ulyana KISELYEVA",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1373,
@@ -43859,10 +44261,13 @@
       "results_row": 1394,
       "seat": "ICF_ID3",
       "source_printed_name": "Toshka BESHARAH-HREBACKA",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Toshka BESHARAH-HREBACKA'; noc=CAN; no profile for given+family",
-      "team": "CAN"
+      "team": "CAN",
+      "new_id": "98683",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 98683 (Toshka BESHARAH), also_ids=[]",
+      "printed_form": "Toshka BESHARAH-HREBACKA",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1394,
@@ -43978,17 +44383,29 @@
       "results_row": 1400,
       "seat": "ICF_ID1",
       "source_printed_name": "Martin LOPEZ",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "122563",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 122563 (Martin LOPEZ), also_ids=['120080']",
+      "also_ids": [
+        "120080"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1400,
       "seat": "ICF_ID2",
       "source_printed_name": "Javier GARCIA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "122564",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 122564 (Javier GARCIA), also_ids=['110939']",
+      "also_ids": [
+        "110939"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1401,
@@ -44785,9 +45202,15 @@
       "results_row": 1450,
       "seat": "ICF_ID1",
       "source_printed_name": "Humaira Binte RIDWAN DAMIA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "SGP"
+      "team": "SGP",
+      "new_id": "125455",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 125455 (Humaira Binte Ridwan DAMIA), also_ids=['155131']",
+      "also_ids": [
+        "155131"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1451,
@@ -45183,12 +45606,12 @@
       "results_row": 1490,
       "seat": "ICF_ID1",
       "source_printed_name": "Michael Akpos MOSES",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "135429",
       "team": "NGR",
-      "emptied_id": "135429",
-      "detail": "name-bound id 135429: PWW profile (fetched fresh 2026-10-15) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 135429",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 1491,
@@ -45384,9 +45807,15 @@
       "results_row": 1510,
       "seat": "ICF_ID1",
       "source_printed_name": "Volodymyr SAVCHYN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UKR"
+      "team": "UKR",
+      "new_id": "125093",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 125093 (Volodymyr SAVCHYN), also_ids=['96874']",
+      "also_ids": [
+        "96874"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1511,
@@ -45612,10 +46041,13 @@
       "results_row": 1533,
       "seat": "ICF_ID1",
       "source_printed_name": "Alex CANNING",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Alex CANNING'; noc=CAN; no profile for given+family",
-      "team": "CAN"
+      "team": "CAN",
+      "new_id": "89385",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 89385 (Alexander CANNING), also_ids=[]",
+      "printed_form": "Alex CANNING",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1534,
@@ -45841,18 +46273,27 @@
       "results_row": 1556,
       "seat": "ICF_ID1",
       "source_printed_name": "Ulyana KISELYEVA",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Ulyana KISELYEVA'; noc=KAZ; no profile for given+family",
-      "team": "KAZ"
+      "team": "KAZ",
+      "new_id": "118529",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 118529 (Ulyana KISSELEVA), also_ids=[]",
+      "printed_form": "Ulyana KISELYEVA",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1557,
       "seat": "ICF_ID1",
       "source_printed_name": "Li LI",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "CHN"
+      "team": "CHN",
+      "new_id": "118700",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 118700 (Li LI)",
+      "also_ids": [
+        "166499"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1558,
@@ -46108,9 +46549,15 @@
       "results_row": 1583,
       "seat": "ICF_ID1",
       "source_printed_name": "Daniel GRIJALBA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "120068",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 120068 (Daniel GRIJALBA), also_ids=['112336']",
+      "also_ids": [
+        "112336"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1584,
@@ -46626,10 +47073,13 @@
       "results_row": 1635,
       "seat": "ICF_ID1",
       "source_printed_name": "Malanija CAMANE",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Malanija CAMANE'; noc=LAT; no profile for given+family",
-      "team": "LAT"
+      "team": "LAT",
+      "new_id": "110598",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 110598 (Melanija CAMANE), also_ids=[]",
+      "printed_form": "Malanija CAMANE",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1636,
@@ -46845,9 +47295,12 @@
       "results_row": 1657,
       "seat": "ICF_ID1",
       "source_printed_name": "Filip ARSENIC",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "CRO"
+      "team": "CRO",
+      "new_id": "123419",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 123419 (Filip ARSENIC)",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1658,
@@ -47063,9 +47516,15 @@
       "results_row": 1679,
       "seat": "ICF_ID1",
       "source_printed_name": "Paul Arthur VIDEIRA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "FRA"
+      "team": "FRA",
+      "new_id": "111782",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 111782 (Paul Arthur VIDEIRA), also_ids=['110924']",
+      "also_ids": [
+        "110924"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1680,
@@ -47291,10 +47750,13 @@
       "results_row": 1693,
       "seat": "ICF_ID1",
       "source_printed_name": "Malanija CAMANE",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Malanija CAMANE'; noc=LAT; no profile for given+family",
-      "team": "LAT"
+      "team": "LAT",
+      "new_id": "110598",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 110598 (Melanija CAMANE), also_ids=[]",
+      "printed_form": "Malanija CAMANE",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1693,
@@ -47592,8 +48054,9 @@
       "source_printed_name": "Viktoriia YARCHEVSKA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Viktoriia YARCHEVSKA'; noc=UKR; no profile for given+family",
-      "team": "UKR"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Viktoriia YARCHEVSKA (UKR, W)",
+      "team": "UKR",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Viktoriia YARCHEVSKA (UKR, W)"
     },
     {
       "results_row": 1709,
@@ -47709,10 +48172,13 @@
       "results_row": 1718,
       "seat": "ICF_ID2",
       "source_printed_name": "Tereza TETTINGEROVA",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Tereza TETTINGEROVA'; noc=CZE; no profile for given+family",
-      "team": "CZE"
+      "team": "CZE",
+      "new_id": "105227",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 105227 (Terezie TETTINGEROVA), also_ids=[]",
+      "printed_form": "Tereza TETTINGEROVA",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1719,
@@ -47808,10 +48274,13 @@
       "results_row": 1723,
       "seat": "ICF_ID2",
       "source_printed_name": "Nicoleata Georgiana BELIBOU",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Nicoleata Georgiana BELIBOU'; noc=ROU; no profile for given+family",
-      "team": "ROU"
+      "team": "ROU",
+      "new_id": "111770",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 111770 (Nicoleta Georgiana BELIBOU), also_ids=[]",
+      "printed_form": "Nicoleata Georgiana BELIBOU",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1724,
@@ -48067,10 +48536,13 @@
       "results_row": 1736,
       "seat": "ICF_ID2",
       "source_printed_name": "Toshka BESHARAH-HREBACKA",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Toshka BESHARAH-HREBACKA'; noc=CAN; no profile for given+family",
-      "team": "CAN"
+      "team": "CAN",
+      "new_id": "98683",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 98683 (Toshka BESHARAH), also_ids=[]",
+      "printed_form": "Toshka BESHARAH-HREBACKA",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1737,
@@ -48176,12 +48648,12 @@
       "results_row": 1742,
       "seat": "ICF_ID1",
       "source_printed_name": "Samalulu CLIFTON",
-      "action": "emptied",
+      "action": "corrected",
       "source": "given_family_unique",
       "new_id": "142039",
       "team": "NZL",
-      "emptied_id": "142039",
-      "detail": "name-bound id 142039: PWW profile (fetched fresh 2026-10-15) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 142039",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 1742,
@@ -48267,10 +48739,13 @@
       "results_row": 1746,
       "seat": "ICF_ID2",
       "source_printed_name": "Alex CANNING",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Alex CANNING'; noc=CAN; no profile for given+family",
-      "team": "CAN"
+      "team": "CAN",
+      "new_id": "89385",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 89385 (Alexander CANNING), also_ids=[]",
+      "printed_form": "Alex CANNING",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1747,
@@ -48358,8 +48833,9 @@
       "source_printed_name": "Geert WIJNEN",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Geert WIJNEN'; noc=NED; no profile for given+family",
-      "team": "NED"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Geert WIJNEN (NED, M)",
+      "team": "NED",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Geert WIJNEN (NED, M)"
     },
     {
       "results_row": 1751,
@@ -48675,10 +49151,13 @@
       "results_row": 1767,
       "seat": "ICF_ID1",
       "source_printed_name": "Malanija CAMANE",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Malanija CAMANE'; noc=LAT; no profile for given+family",
-      "team": "LAT"
+      "team": "LAT",
+      "new_id": "110598",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 110598 (Melanija CAMANE), also_ids=[]",
+      "printed_form": "Malanija CAMANE",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1767,
@@ -48874,10 +49353,13 @@
       "results_row": 1774,
       "seat": "ICF_ID1",
       "source_printed_name": "Maria MORENO",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Maria MORENO'; noc=ESP; no profile for given+family",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "112684",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (compound given name Maria dels Angels): bound 112684 (Angels MORENO) lists Szeged_2022_JWCH",
+      "printed_form": "Maria MORENO",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1774,
@@ -49233,9 +49715,12 @@
       "results_row": 1787,
       "seat": "ICF_ID3",
       "source_printed_name": "Mykyta TESSA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UKR"
+      "team": "UKR",
+      "new_id": "120594",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 120594 (Mykyta TESSA)",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1787,
@@ -49381,9 +49866,15 @@
       "results_row": 1791,
       "seat": "ICF_ID2",
       "source_printed_name": "Carlos PICON",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "122562",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 122562 (Carlos PICON), also_ids=['112350']",
+      "also_ids": [
+        "112350"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1791,
@@ -49710,9 +50201,15 @@
       "results_row": 1810,
       "seat": "ICF_ID1",
       "source_printed_name": "Jemma SMITH",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "AUS"
+      "team": "AUS",
+      "new_id": "100256",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 100256 (Jemma SMITH), also_ids=['79452']",
+      "also_ids": [
+        "79452"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1811,
@@ -50268,9 +50765,12 @@
       "results_row": 1849,
       "seat": "ICF_ID1",
       "source_printed_name": "Mykyta TESSA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UKR"
+      "team": "UKR",
+      "new_id": "120594",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 120594 (Mykyta TESSA)",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1849,
@@ -50376,9 +50876,15 @@
       "results_row": 1859,
       "seat": "ICF_ID1",
       "source_printed_name": "Li LI",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "CHN"
+      "team": "CHN",
+      "new_id": "118700",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 118700 (Li LI)",
+      "also_ids": [
+        "166499"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1860,
@@ -50854,9 +51360,16 @@
       "results_row": 1882,
       "seat": "ICF_ID2",
       "source_printed_name": "David KOCZKAS",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "HUN"
+      "team": "HUN",
+      "new_id": "122996",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 122996 (David KOCZKAS), also_ids=['68332', '110448']",
+      "also_ids": [
+        "68332",
+        "110448"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1882,
@@ -51002,9 +51515,15 @@
       "results_row": 1886,
       "seat": "ICF_ID1",
       "source_printed_name": "Kamronbek AKHTAMOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UZB"
+      "team": "UZB",
+      "new_id": "118519",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 118519 (Kamronbek AKHTAMOV), also_ids=['79113']",
+      "also_ids": [
+        "79113"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1886,
@@ -51020,9 +51539,15 @@
       "results_row": 1886,
       "seat": "ICF_ID3",
       "source_printed_name": "Mirjalol KAMILOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UZB"
+      "team": "UZB",
+      "new_id": "123004",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 123004 (Mirjalol KAMILOV), also_ids=['145395']",
+      "also_ids": [
+        "145395"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1886,
@@ -51298,9 +51823,15 @@
       "results_row": 1900,
       "seat": "ICF_ID1",
       "source_printed_name": "Polina NUROVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UKR"
+      "team": "UKR",
+      "new_id": "115164",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 115164 (Polina NUROVA), also_ids=['132886']",
+      "also_ids": [
+        "132886"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1900,
@@ -51336,10 +51867,13 @@
       "results_row": 1902,
       "seat": "ICF_ID1",
       "source_printed_name": "Nicoleata Georgiana BELIBOU",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Nicoleata Georgiana BELIBOU'; noc=ROU; no profile for given+family",
-      "team": "ROU"
+      "team": "ROU",
+      "new_id": "111770",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 111770 (Nicoleta Georgiana BELIBOU), also_ids=[]",
+      "printed_form": "Nicoleata Georgiana BELIBOU",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1902,
@@ -51655,10 +52189,13 @@
       "results_row": 1918,
       "seat": "ICF_ID1",
       "source_printed_name": "Maria MORENO",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Maria MORENO'; noc=ESP; no profile for given+family",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "112684",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (compound given name Maria dels Angels): bound 112684 (Angels MORENO) lists Szeged_2022_JWCH",
+      "printed_form": "Maria MORENO",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1918,
@@ -51704,10 +52241,13 @@
       "results_row": 1920,
       "seat": "ICF_ID2",
       "source_printed_name": "Ulyana KISELYEVA",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Ulyana KISELYEVA'; noc=KAZ; no profile for given+family",
-      "team": "KAZ"
+      "team": "KAZ",
+      "new_id": "118529",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 118529 (Ulyana KISSELEVA), also_ids=[]",
+      "printed_form": "Ulyana KISELYEVA",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1921,
@@ -52373,9 +52913,15 @@
       "results_row": 1985,
       "seat": "ICF_ID1",
       "source_printed_name": "Humaira Binte RIDWAN DAMIA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "SGP"
+      "team": "SGP",
+      "new_id": "125455",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 125455 (Humaira Binte Ridwan DAMIA), also_ids=['155131']",
+      "also_ids": [
+        "155131"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 1986,
@@ -52872,9 +53418,15 @@
       "results_row": 2035,
       "seat": "ICF_ID1",
       "source_printed_name": "Volodymyr SAVCHYN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UKR"
+      "team": "UKR",
+      "new_id": "125093",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 125093 (Volodymyr SAVCHYN), also_ids=['96874']",
+      "also_ids": [
+        "96874"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 2036,
@@ -53250,19 +53802,25 @@
       "results_row": 2073,
       "seat": "ICF_ID1",
       "source_printed_name": "Alex CANNING",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Alex CANNING'; noc=CAN; no profile for given+family",
-      "team": "CAN"
+      "team": "CAN",
+      "new_id": "89385",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 89385 (Alexander CANNING), also_ids=[]",
+      "printed_form": "Alex CANNING",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 2074,
       "seat": "ICF_ID1",
       "source_printed_name": "Ulyana KISELYEVA",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Ulyana KISELYEVA'; noc=KAZ; no profile for given+family",
-      "team": "KAZ"
+      "team": "KAZ",
+      "new_id": "118529",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 118529 (Ulyana KISSELEVA), also_ids=[]",
+      "printed_form": "Ulyana KISELYEVA",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 2075,
@@ -53358,9 +53916,15 @@
       "results_row": 2084,
       "seat": "ICF_ID1",
       "source_printed_name": "Li LI",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "CHN"
+      "team": "CHN",
+      "new_id": "118700",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 118700 (Li LI)",
+      "also_ids": [
+        "166499"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 2085,
@@ -53436,9 +54000,15 @@
       "results_row": 2092,
       "seat": "ICF_ID1",
       "source_printed_name": "Daniel GRIJALBA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "120068",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 120068 (Daniel GRIJALBA), also_ids=['112336']",
+      "also_ids": [
+        "112336"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 2093,
@@ -53834,10 +54404,13 @@
       "results_row": 2132,
       "seat": "ICF_ID1",
       "source_printed_name": "Malanija CAMANE",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Malanija CAMANE'; noc=LAT; no profile for given+family",
-      "team": "LAT"
+      "team": "LAT",
+      "new_id": "110598",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 110598 (Melanija CAMANE), also_ids=[]",
+      "printed_form": "Malanija CAMANE",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 2133,
@@ -54113,9 +54686,15 @@
       "results_row": 2160,
       "seat": "ICF_ID1",
       "source_printed_name": "Paul Arthur VIDEIRA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "FRA"
+      "team": "FRA",
+      "new_id": "111782",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 111782 (Paul Arthur VIDEIRA), also_ids=['110924']",
+      "also_ids": [
+        "110924"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 2161,
@@ -54382,9 +54961,15 @@
       "results_row": 2187,
       "seat": "ICF_ID1",
       "source_printed_name": "Volodymyr SAVCHYN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UKR"
+      "team": "UKR",
+      "new_id": "125093",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 125093 (Volodymyr SAVCHYN), also_ids=['96874']",
+      "also_ids": [
+        "96874"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 2188,
@@ -54440,10 +55025,13 @@
       "results_row": 2193,
       "seat": "ICF_ID1",
       "source_printed_name": "Alex CANNING",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Alex CANNING'; noc=CAN; no profile for given+family",
-      "team": "CAN"
+      "team": "CAN",
+      "new_id": "89385",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 89385 (Alexander CANNING), also_ids=[]",
+      "printed_form": "Alex CANNING",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 2194,
@@ -54779,10 +55367,13 @@
       "results_row": 2227,
       "seat": "ICF_ID1",
       "source_printed_name": "Malanija CAMANE",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Malanija CAMANE'; noc=LAT; no profile for given+family",
-      "team": "LAT"
+      "team": "LAT",
+      "new_id": "110598",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 110598 (Melanija CAMANE), also_ids=[]",
+      "printed_form": "Malanija CAMANE",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 2228,
@@ -55038,9 +55629,15 @@
       "results_row": 2253,
       "seat": "ICF_ID1",
       "source_printed_name": "Paul Arthur VIDEIRA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "FRA"
+      "team": "FRA",
+      "new_id": "111782",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 111782 (Paul Arthur VIDEIRA), also_ids=['110924']",
+      "also_ids": [
+        "110924"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 2254,
@@ -55446,18 +56043,27 @@
       "results_row": 2294,
       "seat": "ICF_ID1",
       "source_printed_name": "Li LI",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "CHN"
+      "team": "CHN",
+      "new_id": "118700",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 118700 (Li LI)",
+      "also_ids": [
+        "166499"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 2295,
       "seat": "ICF_ID1",
       "source_printed_name": "Ulyana KISELYEVA",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Ulyana KISELYEVA'; noc=KAZ; no profile for given+family",
-      "team": "KAZ"
+      "team": "KAZ",
+      "new_id": "118529",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 118529 (Ulyana KISSELEVA), also_ids=[]",
+      "printed_form": "Ulyana KISELYEVA",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 2296,
@@ -55503,9 +56109,15 @@
       "results_row": 2300,
       "seat": "ICF_ID1",
       "source_printed_name": "Daniel GRIJALBA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "120068",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 120068 (Daniel GRIJALBA), also_ids=['112336']",
+      "also_ids": [
+        "112336"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 2301,
@@ -55831,10 +56443,13 @@
       "results_row": 2330,
       "seat": "ICF_ID1",
       "source_printed_name": "Malanija CAMANE",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Malanija CAMANE'; noc=LAT; no profile for given+family",
-      "team": "LAT"
+      "team": "LAT",
+      "new_id": "110598",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 110598 (Melanija CAMANE), also_ids=[]",
+      "printed_form": "Malanija CAMANE",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 2330,
@@ -56660,9 +57275,15 @@
       "results_row": 2390,
       "seat": "ICF_ID1",
       "source_printed_name": "Jemma SMITH",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "AUS"
+      "team": "AUS",
+      "new_id": "100256",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 100256 (Jemma SMITH), also_ids=['79452']",
+      "also_ids": [
+        "79452"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 2391,
@@ -57158,9 +57779,15 @@
       "results_row": 2440,
       "seat": "ICF_ID1",
       "source_printed_name": "Li LI",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "CHN"
+      "team": "CHN",
+      "new_id": "118700",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 118700 (Li LI)",
+      "also_ids": [
+        "166499"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 2441,
@@ -57208,8 +57835,9 @@
       "source_printed_name": "Viktoriia YARCHEVSKA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Viktoriia YARCHEVSKA'; noc=UKR; no profile for given+family",
-      "team": "UKR"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Viktoriia YARCHEVSKA (UKR, W)",
+      "team": "UKR",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Viktoriia YARCHEVSKA (UKR, W)"
     },
     {
       "results_row": 2446,
@@ -57425,9 +58053,12 @@
       "results_row": 2467,
       "seat": "ICF_ID1",
       "source_printed_name": "Mykyta TESSA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UKR"
+      "team": "UKR",
+      "new_id": "120594",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 120594 (Mykyta TESSA)",
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 2468,
@@ -57793,9 +58424,15 @@
       "results_row": 2504,
       "seat": "ICF_ID1",
       "source_printed_name": "Bertram Sollann SORENSEN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "DEN"
+      "team": "DEN",
+      "new_id": "115035",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 115035 (Bertram Sollann SORENSEN), also_ids=['110840']",
+      "also_ids": [
+        "110840"
+      ],
+      "name_bound_profile": "kept: profile lists Szeged_2022_JWCH"
     },
     {
       "results_row": 2505,
@@ -58119,21 +58756,21 @@
     {
       "kind": "xlsx",
       "name": "Szeged_2022_JWCH_Results.xlsx",
-      "sha256": "62b68df5175560d3f6b1ceeb2e8d023d48753c0d0ab3d225b00a08f39b183b86",
-      "bytes": 220800
+      "sha256": "4adb210c4ce8580339536d30118f31e1506f0ea71e98c3cc1ba36bee9da5dc71",
+      "bytes": 222782
     }
   ],
   "output_xlsx": "Szeged_2022_JWCH_Results.xlsx",
-  "output_xlsx_sha256": "62b68df5175560d3f6b1ceeb2e8d023d48753c0d0ab3d225b00a08f39b183b86",
+  "output_xlsx_sha256": "4adb210c4ce8580339536d30118f31e1506f0ea71e98c3cc1ba36bee9da5dc71",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
     "crews": "pass",
     "OBS": "pass",
     "RANK vs official results": "pass",
-    "PERSONS vs ICF": "not_run",
-    "repairs": "not_run",
-    "fixtures": "not_run"
+    "PERSONS vs ICF": "pass",
+    "repairs": "pass",
+    "fixtures": "pass"
   },
   "audit": {
     "fails": [],
@@ -58154,14 +58791,17 @@
     "completed": true,
     "profiles_checked": 894,
     "same_meeting_unified": 0,
-    "rule": "2013+ name-bound ids kept only if PWW profile lists competition+event",
+    "rule": "MAINTAINER_ANSWERS_2026-10-23 Rules 1-5 + same-meeting unification",
     "competition_regex": "^2022 ICF JUNIOR AND U23 CANOE SPRINT WORLD CHAMPIONSHIPS$",
     "kept": 3894,
-    "emptied": 93,
+    "emptied": 0,
     "persons_dropped": 2,
-    "olympic": false
+    "olympic": false,
+    "newly_bound_t59": 142,
+    "no_icf_id_t59": 11,
+    "same_meeting_unified_t59": 0
   },
-  "updated_at": "2026-10-18T11:08:47Z",
+  "updated_at": "2026-10-23T18:47:56Z",
   "name_change_log": [
     {
       "results_row": 30,
@@ -58254,6 +58894,320 @@
       "unconfirmed": true,
       "evidence": "MAINTAINER_ANSWERS_2026-10-18.md Q28",
       "was": "no_icf_id"
+    },
+    {
+      "icf_id": "112684",
+      "printed": "Maria MORENO",
+      "icf_name": "Angels MORENO",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (compound given name Maria dels Angels): bound 112684 (Angels MORENO) lists Szeged_2022_JWCH"
+    }
+  ],
+  "printed_field_counts": {
+    "source": "boats per race as parsed from the published source (https://cdn.paddleworldwide.com/media/2022_icf_junior_and_u23_canoe_sprint_world_championships_szeged_-_full_results_book.pdf); back-filled 2026-10-19 from the published RESULTS (the builder parse), race coverage cross-checked independently by GATE10b",
+    "rule": "MAINTAINER_ANSWERS_2026-10-18c Fix 1: printed count decides",
+    "counts": {
+      "1": 7,
+      "2": 7,
+      "3": 7,
+      "4": 7,
+      "5": 8,
+      "6": 9,
+      "7": 8,
+      "8": 7,
+      "9": 6,
+      "10": 6,
+      "11": 8,
+      "12": 8,
+      "13": 6,
+      "14": 7,
+      "15": 6,
+      "16": 7,
+      "17": 7,
+      "18": 7,
+      "19": 7,
+      "20": 8,
+      "21": 7,
+      "22": 7,
+      "23": 7,
+      "24": 7,
+      "25": 7,
+      "26": 6,
+      "27": 5,
+      "28": 8,
+      "29": 8,
+      "30": 8,
+      "31": 7,
+      "32": 9,
+      "33": 9,
+      "34": 8,
+      "35": 8,
+      "36": 8,
+      "37": 8,
+      "38": 9,
+      "39": 9,
+      "40": 7,
+      "41": 7,
+      "42": 6,
+      "43": 9,
+      "44": 9,
+      "45": 9,
+      "46": 9,
+      "47": 9,
+      "48": 8,
+      "49": 8,
+      "50": 8,
+      "51": 8,
+      "52": 7,
+      "53": 9,
+      "54": 9,
+      "55": 9,
+      "56": 9,
+      "57": 9,
+      "58": 4,
+      "59": 9,
+      "60": 9,
+      "61": 9,
+      "62": 9,
+      "63": 9,
+      "64": 9,
+      "65": 9,
+      "66": 9,
+      "67": 9,
+      "68": 9,
+      "69": 8,
+      "70": 8,
+      "71": 7,
+      "72": 8,
+      "73": 8,
+      "74": 7,
+      "75": 8,
+      "76": 8,
+      "77": 7,
+      "78": 7,
+      "79": 8,
+      "80": 8,
+      "81": 8,
+      "82": 8,
+      "83": 5,
+      "84": 5,
+      "85": 7,
+      "86": 8,
+      "87": 9,
+      "88": 8,
+      "89": 8,
+      "90": 7,
+      "91": 6,
+      "92": 9,
+      "93": 8,
+      "94": 8,
+      "95": 7,
+      "96": 8,
+      "97": 8,
+      "98": 7,
+      "99": 7,
+      "100": 9,
+      "101": 8,
+      "102": 8,
+      "103": 8,
+      "104": 8,
+      "105": 6,
+      "106": 7,
+      "107": 8,
+      "108": 7,
+      "109": 7,
+      "110": 9,
+      "111": 9,
+      "112": 8,
+      "113": 8,
+      "114": 8,
+      "115": 8,
+      "116": 7,
+      "117": 7,
+      "118": 9,
+      "119": 9,
+      "120": 9,
+      "121": 9,
+      "122": 9,
+      "123": 9,
+      "124": 4,
+      "125": 7,
+      "126": 9,
+      "127": 9,
+      "128": 7,
+      "129": 9,
+      "130": 9,
+      "131": 9,
+      "132": 9,
+      "133": 9,
+      "134": 9,
+      "135": 9,
+      "136": 9,
+      "137": 9,
+      "138": 9,
+      "139": 7,
+      "140": 9,
+      "141": 9,
+      "142": 9,
+      "143": 9,
+      "144": 9,
+      "145": 8,
+      "146": 9,
+      "147": 9,
+      "148": 6,
+      "149": 6,
+      "150": 8,
+      "151": 7,
+      "152": 7,
+      "153": 9,
+      "154": 9,
+      "155": 9,
+      "156": 9,
+      "157": 8,
+      "158": 9,
+      "159": 9,
+      "160": 9,
+      "161": 9,
+      "162": 9,
+      "163": 9,
+      "164": 9,
+      "165": 9,
+      "166": 9,
+      "167": 9,
+      "168": 9,
+      "169": 9,
+      "170": 9,
+      "171": 9,
+      "172": 9,
+      "173": 9,
+      "174": 9,
+      "175": 9,
+      "176": 9,
+      "177": 9,
+      "178": 9,
+      "179": 7,
+      "180": 6,
+      "181": 7,
+      "182": 9,
+      "183": 9,
+      "184": 8,
+      "185": 8,
+      "186": 6,
+      "187": 7,
+      "188": 7,
+      "189": 7,
+      "190": 9,
+      "191": 8,
+      "192": 9,
+      "193": 9,
+      "194": 8,
+      "195": 8,
+      "196": 8,
+      "197": 8,
+      "198": 9,
+      "199": 9,
+      "200": 9,
+      "201": 9,
+      "202": 9,
+      "203": 9,
+      "204": 8,
+      "205": 9,
+      "206": 9,
+      "207": 9,
+      "208": 9,
+      "209": 7,
+      "210": 6,
+      "211": 9,
+      "212": 9,
+      "213": 9,
+      "214": 9,
+      "215": 9,
+      "216": 9,
+      "217": 9,
+      "218": 9,
+      "219": 9,
+      "220": 7,
+      "221": 9,
+      "222": 9,
+      "223": 9,
+      "224": 9,
+      "225": 9,
+      "226": 9,
+      "227": 9,
+      "228": 9,
+      "229": 9,
+      "230": 9,
+      "231": 4,
+      "232": 9,
+      "233": 6,
+      "234": 9,
+      "235": 9,
+      "236": 9,
+      "237": 9,
+      "238": 9,
+      "239": 9,
+      "240": 9,
+      "241": 9,
+      "242": 9,
+      "243": 9,
+      "244": 9,
+      "245": 8,
+      "246": 9,
+      "247": 9,
+      "248": 9,
+      "249": 9,
+      "250": 9,
+      "251": 8,
+      "252": 9,
+      "253": 9,
+      "254": 9,
+      "255": 9,
+      "256": 9,
+      "257": 9,
+      "258": 9,
+      "259": 9,
+      "260": 9,
+      "261": 9,
+      "262": 9,
+      "263": 9,
+      "264": 9,
+      "265": 9,
+      "266": 9,
+      "267": 9,
+      "268": 9,
+      "269": 9,
+      "270": 9,
+      "271": 9,
+      "272": 9,
+      "273": 9,
+      "274": 9,
+      "275": 9,
+      "276": 9,
+      "277": 9,
+      "278": 9,
+      "279": 9,
+      "280": 9,
+      "281": 10,
+      "282": 9,
+      "283": 8,
+      "284": 9,
+      "285": 9,
+      "286": 11,
+      "287": 21,
+      "288": 20,
+      "289": 35,
+      "290": 13,
+      "291": 22,
+      "292": 25,
+      "293": 34
+    },
+    "backfilled": "2026-10-19"
+  },
+  "nation_change_log": [
+    {
+      "id": "142039",
+      "printed_team": "NZL",
+      "profile_noc": "SAM",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind B federation switch (NZL -> SAM)"
     }
   ]
 }

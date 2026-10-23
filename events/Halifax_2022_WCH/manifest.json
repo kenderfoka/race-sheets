@@ -10,11 +10,9 @@
   "dates": "2022-08-03/2022-08-07",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-19T12:32:59Z",
-  "grade": "USABLE",
-  "gaps": [
-    "icf_ids_incomplete"
-  ],
+  "generated_at_utc": "2026-10-23T18:47:56Z",
+  "grade": "PERFECT",
+  "gaps": [],
   "note": "MemoSoft results book (Spotfokus hub dead) prints the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule). OQ/para races in the same book are kept (one key).",
   "race_numbers_missing": [],
   "issues": [],
@@ -9993,12 +9991,12 @@
       "results_row": 9,
       "seat": "ICF_ID1",
       "source_printed_name": "Michael MOSES",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "135429",
       "team": "NGR",
-      "emptied_id": "135429",
-      "detail": "name-bound id 135429: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 135429",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 10,
@@ -10046,8 +10044,9 @@
       "source_printed_name": "Alejandro RAMIREZ",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Alejandro RAMIREZ'; noc=COL; no profile for given+family",
-      "team": "COL"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+      "team": "COL",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)"
     },
     {
       "results_row": 15,
@@ -10706,9 +10705,12 @@
       "results_row": 66,
       "seat": "ICF_ID3",
       "source_printed_name": "Luan YANG",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "CHN"
+      "team": "CHN",
+      "new_id": "84885",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 84885 (Luan YANG), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 66,
@@ -10797,8 +10799,9 @@
       "source_printed_name": "Toshka HREBACKA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Toshka HREBACKA'; noc=CAN; no profile for given+family",
-      "team": "CAN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Toshka HREBACKA (CAN, W)",
+      "team": "CAN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Toshka HREBACKA (CAN, W)"
     },
     {
       "results_row": 69,
@@ -11048,8 +11051,9 @@
       "source_printed_name": "Wies SIFFELS",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Wies SIFFELS'; noc=NED; no profile for given+family",
-      "team": "NED"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Wies SIFFELS (NED, W)",
+      "team": "NED",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Wies SIFFELS (NED, W)"
     },
     {
       "results_row": 75,
@@ -11077,8 +11081,9 @@
       "source_printed_name": "Anna MUS",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Anna MUS'; noc=NED; no profile for given+family",
-      "team": "NED"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)",
+      "team": "NED",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)"
     },
     {
       "results_row": 76,
@@ -11767,9 +11772,12 @@
       "results_row": 93,
       "seat": "ICF_ID1",
       "source_printed_name": "Joao RIBEIRO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "36453",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 36453 (Joao RIBEIRO)",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 93,
@@ -11955,18 +11963,27 @@
       "results_row": 97,
       "seat": "ICF_ID4",
       "source_printed_name": "Wei TEO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "SGP"
+      "team": "SGP",
+      "new_id": "103884",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 103884 (Wei Jie Sean TEO)",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 98,
       "seat": "ICF_ID1",
       "source_printed_name": "Yarisleidis DUBOYS",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Yarisleidis DUBOYS'; noc=CUB; no profile for given+family",
-      "team": "CUB"
+      "team": "CUB",
+      "new_id": "95617",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 95617 (Yarisleidis CIRILO DUBOY), also_ids=[]",
+      "also_ids": [
+        "168916"
+      ],
+      "printed_form": "Yarisleidis DUBOYS",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 98,
@@ -12082,10 +12099,13 @@
       "results_row": 104,
       "seat": "ICF_ID1",
       "source_printed_name": "Maria MORENO",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Maria MORENO'; noc=ESP; no profile for given+family",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "112684",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (compound given name Maria dels Angels): bound 112684 (Angels MORENO) lists Halifax_2022_WCH",
+      "printed_form": "Maria MORENO",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 104,
@@ -12153,8 +12173,9 @@
       "source_printed_name": "Anastasiia CHETVERIKOVA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Anastasiia CHETVERIKOVA'; noc=UKR; no profile for given+family",
-      "team": "UKR"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)",
+      "team": "UKR",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)"
     },
     {
       "results_row": 108,
@@ -12440,10 +12461,13 @@
       "results_row": 122,
       "seat": "ICF_ID1",
       "source_printed_name": "Vitaliy VERGELES",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Vitaliy VERGELES'; noc=UKR; no profile for given+family",
-      "team": "UKR"
+      "team": "UKR",
+      "new_id": "46387",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 46387 (Vitaliy VERHELES), also_ids=[]",
+      "printed_form": "Vitaliy VERGELES",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 122,
@@ -12469,9 +12493,12 @@
       "results_row": 123,
       "seat": "ICF_ID2",
       "source_printed_name": "Pablo MARTINEZ",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "97941",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 97941 (Pablo MARTINEZ)",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 124,
@@ -12539,8 +12566,9 @@
       "source_printed_name": "Alejandro RAMIREZ",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Alejandro RAMIREZ'; noc=COL; no profile for given+family",
-      "team": "COL"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+      "team": "COL",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)"
     },
     {
       "results_row": 127,
@@ -12548,8 +12576,9 @@
       "source_printed_name": "Daniel CIPAGAUTA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Daniel CIPAGAUTA'; noc=COL; no profile for given+family",
-      "team": "COL"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)",
+      "team": "COL",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)"
     },
     {
       "results_row": 128,
@@ -12937,8 +12966,9 @@
       "source_printed_name": "Toshka HREBACKA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Toshka HREBACKA'; noc=CAN; no profile for given+family",
-      "team": "CAN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Toshka HREBACKA (CAN, W)",
+      "team": "CAN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Toshka HREBACKA (CAN, W)"
     },
     {
       "results_row": 163,
@@ -13435,12 +13465,12 @@
       "results_row": 204,
       "seat": "ICF_ID1",
       "source_printed_name": "Teresa PORTELA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "36455",
       "team": "POR",
-      "emptied_id": "36455",
-      "detail": "name-bound id 36455: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 36455",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 205,
@@ -13833,8 +13863,9 @@
       "source_printed_name": "Isaquias SANTOS",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Isaquias SANTOS'; noc=BRA; no profile for given+family",
-      "team": "BRA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+      "team": "BRA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)"
     },
     {
       "results_row": 244,
@@ -14473,12 +14504,12 @@
       "results_row": 307,
       "seat": "ICF_ID1",
       "source_printed_name": "Teresa PORTELA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "36455",
       "team": "POR",
-      "emptied_id": "36455",
-      "detail": "name-bound id 36455: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 36455",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 308,
@@ -14584,9 +14615,12 @@
       "results_row": 318,
       "seat": "ICF_ID1",
       "source_printed_name": "Combe SECK",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "SEN"
+      "team": "SEN",
+      "new_id": "54332",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 54332 (Combe SECK)",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 319,
@@ -14602,10 +14636,16 @@
       "results_row": 320,
       "seat": "ICF_ID1",
       "source_printed_name": "Yarisleidis DUBOYS",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Yarisleidis DUBOYS'; noc=CUB; no profile for given+family",
-      "team": "CUB"
+      "team": "CUB",
+      "new_id": "95617",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 95617 (Yarisleidis CIRILO DUBOY), also_ids=[]",
+      "also_ids": [
+        "168916"
+      ],
+      "printed_form": "Yarisleidis DUBOYS",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 321,
@@ -15634,9 +15674,12 @@
       "results_row": 423,
       "seat": "ICF_ID1",
       "source_printed_name": "Combe SECK",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "SEN"
+      "team": "SEN",
+      "new_id": "54332",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 54332 (Combe SECK)",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 424,
@@ -15722,9 +15765,15 @@
       "results_row": 432,
       "seat": "ICF_ID1",
       "source_printed_name": "Jose CORDOVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "CUB"
+      "team": "CUB",
+      "new_id": "79493",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 79493 (Jose Ramon PELIER CORDOVA), also_ids=['142141']",
+      "also_ids": [
+        "142141"
+      ],
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 433,
@@ -15782,8 +15831,9 @@
       "source_printed_name": "Isaquias SANTOS",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Isaquias SANTOS'; noc=BRA; no profile for given+family",
-      "team": "BRA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+      "team": "BRA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)"
     },
     {
       "results_row": 439,
@@ -15971,8 +16021,9 @@
       "source_printed_name": "Simon JENSEN",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Simon JENSEN'; noc=DEN; no profile for given+family",
-      "team": "DEN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Simon JENSEN (DEN, M)",
+      "team": "DEN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Simon JENSEN (DEN, M)"
     },
     {
       "results_row": 455,
@@ -16542,8 +16593,9 @@
       "source_printed_name": "Alejandro RAMIREZ",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Alejandro RAMIREZ'; noc=COL; no profile for given+family",
-      "team": "COL"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+      "team": "COL",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)"
     },
     {
       "results_row": 490,
@@ -16551,354 +16603,358 @@
       "source_printed_name": "Daniel CIPAGAUTA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Daniel CIPAGAUTA'; noc=COL; no profile for given+family",
-      "team": "COL"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)",
+      "team": "COL",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)"
     },
     {
       "results_row": 491,
       "seat": "ICF_ID1",
       "source_printed_name": "Sebastian GIRKE",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "122323",
       "team": "GER",
-      "emptied_id": "122323",
-      "detail": "name-bound id 122323: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 122323",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 492,
       "seat": "ICF_ID1",
       "source_printed_name": "Darryl CLARK",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "123460",
       "team": "CAN",
-      "emptied_id": "123460",
-      "detail": "name-bound id 123460: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 123460",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 493,
       "seat": "ICF_ID1",
       "source_printed_name": "Gohulan RAJALINGAM",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "123463",
       "team": "CAN",
-      "emptied_id": "123463",
-      "detail": "name-bound id 123463: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 123463",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 494,
       "seat": "ICF_ID1",
       "source_printed_name": "Jeffrey CAMPBELL",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "123465",
       "team": "CAN",
-      "emptied_id": "123465",
-      "detail": "name-bound id 123465: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 123465",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 495,
       "seat": "ICF_ID1",
       "source_printed_name": "Milo SANKEY",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "pww_search",
-      "new_id": "124160",
       "team": "CAN",
-      "emptied_id": "124160",
-      "detail": "name-bound id 124160: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Q76 under-14 guard: candidate 124160 (dob=2010-08-12) was under 14 on meeting start date 2022-08-03; left no_icf_id per Q76/Q80b",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Q76 under-14 guard: candidate 124160 (dob=2010-08-12) was under 14 on meeting start date 2022-08-03; left no_icf_id per Q76/Q80b"
     },
     {
       "results_row": 496,
       "seat": "ICF_ID1",
       "source_printed_name": "Emmett BURNIE",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "pww_search",
-      "new_id": "124018",
       "team": "CAN",
-      "emptied_id": "124018",
-      "detail": "name-bound id 124018: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Q76 under-14 guard: candidate 124018 (dob=2011-03-10) was under 14 on meeting start date 2022-08-03; left no_icf_id per Q76/Q80b",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Q76 under-14 guard: candidate 124018 (dob=2011-03-10) was under 14 on meeting start date 2022-08-03; left no_icf_id per Q76/Q80b"
     },
     {
       "results_row": 497,
       "seat": "ICF_ID1",
       "source_printed_name": "Logan RYAN",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "pww_search",
-      "new_id": "123467",
       "team": "CAN",
-      "emptied_id": "123467",
-      "detail": "name-bound id 123467: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Q76 under-14 guard: candidate 123467 (dob=2009-06-28) was under 14 on meeting start date 2022-08-03; left no_icf_id per Q76/Q80b",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Q76 under-14 guard: candidate 123467 (dob=2009-06-28) was under 14 on meeting start date 2022-08-03; left no_icf_id per Q76/Q80b"
     },
     {
       "results_row": 498,
       "seat": "ICF_ID1",
       "source_printed_name": "Liam CONRAD",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "pww_search",
-      "new_id": "124057",
       "team": "CAN",
-      "emptied_id": "124057",
-      "detail": "name-bound id 124057: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Q76 under-14 guard: candidate 124057 (dob=2013-10-01) was under 14 on meeting start date 2022-08-03; left no_icf_id per Q76/Q80b",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Q76 under-14 guard: candidate 124057 (dob=2013-10-01) was under 14 on meeting start date 2022-08-03; left no_icf_id per Q76/Q80b"
     },
     {
       "results_row": 499,
       "seat": "ICF_ID1",
       "source_printed_name": "Leona JOHS",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "122322",
       "team": "GER",
-      "emptied_id": "122322",
-      "detail": "name-bound id 122322: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 122322",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 500,
       "seat": "ICF_ID1",
       "source_printed_name": "Rachel COHEN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "123469",
       "team": "CAN",
-      "emptied_id": "123469",
-      "detail": "name-bound id 123469: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 123469",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 501,
       "seat": "ICF_ID1",
       "source_printed_name": "Alyssa CHAPMAN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "123027",
       "team": "CAN",
-      "emptied_id": "123027",
-      "detail": "name-bound id 123027: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 123027",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 502,
       "seat": "ICF_ID1",
       "source_printed_name": "Sarah MADORE",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "123470",
       "team": "CAN",
-      "emptied_id": "123470",
-      "detail": "name-bound id 123470: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 123470",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 503,
       "seat": "ICF_ID1",
       "source_printed_name": "Drew WARKENTIN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "124159",
       "team": "CAN",
-      "emptied_id": "124159",
-      "detail": "name-bound id 124159: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 124159",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 504,
       "seat": "ICF_ID1",
       "source_printed_name": "Victoria SCATTOLON",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "124134",
       "team": "CAN",
-      "emptied_id": "124134",
-      "detail": "name-bound id 124134: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 124134",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 505,
       "seat": "ICF_ID1",
       "source_printed_name": "Melanie MANION",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "123464",
       "team": "CAN",
-      "emptied_id": "123464",
-      "detail": "name-bound id 123464: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 123464",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 506,
       "seat": "ICF_ID1",
       "source_printed_name": "Sebastian GIRKE",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "122323",
       "team": "GER",
-      "emptied_id": "122323",
-      "detail": "name-bound id 122323: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 122323",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 507,
       "seat": "ICF_ID1",
       "source_printed_name": "Samuel GALAZKA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "123940",
       "team": "CAN",
-      "emptied_id": "123940",
-      "detail": "name-bound id 123940: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 123940",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 508,
       "seat": "ICF_ID1",
       "source_printed_name": "Nathan GILLEN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "123941",
       "team": "CAN",
-      "emptied_id": "123941",
-      "detail": "name-bound id 123941: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 123941",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 509,
       "seat": "ICF_ID1",
       "source_printed_name": "Quinn MARTIN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "123468",
       "team": "CAN",
-      "emptied_id": "123468",
-      "detail": "name-bound id 123468: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 123468",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 510,
       "seat": "ICF_ID1",
       "source_printed_name": "Xavier TYLER",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "124058",
       "team": "CAN",
-      "emptied_id": "124058",
-      "detail": "name-bound id 124058: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 124058",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 511,
       "seat": "ICF_ID1",
       "source_printed_name": "Stone SHEARER",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "none",
-      "team": "CAN"
+      "team": "CAN",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 160423 (Stone SHEARER, dob=1999-10-17), 123474 (Stone SHEARER, dob=1997-10-17); neither profile lists Halifax_2022_WCH",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 160423 (Stone SHEARER, dob=1999-10-17), 123474 (Stone SHEARER, dob=1997-10-17); neither profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 512,
       "seat": "ICF_ID1",
       "source_printed_name": "Kevin TOBIN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "CAN"
+      "team": "CAN",
+      "new_id": "123466",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 123466 (Kevin TOBIN), also_ids=['160424']",
+      "also_ids": [
+        "160424"
+      ],
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate)"
     },
     {
       "results_row": 513,
       "seat": "ICF_ID1",
       "source_printed_name": "Sam STARR",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "124131",
       "team": "CAN",
-      "emptied_id": "124131",
-      "detail": "name-bound id 124131: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 124131",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 514,
       "seat": "ICF_ID1",
       "source_printed_name": "Fletcher SLOAN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "123462",
       "team": "CAN",
-      "emptied_id": "123462",
-      "detail": "name-bound id 123462: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 123462",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 515,
       "seat": "ICF_ID1",
       "source_printed_name": "Ashley THOMAS",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "124020",
       "team": "CAN",
-      "emptied_id": "124020",
-      "detail": "name-bound id 124020: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 124020",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 516,
       "seat": "ICF_ID1",
       "source_printed_name": "Leona JOHS",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "122322",
       "team": "GER",
-      "emptied_id": "122322",
-      "detail": "name-bound id 122322: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 122322",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 517,
       "seat": "ICF_ID1",
       "source_printed_name": "Payton DICKS",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "pww_search",
-      "new_id": "124016",
       "team": "CAN",
-      "emptied_id": "124016",
-      "detail": "name-bound id 124016: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Q76 under-14 guard: candidate 124016 (dob=2010-03-23) was under 14 on meeting start date 2022-08-03; left no_icf_id per Q76/Q80b",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Q76 under-14 guard: candidate 124016 (dob=2010-03-23) was under 14 on meeting start date 2022-08-03; left no_icf_id per Q76/Q80b"
     },
     {
       "results_row": 518,
       "seat": "ICF_ID1",
       "source_printed_name": "Leighanne SALVATERRA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "124130",
       "team": "CAN",
-      "emptied_id": "124130",
-      "detail": "name-bound id 124130: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 124130",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 519,
       "seat": "ICF_ID1",
       "source_printed_name": "Abigail LATOUR",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "123459",
       "team": "CAN",
-      "emptied_id": "123459",
-      "detail": "name-bound id 123459: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 123459",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 520,
       "seat": "ICF_ID1",
       "source_printed_name": "Rachel COHEN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "123469",
       "team": "CAN",
-      "emptied_id": "123469",
-      "detail": "name-bound id 123469: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 123469",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 521,
       "seat": "ICF_ID1",
       "source_printed_name": "Annie LEONARD",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "123446",
       "team": "CAN",
-      "emptied_id": "123446",
-      "detail": "name-bound id 123446: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 123446",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 522,
       "seat": "ICF_ID1",
       "source_printed_name": "Sarah MADORE",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "123470",
       "team": "CAN",
-      "emptied_id": "123470",
-      "detail": "name-bound id 123470: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 123470",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 523,
@@ -16936,8 +16992,9 @@
       "source_printed_name": "Toshka HREBACKA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Toshka HREBACKA'; noc=CAN; no profile for given+family",
-      "team": "CAN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Toshka HREBACKA (CAN, W)",
+      "team": "CAN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Toshka HREBACKA (CAN, W)"
     },
     {
       "results_row": 525,
@@ -17456,9 +17513,12 @@
       "results_row": 550,
       "seat": "ICF_ID2",
       "source_printed_name": "Carlos PEREZ",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "36046",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 36046 (Carlos PEREZ RIAL)",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 551,
@@ -17564,9 +17624,12 @@
       "results_row": 556,
       "seat": "ICF_ID1",
       "source_printed_name": "Erick VERDIER",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "URU"
+      "team": "URU",
+      "new_id": "61586",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 61586 (Erick Julian CABRERA VERDIER)",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 556,
@@ -17622,9 +17685,12 @@
       "results_row": 559,
       "seat": "ICF_ID1",
       "source_printed_name": "Joao RIBEIRO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "36453",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 36453 (Joao RIBEIRO)",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 559,
@@ -18354,12 +18420,12 @@
       "results_row": 616,
       "seat": "ICF_ID1",
       "source_printed_name": "Teresa PORTELA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "36455",
       "team": "POR",
-      "emptied_id": "36455",
-      "detail": "name-bound id 36455: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 36455",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 616,
@@ -18597,8 +18663,9 @@
       "source_printed_name": "Alejandro RAMIREZ",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Alejandro RAMIREZ'; noc=COL; no profile for given+family",
-      "team": "COL"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+      "team": "COL",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)"
     },
     {
       "results_row": 631,
@@ -18634,12 +18701,12 @@
       "results_row": 634,
       "seat": "ICF_ID1",
       "source_printed_name": "Michael MOSES",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "135429",
       "team": "NGR",
-      "emptied_id": "135429",
-      "detail": "name-bound id 135429: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 135429",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 635,
@@ -18757,8 +18824,9 @@
       "source_printed_name": "Toshka HREBACKA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Toshka HREBACKA'; noc=CAN; no profile for given+family",
-      "team": "CAN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Toshka HREBACKA (CAN, W)",
+      "team": "CAN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Toshka HREBACKA (CAN, W)"
     },
     {
       "results_row": 638,
@@ -18867,9 +18935,12 @@
       "results_row": 640,
       "seat": "ICF_ID3",
       "source_printed_name": "Luan YANG",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "CHN"
+      "team": "CHN",
+      "new_id": "84885",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 84885 (Luan YANG), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 640,
@@ -18927,8 +18998,9 @@
       "source_printed_name": "Wies SIFFELS",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Wies SIFFELS'; noc=NED; no profile for given+family",
-      "team": "NED"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Wies SIFFELS (NED, W)",
+      "team": "NED",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Wies SIFFELS (NED, W)"
     },
     {
       "results_row": 642,
@@ -18956,8 +19028,9 @@
       "source_printed_name": "Anna MUS",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Anna MUS'; noc=NED; no profile for given+family",
-      "team": "NED"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)",
+      "team": "NED",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)"
     },
     {
       "results_row": 643,
@@ -19354,9 +19427,12 @@
       "results_row": 652,
       "seat": "ICF_ID4",
       "source_printed_name": "Wei TEO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "SGP"
+      "team": "SGP",
+      "new_id": "103884",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 103884 (Wei Jie Sean TEO)",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 653,
@@ -19442,9 +19518,12 @@
       "results_row": 655,
       "seat": "ICF_ID1",
       "source_printed_name": "Joao RIBEIRO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "36453",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 36453 (Joao RIBEIRO)",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 655,
@@ -19822,10 +19901,13 @@
       "results_row": 667,
       "seat": "ICF_ID1",
       "source_printed_name": "Maria MORENO",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Maria MORENO'; noc=ESP; no profile for given+family",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "112684",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (compound given name Maria dels Angels): bound 112684 (Angels MORENO) lists Halifax_2022_WCH",
+      "printed_form": "Maria MORENO",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 667,
@@ -20041,10 +20123,13 @@
       "results_row": 678,
       "seat": "ICF_ID1",
       "source_printed_name": "Vitaliy VERGELES",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Vitaliy VERGELES'; noc=UKR; no profile for given+family",
-      "team": "UKR"
+      "team": "UKR",
+      "new_id": "46387",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 46387 (Vitaliy VERHELES), also_ids=[]",
+      "printed_form": "Vitaliy VERGELES",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 678,
@@ -20142,8 +20227,9 @@
       "source_printed_name": "Alejandro RAMIREZ",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Alejandro RAMIREZ'; noc=COL; no profile for given+family",
-      "team": "COL"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+      "team": "COL",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)"
     },
     {
       "results_row": 683,
@@ -20151,8 +20237,9 @@
       "source_printed_name": "Daniel CIPAGAUTA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Daniel CIPAGAUTA'; noc=COL; no profile for given+family",
-      "team": "COL"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)",
+      "team": "COL",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)"
     },
     {
       "results_row": 684,
@@ -21273,12 +21360,12 @@
       "results_row": 790,
       "seat": "ICF_ID1",
       "source_printed_name": "Teresa PORTELA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "36455",
       "team": "POR",
-      "emptied_id": "36455",
-      "detail": "name-bound id 36455: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 36455",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 791,
@@ -21764,12 +21851,12 @@
       "results_row": 839,
       "seat": "ICF_ID1",
       "source_printed_name": "Teresa PORTELA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "36455",
       "team": "POR",
-      "emptied_id": "36455",
-      "detail": "name-bound id 36455: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 36455",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 840,
@@ -21988,9 +22075,12 @@
       "results_row": 861,
       "seat": "ICF_ID1",
       "source_printed_name": "Combe SECK",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "SEN"
+      "team": "SEN",
+      "new_id": "54332",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 54332 (Combe SECK)",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 862,
@@ -22278,8 +22368,9 @@
       "source_printed_name": "Isaquias SANTOS",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Isaquias SANTOS'; noc=BRA; no profile for given+family",
-      "team": "BRA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+      "team": "BRA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)"
     },
     {
       "results_row": 891,
@@ -22295,9 +22386,15 @@
       "results_row": 892,
       "seat": "ICF_ID1",
       "source_printed_name": "Jose CORDOVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "CUB"
+      "team": "CUB",
+      "new_id": "79493",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 79493 (Jose Ramon PELIER CORDOVA), also_ids=['142141']",
+      "also_ids": [
+        "142141"
+      ],
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 893,
@@ -22605,8 +22702,9 @@
       "source_printed_name": "Alejandro RAMIREZ",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Alejandro RAMIREZ'; noc=COL; no profile for given+family",
-      "team": "COL"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+      "team": "COL",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)"
     },
     {
       "results_row": 915,
@@ -22614,8 +22712,9 @@
       "source_printed_name": "Daniel CIPAGAUTA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Daniel CIPAGAUTA'; noc=COL; no profile for given+family",
-      "team": "COL"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)",
+      "team": "COL",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)"
     },
     {
       "results_row": 916,
@@ -22711,9 +22810,12 @@
       "results_row": 922,
       "seat": "ICF_ID1",
       "source_printed_name": "Combe SECK",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "SEN"
+      "team": "SEN",
+      "new_id": "54332",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 54332 (Combe SECK)",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 923,
@@ -22751,8 +22853,9 @@
       "source_printed_name": "Toshka HREBACKA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Toshka HREBACKA'; noc=CAN; no profile for given+family",
-      "team": "CAN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Toshka HREBACKA (CAN, W)",
+      "team": "CAN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Toshka HREBACKA (CAN, W)"
     },
     {
       "results_row": 925,
@@ -23212,9 +23315,12 @@
       "results_row": 947,
       "seat": "ICF_ID2",
       "source_printed_name": "Carlos PEREZ",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "36046",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 36046 (Carlos PEREZ RIAL)",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 948,
@@ -23260,9 +23366,12 @@
       "results_row": 950,
       "seat": "ICF_ID1",
       "source_printed_name": "Joao RIBEIRO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "36453",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 36453 (Joao RIBEIRO)",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 950,
@@ -23558,9 +23667,12 @@
       "results_row": 965,
       "seat": "ICF_ID1",
       "source_printed_name": "Erick VERDIER",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "URU"
+      "team": "URU",
+      "new_id": "61586",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 61586 (Erick Julian CABRERA VERDIER)",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 965,
@@ -24603,8 +24715,9 @@
       "source_printed_name": "Toshka HREBACKA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Toshka HREBACKA'; noc=CAN; no profile for given+family",
-      "team": "CAN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Toshka HREBACKA (CAN, W)",
+      "team": "CAN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Toshka HREBACKA (CAN, W)"
     },
     {
       "results_row": 1040,
@@ -24850,9 +24963,12 @@
       "results_row": 1046,
       "seat": "ICF_ID1",
       "source_printed_name": "Joao RIBEIRO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "36453",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 36453 (Joao RIBEIRO)",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 1046,
@@ -25001,8 +25117,9 @@
       "source_printed_name": "Anastasiia CHETVERIKOVA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Anastasiia CHETVERIKOVA'; noc=UKR; no profile for given+family",
-      "team": "UKR"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)",
+      "team": "UKR",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)"
     },
     {
       "results_row": 1051,
@@ -25128,10 +25245,16 @@
       "results_row": 1057,
       "seat": "ICF_ID1",
       "source_printed_name": "Yarisleidis DUBOYS",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Yarisleidis DUBOYS'; noc=CUB; no profile for given+family",
-      "team": "CUB"
+      "team": "CUB",
+      "new_id": "95617",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 95617 (Yarisleidis CIRILO DUBOY), also_ids=[]",
+      "also_ids": [
+        "168916"
+      ],
+      "printed_form": "Yarisleidis DUBOYS",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 1057,
@@ -25157,9 +25280,12 @@
       "results_row": 1058,
       "seat": "ICF_ID2",
       "source_printed_name": "Pablo MARTINEZ",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "97941",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 97941 (Pablo MARTINEZ)",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 1059,
@@ -25245,10 +25371,13 @@
       "results_row": 1063,
       "seat": "ICF_ID1",
       "source_printed_name": "Vitaliy VERGELES",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Vitaliy VERGELES'; noc=UKR; no profile for given+family",
-      "team": "UKR"
+      "team": "UKR",
+      "new_id": "46387",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 46387 (Vitaliy VERHELES), also_ids=[]",
+      "printed_form": "Vitaliy VERGELES",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 1063,
@@ -25466,8 +25595,9 @@
       "source_printed_name": "Toshka HREBACKA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Toshka HREBACKA'; noc=CAN; no profile for given+family",
-      "team": "CAN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Toshka HREBACKA (CAN, W)",
+      "team": "CAN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Toshka HREBACKA (CAN, W)"
     },
     {
       "results_row": 1079,
@@ -25593,10 +25723,16 @@
       "results_row": 1085,
       "seat": "ICF_ID1",
       "source_printed_name": "Yarisleidis DUBOYS",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Yarisleidis DUBOYS'; noc=CUB; no profile for given+family",
-      "team": "CUB"
+      "team": "CUB",
+      "new_id": "95617",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 95617 (Yarisleidis CIRILO DUBOY), also_ids=[]",
+      "also_ids": [
+        "168916"
+      ],
+      "printed_form": "Yarisleidis DUBOYS",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 1085,
@@ -25868,8 +26004,9 @@
       "source_printed_name": "Isaquias SANTOS",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Isaquias SANTOS'; noc=BRA; no profile for given+family",
-      "team": "BRA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+      "team": "BRA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)"
     },
     {
       "results_row": 1104,
@@ -26619,8 +26756,9 @@
       "source_printed_name": "Alejandro RAMIREZ",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Alejandro RAMIREZ'; noc=COL; no profile for given+family",
-      "team": "COL"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+      "team": "COL",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)"
     },
     {
       "results_row": 1144,
@@ -26628,8 +26766,9 @@
       "source_printed_name": "Daniel CIPAGAUTA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Daniel CIPAGAUTA'; noc=COL; no profile for given+family",
-      "team": "COL"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)",
+      "team": "COL",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)"
     },
     {
       "results_row": 1145,
@@ -26805,12 +26944,12 @@
       "results_row": 1162,
       "seat": "ICF_ID1",
       "source_printed_name": "Teresa PORTELA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "36455",
       "team": "POR",
-      "emptied_id": "36455",
-      "detail": "name-bound id 36455: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 36455",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 1163,
@@ -27841,12 +27980,12 @@
       "results_row": 1243,
       "seat": "ICF_ID1",
       "source_printed_name": "Teresa PORTELA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "36455",
       "team": "POR",
-      "emptied_id": "36455",
-      "detail": "name-bound id 36455: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 36455",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 1244,
@@ -27933,10 +28072,16 @@
       "results_row": 1252,
       "seat": "ICF_ID1",
       "source_printed_name": "Yarisleidis DUBOYS",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Yarisleidis DUBOYS'; noc=CUB; no profile for given+family",
-      "team": "CUB"
+      "team": "CUB",
+      "new_id": "95617",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 95617 (Yarisleidis CIRILO DUBOY), also_ids=[]",
+      "also_ids": [
+        "168916"
+      ],
+      "printed_form": "Yarisleidis DUBOYS",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 1253,
@@ -28074,8 +28219,9 @@
       "source_printed_name": "Isaquias SANTOS",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Isaquias SANTOS'; noc=BRA; no profile for given+family",
-      "team": "BRA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+      "team": "BRA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)"
     },
     {
       "results_row": 1267,
@@ -28141,9 +28287,15 @@
       "results_row": 1273,
       "seat": "ICF_ID1",
       "source_printed_name": "Jose CORDOVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "CUB"
+      "team": "CUB",
+      "new_id": "79493",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 79493 (Jose Ramon PELIER CORDOVA), also_ids=['142141']",
+      "also_ids": [
+        "142141"
+      ],
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 1274,
@@ -28311,8 +28463,9 @@
       "source_printed_name": "Simon JENSEN",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Simon JENSEN'; noc=DEN; no profile for given+family",
-      "team": "DEN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Simon JENSEN (DEN, M)",
+      "team": "DEN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Simon JENSEN (DEN, M)"
     },
     {
       "results_row": 1287,
@@ -28652,8 +28805,9 @@
       "source_printed_name": "Alejandro RAMIREZ",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Alejandro RAMIREZ'; noc=COL; no profile for given+family",
-      "team": "COL"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+      "team": "COL",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)"
     },
     {
       "results_row": 1308,
@@ -28661,8 +28815,9 @@
       "source_printed_name": "Daniel CIPAGAUTA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Daniel CIPAGAUTA'; noc=COL; no profile for given+family",
-      "team": "COL"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)",
+      "team": "COL",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)"
     },
     {
       "results_row": 1309,
@@ -28768,10 +28923,13 @@
       "results_row": 1312,
       "seat": "ICF_ID1",
       "source_printed_name": "Vitaliy VERGELES",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Vitaliy VERGELES'; noc=UKR; no profile for given+family",
-      "team": "UKR"
+      "team": "UKR",
+      "new_id": "46387",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 46387 (Vitaliy VERHELES), also_ids=[]",
+      "printed_form": "Vitaliy VERGELES",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 1312,
@@ -28817,9 +28975,16 @@
       "results_row": 1313,
       "seat": "ICF_ID2",
       "source_printed_name": "David KOCZKAS",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "HUN"
+      "team": "HUN",
+      "new_id": "122996",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 122996 (David KOCZKAS), also_ids=['68332', '110448']",
+      "also_ids": [
+        "68332",
+        "110448"
+      ],
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 1313,
@@ -29099,8 +29264,9 @@
       "source_printed_name": "Toshka HREBACKA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Toshka HREBACKA'; noc=CAN; no profile for given+family",
-      "team": "CAN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Toshka HREBACKA (CAN, W)",
+      "team": "CAN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Toshka HREBACKA (CAN, W)"
     },
     {
       "results_row": 1325,
@@ -29186,9 +29352,12 @@
       "results_row": 1329,
       "seat": "ICF_ID1",
       "source_printed_name": "Joao RIBEIRO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "36453",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 36453 (Joao RIBEIRO)",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 1329,
@@ -29424,12 +29593,12 @@
       "results_row": 1341,
       "seat": "ICF_ID1",
       "source_printed_name": "Michael MOSES",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "135429",
       "team": "NGR",
-      "emptied_id": "135429",
-      "detail": "name-bound id 135429: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 135429",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 1341,
@@ -29447,8 +29616,9 @@
       "source_printed_name": "Alejandro RAMIREZ",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Alejandro RAMIREZ'; noc=COL; no profile for given+family",
-      "team": "COL"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, X)",
+      "team": "COL",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, X)"
     },
     {
       "results_row": 1342,
@@ -29486,12 +29656,12 @@
       "results_row": 1344,
       "seat": "ICF_ID1",
       "source_printed_name": "Teresa PORTELA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "36455",
       "team": "POR",
-      "emptied_id": "36455",
-      "detail": "name-bound id 36455: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 36455",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 1344,
@@ -29847,10 +30017,13 @@
       "results_row": 1357,
       "seat": "ICF_ID1",
       "source_printed_name": "Maria MORENO",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Maria MORENO'; noc=ESP; no profile for given+family",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "112684",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (compound given name Maria dels Angels): bound 112684 (Angels MORENO) lists Halifax_2022_WCH",
+      "printed_form": "Maria MORENO",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 1357,
@@ -29918,8 +30091,9 @@
       "source_printed_name": "Anastasiia CHETVERIKOVA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Anastasiia CHETVERIKOVA'; noc=UKR; no profile for given+family",
-      "team": "UKR"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)",
+      "team": "UKR",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)"
     },
     {
       "results_row": 1359,
@@ -30017,8 +30191,9 @@
       "source_printed_name": "Anna MUS",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Anna MUS'; noc=NED; no profile for given+family",
-      "team": "NED"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)",
+      "team": "NED",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)"
     },
     {
       "results_row": 1369,
@@ -30154,10 +30329,16 @@
       "results_row": 1386,
       "seat": "ICF_ID1",
       "source_printed_name": "Yarisleidis DUBOYS",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Yarisleidis DUBOYS'; noc=CUB; no profile for given+family",
-      "team": "CUB"
+      "team": "CUB",
+      "new_id": "95617",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 95617 (Yarisleidis CIRILO DUBOY), also_ids=[]",
+      "also_ids": [
+        "168916"
+      ],
+      "printed_form": "Yarisleidis DUBOYS",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 1387,
@@ -30393,9 +30574,12 @@
       "results_row": 1410,
       "seat": "ICF_ID1",
       "source_printed_name": "Wei TEO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "SGP"
+      "team": "SGP",
+      "new_id": "103884",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 103884 (Wei Jie Sean TEO)",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 1411,
@@ -30431,9 +30615,12 @@
       "results_row": 1414,
       "seat": "ICF_ID1",
       "source_printed_name": "Erick VERDIER",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "URU"
+      "team": "URU",
+      "new_id": "61586",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 61586 (Erick Julian CABRERA VERDIER)",
+      "name_bound_profile": "kept: profile lists Halifax_2022_WCH"
     },
     {
       "results_row": 1415,
@@ -30617,12 +30804,12 @@
     {
       "kind": "xlsx",
       "name": "Halifax_2022_WCH_Results.xlsx",
-      "sha256": "acc5c5097ee5a1f386344f5aa025ff700a975c10ea6dff09ca6e64fc941948f4",
-      "bytes": 124614
+      "sha256": "1d6260c0055ce17cf8febcbbdb5d5312b304bf5c0e4f3c2222cfad6320a46d14",
+      "bytes": 126182
     }
   ],
   "output_xlsx": "Halifax_2022_WCH_Results.xlsx",
-  "output_xlsx_sha256": "acc5c5097ee5a1f386344f5aa025ff700a975c10ea6dff09ca6e64fc941948f4",
+  "output_xlsx_sha256": "1d6260c0055ce17cf8febcbbdb5d5312b304bf5c0e4f3c2222cfad6320a46d14",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -30652,14 +30839,17 @@
     "completed": true,
     "profiles_checked": 545,
     "same_meeting_unified": 0,
-    "rule": "2013+ name-bound ids kept only if PWW profile lists competition+event",
+    "rule": "MAINTAINER_ANSWERS_2026-10-23 Rules 1-5 + same-meeting unification",
     "competition_regex": "^2022 ICF (CANOE SPRINT|PARACANOE)( AND PARACANOE)? WORLD CHAMPIONSHIPS",
     "kept": 1904,
-    "emptied": 69,
+    "emptied": 0,
     "persons_dropped": 9,
-    "olympic": false
+    "olympic": false,
+    "newly_bound_t59": 76,
+    "no_icf_id_t59": 44,
+    "same_meeting_unified_t59": 0
   },
-  "updated_at": "2026-10-19T12:32:59Z",
+  "updated_at": "2026-10-23T18:47:56Z",
   "name_change_log": [
     {
       "results_row": 64,
@@ -30860,6 +31050,12 @@
       "rule": "name_change",
       "evidence": "profile lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K2 Mixed 500m",
       "was": "no_icf_id"
+    },
+    {
+      "icf_id": "112684",
+      "printed": "Maria MORENO",
+      "icf_name": "Angels MORENO",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (compound given name Maria dels Angels): bound 112684 (Angels MORENO) lists Halifax_2022_WCH"
     }
   ],
   "boats_restored_log": [
@@ -31450,5 +31646,6 @@
         }
       ]
     }
-  ]
+  ],
+  "nation_change_log": []
 }

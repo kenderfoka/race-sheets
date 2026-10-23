@@ -11,11 +11,9 @@
   "dates": "2024-08-23/2024-08-25",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-17T15:54:46Z",
-  "grade": "USABLE",
-  "gaps": [
-    "icf_ids_incomplete"
-  ],
+  "generated_at_utc": "2026-10-23T18:47:56Z",
+  "grade": "PERFECT",
+  "gaps": [],
   "note": "IMAS race pages print the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule).",
   "race_numbers_missing": [],
   "issues": [],
@@ -5964,17 +5962,29 @@
       "results_row": 56,
       "seat": "ICF_ID1",
       "source_printed_name": "Mirjalol KAMILOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UZB"
+      "team": "UZB",
+      "new_id": "123004",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 123004 (Mirjalol KAMILOV), also_ids=['145395']",
+      "also_ids": [
+        "145395"
+      ],
+      "name_bound_profile": "kept: profile lists Samarkand_2024_WCH"
     },
     {
       "results_row": 56,
       "seat": "ICF_ID2",
       "source_printed_name": "Kamronbek AKHTAMOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UZB"
+      "team": "UZB",
+      "new_id": "118519",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 118519 (Kamronbek AKHTAMOV), also_ids=['79113']",
+      "also_ids": [
+        "79113"
+      ],
+      "name_bound_profile": "kept: profile lists Samarkand_2024_WCH"
     },
     {
       "results_row": 57,
@@ -10001,9 +10011,15 @@
       "results_row": 359,
       "seat": "ICF_ID1",
       "source_printed_name": "Dilmurod SHERMURODOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UZB"
+      "team": "UZB",
+      "new_id": "147940",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 147940 (Dilmurod SHERMURODOV), also_ids=['147985']",
+      "also_ids": [
+        "147985"
+      ],
+      "name_bound_profile": "kept: profile lists Samarkand_2024_WCH"
     },
     {
       "results_row": 360,
@@ -10109,9 +10125,15 @@
       "results_row": 365,
       "seat": "ICF_ID1",
       "source_printed_name": "Masuma YADAV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "IND"
+      "team": "IND",
+      "new_id": "147952",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 147952 (Masuma YADAV), also_ids=['147951']",
+      "also_ids": [
+        "147951"
+      ],
+      "name_bound_profile": "kept: profile lists Samarkand_2024_WCH"
     },
     {
       "results_row": 365,
@@ -10397,12 +10419,12 @@
       "results_row": 388,
       "seat": "ICF_ID1",
       "source_printed_name": "Adel MOJALLALIMOGHADAM",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "52787",
       "team": "IRI",
-      "emptied_id": "52787",
-      "detail": "name-bound id 52787: PWW profile (fetched fresh 2026-10-13) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 52787",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 389,
@@ -10850,8 +10872,9 @@
       "source_printed_name": "Gagely (2001, M) BALOGH",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Gagely (2001, M) BALOGH'; noc=HUN; no profile for given+family",
-      "team": "HUN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Gagely (2001, M) BALOGH (HUN, X)",
+      "team": "HUN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Gagely (2001, M) BALOGH (HUN, X)"
     },
     {
       "results_row": 407,
@@ -11198,9 +11221,15 @@
       "results_row": 415,
       "seat": "ICF_ID3",
       "source_printed_name": "Masuma (2006, F) YADAV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "IND"
+      "team": "IND",
+      "new_id": "147952",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 147952 (Masuma YADAV), also_ids=['147951']",
+      "also_ids": [
+        "147951"
+      ],
+      "name_bound_profile": "kept: profile lists Samarkand_2024_WCH"
     },
     {
       "results_row": 415,
@@ -11346,10 +11375,13 @@
       "results_row": 419,
       "seat": "ICF_ID2",
       "source_printed_name": "Viktoriia (2005, F) YARCHEVSKA",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Viktoriia (2005, F) YARCHEVSKA'; noc=ESP; no profile for given+family",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "133078",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 133078 (Viktoria YARCHEVSKA), also_ids=[]",
+      "printed_form": "Viktoriia (2005, F) YARCHEVSKA",
+      "name_bound_profile": "kept: profile lists Samarkand_2024_WCH"
     },
     {
       "results_row": 419,
@@ -11936,17 +11968,29 @@
       "results_row": 456,
       "seat": "ICF_ID1",
       "source_printed_name": "Mirjalol KAMILOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UZB"
+      "team": "UZB",
+      "new_id": "123004",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 123004 (Mirjalol KAMILOV), also_ids=['145395']",
+      "also_ids": [
+        "145395"
+      ],
+      "name_bound_profile": "kept: profile lists Samarkand_2024_WCH"
     },
     {
       "results_row": 456,
       "seat": "ICF_ID2",
       "source_printed_name": "Kamronbek AKHTAMOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UZB"
+      "team": "UZB",
+      "new_id": "118519",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 118519 (Kamronbek AKHTAMOV), also_ids=['79113']",
+      "also_ids": [
+        "79113"
+      ],
+      "name_bound_profile": "kept: profile lists Samarkand_2024_WCH"
     },
     {
       "results_row": 457,
@@ -12292,9 +12336,15 @@
       "results_row": 482,
       "seat": "ICF_ID1",
       "source_printed_name": "Dilmurod SHERMURODOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UZB"
+      "team": "UZB",
+      "new_id": "147940",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 147940 (Dilmurod SHERMURODOV), also_ids=['147985']",
+      "also_ids": [
+        "147985"
+      ],
+      "name_bound_profile": "kept: profile lists Samarkand_2024_WCH"
     },
     {
       "results_row": 483,
@@ -12550,9 +12600,15 @@
       "results_row": 505,
       "seat": "ICF_ID1",
       "source_printed_name": "Masuma YADAV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "IND"
+      "team": "IND",
+      "new_id": "147952",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 147952 (Masuma YADAV), also_ids=['147951']",
+      "also_ids": [
+        "147951"
+      ],
+      "name_bound_profile": "kept: profile lists Samarkand_2024_WCH"
     },
     {
       "results_row": 505,
@@ -14441,8 +14497,9 @@
       "source_printed_name": "Gagely (2001, M) BALOGH",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Gagely (2001, M) BALOGH'; noc=HUN; no profile for given+family",
-      "team": "HUN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Gagely (2001, M) BALOGH (HUN, X)",
+      "team": "HUN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Gagely (2001, M) BALOGH (HUN, X)"
     },
     {
       "results_row": 640,
@@ -14819,10 +14876,13 @@
       "results_row": 649,
       "seat": "ICF_ID2",
       "source_printed_name": "Viktoriia (2005, F) YARCHEVSKA",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Viktoriia (2005, F) YARCHEVSKA'; noc=ESP; no profile for given+family",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "133078",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 133078 (Viktoria YARCHEVSKA), also_ids=[]",
+      "printed_form": "Viktoriia (2005, F) YARCHEVSKA",
+      "name_bound_profile": "kept: profile lists Samarkand_2024_WCH"
     },
     {
       "results_row": 649,
@@ -15468,10 +15528,13 @@
       "results_row": 697,
       "seat": "ICF_ID1",
       "source_printed_name": "Muhammad RAJABOV",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Muhammad RAJABOV'; noc=TJK; no profile for given+family",
-      "team": "TJK"
+      "team": "TJK",
+      "new_id": "94174",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 94174 (Mukhammadi RAJABOV), also_ids=[]",
+      "printed_form": "Muhammad RAJABOV",
+      "name_bound_profile": "kept: profile lists Samarkand_2024_WCH"
     },
     {
       "results_row": 698,
@@ -15507,9 +15570,12 @@
       "results_row": 701,
       "seat": "ICF_ID1",
       "source_printed_name": "Janus ERCILLA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "PHI"
+      "team": "PHI",
+      "new_id": "147295",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 147295 (Janus ERCILLA), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Samarkand_2024_WCH"
     },
     {
       "results_row": 702,
@@ -16350,22 +16416,26 @@
     {
       "kind": "xlsx",
       "name": "Samarkand_2024_WCH_Results.xlsx",
-      "sha256": "69d68108fb6aab818a30044dcd3b405c7ed69ec6d00009623676b96f9c84f907",
-      "bytes": 65097
+      "sha256": "c9c029e7b7729d6e5262ab8e2e4d0bf16aa67f13e4fd1c6242e5e20ce2980704",
+      "bytes": 65408
     }
   ],
   "output_xlsx": "Samarkand_2024_WCH_Results.xlsx",
-  "output_xlsx_sha256": "69d68108fb6aab818a30044dcd3b405c7ed69ec6d00009623676b96f9c84f907",
+  "output_xlsx_sha256": "c9c029e7b7729d6e5262ab8e2e4d0bf16aa67f13e4fd1c6242e5e20ce2980704",
   "name_bound_check": {
     "same_meeting_unified": 1,
-    "rule": "2013+ name-bound ids kept only if PWW profile lists competition+event",
+    "rule": "MAINTAINER_ANSWERS_2026-10-23 Rules 1-5 + same-meeting unification",
     "competition_regex": "2024.*WORLD.CHAMPIONSHIPS",
     "kept": 1051,
-    "emptied": 12,
+    "emptied": 0,
     "persons_dropped": 0,
-    "olympic": false
+    "olympic": false,
+    "completed": true,
+    "newly_bound_t59": 14,
+    "no_icf_id_t59": 2,
+    "same_meeting_unified_t59": 0
   },
-  "updated_at": "2026-10-17T15:54:46Z",
+  "updated_at": "2026-10-23T18:47:56Z",
   "name_change_log": [
     {
       "results_row": 174,
@@ -16427,5 +16497,99 @@
       "evidence": "profile lists 2024 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K4 Mixed 500m",
       "was": "no_icf_id"
     }
-  ]
+  ],
+  "printed_field_counts": {
+    "source": "boats per race as parsed from the published source ( +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  + ); back-filled 2026-10-19 from the published RESULTS (the builder parse), race coverage cross-checked independently by GATE10b",
+    "rule": "MAINTAINER_ANSWERS_2026-10-18c Fix 1: printed count decides",
+    "counts": {
+      "1": 9,
+      "2": 9,
+      "3": 9,
+      "4": 8,
+      "5": 9,
+      "6": 8,
+      "7": 9,
+      "8": 8,
+      "9": 8,
+      "10": 7,
+      "11": 9,
+      "12": 9,
+      "13": 9,
+      "14": 9,
+      "15": 9,
+      "16": 9,
+      "17": 9,
+      "18": 8,
+      "19": 7,
+      "20": 6,
+      "21": 6,
+      "22": 8,
+      "23": 8,
+      "24": 8,
+      "25": 8,
+      "26": 7,
+      "27": 7,
+      "28": 7,
+      "29": 7,
+      "30": 9,
+      "31": 9,
+      "32": 7,
+      "33": 7,
+      "34": 9,
+      "35": 9,
+      "36": 9,
+      "37": 8,
+      "38": 8,
+      "39": 9,
+      "40": 9,
+      "41": 8,
+      "42": 8,
+      "43": 8,
+      "44": 7,
+      "45": 6,
+      "46": 5,
+      "47": 9,
+      "48": 9,
+      "49": 9,
+      "50": 7,
+      "51": 6,
+      "52": 5,
+      "53": 5,
+      "54": 9,
+      "55": 9,
+      "56": 9,
+      "57": 9,
+      "58": 9,
+      "59": 9,
+      "60": 9,
+      "61": 9,
+      "62": 9,
+      "63": 4,
+      "64": 9,
+      "65": 9,
+      "66": 7,
+      "68": 9,
+      "69": 8,
+      "70": 9,
+      "71": 9,
+      "72": 9,
+      "73": 9,
+      "74": 9,
+      "75": 9,
+      "76": 9,
+      "77": 9,
+      "78": 9,
+      "79": 9,
+      "80": 9,
+      "81": 8,
+      "82": 9,
+      "83": 9,
+      "84": 14,
+      "85": 18,
+      "86": 16,
+      "87": 25
+    },
+    "backfilled": "2026-10-19"
+  },
+  "nation_change_log": []
 }

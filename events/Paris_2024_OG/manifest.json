@@ -11,11 +11,9 @@
   "dates": "2024-08-06/2024-08-10",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-18T22:17:57Z",
-  "grade": "USABLE",
-  "gaps": [
-    "icf_ids_incomplete"
-  ],
+  "generated_at_utc": "2026-10-23T18:47:56Z",
+  "grade": "PERFECT",
+  "gaps": [],
   "note": "ICF Olympic OVR results book prints each race Start Time to the minute (ICF results archive per-race clocks are scheduled per VENDOR_MAP; written HH:MM:00). Event bibs are not ICF ids (BIB_BOAT empty). No ICF ids printed: seats bound by name, nation and gender under the Olympic Games rule (bound_by_name, no profile check).",
   "race_numbers_missing": [],
   "issues": [],
@@ -5350,10 +5348,12 @@
       "results_row": 22,
       "seat": "ICF_ID4",
       "source_printed_name": "Toshka BESHARAH-HREBACKA",
-      "action": "no_icf_id",
+      "action": "bound_by_name",
       "source": "pww+bence",
-      "evidence": "printed_name='Toshka BESHARAH-HREBACKA'; noc=CAN; no profile for given+family",
-      "team": "CAN"
+      "team": "CAN",
+      "new_id": "98683",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 98683 (Toshka BESHARAH), also_ids=[]",
+      "printed_form": "Toshka BESHARAH-HREBACKA"
     },
     {
       "results_row": 23,
@@ -5899,9 +5899,11 @@
       "results_row": 50,
       "seat": "ICF_ID1",
       "source_printed_name": "Joao RIBEIRO",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 66384 (Joao RIBEIRO, dob=1979-01-29), 36453 (Joao RIBEIRO, dob=1989-08-19); neither profile lists Paris_2024_OG",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 66384 (Joao RIBEIRO, dob=1979-01-29), 36453 (Joao RIBEIRO, dob=1989-08-19); neither profile lists Paris_2024_OG"
     },
     {
       "results_row": 50,
@@ -6189,8 +6191,9 @@
       "source_printed_name": "Tom GREEN",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Tom GREEN'; noc=AUS; no profile for given+family",
-      "team": "AUS"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Tom GREEN (AUS, M)",
+      "team": "AUS",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Tom GREEN (AUS, M)"
     },
     {
       "results_row": 65,
@@ -6306,9 +6309,14 @@
       "results_row": 70,
       "seat": "ICF_ID2",
       "source_printed_name": "Yule CHEN",
-      "action": "emptied",
+      "action": "bound_by_name",
       "source": "none",
-      "team": "CHN"
+      "team": "CHN",
+      "new_id": "142552",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 142552 (Yule CHEN), also_ids=['166500']",
+      "also_ids": [
+        "166500"
+      ]
     },
     {
       "results_row": 71,
@@ -8433,10 +8441,12 @@
       "results_row": 201,
       "seat": "ICF_ID1",
       "source_printed_name": "Ali AGHAMIRZAEIJENAGHARD",
-      "action": "no_icf_id",
+      "action": "bound_by_name",
       "source": "pww+bence",
-      "evidence": "printed_name='Ali AGHAMIRZAEIJENAGHARD'; noc=IRI; no profile for given+family",
-      "team": "IRI"
+      "team": "IRI",
+      "new_id": "52750",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 52750 (Ali AGHAMIRZAEIJENAGHRAD), also_ids=[]",
+      "printed_form": "Ali AGHAMIRZAEIJENAGHARD"
     },
     {
       "results_row": 202,
@@ -8444,8 +8454,9 @@
       "source_printed_name": "Tom GREEN",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Tom GREEN'; noc=AUS; no profile for given+family",
-      "team": "AUS"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Tom GREEN (AUS, M)",
+      "team": "AUS",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Tom GREEN (AUS, M)"
     },
     {
       "results_row": 203,
@@ -8511,9 +8522,14 @@
       "results_row": 209,
       "seat": "ICF_ID1",
       "source_printed_name": "Jose Ramon PELIER CORDOVA",
-      "action": "emptied",
+      "action": "bound_by_name",
       "source": "none",
-      "team": "CUB"
+      "team": "CUB",
+      "new_id": "79493",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 79493 (Jose Ramon PELIER CORDOVA), also_ids=['142141']",
+      "also_ids": [
+        "142141"
+      ]
     },
     {
       "results_row": 210,
@@ -9050,10 +9066,12 @@
       "results_row": 262,
       "seat": "ICF_ID1",
       "source_printed_name": "Ali AGHAMIRZAEIJENAGHARD",
-      "action": "no_icf_id",
+      "action": "bound_by_name",
       "source": "pww+bence",
-      "evidence": "printed_name='Ali AGHAMIRZAEIJENAGHARD'; noc=IRI; no profile for given+family",
-      "team": "IRI"
+      "team": "IRI",
+      "new_id": "52750",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 52750 (Ali AGHAMIRZAEIJENAGHRAD), also_ids=[]",
+      "printed_form": "Ali AGHAMIRZAEIJENAGHARD"
     },
     {
       "results_row": 263,
@@ -9230,9 +9248,14 @@
       "results_row": 280,
       "seat": "ICF_ID1",
       "source_printed_name": "Jose Ramon PELIER CORDOVA",
-      "action": "emptied",
+      "action": "bound_by_name",
       "source": "none",
-      "team": "CUB"
+      "team": "CUB",
+      "new_id": "79493",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 79493 (Jose Ramon PELIER CORDOVA), also_ids=['142141']",
+      "also_ids": [
+        "142141"
+      ]
     },
     {
       "results_row": 281,
@@ -9573,9 +9596,11 @@
       "results_row": 314,
       "seat": "ICF_ID1",
       "source_printed_name": "Combe SECK",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "none",
-      "team": "SEN"
+      "team": "SEN",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 54332 (Combe SECK, dob=1995-06-27), 140347 (Combe SECK, dob=1996-04-30); neither profile lists Paris_2024_OG",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 54332 (Combe SECK, dob=1995-06-27), 140347 (Combe SECK, dob=1996-04-30); neither profile lists Paris_2024_OG"
     },
     {
       "results_row": 315,
@@ -10051,10 +10076,12 @@
       "results_row": 340,
       "seat": "ICF_ID4",
       "source_printed_name": "Toshka BESHARAH-HREBACKA",
-      "action": "no_icf_id",
+      "action": "bound_by_name",
       "source": "pww+bence",
-      "evidence": "printed_name='Toshka BESHARAH-HREBACKA'; noc=CAN; no profile for given+family",
-      "team": "CAN"
+      "team": "CAN",
+      "new_id": "98683",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 98683 (Toshka BESHARAH), also_ids=[]",
+      "printed_form": "Toshka BESHARAH-HREBACKA"
     },
     {
       "results_row": 341,
@@ -10670,9 +10697,11 @@
       "results_row": 372,
       "seat": "ICF_ID1",
       "source_printed_name": "Combe SECK",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "none",
-      "team": "SEN"
+      "team": "SEN",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 54332 (Combe SECK, dob=1995-06-27), 140347 (Combe SECK, dob=1996-04-30); neither profile lists Paris_2024_OG",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 54332 (Combe SECK, dob=1995-06-27), 140347 (Combe SECK, dob=1996-04-30); neither profile lists Paris_2024_OG"
     },
     {
       "results_row": 373,
@@ -12098,9 +12127,14 @@
       "results_row": 428,
       "seat": "ICF_ID2",
       "source_printed_name": "Yule CHEN",
-      "action": "emptied",
+      "action": "bound_by_name",
       "source": "none",
-      "team": "CHN"
+      "team": "CHN",
+      "new_id": "142552",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 142552 (Yule CHEN), also_ids=['166500']",
+      "also_ids": [
+        "166500"
+      ]
     },
     {
       "results_row": 429,
@@ -12278,8 +12312,9 @@
       "source_printed_name": "Tom GREEN",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Tom GREEN'; noc=AUS; no profile for given+family",
-      "team": "AUS"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Tom GREEN (AUS, M)",
+      "team": "AUS",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Tom GREEN (AUS, M)"
     },
     {
       "results_row": 438,
@@ -12305,9 +12340,11 @@
       "results_row": 439,
       "seat": "ICF_ID1",
       "source_printed_name": "Joao RIBEIRO",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 66384 (Joao RIBEIRO, dob=1979-01-29), 36453 (Joao RIBEIRO, dob=1989-08-19); neither profile lists Paris_2024_OG",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 66384 (Joao RIBEIRO, dob=1979-01-29), 36453 (Joao RIBEIRO, dob=1989-08-19); neither profile lists Paris_2024_OG"
     },
     {
       "results_row": 439,
@@ -12473,9 +12510,14 @@
       "results_row": 450,
       "seat": "ICF_ID1",
       "source_printed_name": "Jose Ramon PELIER CORDOVA",
-      "action": "emptied",
+      "action": "bound_by_name",
       "source": "none",
-      "team": "CUB"
+      "team": "CUB",
+      "new_id": "79493",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 79493 (Jose Ramon PELIER CORDOVA), also_ids=['142141']",
+      "also_ids": [
+        "142141"
+      ]
     },
     {
       "results_row": 451,
@@ -12951,9 +12993,14 @@
       "results_row": 479,
       "seat": "ICF_ID2",
       "source_printed_name": "Yule CHEN",
-      "action": "emptied",
+      "action": "bound_by_name",
       "source": "none",
-      "team": "CHN"
+      "team": "CHN",
+      "new_id": "142552",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 142552 (Yule CHEN), also_ids=['166500']",
+      "also_ids": [
+        "166500"
+      ]
     },
     {
       "results_row": 480,
@@ -13371,8 +13418,9 @@
       "source_printed_name": "Tom GREEN",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Tom GREEN'; noc=AUS; no profile for given+family",
-      "team": "AUS"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Tom GREEN (AUS, M)",
+      "team": "AUS",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Tom GREEN (AUS, M)"
     },
     {
       "results_row": 501,
@@ -13418,9 +13466,11 @@
       "results_row": 503,
       "seat": "ICF_ID1",
       "source_printed_name": "Joao RIBEIRO",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 66384 (Joao RIBEIRO, dob=1979-01-29), 36453 (Joao RIBEIRO, dob=1989-08-19); neither profile lists Paris_2024_OG",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 66384 (Joao RIBEIRO, dob=1979-01-29), 36453 (Joao RIBEIRO, dob=1989-08-19); neither profile lists Paris_2024_OG"
     },
     {
       "results_row": 503,
@@ -13486,9 +13536,14 @@
       "results_row": 507,
       "seat": "ICF_ID1",
       "source_printed_name": "Jose Ramon PELIER CORDOVA",
-      "action": "emptied",
+      "action": "bound_by_name",
       "source": "none",
-      "team": "CUB"
+      "team": "CUB",
+      "new_id": "79493",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 79493 (Jose Ramon PELIER CORDOVA), also_ids=['142141']",
+      "also_ids": [
+        "142141"
+      ]
     },
     {
       "results_row": 508,
@@ -14016,8 +14071,9 @@
       "source_printed_name": "Tom GREEN",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Tom GREEN'; noc=AUS; no profile for given+family",
-      "team": "AUS"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Tom GREEN (AUS, M)",
+      "team": "AUS",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Tom GREEN (AUS, M)"
     },
     {
       "results_row": 561,
@@ -14605,8 +14661,9 @@
       "source_printed_name": "Tom GREEN",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Tom GREEN'; noc=AUS; no profile for given+family",
-      "team": "AUS"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Tom GREEN (AUS, M)",
+      "team": "AUS",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Tom GREEN (AUS, M)"
     },
     {
       "results_row": 620,
@@ -14882,21 +14939,21 @@
     {
       "kind": "xlsx",
       "name": "Paris_2024_OG_Results.xlsx",
-      "sha256": "3c0bce3f3b53a7b45594bda5a883951ee07e2c1a7fbdbda340f3b3c202975a12",
-      "bytes": 60964
+      "sha256": "18501e9a620e9f0615d66e74ed1149b151802418db7a7b64cac87ec86146aa14",
+      "bytes": 61174
     }
   ],
   "output_xlsx": "Paris_2024_OG_Results.xlsx",
-  "output_xlsx_sha256": "3c0bce3f3b53a7b45594bda5a883951ee07e2c1a7fbdbda340f3b3c202975a12",
+  "output_xlsx_sha256": "18501e9a620e9f0615d66e74ed1149b151802418db7a7b64cac87ec86146aa14",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
     "crews": "pass",
     "OBS": "pass",
     "RANK vs official results": "pass",
-    "PERSONS vs ICF": "not_run",
-    "repairs": "not_run",
-    "fixtures": "not_run"
+    "PERSONS vs ICF": "pass",
+    "repairs": "pass",
+    "fixtures": "pass"
   },
   "audit": {
     "fails": [],
@@ -14917,14 +14974,17 @@
     "completed": true,
     "profiles_checked": 0,
     "same_meeting_unified": 0,
-    "rule": "2013+ name-bound ids kept only if PWW profile lists competition+event",
+    "rule": "MAINTAINER_ANSWERS_2026-10-23 Rules 1-5 + same-meeting unification",
     "competition_regex": "OLYMPIC",
     "kept": 0,
-    "emptied": 21,
+    "emptied": 0,
     "persons_dropped": 0,
-    "olympic": true
+    "olympic": true,
+    "newly_bound_t59": 11,
+    "no_icf_id_t59": 11,
+    "same_meeting_unified_t59": 0
   },
-  "updated_at": "2026-10-18T22:17:57Z",
+  "updated_at": "2026-10-23T18:47:56Z",
   "nation_change_log": [
     {
       "id": "106349",
