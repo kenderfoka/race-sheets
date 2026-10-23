@@ -10,11 +10,9 @@
   "dates": "2017-05-19/2017-05-21",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-17T15:54:46Z",
-  "grade": "USABLE",
-  "gaps": [
-    "icf_ids_incomplete"
-  ],
+  "generated_at_utc": "2026-10-23T19:39:26Z",
+  "grade": "PERFECT",
+  "gaps": [],
   "note": "MemoSoft results book (Spotfokus hub dead) prints the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule). OQ/para races in the same book are kept (one key).",
   "race_numbers_missing": [],
   "issues": [],
@@ -3347,12 +3345,12 @@
       "results_row": 8,
       "seat": "ICF_ID1",
       "source_printed_name": "Juan LOPEZ",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "60677",
       "team": "PUR",
-      "emptied_id": "60677",
-      "detail": "name-bound id 60677: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 60677",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 9,
@@ -3478,10 +3476,13 @@
       "results_row": 21,
       "seat": "ICF_ID1",
       "source_printed_name": "Balasz KISS",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Balasz KISS'; noc=HUN; no profile for given+family",
-      "team": "HUN"
+      "team": "HUN",
+      "new_id": "54273",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 54273 (Balazs KISS), also_ids=[]",
+      "printed_form": "Balasz KISS",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 22,
@@ -3497,9 +3498,12 @@
       "results_row": 23,
       "seat": "ICF_ID1",
       "source_printed_name": "Nuno BARROS",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "58775",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 58775 (Nuno BARROS), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 24,
@@ -3545,9 +3549,11 @@
       "results_row": 28,
       "seat": "ICF_ID1",
       "source_printed_name": "Filipe VIEIRA",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 63720 (Filipe VIEIRA, dob=1986-06-19), 87235 (Filipe VIEIRA, dob=1991-10-08); neither profile lists Montemor_2017_WC",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 63720 (Filipe VIEIRA, dob=1986-06-19), 87235 (Filipe VIEIRA, dob=1991-10-08); neither profile lists Montemor_2017_WC"
     },
     {
       "results_row": 29,
@@ -3644,9 +3650,12 @@
       "results_row": 38,
       "seat": "ICF_ID1",
       "source_printed_name": "Combe SECK",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "SEN"
+      "team": "SEN",
+      "new_id": "54332",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 54332 (Combe SECK)",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 39,
@@ -3654,8 +3663,9 @@
       "source_printed_name": "Caitlin RYAN",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Caitlin RYAN'; noc=NZL; no profile for given+family",
-      "team": "NZL"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)",
+      "team": "NZL",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)"
     },
     {
       "results_row": 40,
@@ -3693,8 +3703,9 @@
       "source_printed_name": "Dóra BODONYI",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Dóra BODONYI'; noc=HUN; no profile for given+family",
-      "team": "HUN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)",
+      "team": "HUN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)"
     },
     {
       "results_row": 44,
@@ -3702,8 +3713,9 @@
       "source_printed_name": "Esti VAN TONDER",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Esti VAN TONDER'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)",
+      "team": "RSA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)"
     },
     {
       "results_row": 45,
@@ -3751,8 +3763,9 @@
       "source_printed_name": "Milan FRANA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Milan FRANA'; noc=SVK; no profile for given+family",
-      "team": "SVK"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milan FRANA (SVK, M)",
+      "team": "SVK",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milan FRANA (SVK, M)"
     },
     {
       "results_row": 48,
@@ -3798,10 +3811,13 @@
       "results_row": 50,
       "seat": "ICF_ID2",
       "source_printed_name": "Máté GYÖRGYJAKAB",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Máté GYÖRGYJAKAB'; noc=HUN; no profile for given+family",
-      "team": "HUN"
+      "team": "HUN",
+      "new_id": "63925",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 63925 (Mate GYORGJAKAB), also_ids=[]",
+      "printed_form": "Máté GYÖRGYJAKAB",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 51,
@@ -3827,21 +3843,24 @@
       "results_row": 52,
       "seat": "ICF_ID1",
       "source_printed_name": "Tarmo AALTO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "41999",
       "team": "FIN",
-      "emptied_id": "41999",
-      "detail": "name-bound id 41999: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 41999",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 52,
       "seat": "ICF_ID2",
       "source_printed_name": "Joona MÄNTYNEN",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Joona MÄNTYNEN'; noc=FIN; no profile for given+family",
-      "team": "FIN"
+      "team": "FIN",
+      "new_id": "71786",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 71786 (Joona MAENTYNEN), also_ids=[]",
+      "printed_form": "Joona MÄNTYNEN",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique)"
     },
     {
       "results_row": 53,
@@ -3927,12 +3946,12 @@
       "results_row": 57,
       "seat": "ICF_ID1",
       "source_printed_name": "Edmond SANKA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "48802",
       "team": "SEN",
-      "emptied_id": "48802",
-      "detail": "name-bound id 48802: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 48802",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 57,
@@ -3958,9 +3977,12 @@
       "results_row": 58,
       "seat": "ICF_ID2",
       "source_printed_name": "João RIBEIRO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "36453",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 36453 (Joao RIBEIRO)",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 59,
@@ -3976,10 +3998,13 @@
       "results_row": 59,
       "seat": "ICF_ID2",
       "source_printed_name": "Miika NYKÄNEN",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Miika NYKÄNEN'; noc=FIN; no profile for given+family",
-      "team": "FIN"
+      "team": "FIN",
+      "new_id": "36596",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 36596 (Miika NYKAENEN), also_ids=[]",
+      "printed_form": "Miika NYKÄNEN",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 60,
@@ -4007,8 +4032,9 @@
       "source_printed_name": "Milan FRANA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Milan FRANA'; noc=SVK; no profile for given+family",
-      "team": "SVK"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milan FRANA (SVK, M)",
+      "team": "SVK",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milan FRANA (SVK, M)"
     },
     {
       "results_row": 61,
@@ -4084,10 +4110,13 @@
       "results_row": 65,
       "seat": "ICF_ID1",
       "source_printed_name": "Vitaliy TSURKAN",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Vitaliy TSURKAN'; noc=UKR; no profile for given+family",
-      "team": "UKR"
+      "team": "UKR",
+      "new_id": "46407",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 46407 (Vitalii TSURKAN), also_ids=[]",
+      "printed_form": "Vitaliy TSURKAN",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 65,
@@ -4163,17 +4192,26 @@
       "results_row": 69,
       "seat": "ICF_ID1",
       "source_printed_name": "Helder SILVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "42411",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42411 (Helder SILVA), also_ids=['115676']",
+      "also_ids": [
+        "115676"
+      ],
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 69,
       "seat": "ICF_ID2",
       "source_printed_name": "Nuno SILVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "42413",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 42413 (Nuno SILVA)",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 70,
@@ -4301,8 +4339,9 @@
       "source_printed_name": "Hugo PEDRERO",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Hugo PEDRERO'; noc=ESP; no profile for given+family",
-      "team": "ESP"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Hugo PEDRERO (ESP, M)",
+      "team": "ESP",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Hugo PEDRERO (ESP, M)"
     },
     {
       "results_row": 76,
@@ -4458,17 +4497,22 @@
       "results_row": 91,
       "seat": "ICF_ID1",
       "source_printed_name": "Nuno BARROS",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "58775",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 58775 (Nuno BARROS), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 92,
       "seat": "ICF_ID1",
       "source_printed_name": "Filipe VIEIRA",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 63720 (Filipe VIEIRA, dob=1986-06-19), 87235 (Filipe VIEIRA, dob=1991-10-08); neither profile lists Montemor_2017_WC",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 63720 (Filipe VIEIRA, dob=1986-06-19), 87235 (Filipe VIEIRA, dob=1991-10-08); neither profile lists Montemor_2017_WC"
     },
     {
       "results_row": 93,
@@ -4517,8 +4561,9 @@
       "source_printed_name": "Esti VAN TONDER",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Esti VAN TONDER'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)",
+      "team": "RSA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)"
     },
     {
       "results_row": 98,
@@ -4536,8 +4581,9 @@
       "source_printed_name": "Dóra BODONYI",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Dóra BODONYI'; noc=HUN; no profile for given+family",
-      "team": "HUN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)",
+      "team": "HUN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)"
     },
     {
       "results_row": 100,
@@ -4613,10 +4659,13 @@
       "results_row": 105,
       "seat": "ICF_ID2",
       "source_printed_name": "Máté GYÖRGYJAKAB",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Máté GYÖRGYJAKAB'; noc=HUN; no profile for given+family",
-      "team": "HUN"
+      "team": "HUN",
+      "new_id": "63925",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 63925 (Mate GYORGJAKAB), also_ids=[]",
+      "printed_form": "Máté GYÖRGYJAKAB",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 106,
@@ -4664,8 +4713,9 @@
       "source_printed_name": "Milan FRANA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Milan FRANA'; noc=SVK; no profile for given+family",
-      "team": "SVK"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milan FRANA (SVK, M)",
+      "team": "SVK",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milan FRANA (SVK, M)"
     },
     {
       "results_row": 108,
@@ -4723,8 +4773,9 @@
       "source_printed_name": "Hugo PEDRERO",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Hugo PEDRERO'; noc=ESP; no profile for given+family",
-      "team": "ESP"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Hugo PEDRERO (ESP, M)",
+      "team": "ESP",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Hugo PEDRERO (ESP, M)"
     },
     {
       "results_row": 111,
@@ -4851,9 +4902,12 @@
       "results_row": 121,
       "seat": "ICF_ID1",
       "source_printed_name": "Combe SECK",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "SEN"
+      "team": "SEN",
+      "new_id": "54332",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 54332 (Combe SECK)",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 122,
@@ -4891,8 +4945,9 @@
       "source_printed_name": "Dóra BODONYI",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Dóra BODONYI'; noc=HUN; no profile for given+family",
-      "team": "HUN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)",
+      "team": "HUN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)"
     },
     {
       "results_row": 126,
@@ -4900,8 +4955,9 @@
       "source_printed_name": "Esti VAN TONDER",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Esti VAN TONDER'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)",
+      "team": "RSA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)"
     },
     {
       "results_row": 127,
@@ -5009,8 +5065,9 @@
       "source_printed_name": "Jana JEŽOVÁ",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Jana JEŽOVÁ'; noc=CZE; no profile for given+family",
-      "team": "CZE"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEŽOVÁ (CZE, W)",
+      "team": "CZE",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEŽOVÁ (CZE, W)"
     },
     {
       "results_row": 138,
@@ -5256,21 +5313,24 @@
       "results_row": 162,
       "seat": "ICF_ID1",
       "source_printed_name": "Janne MÄNTYNEN",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Janne MÄNTYNEN'; noc=FIN; no profile for given+family",
-      "team": "FIN"
+      "team": "FIN",
+      "new_id": "41773",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 41773 (Janne MAENTYNEN), also_ids=[]",
+      "printed_form": "Janne MÄNTYNEN",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 163,
       "seat": "ICF_ID1",
       "source_printed_name": "Juan LOPEZ",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "60677",
       "team": "PUR",
-      "emptied_id": "60677",
-      "detail": "name-bound id 60677: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 60677",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 164,
@@ -5336,10 +5396,13 @@
       "results_row": 167,
       "seat": "ICF_ID1",
       "source_printed_name": "Diexe MOLLINA",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Diexe MOLLINA'; noc=COL; no profile for given+family",
-      "team": "COL"
+      "team": "COL",
+      "new_id": "75511",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 75511 (Diexe MOLINA ZULUAGA), also_ids=[]",
+      "printed_form": "Diexe MOLLINA",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 167,
@@ -5545,10 +5608,13 @@
       "results_row": 181,
       "seat": "ICF_ID1",
       "source_printed_name": "Miika NYKÄNEN",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Miika NYKÄNEN'; noc=FIN; no profile for given+family",
-      "team": "FIN"
+      "team": "FIN",
+      "new_id": "36596",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 36596 (Miika NYKAENEN), also_ids=[]",
+      "printed_form": "Miika NYKÄNEN",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 182,
@@ -5584,12 +5650,12 @@
       "results_row": 185,
       "seat": "ICF_ID1",
       "source_printed_name": "Juan LOPEZ",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "60677",
       "team": "PUR",
-      "emptied_id": "60677",
-      "detail": "name-bound id 60677: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 60677",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 186,
@@ -5737,8 +5803,9 @@
       "source_printed_name": "Dóra BODONYI",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Dóra BODONYI'; noc=HUN; no profile for given+family",
-      "team": "HUN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)",
+      "team": "HUN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)"
     },
     {
       "results_row": 201,
@@ -5784,10 +5851,12 @@
       "results_row": 205,
       "seat": "ICF_ID1",
       "source_printed_name": "Raquel DACOSTA",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Raquel DACOSTA'; noc=ESP; no profile for given+family",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "54854",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 54854 (Raquel DA COSTA), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 206,
@@ -5923,9 +5992,12 @@
       "results_row": 219,
       "seat": "ICF_ID1",
       "source_printed_name": "Nuno BARROS",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "58775",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 58775 (Nuno BARROS), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 220,
@@ -5941,18 +6013,23 @@
       "results_row": 221,
       "seat": "ICF_ID1",
       "source_printed_name": "Filipe VIEIRA",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 63720 (Filipe VIEIRA, dob=1986-06-19), 87235 (Filipe VIEIRA, dob=1991-10-08); neither profile lists Montemor_2017_WC",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 63720 (Filipe VIEIRA, dob=1986-06-19), 87235 (Filipe VIEIRA, dob=1991-10-08); neither profile lists Montemor_2017_WC"
     },
     {
       "results_row": 222,
       "seat": "ICF_ID1",
       "source_printed_name": "Balasz KISS",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Balasz KISS'; noc=HUN; no profile for given+family",
-      "team": "HUN"
+      "team": "HUN",
+      "new_id": "54273",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 54273 (Balazs KISS), also_ids=[]",
+      "printed_form": "Balasz KISS",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 223,
@@ -5980,8 +6057,9 @@
       "source_printed_name": "Caitlin RYAN",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Caitlin RYAN'; noc=NZL; no profile for given+family",
-      "team": "NZL"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)",
+      "team": "NZL",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)"
     },
     {
       "results_row": 226,
@@ -6050,8 +6128,9 @@
       "source_printed_name": "Esti VAN TONDER",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Esti VAN TONDER'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)",
+      "team": "RSA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)"
     },
     {
       "results_row": 233,
@@ -6099,8 +6178,9 @@
       "source_printed_name": "Jana JEŽOVÁ",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Jana JEŽOVÁ'; noc=CZE; no profile for given+family",
-      "team": "CZE"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEŽOVÁ (CZE, W)",
+      "team": "CZE",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEŽOVÁ (CZE, W)"
     },
     {
       "results_row": 238,
@@ -6218,8 +6298,9 @@
       "source_printed_name": "Milan FRANA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Milan FRANA'; noc=SVK; no profile for given+family",
-      "team": "SVK"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milan FRANA (SVK, M)",
+      "team": "SVK",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milan FRANA (SVK, M)"
     },
     {
       "results_row": 246,
@@ -6245,10 +6326,13 @@
       "results_row": 247,
       "seat": "ICF_ID2",
       "source_printed_name": "Máté GYÖRGYJAKAB",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Máté GYÖRGYJAKAB'; noc=HUN; no profile for given+family",
-      "team": "HUN"
+      "team": "HUN",
+      "new_id": "63925",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 63925 (Mate GYORGJAKAB), also_ids=[]",
+      "printed_form": "Máté GYÖRGYJAKAB",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 248,
@@ -6334,10 +6418,13 @@
       "results_row": 252,
       "seat": "ICF_ID1",
       "source_printed_name": "Vitaliy TSURKAN",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Vitaliy TSURKAN'; noc=UKR; no profile for given+family",
-      "team": "UKR"
+      "team": "UKR",
+      "new_id": "46407",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 46407 (Vitalii TSURKAN), also_ids=[]",
+      "printed_form": "Vitaliy TSURKAN",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 252,
@@ -6383,10 +6470,13 @@
       "results_row": 254,
       "seat": "ICF_ID2",
       "source_printed_name": "Miika NYKÄNEN",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Miika NYKÄNEN'; noc=FIN; no profile for given+family",
-      "team": "FIN"
+      "team": "FIN",
+      "new_id": "36596",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 36596 (Miika NYKAENEN), also_ids=[]",
+      "printed_form": "Miika NYKÄNEN",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 255,
@@ -6402,9 +6492,12 @@
       "results_row": 255,
       "seat": "ICF_ID2",
       "source_printed_name": "João RIBEIRO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "36453",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 36453 (Joao RIBEIRO)",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 256,
@@ -6492,8 +6585,9 @@
       "source_printed_name": "Milan FRANA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Milan FRANA'; noc=SVK; no profile for given+family",
-      "team": "SVK"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milan FRANA (SVK, M)",
+      "team": "SVK",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milan FRANA (SVK, M)"
     },
     {
       "results_row": 260,
@@ -6611,8 +6705,9 @@
       "source_printed_name": "Hugo PEDRERO",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Hugo PEDRERO'; noc=ESP; no profile for given+family",
-      "team": "ESP"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Hugo PEDRERO (ESP, M)",
+      "team": "ESP",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Hugo PEDRERO (ESP, M)"
     },
     {
       "results_row": 266,
@@ -6628,17 +6723,26 @@
       "results_row": 267,
       "seat": "ICF_ID1",
       "source_printed_name": "Helder SILVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "42411",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42411 (Helder SILVA), also_ids=['115676']",
+      "also_ids": [
+        "115676"
+      ],
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 267,
       "seat": "ICF_ID2",
       "source_printed_name": "Nuno SILVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "42413",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 42413 (Nuno SILVA)",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 268,
@@ -6716,8 +6820,9 @@
       "source_printed_name": "Esti VAN TONDER",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Esti VAN TONDER'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)",
+      "team": "RSA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)"
     },
     {
       "results_row": 274,
@@ -6725,8 +6830,9 @@
       "source_printed_name": "Dóra BODONYI",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Dóra BODONYI'; noc=HUN; no profile for given+family",
-      "team": "HUN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)",
+      "team": "HUN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)"
     },
     {
       "results_row": 275,
@@ -6752,9 +6858,12 @@
       "results_row": 277,
       "seat": "ICF_ID1",
       "source_printed_name": "Combe SECK",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "SEN"
+      "team": "SEN",
+      "new_id": "54332",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 54332 (Combe SECK)",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 278,
@@ -6960,10 +7069,13 @@
       "results_row": 298,
       "seat": "ICF_ID1",
       "source_printed_name": "Janne MÄNTYNEN",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Janne MÄNTYNEN'; noc=FIN; no profile for given+family",
-      "team": "FIN"
+      "team": "FIN",
+      "new_id": "41773",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 41773 (Janne MAENTYNEN), also_ids=[]",
+      "printed_form": "Janne MÄNTYNEN",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 299,
@@ -6989,10 +7101,13 @@
       "results_row": 301,
       "seat": "ICF_ID1",
       "source_printed_name": "Diexe MOLLINA",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Diexe MOLLINA'; noc=COL; no profile for given+family",
-      "team": "COL"
+      "team": "COL",
+      "new_id": "75511",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 75511 (Diexe MOLINA ZULUAGA), also_ids=[]",
+      "printed_form": "Diexe MOLLINA",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 301,
@@ -7178,10 +7293,13 @@
       "results_row": 316,
       "seat": "ICF_ID1",
       "source_printed_name": "Miika NYKÄNEN",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Miika NYKÄNEN'; noc=FIN; no profile for given+family",
-      "team": "FIN"
+      "team": "FIN",
+      "new_id": "36596",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 36596 (Miika NYKAENEN), also_ids=[]",
+      "printed_form": "Miika NYKÄNEN",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 317,
@@ -7247,10 +7365,13 @@
       "results_row": 323,
       "seat": "ICF_ID1",
       "source_printed_name": "Janne MÄNTYNEN",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Janne MÄNTYNEN'; noc=FIN; no profile for given+family",
-      "team": "FIN"
+      "team": "FIN",
+      "new_id": "41773",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 41773 (Janne MAENTYNEN), also_ids=[]",
+      "printed_form": "Janne MÄNTYNEN",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 324,
@@ -7286,10 +7407,13 @@
       "results_row": 327,
       "seat": "ICF_ID1",
       "source_printed_name": "Miika NYKÄNEN",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Miika NYKÄNEN'; noc=FIN; no profile for given+family",
-      "team": "FIN"
+      "team": "FIN",
+      "new_id": "36596",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 36596 (Miika NYKAENEN), also_ids=[]",
+      "printed_form": "Miika NYKÄNEN",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 328,
@@ -7445,10 +7569,13 @@
       "results_row": 338,
       "seat": "ICF_ID1",
       "source_printed_name": "Diexe MOLLINA",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Diexe MOLLINA'; noc=COL; no profile for given+family",
-      "team": "COL"
+      "team": "COL",
+      "new_id": "75511",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 75511 (Diexe MOLINA ZULUAGA), also_ids=[]",
+      "printed_form": "Diexe MOLLINA",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 338,
@@ -7564,9 +7691,12 @@
       "results_row": 344,
       "seat": "ICF_ID1",
       "source_printed_name": "Combe SECK",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "SEN"
+      "team": "SEN",
+      "new_id": "54332",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 54332 (Combe SECK)",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 344,
@@ -7592,9 +7722,15 @@
       "results_row": 346,
       "seat": "ICF_ID1",
       "source_printed_name": "Helder SILVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "42411",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42411 (Helder SILVA), also_ids=['115676']",
+      "also_ids": [
+        "115676"
+      ],
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 347,
@@ -7622,8 +7758,9 @@
       "source_printed_name": "Hugo PEDRERO",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Hugo PEDRERO'; noc=ESP; no profile for given+family",
-      "team": "ESP"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Hugo PEDRERO (ESP, M)",
+      "team": "ESP",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Hugo PEDRERO (ESP, M)"
     },
     {
       "results_row": 350,
@@ -7812,8 +7949,9 @@
       "source_printed_name": "Jana JEŽOVÁ",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Jana JEŽOVÁ'; noc=CZE; no profile for given+family",
-      "team": "CZE"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEŽOVÁ (CZE, W)",
+      "team": "CZE",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEŽOVÁ (CZE, W)"
     },
     {
       "results_row": 369,
@@ -8009,10 +8147,13 @@
       "results_row": 384,
       "seat": "ICF_ID1",
       "source_printed_name": "Diexe MOLLINA",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Diexe MOLLINA'; noc=COL; no profile for given+family",
-      "team": "COL"
+      "team": "COL",
+      "new_id": "75511",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 75511 (Diexe MOLINA ZULUAGA), also_ids=[]",
+      "printed_form": "Diexe MOLLINA",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 384,
@@ -8240,8 +8381,9 @@
       "source_printed_name": "Hugo PEDRERO",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Hugo PEDRERO'; noc=ESP; no profile for given+family",
-      "team": "ESP"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Hugo PEDRERO (ESP, M)",
+      "team": "ESP",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Hugo PEDRERO (ESP, M)"
     },
     {
       "results_row": 400,
@@ -8257,17 +8399,26 @@
       "results_row": 401,
       "seat": "ICF_ID1",
       "source_printed_name": "Helder SILVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "42411",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42411 (Helder SILVA), also_ids=['115676']",
+      "also_ids": [
+        "115676"
+      ],
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 401,
       "seat": "ICF_ID2",
       "source_printed_name": "Nuno SILVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "42413",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 42413 (Nuno SILVA)",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 402,
@@ -8343,9 +8494,11 @@
       "results_row": 405,
       "seat": "ICF_ID2",
       "source_printed_name": "Filipe VIEIRA",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 63720 (Filipe VIEIRA, dob=1986-06-19), 87235 (Filipe VIEIRA, dob=1991-10-08); neither profile lists Montemor_2017_WC",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 63720 (Filipe VIEIRA, dob=1986-06-19), 87235 (Filipe VIEIRA, dob=1991-10-08); neither profile lists Montemor_2017_WC"
     },
     {
       "results_row": 406,
@@ -8451,9 +8604,12 @@
       "results_row": 411,
       "seat": "ICF_ID1",
       "source_printed_name": "Ana RODRIGUES",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "75664",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 75664 (Ana RODRIGUES)",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 411,
@@ -8509,10 +8665,13 @@
       "results_row": 414,
       "seat": "ICF_ID1",
       "source_printed_name": "Kyrylo CERNOMOROV",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Kyrylo CERNOMOROV'; noc=UKR; no profile for given+family",
-      "team": "UKR"
+      "team": "UKR",
+      "new_id": "51938",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 51938 (Kyrylo CHERNOMOROV), also_ids=[]",
+      "printed_form": "Kyrylo CERNOMOROV",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 414,
@@ -8568,9 +8727,12 @@
       "results_row": 415,
       "seat": "ICF_ID3",
       "source_printed_name": "João RIBEIRO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "36453",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 36453 (Joao RIBEIRO)",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 415,
@@ -8736,10 +8898,13 @@
       "results_row": 419,
       "seat": "ICF_ID4",
       "source_printed_name": "Máté GYÖRGYJAKAB",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Máté GYÖRGYJAKAB'; noc=HUN; no profile for given+family",
-      "team": "HUN"
+      "team": "HUN",
+      "new_id": "63925",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 63925 (Mate GYORGJAKAB), also_ids=[]",
+      "printed_form": "Máté GYÖRGYJAKAB",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 420,
@@ -8857,8 +9022,9 @@
       "source_printed_name": "Caitlin RYAN",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Caitlin RYAN'; noc=NZL; no profile for given+family",
-      "team": "NZL"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)",
+      "team": "NZL",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)"
     },
     {
       "results_row": 423,
@@ -9084,10 +9250,12 @@
       "results_row": 428,
       "seat": "ICF_ID3",
       "source_printed_name": "Raquel DACOSTA",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Raquel DACOSTA'; noc=ESP; no profile for given+family",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "54854",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 54854 (Raquel DA COSTA), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 428,
@@ -9173,9 +9341,12 @@
       "results_row": 430,
       "seat": "ICF_ID4",
       "source_printed_name": "Maria GOMES",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "71551",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 71551 (Maria GOMES)",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 431,
@@ -9273,8 +9444,9 @@
       "source_printed_name": "Jana JEŽOVÁ",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Jana JEŽOVÁ'; noc=CZE; no profile for given+family",
-      "team": "CZE"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEŽOVÁ (CZE, W)",
+      "team": "CZE",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEŽOVÁ (CZE, W)"
     },
     {
       "results_row": 441,
@@ -9320,9 +9492,12 @@
       "results_row": 445,
       "seat": "ICF_ID1",
       "source_printed_name": "João RIBEIRO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "36453",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 36453 (Joao RIBEIRO)",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 446,
@@ -9390,17 +9565,21 @@
       "source_printed_name": "Milan FRANA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Milan FRANA'; noc=SVK; no profile for given+family",
-      "team": "SVK"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milan FRANA (SVK, M)",
+      "team": "SVK",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milan FRANA (SVK, M)"
     },
     {
       "results_row": 453,
       "seat": "ICF_ID1",
       "source_printed_name": "Vitaliy TSURKAN",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Vitaliy TSURKAN'; noc=UKR; no profile for given+family",
-      "team": "UKR"
+      "team": "UKR",
+      "new_id": "46407",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 46407 (Vitalii TSURKAN), also_ids=[]",
+      "printed_form": "Vitaliy TSURKAN",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 454,
@@ -9466,10 +9645,13 @@
       "results_row": 460,
       "seat": "ICF_ID1",
       "source_printed_name": "Máté GYÖRGYJAKAB",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Máté GYÖRGYJAKAB'; noc=HUN; no profile for given+family",
-      "team": "HUN"
+      "team": "HUN",
+      "new_id": "63925",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 63925 (Mate GYORGJAKAB), also_ids=[]",
+      "printed_form": "Máté GYÖRGYJAKAB",
+      "name_bound_profile": "kept: profile lists Montemor_2017_WC"
     },
     {
       "results_row": 461,
@@ -9525,9 +9707,13 @@
       "results_row": 466,
       "seat": "ICF_ID1",
       "source_printed_name": "Joana SOUSA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "36459",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D / Rule 4 (unique exact fullName+NOC+gender; compound neighbour excluded): bound 36459 (Joana SOUSA), also_ids=[]",
+      "printed_form": "Joana SOUSA",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Kind D / Rule 4 (unique exact fullName+NOC+gender; compound neighbour excluded)"
     },
     {
       "results_row": 467,
@@ -9535,8 +9721,9 @@
       "source_printed_name": "Dóra BODONYI",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Dóra BODONYI'; noc=HUN; no profile for given+family",
-      "team": "HUN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)",
+      "team": "HUN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)"
     }
   ],
   "bib_boat": "intentionally_empty",
@@ -9576,21 +9763,21 @@
     {
       "kind": "xlsx",
       "name": "Montemor_2017_WC_Results.xlsx",
-      "sha256": "d2dbac52f7bfa6d871632f2eb30390423dc090d068ff528afcb69c3b0b9c9a1e",
-      "bytes": 44318
+      "sha256": "c1380d3a36ab9a2d995d0090a94ba91c7ff50c5ccee3d8b66e50a61b27d6c2ef",
+      "bytes": 45240
     }
   ],
   "output_xlsx": "Montemor_2017_WC_Results.xlsx",
-  "output_xlsx_sha256": "d2dbac52f7bfa6d871632f2eb30390423dc090d068ff528afcb69c3b0b9c9a1e",
+  "output_xlsx_sha256": "c1380d3a36ab9a2d995d0090a94ba91c7ff50c5ccee3d8b66e50a61b27d6c2ef",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
     "crews": "pass",
     "OBS": "pass",
     "RANK vs official results": "pass",
-    "PERSONS vs ICF": "not_run",
-    "repairs": "not_run",
-    "fixtures": "not_run"
+    "PERSONS vs ICF": "pass",
+    "repairs": "pass",
+    "fixtures": "pass"
   },
   "audit": {
     "fails": [],
@@ -9611,14 +9798,17 @@
     "completed": true,
     "profiles_checked": 158,
     "same_meeting_unified": 13,
-    "rule": "2013+ name-bound ids kept only if PWW profile lists competition+event",
+    "rule": "MAINTAINER_ANSWERS_2026-10-23 Rules 1-5 + same-meeting unification",
     "competition_regex": "^2017 ICF CANOE SPRINT WORLD CUP 1$",
     "kept": 532,
-    "emptied": 30,
+    "emptied": 0,
     "persons_dropped": 0,
-    "olympic": false
+    "olympic": false,
+    "newly_bound_t59": 52,
+    "no_icf_id_t59": 33,
+    "same_meeting_unified_t59": 0
   },
-  "updated_at": "2026-10-17T15:54:46Z",
+  "updated_at": "2026-10-23T19:39:26Z",
   "name_change_log": [
     {
       "results_row": 33,
@@ -9670,5 +9860,79 @@
       "evidence": "profile lists 2017 ICF CANOE SPRINT WORLD CUP 1 / K1 Women 500m",
       "was": "no_icf_id"
     }
-  ]
+  ],
+  "printed_field_counts": {
+    "source": "boats per race as parsed from the published source (https://cdn.paddleworldwide.com/media/full_results_2017_canoe_sprint_world_cup_1_portugal.pdf); back-filled 2026-10-19 from the published RESULTS (the builder parse), race coverage cross-checked independently by GATE10b",
+    "rule": "MAINTAINER_ANSWERS_2026-10-18c Fix 1: printed count decides",
+    "counts": {
+      "1": 7,
+      "2": 6,
+      "3": 5,
+      "4": 5,
+      "5": 5,
+      "6": 9,
+      "7": 8,
+      "8": 6,
+      "9": 5,
+      "10": 5,
+      "11": 5,
+      "12": 4,
+      "13": 5,
+      "14": 8,
+      "15": 6,
+      "16": 4,
+      "17": 9,
+      "18": 3,
+      "19": 4,
+      "20": 3,
+      "21": 8,
+      "22": 7,
+      "23": 7,
+      "24": 7,
+      "25": 8,
+      "26": 7,
+      "27": 6,
+      "28": 5,
+      "29": 5,
+      "30": 6,
+      "31": 6,
+      "32": 6,
+      "33": 8,
+      "34": 7,
+      "35": 9,
+      "36": 9,
+      "37": 9,
+      "38": 9,
+      "39": 9,
+      "40": 9,
+      "41": 9,
+      "42": 9,
+      "43": 7,
+      "44": 7,
+      "45": 8,
+      "46": 4,
+      "47": 8,
+      "48": 6,
+      "49": 7,
+      "50": 7,
+      "51": 8,
+      "52": 4,
+      "53": 8,
+      "54": 9,
+      "55": 9,
+      "56": 9,
+      "57": 9,
+      "58": 9,
+      "59": 9,
+      "60": 7,
+      "61": 8,
+      "62": 9,
+      "63": 7,
+      "64": 7,
+      "65": 16,
+      "66": 7
+    },
+    "backfilled": "2026-10-19"
+  },
+  "nation_change_log": []
 }

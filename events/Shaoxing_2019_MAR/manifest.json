@@ -10,11 +10,9 @@
   "dates": "2019-10-17/2019-10-20",
   "discipline": "marathon",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-18T22:18:57Z",
-  "grade": "USABLE",
-  "gaps": [
-    "icf_ids_incomplete"
-  ],
+  "generated_at_utc": "2026-10-23T19:39:26Z",
+  "grade": "PERFECT",
+  "gaps": [],
   "note": "MemoSoft marathon results book prints each race start to the minute (scheduled; written HH:MM:00). RESULT = printed final time; DIFFERENCE not written (marathon precedent). STARTING_LANE = printed boat number (Gyor_2025_MAR precedent); Bib(s) are event bibs, BIB_BOAT empty. No ICF ids printed: seats bound by bind_seat + name_bound_check.",
   "race_numbers_missing": [],
   "issues": [],
@@ -3325,9 +3323,15 @@
       "results_row": 10,
       "seat": "ICF_ID1",
       "source_printed_name": "Ardis LUDA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "GER"
+      "team": "GER",
+      "new_id": "130683",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 130683 (Ardis LUDA), also_ids=['130682']",
+      "also_ids": [
+        "130682"
+      ],
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate)"
     },
     {
       "results_row": 11,
@@ -3533,9 +3537,12 @@
       "results_row": 31,
       "seat": "ICF_ID1",
       "source_printed_name": "Benedek HORVATH",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "HUN"
+      "team": "HUN",
+      "new_id": "77311",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 77311 (Benedek HORVATH)",
+      "name_bound_profile": "kept: profile lists Shaoxing_2019_MAR"
     },
     {
       "results_row": 32,
@@ -3651,12 +3658,12 @@
       "results_row": 43,
       "seat": "ICF_ID1",
       "source_printed_name": "Jen-hau WU",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "83680",
       "team": "TPE",
-      "emptied_id": "83680",
-      "detail": "name-bound id 83680: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 83680",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 44,
@@ -3674,8 +3681,9 @@
       "source_printed_name": "Kristina BEDEC",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Kristina BEDEC'; noc=SRB; no profile for given+family",
-      "team": "SRB"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)",
+      "team": "SRB",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)"
     },
     {
       "results_row": 46,
@@ -3833,8 +3841,9 @@
       "source_printed_name": "Amelie KESSLER",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Amelie KESSLER'; noc=FRA; no profile for given+family",
-      "team": "FRA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Amelie KESSLER (FRA, W)",
+      "team": "FRA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Amelie KESSLER (FRA, W)"
     },
     {
       "results_row": 62,
@@ -3882,8 +3891,9 @@
       "source_printed_name": "Jenna WARD",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Jenna WARD'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jenna WARD (RSA, W)",
+      "team": "RSA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jenna WARD (RSA, W)"
     },
     {
       "results_row": 67,
@@ -3981,8 +3991,9 @@
       "source_printed_name": "Julian ALGANARAS",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Julian ALGANARAS'; noc=ARG; no profile for given+family",
-      "team": "ARG"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Julian ALGANARAS (ARG, M)",
+      "team": "ARG",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Julian ALGANARAS (ARG, M)"
     },
     {
       "results_row": 77,
@@ -4228,9 +4239,12 @@
       "results_row": 101,
       "seat": "ICF_ID1",
       "source_printed_name": "Wei TEO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "SGP"
+      "team": "SGP",
+      "new_id": "103884",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 103884 (Wei Jie Sean TEO)",
+      "name_bound_profile": "kept: profile lists Shaoxing_2019_MAR"
     },
     {
       "results_row": 102,
@@ -4606,9 +4620,12 @@
       "results_row": 139,
       "seat": "ICF_ID1",
       "source_printed_name": "Ying WANG",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "CHN"
+      "team": "CHN",
+      "new_id": "97191",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 97191 (Ying WANG), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Shaoxing_2019_MAR"
     },
     {
       "results_row": 140,
@@ -4756,8 +4773,9 @@
       "source_printed_name": "Kristina BEDEC",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Kristina BEDEC'; noc=SRB; no profile for given+family",
-      "team": "SRB"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)",
+      "team": "SRB",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)"
     },
     {
       "results_row": 155,
@@ -4835,8 +4853,9 @@
       "source_printed_name": "Amelie KESSLER",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Amelie KESSLER'; noc=FRA; no profile for given+family",
-      "team": "FRA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Amelie KESSLER (FRA, W)",
+      "team": "FRA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Amelie KESSLER (FRA, W)"
     },
     {
       "results_row": 163,
@@ -5392,9 +5411,15 @@
       "results_row": 215,
       "seat": "ICF_ID1",
       "source_printed_name": "Ningning QU",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "CHN"
+      "team": "CHN",
+      "new_id": "104049",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 104049 (Ningning QU), also_ids=['146541']",
+      "also_ids": [
+        "146541"
+      ],
+      "name_bound_profile": "kept: profile lists Shaoxing_2019_MAR"
     },
     {
       "results_row": 215,
@@ -5420,17 +5445,26 @@
       "results_row": 216,
       "seat": "ICF_ID2",
       "source_printed_name": "Ardis LUDA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "GER"
+      "team": "GER",
+      "new_id": "130683",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 130683 (Ardis LUDA), also_ids=['130682']",
+      "also_ids": [
+        "130682"
+      ],
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate)"
     },
     {
       "results_row": 217,
       "seat": "ICF_ID1",
       "source_printed_name": "Xiaowan ZHANG",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "CHN"
+      "team": "CHN",
+      "new_id": "104039",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 104039 (Xiaowan ZHANG), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Shaoxing_2019_MAR"
     },
     {
       "results_row": 217,
@@ -5706,9 +5740,12 @@
       "results_row": 231,
       "seat": "ICF_ID1",
       "source_printed_name": "Benedek HORVATH",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "HUN"
+      "team": "HUN",
+      "new_id": "77311",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 77311 (Benedek HORVATH)",
+      "name_bound_profile": "kept: profile lists Shaoxing_2019_MAR"
     },
     {
       "results_row": 231,
@@ -5734,9 +5771,15 @@
       "results_row": 232,
       "seat": "ICF_ID2",
       "source_printed_name": "Jiadong ZHU",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "CHN"
+      "team": "CHN",
+      "new_id": "104061",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 104061 (Jiadong ZHU)",
+      "also_ids": [
+        "146530"
+      ],
+      "name_bound_profile": "kept: profile lists Shaoxing_2019_MAR"
     },
     {
       "results_row": 233,
@@ -6092,9 +6135,15 @@
       "results_row": 260,
       "seat": "ICF_ID1",
       "source_printed_name": "Xiao YANG",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "CHN"
+      "team": "CHN",
+      "new_id": "104051",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 104051 (Xiao YANG), also_ids=['165711']",
+      "also_ids": [
+        "165711"
+      ],
+      "name_bound_profile": "kept: profile lists Shaoxing_2019_MAR"
     },
     {
       "results_row": 261,
@@ -6380,9 +6429,12 @@
       "results_row": 285,
       "seat": "ICF_ID1",
       "source_printed_name": "Nestor PINTA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "ARG"
+      "team": "ARG",
+      "new_id": "79270",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 79270 (Nestor Damian PINTA)",
+      "name_bound_profile": "kept: profile lists Shaoxing_2019_MAR"
     },
     {
       "results_row": 285,
@@ -6438,9 +6490,12 @@
       "results_row": 288,
       "seat": "ICF_ID1",
       "source_printed_name": "Joao SILVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "98038",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 98038 (Joao CASTRO SILVA)",
+      "name_bound_profile": "kept: profile lists Shaoxing_2019_MAR"
     },
     {
       "results_row": 288,
@@ -6856,9 +6911,12 @@
       "results_row": 319,
       "seat": "ICF_ID1",
       "source_printed_name": "Wei TEO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "SGP"
+      "team": "SGP",
+      "new_id": "103884",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 103884 (Wei Jie Sean TEO)",
+      "name_bound_profile": "kept: profile lists Shaoxing_2019_MAR"
     },
     {
       "results_row": 320,
@@ -7326,8 +7384,9 @@
       "source_printed_name": "Kristina BEDEC",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Kristina BEDEC'; noc=SRB; no profile for given+family",
-      "team": "SRB"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)",
+      "team": "SRB",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)"
     },
     {
       "results_row": 367,
@@ -7365,8 +7424,9 @@
       "source_printed_name": "Jenna WARD",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Jenna WARD'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jenna WARD (RSA, W)",
+      "team": "RSA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jenna WARD (RSA, W)"
     },
     {
       "results_row": 371,
@@ -7414,8 +7474,9 @@
       "source_printed_name": "Amelie KESSLER",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Amelie KESSLER'; noc=FRA; no profile for given+family",
-      "team": "FRA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Amelie KESSLER (FRA, W)",
+      "team": "FRA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Amelie KESSLER (FRA, W)"
     },
     {
       "results_row": 376,
@@ -7521,9 +7582,15 @@
       "results_row": 386,
       "seat": "ICF_ID1",
       "source_printed_name": "Adrian BOROS",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "HUN"
+      "team": "HUN",
+      "new_id": "49663",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 49663 (Adrian BOROS), also_ids=['115647']",
+      "also_ids": [
+        "115647"
+      ],
+      "name_bound_profile": "kept: profile lists Shaoxing_2019_MAR"
     },
     {
       "results_row": 387,
@@ -7669,9 +7736,15 @@
       "results_row": 401,
       "seat": "ICF_ID1",
       "source_printed_name": "Joep VAN BAKEL",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "NED"
+      "team": "NED",
+      "new_id": "49744",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 49744 (Joep BAKEL VAN), also_ids=['153084']",
+      "also_ids": [
+        "153084"
+      ],
+      "name_bound_profile": "kept: profile lists Shaoxing_2019_MAR"
     },
     {
       "results_row": 402,
@@ -7867,12 +7940,12 @@
       "results_row": 418,
       "seat": "ICF_ID2",
       "source_printed_name": "Gergely NAGY",
-      "action": "emptied",
+      "action": "corrected",
       "source": "given_family_unique",
       "new_id": "135293",
       "team": "HUN",
-      "emptied_id": "135293",
-      "detail": "name-bound id 135293: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 135293",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 419,
@@ -8100,8 +8173,9 @@
       "source_printed_name": "Jenna WARD",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Jenna WARD'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jenna WARD (RSA, W)",
+      "team": "RSA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jenna WARD (RSA, W)"
     },
     {
       "results_row": 430,
@@ -8119,8 +8193,9 @@
       "source_printed_name": "Amelie KESSLER",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Amelie KESSLER'; noc=FRA; no profile for given+family",
-      "team": "FRA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Amelie KESSLER (FRA, W)",
+      "team": "FRA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Amelie KESSLER (FRA, W)"
     },
     {
       "results_row": 431,
@@ -8316,9 +8391,15 @@
       "results_row": 441,
       "seat": "ICF_ID1",
       "source_printed_name": "Adrian BOROS",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "HUN"
+      "team": "HUN",
+      "new_id": "49663",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 49663 (Adrian BOROS), also_ids=['115647']",
+      "also_ids": [
+        "115647"
+      ],
+      "name_bound_profile": "kept: profile lists Shaoxing_2019_MAR"
     },
     {
       "results_row": 441,
@@ -8374,9 +8455,12 @@
       "results_row": 444,
       "seat": "ICF_ID1",
       "source_printed_name": "Miguel FERNANDEZ",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "87419",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 87419 (Miguel FERNANDEZ CASTANON)",
+      "name_bound_profile": "kept: profile lists Shaoxing_2019_MAR"
     },
     {
       "results_row": 444,
@@ -8502,9 +8586,13 @@
       "results_row": 450,
       "seat": "ICF_ID2",
       "source_printed_name": "Marton MESZAROS",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "HUN"
+      "team": "HUN",
+      "new_id": "63429",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D / Rule 4 (unique exact fullName+NOC+gender; compound neighbour excluded): bound 63429 (Marton MESZAROS), also_ids=[]",
+      "printed_form": "Marton MESZAROS",
+      "name_bound_profile": "kept: profile lists Shaoxing_2019_MAR"
     },
     {
       "results_row": 451,
@@ -8690,9 +8778,15 @@
       "results_row": 460,
       "seat": "ICF_ID1",
       "source_printed_name": "Naocha LAITONJAM",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "IND"
+      "team": "IND",
+      "new_id": "103246",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 103246 (Naocha Singh LAITONJAM), also_ids=['71450']",
+      "also_ids": [
+        "71450"
+      ],
+      "name_bound_profile": "kept: profile lists Shaoxing_2019_MAR"
     },
     {
       "results_row": 460,
@@ -8754,21 +8848,21 @@
     {
       "kind": "xlsx",
       "name": "Shaoxing_2019_MAR_Results.xlsx",
-      "sha256": "e9c29f68a5c2d352c5fd6ce5e30e4eeb339fb29a5a025af85b25b063006805e2",
-      "bytes": 45945
+      "sha256": "0b0bc7b42989b1e0e0e7a643a783bf87171f3955bf8cbbe962ff507d236940b4",
+      "bytes": 46542
     }
   ],
   "output_xlsx": "Shaoxing_2019_MAR_Results.xlsx",
-  "output_xlsx_sha256": "e9c29f68a5c2d352c5fd6ce5e30e4eeb339fb29a5a025af85b25b063006805e2",
+  "output_xlsx_sha256": "0b0bc7b42989b1e0e0e7a643a783bf87171f3955bf8cbbe962ff507d236940b4",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
     "crews": "pass",
     "OBS": "pass",
     "RANK vs official results": "pass",
-    "PERSONS vs ICF": "not_run",
-    "repairs": "not_run",
-    "fixtures": "not_run"
+    "PERSONS vs ICF": "pass",
+    "repairs": "pass",
+    "fixtures": "pass"
   },
   "audit": {
     "fails": [],
@@ -8789,14 +8883,17 @@
     "completed": true,
     "profiles_checked": 327,
     "same_meeting_unified": 0,
-    "rule": "2013+ name-bound ids kept only if PWW profile lists competition+event",
+    "rule": "MAINTAINER_ANSWERS_2026-10-23 Rules 1-5 + same-meeting unification",
     "competition_regex": "^2019 ICF (CANOE MARATHON|PARACANOE MARATHON) WORLD CHAMPIONSHIPS",
     "kept": 521,
-    "emptied": 21,
+    "emptied": 0,
     "persons_dropped": 2,
-    "olympic": false
+    "olympic": false,
+    "newly_bound_t59": 21,
+    "no_icf_id_t59": 11,
+    "same_meeting_unified_t59": 0
   },
-  "updated_at": "2026-10-18T22:18:57Z",
+  "updated_at": "2026-10-23T19:39:26Z",
   "persons_split_log": [
     {
       "id": "80854",
@@ -8841,5 +8938,7 @@
       "24": 15,
       "25": 22
     }
-  }
+  },
+  "name_change_log": [],
+  "nation_change_log": []
 }

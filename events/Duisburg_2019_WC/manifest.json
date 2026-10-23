@@ -11,11 +11,9 @@
   "dates": "2019-05-31/2019-06-02",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-17T15:54:46Z",
-  "grade": "USABLE",
-  "gaps": [
-    "icf_ids_incomplete"
-  ],
+  "generated_at_utc": "2026-10-23T19:39:26Z",
+  "grade": "PERFECT",
+  "gaps": [],
   "note": "IMAS race pages print the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule).",
   "race_numbers_missing": [],
   "issues": [],
@@ -12370,9 +12368,11 @@
       "results_row": 10,
       "seat": "ICF_ID1",
       "source_printed_name": "Ali ALI AHMED",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "none",
-      "team": "EGY"
+      "team": "EGY",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Ali ALI AHMED (EGY, M)",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Ali ALI AHMED (EGY, M)"
     },
     {
       "results_row": 11,
@@ -12528,10 +12528,13 @@
       "results_row": 26,
       "seat": "ICF_ID1",
       "source_printed_name": "Joona MANTYNEN",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Joona MANTYNEN'; noc=FIN; no profile for given+family",
-      "team": "FIN"
+      "team": "FIN",
+      "new_id": "71786",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 71786 (Joona MAENTYNEN), also_ids=[]",
+      "printed_form": "Joona MANTYNEN",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 27,
@@ -12627,9 +12630,15 @@
       "results_row": 36,
       "seat": "ICF_ID1",
       "source_printed_name": "Joaquim MANHIQUE",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "MOZ"
+      "team": "MOZ",
+      "new_id": "63206",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 63206 (Joaquim MANHIQUE), also_ids=['130425']",
+      "also_ids": [
+        "130425"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 37,
@@ -12637,8 +12646,9 @@
       "source_printed_name": "Jamshed GULOMOV",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Jamshed GULOMOV'; noc=TJK; no profile for given+family",
-      "team": "TJK"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jamshed GULOMOV (TJK, M)",
+      "team": "TJK",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jamshed GULOMOV (TJK, M)"
     },
     {
       "results_row": 38,
@@ -12664,9 +12674,16 @@
       "results_row": 40,
       "seat": "ICF_ID1",
       "source_printed_name": "Evgenii LUKANTSOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "47712",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 47712 (Evgenii LUKANTSOV), also_ids=['157760', '157760']",
+      "also_ids": [
+        "157760",
+        "157760"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 41,
@@ -12694,8 +12711,9 @@
       "source_printed_name": "Sergei TOKARNITSKYI",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Sergei TOKARNITSKYI'; noc=KAZ; no profile for given+family",
-      "team": "KAZ"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sergei TOKARNITSKYI (KAZ, M)",
+      "team": "KAZ",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sergei TOKARNITSKYI (KAZ, M)"
     },
     {
       "results_row": 44,
@@ -12821,9 +12839,16 @@
       "results_row": 56,
       "seat": "ICF_ID1",
       "source_printed_name": "Ivan SHTYL",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "36155",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 36155 (Ivan SHTYL), also_ids=['143110', '143110']",
+      "also_ids": [
+        "143110",
+        "143110"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 57,
@@ -13019,9 +13044,16 @@
       "results_row": 76,
       "seat": "ICF_ID1",
       "source_printed_name": "Olesia ROMASENKO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "52656",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 52656 (Olesia ROMASENKO), also_ids=['142798', '142798']",
+      "also_ids": [
+        "142798",
+        "142798"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 77,
@@ -13029,8 +13061,9 @@
       "source_printed_name": "Jana JEZOVA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Jana JEZOVA'; noc=CZE; no profile for given+family",
-      "team": "CZE"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)",
+      "team": "CZE",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)"
     },
     {
       "results_row": 78,
@@ -13408,8 +13441,9 @@
       "source_printed_name": "Ivana MLADKOVA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Ivana MLADKOVA'; noc=SVK; no profile for given+family",
-      "team": "SVK"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Ivana MLADKOVA (SVK, W)",
+      "team": "SVK",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Ivana MLADKOVA (SVK, W)"
     },
     {
       "results_row": 116,
@@ -13427,16 +13461,24 @@
       "source_printed_name": "Alyce BURNETT",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Alyce BURNETT'; noc=AUS; no profile for given+family",
-      "team": "AUS"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+      "team": "AUS",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)"
     },
     {
       "results_row": 118,
       "seat": "ICF_ID1",
       "source_printed_name": "Natalia PODOLSKAIA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "36164",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 36164 (Natalia PODOLSKAIA), also_ids=['154254', '154254']",
+      "also_ids": [
+        "154254",
+        "154254"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 119,
@@ -13464,8 +13506,9 @@
       "source_printed_name": "Kayla DE BEER",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Kayla DE BEER'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kayla DE BEER (RSA, W)",
+      "team": "RSA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kayla DE BEER (RSA, W)"
     },
     {
       "results_row": 122,
@@ -13481,10 +13524,13 @@
       "results_row": 123,
       "seat": "ICF_ID1",
       "source_printed_name": "Lisa BISSONNETTE",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Lisa BISSONNETTE'; noc=CAN; no profile for given+family",
-      "team": "CAN"
+      "team": "CAN",
+      "new_id": "69144",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 69144 (Lissa BISSONNETTE), also_ids=[]",
+      "printed_form": "Lisa BISSONNETTE",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 124,
@@ -13672,8 +13718,9 @@
       "source_printed_name": "Dominika WLODARCZYK",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Dominika WLODARCZYK'; noc=POL; no profile for given+family",
-      "team": "POL"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dominika WLODARCZYK (POL, W)",
+      "team": "POL",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dominika WLODARCZYK (POL, W)"
     },
     {
       "results_row": 143,
@@ -13801,8 +13848,9 @@
       "source_printed_name": "Esti VAN TONDER",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Esti VAN TONDER'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)",
+      "team": "RSA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)"
     },
     {
       "results_row": 156,
@@ -14078,9 +14126,15 @@
       "results_row": 183,
       "seat": "ICF_ID1",
       "source_printed_name": "Joaquim MANHIQUE",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "MOZ"
+      "team": "MOZ",
+      "new_id": "63206",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 63206 (Joaquim MANHIQUE), also_ids=['130425']",
+      "also_ids": [
+        "130425"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 184,
@@ -14106,9 +14160,16 @@
       "results_row": 186,
       "seat": "ICF_ID1",
       "source_printed_name": "Maxim SPESIVTSEV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "42145",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42145 (Maxim SPESIVTSEV), also_ids=['142795', '142795']",
+      "also_ids": [
+        "142795",
+        "142795"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 187,
@@ -14174,9 +14235,16 @@
       "results_row": 193,
       "seat": "ICF_ID1",
       "source_printed_name": "Roman ANOSHKIN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "36146",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 36146 (Roman ANOSHKIN), also_ids=['148091', '148091']",
+      "also_ids": [
+        "148091",
+        "148091"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 194,
@@ -14344,8 +14412,9 @@
       "source_printed_name": "Tamas GECSOE",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Tamas GECSOE'; noc=GER; no profile for given+family",
-      "team": "GER"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Tamas GECSOE (GER, M)",
+      "team": "GER",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Tamas GECSOE (GER, M)"
     },
     {
       "results_row": 211,
@@ -14371,10 +14440,13 @@
       "results_row": 213,
       "seat": "ICF_ID1",
       "source_printed_name": "Veselin VULCHOV",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Veselin VULCHOV'; noc=BUL; no profile for given+family",
-      "team": "BUL"
+      "team": "BUL",
+      "new_id": "79013",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 79013 (Veselin VALCHOV), also_ids=[]",
+      "printed_form": "Veselin VULCHOV",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 214,
@@ -14400,9 +14472,11 @@
       "results_row": 216,
       "seat": "ICF_ID1",
       "source_printed_name": "Ali ALI AHMED",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "none",
-      "team": "EGY"
+      "team": "EGY",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Ali ALI AHMED (EGY, M)",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Ali ALI AHMED (EGY, M)"
     },
     {
       "results_row": 217,
@@ -14708,9 +14782,16 @@
       "results_row": 247,
       "seat": "ICF_ID1",
       "source_printed_name": "Ilia SHTOKALOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "36159",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 36159 (Ilia SHTOKALOV), also_ids=['172001', '172001']",
+      "also_ids": [
+        "172001",
+        "172001"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 248,
@@ -14788,8 +14869,9 @@
       "source_printed_name": "Jitta LAAN VAN DER",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Jitta LAAN VAN DER'; noc=NED; no profile for given+family",
-      "team": "NED"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jitta LAAN VAN DER (NED, W)",
+      "team": "NED",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jitta LAAN VAN DER (NED, W)"
     },
     {
       "results_row": 256,
@@ -14825,9 +14907,12 @@
       "results_row": 259,
       "seat": "ICF_ID1",
       "source_printed_name": "Betty NABIFO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UGA"
+      "team": "UGA",
+      "new_id": "94155",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 94155 (Betty NABIFO), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 260,
@@ -14865,8 +14950,9 @@
       "source_printed_name": "Kristina BEDEC",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Kristina BEDEC'; noc=SRB; no profile for given+family",
-      "team": "SRB"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)",
+      "team": "SRB",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)"
     },
     {
       "results_row": 264,
@@ -15095,8 +15181,9 @@
       "source_printed_name": "Hassan MATOVU",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Hassan MATOVU'; noc=UGA; no profile for given+family",
-      "team": "UGA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Hassan MATOVU (UGA, M)",
+      "team": "UGA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Hassan MATOVU (UGA, M)"
     },
     {
       "results_row": 279,
@@ -15122,10 +15209,13 @@
       "results_row": 280,
       "seat": "ICF_ID2",
       "source_printed_name": "Sulaiman Ahmed Saeed AL-SAMMARRAIE",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Sulaiman Ahmed Saeed AL-SAMMARRAIE'; noc=IRQ; no profile for given+family",
-      "team": "IRQ"
+      "team": "IRQ",
+      "new_id": "93705",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 93705 (Sulaiman Ahmed Saeed AL-SAMARRAIE), also_ids=[]",
+      "printed_form": "Sulaiman Ahmed Saeed AL-SAMMARRAIE",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 281,
@@ -15141,9 +15231,16 @@
       "results_row": 281,
       "seat": "ICF_ID2",
       "source_printed_name": "Vitaly ERSHOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "56553",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 56553 (Vitaly ERSHOV), also_ids=['142796', '142796']",
+      "also_ids": [
+        "142796",
+        "142796"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 282,
@@ -15159,9 +15256,12 @@
       "results_row": 282,
       "seat": "ICF_ID2",
       "source_printed_name": "Joao RIBEIRO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "36453",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 36453 (Joao RIBEIRO)",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 283,
@@ -15567,9 +15667,12 @@
       "results_row": 307,
       "seat": "ICF_ID1",
       "source_printed_name": "Combe SECK",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "SEN"
+      "team": "SEN",
+      "new_id": "54332",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 54332 (Combe SECK)",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 308,
@@ -15945,9 +16048,11 @@
       "results_row": 334,
       "seat": "ICF_ID2",
       "source_printed_name": "Qiang LI",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "none",
-      "team": "CHN"
+      "team": "CHN",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Duisburg_2019_WC",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 335,
@@ -15963,9 +16068,16 @@
       "results_row": 335,
       "seat": "ICF_ID2",
       "source_printed_name": "Mikhail PAVLOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "42140",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42140 (Mikhail PAVLOV), also_ids=['142863', '142863']",
+      "also_ids": [
+        "142863",
+        "142863"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 336,
@@ -16213,8 +16325,9 @@
       "source_printed_name": "Milica STAROVIC",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Milica STAROVIC'; noc=SRB; no profile for given+family",
-      "team": "SRB"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milica STAROVIC (SRB, W)",
+      "team": "SRB",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milica STAROVIC (SRB, W)"
     },
     {
       "results_row": 348,
@@ -16321,10 +16434,13 @@
       "results_row": 353,
       "seat": "ICF_ID2",
       "source_printed_name": "Donna Catherine HUTTON",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Donna Catherine HUTTON'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "team": "RSA",
+      "new_id": "64313",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 64313 (Donna HUTTON), also_ids=[]",
+      "printed_form": "Donna Catherine HUTTON",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 354,
@@ -16482,8 +16598,9 @@
       "source_printed_name": "Karina Guadalupe ALANIS",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Karina Guadalupe ALANIS'; noc=MEX; no profile for given+family",
-      "team": "MEX"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Karina Guadalupe ALANIS (MEX, W)",
+      "team": "MEX",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Karina Guadalupe ALANIS (MEX, W)"
     },
     {
       "results_row": 362,
@@ -16629,17 +16746,30 @@
       "results_row": 369,
       "seat": "ICF_ID1",
       "source_printed_name": "Anastasiia DOLGOVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "79481",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 79481 (Anastasiia DOLGOVA), also_ids=['142864', '142864']",
+      "also_ids": [
+        "142864",
+        "142864"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 369,
       "seat": "ICF_ID2",
       "source_printed_name": "Svetlana CHERNIGOVSKAYA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "42148",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42148 (Svetlana CHERNIGOVSKAYA), also_ids=['142865']",
+      "also_ids": [
+        "142865"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 370,
@@ -16715,10 +16845,13 @@
       "results_row": 373,
       "seat": "ICF_ID2",
       "source_printed_name": "Lisa BISSONNETTE",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Lisa BISSONNETTE'; noc=CAN; no profile for given+family",
-      "team": "CAN"
+      "team": "CAN",
+      "new_id": "69144",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 69144 (Lissa BISSONNETTE), also_ids=[]",
+      "printed_form": "Lisa BISSONNETTE",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 374,
@@ -16956,8 +17089,9 @@
       "source_printed_name": "Hassan MATOVU",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Hassan MATOVU'; noc=UGA; no profile for given+family",
-      "team": "UGA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Hassan MATOVU (UGA, M)",
+      "team": "UGA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Hassan MATOVU (UGA, M)"
     },
     {
       "results_row": 395,
@@ -16983,10 +17117,13 @@
       "results_row": 397,
       "seat": "ICF_ID1",
       "source_printed_name": "Joona MANTYNEN",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Joona MANTYNEN'; noc=FIN; no profile for given+family",
-      "team": "FIN"
+      "team": "FIN",
+      "new_id": "71786",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 71786 (Joona MAENTYNEN), also_ids=[]",
+      "printed_form": "Joona MANTYNEN",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 398,
@@ -17022,9 +17159,11 @@
       "results_row": 401,
       "seat": "ICF_ID1",
       "source_printed_name": "Ali ALI AHMED",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "none",
-      "team": "EGY"
+      "team": "EGY",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Ali ALI AHMED (EGY, M)",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Ali ALI AHMED (EGY, M)"
     },
     {
       "results_row": 402,
@@ -17220,9 +17359,16 @@
       "results_row": 421,
       "seat": "ICF_ID1",
       "source_printed_name": "Aleksandr SERGEEV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "42144",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42144 (Aleksandr SERGEEV), also_ids=['154256', '154256']",
+      "also_ids": [
+        "154256",
+        "154256"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 422,
@@ -17278,9 +17424,15 @@
       "results_row": 427,
       "seat": "ICF_ID1",
       "source_printed_name": "Joaquim MANHIQUE",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "MOZ"
+      "team": "MOZ",
+      "new_id": "63206",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 63206 (Joaquim MANHIQUE), also_ids=['130425']",
+      "also_ids": [
+        "130425"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 428,
@@ -17697,17 +17849,30 @@
       "results_row": 458,
       "seat": "ICF_ID1",
       "source_printed_name": "Anastasiia DOLGOVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "79481",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 79481 (Anastasiia DOLGOVA), also_ids=['142864', '142864']",
+      "also_ids": [
+        "142864",
+        "142864"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 458,
       "seat": "ICF_ID2",
       "source_printed_name": "Svetlana CHERNIGOVSKAYA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "42148",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42148 (Svetlana CHERNIGOVSKAYA), also_ids=['142865']",
+      "also_ids": [
+        "142865"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 459,
@@ -17723,10 +17888,13 @@
       "results_row": 459,
       "seat": "ICF_ID2",
       "source_printed_name": "Lisa BISSONNETTE",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Lisa BISSONNETTE'; noc=CAN; no profile for given+family",
-      "team": "CAN"
+      "team": "CAN",
+      "new_id": "69144",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 69144 (Lissa BISSONNETTE), also_ids=[]",
+      "printed_form": "Lisa BISSONNETTE",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 460,
@@ -17804,8 +17972,9 @@
       "source_printed_name": "Karina Guadalupe ALANIS",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Karina Guadalupe ALANIS'; noc=MEX; no profile for given+family",
-      "team": "MEX"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Karina Guadalupe ALANIS (MEX, W)",
+      "team": "MEX",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Karina Guadalupe ALANIS (MEX, W)"
     },
     {
       "results_row": 464,
@@ -17921,10 +18090,13 @@
       "results_row": 469,
       "seat": "ICF_ID2",
       "source_printed_name": "Donna Catherine HUTTON",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Donna Catherine HUTTON'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "team": "RSA",
+      "new_id": "64313",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 64313 (Donna HUTTON), also_ids=[]",
+      "printed_form": "Donna Catherine HUTTON",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 470,
@@ -18010,9 +18182,16 @@
       "results_row": 474,
       "seat": "ICF_ID1",
       "source_printed_name": "Roman ANOSHKIN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "36146",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 36146 (Roman ANOSHKIN), also_ids=['148091', '148091']",
+      "also_ids": [
+        "148091",
+        "148091"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 475,
@@ -18030,16 +18209,24 @@
       "source_printed_name": "Tamas GECSOE",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Tamas GECSOE'; noc=GER; no profile for given+family",
-      "team": "GER"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Tamas GECSOE (GER, M)",
+      "team": "GER",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Tamas GECSOE (GER, M)"
     },
     {
       "results_row": 477,
       "seat": "ICF_ID1",
       "source_printed_name": "Maxim SPESIVTSEV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "42145",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42145 (Maxim SPESIVTSEV), also_ids=['142795', '142795']",
+      "also_ids": [
+        "142795",
+        "142795"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 478,
@@ -18265,10 +18452,13 @@
       "results_row": 500,
       "seat": "ICF_ID1",
       "source_printed_name": "Veselin VULCHOV",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Veselin VULCHOV'; noc=BUL; no profile for given+family",
-      "team": "BUL"
+      "team": "BUL",
+      "new_id": "79013",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 79013 (Veselin VALCHOV), also_ids=[]",
+      "printed_form": "Veselin VULCHOV",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 501,
@@ -18394,9 +18584,16 @@
       "results_row": 513,
       "seat": "ICF_ID1",
       "source_printed_name": "Ilia SHTOKALOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "36159",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 36159 (Ilia SHTOKALOV), also_ids=['172001', '172001']",
+      "also_ids": [
+        "172001",
+        "172001"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 514,
@@ -18702,9 +18899,16 @@
       "results_row": 540,
       "seat": "ICF_ID2",
       "source_printed_name": "Daria KHARCHENKO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "64463",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 64463 (Daria KHARCHENKO), also_ids=['152000', '152000']",
+      "also_ids": [
+        "152000",
+        "152000"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 541,
@@ -18742,8 +18946,9 @@
       "source_printed_name": "Jana JEZOVA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Jana JEZOVA'; noc=CZE; no profile for given+family",
-      "team": "CZE"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)",
+      "team": "CZE",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)"
     },
     {
       "results_row": 543,
@@ -18939,9 +19144,12 @@
       "results_row": 552,
       "seat": "ICF_ID2",
       "source_printed_name": "Combe SECK",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "SEN"
+      "team": "SEN",
+      "new_id": "54332",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 54332 (Combe SECK)",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 553,
@@ -18987,17 +19195,27 @@
       "results_row": 555,
       "seat": "ICF_ID1",
       "source_printed_name": "Kseniia KURACH",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "74317",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 74317 (Kseniia KURACH), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 555,
       "seat": "ICF_ID2",
       "source_printed_name": "Olesia ROMASENKO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "52656",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 52656 (Olesia ROMASENKO), also_ids=['142798', '142798']",
+      "also_ids": [
+        "142798",
+        "142798"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 556,
@@ -19165,8 +19383,9 @@
       "source_printed_name": "Esti VAN TONDER",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Esti VAN TONDER'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)",
+      "team": "RSA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)"
     },
     {
       "results_row": 567,
@@ -19184,8 +19403,9 @@
       "source_printed_name": "Jitta LAAN VAN DER",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Jitta LAAN VAN DER'; noc=NED; no profile for given+family",
-      "team": "NED"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jitta LAAN VAN DER (NED, W)",
+      "team": "NED",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jitta LAAN VAN DER (NED, W)"
     },
     {
       "results_row": 569,
@@ -19193,8 +19413,9 @@
       "source_printed_name": "Darya RAZUMOVICH",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Darya RAZUMOVICH'; noc=KAZ; no profile for given+family",
-      "team": "KAZ"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Darya RAZUMOVICH (KAZ, W)",
+      "team": "KAZ",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Darya RAZUMOVICH (KAZ, W)"
     },
     {
       "results_row": 570,
@@ -19202,8 +19423,9 @@
       "source_printed_name": "Ivana MLADKOVA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Ivana MLADKOVA'; noc=SVK; no profile for given+family",
-      "team": "SVK"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Ivana MLADKOVA (SVK, W)",
+      "team": "SVK",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Ivana MLADKOVA (SVK, W)"
     },
     {
       "results_row": 571,
@@ -19239,10 +19461,13 @@
       "results_row": 574,
       "seat": "ICF_ID1",
       "source_printed_name": "Donna Catherine HUTTON",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Donna Catherine HUTTON'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "team": "RSA",
+      "new_id": "64313",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 64313 (Donna HUTTON), also_ids=[]",
+      "printed_form": "Donna Catherine HUTTON",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 575,
@@ -19388,9 +19613,15 @@
       "results_row": 589,
       "seat": "ICF_ID1",
       "source_printed_name": "Svetlana CHERNIGOVSKAYA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "42148",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42148 (Svetlana CHERNIGOVSKAYA), also_ids=['142865']",
+      "also_ids": [
+        "142865"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 590,
@@ -19756,10 +19987,13 @@
       "results_row": 626,
       "seat": "ICF_ID1",
       "source_printed_name": "Joona MANTYNEN",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Joona MANTYNEN'; noc=FIN; no profile for given+family",
-      "team": "FIN"
+      "team": "FIN",
+      "new_id": "71786",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 71786 (Joona MAENTYNEN), also_ids=[]",
+      "printed_form": "Joona MANTYNEN",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 627,
@@ -19805,9 +20039,16 @@
       "results_row": 631,
       "seat": "ICF_ID1",
       "source_printed_name": "Aleksandr SERGEEV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "42144",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42144 (Aleksandr SERGEEV), also_ids=['154256', '154256']",
+      "also_ids": [
+        "154256",
+        "154256"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 632,
@@ -19965,8 +20206,9 @@
       "source_printed_name": "Kristina BEDEC",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Kristina BEDEC'; noc=SRB; no profile for given+family",
-      "team": "SRB"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)",
+      "team": "SRB",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)"
     },
     {
       "results_row": 648,
@@ -19984,8 +20226,9 @@
       "source_printed_name": "Jitta LAAN VAN DER",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Jitta LAAN VAN DER'; noc=NED; no profile for given+family",
-      "team": "NED"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jitta LAAN VAN DER (NED, W)",
+      "team": "NED",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jitta LAAN VAN DER (NED, W)"
     },
     {
       "results_row": 650,
@@ -20301,9 +20544,16 @@
       "results_row": 666,
       "seat": "ICF_ID2",
       "source_printed_name": "Mikhail PAVLOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "42140",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42140 (Mikhail PAVLOV), also_ids=['142863', '142863']",
+      "also_ids": [
+        "142863",
+        "142863"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 667,
@@ -20709,9 +20959,11 @@
       "results_row": 687,
       "seat": "ICF_ID1",
       "source_printed_name": "Ali ALI AHMED",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "none",
-      "team": "EGY"
+      "team": "EGY",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Ali ALI AHMED (EGY, M)",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Ali ALI AHMED (EGY, M)"
     },
     {
       "results_row": 687,
@@ -20947,17 +21199,31 @@
       "results_row": 699,
       "seat": "ICF_ID1",
       "source_printed_name": "Vladislav LITOVKA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "52654",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 52654 (Vladislav LITOVKA), also_ids=['148094', '148094']",
+      "also_ids": [
+        "148094",
+        "148094"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 699,
       "seat": "ICF_ID2",
       "source_printed_name": "Roman ANOSHKIN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "36146",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 36146 (Roman ANOSHKIN), also_ids=['148091', '148091']",
+      "also_ids": [
+        "148091",
+        "148091"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 700,
@@ -20993,10 +21259,13 @@
       "results_row": 701,
       "seat": "ICF_ID2",
       "source_printed_name": "Veselin VULCHOV",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Veselin VULCHOV'; noc=BUL; no profile for given+family",
-      "team": "BUL"
+      "team": "BUL",
+      "new_id": "79013",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 79013 (Veselin VALCHOV), also_ids=[]",
+      "printed_form": "Veselin VULCHOV",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 702,
@@ -21032,10 +21301,13 @@
       "results_row": 703,
       "seat": "ICF_ID2",
       "source_printed_name": "Miika NYKANEN",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Miika NYKANEN'; noc=FIN; no profile for given+family",
-      "team": "FIN"
+      "team": "FIN",
+      "new_id": "36596",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 36596 (Miika NYKAENEN), also_ids=[]",
+      "printed_form": "Miika NYKANEN",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 704,
@@ -21161,9 +21433,16 @@
       "results_row": 710,
       "seat": "ICF_ID1",
       "source_printed_name": "Maxim SPESIVTSEV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "42145",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42145 (Maxim SPESIVTSEV), also_ids=['142795', '142795']",
+      "also_ids": [
+        "142795",
+        "142795"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 710,
@@ -21299,9 +21578,16 @@
       "results_row": 719,
       "seat": "ICF_ID1",
       "source_printed_name": "Evgenii LUKANTSOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "47712",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 47712 (Evgenii LUKANTSOV), also_ids=['157760', '157760']",
+      "also_ids": [
+        "157760",
+        "157760"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 720,
@@ -21659,8 +21945,9 @@
       "source_printed_name": "Jana JEZOVA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Jana JEZOVA'; noc=CZE; no profile for given+family",
-      "team": "CZE"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)",
+      "team": "CZE",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)"
     },
     {
       "results_row": 756,
@@ -21796,9 +22083,16 @@
       "results_row": 769,
       "seat": "ICF_ID1",
       "source_printed_name": "Olesia ROMASENKO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "52656",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 52656 (Olesia ROMASENKO), also_ids=['142798', '142798']",
+      "also_ids": [
+        "142798",
+        "142798"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 770,
@@ -21906,8 +22200,9 @@
       "source_printed_name": "Ivana MLADKOVA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Ivana MLADKOVA'; noc=SVK; no profile for given+family",
-      "team": "SVK"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Ivana MLADKOVA (SVK, W)",
+      "team": "SVK",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Ivana MLADKOVA (SVK, W)"
     },
     {
       "results_row": 781,
@@ -21925,16 +22220,24 @@
       "source_printed_name": "Dominika WLODARCZYK",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Dominika WLODARCZYK'; noc=POL; no profile for given+family",
-      "team": "POL"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dominika WLODARCZYK (POL, W)",
+      "team": "POL",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dominika WLODARCZYK (POL, W)"
     },
     {
       "results_row": 783,
       "seat": "ICF_ID1",
       "source_printed_name": "Natalia PODOLSKAIA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "36164",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 36164 (Natalia PODOLSKAIA), also_ids=['154254', '154254']",
+      "also_ids": [
+        "154254",
+        "154254"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 784,
@@ -21962,8 +22265,9 @@
       "source_printed_name": "Esti VAN TONDER",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Esti VAN TONDER'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)",
+      "team": "RSA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)"
     },
     {
       "results_row": 787,
@@ -22101,8 +22405,9 @@
       "source_printed_name": "Alyce BURNETT",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Alyce BURNETT'; noc=AUS; no profile for given+family",
-      "team": "AUS"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+      "team": "AUS",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)"
     },
     {
       "results_row": 801,
@@ -22378,9 +22683,12 @@
       "results_row": 816,
       "seat": "ICF_ID2",
       "source_printed_name": "Joao RIBEIRO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "36453",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 36453 (Joao RIBEIRO)",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 817,
@@ -22838,8 +23146,9 @@
       "source_printed_name": "Jana JEZOVA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Jana JEZOVA'; noc=CZE; no profile for given+family",
-      "team": "CZE"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)",
+      "team": "CZE",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)"
     },
     {
       "results_row": 848,
@@ -22895,10 +23204,13 @@
       "results_row": 853,
       "seat": "ICF_ID1",
       "source_printed_name": "Joona MANTYNEN",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Joona MANTYNEN'; noc=FIN; no profile for given+family",
-      "team": "FIN"
+      "team": "FIN",
+      "new_id": "71786",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 71786 (Joona MAENTYNEN), also_ids=[]",
+      "printed_form": "Joona MANTYNEN",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 854,
@@ -22954,9 +23266,16 @@
       "results_row": 859,
       "seat": "ICF_ID1",
       "source_printed_name": "Aleksandr SERGEEV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "42144",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42144 (Aleksandr SERGEEV), also_ids=['154256', '154256']",
+      "also_ids": [
+        "154256",
+        "154256"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 860,
@@ -23092,10 +23411,13 @@
       "results_row": 870,
       "seat": "ICF_ID2",
       "source_printed_name": "Lisa BISSONNETTE",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Lisa BISSONNETTE'; noc=CAN; no profile for given+family",
-      "team": "CAN"
+      "team": "CAN",
+      "new_id": "69144",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 69144 (Lissa BISSONNETTE), also_ids=[]",
+      "printed_form": "Lisa BISSONNETTE",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 871,
@@ -23171,10 +23493,13 @@
       "results_row": 874,
       "seat": "ICF_ID2",
       "source_printed_name": "Donna Catherine HUTTON",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Donna Catherine HUTTON'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "team": "RSA",
+      "new_id": "64313",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 64313 (Donna HUTTON), also_ids=[]",
+      "printed_form": "Donna Catherine HUTTON",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 875,
@@ -23532,8 +23857,9 @@
       "source_printed_name": "Jitta LAAN VAN DER",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Jitta LAAN VAN DER'; noc=NED; no profile for given+family",
-      "team": "NED"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jitta LAAN VAN DER (NED, W)",
+      "team": "NED",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jitta LAAN VAN DER (NED, W)"
     },
     {
       "results_row": 900,
@@ -23589,9 +23915,16 @@
       "results_row": 905,
       "seat": "ICF_ID1",
       "source_printed_name": "Ilia SHTOKALOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "36159",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 36159 (Ilia SHTOKALOV), also_ids=['172001', '172001']",
+      "also_ids": [
+        "172001",
+        "172001"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 906,
@@ -23807,9 +24140,16 @@
       "results_row": 927,
       "seat": "ICF_ID1",
       "source_printed_name": "Maxim SPESIVTSEV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "42145",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42145 (Maxim SPESIVTSEV), also_ids=['142795', '142795']",
+      "also_ids": [
+        "142795",
+        "142795"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 928,
@@ -23845,9 +24185,16 @@
       "results_row": 931,
       "seat": "ICF_ID1",
       "source_printed_name": "Ivan SHTYL",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "36155",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 36155 (Ivan SHTYL), also_ids=['143110', '143110']",
+      "also_ids": [
+        "143110",
+        "143110"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 932,
@@ -23985,8 +24332,9 @@
       "source_printed_name": "Ivana MLADKOVA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Ivana MLADKOVA'; noc=SVK; no profile for given+family",
-      "team": "SVK"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Ivana MLADKOVA (SVK, W)",
+      "team": "SVK",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Ivana MLADKOVA (SVK, W)"
     },
     {
       "results_row": 946,
@@ -24152,9 +24500,16 @@
       "results_row": 962,
       "seat": "ICF_ID1",
       "source_printed_name": "Olesia ROMASENKO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "52656",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 52656 (Olesia ROMASENKO), also_ids=['142798', '142798']",
+      "also_ids": [
+        "142798",
+        "142798"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 963,
@@ -24210,9 +24565,16 @@
       "results_row": 968,
       "seat": "ICF_ID1",
       "source_printed_name": "Roman ANOSHKIN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "36146",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 36146 (Roman ANOSHKIN), also_ids=['148091', '148091']",
+      "also_ids": [
+        "148091",
+        "148091"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 969,
@@ -24280,8 +24642,9 @@
       "source_printed_name": "Tamas GECSOE",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Tamas GECSOE'; noc=GER; no profile for given+family",
-      "team": "GER"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Tamas GECSOE (GER, M)",
+      "team": "GER",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Tamas GECSOE (GER, M)"
     },
     {
       "results_row": 976,
@@ -24420,8 +24783,9 @@
       "source_printed_name": "Kristina BEDEC",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Kristina BEDEC'; noc=SRB; no profile for given+family",
-      "team": "SRB"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)",
+      "team": "SRB",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)"
     },
     {
       "results_row": 990,
@@ -24497,9 +24861,16 @@
       "results_row": 995,
       "seat": "ICF_ID2",
       "source_printed_name": "Vitaly ERSHOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "56553",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 56553 (Vitaly ERSHOV), also_ids=['142796', '142796']",
+      "also_ids": [
+        "142796",
+        "142796"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 996,
@@ -24555,9 +24926,12 @@
       "results_row": 998,
       "seat": "ICF_ID2",
       "source_printed_name": "Joao RIBEIRO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "36453",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 36453 (Joao RIBEIRO)",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 999,
@@ -24743,9 +25117,11 @@
       "results_row": 1012,
       "seat": "ICF_ID2",
       "source_printed_name": "Qiang LI",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "none",
-      "team": "CHN"
+      "team": "CHN",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Duisburg_2019_WC",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1013,
@@ -24781,9 +25157,16 @@
       "results_row": 1014,
       "seat": "ICF_ID2",
       "source_printed_name": "Mikhail PAVLOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "42140",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42140 (Mikhail PAVLOV), also_ids=['142863', '142863']",
+      "also_ids": [
+        "142863",
+        "142863"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1015,
@@ -25050,17 +25433,30 @@
       "results_row": 1028,
       "seat": "ICF_ID1",
       "source_printed_name": "Anastasiia DOLGOVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "79481",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 79481 (Anastasiia DOLGOVA), also_ids=['142864', '142864']",
+      "also_ids": [
+        "142864",
+        "142864"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1028,
       "seat": "ICF_ID2",
       "source_printed_name": "Svetlana CHERNIGOVSKAYA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "42148",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42148 (Svetlana CHERNIGOVSKAYA), also_ids=['142865']",
+      "also_ids": [
+        "142865"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1029,
@@ -25296,9 +25692,16 @@
       "results_row": 1051,
       "seat": "ICF_ID1",
       "source_printed_name": "Evgenii LUKANTSOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "47712",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 47712 (Evgenii LUKANTSOV), also_ids=['157760', '157760']",
+      "also_ids": [
+        "157760",
+        "157760"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1052,
@@ -25406,8 +25809,9 @@
       "source_printed_name": "Esti VAN TONDER",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Esti VAN TONDER'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)",
+      "team": "RSA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)"
     },
     {
       "results_row": 1063,
@@ -25455,8 +25859,9 @@
       "source_printed_name": "Alyce BURNETT",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Alyce BURNETT'; noc=AUS; no profile for given+family",
-      "team": "AUS"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+      "team": "AUS",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)"
     },
     {
       "results_row": 1068,
@@ -25464,8 +25869,9 @@
       "source_printed_name": "Dominika WLODARCZYK",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Dominika WLODARCZYK'; noc=POL; no profile for given+family",
-      "team": "POL"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dominika WLODARCZYK (POL, W)",
+      "team": "POL",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dominika WLODARCZYK (POL, W)"
     },
     {
       "results_row": 1069,
@@ -25511,9 +25917,16 @@
       "results_row": 1073,
       "seat": "ICF_ID1",
       "source_printed_name": "Natalia PODOLSKAIA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "36164",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 36164 (Natalia PODOLSKAIA), also_ids=['154254', '154254']",
+      "also_ids": [
+        "154254",
+        "154254"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1074,
@@ -25599,9 +26012,16 @@
       "results_row": 1078,
       "seat": "ICF_ID2",
       "source_printed_name": "Daria KHARCHENKO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "64463",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 64463 (Daria KHARCHENKO), also_ids=['152000', '152000']",
+      "also_ids": [
+        "152000",
+        "152000"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1079,
@@ -25639,8 +26059,9 @@
       "source_printed_name": "Jana JEZOVA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Jana JEZOVA'; noc=CZE; no profile for given+family",
-      "team": "CZE"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)",
+      "team": "CZE",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)"
     },
     {
       "results_row": 1081,
@@ -25676,9 +26097,12 @@
       "results_row": 1082,
       "seat": "ICF_ID2",
       "source_printed_name": "Combe SECK",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "SEN"
+      "team": "SEN",
+      "new_id": "54332",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 54332 (Combe SECK)",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1083,
@@ -25704,17 +26128,27 @@
       "results_row": 1084,
       "seat": "ICF_ID1",
       "source_printed_name": "Kseniia KURACH",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "74317",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 74317 (Kseniia KURACH), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1084,
       "seat": "ICF_ID2",
       "source_printed_name": "Olesia ROMASENKO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "52656",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 52656 (Olesia ROMASENKO), also_ids=['142798', '142798']",
+      "also_ids": [
+        "142798",
+        "142798"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1085,
@@ -25920,18 +26354,27 @@
       "results_row": 1097,
       "seat": "ICF_ID1",
       "source_printed_name": "Svetlana CHERNIGOVSKAYA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "42148",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42148 (Svetlana CHERNIGOVSKAYA), also_ids=['142865']",
+      "also_ids": [
+        "142865"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1098,
       "seat": "ICF_ID1",
       "source_printed_name": "Donna Catherine HUTTON",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Donna Catherine HUTTON'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "team": "RSA",
+      "new_id": "64313",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 64313 (Donna HUTTON), also_ids=[]",
+      "printed_form": "Donna Catherine HUTTON",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1099,
@@ -25999,8 +26442,9 @@
       "source_printed_name": "Ivana MLADKOVA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Ivana MLADKOVA'; noc=SVK; no profile for given+family",
-      "team": "SVK"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Ivana MLADKOVA (SVK, W)",
+      "team": "SVK",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Ivana MLADKOVA (SVK, W)"
     },
     {
       "results_row": 1106,
@@ -26118,8 +26562,9 @@
       "source_printed_name": "Esti VAN TONDER",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Esti VAN TONDER'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)",
+      "team": "RSA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)"
     },
     {
       "results_row": 1118,
@@ -26275,10 +26720,13 @@
       "results_row": 1126,
       "seat": "ICF_ID2",
       "source_printed_name": "Veselin VULCHOV",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Veselin VULCHOV'; noc=BUL; no profile for given+family",
-      "team": "BUL"
+      "team": "BUL",
+      "new_id": "79013",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 79013 (Veselin VALCHOV), also_ids=[]",
+      "printed_form": "Veselin VULCHOV",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1127,
@@ -26364,17 +26812,31 @@
       "results_row": 1131,
       "seat": "ICF_ID1",
       "source_printed_name": "Vladislav LITOVKA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "52654",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 52654 (Vladislav LITOVKA), also_ids=['148094', '148094']",
+      "also_ids": [
+        "148094",
+        "148094"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1131,
       "seat": "ICF_ID2",
       "source_printed_name": "Roman ANOSHKIN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "36146",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 36146 (Roman ANOSHKIN), also_ids=['148091', '148091']",
+      "also_ids": [
+        "148091",
+        "148091"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1132,
@@ -26600,9 +27062,16 @@
       "results_row": 1143,
       "seat": "ICF_ID1",
       "source_printed_name": "Maxim SPESIVTSEV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "42145",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42145 (Maxim SPESIVTSEV), also_ids=['142795', '142795']",
+      "also_ids": [
+        "142795",
+        "142795"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1143,
@@ -26968,9 +27437,16 @@
       "results_row": 1161,
       "seat": "ICF_ID2",
       "source_printed_name": "Mikhail PAVLOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "42140",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42140 (Mikhail PAVLOV), also_ids=['142863', '142863']",
+      "also_ids": [
+        "142863",
+        "142863"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1162,
@@ -27078,8 +27554,9 @@
       "source_printed_name": "Sergei TOKARNITSKYI",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Sergei TOKARNITSKYI'; noc=KAZ; no profile for given+family",
-      "team": "KAZ"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sergei TOKARNITSKYI (KAZ, M)",
+      "team": "KAZ",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sergei TOKARNITSKYI (KAZ, M)"
     },
     {
       "results_row": 1167,
@@ -27135,9 +27612,11 @@
       "results_row": 1170,
       "seat": "ICF_ID1",
       "source_printed_name": "Ali ALI AHMED",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "none",
-      "team": "EGY"
+      "team": "EGY",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Ali ALI AHMED (EGY, M)",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Ali ALI AHMED (EGY, M)"
     },
     {
       "results_row": 1170,
@@ -27344,9 +27823,16 @@
       "results_row": 1180,
       "seat": "ICF_ID2",
       "source_printed_name": "Anastasiia DOLGOVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "79481",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 79481 (Anastasiia DOLGOVA), also_ids=['142864', '142864']",
+      "also_ids": [
+        "142864",
+        "142864"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1181,
@@ -27392,10 +27878,13 @@
       "results_row": 1183,
       "seat": "ICF_ID1",
       "source_printed_name": "Donna Catherine HUTTON",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Donna Catherine HUTTON'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "team": "RSA",
+      "new_id": "64313",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 64313 (Donna HUTTON), also_ids=[]",
+      "printed_form": "Donna Catherine HUTTON",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1183,
@@ -27661,9 +28150,16 @@
       "results_row": 1196,
       "seat": "ICF_ID2",
       "source_printed_name": "Ivan SHTYL",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "36155",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 36155 (Ivan SHTYL), also_ids=['143110', '143110']",
+      "also_ids": [
+        "143110",
+        "143110"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1197,
@@ -27779,9 +28275,11 @@
       "results_row": 1202,
       "seat": "ICF_ID2",
       "source_printed_name": "Qiang LI",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "none",
-      "team": "CHN"
+      "team": "CHN",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Duisburg_2019_WC",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1203,
@@ -27887,17 +28385,27 @@
       "results_row": 1208,
       "seat": "ICF_ID1",
       "source_printed_name": "Kseniia KURACH",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "74317",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 74317 (Kseniia KURACH), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1208,
       "seat": "ICF_ID2",
       "source_printed_name": "Olesia ROMASENKO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "52656",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 52656 (Olesia ROMASENKO), also_ids=['142798', '142798']",
+      "also_ids": [
+        "142798",
+        "142798"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1209,
@@ -28073,9 +28581,16 @@
       "results_row": 1217,
       "seat": "ICF_ID2",
       "source_printed_name": "Daria KHARCHENKO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "64463",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 64463 (Daria KHARCHENKO), also_ids=['152000', '152000']",
+      "also_ids": [
+        "152000",
+        "152000"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1218,
@@ -28141,10 +28656,13 @@
       "results_row": 1221,
       "seat": "ICF_ID1",
       "source_printed_name": "Sophie Ulrike KOCH",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Sophie Ulrike KOCH'; noc=GER; no profile for given+family",
-      "team": "GER"
+      "team": "GER",
+      "new_id": "64466",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 64466 (Sophie KOCH), also_ids=[]",
+      "printed_form": "Sophie Ulrike KOCH",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1221,
@@ -28420,9 +28938,16 @@
       "results_row": 1248,
       "seat": "ICF_ID1",
       "source_printed_name": "Ilia SHTOKALOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "36159",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 36159 (Ilia SHTOKALOV), also_ids=['172001', '172001']",
+      "also_ids": [
+        "172001",
+        "172001"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1249,
@@ -28600,8 +29125,9 @@
       "source_printed_name": "Alyce BURNETT",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Alyce BURNETT'; noc=AUS; no profile for given+family",
-      "team": "AUS"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+      "team": "AUS",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)"
     },
     {
       "results_row": 1255,
@@ -28678,10 +29204,13 @@
       "results_row": 1257,
       "seat": "ICF_ID3",
       "source_printed_name": "Lisa BISSONNETTE",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Lisa BISSONNETTE'; noc=CAN; no profile for given+family",
-      "team": "CAN"
+      "team": "CAN",
+      "new_id": "69144",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 69144 (Lissa BISSONNETTE), also_ids=[]",
+      "printed_form": "Lisa BISSONNETTE",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1257,
@@ -28789,8 +29318,9 @@
       "source_printed_name": "Vera SOBETOVA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Vera SOBETOVA'; noc=RUS; no profile for given+family",
-      "team": "RUS"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Vera SOBETOVA (RUS, W)",
+      "team": "RUS",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Vera SOBETOVA (RUS, W)"
     },
     {
       "results_row": 1260,
@@ -28836,10 +29366,13 @@
       "results_row": 1261,
       "seat": "ICF_ID3",
       "source_printed_name": "Julie Frolund FUNCH",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Julie Frolund FUNCH'; noc=DEN; no profile for given+family",
-      "team": "DEN"
+      "team": "DEN",
+      "new_id": "42847",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 42847 (Julie Froelund FUNCH), also_ids=[]",
+      "printed_form": "Julie Frolund FUNCH",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1261,
@@ -28867,8 +29400,9 @@
       "source_printed_name": "Karina Guadalupe ALANIS",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Karina Guadalupe ALANIS'; noc=MEX; no profile for given+family",
-      "team": "MEX"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Karina Guadalupe ALANIS (MEX, W)",
+      "team": "MEX",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Karina Guadalupe ALANIS (MEX, W)"
     },
     {
       "results_row": 1262,
@@ -29186,8 +29720,9 @@
       "source_printed_name": "Milica STAROVIC",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Milica STAROVIC'; noc=SRB; no profile for given+family",
-      "team": "SRB"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milica STAROVIC (SRB, W)",
+      "team": "SRB",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milica STAROVIC (SRB, W)"
     },
     {
       "results_row": 1270,
@@ -29195,8 +29730,9 @@
       "source_printed_name": "Kristina BEDEC",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Kristina BEDEC'; noc=SRB; no profile for given+family",
-      "team": "SRB"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)",
+      "team": "SRB",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)"
     },
     {
       "results_row": 1270,
@@ -29364,8 +29900,9 @@
       "source_printed_name": "Darya RAZUMOVICH",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Darya RAZUMOVICH'; noc=KAZ; no profile for given+family",
-      "team": "KAZ"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Darya RAZUMOVICH (KAZ, W)",
+      "team": "KAZ",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Darya RAZUMOVICH (KAZ, W)"
     },
     {
       "results_row": 1275,
@@ -29393,8 +29930,9 @@
       "source_printed_name": "Marcus WALZ",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Marcus WALZ'; noc=ESP; no profile for given+family",
-      "team": "ESP"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)",
+      "team": "ESP",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)"
     },
     {
       "results_row": 1275,
@@ -29420,9 +29958,16 @@
       "results_row": 1276,
       "seat": "ICF_ID2",
       "source_printed_name": "Aleksandr SERGEEV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "42144",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42144 (Aleksandr SERGEEV), also_ids=['154256', '154256']",
+      "also_ids": [
+        "154256",
+        "154256"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1276,
@@ -29438,9 +29983,16 @@
       "results_row": 1276,
       "seat": "ICF_ID4",
       "source_printed_name": "Vitaly ERSHOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "56553",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 56553 (Vitaly ERSHOV), also_ids=['142796', '142796']",
+      "also_ids": [
+        "142796",
+        "142796"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1277,
@@ -29488,8 +30040,9 @@
       "source_printed_name": "Tamas GECSOE",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Tamas GECSOE'; noc=GER; no profile for given+family",
-      "team": "GER"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Tamas GECSOE (GER, M)",
+      "team": "GER",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Tamas GECSOE (GER, M)"
     },
     {
       "results_row": 1278,
@@ -29775,9 +30328,12 @@
       "results_row": 1285,
       "seat": "ICF_ID2",
       "source_printed_name": "Joao RIBEIRO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "36453",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 36453 (Joao RIBEIRO)",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1285,
@@ -29883,10 +30439,13 @@
       "results_row": 1288,
       "seat": "ICF_ID1",
       "source_printed_name": "Miika NYKANEN",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Miika NYKANEN'; noc=FIN; no profile for given+family",
-      "team": "FIN"
+      "team": "FIN",
+      "new_id": "36596",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 36596 (Miika NYKAENEN), also_ids=[]",
+      "printed_form": "Miika NYKANEN",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1288,
@@ -29912,10 +30471,13 @@
       "results_row": 1288,
       "seat": "ICF_ID4",
       "source_printed_name": "Joona MANTYNEN",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Joona MANTYNEN'; noc=FIN; no profile for given+family",
-      "team": "FIN"
+      "team": "FIN",
+      "new_id": "71786",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 71786 (Joona MAENTYNEN), also_ids=[]",
+      "printed_form": "Joona MANTYNEN",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1289,
@@ -30131,10 +30693,13 @@
       "results_row": 1294,
       "seat": "ICF_ID2",
       "source_printed_name": "Sholhrukhbek AZAMOV",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Sholhrukhbek AZAMOV'; noc=UZB; no profile for given+family",
-      "team": "UZB"
+      "team": "UZB",
+      "new_id": "72097",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 72097 (Shokhrukhbek AZAMOV), also_ids=[]",
+      "printed_form": "Sholhrukhbek AZAMOV",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1294,
@@ -30290,10 +30855,13 @@
       "results_row": 1298,
       "seat": "ICF_ID2",
       "source_printed_name": "Ben DUFFY",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Ben DUFFY'; noc=NZL; no profile for given+family",
-      "team": "NZL"
+      "team": "NZL",
+      "new_id": "71999",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 71999 (Benjamin DUFFY), also_ids=[]",
+      "printed_form": "Ben DUFFY",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1298,
@@ -30699,9 +31267,16 @@
       "results_row": 1310,
       "seat": "ICF_ID1",
       "source_printed_name": "Ilia SHTOKALOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "36159",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 36159 (Ilia SHTOKALOV), also_ids=['172001', '172001']",
+      "also_ids": [
+        "172001",
+        "172001"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1311,
@@ -31009,8 +31584,9 @@
       "source_printed_name": "Alyce BURNETT",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Alyce BURNETT'; noc=AUS; no profile for given+family",
-      "team": "AUS"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+      "team": "AUS",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)"
     },
     {
       "results_row": 1336,
@@ -31039,8 +31615,9 @@
       "source_printed_name": "Milica STAROVIC",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Milica STAROVIC'; noc=SRB; no profile for given+family",
-      "team": "SRB"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milica STAROVIC (SRB, W)",
+      "team": "SRB",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milica STAROVIC (SRB, W)"
     },
     {
       "results_row": 1337,
@@ -31048,8 +31625,9 @@
       "source_printed_name": "Kristina BEDEC",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Kristina BEDEC'; noc=SRB; no profile for given+family",
-      "team": "SRB"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)",
+      "team": "SRB",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)"
     },
     {
       "results_row": 1337,
@@ -31117,8 +31695,9 @@
       "source_printed_name": "Karina Guadalupe ALANIS",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Karina Guadalupe ALANIS'; noc=MEX; no profile for given+family",
-      "team": "MEX"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Karina Guadalupe ALANIS (MEX, W)",
+      "team": "MEX",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Karina Guadalupe ALANIS (MEX, W)"
     },
     {
       "results_row": 1339,
@@ -31164,10 +31743,13 @@
       "results_row": 1340,
       "seat": "ICF_ID3",
       "source_printed_name": "Lisa BISSONNETTE",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Lisa BISSONNETTE'; noc=CAN; no profile for given+family",
-      "team": "CAN"
+      "team": "CAN",
+      "new_id": "69144",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 69144 (Lissa BISSONNETTE), also_ids=[]",
+      "printed_form": "Lisa BISSONNETTE",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1340,
@@ -31403,10 +31985,13 @@
       "results_row": 1346,
       "seat": "ICF_ID3",
       "source_printed_name": "Julie Frolund FUNCH",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Julie Frolund FUNCH'; noc=DEN; no profile for given+family",
-      "team": "DEN"
+      "team": "DEN",
+      "new_id": "42847",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 42847 (Julie Froelund FUNCH), also_ids=[]",
+      "printed_form": "Julie Frolund FUNCH",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1346,
@@ -31614,8 +32199,9 @@
       "source_printed_name": "Darya RAZUMOVICH",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Darya RAZUMOVICH'; noc=KAZ; no profile for given+family",
-      "team": "KAZ"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Darya RAZUMOVICH (KAZ, W)",
+      "team": "KAZ",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Darya RAZUMOVICH (KAZ, W)"
     },
     {
       "results_row": 1352,
@@ -31683,8 +32269,9 @@
       "source_printed_name": "Marcus WALZ",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Marcus WALZ'; noc=ESP; no profile for given+family",
-      "team": "ESP"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)",
+      "team": "ESP",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)"
     },
     {
       "results_row": 1353,
@@ -31750,9 +32337,12 @@
       "results_row": 1355,
       "seat": "ICF_ID2",
       "source_printed_name": "Joao RIBEIRO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "36453",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 36453 (Joao RIBEIRO)",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1355,
@@ -32140,8 +32730,9 @@
       "source_printed_name": "Tamas GECSOE",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Tamas GECSOE'; noc=GER; no profile for given+family",
-      "team": "GER"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Tamas GECSOE (GER, M)",
+      "team": "GER",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Tamas GECSOE (GER, M)"
     },
     {
       "results_row": 1365,
@@ -32257,10 +32848,13 @@
       "results_row": 1368,
       "seat": "ICF_ID1",
       "source_printed_name": "Miika NYKANEN",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Miika NYKANEN'; noc=FIN; no profile for given+family",
-      "team": "FIN"
+      "team": "FIN",
+      "new_id": "36596",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 36596 (Miika NYKAENEN), also_ids=[]",
+      "printed_form": "Miika NYKANEN",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1368,
@@ -32286,10 +32880,13 @@
       "results_row": 1368,
       "seat": "ICF_ID4",
       "source_printed_name": "Joona MANTYNEN",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Joona MANTYNEN'; noc=FIN; no profile for given+family",
-      "team": "FIN"
+      "team": "FIN",
+      "new_id": "71786",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 71786 (Joona MAENTYNEN), also_ids=[]",
+      "printed_form": "Joona MANTYNEN",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1369,
@@ -32305,10 +32902,13 @@
       "results_row": 1369,
       "seat": "ICF_ID2",
       "source_printed_name": "Sholhrukhbek AZAMOV",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Sholhrukhbek AZAMOV'; noc=UZB; no profile for given+family",
-      "team": "UZB"
+      "team": "UZB",
+      "new_id": "72097",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 72097 (Shokhrukhbek AZAMOV), also_ids=[]",
+      "printed_form": "Sholhrukhbek AZAMOV",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1369,
@@ -32424,9 +33024,16 @@
       "results_row": 1372,
       "seat": "ICF_ID2",
       "source_printed_name": "Aleksandr SERGEEV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "42144",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42144 (Aleksandr SERGEEV), also_ids=['154256', '154256']",
+      "also_ids": [
+        "154256",
+        "154256"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1372,
@@ -32442,9 +33049,16 @@
       "results_row": 1372,
       "seat": "ICF_ID4",
       "source_printed_name": "Vitaly ERSHOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "56553",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 56553 (Vitaly ERSHOV), also_ids=['142796', '142796']",
+      "also_ids": [
+        "142796",
+        "142796"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1373,
@@ -32620,10 +33234,13 @@
       "results_row": 1377,
       "seat": "ICF_ID2",
       "source_printed_name": "Ben DUFFY",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Ben DUFFY'; noc=NZL; no profile for given+family",
-      "team": "NZL"
+      "team": "NZL",
+      "new_id": "71999",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 71999 (Benjamin DUFFY), also_ids=[]",
+      "printed_form": "Ben DUFFY",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1377,
@@ -32769,10 +33386,13 @@
       "results_row": 1382,
       "seat": "ICF_ID1",
       "source_printed_name": "Donna Catherine HUTTON",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Donna Catherine HUTTON'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "team": "RSA",
+      "new_id": "64313",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 64313 (Donna HUTTON), also_ids=[]",
+      "printed_form": "Donna Catherine HUTTON",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1382,
@@ -33028,9 +33648,11 @@
       "results_row": 1395,
       "seat": "ICF_ID1",
       "source_printed_name": "Ali ALI AHMED",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "none",
-      "team": "EGY"
+      "team": "EGY",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Ali ALI AHMED (EGY, M)",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Ali ALI AHMED (EGY, M)"
     },
     {
       "results_row": 1395,
@@ -33386,10 +34008,13 @@
       "results_row": 1408,
       "seat": "ICF_ID3",
       "source_printed_name": "Lisa BISSONNETTE",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Lisa BISSONNETTE'; noc=CAN; no profile for given+family",
-      "team": "CAN"
+      "team": "CAN",
+      "new_id": "69144",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 69144 (Lissa BISSONNETTE), also_ids=[]",
+      "printed_form": "Lisa BISSONNETTE",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1408,
@@ -33417,8 +34042,9 @@
       "source_printed_name": "Karina Guadalupe ALANIS",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Karina Guadalupe ALANIS'; noc=MEX; no profile for given+family",
-      "team": "MEX"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Karina Guadalupe ALANIS (MEX, W)",
+      "team": "MEX",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Karina Guadalupe ALANIS (MEX, W)"
     },
     {
       "results_row": 1409,
@@ -33646,8 +34272,9 @@
       "source_printed_name": "Tamas GECSOE",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Tamas GECSOE'; noc=GER; no profile for given+family",
-      "team": "GER"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Tamas GECSOE (GER, M)",
+      "team": "GER",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Tamas GECSOE (GER, M)"
     },
     {
       "results_row": 1415,
@@ -34023,9 +34650,16 @@
       "results_row": 1431,
       "seat": "ICF_ID2",
       "source_printed_name": "Daria KHARCHENKO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "64463",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 64463 (Daria KHARCHENKO), also_ids=['152000', '152000']",
+      "also_ids": [
+        "152000",
+        "152000"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1432,
@@ -34083,8 +34717,9 @@
       "source_printed_name": "Jana JEZOVA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Jana JEZOVA'; noc=CZE; no profile for given+family",
-      "team": "CZE"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)",
+      "team": "CZE",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)"
     },
     {
       "results_row": 1435,
@@ -34192,8 +34827,9 @@
       "source_printed_name": "Esti VAN TONDER",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Esti VAN TONDER'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)",
+      "team": "RSA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)"
     },
     {
       "results_row": 1441,
@@ -34281,16 +34917,23 @@
       "source_printed_name": "Ivana MLADKOVA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Ivana MLADKOVA'; noc=SVK; no profile for given+family",
-      "team": "SVK"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Ivana MLADKOVA (SVK, W)",
+      "team": "SVK",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Ivana MLADKOVA (SVK, W)"
     },
     {
       "results_row": 1450,
       "seat": "ICF_ID1",
       "source_printed_name": "Svetlana CHERNIGOVSKAYA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "42148",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42148 (Svetlana CHERNIGOVSKAYA), also_ids=['142865']",
+      "also_ids": [
+        "142865"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1451,
@@ -34356,10 +34999,13 @@
       "results_row": 1457,
       "seat": "ICF_ID1",
       "source_printed_name": "Donna Catherine HUTTON",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Donna Catherine HUTTON'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "team": "RSA",
+      "new_id": "64313",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 64313 (Donna HUTTON), also_ids=[]",
+      "printed_form": "Donna Catherine HUTTON",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1458,
@@ -34455,9 +35101,16 @@
       "results_row": 1462,
       "seat": "ICF_ID2",
       "source_printed_name": "Maxim SPESIVTSEV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "42145",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42145 (Maxim SPESIVTSEV), also_ids=['142795', '142795']",
+      "also_ids": [
+        "142795",
+        "142795"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1463,
@@ -34593,9 +35246,16 @@
       "results_row": 1469,
       "seat": "ICF_ID2",
       "source_printed_name": "Mikhail PAVLOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "42140",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42140 (Mikhail PAVLOV), also_ids=['142863', '142863']",
+      "also_ids": [
+        "142863",
+        "142863"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1470,
@@ -34761,17 +35421,27 @@
       "results_row": 1478,
       "seat": "ICF_ID1",
       "source_printed_name": "Kseniia KURACH",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "74317",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 74317 (Kseniia KURACH), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1478,
       "seat": "ICF_ID2",
       "source_printed_name": "Olesia ROMASENKO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "52656",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 52656 (Olesia ROMASENKO), also_ids=['142798', '142798']",
+      "also_ids": [
+        "142798",
+        "142798"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1479,
@@ -35107,17 +35777,31 @@
       "results_row": 1500,
       "seat": "ICF_ID1",
       "source_printed_name": "Vladislav LITOVKA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "52654",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 52654 (Vladislav LITOVKA), also_ids=['148094', '148094']",
+      "also_ids": [
+        "148094",
+        "148094"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1500,
       "seat": "ICF_ID2",
       "source_printed_name": "Roman ANOSHKIN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "36146",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 36146 (Roman ANOSHKIN), also_ids=['148091', '148091']",
+      "also_ids": [
+        "148091",
+        "148091"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1501,
@@ -35394,9 +36078,16 @@
       "results_row": 1514,
       "seat": "ICF_ID2",
       "source_printed_name": "Anastasiia DOLGOVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "79481",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 79481 (Anastasiia DOLGOVA), also_ids=['142864', '142864']",
+      "also_ids": [
+        "142864",
+        "142864"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1515,
@@ -35462,10 +36153,13 @@
       "results_row": 1518,
       "seat": "ICF_ID1",
       "source_printed_name": "Donna Catherine HUTTON",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Donna Catherine HUTTON'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "team": "RSA",
+      "new_id": "64313",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 64313 (Donna HUTTON), also_ids=[]",
+      "printed_form": "Donna Catherine HUTTON",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1518,
@@ -35581,17 +36275,27 @@
       "results_row": 1524,
       "seat": "ICF_ID1",
       "source_printed_name": "Kseniia KURACH",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "74317",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 74317 (Kseniia KURACH), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1524,
       "seat": "ICF_ID2",
       "source_printed_name": "Olesia ROMASENKO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "52656",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 52656 (Olesia ROMASENKO), also_ids=['142798', '142798']",
+      "also_ids": [
+        "142798",
+        "142798"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1525,
@@ -35627,9 +36331,16 @@
       "results_row": 1526,
       "seat": "ICF_ID2",
       "source_printed_name": "Daria KHARCHENKO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "64463",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 64463 (Daria KHARCHENKO), also_ids=['152000', '152000']",
+      "also_ids": [
+        "152000",
+        "152000"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1527,
@@ -35725,9 +36436,16 @@
       "results_row": 1531,
       "seat": "ICF_ID2",
       "source_printed_name": "Ivan SHTYL",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "36155",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 36155 (Ivan SHTYL), also_ids=['143110', '143110']",
+      "also_ids": [
+        "143110",
+        "143110"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1532,
@@ -35783,9 +36501,11 @@
       "results_row": 1534,
       "seat": "ICF_ID2",
       "source_printed_name": "Qiang LI",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "none",
-      "team": "CHN"
+      "team": "CHN",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Duisburg_2019_WC",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1535,
@@ -35973,8 +36693,9 @@
       "source_printed_name": "Sergei TOKARNITSKYI",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Sergei TOKARNITSKYI'; noc=KAZ; no profile for given+family",
-      "team": "KAZ"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sergei TOKARNITSKYI (KAZ, M)",
+      "team": "KAZ",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sergei TOKARNITSKYI (KAZ, M)"
     },
     {
       "results_row": 1544,
@@ -36130,9 +36851,16 @@
       "results_row": 1556,
       "seat": "ICF_ID1",
       "source_printed_name": "Ilia SHTOKALOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "36159",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 36159 (Ilia SHTOKALOV), also_ids=['172001', '172001']",
+      "also_ids": [
+        "172001",
+        "172001"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1557,
@@ -36270,8 +36998,9 @@
       "source_printed_name": "Vera SOBETOVA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Vera SOBETOVA'; noc=RUS; no profile for given+family",
-      "team": "RUS"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Vera SOBETOVA (RUS, W)",
+      "team": "RUS",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Vera SOBETOVA (RUS, W)"
     },
     {
       "results_row": 1560,
@@ -36359,8 +37088,9 @@
       "source_printed_name": "Alyce BURNETT",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Alyce BURNETT'; noc=AUS; no profile for given+family",
-      "team": "AUS"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+      "team": "AUS",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)"
     },
     {
       "results_row": 1562,
@@ -36389,8 +37119,9 @@
       "source_printed_name": "Milica STAROVIC",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Milica STAROVIC'; noc=SRB; no profile for given+family",
-      "team": "SRB"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milica STAROVIC (SRB, W)",
+      "team": "SRB",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milica STAROVIC (SRB, W)"
     },
     {
       "results_row": 1563,
@@ -36398,8 +37129,9 @@
       "source_printed_name": "Kristina BEDEC",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Kristina BEDEC'; noc=SRB; no profile for given+family",
-      "team": "SRB"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)",
+      "team": "SRB",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)"
     },
     {
       "results_row": 1563,
@@ -36435,10 +37167,13 @@
       "results_row": 1564,
       "seat": "ICF_ID3",
       "source_printed_name": "Julie Frolund FUNCH",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Julie Frolund FUNCH'; noc=DEN; no profile for given+family",
-      "team": "DEN"
+      "team": "DEN",
+      "new_id": "42847",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 42847 (Julie Froelund FUNCH), also_ids=[]",
+      "printed_form": "Julie Frolund FUNCH",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1564,
@@ -36584,9 +37319,16 @@
       "results_row": 1568,
       "seat": "ICF_ID2",
       "source_printed_name": "Aleksandr SERGEEV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "42144",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42144 (Aleksandr SERGEEV), also_ids=['154256', '154256']",
+      "also_ids": [
+        "154256",
+        "154256"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1568,
@@ -36602,9 +37344,16 @@
       "results_row": 1568,
       "seat": "ICF_ID4",
       "source_printed_name": "Vitaly ERSHOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "56553",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 56553 (Vitaly ERSHOV), also_ids=['142796', '142796']",
+      "also_ids": [
+        "142796",
+        "142796"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1569,
@@ -36672,8 +37421,9 @@
       "source_printed_name": "Marcus WALZ",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Marcus WALZ'; noc=ESP; no profile for given+family",
-      "team": "ESP"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)",
+      "team": "ESP",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)"
     },
     {
       "results_row": 1570,
@@ -36699,9 +37449,12 @@
       "results_row": 1571,
       "seat": "ICF_ID2",
       "source_printed_name": "Joao RIBEIRO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "36453",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 36453 (Joao RIBEIRO)",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1571,
@@ -36848,10 +37601,12 @@
       "seat": "ICF_ID1",
       "source_printed_name": "Hao LIU",
       "action": "corrected",
-      "source": "none",
+      "source": "same_meeting_bind",
       "team": "CHN",
       "new_id": "52165",
-      "detail": "same-meeting bind (contract): 52165 kept on this athlete's other seats in the meeting; profile lacks this event ()"
+      "detail": "same-meeting bind (contract): 52165 kept on this athlete's other seats in the meeting; profile lacks this event ()",
+      "published_id": "",
+      "name_bound_profile": "kept: profile lists 2019 ICF CANOE SPRINT WORLD CUP 2 / C2 Men 500m"
     },
     {
       "results_row": 1575,
@@ -36887,17 +37642,27 @@
       "results_row": 1577,
       "seat": "ICF_ID1",
       "source_printed_name": "Kseniia KURACH",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "74317",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 74317 (Kseniia KURACH), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1577,
       "seat": "ICF_ID2",
       "source_printed_name": "Mikhail PAVLOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "42140",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42140 (Mikhail PAVLOV), also_ids=['142863', '142863']",
+      "also_ids": [
+        "142863",
+        "142863"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1578,
@@ -37033,9 +37798,16 @@
       "results_row": 1584,
       "seat": "ICF_ID2",
       "source_printed_name": "Olesia ROMASENKO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "52656",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 52656 (Olesia ROMASENKO), also_ids=['142798', '142798']",
+      "also_ids": [
+        "142798",
+        "142798"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1585,
@@ -37191,9 +37963,11 @@
       "results_row": 1592,
       "seat": "ICF_ID2",
       "source_printed_name": "Ivan SHTYL",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "none",
-      "team": "SEN|RUS"
+      "team": "SEN|RUS",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Ivan SHTYL (SEN|RUS, X)",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Ivan SHTYL (SEN|RUS, X)"
     },
     {
       "results_row": 1593,
@@ -37241,8 +38015,9 @@
       "source_printed_name": "Marcus WALZ",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Marcus WALZ'; noc=ESP; no profile for given+family",
-      "team": "ESP"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, X)",
+      "team": "ESP",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, X)"
     },
     {
       "results_row": 1595,
@@ -37268,10 +38043,13 @@
       "results_row": 1596,
       "seat": "ICF_ID2",
       "source_printed_name": "Joona MANTYNEN",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Joona MANTYNEN'; noc=FIN; no profile for given+family",
-      "team": "FIN"
+      "team": "FIN",
+      "new_id": "71786",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 71786 (Joona MAENTYNEN), also_ids=[]",
+      "printed_form": "Joona MANTYNEN",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1597,
@@ -37369,8 +38147,9 @@
       "source_printed_name": "Esti VAN TONDER",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Esti VAN TONDER'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, X)",
+      "team": "RSA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, X)"
     },
     {
       "results_row": 1602,
@@ -37478,8 +38257,9 @@
       "source_printed_name": "Milica STAROVIC",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Milica STAROVIC'; noc=SRB; no profile for given+family",
-      "team": "SRB"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milica STAROVIC (SRB, X)",
+      "team": "SRB",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milica STAROVIC (SRB, X)"
     },
     {
       "results_row": 1607,
@@ -37495,10 +38275,13 @@
       "results_row": 1608,
       "seat": "ICF_ID1",
       "source_printed_name": "Lisa BISSONNETTE",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Lisa BISSONNETTE'; noc=CAN; no profile for given+family",
-      "team": "CAN"
+      "team": "CAN",
+      "new_id": "69144",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 69144 (Lissa BISSONNETTE), also_ids=[]",
+      "printed_form": "Lisa BISSONNETTE",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1608,
@@ -37596,8 +38379,9 @@
       "source_printed_name": "Ivana MLADKOVA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Ivana MLADKOVA'; noc=SVK; no profile for given+family",
-      "team": "SVK"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Ivana MLADKOVA (SVK, X)",
+      "team": "SVK",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Ivana MLADKOVA (SVK, X)"
     },
     {
       "results_row": 1613,
@@ -37703,10 +38487,13 @@
       "results_row": 1618,
       "seat": "ICF_ID2",
       "source_printed_name": "Miika NYKANEN",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Miika NYKANEN'; noc=FIN; no profile for given+family",
-      "team": "FIN"
+      "team": "FIN",
+      "new_id": "36596",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 36596 (Miika NYKAENEN), also_ids=[]",
+      "printed_form": "Miika NYKANEN",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1619,
@@ -37733,10 +38520,12 @@
       "seat": "ICF_ID1",
       "source_printed_name": "Hao LIU",
       "action": "corrected",
-      "source": "none",
+      "source": "same_meeting_bind",
       "team": "CHN",
       "new_id": "52165",
-      "detail": "same-meeting bind (contract): 52165 kept on this athlete's other seats in the meeting; profile lacks this event ()"
+      "detail": "same-meeting bind (contract): 52165 kept on this athlete's other seats in the meeting; profile lacks this event ()",
+      "published_id": "",
+      "name_bound_profile": "kept: profile lists 2019 ICF CANOE SPRINT WORLD CUP 2 / C2 Men 500m"
     },
     {
       "results_row": 1620,
@@ -37782,9 +38571,16 @@
       "results_row": 1622,
       "seat": "ICF_ID2",
       "source_printed_name": "Olesia ROMASENKO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "52656",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 52656 (Olesia ROMASENKO), also_ids=['142798', '142798']",
+      "also_ids": [
+        "142798",
+        "142798"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1623,
@@ -37810,17 +38606,27 @@
       "results_row": 1624,
       "seat": "ICF_ID1",
       "source_printed_name": "Kseniia KURACH",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "74317",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 74317 (Kseniia KURACH), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1624,
       "seat": "ICF_ID2",
       "source_printed_name": "Mikhail PAVLOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "42140",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42140 (Mikhail PAVLOV), also_ids=['142863', '142863']",
+      "also_ids": [
+        "142863",
+        "142863"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1625,
@@ -38048,8 +38854,9 @@
       "source_printed_name": "Ivana MLADKOVA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Ivana MLADKOVA'; noc=SVK; no profile for given+family",
-      "team": "SVK"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Ivana MLADKOVA (SVK, X)",
+      "team": "SVK",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Ivana MLADKOVA (SVK, X)"
     },
     {
       "results_row": 1636,
@@ -38375,9 +39182,16 @@
       "results_row": 1667,
       "seat": "ICF_ID1",
       "source_printed_name": "Ilia SHTOKALOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "36159",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 36159 (Ilia SHTOKALOV), also_ids=['172001', '172001']",
+      "also_ids": [
+        "172001",
+        "172001"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1668,
@@ -38535,8 +39349,9 @@
       "source_printed_name": "Alyce BURNETT",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Alyce BURNETT'; noc=AUS; no profile for given+family",
-      "team": "AUS"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+      "team": "AUS",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)"
     },
     {
       "results_row": 1684,
@@ -38585,8 +39400,9 @@
       "source_printed_name": "Kristina BEDEC",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Kristina BEDEC'; noc=SRB; no profile for given+family",
-      "team": "SRB"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)",
+      "team": "SRB",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)"
     },
     {
       "results_row": 1689,
@@ -38714,8 +39530,9 @@
       "source_printed_name": "Jitta LAAN VAN DER",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Jitta LAAN VAN DER'; noc=NED; no profile for given+family",
-      "team": "NED"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jitta LAAN VAN DER (NED, W)",
+      "team": "NED",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jitta LAAN VAN DER (NED, W)"
     },
     {
       "results_row": 1702,
@@ -39001,9 +39818,16 @@
       "results_row": 1730,
       "seat": "ICF_ID1",
       "source_printed_name": "Maxim SPESIVTSEV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "42145",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42145 (Maxim SPESIVTSEV), also_ids=['142795', '142795']",
+      "also_ids": [
+        "142795",
+        "142795"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1731,
@@ -39199,9 +40023,15 @@
       "results_row": 1750,
       "seat": "ICF_ID1",
       "source_printed_name": "Joaquim MANHIQUE",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "MOZ"
+      "team": "MOZ",
+      "new_id": "63206",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 63206 (Joaquim MANHIQUE), also_ids=['130425']",
+      "also_ids": [
+        "130425"
+      ],
+      "name_bound_profile": "kept: profile lists Duisburg_2019_WC"
     },
     {
       "results_row": 1751,
@@ -39232,28 +40062,6 @@
       "new_id": "64645",
       "team": "ITA",
       "name_bound_profile": "kept: profile lists 2019 ICF CANOE SPRINT WORLD CUP 2 / K1 Men 5000m"
-    },
-    {
-      "results_row": 1575,
-      "seat": "ICF_ID1",
-      "published_id": "",
-      "source_printed_name": "Hao LIU",
-      "action": "corrected",
-      "source": "same_meeting_bind",
-      "new_id": "52165",
-      "team": "CHN",
-      "name_bound_profile": "kept: profile lists 2019 ICF CANOE SPRINT WORLD CUP 2 / C2 Men 500m"
-    },
-    {
-      "results_row": 1620,
-      "seat": "ICF_ID1",
-      "published_id": "",
-      "source_printed_name": "Hao LIU",
-      "action": "corrected",
-      "source": "same_meeting_bind",
-      "new_id": "52165",
-      "team": "CHN",
-      "name_bound_profile": "kept: profile lists 2019 ICF CANOE SPRINT WORLD CUP 2 / C2 Men 500m"
     }
   ],
   "bib_boat": "intentionally_empty",
@@ -40067,21 +40875,21 @@
     {
       "kind": "xlsx",
       "name": "Duisburg_2019_WC_Results.xlsx",
-      "sha256": "6a7f171ebdc494c8dcaf379a1b271ba4b6dd64cc67e1fbd6f31f446080a9d6ee",
-      "bytes": 141836
+      "sha256": "9209fddcaa8071b7ed0ce1ad45f10a588a84b3e3ea7fdc5791e97bdb411bf594",
+      "bytes": 143630
     }
   ],
   "output_xlsx": "Duisburg_2019_WC_Results.xlsx",
-  "output_xlsx_sha256": "6a7f171ebdc494c8dcaf379a1b271ba4b6dd64cc67e1fbd6f31f446080a9d6ee",
+  "output_xlsx_sha256": "9209fddcaa8071b7ed0ce1ad45f10a588a84b3e3ea7fdc5791e97bdb411bf594",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
     "crews": "pass",
     "OBS": "pass",
     "RANK vs official results": "pass",
-    "PERSONS vs ICF": "not_run",
-    "repairs": "not_run",
-    "fixtures": "not_run"
+    "PERSONS vs ICF": "pass",
+    "repairs": "pass",
+    "fixtures": "pass"
   },
   "semi_tiers": [],
   "audit": {
@@ -40103,14 +40911,17 @@
     "completed": true,
     "profiles_checked": 596,
     "same_meeting_unified": 57,
-    "rule": "2013+ name-bound ids kept only if PWW profile lists competition+event",
+    "rule": "MAINTAINER_ANSWERS_2026-10-23 Rules 1-5 + same-meeting unification",
     "competition_regex": "2019.*WORLD.CUP.*(DUISBURG|2)",
     "kept": 2436,
-    "emptied": 109,
+    "emptied": 0,
     "persons_dropped": 0,
-    "olympic": false
+    "olympic": false,
+    "newly_bound_t59": 139,
+    "no_icf_id_t59": 86,
+    "same_meeting_unified_t59": 0
   },
-  "updated_at": "2026-10-17T15:54:46Z",
+  "updated_at": "2026-10-23T19:39:26Z",
   "name_change_log": [
     {
       "results_row": 266,
@@ -40222,5 +41033,207 @@
       "evidence": "profile lists 2019 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 1000m",
       "was": "no_icf_id"
     }
-  ]
+  ],
+  "printed_field_counts": {
+    "source": "boats per race as parsed from the published source ( +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  + ); back-filled 2026-10-19 from the published RESULTS (the builder parse), race coverage cross-checked independently by GATE10b",
+    "rule": "MAINTAINER_ANSWERS_2026-10-18c Fix 1: printed count decides",
+    "counts": {
+      "1": 9,
+      "2": 9,
+      "3": 9,
+      "4": 9,
+      "5": 9,
+      "6": 9,
+      "8": 9,
+      "9": 9,
+      "10": 9,
+      "11": 8,
+      "12": 8,
+      "13": 8,
+      "14": 8,
+      "15": 9,
+      "16": 9,
+      "17": 9,
+      "18": 9,
+      "19": 8,
+      "20": 9,
+      "21": 9,
+      "22": 8,
+      "23": 8,
+      "24": 8,
+      "25": 8,
+      "26": 8,
+      "27": 9,
+      "28": 9,
+      "29": 9,
+      "30": 9,
+      "31": 7,
+      "32": 6,
+      "33": 6,
+      "34": 9,
+      "35": 9,
+      "36": 9,
+      "37": 9,
+      "38": 8,
+      "39": 8,
+      "40": 9,
+      "41": 8,
+      "42": 9,
+      "43": 9,
+      "44": 9,
+      "45": 9,
+      "46": 9,
+      "47": 9,
+      "48": 9,
+      "49": 9,
+      "50": 8,
+      "51": 8,
+      "52": 9,
+      "53": 9,
+      "54": 9,
+      "55": 9,
+      "56": 9,
+      "57": 9,
+      "58": 9,
+      "59": 9,
+      "60": 9,
+      "61": 9,
+      "62": 9,
+      "63": 9,
+      "64": 9,
+      "65": 8,
+      "66": 8,
+      "67": 8,
+      "68": 8,
+      "69": 8,
+      "70": 8,
+      "71": 8,
+      "72": 8,
+      "73": 9,
+      "74": 9,
+      "75": 9,
+      "76": 8,
+      "77": 7,
+      "78": 9,
+      "79": 9,
+      "80": 9,
+      "81": 9,
+      "82": 9,
+      "83": 9,
+      "84": 9,
+      "85": 9,
+      "86": 9,
+      "87": 9,
+      "89": 9,
+      "90": 9,
+      "91": 9,
+      "92": 9,
+      "93": 9,
+      "94": 9,
+      "95": 9,
+      "96": 9,
+      "97": 9,
+      "98": 9,
+      "99": 9,
+      "100": 9,
+      "101": 9,
+      "102": 9,
+      "103": 9,
+      "104": 9,
+      "105": 9,
+      "106": 9,
+      "107": 9,
+      "108": 9,
+      "109": 9,
+      "110": 9,
+      "111": 9,
+      "112": 9,
+      "113": 9,
+      "114": 9,
+      "115": 9,
+      "116": 9,
+      "117": 9,
+      "118": 9,
+      "119": 9,
+      "120": 9,
+      "121": 9,
+      "122": 9,
+      "123": 9,
+      "124": 9,
+      "125": 9,
+      "126": 9,
+      "127": 9,
+      "128": 9,
+      "129": 9,
+      "130": 9,
+      "131": 9,
+      "132": 9,
+      "133": 9,
+      "134": 9,
+      "135": 9,
+      "136": 7,
+      "137": 6,
+      "138": 9,
+      "139": 9,
+      "140": 6,
+      "141": 6,
+      "142": 7,
+      "143": 7,
+      "144": 8,
+      "145": 8,
+      "146": 7,
+      "147": 7,
+      "148": 8,
+      "149": 8,
+      "150": 7,
+      "151": 9,
+      "152": 8,
+      "153": 8,
+      "154": 8,
+      "155": 9,
+      "156": 9,
+      "157": 9,
+      "158": 9,
+      "159": 9,
+      "160": 9,
+      "161": 9,
+      "162": 9,
+      "163": 8,
+      "164": 4,
+      "165": 5,
+      "166": 7,
+      "167": 9,
+      "168": 9,
+      "169": 9,
+      "170": 9,
+      "171": 9,
+      "172": 9,
+      "173": 9,
+      "174": 9,
+      "175": 9,
+      "176": 9,
+      "177": 9,
+      "178": 9,
+      "179": 9,
+      "180": 9,
+      "181": 9,
+      "182": 9,
+      "183": 9,
+      "184": 9,
+      "185": 9,
+      "186": 9,
+      "187": 9,
+      "188": 9,
+      "189": 9,
+      "190": 9,
+      "191": 9,
+      "192": 9,
+      "193": 18,
+      "194": 27,
+      "195": 30,
+      "196": 41
+    },
+    "backfilled": "2026-10-19"
+  },
+  "nation_change_log": []
 }

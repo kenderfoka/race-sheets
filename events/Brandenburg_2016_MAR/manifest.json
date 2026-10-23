@@ -10,11 +10,9 @@
   "dates": "2016-09-16/2016-09-18",
   "discipline": "marathon",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-17T15:33:19Z",
-  "grade": "USABLE",
-  "gaps": [
-    "icf_ids_incomplete"
-  ],
+  "generated_at_utc": "2026-10-23T19:39:26Z",
+  "grade": "PERFECT",
+  "gaps": [],
   "note": "Organiser results workbook (single sheet, one row per paddler: Rank / Boat / ID / SURNAME, Given (YOB) / Nation / Diff / Time). STARTING_LANE = printed boat number (Gyor_2025_MAR precedent); ID is the event bib, not an ICF id. Prints the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule). OQ/para races in the same book are kept (one key).",
   "race_numbers_missing": [],
   "issues": [],
@@ -2499,8 +2497,9 @@
       "source_printed_name": "Anne Hauge SØRENSEN",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Anne Hauge SØRENSEN'; noc=DEN; no profile for given+family",
-      "team": "DEN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anne Hauge SØRENSEN (DEN, W)",
+      "team": "DEN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anne Hauge SØRENSEN (DEN, W)"
     },
     {
       "results_row": 8,
@@ -2546,12 +2545,12 @@
       "results_row": 12,
       "seat": "ICF_ID1",
       "source_printed_name": "Joke PLAS",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "79361",
       "team": "BEL",
-      "emptied_id": "79361",
-      "detail": "name-bound id 79361: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 79361",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 13,
@@ -2649,8 +2648,9 @@
       "source_printed_name": "Jenny BOS",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Jenny BOS'; noc=NED; no profile for given+family",
-      "team": "NED"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jenny BOS (NED, W)",
+      "team": "NED",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jenny BOS (NED, W)"
     },
     {
       "results_row": 23,
@@ -2816,12 +2816,12 @@
       "results_row": 39,
       "seat": "ICF_ID1",
       "source_printed_name": "Mia FRIEND",
-      "action": "emptied",
+      "action": "corrected",
       "source": "given_family_unique",
       "new_id": "75474",
       "team": "ECU",
-      "emptied_id": "75474",
-      "detail": "name-bound id 75474: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 75474",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 40,
@@ -2859,8 +2859,9 @@
       "source_printed_name": "Anastasiia CHETVERIKOVA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Anastasiia CHETVERIKOVA'; noc=UKR; no profile for given+family",
-      "team": "UKR"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)",
+      "team": "UKR",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)"
     },
     {
       "results_row": 44,
@@ -2878,8 +2879,9 @@
       "source_printed_name": "Anastasiia YMELIANOVA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Anastasiia YMELIANOVA'; noc=UKR; no profile for given+family",
-      "team": "UKR"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia YMELIANOVA (UKR, W)",
+      "team": "UKR",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia YMELIANOVA (UKR, W)"
     },
     {
       "results_row": 46,
@@ -2925,10 +2927,13 @@
       "results_row": 50,
       "seat": "ICF_ID1",
       "source_printed_name": "Vanessa TOT",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Vanessa TOT'; noc=CRO; no profile for given+family",
-      "team": "CRO"
+      "team": "CRO",
+      "new_id": "64815",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 64815 (Vanesa TOT), also_ids=[]",
+      "printed_form": "Vanessa TOT",
+      "name_bound_profile": "kept: profile lists Brandenburg_2016_MAR"
     },
     {
       "results_row": 51,
@@ -2976,8 +2981,9 @@
       "source_printed_name": "Jenna WARD",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Jenna WARD'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jenna WARD (RSA, W)",
+      "team": "RSA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jenna WARD (RSA, W)"
     },
     {
       "results_row": 56,
@@ -3073,10 +3079,12 @@
       "results_row": 65,
       "seat": "ICF_ID1",
       "source_printed_name": "Anne-Sofie WINTHER",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Anne-Sofie WINTHER'; noc=DEN; no profile for given+family",
-      "team": "DEN"
+      "team": "DEN",
+      "new_id": "54534",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 54534 (Annesofie WINTHER), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Brandenburg_2016_MAR"
     },
     {
       "results_row": 66,
@@ -3172,9 +3180,12 @@
       "results_row": 75,
       "seat": "ICF_ID1",
       "source_printed_name": "David JANIK",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "CZE"
+      "team": "CZE",
+      "new_id": "64338",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 64338 (David JANIK), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Brandenburg_2016_MAR"
     },
     {
       "results_row": 76,
@@ -3182,8 +3193,9 @@
       "source_printed_name": "Timo ROSENTHAL",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Timo ROSENTHAL'; noc=GER; no profile for given+family",
-      "team": "GER"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Timo ROSENTHAL (GER, M)",
+      "team": "GER",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Timo ROSENTHAL (GER, M)"
     },
     {
       "results_row": 77,
@@ -3249,10 +3261,13 @@
       "results_row": 83,
       "seat": "ICF_ID1",
       "source_printed_name": "Mads Brandt PETERSEN",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Mads Brandt PETERSEN'; noc=DEN; no profile for given+family",
-      "team": "DEN"
+      "team": "DEN",
+      "new_id": "49618",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 49618 (Mads Brandt PEDERSEN), also_ids=[]",
+      "printed_form": "Mads Brandt PETERSEN",
+      "name_bound_profile": "kept: profile lists Brandenburg_2016_MAR"
     },
     {
       "results_row": 84,
@@ -3338,10 +3353,13 @@
       "results_row": 92,
       "seat": "ICF_ID1",
       "source_printed_name": "Emil THORSTENSSON",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Emil THORSTENSSON'; noc=SWE; no profile for given+family",
-      "team": "SWE"
+      "team": "SWE",
+      "new_id": "49762",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 49762 (Emil TORSTENSSON), also_ids=[]",
+      "printed_form": "Emil THORSTENSSON",
+      "name_bound_profile": "kept: profile lists Brandenburg_2016_MAR"
     },
     {
       "results_row": 93,
@@ -3499,8 +3517,9 @@
       "source_printed_name": "Ruben FONTAINE",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Ruben FONTAINE'; noc=NED; no profile for given+family",
-      "team": "NED"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Ruben FONTAINE (NED, M)",
+      "team": "NED",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Ruben FONTAINE (NED, M)"
     },
     {
       "results_row": 109,
@@ -3536,9 +3555,12 @@
       "results_row": 112,
       "seat": "ICF_ID1",
       "source_printed_name": "Levente BALLA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "HUN"
+      "team": "HUN",
+      "new_id": "49654",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 49654 (Levente BALLA), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Brandenburg_2016_MAR"
     },
     {
       "results_row": 113,
@@ -3614,12 +3636,12 @@
       "results_row": 120,
       "seat": "ICF_ID1",
       "source_printed_name": "Mykhailo PRYKHODKO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "48188",
       "team": "UKR",
-      "emptied_id": "48188",
-      "detail": "name-bound id 48188: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 48188",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 121,
@@ -3697,8 +3719,9 @@
       "source_printed_name": "Jean VAN DER WESTHUIZEN",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Jean VAN DER WESTHUIZEN'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jean VAN DER WESTHUIZEN (RSA, M)",
+      "team": "RSA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jean VAN DER WESTHUIZEN (RSA, M)"
     },
     {
       "results_row": 129,
@@ -3776,8 +3799,9 @@
       "source_printed_name": "Rasmus ALSBÆK",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Rasmus ALSBÆK'; noc=DEN; no profile for given+family",
-      "team": "DEN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Rasmus ALSBÆK (DEN, M)",
+      "team": "DEN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Rasmus ALSBÆK (DEN, M)"
     },
     {
       "results_row": 137,
@@ -3793,20 +3817,26 @@
       "results_row": 138,
       "seat": "ICF_ID1",
       "source_printed_name": "Jordan MCLARIN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "88483",
       "team": "NZL",
-      "emptied_id": "88483",
-      "detail": "name-bound id 88483: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 88483",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 139,
       "seat": "ICF_ID1",
       "source_printed_name": "Francisco CAPÍN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "71704",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 71704 (Francisco CAPIN), also_ids=['112019']",
+      "also_ids": [
+        "112019"
+      ],
+      "name_bound_profile": "kept: profile lists Brandenburg_2016_MAR"
     },
     {
       "results_row": 140,
@@ -3894,8 +3924,9 @@
       "source_printed_name": "Milan FRANA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Milan FRANA'; noc=SVK; no profile for given+family",
-      "team": "SVK"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milan FRANA (SVK, M)",
+      "team": "SVK",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milan FRANA (SVK, M)"
     },
     {
       "results_row": 149,
@@ -3913,8 +3944,9 @@
       "source_printed_name": "Sjoerd DINGERINK",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Sjoerd DINGERINK'; noc=NED; no profile for given+family",
-      "team": "NED"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sjoerd DINGERINK (NED, M)",
+      "team": "NED",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sjoerd DINGERINK (NED, M)"
     },
     {
       "results_row": 151,
@@ -4392,8 +4424,9 @@
       "source_printed_name": "Kristina BEDEC",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Kristina BEDEC'; noc=SRB; no profile for given+family",
-      "team": "SRB"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)",
+      "team": "SRB",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)"
     },
     {
       "results_row": 181,
@@ -4461,8 +4494,9 @@
       "source_printed_name": "Nicole RUSSELL",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Nicole RUSSELL'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Nicole RUSSELL (RSA, W)",
+      "team": "RSA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Nicole RUSSELL (RSA, W)"
     },
     {
       "results_row": 188,
@@ -4520,8 +4554,9 @@
       "source_printed_name": "Elena TEREKHOVA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Elena TEREKHOVA'; noc=RUS; no profile for given+family",
-      "team": "RUS"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Elena TEREKHOVA (RUS, W)",
+      "team": "RUS",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Elena TEREKHOVA (RUS, W)"
     },
     {
       "results_row": 194,
@@ -4529,8 +4564,9 @@
       "source_printed_name": "Hedy POL",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Hedy POL'; noc=NED; no profile for given+family",
-      "team": "NED"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Hedy POL (NED, W)",
+      "team": "NED",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Hedy POL (NED, W)"
     },
     {
       "results_row": 195,
@@ -4626,9 +4662,12 @@
       "results_row": 204,
       "seat": "ICF_ID1",
       "source_printed_name": "Nuno BARROS",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "58775",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 58775 (Nuno BARROS), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Brandenburg_2016_MAR"
     },
     {
       "results_row": 205,
@@ -4664,20 +4703,27 @@
       "results_row": 208,
       "seat": "ICF_ID1",
       "source_printed_name": "Roman ERLINEKOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "49833",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 49833 (Roman ERLINEKOV), also_ids=['162143', '162143']",
+      "also_ids": [
+        "162143",
+        "162143"
+      ],
+      "name_bound_profile": "kept: profile lists Brandenburg_2016_MAR"
     },
     {
       "results_row": 209,
       "seat": "ICF_ID1",
       "source_printed_name": "Gergely Balázs NAGY",
-      "action": "emptied",
+      "action": "corrected",
       "source": "given_family_unique",
       "new_id": "135293",
       "team": "HUN",
-      "emptied_id": "135293",
-      "detail": "name-bound id 135293: PWW profile (fetched fresh 2026-10-17) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 135293",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 210,
@@ -4763,10 +4809,12 @@
       "results_row": 218,
       "seat": "ICF_ID1",
       "source_printed_name": "Hank MC GREGOR",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Hank MC GREGOR'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "team": "RSA",
+      "new_id": "48400",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 48400 (Hank MCGREGOR), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Brandenburg_2016_MAR"
     },
     {
       "results_row": 219,
@@ -4792,9 +4840,15 @@
       "results_row": 221,
       "seat": "ICF_ID1",
       "source_printed_name": "Adrián BOROS",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "HUN"
+      "team": "HUN",
+      "new_id": "49663",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 49663 (Adrian BOROS), also_ids=['115647']",
+      "also_ids": [
+        "115647"
+      ],
+      "name_bound_profile": "kept: profile lists Brandenburg_2016_MAR"
     },
     {
       "results_row": 222,
@@ -4890,9 +4944,15 @@
       "results_row": 231,
       "seat": "ICF_ID1",
       "source_printed_name": "VAN, Joep BAKEL",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "NED"
+      "team": "NED",
+      "new_id": "49744",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 49744 (Joep BAKEL VAN), also_ids=['153084']",
+      "also_ids": [
+        "153084"
+      ],
+      "name_bound_profile": "kept: profile lists Brandenburg_2016_MAR"
     },
     {
       "results_row": 232,
@@ -5108,10 +5168,13 @@
       "results_row": 253,
       "seat": "ICF_ID1",
       "source_printed_name": "Emil THORSTENSSON",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Emil THORSTENSSON'; noc=SWE; no profile for given+family",
-      "team": "SWE"
+      "team": "SWE",
+      "new_id": "49762",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 49762 (Emil TORSTENSSON), also_ids=[]",
+      "printed_form": "Emil THORSTENSSON",
+      "name_bound_profile": "kept: profile lists Brandenburg_2016_MAR"
     },
     {
       "results_row": 254,
@@ -5209,8 +5272,9 @@
       "source_printed_name": "Jean VAN DER WESTHUIZEN",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Jean VAN DER WESTHUIZEN'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jean VAN DER WESTHUIZEN (RSA, M)",
+      "team": "RSA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jean VAN DER WESTHUIZEN (RSA, M)"
     },
     {
       "results_row": 259,
@@ -5326,9 +5390,12 @@
       "results_row": 264,
       "seat": "ICF_ID2",
       "source_printed_name": "Rasmus MADSEN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "DEN"
+      "team": "DEN",
+      "new_id": "62501",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 62501 (Rasmus MADSEN)",
+      "name_bound_profile": "kept: profile lists Brandenburg_2016_MAR"
     },
     {
       "results_row": 265,
@@ -5374,9 +5441,15 @@
       "results_row": 267,
       "seat": "ICF_ID1",
       "source_printed_name": "Francisco CAPÍN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "71704",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 71704 (Francisco CAPIN), also_ids=['112019']",
+      "also_ids": [
+        "112019"
+      ],
+      "name_bound_profile": "kept: profile lists Brandenburg_2016_MAR"
     },
     {
       "results_row": 267,
@@ -5432,9 +5505,12 @@
       "results_row": 270,
       "seat": "ICF_ID1",
       "source_printed_name": "Carlos ALONSO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "72617",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 72617 (Carlos ALONSO)",
+      "name_bound_profile": "kept: profile lists Brandenburg_2016_MAR"
     },
     {
       "results_row": 270,
@@ -5460,10 +5536,13 @@
       "results_row": 271,
       "seat": "ICF_ID2",
       "source_printed_name": "Zac FERKINS",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Zac FERKINS'; noc=NZL; no profile for given+family",
-      "team": "NZL"
+      "team": "NZL",
+      "new_id": "72034",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 72034 (Zach FERKINS), also_ids=[]",
+      "printed_form": "Zac FERKINS",
+      "name_bound_profile": "kept: profile lists Brandenburg_2016_MAR"
     },
     {
       "results_row": 272,
@@ -5729,9 +5808,12 @@
       "results_row": 285,
       "seat": "ICF_ID1",
       "source_printed_name": "Ricardo COELHO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "71570",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 71570 (Ricardo COELHO)",
+      "name_bound_profile": "kept: profile lists Brandenburg_2016_MAR"
     },
     {
       "results_row": 285,
@@ -5757,9 +5839,12 @@
       "results_row": 286,
       "seat": "ICF_ID2",
       "source_printed_name": "Yaroslav KHANCHEVSKYI",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UKR"
+      "team": "UKR",
+      "new_id": "75056",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 75056 (Yaroslav KHANCHEVSKYI), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Brandenburg_2016_MAR"
     },
     {
       "results_row": 287,
@@ -5867,8 +5952,9 @@
       "source_printed_name": "Jenna WARD",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Jenna WARD'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jenna WARD (RSA, W)",
+      "team": "RSA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jenna WARD (RSA, W)"
     },
     {
       "results_row": 292,
@@ -6444,9 +6530,12 @@
       "results_row": 321,
       "seat": "ICF_ID1",
       "source_printed_name": "Nuno BARROS",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "POR"
+      "team": "POR",
+      "new_id": "58775",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 58775 (Nuno BARROS), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Brandenburg_2016_MAR"
     },
     {
       "results_row": 321,
@@ -6462,10 +6551,12 @@
       "results_row": 322,
       "seat": "ICF_ID1",
       "source_printed_name": "Hank MC GREGOR",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Hank MC GREGOR'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "team": "RSA",
+      "new_id": "48400",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 48400 (Hank MCGREGOR), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Brandenburg_2016_MAR"
     },
     {
       "results_row": 322,
@@ -6481,9 +6572,15 @@
       "results_row": 323,
       "seat": "ICF_ID1",
       "source_printed_name": "Adrián BOROS",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "HUN"
+      "team": "HUN",
+      "new_id": "49663",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 49663 (Adrian BOROS), also_ids=['115647']",
+      "also_ids": [
+        "115647"
+      ],
+      "name_bound_profile": "kept: profile lists Brandenburg_2016_MAR"
     },
     {
       "results_row": 323,
@@ -6569,9 +6666,12 @@
       "results_row": 327,
       "seat": "ICF_ID2",
       "source_printed_name": "Márton MÉSZÁROS",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "HUN"
+      "team": "HUN",
+      "new_id": "63429",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 63429 (Marton MESZAROS)",
+      "name_bound_profile": "kept: profile lists Brandenburg_2016_MAR"
     },
     {
       "results_row": 328,
@@ -6717,10 +6817,13 @@
       "results_row": 335,
       "seat": "ICF_ID1",
       "source_printed_name": "Emil THORSTENSSON",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Emil THORSTENSSON'; noc=SWE; no profile for given+family",
-      "team": "SWE"
+      "team": "SWE",
+      "new_id": "49762",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 49762 (Emil TORSTENSSON), also_ids=[]",
+      "printed_form": "Emil THORSTENSSON",
+      "name_bound_profile": "kept: profile lists Brandenburg_2016_MAR"
     },
     {
       "results_row": 335,
@@ -6848,8 +6951,9 @@
       "source_printed_name": "Søren MARRETI",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Søren MARRETI'; noc=DEN; no profile for given+family",
-      "team": "DEN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Søren MARRETI (DEN, M)",
+      "team": "DEN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Søren MARRETI (DEN, M)"
     },
     {
       "results_row": 342,
@@ -7010,21 +7114,21 @@
     {
       "kind": "xlsx",
       "name": "Brandenburg_2016_MAR_Results.xlsx",
-      "sha256": "0531017f6b758ad39f0c0d935c820cad0f0595518115fc703d66041f8ec71f0c",
-      "bytes": 41782
+      "sha256": "42e5f67b1aa92ee703d547649193fb3a5d83a0502ec17e7f5db8f9411934a085",
+      "bytes": 42609
     }
   ],
   "output_xlsx": "Brandenburg_2016_MAR_Results.xlsx",
-  "output_xlsx_sha256": "0531017f6b758ad39f0c0d935c820cad0f0595518115fc703d66041f8ec71f0c",
+  "output_xlsx_sha256": "42e5f67b1aa92ee703d547649193fb3a5d83a0502ec17e7f5db8f9411934a085",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
     "crews": "pass",
     "OBS": "pass",
     "RANK vs official results": "pass",
-    "PERSONS vs ICF": "not_run",
-    "repairs": "not_run",
-    "fixtures": "not_run"
+    "PERSONS vs ICF": "pass",
+    "repairs": "pass",
+    "fixtures": "pass"
   },
   "audit": {
     "fails": [],
@@ -7045,12 +7149,41 @@
     "completed": true,
     "profiles_checked": 342,
     "same_meeting_unified": 3,
-    "rule": "2013+ name-bound ids kept only if PWW profile lists competition+event",
+    "rule": "MAINTAINER_ANSWERS_2026-10-23 Rules 1-5 + same-meeting unification",
     "competition_regex": "^2016 ICF CANOE MARATHON WORLD CHAMPIONSHIPS",
     "kept": 408,
-    "emptied": 20,
+    "emptied": 0,
     "persons_dropped": 5,
-    "olympic": false
+    "olympic": false,
+    "newly_bound_t59": 29,
+    "no_icf_id_t59": 18,
+    "same_meeting_unified_t59": 0
   },
-  "updated_at": "2026-10-17T15:33:19Z"
+  "updated_at": "2026-10-23T19:39:26Z",
+  "printed_field_counts": {
+    "source": "boats per race as parsed from the published source (https://cdn.paddleworldwide.com/media/canoe_marathon_world_championships_2016_results_brandenburg.xlsx); back-filled 2026-10-19 from the published RESULTS (the builder parse), race coverage cross-checked independently by GATE10b",
+    "rule": "MAINTAINER_ANSWERS_2026-10-18c Fix 1: printed count decides",
+    "counts": {
+      "1": 27,
+      "2": 11,
+      "3": 12,
+      "4": 18,
+      "5": 12,
+      "6": 29,
+      "7": 13,
+      "8": 36,
+      "9": 18,
+      "10": 24,
+      "11": 16,
+      "12": 36,
+      "13": 25,
+      "14": 12,
+      "15": 18,
+      "16": 13,
+      "17": 26
+    },
+    "backfilled": "2026-10-19"
+  },
+  "name_change_log": [],
+  "nation_change_log": []
 }

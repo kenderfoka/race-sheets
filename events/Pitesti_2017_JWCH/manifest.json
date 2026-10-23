@@ -10,11 +10,9 @@
   "dates": "2017-07-27/2017-07-30",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-17T15:54:46Z",
-  "grade": "USABLE",
-  "gaps": [
-    "icf_ids_incomplete"
-  ],
+  "generated_at_utc": "2026-10-23T19:39:26Z",
+  "grade": "PERFECT",
+  "gaps": [],
   "note": "MemoSoft results book (Spotfokus hub dead) prints the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule). OQ/para races in the same book are kept (one key).",
   "race_numbers_missing": [],
   "issues": [],
@@ -15755,12 +15753,12 @@
       "results_row": 7,
       "seat": "ICF_ID1",
       "source_printed_name": "Julija GUTOVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "72170",
       "team": "LAT",
-      "emptied_id": "72170",
-      "detail": "name-bound id 72170: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 72170",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 8,
@@ -16096,10 +16094,13 @@
       "results_row": 27,
       "seat": "ICF_ID3",
       "source_printed_name": "Elena RICCHERO",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Elena RICCHERO'; noc=ITA; no profile for given+family",
-      "team": "ITA"
+      "team": "ITA",
+      "new_id": "72768",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 72768 (Elena RICCHIERO), also_ids=[]",
+      "printed_form": "Elena RICCHERO",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 27,
@@ -16366,9 +16367,15 @@
       "results_row": 34,
       "seat": "ICF_ID2",
       "source_printed_name": "Jemma SMITH",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "AUS"
+      "team": "AUS",
+      "new_id": "79452",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 79452 (Jemma SMITH), also_ids=['100256']",
+      "also_ids": [
+        "100256"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 34,
@@ -16416,8 +16423,9 @@
       "source_printed_name": "Darya RAZUMOVICH",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Darya RAZUMOVICH'; noc=KAZ; no profile for given+family",
-      "team": "KAZ"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Darya RAZUMOVICH (KAZ, W)",
+      "team": "KAZ",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Darya RAZUMOVICH (KAZ, W)"
     },
     {
       "results_row": 35,
@@ -16433,12 +16441,11 @@
       "results_row": 36,
       "seat": "ICF_ID1",
       "source_printed_name": "Samalulu CLIFTON",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "given_family_unique",
-      "new_id": "142039",
       "team": "NZL",
-      "emptied_id": "142039",
-      "detail": "name-bound id 142039: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)"
     },
     {
       "results_row": 36,
@@ -16484,9 +16491,12 @@
       "results_row": 37,
       "seat": "ICF_ID2",
       "source_printed_name": "Kiana KAMALZADEH",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "IRI"
+      "team": "IRI",
+      "new_id": "61474",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 61474 (Kiana KAMALZADEH), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 37,
@@ -16632,25 +16642,43 @@
       "results_row": 41,
       "seat": "ICF_ID1",
       "source_printed_name": "Lizaveta VILKOVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "165786",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 165786 (Lizaveta VILKOVA), also_ids=['75429']",
+      "also_ids": [
+        "75429"
+      ],
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate)"
     },
     {
       "results_row": 41,
       "seat": "ICF_ID2",
       "source_printed_name": "Alina SVITA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "71951",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 71951 (Alina SVITA), also_ids=['142847']",
+      "also_ids": [
+        "142847"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 41,
       "seat": "ICF_ID3",
       "source_printed_name": "Veranika LEANIUK",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "76730",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 76730 (Veranika LEANIUK), also_ids=['142848']",
+      "also_ids": [
+        "142848"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 41,
@@ -16696,9 +16724,15 @@
       "results_row": 42,
       "seat": "ICF_ID4",
       "source_printed_name": "Anastasiia DOLGOVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "79481",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 79481 (Anastasiia DOLGOVA), also_ids=['142864']",
+      "also_ids": [
+        "142864"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 43,
@@ -16936,8 +16970,9 @@
       "source_printed_name": "Oscar GARCIA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Oscar GARCIA'; noc=MEX; no profile for given+family",
-      "team": "MEX"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Oscar GARCIA (MEX, M)",
+      "team": "MEX",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Oscar GARCIA (MEX, M)"
     },
     {
       "results_row": 52,
@@ -17023,10 +17058,13 @@
       "results_row": 60,
       "seat": "ICF_ID1",
       "source_printed_name": "Veselin VULCHOV",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Veselin VULCHOV'; noc=BUL; no profile for given+family",
-      "team": "BUL"
+      "team": "BUL",
+      "new_id": "79013",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 79013 (Veselin VALCHOV), also_ids=[]",
+      "printed_form": "Veselin VULCHOV",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 61,
@@ -17092,9 +17130,12 @@
       "results_row": 67,
       "seat": "ICF_ID1",
       "source_printed_name": "Iván RODRÍGUEZ",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "79672",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 79672 (Ivan RODRIGUEZ), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 68,
@@ -17270,12 +17311,12 @@
       "results_row": 85,
       "seat": "ICF_ID1",
       "source_printed_name": "Sharma AJATSATRU",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "79760",
       "team": "IND",
-      "emptied_id": "79760",
-      "detail": "name-bound id 79760: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 79760",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 86,
@@ -17421,12 +17462,12 @@
       "results_row": 100,
       "seat": "ICF_ID1",
       "source_printed_name": "Rabikanta THINGUJAM",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "79756",
       "team": "IND",
-      "emptied_id": "79756",
-      "detail": "name-bound id 79756: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 79756",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 101,
@@ -17592,9 +17633,15 @@
       "results_row": 117,
       "seat": "ICF_ID1",
       "source_printed_name": "Jemma SMITH",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "AUS"
+      "team": "AUS",
+      "new_id": "79452",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 79452 (Jemma SMITH), also_ids=['100256']",
+      "also_ids": [
+        "100256"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 118,
@@ -17702,8 +17749,9 @@
       "source_printed_name": "Jenny BOS",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Jenny BOS'; noc=NED; no profile for given+family",
-      "team": "NED"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jenny BOS (NED, W)",
+      "team": "NED",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jenny BOS (NED, W)"
     },
     {
       "results_row": 129,
@@ -17860,12 +17908,12 @@
       "results_row": 144,
       "seat": "ICF_ID1",
       "source_printed_name": "Soniya PHAIREMBAM",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "79755",
       "team": "IND",
-      "emptied_id": "79755",
-      "detail": "name-bound id 79755: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 79755",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 145,
@@ -18111,9 +18159,15 @@
       "results_row": 169,
       "seat": "ICF_ID1",
       "source_printed_name": "Tsz CHEUNG",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "HKG"
+      "team": "HKG",
+      "new_id": "42587",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42587 (Tsz Chun CHEUNG), also_ids=['165553']",
+      "also_ids": [
+        "165553"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 170,
@@ -18121,8 +18175,9 @@
       "source_printed_name": "Nicolai MØRCKE",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Nicolai MØRCKE'; noc=DEN; no profile for given+family",
-      "team": "DEN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Nicolai MØRCKE (DEN, M)",
+      "team": "DEN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Nicolai MØRCKE (DEN, M)"
     },
     {
       "results_row": 171,
@@ -18268,9 +18323,15 @@
       "results_row": 185,
       "seat": "ICF_ID1",
       "source_printed_name": "Naocha LAITONJAM",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "IND"
+      "team": "IND",
+      "new_id": "71450",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 71450 (Naocha Singh LAITONJAM), also_ids=['103246']",
+      "also_ids": [
+        "103246"
+      ],
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate)"
     },
     {
       "results_row": 186,
@@ -18478,8 +18539,9 @@
       "source_printed_name": "Isaquias SANTOS",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Isaquias SANTOS'; noc=BRA; no profile for given+family",
-      "team": "BRA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+      "team": "BRA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)"
     },
     {
       "results_row": 207,
@@ -18507,8 +18569,9 @@
       "source_printed_name": "Alejandro RAMIREZ",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Alejandro RAMIREZ'; noc=COL; no profile for given+family",
-      "team": "COL"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+      "team": "COL",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)"
     },
     {
       "results_row": 210,
@@ -18604,12 +18667,12 @@
       "results_row": 219,
       "seat": "ICF_ID1",
       "source_printed_name": "Sunil SALAM",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "71854",
       "team": "IND",
-      "emptied_id": "71854",
-      "detail": "name-bound id 71854: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 71854",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 220,
@@ -18755,23 +18818,23 @@
       "results_row": 227,
       "seat": "ICF_ID1",
       "source_printed_name": "Bipin NAOREM",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "79761",
       "team": "IND",
-      "emptied_id": "79761",
-      "detail": "name-bound id 79761: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 79761",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 227,
       "seat": "ICF_ID2",
       "source_printed_name": "Prohit BAROI",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "79702",
       "team": "IND",
-      "emptied_id": "79702",
-      "detail": "name-bound id 79702: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 79702",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 228,
@@ -18939,8 +19002,9 @@
       "source_printed_name": "Rasmus ALSBÆK",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Rasmus ALSBÆK'; noc=DEN; no profile for given+family",
-      "team": "DEN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Rasmus ALSBÆK (DEN, M)",
+      "team": "DEN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Rasmus ALSBÆK (DEN, M)"
     },
     {
       "results_row": 236,
@@ -19038,8 +19102,9 @@
       "source_printed_name": "Aukai MANSON",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Aukai MANSON'; noc=USA; no profile for given+family",
-      "team": "USA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Aukai MANSON (USA, M)",
+      "team": "USA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Aukai MANSON (USA, M)"
     },
     {
       "results_row": 241,
@@ -19095,12 +19160,13 @@
       "results_row": 244,
       "seat": "ICF_ID1",
       "source_printed_name": "Mihai SERBAN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
-      "new_id": "98131",
+      "new_id": "79396",
       "team": "ROU",
-      "emptied_id": "98131",
-      "detail": "name-bound id 98131: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 79396 (Mihai-Denis SERBAN), also_ids=[]",
+      "printed_form": "Mihai SERBAN",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 244,
@@ -19198,8 +19264,9 @@
       "source_printed_name": "Max TEN OEVER",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Max TEN OEVER'; noc=NED; no profile for given+family",
-      "team": "NED"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Max TEN OEVER (NED, M)",
+      "team": "NED",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Max TEN OEVER (NED, M)"
     },
     {
       "results_row": 249,
@@ -19207,8 +19274,9 @@
       "source_printed_name": "Geert WIJNEN",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Geert WIJNEN'; noc=NED; no profile for given+family",
-      "team": "NED"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Geert WIJNEN (NED, M)",
+      "team": "NED",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Geert WIJNEN (NED, M)"
     },
     {
       "results_row": 250,
@@ -19224,17 +19292,29 @@
       "results_row": 250,
       "seat": "ICF_ID2",
       "source_printed_name": "Jose CORDOVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "CUB"
+      "team": "CUB",
+      "new_id": "79493",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 79493 (Jose Ramon PELIER CORDOVA), also_ids=['142141']",
+      "also_ids": [
+        "142141"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 251,
       "seat": "ICF_ID1",
       "source_printed_name": "Sergei NEMOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "79485",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 79485 (Sergei NEMOV), also_ids=['172054']",
+      "also_ids": [
+        "172054"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 251,
@@ -19380,9 +19460,15 @@
       "results_row": 258,
       "seat": "ICF_ID2",
       "source_printed_name": "Dzianis PATAPENKA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "76733",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 76733 (Dzianis PATAPENKA), also_ids=['165784']",
+      "also_ids": [
+        "165784"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 259,
@@ -19648,9 +19734,12 @@
       "results_row": 272,
       "seat": "ICF_ID1",
       "source_printed_name": "Dimitar IVANOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BUL"
+      "team": "BUL",
+      "new_id": "79023",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 79023 (Dimitar IVANOV)",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 272,
@@ -19756,12 +19845,11 @@
       "results_row": 277,
       "seat": "ICF_ID2",
       "source_printed_name": "Stuart BRISTOW",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "given_family_unique",
-      "new_id": "97547",
       "team": "RSA",
-      "emptied_id": "97547",
-      "detail": "name-bound id 97547: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Stuart BRISTOW (RSA, M)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Stuart BRISTOW (RSA, M)"
     },
     {
       "results_row": 278,
@@ -20097,10 +20185,13 @@
       "results_row": 294,
       "seat": "ICF_ID2",
       "source_printed_name": "Denys LAKMANOV",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Denys LAKMANOV'; noc=UKR; no profile for given+family",
-      "team": "UKR"
+      "team": "UKR",
+      "new_id": "75573",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 75573 (Denys LAKHMANOV), also_ids=[]",
+      "printed_form": "Denys LAKMANOV",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 295,
@@ -20188,8 +20279,9 @@
       "source_printed_name": "Samo BALAZ",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Samo BALAZ'; noc=SVK; no profile for given+family",
-      "team": "SVK"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Samo BALAZ (SVK, M)",
+      "team": "SVK",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Samo BALAZ (SVK, M)"
     },
     {
       "results_row": 299,
@@ -20197,8 +20289,9 @@
       "source_printed_name": "Milan FRANA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Milan FRANA'; noc=SVK; no profile for given+family",
-      "team": "SVK"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milan FRANA (SVK, M)",
+      "team": "SVK",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milan FRANA (SVK, M)"
     },
     {
       "results_row": 300,
@@ -20224,10 +20317,13 @@
       "results_row": 301,
       "seat": "ICF_ID1",
       "source_printed_name": "Sholhrukhbek AZAMOV",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Sholhrukhbek AZAMOV'; noc=UZB; no profile for given+family",
-      "team": "UZB"
+      "team": "UZB",
+      "new_id": "72097",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 72097 (Shokhrukhbek AZAMOV), also_ids=[]",
+      "printed_form": "Sholhrukhbek AZAMOV",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 301,
@@ -20283,9 +20379,15 @@
       "results_row": 304,
       "seat": "ICF_ID1",
       "source_printed_name": "Tsz CHEUNG",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "HKG"
+      "team": "HKG",
+      "new_id": "42587",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42587 (Tsz Chun CHEUNG), also_ids=['165553']",
+      "also_ids": [
+        "165553"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 304,
@@ -20301,23 +20403,23 @@
       "results_row": 305,
       "seat": "ICF_ID1",
       "source_printed_name": "Sunny KUMAR",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "62729",
       "team": "IND",
-      "emptied_id": "62729",
-      "detail": "name-bound id 62729: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 62729",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 305,
       "seat": "ICF_ID2",
       "source_printed_name": "Atul KUMAR",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "62730",
       "team": "IND",
-      "emptied_id": "62730",
-      "detail": "name-bound id 62730: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 62730",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 306,
@@ -20353,9 +20455,15 @@
       "results_row": 307,
       "seat": "ICF_ID2",
       "source_printed_name": "Ivan DMITRIEV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "72053",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 72053 (Ivan DMITRIEV), also_ids=['148084']",
+      "also_ids": [
+        "148084"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 308,
@@ -20481,23 +20589,23 @@
       "results_row": 314,
       "seat": "ICF_ID1",
       "source_printed_name": "Moirangthem SINGH",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "79750",
       "team": "IND",
-      "emptied_id": "79750",
-      "detail": "name-bound id 79750: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 79750",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 314,
       "seat": "ICF_ID2",
       "source_printed_name": "Naoba PHILEM",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "79752",
       "team": "IND",
-      "emptied_id": "79752",
-      "detail": "name-bound id 79752: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 79752",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 315,
@@ -20673,10 +20781,13 @@
       "results_row": 323,
       "seat": "ICF_ID2",
       "source_printed_name": "Sarah BRÜSSLER",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Sarah BRÜSSLER'; noc=GER; no profile for given+family",
-      "team": "GER"
+      "team": "GER",
+      "new_id": "70315",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 70315 (Sarah BRUESSLER), also_ids=[]",
+      "printed_form": "Sarah BRÜSSLER",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 323,
@@ -20732,9 +20843,15 @@
       "results_row": 324,
       "seat": "ICF_ID4",
       "source_printed_name": "Svetlana CHERNIGOVSKAYA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "42148",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42148 (Svetlana CHERNIGOVSKAYA), also_ids=['142865']",
+      "also_ids": [
+        "142865"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 325,
@@ -20800,12 +20917,11 @@
       "results_row": 326,
       "seat": "ICF_ID3",
       "source_printed_name": "Paulina PASZEK",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "given_family_unique",
-      "new_id": "106524",
       "team": "POL",
-      "emptied_id": "106524",
-      "detail": "name-bound id 106524: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Paulina PASZEK (POL, W)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Paulina PASZEK (POL, W)"
     },
     {
       "results_row": 326,
@@ -21291,9 +21407,15 @@
       "results_row": 344,
       "seat": "ICF_ID1",
       "source_printed_name": "Alena NAZDROVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "63942",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 63942 (Alena NAZDROVA), also_ids=['148081']",
+      "also_ids": [
+        "148081"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 345,
@@ -21469,12 +21591,12 @@
       "results_row": 362,
       "seat": "ICF_ID1",
       "source_printed_name": "Julija GUTOVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "72170",
       "team": "LAT",
-      "emptied_id": "72170",
-      "detail": "name-bound id 72170: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 72170",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 363,
@@ -21580,25 +21702,43 @@
       "results_row": 373,
       "seat": "ICF_ID1",
       "source_printed_name": "Lizaveta VILKOVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "165786",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 165786 (Lizaveta VILKOVA), also_ids=['75429']",
+      "also_ids": [
+        "75429"
+      ],
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate)"
     },
     {
       "results_row": 373,
       "seat": "ICF_ID2",
       "source_printed_name": "Alina SVITA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "71951",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 71951 (Alina SVITA), also_ids=['142847']",
+      "also_ids": [
+        "142847"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 373,
       "seat": "ICF_ID3",
       "source_printed_name": "Veranika LEANIUK",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "76730",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 76730 (Veranika LEANIUK), also_ids=['142848']",
+      "also_ids": [
+        "142848"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 373,
@@ -21634,10 +21774,13 @@
       "results_row": 374,
       "seat": "ICF_ID3",
       "source_printed_name": "Elena RICCHERO",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Elena RICCHERO'; noc=ITA; no profile for given+family",
-      "team": "ITA"
+      "team": "ITA",
+      "new_id": "72768",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 72768 (Elena RICCHIERO), also_ids=[]",
+      "printed_form": "Elena RICCHERO",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 374,
@@ -21703,9 +21846,15 @@
       "results_row": 376,
       "seat": "ICF_ID2",
       "source_printed_name": "Jemma SMITH",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "AUS"
+      "team": "AUS",
+      "new_id": "79452",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 79452 (Jemma SMITH), also_ids=['100256']",
+      "also_ids": [
+        "100256"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 376,
@@ -21753,8 +21902,9 @@
       "source_printed_name": "Darya RAZUMOVICH",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Darya RAZUMOVICH'; noc=KAZ; no profile for given+family",
-      "team": "KAZ"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Darya RAZUMOVICH (KAZ, W)",
+      "team": "KAZ",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Darya RAZUMOVICH (KAZ, W)"
     },
     {
       "results_row": 377,
@@ -21861,9 +22011,12 @@
       "results_row": 380,
       "seat": "ICF_ID2",
       "source_printed_name": "Kiana KAMALZADEH",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "IRI"
+      "team": "IRI",
+      "new_id": "61474",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 61474 (Kiana KAMALZADEH), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 380,
@@ -22039,9 +22192,15 @@
       "results_row": 384,
       "seat": "ICF_ID4",
       "source_printed_name": "Anastasiia DOLGOVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "79481",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 79481 (Anastasiia DOLGOVA), also_ids=['142864']",
+      "also_ids": [
+        "142864"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 385,
@@ -22087,12 +22246,11 @@
       "results_row": 386,
       "seat": "ICF_ID1",
       "source_printed_name": "Samalulu CLIFTON",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "given_family_unique",
-      "new_id": "142039",
       "team": "NZL",
-      "emptied_id": "142039",
-      "detail": "name-bound id 142039: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)"
     },
     {
       "results_row": 386,
@@ -22428,10 +22586,13 @@
       "results_row": 405,
       "seat": "ICF_ID1",
       "source_printed_name": "Veselin VULCHOV",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Veselin VULCHOV'; noc=BUL; no profile for given+family",
-      "team": "BUL"
+      "team": "BUL",
+      "new_id": "79013",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 79013 (Veselin VALCHOV), also_ids=[]",
+      "printed_form": "Veselin VULCHOV",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 406,
@@ -22529,8 +22690,9 @@
       "source_printed_name": "Oscar GARCIA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Oscar GARCIA'; noc=MEX; no profile for given+family",
-      "team": "MEX"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Oscar GARCIA (MEX, M)",
+      "team": "MEX",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Oscar GARCIA (MEX, M)"
     },
     {
       "results_row": 416,
@@ -22556,9 +22718,12 @@
       "results_row": 418,
       "seat": "ICF_ID1",
       "source_printed_name": "Iván RODRÍGUEZ",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "79672",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 79672 (Ivan RODRIGUEZ), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 419,
@@ -22924,9 +23089,15 @@
       "results_row": 455,
       "seat": "ICF_ID1",
       "source_printed_name": "Jemma SMITH",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "AUS"
+      "team": "AUS",
+      "new_id": "79452",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 79452 (Jemma SMITH), also_ids=['100256']",
+      "also_ids": [
+        "100256"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 456,
@@ -23074,8 +23245,9 @@
       "source_printed_name": "Jenny BOS",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Jenny BOS'; noc=NED; no profile for given+family",
-      "team": "NED"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jenny BOS (NED, W)",
+      "team": "NED",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jenny BOS (NED, W)"
     },
     {
       "results_row": 471,
@@ -23393,8 +23565,9 @@
       "source_printed_name": "Nicolai MØRCKE",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Nicolai MØRCKE'; noc=DEN; no profile for given+family",
-      "team": "DEN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Nicolai MØRCKE (DEN, M)",
+      "team": "DEN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Nicolai MØRCKE (DEN, M)"
     },
     {
       "results_row": 503,
@@ -23582,8 +23755,9 @@
       "source_printed_name": "Alejandro RAMIREZ",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Alejandro RAMIREZ'; noc=COL; no profile for given+family",
-      "team": "COL"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+      "team": "COL",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)"
     },
     {
       "results_row": 522,
@@ -23611,8 +23785,9 @@
       "source_printed_name": "Isaquias SANTOS",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Isaquias SANTOS'; noc=BRA; no profile for given+family",
-      "team": "BRA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+      "team": "BRA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)"
     },
     {
       "results_row": 525,
@@ -24028,12 +24203,13 @@
       "results_row": 554,
       "seat": "ICF_ID1",
       "source_printed_name": "Mihai SERBAN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
-      "new_id": "98131",
+      "new_id": "79396",
       "team": "ROU",
-      "emptied_id": "98131",
-      "detail": "name-bound id 98131: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 79396 (Mihai-Denis SERBAN), also_ids=[]",
+      "printed_form": "Mihai SERBAN",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 554,
@@ -24171,8 +24347,9 @@
       "source_printed_name": "Rasmus ALSBÆK",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Rasmus ALSBÆK'; noc=DEN; no profile for given+family",
-      "team": "DEN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Rasmus ALSBÆK (DEN, M)",
+      "team": "DEN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Rasmus ALSBÆK (DEN, M)"
     },
     {
       "results_row": 561,
@@ -24290,8 +24467,9 @@
       "source_printed_name": "Aukai MANSON",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Aukai MANSON'; noc=USA; no profile for given+family",
-      "team": "USA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Aukai MANSON (USA, M)",
+      "team": "USA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Aukai MANSON (USA, M)"
     },
     {
       "results_row": 567,
@@ -24309,8 +24487,9 @@
       "source_printed_name": "Max TEN OEVER",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Max TEN OEVER'; noc=NED; no profile for given+family",
-      "team": "NED"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Max TEN OEVER (NED, M)",
+      "team": "NED",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Max TEN OEVER (NED, M)"
     },
     {
       "results_row": 568,
@@ -24318,8 +24497,9 @@
       "source_printed_name": "Geert WIJNEN",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Geert WIJNEN'; noc=NED; no profile for given+family",
-      "team": "NED"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Geert WIJNEN (NED, M)",
+      "team": "NED",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Geert WIJNEN (NED, M)"
     },
     {
       "results_row": 569,
@@ -24345,9 +24525,12 @@
       "results_row": 570,
       "seat": "ICF_ID1",
       "source_printed_name": "Dimitar IVANOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BUL"
+      "team": "BUL",
+      "new_id": "79023",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 79023 (Dimitar IVANOV)",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 570,
@@ -24523,9 +24706,15 @@
       "results_row": 579,
       "seat": "ICF_ID1",
       "source_printed_name": "Sergei NEMOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "79485",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 79485 (Sergei NEMOV), also_ids=['172054']",
+      "also_ids": [
+        "172054"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 579,
@@ -24761,10 +24950,13 @@
       "results_row": 591,
       "seat": "ICF_ID1",
       "source_printed_name": "Sholhrukhbek AZAMOV",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Sholhrukhbek AZAMOV'; noc=UZB; no profile for given+family",
-      "team": "UZB"
+      "team": "UZB",
+      "new_id": "72097",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 72097 (Shokhrukhbek AZAMOV), also_ids=[]",
+      "printed_form": "Sholhrukhbek AZAMOV",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 591,
@@ -24830,10 +25022,13 @@
       "results_row": 594,
       "seat": "ICF_ID2",
       "source_printed_name": "Denys LAKMANOV",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Denys LAKMANOV'; noc=UKR; no profile for given+family",
-      "team": "UKR"
+      "team": "UKR",
+      "new_id": "75573",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 75573 (Denys LAKHMANOV), also_ids=[]",
+      "printed_form": "Denys LAKMANOV",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 595,
@@ -24901,8 +25096,9 @@
       "source_printed_name": "Samo BALAZ",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Samo BALAZ'; noc=SVK; no profile for given+family",
-      "team": "SVK"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Samo BALAZ (SVK, M)",
+      "team": "SVK",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Samo BALAZ (SVK, M)"
     },
     {
       "results_row": 598,
@@ -24910,8 +25106,9 @@
       "source_printed_name": "Milan FRANA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Milan FRANA'; noc=SVK; no profile for given+family",
-      "team": "SVK"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milan FRANA (SVK, M)",
+      "team": "SVK",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milan FRANA (SVK, M)"
     },
     {
       "results_row": 599,
@@ -25027,12 +25224,11 @@
       "results_row": 604,
       "seat": "ICF_ID2",
       "source_printed_name": "Stuart BRISTOW",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "given_family_unique",
-      "new_id": "97547",
       "team": "RSA",
-      "emptied_id": "97547",
-      "detail": "name-bound id 97547: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Stuart BRISTOW (RSA, M)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Stuart BRISTOW (RSA, M)"
     },
     {
       "results_row": 605,
@@ -25458,12 +25654,11 @@
       "results_row": 624,
       "seat": "ICF_ID3",
       "source_printed_name": "Paulina PASZEK",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "given_family_unique",
-      "new_id": "106524",
       "team": "POL",
-      "emptied_id": "106524",
-      "detail": "name-bound id 106524: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Paulina PASZEK (POL, W)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Paulina PASZEK (POL, W)"
     },
     {
       "results_row": 624,
@@ -25921,8 +26116,9 @@
       "source_printed_name": "Rasmus ALSBÆK",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Rasmus ALSBÆK'; noc=DEN; no profile for given+family",
-      "team": "DEN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Rasmus ALSBÆK (DEN, M)",
+      "team": "DEN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Rasmus ALSBÆK (DEN, M)"
     },
     {
       "results_row": 648,
@@ -26040,8 +26236,9 @@
       "source_printed_name": "Oscar GARCIA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Oscar GARCIA'; noc=MEX; no profile for given+family",
-      "team": "MEX"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Oscar GARCIA (MEX, M)",
+      "team": "MEX",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Oscar GARCIA (MEX, M)"
     },
     {
       "results_row": 651,
@@ -26059,8 +26256,9 @@
       "source_printed_name": "Juan OVANDO",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Juan OVANDO'; noc=MEX; no profile for given+family",
-      "team": "MEX"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Juan OVANDO (MEX, M)",
+      "team": "MEX",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Juan OVANDO (MEX, M)"
     },
     {
       "results_row": 651,
@@ -26118,8 +26316,9 @@
       "source_printed_name": "Aukai MANSON",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Aukai MANSON'; noc=USA; no profile for given+family",
-      "team": "USA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Aukai MANSON (USA, M)",
+      "team": "USA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Aukai MANSON (USA, M)"
     },
     {
       "results_row": 653,
@@ -26185,12 +26384,13 @@
       "results_row": 654,
       "seat": "ICF_ID4",
       "source_printed_name": "Mihai SERBAN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
-      "new_id": "98131",
+      "new_id": "79396",
       "team": "ROU",
-      "emptied_id": "98131",
-      "detail": "name-bound id 98131: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 79396 (Mihai-Denis SERBAN), also_ids=[]",
+      "printed_form": "Mihai SERBAN",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 655,
@@ -26296,9 +26496,15 @@
       "results_row": 657,
       "seat": "ICF_ID3",
       "source_printed_name": "Uladzislau LITVINAU",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "72154",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 72154 (Uladzislau LITVINAU), also_ids=['154149']",
+      "also_ids": [
+        "154149"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 657,
@@ -26524,9 +26730,12 @@
       "results_row": 663,
       "seat": "ICF_ID2",
       "source_printed_name": "Iván RODRÍGUEZ",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "79672",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 79672 (Ivan RODRIGUEZ), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 663,
@@ -26702,10 +26911,13 @@
       "results_row": 667,
       "seat": "ICF_ID4",
       "source_printed_name": "Veselin VULCHOV",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Veselin VULCHOV'; noc=BUL; no profile for given+family",
-      "team": "BUL"
+      "team": "BUL",
+      "new_id": "79013",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 79013 (Veselin VALCHOV), also_ids=[]",
+      "printed_form": "Veselin VULCHOV",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 668,
@@ -26781,10 +26993,13 @@
       "results_row": 669,
       "seat": "ICF_ID4",
       "source_printed_name": "Kritaps LAUBE",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Kritaps LAUBE'; noc=LAT; no profile for given+family",
-      "team": "LAT"
+      "team": "LAT",
+      "new_id": "77166",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 77166 (Kristaps LAUBE), also_ids=[]",
+      "printed_form": "Kritaps LAUBE",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 670,
@@ -26870,45 +27085,45 @@
       "results_row": 672,
       "seat": "ICF_ID1",
       "source_printed_name": "Sharma AJATSATRU",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "79760",
       "team": "IND",
-      "emptied_id": "79760",
-      "detail": "name-bound id 79760: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 79760",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 672,
       "seat": "ICF_ID2",
       "source_printed_name": "Bipin NAOREM",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "79761",
       "team": "IND",
-      "emptied_id": "79761",
-      "detail": "name-bound id 79761: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 79761",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 672,
       "seat": "ICF_ID3",
       "source_printed_name": "Prohit BAROI",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "79702",
       "team": "IND",
-      "emptied_id": "79702",
-      "detail": "name-bound id 79702: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 79702",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 672,
       "seat": "ICF_ID4",
       "source_printed_name": "Nanao KHANGEMBAM",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "79757",
       "team": "IND",
-      "emptied_id": "79757",
-      "detail": "name-bound id 79757: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 79757",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 673,
@@ -27014,9 +27229,15 @@
       "results_row": 683,
       "seat": "ICF_ID1",
       "source_printed_name": "Alina SVITA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "71951",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 71951 (Alina SVITA), also_ids=['142847']",
+      "also_ids": [
+        "142847"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 684,
@@ -27674,8 +27895,9 @@
       "source_printed_name": "Samo BALAZ",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Samo BALAZ'; noc=SVK; no profile for given+family",
-      "team": "SVK"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Samo BALAZ (SVK, M)",
+      "team": "SVK",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Samo BALAZ (SVK, M)"
     },
     {
       "results_row": 724,
@@ -27683,8 +27905,9 @@
       "source_printed_name": "Milan FRANA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Milan FRANA'; noc=SVK; no profile for given+family",
-      "team": "SVK"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milan FRANA (SVK, M)",
+      "team": "SVK",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milan FRANA (SVK, M)"
     },
     {
       "results_row": 724,
@@ -27760,9 +27983,12 @@
       "results_row": 726,
       "seat": "ICF_ID3",
       "source_printed_name": "Nicolas BOURSIER",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "FRA"
+      "team": "FRA",
+      "new_id": "63964",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 63964 (Nicolas BOURSIER), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 726,
@@ -27848,10 +28074,13 @@
       "results_row": 728,
       "seat": "ICF_ID4",
       "source_printed_name": "Denys LAKMANOV",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Denys LAKMANOV'; noc=UKR; no profile for given+family",
-      "team": "UKR"
+      "team": "UKR",
+      "new_id": "75573",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 75573 (Denys LAKHMANOV), also_ids=[]",
+      "printed_form": "Denys LAKMANOV",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 729,
@@ -27867,10 +28096,13 @@
       "results_row": 729,
       "seat": "ICF_ID2",
       "source_printed_name": "Ben DUFFY",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Ben DUFFY'; noc=NZL; no profile for given+family",
-      "team": "NZL"
+      "team": "NZL",
+      "new_id": "71999",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 71999 (Benjamin DUFFY), also_ids=[]",
+      "printed_form": "Ben DUFFY",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 729,
@@ -28006,12 +28238,11 @@
       "results_row": 732,
       "seat": "ICF_ID4",
       "source_printed_name": "Simon MCTAVISH",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "given_family_unique",
-      "new_id": "94785",
       "team": "AUS",
-      "emptied_id": "94785",
-      "detail": "name-bound id 94785: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Simon MCTAVISH (AUS, M)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Simon MCTAVISH (AUS, M)"
     },
     {
       "results_row": 733,
@@ -28419,8 +28650,9 @@
       "source_printed_name": "Emma JØRGENSEN",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Emma JØRGENSEN'; noc=DEN; no profile for given+family",
-      "team": "DEN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)",
+      "team": "DEN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)"
     },
     {
       "results_row": 744,
@@ -28496,12 +28728,12 @@
       "results_row": 751,
       "seat": "ICF_ID1",
       "source_printed_name": "Soniya PHAIREMBAM",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "79755",
       "team": "IND",
-      "emptied_id": "79755",
-      "detail": "name-bound id 79755: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 79755",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 752,
@@ -28748,9 +28980,15 @@
       "results_row": 775,
       "seat": "ICF_ID2",
       "source_printed_name": "Daria KHARCHENKO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "64463",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 64463 (Daria KHARCHENKO), also_ids=['152000']",
+      "also_ids": [
+        "152000"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 776,
@@ -28828,8 +29066,9 @@
       "source_printed_name": "Anastasiia CHETVERIKOVA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Anastasiia CHETVERIKOVA'; noc=UKR; no profile for given+family",
-      "team": "UKR"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)",
+      "team": "UKR",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)"
     },
     {
       "results_row": 780,
@@ -28895,31 +29134,37 @@
       "results_row": 783,
       "seat": "ICF_ID1",
       "source_printed_name": "Inaocha MAYANGLANBAM",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "61440",
       "team": "IND",
-      "emptied_id": "61440",
-      "detail": "name-bound id 61440: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 61440",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 783,
       "seat": "ICF_ID2",
       "source_printed_name": "Thajamanbi PHAIREMBAM",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "71453",
       "team": "IND",
-      "emptied_id": "71453",
-      "detail": "name-bound id 71453: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 71453",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 784,
       "seat": "ICF_ID1",
       "source_printed_name": "Alena NAZDROVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "63942",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 63942 (Alena NAZDROVA), also_ids=['148081']",
+      "also_ids": [
+        "148081"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 784,
@@ -29315,9 +29560,15 @@
       "results_row": 798,
       "seat": "ICF_ID1",
       "source_printed_name": "Kamronbek AKHTAMOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UZB"
+      "team": "UZB",
+      "new_id": "79113",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 79113 (Kamronbek AKHTAMOV), also_ids=['118519']",
+      "also_ids": [
+        "118519"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 798,
@@ -29643,12 +29894,12 @@
       "results_row": 806,
       "seat": "ICF_ID2",
       "source_printed_name": "Stanislav ONOFRAS",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "79625",
       "team": "MDA",
-      "emptied_id": "79625",
-      "detail": "name-bound id 79625: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 79625",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 806,
@@ -29664,12 +29915,12 @@
       "results_row": 806,
       "seat": "ICF_ID4",
       "source_printed_name": "Andrei PANTELISIN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "79701",
       "team": "MDA",
-      "emptied_id": "79701",
-      "detail": "name-bound id 79701: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 79701",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 807,
@@ -29837,8 +30088,9 @@
       "source_printed_name": "Max TEN OEVER",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Max TEN OEVER'; noc=NED; no profile for given+family",
-      "team": "NED"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Max TEN OEVER (NED, M)",
+      "team": "NED",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Max TEN OEVER (NED, M)"
     },
     {
       "results_row": 824,
@@ -29994,9 +30246,12 @@
       "results_row": 839,
       "seat": "ICF_ID1",
       "source_printed_name": "Vojtech PROCHAZKA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "CZE"
+      "team": "CZE",
+      "new_id": "64341",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 64341 (Vojtech PROCHAZKA)",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 840,
@@ -30012,12 +30267,12 @@
       "results_row": 841,
       "seat": "ICF_ID1",
       "source_printed_name": "Sharma AJATSATRU",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "79760",
       "team": "IND",
-      "emptied_id": "79760",
-      "detail": "name-bound id 79760: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 79760",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 842,
@@ -30063,9 +30318,15 @@
       "results_row": 844,
       "seat": "ICF_ID1",
       "source_printed_name": "Anastasiia DOLGOVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "79481",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 79481 (Anastasiia DOLGOVA), also_ids=['142864']",
+      "also_ids": [
+        "142864"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 844,
@@ -30271,10 +30532,13 @@
       "results_row": 854,
       "seat": "ICF_ID2",
       "source_printed_name": "Elena RICCHERO",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Elena RICCHERO'; noc=ITA; no profile for given+family",
-      "team": "ITA"
+      "team": "ITA",
+      "new_id": "72768",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 72768 (Elena RICCHIERO), also_ids=[]",
+      "printed_form": "Elena RICCHERO",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 855,
@@ -30302,8 +30566,9 @@
       "source_printed_name": "Jenny BOS",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Jenny BOS'; noc=NED; no profile for given+family",
-      "team": "NED"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jenny BOS (NED, W)",
+      "team": "NED",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jenny BOS (NED, W)"
     },
     {
       "results_row": 856,
@@ -30311,8 +30576,9 @@
       "source_printed_name": "Marit KATTENBERG",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Marit KATTENBERG'; noc=NED; no profile for given+family",
-      "team": "NED"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marit KATTENBERG (NED, W)",
+      "team": "NED",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marit KATTENBERG (NED, W)"
     },
     {
       "results_row": 857,
@@ -30398,9 +30664,15 @@
       "results_row": 861,
       "seat": "ICF_ID1",
       "source_printed_name": "Ina SAUCHUK",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "76732",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 76732 (Ina SAUCHUK), also_ids=['160288']",
+      "also_ids": [
+        "160288"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 861,
@@ -30428,8 +30700,9 @@
       "source_printed_name": "Darya RAZUMOVICH",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Darya RAZUMOVICH'; noc=KAZ; no profile for given+family",
-      "team": "KAZ"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Darya RAZUMOVICH (KAZ, W)",
+      "team": "KAZ",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Darya RAZUMOVICH (KAZ, W)"
     },
     {
       "results_row": 863,
@@ -30797,8 +31070,9 @@
       "source_printed_name": "Hugo PEDRERO",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Hugo PEDRERO'; noc=ESP; no profile for given+family",
-      "team": "ESP"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Hugo PEDRERO (ESP, M)",
+      "team": "ESP",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Hugo PEDRERO (ESP, M)"
     },
     {
       "results_row": 881,
@@ -30834,23 +31108,23 @@
       "results_row": 883,
       "seat": "ICF_ID1",
       "source_printed_name": "Moirangthem SINGH",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "79750",
       "team": "IND",
-      "emptied_id": "79750",
-      "detail": "name-bound id 79750: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 79750",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 883,
       "seat": "ICF_ID2",
       "source_printed_name": "Sunil SALAM",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "71854",
       "team": "IND",
-      "emptied_id": "71854",
-      "detail": "name-bound id 71854: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 71854",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 884,
@@ -30936,9 +31210,15 @@
       "results_row": 892,
       "seat": "ICF_ID1",
       "source_printed_name": "Naocha LAITONJAM",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "IND"
+      "team": "IND",
+      "new_id": "71450",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 71450 (Naocha Singh LAITONJAM), also_ids=['103246']",
+      "also_ids": [
+        "103246"
+      ],
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate)"
     },
     {
       "results_row": 893,
@@ -31074,12 +31354,11 @@
       "results_row": 906,
       "seat": "ICF_ID1",
       "source_printed_name": "Stuart BRISTOW",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "given_family_unique",
-      "new_id": "97547",
       "team": "RSA",
-      "emptied_id": "97547",
-      "detail": "name-bound id 97547: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Stuart BRISTOW (RSA, M)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Stuart BRISTOW (RSA, M)"
     },
     {
       "results_row": 907,
@@ -31115,9 +31394,15 @@
       "results_row": 910,
       "seat": "ICF_ID1",
       "source_printed_name": "Tsz CHEUNG",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "HKG"
+      "team": "HKG",
+      "new_id": "42587",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42587 (Tsz Chun CHEUNG), also_ids=['165553']",
+      "also_ids": [
+        "165553"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 911,
@@ -31223,21 +31508,23 @@
       "results_row": 920,
       "seat": "ICF_ID2",
       "source_printed_name": "Paulina PASZEK",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "given_family_unique",
-      "new_id": "106524",
       "team": "POL",
-      "emptied_id": "106524",
-      "detail": "name-bound id 106524: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Paulina PASZEK (POL, W)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Paulina PASZEK (POL, W)"
     },
     {
       "results_row": 921,
       "seat": "ICF_ID1",
       "source_printed_name": "Sarah BRÜSSLER",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Sarah BRÜSSLER'; noc=GER; no profile for given+family",
-      "team": "GER"
+      "team": "GER",
+      "new_id": "70315",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 70315 (Sarah BRUESSLER), also_ids=[]",
+      "printed_form": "Sarah BRÜSSLER",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 921,
@@ -31355,8 +31642,9 @@
       "source_printed_name": "Anouk BRUST",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Anouk BRUST'; noc=NED; no profile for given+family",
-      "team": "NED"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anouk BRUST (NED, W)",
+      "team": "NED",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anouk BRUST (NED, W)"
     },
     {
       "results_row": 927,
@@ -31364,8 +31652,9 @@
       "source_printed_name": "Naomi WESTRA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Naomi WESTRA'; noc=NED; no profile for given+family",
-      "team": "NED"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Naomi WESTRA (NED, W)",
+      "team": "NED",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Naomi WESTRA (NED, W)"
     },
     {
       "results_row": 928,
@@ -31381,9 +31670,15 @@
       "results_row": 928,
       "seat": "ICF_ID2",
       "source_printed_name": "Svetlana CHERNIGOVSKAYA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "42148",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42148 (Svetlana CHERNIGOVSKAYA), also_ids=['142865']",
+      "also_ids": [
+        "142865"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 929,
@@ -31811,8 +32106,9 @@
       "source_printed_name": "Oscar GARCIA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Oscar GARCIA'; noc=MEX; no profile for given+family",
-      "team": "MEX"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Oscar GARCIA (MEX, M)",
+      "team": "MEX",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Oscar GARCIA (MEX, M)"
     },
     {
       "results_row": 943,
@@ -31830,8 +32126,9 @@
       "source_printed_name": "Juan OVANDO",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Juan OVANDO'; noc=MEX; no profile for given+family",
-      "team": "MEX"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Juan OVANDO (MEX, M)",
+      "team": "MEX",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Juan OVANDO (MEX, M)"
     },
     {
       "results_row": 943,
@@ -31889,8 +32186,9 @@
       "source_printed_name": "Rasmus ALSBÆK",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Rasmus ALSBÆK'; noc=DEN; no profile for given+family",
-      "team": "DEN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Rasmus ALSBÆK (DEN, M)",
+      "team": "DEN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Rasmus ALSBÆK (DEN, M)"
     },
     {
       "results_row": 945,
@@ -31946,9 +32244,15 @@
       "results_row": 946,
       "seat": "ICF_ID3",
       "source_printed_name": "Uladzislau LITVINAU",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "72154",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 72154 (Uladzislau LITVINAU), also_ids=['154149']",
+      "also_ids": [
+        "154149"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 946,
@@ -32114,10 +32418,13 @@
       "results_row": 950,
       "seat": "ICF_ID4",
       "source_printed_name": "Veselin VULCHOV",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Veselin VULCHOV'; noc=BUL; no profile for given+family",
-      "team": "BUL"
+      "team": "BUL",
+      "new_id": "79013",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 79013 (Veselin VALCHOV), also_ids=[]",
+      "printed_form": "Veselin VULCHOV",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 951,
@@ -32125,8 +32432,9 @@
       "source_printed_name": "Aukai MANSON",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Aukai MANSON'; noc=USA; no profile for given+family",
-      "team": "USA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Aukai MANSON (USA, M)",
+      "team": "USA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Aukai MANSON (USA, M)"
     },
     {
       "results_row": 951,
@@ -32232,10 +32540,13 @@
       "results_row": 953,
       "seat": "ICF_ID4",
       "source_printed_name": "Kritaps LAUBE",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Kritaps LAUBE'; noc=LAT; no profile for given+family",
-      "team": "LAT"
+      "team": "LAT",
+      "new_id": "77166",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 77166 (Kristaps LAUBE), also_ids=[]",
+      "printed_form": "Kritaps LAUBE",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 954,
@@ -32251,9 +32562,15 @@
       "results_row": 955,
       "seat": "ICF_ID1",
       "source_printed_name": "Alina SVITA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "71951",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 71951 (Alina SVITA), also_ids=['142847']",
+      "also_ids": [
+        "142847"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 956,
@@ -32741,8 +33058,9 @@
       "source_printed_name": "Samo BALAZ",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Samo BALAZ'; noc=SVK; no profile for given+family",
-      "team": "SVK"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Samo BALAZ (SVK, M)",
+      "team": "SVK",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Samo BALAZ (SVK, M)"
     },
     {
       "results_row": 991,
@@ -32750,8 +33068,9 @@
       "source_printed_name": "Milan FRANA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Milan FRANA'; noc=SVK; no profile for given+family",
-      "team": "SVK"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milan FRANA (SVK, M)",
+      "team": "SVK",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milan FRANA (SVK, M)"
     },
     {
       "results_row": 991,
@@ -32947,9 +33266,12 @@
       "results_row": 996,
       "seat": "ICF_ID3",
       "source_printed_name": "Nicolas BOURSIER",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "FRA"
+      "team": "FRA",
+      "new_id": "63964",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 63964 (Nicolas BOURSIER), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 996,
@@ -33115,12 +33437,11 @@
       "results_row": 1000,
       "seat": "ICF_ID4",
       "source_printed_name": "Simon MCTAVISH",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "given_family_unique",
-      "new_id": "94785",
       "team": "AUS",
-      "emptied_id": "94785",
-      "detail": "name-bound id 94785: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Simon MCTAVISH (AUS, M)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Simon MCTAVISH (AUS, M)"
     },
     {
       "results_row": 1001,
@@ -33589,8 +33910,9 @@
       "source_printed_name": "Emma JØRGENSEN",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Emma JØRGENSEN'; noc=DEN; no profile for given+family",
-      "team": "DEN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)",
+      "team": "DEN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)"
     },
     {
       "results_row": 1027,
@@ -33748,8 +34070,9 @@
       "source_printed_name": "Anastasiia CHETVERIKOVA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Anastasiia CHETVERIKOVA'; noc=UKR; no profile for given+family",
-      "team": "UKR"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)",
+      "team": "UKR",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)"
     },
     {
       "results_row": 1039,
@@ -34055,9 +34378,15 @@
       "results_row": 1049,
       "seat": "ICF_ID1",
       "source_printed_name": "Kamronbek AKHTAMOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "UZB"
+      "team": "UZB",
+      "new_id": "79113",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 79113 (Kamronbek AKHTAMOV), also_ids=['118519']",
+      "also_ids": [
+        "118519"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1049,
@@ -34283,9 +34612,12 @@
       "results_row": 1063,
       "seat": "ICF_ID1",
       "source_printed_name": "Vojtech PROCHAZKA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "CZE"
+      "team": "CZE",
+      "new_id": "64341",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 64341 (Vojtech PROCHAZKA)",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1064,
@@ -34441,9 +34773,15 @@
       "results_row": 1079,
       "seat": "ICF_ID1",
       "source_printed_name": "Anastasiia DOLGOVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "79481",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 79481 (Anastasiia DOLGOVA), also_ids=['142864']",
+      "also_ids": [
+        "142864"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1079,
@@ -34511,8 +34849,9 @@
       "source_printed_name": "Darya RAZUMOVICH",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Darya RAZUMOVICH'; noc=KAZ; no profile for given+family",
-      "team": "KAZ"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Darya RAZUMOVICH (KAZ, W)",
+      "team": "KAZ",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Darya RAZUMOVICH (KAZ, W)"
     },
     {
       "results_row": 1083,
@@ -34528,10 +34867,13 @@
       "results_row": 1083,
       "seat": "ICF_ID2",
       "source_printed_name": "Elena RICCHERO",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Elena RICCHERO'; noc=ITA; no profile for given+family",
-      "team": "ITA"
+      "team": "ITA",
+      "new_id": "72768",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 72768 (Elena RICCHIERO), also_ids=[]",
+      "printed_form": "Elena RICCHERO",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1084,
@@ -34599,8 +34941,9 @@
       "source_printed_name": "Jenny BOS",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Jenny BOS'; noc=NED; no profile for given+family",
-      "team": "NED"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jenny BOS (NED, W)",
+      "team": "NED",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jenny BOS (NED, W)"
     },
     {
       "results_row": 1087,
@@ -34608,8 +34951,9 @@
       "source_printed_name": "Marit KATTENBERG",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Marit KATTENBERG'; noc=NED; no profile for given+family",
-      "team": "NED"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marit KATTENBERG (NED, W)",
+      "team": "NED",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marit KATTENBERG (NED, W)"
     },
     {
       "results_row": 1088,
@@ -34635,9 +34979,15 @@
       "results_row": 1089,
       "seat": "ICF_ID1",
       "source_printed_name": "Ina SAUCHUK",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "76732",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 76732 (Ina SAUCHUK), also_ids=['160288']",
+      "also_ids": [
+        "160288"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1089,
@@ -34895,8 +35245,9 @@
       "source_printed_name": "Hugo PEDRERO",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Hugo PEDRERO'; noc=ESP; no profile for given+family",
-      "team": "ESP"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Hugo PEDRERO (ESP, M)",
+      "team": "ESP",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Hugo PEDRERO (ESP, M)"
     },
     {
       "results_row": 1102,
@@ -35222,12 +35573,11 @@
       "results_row": 1131,
       "seat": "ICF_ID1",
       "source_printed_name": "Stuart BRISTOW",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "given_family_unique",
-      "new_id": "97547",
       "team": "RSA",
-      "emptied_id": "97547",
-      "detail": "name-bound id 97547: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Stuart BRISTOW (RSA, M)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Stuart BRISTOW (RSA, M)"
     },
     {
       "results_row": 1132,
@@ -35533,12 +35883,12 @@
       "results_row": 1153,
       "seat": "ICF_ID1",
       "source_printed_name": "Julija GUTOVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "72170",
       "team": "LAT",
-      "emptied_id": "72170",
-      "detail": "name-bound id 72170: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 72170",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 1154,
@@ -35694,10 +36044,13 @@
       "results_row": 1169,
       "seat": "ICF_ID1",
       "source_printed_name": "Greta KÖSZEGHY",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Greta KÖSZEGHY'; noc=GER; no profile for given+family",
-      "team": "GER"
+      "team": "GER",
+      "new_id": "79488",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 79488 (Greta KOESZEGHY), also_ids=[]",
+      "printed_form": "Greta KÖSZEGHY",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1170,
@@ -35753,9 +36106,15 @@
       "results_row": 1175,
       "seat": "ICF_ID1",
       "source_printed_name": "Alina SVITA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "71951",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 71951 (Alina SVITA), also_ids=['142847']",
+      "also_ids": [
+        "142847"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1176,
@@ -35811,12 +36170,11 @@
       "results_row": 1181,
       "seat": "ICF_ID1",
       "source_printed_name": "Samalulu CLIFTON",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "given_family_unique",
-      "new_id": "142039",
       "team": "NZL",
-      "emptied_id": "142039",
-      "detail": "name-bound id 142039: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)"
     },
     {
       "results_row": 1182,
@@ -36054,8 +36412,9 @@
       "source_printed_name": "Geert WIJNEN",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Geert WIJNEN'; noc=NED; no profile for given+family",
-      "team": "NED"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Geert WIJNEN (NED, M)",
+      "team": "NED",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Geert WIJNEN (NED, M)"
     },
     {
       "results_row": 1206,
@@ -36071,9 +36430,15 @@
       "results_row": 1207,
       "seat": "ICF_ID1",
       "source_printed_name": "Uladzislau LITVINAU",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "72154",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 72154 (Uladzislau LITVINAU), also_ids=['154149']",
+      "also_ids": [
+        "154149"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1208,
@@ -36369,12 +36734,12 @@
       "results_row": 1237,
       "seat": "ICF_ID1",
       "source_printed_name": "Nanao KHANGEMBAM",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "79757",
       "team": "IND",
-      "emptied_id": "79757",
-      "detail": "name-bound id 79757: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 79757",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 1238,
@@ -36530,12 +36895,12 @@
       "results_row": 1253,
       "seat": "ICF_ID1",
       "source_printed_name": "Rajkumar SINGH",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "79758",
       "team": "IND",
-      "emptied_id": "79758",
-      "detail": "name-bound id 79758: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 79758",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 1254,
@@ -36771,9 +37136,15 @@
       "results_row": 1277,
       "seat": "ICF_ID1",
       "source_printed_name": "Alena NAZDROVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "63942",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 63942 (Alena NAZDROVA), also_ids=['148081']",
+      "also_ids": [
+        "148081"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1278,
@@ -36929,12 +37300,12 @@
       "results_row": 1293,
       "seat": "ICF_ID1",
       "source_printed_name": "Thajamanbi PHAIREMBAM",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "71453",
       "team": "IND",
-      "emptied_id": "71453",
-      "detail": "name-bound id 71453: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 71453",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 1294,
@@ -37020,12 +37391,12 @@
       "results_row": 1302,
       "seat": "ICF_ID1",
       "source_printed_name": "Soniya PHAIREMBAM",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "79755",
       "team": "IND",
-      "emptied_id": "79755",
-      "detail": "name-bound id 79755: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 79755",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 1303,
@@ -37111,12 +37482,11 @@
       "results_row": 1311,
       "seat": "ICF_ID1",
       "source_printed_name": "Paulina PASZEK",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "given_family_unique",
-      "new_id": "106524",
       "team": "POL",
-      "emptied_id": "106524",
-      "detail": "name-bound id 106524: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Paulina PASZEK (POL, W)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Paulina PASZEK (POL, W)"
     },
     {
       "results_row": 1312,
@@ -37234,8 +37604,9 @@
       "source_printed_name": "Emma JØRGENSEN",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Emma JØRGENSEN'; noc=DEN; no profile for given+family",
-      "team": "DEN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)",
+      "team": "DEN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)"
     },
     {
       "results_row": 1324,
@@ -37311,9 +37682,12 @@
       "results_row": 1331,
       "seat": "ICF_ID1",
       "source_printed_name": "Nicolas BOURSIER",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "FRA"
+      "team": "FRA",
+      "new_id": "63964",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 63964 (Nicolas BOURSIER), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1332,
@@ -37489,9 +37863,15 @@
       "results_row": 1349,
       "seat": "ICF_ID1",
       "source_printed_name": "Naocha LAITONJAM",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "IND"
+      "team": "IND",
+      "new_id": "71450",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 71450 (Naocha Singh LAITONJAM), also_ids=['103246']",
+      "also_ids": [
+        "103246"
+      ],
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate)"
     },
     {
       "results_row": 1350,
@@ -37689,8 +38069,9 @@
       "source_printed_name": "Hugo PEDRERO",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Hugo PEDRERO'; noc=ESP; no profile for given+family",
-      "team": "ESP"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Hugo PEDRERO (ESP, M)",
+      "team": "ESP",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Hugo PEDRERO (ESP, M)"
     },
     {
       "results_row": 1370,
@@ -37748,8 +38129,9 @@
       "source_printed_name": "Isaquias SANTOS",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Isaquias SANTOS'; noc=BRA; no profile for given+family",
-      "team": "BRA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+      "team": "BRA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)"
     },
     {
       "results_row": 1376,
@@ -37807,8 +38189,9 @@
       "source_printed_name": "Alejandro RAMIREZ",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Alejandro RAMIREZ'; noc=COL; no profile for given+family",
-      "team": "COL"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+      "team": "COL",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)"
     },
     {
       "results_row": 1382,
@@ -37914,12 +38297,12 @@
       "results_row": 1392,
       "seat": "ICF_ID1",
       "source_printed_name": "Sunil SALAM",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "71854",
       "team": "IND",
-      "emptied_id": "71854",
-      "detail": "name-bound id 71854: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 71854",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 1393,
@@ -38245,9 +38628,15 @@
       "results_row": 1409,
       "seat": "ICF_ID1",
       "source_printed_name": "Alena NAZDROVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "63942",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 63942 (Alena NAZDROVA), also_ids=['148081']",
+      "also_ids": [
+        "148081"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1409,
@@ -38273,9 +38662,15 @@
       "results_row": 1410,
       "seat": "ICF_ID2",
       "source_printed_name": "Daria KHARCHENKO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "64463",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 64463 (Daria KHARCHENKO), also_ids=['152000']",
+      "also_ids": [
+        "152000"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1411,
@@ -38293,8 +38688,9 @@
       "source_printed_name": "Anastasiia CHETVERIKOVA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Anastasiia CHETVERIKOVA'; noc=UKR; no profile for given+family",
-      "team": "UKR"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)",
+      "team": "UKR",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)"
     },
     {
       "results_row": 1412,
@@ -38380,23 +38776,23 @@
       "results_row": 1416,
       "seat": "ICF_ID1",
       "source_printed_name": "Thajamanbi PHAIREMBAM",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "71453",
       "team": "IND",
-      "emptied_id": "71453",
-      "detail": "name-bound id 71453: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 71453",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 1416,
       "seat": "ICF_ID2",
       "source_printed_name": "Inaocha MAYANGLANBAM",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "61440",
       "team": "IND",
-      "emptied_id": "61440",
-      "detail": "name-bound id 61440: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 61440",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 1417,
@@ -38582,12 +38978,12 @@
       "results_row": 1428,
       "seat": "ICF_ID1",
       "source_printed_name": "Julija GUTOVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "72170",
       "team": "LAT",
-      "emptied_id": "72170",
-      "detail": "name-bound id 72170: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 72170",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 1429,
@@ -38663,9 +39059,15 @@
       "results_row": 1435,
       "seat": "ICF_ID2",
       "source_printed_name": "Jemma SMITH",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "AUS"
+      "team": "AUS",
+      "new_id": "79452",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 79452 (Jemma SMITH), also_ids=['100256']",
+      "also_ids": [
+        "100256"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1435,
@@ -38772,12 +39174,11 @@
       "results_row": 1438,
       "seat": "ICF_ID1",
       "source_printed_name": "Samalulu CLIFTON",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "given_family_unique",
-      "new_id": "142039",
       "team": "NZL",
-      "emptied_id": "142039",
-      "detail": "name-bound id 142039: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)"
     },
     {
       "results_row": 1438,
@@ -38835,8 +39236,9 @@
       "source_printed_name": "Darya RAZUMOVICH",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Darya RAZUMOVICH'; noc=KAZ; no profile for given+family",
-      "team": "KAZ"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Darya RAZUMOVICH (KAZ, W)",
+      "team": "KAZ",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Darya RAZUMOVICH (KAZ, W)"
     },
     {
       "results_row": 1439,
@@ -38862,9 +39264,12 @@
       "results_row": 1440,
       "seat": "ICF_ID2",
       "source_printed_name": "Kiana KAMALZADEH",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "IRI"
+      "team": "IRI",
+      "new_id": "61474",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 61474 (Kiana KAMALZADEH), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1440,
@@ -39110,10 +39515,13 @@
       "results_row": 1454,
       "seat": "ICF_ID1",
       "source_printed_name": "Veselin VULCHOV",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Veselin VULCHOV'; noc=BUL; no profile for given+family",
-      "team": "BUL"
+      "team": "BUL",
+      "new_id": "79013",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 79013 (Veselin VALCHOV), also_ids=[]",
+      "printed_form": "Veselin VULCHOV",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1455,
@@ -39471,8 +39879,9 @@
       "source_printed_name": "Nicolai MØRCKE",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Nicolai MØRCKE'; noc=DEN; no profile for given+family",
-      "team": "DEN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Nicolai MØRCKE (DEN, M)",
+      "team": "DEN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Nicolai MØRCKE (DEN, M)"
     },
     {
       "results_row": 1491,
@@ -39778,12 +40187,13 @@
       "results_row": 1514,
       "seat": "ICF_ID1",
       "source_printed_name": "Mihai SERBAN",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
-      "new_id": "98131",
+      "new_id": "79396",
       "team": "ROU",
-      "emptied_id": "98131",
-      "detail": "name-bound id 98131: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 79396 (Mihai-Denis SERBAN), also_ids=[]",
+      "printed_form": "Mihai SERBAN",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1514,
@@ -40019,10 +40429,13 @@
       "results_row": 1526,
       "seat": "ICF_ID1",
       "source_printed_name": "Sholhrukhbek AZAMOV",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Sholhrukhbek AZAMOV'; noc=UZB; no profile for given+family",
-      "team": "UZB"
+      "team": "UZB",
+      "new_id": "72097",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 72097 (Shokhrukhbek AZAMOV), also_ids=[]",
+      "printed_form": "Sholhrukhbek AZAMOV",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1526,
@@ -40438,25 +40851,43 @@
       "results_row": 1554,
       "seat": "ICF_ID1",
       "source_printed_name": "Lizaveta VILKOVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "165786",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 165786 (Lizaveta VILKOVA), also_ids=['75429']",
+      "also_ids": [
+        "75429"
+      ],
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate)"
     },
     {
       "results_row": 1554,
       "seat": "ICF_ID2",
       "source_printed_name": "Alina SVITA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "71951",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 71951 (Alina SVITA), also_ids=['142847']",
+      "also_ids": [
+        "142847"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1554,
       "seat": "ICF_ID3",
       "source_printed_name": "Veranika LEANIUK",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "76730",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 76730 (Veranika LEANIUK), also_ids=['142848']",
+      "also_ids": [
+        "142848"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1554,
@@ -40582,9 +41013,15 @@
       "results_row": 1557,
       "seat": "ICF_ID4",
       "source_printed_name": "Anastasiia DOLGOVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "79481",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 79481 (Anastasiia DOLGOVA), also_ids=['142864']",
+      "also_ids": [
+        "142864"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1558,
@@ -40650,10 +41087,13 @@
       "results_row": 1559,
       "seat": "ICF_ID3",
       "source_printed_name": "Elena RICCHERO",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Elena RICCHERO'; noc=ITA; no profile for given+family",
-      "team": "ITA"
+      "team": "ITA",
+      "new_id": "72768",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 72768 (Elena RICCHIERO), also_ids=[]",
+      "printed_form": "Elena RICCHERO",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1559,
@@ -40749,9 +41189,12 @@
       "results_row": 1565,
       "seat": "ICF_ID1",
       "source_printed_name": "Iván RODRÍGUEZ",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "ESP"
+      "team": "ESP",
+      "new_id": "79672",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 79672 (Ivan RODRIGUEZ), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1566,
@@ -40927,9 +41370,15 @@
       "results_row": 1583,
       "seat": "ICF_ID1",
       "source_printed_name": "Jemma SMITH",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "AUS"
+      "team": "AUS",
+      "new_id": "79452",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 79452 (Jemma SMITH), also_ids=['100256']",
+      "also_ids": [
+        "100256"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1584,
@@ -41158,8 +41607,9 @@
       "source_printed_name": "Isaquias SANTOS",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Isaquias SANTOS'; noc=BRA; no profile for given+family",
-      "team": "BRA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+      "team": "BRA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)"
     },
     {
       "results_row": 1607,
@@ -41347,8 +41797,9 @@
       "source_printed_name": "Rasmus ALSBÆK",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Rasmus ALSBÆK'; noc=DEN; no profile for given+family",
-      "team": "DEN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Rasmus ALSBÆK (DEN, M)",
+      "team": "DEN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Rasmus ALSBÆK (DEN, M)"
     },
     {
       "results_row": 1620,
@@ -41454,9 +41905,15 @@
       "results_row": 1625,
       "seat": "ICF_ID2",
       "source_printed_name": "Jose CORDOVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "CUB"
+      "team": "CUB",
+      "new_id": "79493",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 79493 (Jose Ramon PELIER CORDOVA), also_ids=['142141']",
+      "also_ids": [
+        "142141"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1626,
@@ -41472,9 +41929,15 @@
       "results_row": 1626,
       "seat": "ICF_ID2",
       "source_printed_name": "Dzianis PATAPENKA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "76733",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 76733 (Dzianis PATAPENKA), also_ids=['165784']",
+      "also_ids": [
+        "165784"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1627,
@@ -41500,9 +41963,12 @@
       "results_row": 1628,
       "seat": "ICF_ID1",
       "source_printed_name": "Dimitar IVANOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BUL"
+      "team": "BUL",
+      "new_id": "79023",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 79023 (Dimitar IVANOV)",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1628,
@@ -41518,9 +41984,15 @@
       "results_row": 1629,
       "seat": "ICF_ID1",
       "source_printed_name": "Sergei NEMOV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "79485",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 79485 (Sergei NEMOV), also_ids=['172054']",
+      "also_ids": [
+        "172054"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1629,
@@ -41738,8 +42210,9 @@
       "source_printed_name": "Samo BALAZ",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Samo BALAZ'; noc=SVK; no profile for given+family",
-      "team": "SVK"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Samo BALAZ (SVK, M)",
+      "team": "SVK",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Samo BALAZ (SVK, M)"
     },
     {
       "results_row": 1640,
@@ -41747,8 +42220,9 @@
       "source_printed_name": "Milan FRANA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Milan FRANA'; noc=SVK; no profile for given+family",
-      "team": "SVK"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milan FRANA (SVK, M)",
+      "team": "SVK",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milan FRANA (SVK, M)"
     },
     {
       "results_row": 1641,
@@ -41944,9 +42418,15 @@
       "results_row": 1650,
       "seat": "ICF_ID2",
       "source_printed_name": "Ivan DMITRIEV",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "72053",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 72053 (Ivan DMITRIEV), also_ids=['148084']",
+      "also_ids": [
+        "148084"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1651,
@@ -42002,10 +42482,13 @@
       "results_row": 1652,
       "seat": "ICF_ID2",
       "source_printed_name": "Sarah BRÜSSLER",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Sarah BRÜSSLER'; noc=GER; no profile for given+family",
-      "team": "GER"
+      "team": "GER",
+      "new_id": "70315",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 70315 (Sarah BRUESSLER), also_ids=[]",
+      "printed_form": "Sarah BRÜSSLER",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1652,
@@ -42061,9 +42544,15 @@
       "results_row": 1653,
       "seat": "ICF_ID4",
       "source_printed_name": "Svetlana CHERNIGOVSKAYA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "42148",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42148 (Svetlana CHERNIGOVSKAYA), also_ids=['142865']",
+      "also_ids": [
+        "142865"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1654,
@@ -42089,12 +42578,11 @@
       "results_row": 1654,
       "seat": "ICF_ID3",
       "source_printed_name": "Paulina PASZEK",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "given_family_unique",
-      "new_id": "106524",
       "team": "POL",
-      "emptied_id": "106524",
-      "detail": "name-bound id 106524: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Paulina PASZEK (POL, W)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Paulina PASZEK (POL, W)"
     },
     {
       "results_row": 1654,
@@ -42310,9 +42798,15 @@
       "results_row": 1660,
       "seat": "ICF_ID1",
       "source_printed_name": "Alena NAZDROVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "63942",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 63942 (Alena NAZDROVA), also_ids=['148081']",
+      "also_ids": [
+        "148081"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1661,
@@ -42448,12 +42942,12 @@
       "results_row": 1674,
       "seat": "ICF_ID1",
       "source_printed_name": "Julija GUTOVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "72170",
       "team": "LAT",
-      "emptied_id": "72170",
-      "detail": "name-bound id 72170: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 72170",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 1675,
@@ -42579,9 +43073,15 @@
       "results_row": 1687,
       "seat": "ICF_ID1",
       "source_printed_name": "Alina SVITA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "71951",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 71951 (Alina SVITA), also_ids=['142847']",
+      "also_ids": [
+        "142847"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1688,
@@ -42777,10 +43277,13 @@
       "results_row": 1707,
       "seat": "ICF_ID1",
       "source_printed_name": "Greta KÖSZEGHY",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Greta KÖSZEGHY'; noc=GER; no profile for given+family",
-      "team": "GER"
+      "team": "GER",
+      "new_id": "79488",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 79488 (Greta KOESZEGHY), also_ids=[]",
+      "printed_form": "Greta KÖSZEGHY",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1708,
@@ -42836,12 +43339,11 @@
       "results_row": 1713,
       "seat": "ICF_ID1",
       "source_printed_name": "Samalulu CLIFTON",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "given_family_unique",
-      "new_id": "142039",
       "team": "NZL",
-      "emptied_id": "142039",
-      "detail": "name-bound id 142039: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)"
     },
     {
       "results_row": 1714,
@@ -42937,9 +43439,15 @@
       "results_row": 1723,
       "seat": "ICF_ID1",
       "source_printed_name": "Uladzislau LITVINAU",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "72154",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 72154 (Uladzislau LITVINAU), also_ids=['154149']",
+      "also_ids": [
+        "154149"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1724,
@@ -43097,8 +43605,9 @@
       "source_printed_name": "Geert WIJNEN",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Geert WIJNEN'; noc=NED; no profile for given+family",
-      "team": "NED"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Geert WIJNEN (NED, M)",
+      "team": "NED",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Geert WIJNEN (NED, M)"
     },
     {
       "results_row": 1740,
@@ -43676,8 +44185,9 @@
       "source_printed_name": "Emma JØRGENSEN",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Emma JØRGENSEN'; noc=DEN; no profile for given+family",
-      "team": "DEN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)",
+      "team": "DEN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)"
     },
     {
       "results_row": 1798,
@@ -43753,12 +44263,11 @@
       "results_row": 1805,
       "seat": "ICF_ID1",
       "source_printed_name": "Paulina PASZEK",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "given_family_unique",
-      "new_id": "106524",
       "team": "POL",
-      "emptied_id": "106524",
-      "detail": "name-bound id 106524: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Paulina PASZEK (POL, W)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Paulina PASZEK (POL, W)"
     },
     {
       "results_row": 1806,
@@ -44174,9 +44683,12 @@
       "results_row": 1847,
       "seat": "ICF_ID1",
       "source_printed_name": "Nicolas BOURSIER",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "FRA"
+      "team": "FRA",
+      "new_id": "63964",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 63964 (Nicolas BOURSIER), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1848,
@@ -44294,8 +44806,9 @@
       "source_printed_name": "Hugo PEDRERO",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Hugo PEDRERO'; noc=ESP; no profile for given+family",
-      "team": "ESP"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Hugo PEDRERO (ESP, M)",
+      "team": "ESP",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Hugo PEDRERO (ESP, M)"
     },
     {
       "results_row": 1860,
@@ -44353,8 +44866,9 @@
       "source_printed_name": "Alejandro RAMIREZ",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Alejandro RAMIREZ'; noc=COL; no profile for given+family",
-      "team": "COL"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+      "team": "COL",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)"
     },
     {
       "results_row": 1866,
@@ -44970,12 +45484,12 @@
       "results_row": 1911,
       "seat": "ICF_ID1",
       "source_printed_name": "Julija GUTOVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "pww_search",
       "new_id": "72170",
       "team": "LAT",
-      "emptied_id": "72170",
-      "detail": "name-bound id 72170: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 72170",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
     },
     {
       "results_row": 1912,
@@ -45403,8 +45917,9 @@
       "source_printed_name": "Emma JØRGENSEN",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Emma JØRGENSEN'; noc=DEN; no profile for given+family",
-      "team": "DEN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)",
+      "team": "DEN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)"
     },
     {
       "results_row": 1955,
@@ -45780,9 +46295,15 @@
       "results_row": 1992,
       "seat": "ICF_ID1",
       "source_printed_name": "Alina SVITA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "71951",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 71951 (Alina SVITA), also_ids=['142847']",
+      "also_ids": [
+        "142847"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1993,
@@ -45808,10 +46329,13 @@
       "results_row": 1995,
       "seat": "ICF_ID1",
       "source_printed_name": "Greta KÖSZEGHY",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Greta KÖSZEGHY'; noc=GER; no profile for given+family",
-      "team": "GER"
+      "team": "GER",
+      "new_id": "79488",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 79488 (Greta KOESZEGHY), also_ids=[]",
+      "printed_form": "Greta KÖSZEGHY",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 1996,
@@ -45887,9 +46411,15 @@
       "results_row": 2003,
       "seat": "ICF_ID1",
       "source_printed_name": "Uladzislau LITVINAU",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "72154",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 72154 (Uladzislau LITVINAU), also_ids=['154149']",
+      "also_ids": [
+        "154149"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 2004,
@@ -46045,9 +46575,15 @@
       "results_row": 2019,
       "seat": "ICF_ID1",
       "source_printed_name": "Alena NAZDROVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "63942",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 63942 (Alena NAZDROVA), also_ids=['148081']",
+      "also_ids": [
+        "148081"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 2020,
@@ -46183,12 +46719,11 @@
       "results_row": 2033,
       "seat": "ICF_ID1",
       "source_printed_name": "Paulina PASZEK",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "given_family_unique",
-      "new_id": "106524",
       "team": "POL",
-      "emptied_id": "106524",
-      "detail": "name-bound id 106524: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Paulina PASZEK (POL, W)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Paulina PASZEK (POL, W)"
     },
     {
       "results_row": 2034,
@@ -46306,8 +46841,9 @@
       "source_printed_name": "Isaquias SANTOS",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Isaquias SANTOS'; noc=BRA; no profile for given+family",
-      "team": "BRA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+      "team": "BRA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)"
     },
     {
       "results_row": 2046,
@@ -46345,8 +46881,9 @@
       "source_printed_name": "Hugo PEDRERO",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Hugo PEDRERO'; noc=ESP; no profile for given+family",
-      "team": "ESP"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Hugo PEDRERO (ESP, M)",
+      "team": "ESP",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Hugo PEDRERO (ESP, M)"
     },
     {
       "results_row": 2050,
@@ -46562,9 +47099,15 @@
       "results_row": 2062,
       "seat": "ICF_ID1",
       "source_printed_name": "Alena NAZDROVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "63942",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 63942 (Alena NAZDROVA), also_ids=['148081']",
+      "also_ids": [
+        "148081"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 2062,
@@ -46590,9 +47133,15 @@
       "results_row": 2063,
       "seat": "ICF_ID2",
       "source_printed_name": "Daria KHARCHENKO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "64463",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 64463 (Daria KHARCHENKO), also_ids=['152000']",
+      "also_ids": [
+        "152000"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 2064,
@@ -46650,8 +47199,9 @@
       "source_printed_name": "Anastasiia CHETVERIKOVA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Anastasiia CHETVERIKOVA'; noc=UKR; no profile for given+family",
-      "team": "UKR"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)",
+      "team": "UKR",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)"
     },
     {
       "results_row": 2067,
@@ -46997,9 +47547,12 @@
       "results_row": 2077,
       "seat": "ICF_ID3",
       "source_printed_name": "Nicolas BOURSIER",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "FRA"
+      "team": "FRA",
+      "new_id": "63964",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind D/A (unique after Rule 1): bound 63964 (Nicolas BOURSIER), also_ids=[]",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 2077,
@@ -47205,10 +47758,13 @@
       "results_row": 2082,
       "seat": "ICF_ID4",
       "source_printed_name": "Veselin VULCHOV",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Veselin VULCHOV'; noc=BUL; no profile for given+family",
-      "team": "BUL"
+      "team": "BUL",
+      "new_id": "79013",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 79013 (Veselin VALCHOV), also_ids=[]",
+      "printed_form": "Veselin VULCHOV",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 2083,
@@ -47336,8 +47892,9 @@
       "source_printed_name": "Oscar GARCIA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Oscar GARCIA'; noc=MEX; no profile for given+family",
-      "team": "MEX"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Oscar GARCIA (MEX, M)",
+      "team": "MEX",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Oscar GARCIA (MEX, M)"
     },
     {
       "results_row": 2086,
@@ -47355,8 +47912,9 @@
       "source_printed_name": "Juan OVANDO",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Juan OVANDO'; noc=MEX; no profile for given+family",
-      "team": "MEX"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Juan OVANDO (MEX, M)",
+      "team": "MEX",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Juan OVANDO (MEX, M)"
     },
     {
       "results_row": 2086,
@@ -47374,8 +47932,9 @@
       "source_printed_name": "Aukai MANSON",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Aukai MANSON'; noc=USA; no profile for given+family",
-      "team": "USA"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Aukai MANSON (USA, M)",
+      "team": "USA",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Aukai MANSON (USA, M)"
     },
     {
       "results_row": 2087,
@@ -47773,8 +48332,9 @@
       "source_printed_name": "Darya RAZUMOVICH",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Darya RAZUMOVICH'; noc=KAZ; no profile for given+family",
-      "team": "KAZ"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Darya RAZUMOVICH (KAZ, W)",
+      "team": "KAZ",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Darya RAZUMOVICH (KAZ, W)"
     },
     {
       "results_row": 2119,
@@ -47790,10 +48350,13 @@
       "results_row": 2119,
       "seat": "ICF_ID2",
       "source_printed_name": "Elena RICCHERO",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Elena RICCHERO'; noc=ITA; no profile for given+family",
-      "team": "ITA"
+      "team": "ITA",
+      "new_id": "72768",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 72768 (Elena RICCHIERO), also_ids=[]",
+      "printed_form": "Elena RICCHERO",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 2120,
@@ -48071,8 +48634,9 @@
       "source_printed_name": "Rasmus ALSBÆK",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Rasmus ALSBÆK'; noc=DEN; no profile for given+family",
-      "team": "DEN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Rasmus ALSBÆK (DEN, M)",
+      "team": "DEN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Rasmus ALSBÆK (DEN, M)"
     },
     {
       "results_row": 2136,
@@ -48208,9 +48772,15 @@
       "results_row": 2139,
       "seat": "ICF_ID3",
       "source_printed_name": "Uladzislau LITVINAU",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "72154",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 72154 (Uladzislau LITVINAU), also_ids=['154149']",
+      "also_ids": [
+        "154149"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 2139,
@@ -48356,9 +48926,15 @@
       "results_row": 2144,
       "seat": "ICF_ID1",
       "source_printed_name": "Alina SVITA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "71951",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 71951 (Alina SVITA), also_ids=['142847']",
+      "also_ids": [
+        "142847"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 2145,
@@ -48667,8 +49243,9 @@
       "source_printed_name": "Emma JØRGENSEN",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Emma JØRGENSEN'; noc=DEN; no profile for given+family",
-      "team": "DEN"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)",
+      "team": "DEN",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)"
     },
     {
       "results_row": 2167,
@@ -48916,8 +49493,9 @@
       "source_printed_name": "Samo BALAZ",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Samo BALAZ'; noc=SVK; no profile for given+family",
-      "team": "SVK"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Samo BALAZ (SVK, M)",
+      "team": "SVK",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Samo BALAZ (SVK, M)"
     },
     {
       "results_row": 2175,
@@ -48925,8 +49503,9 @@
       "source_printed_name": "Milan FRANA",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "printed_name='Milan FRANA'; noc=SVK; no profile for given+family",
-      "team": "SVK"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milan FRANA (SVK, M)",
+      "team": "SVK",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Milan FRANA (SVK, M)"
     },
     {
       "results_row": 2175,
@@ -49012,12 +49591,11 @@
       "results_row": 2177,
       "seat": "ICF_ID4",
       "source_printed_name": "Simon MCTAVISH",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "given_family_unique",
-      "new_id": "94785",
       "team": "AUS",
-      "emptied_id": "94785",
-      "detail": "name-bound id 94785: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Simon MCTAVISH (AUS, M)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Simon MCTAVISH (AUS, M)"
     },
     {
       "results_row": 2178,
@@ -49033,10 +49611,13 @@
       "results_row": 2178,
       "seat": "ICF_ID2",
       "source_printed_name": "Ben DUFFY",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Ben DUFFY'; noc=NZL; no profile for given+family",
-      "team": "NZL"
+      "team": "NZL",
+      "new_id": "71999",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 71999 (Benjamin DUFFY), also_ids=[]",
+      "printed_form": "Ben DUFFY",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 2178,
@@ -49062,9 +49643,15 @@
       "results_row": 2179,
       "seat": "ICF_ID1",
       "source_printed_name": "Alena NAZDROVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "63942",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 63942 (Alena NAZDROVA), also_ids=['148081']",
+      "also_ids": [
+        "148081"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 2179,
@@ -49130,9 +49717,15 @@
       "results_row": 2182,
       "seat": "ICF_ID2",
       "source_printed_name": "Daria KHARCHENKO",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "64463",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 64463 (Daria KHARCHENKO), also_ids=['152000']",
+      "also_ids": [
+        "152000"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 2183,
@@ -49668,9 +50261,12 @@
       "results_row": 2204,
       "seat": "ICF_ID1",
       "source_printed_name": "Vojtech PROCHAZKA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "CZE"
+      "team": "CZE",
+      "new_id": "64341",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 64341 (Vojtech PROCHAZKA)",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 2205,
@@ -49766,9 +50362,15 @@
       "results_row": 2210,
       "seat": "ICF_ID1",
       "source_printed_name": "Ina SAUCHUK",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "BLR"
+      "team": "BLR",
+      "new_id": "76732",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 76732 (Ina SAUCHUK), also_ids=['160288']",
+      "also_ids": [
+        "160288"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 2210,
@@ -49824,9 +50426,15 @@
       "results_row": 2213,
       "seat": "ICF_ID1",
       "source_printed_name": "Anastasiia DOLGOVA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "79481",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 79481 (Anastasiia DOLGOVA), also_ids=['142864']",
+      "also_ids": [
+        "142864"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 2213,
@@ -50142,12 +50750,11 @@
       "results_row": 2233,
       "seat": "ICF_ID2",
       "source_printed_name": "Paulina PASZEK",
-      "action": "emptied",
+      "action": "no_icf_id",
       "source": "given_family_unique",
-      "new_id": "106524",
       "team": "POL",
-      "emptied_id": "106524",
-      "detail": "name-bound id 106524: PWW profile (fetched fresh 2026-10-16) does not list this competition+event; seat emptied (icf_ids_incomplete)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Paulina PASZEK (POL, W)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Paulina PASZEK (POL, W)"
     },
     {
       "results_row": 2234,
@@ -50243,18 +50850,27 @@
       "results_row": 2238,
       "seat": "ICF_ID2",
       "source_printed_name": "Svetlana CHERNIGOVSKAYA",
-      "action": "emptied",
+      "action": "corrected",
       "source": "none",
-      "team": "RUS"
+      "team": "RUS",
+      "new_id": "42148",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 1 (same-DOB duplicate): bound 42148 (Svetlana CHERNIGOVSKAYA), also_ids=['142865']",
+      "also_ids": [
+        "142865"
+      ],
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 2239,
       "seat": "ICF_ID1",
       "source_printed_name": "Sarah BRÜSSLER",
-      "action": "no_icf_id",
+      "action": "corrected",
       "source": "pww+bence",
-      "evidence": "printed_name='Sarah BRÜSSLER'; noc=GER; no profile for given+family",
-      "team": "GER"
+      "team": "GER",
+      "new_id": "70315",
+      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (variant/compound unique): bound 70315 (Sarah BRUESSLER), also_ids=[]",
+      "printed_form": "Sarah BRÜSSLER",
+      "name_bound_profile": "kept: profile lists Pitesti_2017_JWCH"
     },
     {
       "results_row": 2239,
@@ -50361,21 +50977,21 @@
     {
       "kind": "xlsx",
       "name": "Pitesti_2017_JWCH_Results.xlsx",
-      "sha256": "a9bc79237f217b805342105c80c31fdb7d273729eeccccb67440e0f2611b2fa3",
-      "bytes": 196676
+      "sha256": "58567b18ad1b96f71f25b9882bb3553a32a279c926004c981284b9034a8906b0",
+      "bytes": 199206
     }
   ],
   "output_xlsx": "Pitesti_2017_JWCH_Results.xlsx",
-  "output_xlsx_sha256": "a9bc79237f217b805342105c80c31fdb7d273729eeccccb67440e0f2611b2fa3",
+  "output_xlsx_sha256": "58567b18ad1b96f71f25b9882bb3553a32a279c926004c981284b9034a8906b0",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
     "crews": "pass",
     "OBS": "pass",
     "RANK vs official results": "pass",
-    "PERSONS vs ICF": "not_run",
-    "repairs": "not_run",
-    "fixtures": "not_run"
+    "PERSONS vs ICF": "pass",
+    "repairs": "pass",
+    "fixtures": "pass"
   },
   "audit": {
     "fails": [],
@@ -50399,14 +51015,17 @@
     "completed": true,
     "profiles_checked": 859,
     "same_meeting_unified": 16,
-    "rule": "2013+ name-bound ids kept only if PWW profile lists competition+event",
+    "rule": "MAINTAINER_ANSWERS_2026-10-23 Rules 1-5 + same-meeting unification",
     "competition_regex": "^2017 ICF CANOE SPRINT JUNIOR AND U23 WORLD CHAMPIONSHIPS$",
     "kept": 3204,
-    "emptied": 146,
+    "emptied": 0,
     "persons_dropped": 22,
-    "olympic": false
+    "olympic": false,
+    "newly_bound_t59": 155,
+    "no_icf_id_t59": 99,
+    "same_meeting_unified_t59": 0
   },
-  "updated_at": "2026-10-17T15:54:46Z",
+  "updated_at": "2026-10-23T19:39:26Z",
   "name_change_log": [
     {
       "results_row": 28,
@@ -50488,5 +51107,278 @@
       "evidence": "profile lists 2017 ICF CANOE SPRINT JUNIOR AND U23 WORLD CHAMPIONSHIPS / K1 Women 1000m",
       "was": "no_icf_id"
     }
-  ]
+  ],
+  "printed_field_counts": {
+    "source": "boats per race as parsed from the published source (https://cdn.paddleworldwide.com/media/full_results_2017_canoe_sprint_junior_and_u23_world_championships_pitesti_romania.pdf); back-filled 2026-10-19 from the published RESULTS (the builder parse), race coverage cross-checked independently by GATE10b",
+    "rule": "MAINTAINER_ANSWERS_2026-10-18c Fix 1: printed count decides",
+    "counts": {
+      "1": 8,
+      "2": 6,
+      "3": 7,
+      "4": 9,
+      "5": 8,
+      "6": 8,
+      "7": 7,
+      "8": 8,
+      "9": 8,
+      "10": 8,
+      "11": 7,
+      "12": 8,
+      "13": 7,
+      "14": 7,
+      "15": 7,
+      "16": 7,
+      "17": 7,
+      "18": 7,
+      "19": 9,
+      "20": 9,
+      "22": 8,
+      "23": 8,
+      "24": 8,
+      "25": 8,
+      "26": 6,
+      "27": 7,
+      "28": 7,
+      "29": 7,
+      "30": 7,
+      "31": 8,
+      "32": 8,
+      "33": 7,
+      "34": 7,
+      "35": 8,
+      "36": 8,
+      "37": 8,
+      "38": 8,
+      "39": 8,
+      "40": 8,
+      "41": 8,
+      "42": 9,
+      "43": 8,
+      "44": 7,
+      "45": 7,
+      "46": 7,
+      "47": 6,
+      "48": 6,
+      "49": 8,
+      "50": 9,
+      "51": 9,
+      "52": 9,
+      "53": 9,
+      "54": 9,
+      "55": 8,
+      "56": 9,
+      "57": 9,
+      "58": 9,
+      "59": 9,
+      "60": 9,
+      "61": 9,
+      "62": 9,
+      "64": 9,
+      "65": 9,
+      "66": 8,
+      "67": 9,
+      "68": 9,
+      "69": 9,
+      "70": 9,
+      "71": 9,
+      "72": 9,
+      "73": 9,
+      "74": 9,
+      "75": 9,
+      "76": 9,
+      "77": 9,
+      "78": 9,
+      "79": 9,
+      "80": 8,
+      "81": 8,
+      "82": 8,
+      "83": 9,
+      "84": 9,
+      "85": 8,
+      "86": 9,
+      "87": 8,
+      "88": 8,
+      "89": 8,
+      "90": 8,
+      "91": 7,
+      "92": 8,
+      "93": 7,
+      "94": 7,
+      "95": 9,
+      "96": 7,
+      "97": 8,
+      "98": 8,
+      "99": 9,
+      "100": 8,
+      "101": 8,
+      "102": 7,
+      "103": 9,
+      "104": 9,
+      "105": 9,
+      "106": 8,
+      "107": 9,
+      "108": 8,
+      "109": 8,
+      "110": 9,
+      "111": 8,
+      "112": 9,
+      "113": 9,
+      "114": 9,
+      "115": 9,
+      "116": 8,
+      "117": 8,
+      "118": 9,
+      "119": 9,
+      "120": 9,
+      "121": 9,
+      "122": 9,
+      "123": 9,
+      "124": 9,
+      "125": 9,
+      "126": 9,
+      "127": 9,
+      "128": 9,
+      "129": 9,
+      "130": 8,
+      "131": 9,
+      "132": 9,
+      "133": 9,
+      "134": 9,
+      "135": 9,
+      "136": 9,
+      "137": 9,
+      "138": 9,
+      "139": 9,
+      "140": 9,
+      "141": 8,
+      "142": 8,
+      "143": 8,
+      "144": 9,
+      "145": 8,
+      "146": 8,
+      "147": 8,
+      "148": 8,
+      "149": 8,
+      "150": 8,
+      "151": 8,
+      "152": 7,
+      "153": 8,
+      "154": 8,
+      "155": 7,
+      "156": 7,
+      "157": 9,
+      "158": 9,
+      "159": 8,
+      "160": 9,
+      "161": 8,
+      "162": 8,
+      "163": 7,
+      "164": 8,
+      "165": 8,
+      "166": 8,
+      "167": 8,
+      "168": 8,
+      "169": 9,
+      "170": 9,
+      "171": 9,
+      "172": 8,
+      "173": 8,
+      "174": 8,
+      "175": 7,
+      "300": 2,
+      "176": 9,
+      "177": 9,
+      "179": 9,
+      "180": 9,
+      "181": 9,
+      "182": 9,
+      "183": 9,
+      "184": 9,
+      "185": 9,
+      "186": 9,
+      "187": 9,
+      "188": 9,
+      "189": 9,
+      "190": 9,
+      "191": 9,
+      "192": 9,
+      "193": 9,
+      "194": 9,
+      "195": 9,
+      "196": 9,
+      "197": 9,
+      "198": 9,
+      "199": 9,
+      "200": 9,
+      "201": 9,
+      "202": 9,
+      "203": 9,
+      "204": 9,
+      "205": 9,
+      "206": 9,
+      "207": 9,
+      "208": 9,
+      "209": 8,
+      "210": 9,
+      "211": 9,
+      "212": 9,
+      "213": 9,
+      "214": 9,
+      "215": 9,
+      "216": 9,
+      "217": 9,
+      "218": 9,
+      "219": 9,
+      "220": 9,
+      "221": 9,
+      "222": 9,
+      "223": 9,
+      "224": 9,
+      "225": 9,
+      "226": 9,
+      "227": 9,
+      "228": 7,
+      "229": 9,
+      "230": 9,
+      "231": 9,
+      "232": 9,
+      "233": 9,
+      "234": 9,
+      "235": 9,
+      "236": 9,
+      "237": 9,
+      "238": 9,
+      "239": 9,
+      "240": 9,
+      "241": 9,
+      "242": 9,
+      "243": 9,
+      "244": 9,
+      "245": 9,
+      "246": 9,
+      "247": 9,
+      "248": 9,
+      "249": 9,
+      "250": 9,
+      "251": 9,
+      "252": 9,
+      "253": 9,
+      "254": 9,
+      "255": 9,
+      "256": 9,
+      "257": 9,
+      "258": 9,
+      "259": 9,
+      "260": 9,
+      "261": 9,
+      "262": 9,
+      "263": 9,
+      "264": 9,
+      "265": 9,
+      "266": 9,
+      "267": 9
+    },
+    "backfilled": "2026-10-19"
+  },
+  "nation_change_log": []
 }
