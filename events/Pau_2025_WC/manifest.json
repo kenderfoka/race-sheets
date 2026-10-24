@@ -10,13 +10,13 @@
  "sheet": "Pau_2025_WC_start.xlsx",
  "grade": "PERFECT",
  "gaps": [],
- "generated_at_utc": "2026-10-13T08:38:38Z",
- "updated_at": "2026-10-16T09:09:16Z",
+ "generated_at_utc": "2026-10-24T08:14:29Z",
+ "updated_at": "2026-10-24T08:14:29Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "Pau_2025_WC_start.xlsx",
-   "sha256": "ddd0d17e90cccc10b788750400ebc64f3bbb508a6cca94b4e2133f9d78ff681c"
+   "sha256": "e3f67a4512bc1094f293d2abd0a2757f92131d66a43670597f7f3f93c4ffbc3d"
   }
  ],
  "row_count": 568,
@@ -4655,5 +4655,40 @@
  "pending_maintainer": [],
  "issues": [],
  "shared_start_clash": [],
- "layout_note": "2026-10-16 11:08: content restored exactly from the previously published version dab5d1d; only empty Name4-6/ICF_ID4-6 columns added (6-seat layout). Rebuild of 11:05 reverted (forerunner rows changed; open investigation)."
+ "layout_note": "2026-10-16 11:08: content restored exactly from the previously published version dab5d1d; only empty Name4-6/ICF_ID4-6 columns added (6-seat layout). Rebuild of 11:05 reverted (forerunner rows changed; open investigation).",
+ "kx_individual_ranks": {
+  "rule": "Maintainer 2026-10-21 (PADDLETAGGER_CONTRACT \"Kayak Cross individual (time trial) ranks\"; docs/maintainer/request_KX_timetrial_ranks_2026-10-21.md): Time Trials rows carry RANK = official kayak cross individual classification; never computed from times",
+  "applied_at": "2026-10-24T08:14:29Z",
+  "phase": "Time Trials",
+  "event": "K1 Cross (kayak cross individual)",
+  "source": "SIWIDATA 2333 event classification CSLMX1IND/CSLWX1IND RankingRow (identical to Time Trials unit FNL-0001 RankingRow)",
+  "cross_check": {
+   "M": {
+    "pdf": "123result CS_2025/siwidata/2333/CSLMX1IND-------------FNL-000100--@Results.pdf",
+    "rows": 82,
+    "mismatches": 0
+   },
+   "W": {
+    "pdf": "123result CS_2025/siwidata/2333/CSLWX1IND-------------FNL-000100--@Results.pdf",
+    "rows": 47,
+    "mismatches": 0
+   }
+  },
+  "match": "gender+bib, Name1 exact vs archive and PDF, Team and ICF_ID1 checked",
+  "rows": 129,
+  "ranked": 129,
+  "left_empty": 0,
+  "rank_empty_official": [],
+  "classification_missing": [],
+  "rank_order": "not changed (only Rank cells patched, per instruction)",
+  "notes": [
+   "row 317 bib 47 LOGACHEVA Taisiia: sheet ICF_ID1=None, archive 156100; published id decision logged in id_checks (action no_icf_id); athlete matched by bib+name+team"
+  ],
+  "cell_patch": {
+   "kind": "in-place cell patch, Rank column only, every old value empty; all other cells identical (value, type, number format, style), race numbers identical; only docProps/core.xml modified timestamp differs outside the sheet",
+   "previous_sha256": "ddd0d17e90cccc10b788750400ebc64f3bbb508a6cca94b4e2133f9d78ff681c",
+   "changed_cells": 129,
+   "log": "race-desk/logs/kx_tt_ranks_republish_2026-10-24.md"
+  }
+ }
 }
