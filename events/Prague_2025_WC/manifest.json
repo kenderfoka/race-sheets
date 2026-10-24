@@ -10,13 +10,13 @@
  "sheet": "Prague_2025_WC_start.xlsx",
  "grade": "PERFECT",
  "gaps": [],
- "generated_at_utc": "2026-10-16T09:03:25Z",
- "updated_at": "2026-10-16T09:05:55Z",
+ "generated_at_utc": "2026-10-24T08:14:37Z",
+ "updated_at": "2026-10-24T08:14:37Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "Prague_2025_WC_start.xlsx",
-   "sha256": "8ca9fdf5977c4063babe2552a563e475a3d713d0daf25d2bf31af00cb791eeba"
+   "sha256": "e75b9252408f2f4a137937e779ce68832cb1144d66f830c65ef55a329d267833"
   }
  ],
  "row_count": 768,
@@ -6318,5 +6318,79 @@
  "pending_maintainer": [],
  "issues": [],
  "shared_start_clash": [],
- "shared_clock_log": []
+ "shared_clock_log": [],
+ "kx_individual_ranks": {
+  "rule": "Maintainer 2026-10-21 (PADDLETAGGER_CONTRACT \"Kayak Cross individual (time trial) ranks\"; docs/maintainer/request_KX_timetrial_ranks_2026-10-21.md): Time Trials rows carry RANK = official kayak cross individual classification; never computed from times",
+  "applied_at": "2026-10-24T08:14:37Z",
+  "phase": "Time Trials",
+  "event": "K1 Cross (kayak cross individual)",
+  "source": "SIWIDATA 2331 event classification CSLMX1IND/CSLWX1IND RankingRow (identical to Time Trials unit FNL-0001 RankingRow)",
+  "cross_check": {
+   "M": {
+    "pdf": "123result CS_2025/siwidata/2331/CSLMX1IND-------------FNL-000100--@Results.pdf",
+    "rows": 68,
+    "mismatches": 0
+   },
+   "W": {
+    "pdf": "123result CS_2025/siwidata/2331/CSLWX1IND-------------FNL-000100--@Results.pdf",
+    "rows": 42,
+    "mismatches": 0
+   }
+  },
+  "match": "gender+bib, Name1 exact vs archive and PDF, Team and ICF_ID1 checked",
+  "rows": 110,
+  "ranked": 105,
+  "left_empty": 5,
+  "rank_empty_official": [
+   {
+    "row": 550,
+    "bib": "32",
+    "name": "PLATA Laura",
+    "team": "COL",
+    "status": "DNS",
+    "note": "official classification prints no rank; RANK left empty (not computed)"
+   },
+   {
+    "row": 596,
+    "bib": "54",
+    "name": "EICHFELD Casey",
+    "team": "USA",
+    "status": "DNS",
+    "note": "official classification prints no rank; RANK left empty (not computed)"
+   },
+   {
+    "row": 600,
+    "bib": "50",
+    "name": "JACOB Lucas",
+    "team": "POR",
+    "status": "DNS",
+    "note": "official classification prints no rank; RANK left empty (not computed)"
+   },
+   {
+    "row": 616,
+    "bib": "34",
+    "name": "HALCIN Martin",
+    "team": "SVK",
+    "status": "DNS",
+    "note": "official classification prints no rank; RANK left empty (not computed)"
+   },
+   {
+    "row": 623,
+    "bib": "27",
+    "name": "DESNOS Mathieu",
+    "team": "BRA",
+    "status": "DNS",
+    "note": "official classification prints no rank; RANK left empty (not computed)"
+   }
+  ],
+  "classification_missing": [],
+  "rank_order": "not changed (only Rank cells patched, per instruction)",
+  "notes": [],
+  "cell_patch": {
+   "kind": "in-place cell patch, Rank column only, every old value empty; all other cells identical (value, type, number format, style), race numbers identical; only docProps/core.xml modified timestamp differs outside the sheet",
+   "previous_sha256": "8ca9fdf5977c4063babe2552a563e475a3d713d0daf25d2bf31af00cb791eeba",
+   "changed_cells": 105,
+   "log": "race-desk/logs/kx_tt_ranks_republish_2026-10-24.md"
+  }
+ }
 }
