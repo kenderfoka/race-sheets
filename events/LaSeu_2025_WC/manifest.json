@@ -10,13 +10,13 @@
  "sheet": "LaSeu_2025_WC_start.xlsx",
  "grade": "PERFECT",
  "gaps": [],
- "generated_at_utc": "2026-10-16T09:01:52Z",
- "updated_at": "2026-10-16T09:05:44Z",
+ "generated_at_utc": "2026-10-24T08:14:27Z",
+ "updated_at": "2026-10-24T08:14:27Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "LaSeu_2025_WC_start.xlsx",
-   "sha256": "1d5e7640bfdcc53f06fbdb298c984f85ddc31fc94915264b738722f5d8490044"
+   "sha256": "15651a4707b1d196b7e5ff37ddd322681ae48ed607b9bd68512a2cba171fae64"
   }
  ],
  "row_count": 588,
@@ -4998,5 +4998,105 @@
  "pending_maintainer": [],
  "issues": [],
  "shared_start_clash": [],
- "shared_clock_log": []
+ "shared_clock_log": [],
+ "kx_individual_ranks": {
+  "rule": "Maintainer 2026-10-21 (PADDLETAGGER_CONTRACT \"Kayak Cross individual (time trial) ranks\"; docs/maintainer/request_KX_timetrial_ranks_2026-10-21.md): Time Trials rows carry RANK = official kayak cross individual classification; never computed from times",
+  "applied_at": "2026-10-24T08:14:27Z",
+  "phase": "Time Trials",
+  "event": "K1 Cross (kayak cross individual)",
+  "source": "SIWIDATA 2332 event classification CSLMX1IND/CSLWX1IND RankingRow (identical to Time Trials unit FNL-0001 RankingRow)",
+  "cross_check": {
+   "M": {
+    "pdf": "123result CS_2025/siwidata/2332/CSLMX1IND-------------FNL-000100--@Results.pdf",
+    "rows": 82,
+    "mismatches": 0
+   },
+   "W": {
+    "pdf": "123result CS_2025/siwidata/2332/CSLWX1IND-------------FNL-000100--@Results.pdf",
+    "rows": 48,
+    "mismatches": 0
+   }
+  },
+  "match": "gender+bib, Name1 exact vs archive and PDF, Team and ICF_ID1 checked",
+  "rows": 130,
+  "ranked": 122,
+  "left_empty": 8,
+  "rank_empty_official": [
+   {
+    "row": 336,
+    "bib": "48",
+    "name": "CHOMKOGSUNG Kanda",
+    "team": "THA",
+    "status": "DNS",
+    "note": "official classification prints no rank; RANK left empty (not computed)"
+   },
+   {
+    "row": 342,
+    "bib": "42",
+    "name": "NIAMTHONG Jaruwan",
+    "team": "THA",
+    "status": "DNS",
+    "note": "official classification prints no rank; RANK left empty (not computed)"
+   },
+   {
+    "row": 356,
+    "bib": "28",
+    "name": "WILLIAMS Courtney",
+    "team": "NZL",
+    "status": "DNS",
+    "note": "official classification prints no rank; RANK left empty (not computed)"
+   },
+   {
+    "row": 368,
+    "bib": "16",
+    "name": "TEUNISSEN Lena",
+    "team": "NED",
+    "status": "DNS",
+    "note": "official classification prints no rank; RANK left empty (not computed)"
+   },
+   {
+    "row": 386,
+    "bib": "80",
+    "name": "PHUTTRAKSA Chonlasit",
+    "team": "THA",
+    "status": "DNS",
+    "note": "official classification prints no rank; RANK left empty (not computed)"
+   },
+   {
+    "row": 390,
+    "bib": "76",
+    "name": "MANGJIT Janyawut",
+    "team": "THA",
+    "status": "DNS",
+    "note": "official classification prints no rank; RANK left empty (not computed)"
+   },
+   {
+    "row": 393,
+    "bib": "73",
+    "name": "KOETSUK Piyanath",
+    "team": "THA",
+    "status": "DNS",
+    "note": "official classification prints no rank; RANK left empty (not computed)"
+   },
+   {
+    "row": 441,
+    "bib": "25",
+    "name": "JEMAI Salim",
+    "team": "TUN",
+    "status": "DNS",
+    "note": "official classification prints no rank; RANK left empty (not computed)"
+   }
+  ],
+  "classification_missing": [],
+  "rank_order": "not changed (only Rank cells patched, per instruction)",
+  "notes": [
+   "row 337 bib 47 LOGACHEVA Taisiia: sheet ICF_ID1=None, archive 156100; published id decision logged in id_checks (action no_icf_id); athlete matched by bib+name+team"
+  ],
+  "cell_patch": {
+   "kind": "in-place cell patch, Rank column only, every old value empty; all other cells identical (value, type, number format, style), race numbers identical; only docProps/core.xml modified timestamp differs outside the sheet",
+   "previous_sha256": "1d5e7640bfdcc53f06fbdb298c984f85ddc31fc94915264b738722f5d8490044",
+   "changed_cells": 122,
+   "log": "race-desk/logs/kx_tt_ranks_republish_2026-10-24.md"
+  }
+ }
 }
