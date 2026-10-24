@@ -10,7 +10,7 @@
   "dates": "2021-09-03/2021-09-06",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-24T10:10:17Z",
+  "generated_at_utc": "2026-10-24T11:25:56Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "MemoSoft results book (Spotfokus hub dead) prints the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule). OQ/para races in the same book are kept (one key).",
@@ -46825,13 +46825,14 @@
       "team": "CHN",
       "detail": "MAINTAINER_ANSWERS_2026-10-24 Kind D/A (unique after Rule 1): bound 75560 (Jialin LIU, dob=2022-03-24), also_ids=[] | age_conflict=75560|2022-03-24|under 14 on 2021-09-03",
       "new_id": "75560",
-      "age_conflict": {
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-24 Kind D/A (unique after Rule 1)",
+      "icf_birth_date_error": {
         "id": "75560",
         "birth_date": "2022-03-24",
-        "reason": "under 14 on 2021-09-03",
-        "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule: sole candidate carrying the printed name and country is kept; conflict logged"
+        "reason": "born 2022-03-24, after the meeting's first day 2021-09-03",
+        "rule": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 4: impossible ICF birth date (after the meeting, or age under 5) counts as missing; logged as an ICF error"
       },
-      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-24 Kind D/A (unique after Rule 1)"
+      "ru168": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 4: kept 75560; the ICF birth date is impossible for this meeting and counts as missing (age_conflict withdrawn)"
     },
     {
       "results_row": 2033,
@@ -48614,12 +48615,12 @@
     {
       "kind": "xlsx",
       "name": "Montemor_2021_JWCH_Results.xlsx",
-      "sha256": "d44999baef7a92b5c6cd485718c520ac1860a9c0644d732cd1ce47ccd9def0b4",
-      "bytes": 186588
+      "sha256": "f99fc07c32e6ddd5878cde8717f39045990743a72dadf7170a80f399df867ccb",
+      "bytes": 186587
     }
   ],
   "output_xlsx": "Montemor_2021_JWCH_Results.xlsx",
-  "output_xlsx_sha256": "d44999baef7a92b5c6cd485718c520ac1860a9c0644d732cd1ce47ccd9def0b4",
+  "output_xlsx_sha256": "f99fc07c32e6ddd5878cde8717f39045990743a72dadf7170a80f399df867ccb",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -48663,9 +48664,13 @@
       "age_conflict_kept": 6,
       "newbind": 1,
       "newbind_age_conflict": 1
+    },
+    "t61_ru168": {
+      "rule": "MAINTAINER_ANSWERS_2026-10-24b RU168 rulings 1-8",
+      "date_error_logged": 1
     }
   },
-  "updated_at": "2026-10-24T10:10:17Z",
+  "updated_at": "2026-10-24T11:25:56Z",
   "name_change_log": [
     {
       "results_row": 38,

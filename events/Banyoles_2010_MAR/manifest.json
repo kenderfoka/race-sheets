@@ -10,7 +10,7 @@
   "dates": "2010-09-24/2010-09-26",
   "discipline": "marathon",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-24T10:10:17Z",
+  "generated_at_utc": "2026-10-24T11:25:56Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "2010 ICF Canoe Marathon World Championships Banyoles-Girona, organiser results book. One final per class; START_TIME = printed start time; DISTANCE = printed km x 1000. Names 'FAMILY Given'; all-caps unsplit names split by the one matching ICF profile (rule Q19) or passed as printed, logged. Status words mapped No Start->DNS, Disqualified->DSQ, Retired->DNF (Q59). Points columns ignored.",
@@ -4613,19 +4613,25 @@
       "results_row": 187,
       "seat": "ICF_ID2",
       "source_printed_name": "Adrián GONZÁLEZ FERNÁNDEZ",
-      "action": "bound_by_name_unconfirmed",
+      "action": "no_icf_id",
       "source": "given_family_unique",
       "team": "ESP",
-      "detail": "MAINTAINER_ANSWERS_2026-10-24 Rule 3 (variant/compound unique): bound 72616 (Adrian GONZALEZ, dob=1999-02-19), also_ids=[] | age_conflict=72616|1999-02-19|under 14 on 2010-09-24",
+      "detail": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 8: RU168 ruling 8: under-14 sole candidate whose profile does not list the meeting (also RU168 ruling 1: the printed surname is not the candidate's); candidate 72616 Adrian GONZALEZ (born 1999-02-19) logged; no_icf_id",
       "q76_birth_date": "2009-08-11",
       "rule_q76": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age",
-      "new_id": "72616",
       "q76_superseded": "MAINTAINER_ANSWERS_2026-10-24 RU166: Q76/Q80(b) replaced by the age rule (was q76_emptied_id 168691)",
-      "age_conflict": {
+      "candidate_logged": {
         "id": "72616",
+        "name": "Adrian GONZALEZ",
         "birth_date": "1999-02-19",
-        "reason": "under 14 on 2010-09-24",
-        "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule: sole candidate carrying the printed name and country is kept; conflict logged"
+        "nationality": "ESP",
+        "federation": "ESP"
+      },
+      "evidence": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 8: RU168 ruling 8: under-14 sole candidate whose profile does not list the meeting (also RU168 ruling 1: the printed surname is not the candidate's); candidate 72616 Adrian GONZALEZ (born 1999-02-19) logged; no_icf_id",
+      "correction": {
+        "previous_id": "72616",
+        "new_id": "",
+        "rule": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 8"
       }
     },
     {
@@ -5043,19 +5049,25 @@
       "results_row": 226,
       "seat": "ICF_ID1",
       "source_printed_name": "Ben BROWN",
-      "action": "bound_by_name_unconfirmed",
+      "action": "no_icf_id",
       "source": "pww_search",
       "team": "GBR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-24 Kind D/A (unique after Rule 1): bound 119523 (Ben BROWN, dob=2004-10-12), also_ids=[] | age_conflict=119523|2004-10-12|under 14 on 2010-09-24",
+      "detail": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 8: RU168 ruling 8: under-14 sole candidate whose profile does not list the meeting; candidate 119523 Ben BROWN (born 2004-10-12) logged; no_icf_id",
       "q76_birth_date": "2004-10-12",
       "rule_q76": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age",
-      "new_id": "119523",
       "q76_superseded": "MAINTAINER_ANSWERS_2026-10-24 RU166: Q76/Q80(b) replaced by the age rule (was q76_emptied_id 119523)",
-      "age_conflict": {
+      "candidate_logged": {
         "id": "119523",
+        "name": "Ben BROWN",
         "birth_date": "2004-10-12",
-        "reason": "under 14 on 2010-09-24",
-        "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule: sole candidate carrying the printed name and country is kept; conflict logged"
+        "nationality": "GBR",
+        "federation": "GBR"
+      },
+      "evidence": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 8: RU168 ruling 8: under-14 sole candidate whose profile does not list the meeting; candidate 119523 Ben BROWN (born 2004-10-12) logged; no_icf_id",
+      "correction": {
+        "previous_id": "119523",
+        "new_id": "",
+        "rule": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 8"
       }
     },
     {
@@ -6683,12 +6695,12 @@
     {
       "kind": "xlsx",
       "name": "Banyoles_2010_MAR_Results.xlsx",
-      "sha256": "e035f4933a2a5eea7dd8482a04cb1fab370b7aee0b31680e7ab9bb76a3aedfec",
-      "bytes": 31016
+      "sha256": "18d6058758d697cc6f07ab5447419c99def7c18bb137c509f09db7ffaa81dc00",
+      "bytes": 30948
     }
   ],
   "output_xlsx": "Banyoles_2010_MAR_Results.xlsx",
-  "output_xlsx_sha256": "e035f4933a2a5eea7dd8482a04cb1fab370b7aee0b31680e7ab9bb76a3aedfec",
+  "output_xlsx_sha256": "18d6058758d697cc6f07ab5447419c99def7c18bb137c509f09db7ffaa81dc00",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -6728,9 +6740,14 @@
       "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule first + sole-candidate keep (replaces Q76/Q80b) + cross-country review",
       "newbind": 3,
       "newbind_age_conflict": 2
+    },
+    "t61_ru168": {
+      "rule": "MAINTAINER_ANSWERS_2026-10-24b RU168 rulings 1-8",
+      "emptied_to_no_icf_id": 2,
+      "ruling8_emptied": 2
     }
   },
-  "updated_at": "2026-10-24T10:10:17Z",
+  "updated_at": "2026-10-24T11:25:56Z",
   "q76_under14_log": {
     "rule": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age",
     "first_day": "2010-09-24",
@@ -6875,5 +6892,46 @@
   },
   "name_change_log": [],
   "nation_change_log": [],
-  "corrections_log": []
+  "corrections_log": [
+    {
+      "results_row": 187,
+      "seat": "ICF_ID2",
+      "printed": "Adrián GONZÁLEZ FERNÁNDEZ",
+      "team": "ESP",
+      "category": "JUNIOR",
+      "previous_id": "72616",
+      "new_id": "",
+      "action": "no_icf_id",
+      "rule": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 8",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 8: RU168 ruling 8: under-14 sole candidate whose profile does not list the meeting (also RU168 ruling 1: the printed surname is not the candidate's); candidate 72616 Adrian GONZALEZ (born 1999-02-19) logged; no_icf_id",
+      "previous_record": {
+        "id": "72616",
+        "name": "Adrian GONZALEZ",
+        "birth_date": "1999-02-19",
+        "nationality": "ESP",
+        "federation": "ESP"
+      },
+      "new_record": null
+    },
+    {
+      "results_row": 226,
+      "seat": "ICF_ID1",
+      "printed": "Ben BROWN",
+      "team": "GBR",
+      "category": "SENIOR",
+      "previous_id": "119523",
+      "new_id": "",
+      "action": "no_icf_id",
+      "rule": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 8",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 8: RU168 ruling 8: under-14 sole candidate whose profile does not list the meeting; candidate 119523 Ben BROWN (born 2004-10-12) logged; no_icf_id",
+      "previous_record": {
+        "id": "119523",
+        "name": "Ben BROWN",
+        "birth_date": "2004-10-12",
+        "nationality": "GBR",
+        "federation": "GBR"
+      },
+      "new_record": null
+    }
+  ]
 }

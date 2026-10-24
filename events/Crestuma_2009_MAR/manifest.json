@@ -10,7 +10,7 @@
   "dates": "2009-09-18/2009-09-20",
   "discipline": "marathon",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-23T19:39:26Z",
+  "generated_at_utc": "2026-10-24T11:25:56Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "ICF archive results book (Crestuma/Gaia, 18-20 Sep 2009). START_TIME = start printed in each race header (scheduled; HH:MM:00). RESULT = printed time; DIFFERENCE not written (marathon precedent). STARTING_LANE = printed boat number; Bib(s) are event bibs, BIB_BOAT empty. TEAM = NOC code printed sideways beside the flag image, read by OCR and checked by eye per distinct strip image (MAINTAINER_ANSWERS_2026-10-19b Q58; noc_strip_log). DISTANCE not printed. No ICF ids printed: bind_seat; pre-2013 seats bound_by_name_unconfirmed (Q44).",
@@ -2676,11 +2676,11 @@
       "results_row": 44,
       "seat": "ICF_ID1",
       "source_printed_name": "Joana SOUSA",
-      "action": "no_icf_id",
+      "action": "bound_by_name_unconfirmed",
       "source": "none",
       "team": "POR",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 / Gate 4 same-meeting namesake collision -> no_icf_id: tied_namesakes across meeting categories: candidate_ids=36459, 48165; Gate 4 forbids split IDs for same printed name+NOC without M/W split",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 / Gate 4 same-meeting namesake collision -> no_icf_id: tied_namesakes across meeting categories: candidate_ids=36459, 48165; Gate 4 forbids split IDs for same printed name+NOC without M/W split"
+      "detail": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 5: two people under one printed name, separated by the age rule: JUNIOR race -> 48165 Joana MARINHO SOUSA (born 1991-08-15); other candidate 36459 Joana SOUSA (born 1983-08-10); logged in gate4_age_split_log",
+      "new_id": "48165"
     },
     {
       "results_row": 45,
@@ -2869,14 +2869,19 @@
       "results_row": 63,
       "seat": "ICF_ID1",
       "source_printed_name": "Diogo FERREIRA",
-      "action": "no_icf_id",
+      "action": "bound_by_name_unconfirmed",
       "source": "pww_search",
       "team": "POR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Diogo FERREIRA (POR, M) | Q76: 129697 (born 2005-05-10) was under 14 on 2009-09-18; no single same-nation same-gender athlete of the right age carries the printed name; seat empty",
-      "q76_emptied_id": "129697",
-      "q76_birth_date": "2005-05-10",
+      "detail": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 4: sole candidate 129697 Diogo FERREIRA carries the printed name and country; its ICF birth date 2005-05-10 (age 4 on 2009-09-18) is impossible and counts as missing, so it fits",
       "rule_q76": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Diogo FERREIRA (POR, M) | Q76: 129697 (born 2005-05-10) was under 14 on 2009-09-18; no single same-nation same-gender athlete of the right age carries the printed name; seat empty"
+      "new_id": "129697",
+      "q76_superseded": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 4: was q76_emptied_id 129697 (impossible birth date counts as missing)",
+      "icf_birth_date_error": {
+        "id": "129697",
+        "birth_date": "2005-05-10",
+        "reason": "born 2005-05-10, age 4 on 2009-09-18",
+        "rule": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 4: impossible ICF birth date (after the meeting, or age under 5) counts as missing; logged as an ICF error"
+      }
     },
     {
       "results_row": 64,
@@ -3782,7 +3787,15 @@
       "q76_emptied_id": "73762",
       "q76_birth_date": "2000-03-05",
       "rule_q76": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Bence SZABO (HUN, M) | Q76: 73762 (born 2000-03-05) was under 14 on 2009-09-18; no single same-nation same-gender athlete of the right age carries the printed name; seat empty"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Bence SZABO (HUN, M) | Q76: 73762 (born 2000-03-05) was under 14 on 2009-09-18; no single same-nation same-gender athlete of the right age carries the printed name; seat empty",
+      "candidate_logged": {
+        "id": "73762",
+        "name": "Bence SZABO",
+        "birth_date": "2000-03-05",
+        "nationality": "HUN",
+        "federation": "HUN"
+      },
+      "ru168": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 8: under-14 sole candidate whose profile does not list the meeting; candidate 73762 Bence SZABO (born 2000-03-05) logged; seat stays no_icf_id"
     },
     {
       "results_row": 140,
@@ -4479,11 +4492,11 @@
       "results_row": 175,
       "seat": "ICF_ID1",
       "source_printed_name": "Joana SOUSA",
-      "action": "no_icf_id",
+      "action": "bound_by_name_unconfirmed",
       "source": "none",
       "team": "POR",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 / Gate 4 same-meeting namesake collision -> no_icf_id: tied_namesakes across meeting categories: candidate_ids=36459, 48165; Gate 4 forbids split IDs for same printed name+NOC without M/W split",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 / Gate 4 same-meeting namesake collision -> no_icf_id: tied_namesakes across meeting categories: candidate_ids=36459, 48165; Gate 4 forbids split IDs for same printed name+NOC without M/W split"
+      "detail": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 5: two people under one printed name, separated by the age rule: JUNIOR race -> 48165 Joana MARINHO SOUSA (born 1991-08-15); other candidate 36459 Joana SOUSA (born 1983-08-10); logged in gate4_age_split_log",
+      "new_id": "48165"
     },
     {
       "results_row": 175,
@@ -4616,7 +4629,15 @@
       "q76_emptied_id": "72616",
       "q76_birth_date": "1999-02-19",
       "rule_q76": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Adrian GONZÁLEZ (ESP, ) | Q76: 72616 (born 1999-02-19) was under 14 on 2009-09-18; no single same-nation same-gender athlete of the right age carries the printed name; seat empty"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Adrian GONZÁLEZ (ESP, ) | Q76: 72616 (born 1999-02-19) was under 14 on 2009-09-18; no single same-nation same-gender athlete of the right age carries the printed name; seat empty",
+      "candidate_logged": {
+        "id": "72616",
+        "name": "Adrian GONZALEZ",
+        "birth_date": "1999-02-19",
+        "nationality": "ESP",
+        "federation": "ESP"
+      },
+      "ru168": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 8: under-14 sole candidate whose profile does not list the meeting; candidate 72616 Adrian GONZALEZ (born 1999-02-19) logged; seat stays no_icf_id"
     },
     {
       "results_row": 182,
@@ -5566,11 +5587,11 @@
       "results_row": 264,
       "seat": "ICF_ID2",
       "source_printed_name": "Joana SOUSA",
-      "action": "no_icf_id",
+      "action": "bound_by_name_unconfirmed",
       "source": "none",
       "team": "POR",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 / Gate 4 same-meeting namesake collision -> no_icf_id: tied_namesakes across meeting categories: candidate_ids=36459, 48165; Gate 4 forbids split IDs for same printed name+NOC without M/W split",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 / Gate 4 same-meeting namesake collision -> no_icf_id: tied_namesakes across meeting categories: candidate_ids=36459, 48165; Gate 4 forbids split IDs for same printed name+NOC without M/W split"
+      "detail": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 5: two people under one printed name, separated by the age rule: SENIOR race -> 36459 Joana SOUSA (born 1983-08-10); other candidate 48165 Joana MARINHO SOUSA (born 1991-08-15); logged in gate4_age_split_log",
+      "new_id": "36459"
     },
     {
       "results_row": 265,
@@ -9394,12 +9415,12 @@
     {
       "kind": "xlsx",
       "name": "Crestuma_2009_MAR_Results.xlsx",
-      "sha256": "374bc3b4e1e1ceaea0e08bdfd7b8e4fee8e903a16fb9a37eb6a6c6240e6e62cc",
-      "bytes": 28495
+      "sha256": "a89efd065a5a455570d5736204e4a970ab633d3a7f3482e4e4b4165f317e5192",
+      "bytes": 28603
     }
   ],
   "output_xlsx": "Crestuma_2009_MAR_Results.xlsx",
-  "output_xlsx_sha256": "374bc3b4e1e1ceaea0e08bdfd7b8e4fee8e903a16fb9a37eb6a6c6240e6e62cc",
+  "output_xlsx_sha256": "a89efd065a5a455570d5736204e4a970ab633d3a7f3482e4e4b4165f317e5192",
   "name_bound_check": {
     "completed": true,
     "rule": "MAINTAINER_ANSWERS_2026-10-23 Rules 1-5 + same-meeting unification",
@@ -9409,9 +9430,14 @@
     "refused": [],
     "newly_bound_t59": 6,
     "no_icf_id_t59": 285,
-    "same_meeting_unified_t59": 0
+    "same_meeting_unified_t59": 0,
+    "t61_ru168": {
+      "rule": "MAINTAINER_ANSWERS_2026-10-24b RU168 rulings 1-8",
+      "filled": 4,
+      "ruling8_stays_no_icf_id": 2
+    }
   },
-  "updated_at": "2026-10-23T19:39:26Z",
+  "updated_at": "2026-10-24T11:25:56Z",
   "audit": {
     "fails": [],
     "nfails": 0,
@@ -9555,5 +9581,32 @@
     ]
   },
   "name_change_log": [],
-  "nation_change_log": []
+  "nation_change_log": [],
+  "corrections_log": [],
+  "gate4_age_split_log": [
+    {
+      "printed": "Joana SOUSA",
+      "team": "POR",
+      "rule": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 5",
+      "ids": {
+        "48165": {
+          "category": "JUNIOR",
+          "birth_date": "1991-08-15",
+          "name": "Joana MARINHO SOUSA",
+          "rows": [
+            44,
+            175
+          ]
+        },
+        "36459": {
+          "category": "SENIOR",
+          "birth_date": "1983-08-10",
+          "name": "Joana SOUSA",
+          "rows": [
+            264
+          ]
+        }
+      }
+    }
+  ]
 }
