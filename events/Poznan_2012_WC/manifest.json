@@ -10,7 +10,7 @@
   "dates": "2012-05-18/2012-05-20",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-24T11:25:56Z",
+  "generated_at_utc": "2026-10-24T21:19:57Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "Poznan organiser results book prints each race start to the minute (hh.mm, written HH:MM:00). RESULT = printed time. Names printed all caps unsplit: split/closed from the single matching profile (maintainer 2026-10-17 Q19), PERSONS names from the profile. No ICF ids printed.",
@@ -21705,7 +21705,7 @@
       "team": "CHN",
       "detail": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 8: RU168 ruling 8: under-14 sole candidate whose profile does not list the meeting; candidate 133041 Hong ZHANG (born 2004-08-21) logged; no_icf_id",
       "q76_birth_date": "2004-08-21",
-      "rule_q76": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age",
+      "governing_rule": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 8 with the RU166 age rule of MAINTAINER_ANSWERS_2026-10-24 (PADDLETAGGER_CONTRACT.md Under-14 rule; Name-bound ids item 4(a) and item 7 ruling 8): an athlete under 14 on the meeting's first day never fits the age rule, and such a sole candidate is kept only when its profile lists the meeting; this candidate's profile does not, so the seat is no_icf_id with the candidate logged",
       "q76_superseded": "MAINTAINER_ANSWERS_2026-10-24 RU166: Q76/Q80(b) replaced by the age rule (was q76_emptied_id 133041)",
       "candidate_logged": {
         "id": "133041",
@@ -24907,7 +24907,7 @@
       "team": "CHN",
       "detail": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 8: RU168 ruling 8: under-14 sole candidate whose profile does not list the meeting; candidate 133041 Hong ZHANG (born 2004-08-21) logged; no_icf_id",
       "q76_birth_date": "2004-08-21",
-      "rule_q76": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age",
+      "governing_rule": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 8 with the RU166 age rule of MAINTAINER_ANSWERS_2026-10-24 (PADDLETAGGER_CONTRACT.md Under-14 rule; Name-bound ids item 4(a) and item 7 ruling 8): an athlete under 14 on the meeting's first day never fits the age rule, and such a sole candidate is kept only when its profile lists the meeting; this candidate's profile does not, so the seat is no_icf_id with the candidate logged",
       "q76_superseded": "MAINTAINER_ANSWERS_2026-10-24 RU166: Q76/Q80(b) replaced by the age rule (was q76_emptied_id 133041)",
       "candidate_logged": {
         "id": "133041",
@@ -28842,7 +28842,7 @@
       "team": "CHN",
       "detail": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 8: RU168 ruling 8: under-14 sole candidate whose profile does not list the meeting; candidate 133041 Hong ZHANG (born 2004-08-21) logged; no_icf_id",
       "q76_birth_date": "2004-08-21",
-      "rule_q76": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age",
+      "governing_rule": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 8 with the RU166 age rule of MAINTAINER_ANSWERS_2026-10-24 (PADDLETAGGER_CONTRACT.md Under-14 rule; Name-bound ids item 4(a) and item 7 ruling 8): an athlete under 14 on the meeting's first day never fits the age rule, and such a sole candidate is kept only when its profile lists the meeting; this candidate's profile does not, so the seat is no_icf_id with the candidate logged",
       "q76_superseded": "MAINTAINER_ANSWERS_2026-10-24 RU166: Q76/Q80(b) replaced by the age rule (was q76_emptied_id 133041)",
       "candidate_logged": {
         "id": "133041",
@@ -32802,9 +32802,14 @@
       "rule": "MAINTAINER_ANSWERS_2026-10-24b RU168 rulings 1-8",
       "emptied_to_no_icf_id": 3,
       "ruling8_emptied": 3
+    },
+    "t64_log_corrections": {
+      "rule": "MAINTAINER_ANSWERS_2026-10-24e manifest-only log correction (no seat change): rule_q76 fields re-pointed to governing_rule",
+      "log_corrections": 3,
+      "RU168_r8": 3
     }
   },
-  "updated_at": "2026-10-24T11:25:56Z",
+  "updated_at": "2026-10-24T21:19:57Z",
   "nation_change_log": [],
   "printed_field_counts": {
     "source": "official results book PDF (poz_book builds from one line stream across pages); continuation pages of races checked in the Run 9 audit, boat count equal to the sheet",
@@ -33608,6 +33613,80 @@
         "federation": "CHN"
       },
       "new_record": null
+    }
+  ],
+  "log_corrections": [
+    {
+      "kind": "log",
+      "results_row": 758,
+      "seat": "ICF_ID2",
+      "printed": "Hong ZHANG",
+      "team": "CHN",
+      "seat_id": "",
+      "seat_id_unchanged": true,
+      "action_unchanged": "no_icf_id",
+      "previous_label": "rule_q76",
+      "new_label": "governing_rule",
+      "governing_rule_category": "RU168_r8",
+      "previous": {
+        "rule_q76": {
+          "ref": "events/Poznan_2012_WC/manifest.json at 26a4dc052d96e6a2488ad78325e7775d91f5a93b, id_checks entry results_row 758 seat ICF_ID2, field rule_q76",
+          "sha256_of_json": "40d8cfb3c5631e6196693f3bf59b193443d6f42bae81da6fbb205b0d1d91c559",
+          "rule_wording": "MAINTAINER_ANSWERS_2026-10-19e Q76 (superseded; replaced in place by RU166 and RU168 rulings 4 and 8)"
+        }
+      },
+      "new": {
+        "governing_rule": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 8 with the RU166 age rule of MAINTAINER_ANSWERS_2026-10-24 (PADDLETAGGER_CONTRACT.md Under-14 rule; Name-bound ids item 4(a) and item 7 ruling 8): an athlete under 14 on the meeting's first day never fits the age rule, and such a sole candidate is kept only when its profile lists the meeting; this candidate's profile does not, so the seat is no_icf_id with the candidate logged"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-24e: a field citing the superseded Q76 rule is re-pointed to the current rule governing the seat (manifest-only); correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "log",
+      "results_row": 985,
+      "seat": "ICF_ID2",
+      "printed": "Hong ZHANG",
+      "team": "CHN",
+      "seat_id": "",
+      "seat_id_unchanged": true,
+      "action_unchanged": "no_icf_id",
+      "previous_label": "rule_q76",
+      "new_label": "governing_rule",
+      "governing_rule_category": "RU168_r8",
+      "previous": {
+        "rule_q76": {
+          "ref": "events/Poznan_2012_WC/manifest.json at 26a4dc052d96e6a2488ad78325e7775d91f5a93b, id_checks entry results_row 985 seat ICF_ID2, field rule_q76",
+          "sha256_of_json": "40d8cfb3c5631e6196693f3bf59b193443d6f42bae81da6fbb205b0d1d91c559",
+          "rule_wording": "MAINTAINER_ANSWERS_2026-10-19e Q76 (superseded; replaced in place by RU166 and RU168 rulings 4 and 8)"
+        }
+      },
+      "new": {
+        "governing_rule": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 8 with the RU166 age rule of MAINTAINER_ANSWERS_2026-10-24 (PADDLETAGGER_CONTRACT.md Under-14 rule; Name-bound ids item 4(a) and item 7 ruling 8): an athlete under 14 on the meeting's first day never fits the age rule, and such a sole candidate is kept only when its profile lists the meeting; this candidate's profile does not, so the seat is no_icf_id with the candidate logged"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-24e: a field citing the superseded Q76 rule is re-pointed to the current rule governing the seat (manifest-only); correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "log",
+      "results_row": 1281,
+      "seat": "ICF_ID2",
+      "printed": "Hong ZHANG",
+      "team": "CHN",
+      "seat_id": "",
+      "seat_id_unchanged": true,
+      "action_unchanged": "no_icf_id",
+      "previous_label": "rule_q76",
+      "new_label": "governing_rule",
+      "governing_rule_category": "RU168_r8",
+      "previous": {
+        "rule_q76": {
+          "ref": "events/Poznan_2012_WC/manifest.json at 26a4dc052d96e6a2488ad78325e7775d91f5a93b, id_checks entry results_row 1281 seat ICF_ID2, field rule_q76",
+          "sha256_of_json": "40d8cfb3c5631e6196693f3bf59b193443d6f42bae81da6fbb205b0d1d91c559",
+          "rule_wording": "MAINTAINER_ANSWERS_2026-10-19e Q76 (superseded; replaced in place by RU166 and RU168 rulings 4 and 8)"
+        }
+      },
+      "new": {
+        "governing_rule": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 8 with the RU166 age rule of MAINTAINER_ANSWERS_2026-10-24 (PADDLETAGGER_CONTRACT.md Under-14 rule; Name-bound ids item 4(a) and item 7 ruling 8): an athlete under 14 on the meeting's first day never fits the age rule, and such a sole candidate is kept only when its profile lists the meeting; this candidate's profile does not, so the seat is no_icf_id with the candidate logged"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-24e: a field citing the superseded Q76 rule is re-pointed to the current rule governing the seat (manifest-only); correction of the log, not of a seat (no id change)"
     }
   ]
 }
