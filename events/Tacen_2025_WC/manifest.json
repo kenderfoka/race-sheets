@@ -10,13 +10,13 @@
  "sheet": "Tacen_2025_WC_start.xlsx",
  "grade": "PERFECT",
  "gaps": [],
- "generated_at_utc": "2026-10-13T08:31:16Z",
- "updated_at": "2026-10-16T09:09:16Z",
+ "generated_at_utc": "2026-10-24T08:14:39Z",
+ "updated_at": "2026-10-24T08:14:39Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "Tacen_2025_WC_start.xlsx",
-   "sha256": "fe34c931dd1028d8f229f5a4d72da996bef86bfd59326e2d2d11d1fa0beee09e"
+   "sha256": "2c09d9b982445dee0d4b232dde8b7f5a8a13e760b595c7ff4481c876170436e4"
   }
  ],
  "row_count": 472,
@@ -3854,5 +3854,63 @@
  "pending_maintainer": [],
  "issues": [],
  "shared_start_clash": [],
- "layout_note": "2026-10-16 11:08: content restored exactly from the previously published version 75299ad; only empty Name4-6/ICF_ID4-6 columns added (6-seat layout). Rebuild of 11:05 reverted (forerunner rows changed; open investigation)."
+ "layout_note": "2026-10-16 11:08: content restored exactly from the previously published version 75299ad; only empty Name4-6/ICF_ID4-6 columns added (6-seat layout). Rebuild of 11:05 reverted (forerunner rows changed; open investigation).",
+ "kx_individual_ranks": {
+  "rule": "Maintainer 2026-10-21 (PADDLETAGGER_CONTRACT \"Kayak Cross individual (time trial) ranks\"; docs/maintainer/request_KX_timetrial_ranks_2026-10-21.md): Time Trials rows carry RANK = official kayak cross individual classification; never computed from times",
+  "applied_at": "2026-10-24T08:14:39Z",
+  "phase": "Time Trials",
+  "event": "K1 Cross (kayak cross individual)",
+  "source": "SIWIDATA 2335 event classification CSLMX1IND/CSLWX1IND RankingRow (identical to Time Trials unit FNL-0001 RankingRow)",
+  "cross_check": {
+   "M": {
+    "pdf": "123result CS_2025/siwidata/2335/CSLMX1IND-------------FNL-000100--@Results.pdf",
+    "rows": 57,
+    "mismatches": 0
+   },
+   "W": {
+    "pdf": "123result CS_2025/siwidata/2335/CSLWX1IND-------------FNL-000100--@Results.pdf",
+    "rows": 43,
+    "mismatches": 0
+   }
+  },
+  "match": "gender+bib, Name1 exact vs archive and PDF, Team and ICF_ID1 checked",
+  "rows": 100,
+  "ranked": 97,
+  "left_empty": 3,
+  "rank_empty_official": [
+   {
+    "row": 258,
+    "bib": "39",
+    "name": "BUETIKOFER Fia",
+    "team": "SUI",
+    "status": "DNS",
+    "note": "official classification prints no rank; RANK left empty (not computed)"
+   },
+   {
+    "row": 298,
+    "bib": "56",
+    "name": "PARRY Daniel",
+    "team": "CAN",
+    "status": "DNS",
+    "note": "official classification prints no rank; RANK left empty (not computed)"
+   },
+   {
+    "row": 303,
+    "bib": "51",
+    "name": "ROZENTALS Klass Francisks",
+    "team": "LAT",
+    "status": "DNS",
+    "note": "official classification prints no rank; RANK left empty (not computed)"
+   }
+  ],
+  "classification_missing": [],
+  "rank_order": "not changed (only Rank cells patched, per instruction)",
+  "notes": [],
+  "cell_patch": {
+   "kind": "in-place cell patch, Rank column only, every old value empty; all other cells identical (value, type, number format, style), race numbers identical; only docProps/core.xml modified timestamp differs outside the sheet",
+   "previous_sha256": "fe34c931dd1028d8f229f5a4d72da996bef86bfd59326e2d2d11d1fa0beee09e",
+   "changed_cells": 97,
+   "log": "race-desk/logs/kx_tt_ranks_republish_2026-10-24.md"
+  }
+ }
 }
