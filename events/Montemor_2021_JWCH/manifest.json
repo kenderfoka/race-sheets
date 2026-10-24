@@ -10,7 +10,7 @@
   "dates": "2021-09-03/2021-09-06",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-24T11:25:56Z",
+  "generated_at_utc": "2026-10-24T11:51:54Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "MemoSoft results book (Spotfokus hub dead) prints the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule). OQ/para races in the same book are kept (one key).",
@@ -46820,19 +46820,23 @@
       "results_row": 2033,
       "seat": "ICF_ID3",
       "source_printed_name": "Liu JIALIN",
-      "action": "corrected",
+      "action": "no_icf_id",
       "source": "pww_search",
       "team": "CHN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-24 Kind D/A (unique after Rule 1): bound 75560 (Jialin LIU, dob=2022-03-24), also_ids=[] | age_conflict=75560|2022-03-24|under 14 on 2021-09-03",
-      "new_id": "75560",
-      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-24 Kind D/A (unique after Rule 1)",
-      "icf_birth_date_error": {
+      "detail": "MAINTAINER_ANSWERS_2026-10-24c RU168 ruling 4 as amended (2026-10-24c) -> ruling 8: RU168 ruling 4 as amended (MAINTAINER_ANSWERS_2026-10-24c): the ICF birth date 2022-03-24 is impossible for this meeting (first day 2021-09-03) and the candidate's profile does not list the meeting, so the impossibly young candidate is a namesake; ruling 8 applies; candidate 75560 Jialin LIU (born 2022-03-24) logged; no_icf_id",
+      "candidate_logged": {
         "id": "75560",
+        "name": "Jialin LIU",
         "birth_date": "2022-03-24",
-        "reason": "born 2022-03-24, after the meeting's first day 2021-09-03",
-        "rule": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 4: impossible ICF birth date (after the meeting, or age under 5) counts as missing; logged as an ICF error"
+        "nationality": "CHN",
+        "federation": "CHN"
       },
-      "ru168": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 4: kept 75560; the ICF birth date is impossible for this meeting and counts as missing (age_conflict withdrawn)"
+      "evidence": "MAINTAINER_ANSWERS_2026-10-24c RU168 ruling 4 as amended (2026-10-24c) -> ruling 8: RU168 ruling 4 as amended (MAINTAINER_ANSWERS_2026-10-24c): the ICF birth date 2022-03-24 is impossible for this meeting (first day 2021-09-03) and the candidate's profile does not list the meeting, so the impossibly young candidate is a namesake; ruling 8 applies; candidate 75560 Jialin LIU (born 2022-03-24) logged; no_icf_id",
+      "correction": {
+        "previous_id": "75560",
+        "new_id": "",
+        "rule": "MAINTAINER_ANSWERS_2026-10-24c RU168 ruling 4 as amended (2026-10-24c) -> ruling 8"
+      }
     },
     {
       "results_row": 2033,
@@ -48615,12 +48619,12 @@
     {
       "kind": "xlsx",
       "name": "Montemor_2021_JWCH_Results.xlsx",
-      "sha256": "f99fc07c32e6ddd5878cde8717f39045990743a72dadf7170a80f399df867ccb",
-      "bytes": 186587
+      "sha256": "9ade36796cff39a005de8f6d4c044d88d3eb223e9348c09c8599247646480de0",
+      "bytes": 186553
     }
   ],
   "output_xlsx": "Montemor_2021_JWCH_Results.xlsx",
-  "output_xlsx_sha256": "f99fc07c32e6ddd5878cde8717f39045990743a72dadf7170a80f399df867ccb",
+  "output_xlsx_sha256": "9ade36796cff39a005de8f6d4c044d88d3eb223e9348c09c8599247646480de0",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -48668,9 +48672,14 @@
     "t61_ru168": {
       "rule": "MAINTAINER_ANSWERS_2026-10-24b RU168 rulings 1-8",
       "date_error_logged": 1
+    },
+    "t62_ru168_r4_amended": {
+      "rule": "MAINTAINER_ANSWERS_2026-10-24c RU168 ruling 4 as amended (impossible birth date counts as missing only when the profile lists the meeting; otherwise ruling 8)",
+      "emptied_to_no_icf_id": 1,
+      "ruling4_amended_emptied": 1
     }
   },
-  "updated_at": "2026-10-24T11:25:56Z",
+  "updated_at": "2026-10-24T11:51:54Z",
   "name_change_log": [
     {
       "results_row": 38,
@@ -49056,5 +49065,26 @@
     }
   },
   "nation_change_log": [],
-  "corrections_log": []
+  "corrections_log": [
+    {
+      "results_row": 2033,
+      "seat": "ICF_ID3",
+      "printed": "Liu JIALIN",
+      "team": "CHN",
+      "category": "U23",
+      "previous_id": "75560",
+      "new_id": "",
+      "action": "no_icf_id",
+      "rule": "MAINTAINER_ANSWERS_2026-10-24c RU168 ruling 4 as amended (2026-10-24c) -> ruling 8",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-24c RU168 ruling 4 as amended (2026-10-24c) -> ruling 8: RU168 ruling 4 as amended (MAINTAINER_ANSWERS_2026-10-24c): the ICF birth date 2022-03-24 is impossible for this meeting (first day 2021-09-03) and the candidate's profile does not list the meeting, so the impossibly young candidate is a namesake; ruling 8 applies; candidate 75560 Jialin LIU (born 2022-03-24) logged; no_icf_id",
+      "previous_record": {
+        "id": "75560",
+        "name": "Jialin LIU",
+        "birth_date": "2022-03-24",
+        "nationality": "CHN",
+        "federation": "CHN"
+      },
+      "new_record": null
+    }
+  ]
 }

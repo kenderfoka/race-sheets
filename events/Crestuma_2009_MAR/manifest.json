@@ -10,7 +10,7 @@
   "dates": "2009-09-18/2009-09-20",
   "discipline": "marathon",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-24T11:25:56Z",
+  "generated_at_utc": "2026-10-24T11:51:54Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "ICF archive results book (Crestuma/Gaia, 18-20 Sep 2009). START_TIME = start printed in each race header (scheduled; HH:MM:00). RESULT = printed time; DIFFERENCE not written (marathon precedent). STARTING_LANE = printed boat number; Bib(s) are event bibs, BIB_BOAT empty. TEAM = NOC code printed sideways beside the flag image, read by OCR and checked by eye per distinct strip image (MAINTAINER_ANSWERS_2026-10-19b Q58; noc_strip_log). DISTANCE not printed. No ICF ids printed: bind_seat; pre-2013 seats bound_by_name_unconfirmed (Q44).",
@@ -2869,18 +2869,23 @@
       "results_row": 63,
       "seat": "ICF_ID1",
       "source_printed_name": "Diogo FERREIRA",
-      "action": "bound_by_name_unconfirmed",
+      "action": "no_icf_id",
       "source": "pww_search",
       "team": "POR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 4: sole candidate 129697 Diogo FERREIRA carries the printed name and country; its ICF birth date 2005-05-10 (age 4 on 2009-09-18) is impossible and counts as missing, so it fits",
+      "detail": "MAINTAINER_ANSWERS_2026-10-24c RU168 ruling 4 as amended (2026-10-24c) -> ruling 8: RU168 ruling 4 as amended (MAINTAINER_ANSWERS_2026-10-24c): the ICF birth date 2005-05-10 is impossible for this meeting (first day 2009-09-18) and the candidate's profile does not list the meeting, so the impossibly young candidate is a namesake; ruling 8 applies; candidate 129697 Diogo FERREIRA (born 2005-05-10) logged; no_icf_id",
       "rule_q76": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age",
-      "new_id": "129697",
-      "q76_superseded": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 4: was q76_emptied_id 129697 (impossible birth date counts as missing)",
-      "icf_birth_date_error": {
+      "candidate_logged": {
         "id": "129697",
+        "name": "Diogo FERREIRA",
         "birth_date": "2005-05-10",
-        "reason": "born 2005-05-10, age 4 on 2009-09-18",
-        "rule": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 4: impossible ICF birth date (after the meeting, or age under 5) counts as missing; logged as an ICF error"
+        "nationality": "POR",
+        "federation": "POR"
+      },
+      "evidence": "MAINTAINER_ANSWERS_2026-10-24c RU168 ruling 4 as amended (2026-10-24c) -> ruling 8: RU168 ruling 4 as amended (MAINTAINER_ANSWERS_2026-10-24c): the ICF birth date 2005-05-10 is impossible for this meeting (first day 2009-09-18) and the candidate's profile does not list the meeting, so the impossibly young candidate is a namesake; ruling 8 applies; candidate 129697 Diogo FERREIRA (born 2005-05-10) logged; no_icf_id",
+      "correction": {
+        "previous_id": "129697",
+        "new_id": "",
+        "rule": "MAINTAINER_ANSWERS_2026-10-24c RU168 ruling 4 as amended (2026-10-24c) -> ruling 8"
       }
     },
     {
@@ -9415,12 +9420,12 @@
     {
       "kind": "xlsx",
       "name": "Crestuma_2009_MAR_Results.xlsx",
-      "sha256": "a89efd065a5a455570d5736204e4a970ab633d3a7f3482e4e4b4165f317e5192",
-      "bytes": 28603
+      "sha256": "7968d0c6765c87ceaebb82ba5b9c6f89353dc264de054dadd209466ee7a1c941",
+      "bytes": 28572
     }
   ],
   "output_xlsx": "Crestuma_2009_MAR_Results.xlsx",
-  "output_xlsx_sha256": "a89efd065a5a455570d5736204e4a970ab633d3a7f3482e4e4b4165f317e5192",
+  "output_xlsx_sha256": "7968d0c6765c87ceaebb82ba5b9c6f89353dc264de054dadd209466ee7a1c941",
   "name_bound_check": {
     "completed": true,
     "rule": "MAINTAINER_ANSWERS_2026-10-23 Rules 1-5 + same-meeting unification",
@@ -9435,9 +9440,14 @@
       "rule": "MAINTAINER_ANSWERS_2026-10-24b RU168 rulings 1-8",
       "filled": 4,
       "ruling8_stays_no_icf_id": 2
+    },
+    "t62_ru168_r4_amended": {
+      "rule": "MAINTAINER_ANSWERS_2026-10-24c RU168 ruling 4 as amended (impossible birth date counts as missing only when the profile lists the meeting; otherwise ruling 8)",
+      "emptied_to_no_icf_id": 1,
+      "ruling4_amended_emptied": 1
     }
   },
-  "updated_at": "2026-10-24T11:25:56Z",
+  "updated_at": "2026-10-24T11:51:54Z",
   "audit": {
     "fails": [],
     "nfails": 0,
@@ -9582,7 +9592,28 @@
   },
   "name_change_log": [],
   "nation_change_log": [],
-  "corrections_log": [],
+  "corrections_log": [
+    {
+      "results_row": 63,
+      "seat": "ICF_ID1",
+      "printed": "Diogo FERREIRA",
+      "team": "POR",
+      "category": "JUNIOR",
+      "previous_id": "129697",
+      "new_id": "",
+      "action": "no_icf_id",
+      "rule": "MAINTAINER_ANSWERS_2026-10-24c RU168 ruling 4 as amended (2026-10-24c) -> ruling 8",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-24c RU168 ruling 4 as amended (2026-10-24c) -> ruling 8: RU168 ruling 4 as amended (MAINTAINER_ANSWERS_2026-10-24c): the ICF birth date 2005-05-10 is impossible for this meeting (first day 2009-09-18) and the candidate's profile does not list the meeting, so the impossibly young candidate is a namesake; ruling 8 applies; candidate 129697 Diogo FERREIRA (born 2005-05-10) logged; no_icf_id",
+      "previous_record": {
+        "id": "129697",
+        "name": "Diogo FERREIRA",
+        "birth_date": "2005-05-10",
+        "nationality": "POR",
+        "federation": "POR"
+      },
+      "new_record": null
+    }
+  ],
   "gate4_age_split_log": [
     {
       "printed": "Joana SOUSA",
