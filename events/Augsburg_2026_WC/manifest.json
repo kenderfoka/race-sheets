@@ -10,13 +10,13 @@
  "sheet": "Augsburg_2026_WC_start.xlsx",
  "grade": "PERFECT",
  "gaps": [],
- "generated_at_utc": "2026-10-16T13:42:57Z",
- "updated_at": "2026-10-16T15:27:27Z",
+ "generated_at_utc": "2026-10-24T08:14:22Z",
+ "updated_at": "2026-10-24T08:14:22Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "Augsburg_2026_WC_start.xlsx",
-   "sha256": "638dae6f012fa5614a218ef58e1b5c55da69ebe3d9a38447fed9854507dcb450"
+   "sha256": "88bbe80a88bb3696c55960c9ec53735a9b1957472f1dd192adae731a8b485a7d"
   }
  ],
  "row_count": 553,
@@ -4612,5 +4612,63 @@
   }
  ],
  "forerunner_gender_filled": [],
- "forerunner_gender_note": "ZIMMERMANN Nils: published W kept; only profile is Niels ZIMMERMANN 112606 (not an exact match) (2026-10-16 15:44)"
+ "forerunner_gender_note": "ZIMMERMANN Nils: published W kept; only profile is Niels ZIMMERMANN 112606 (not an exact match) (2026-10-16 15:44)",
+ "kx_individual_ranks": {
+  "rule": "Maintainer 2026-10-21 (PADDLETAGGER_CONTRACT \"Kayak Cross individual (time trial) ranks\"; docs/maintainer/request_KX_timetrial_ranks_2026-10-21.md): Time Trials rows carry RANK = official kayak cross individual classification; never computed from times",
+  "applied_at": "2026-10-24T08:14:22Z",
+  "phase": "Time Trials",
+  "event": "K1 Cross (kayak cross individual)",
+  "source": "SIWIDATA 2488 event classification CSLMX1IND/CSLWX1IND RankingRow (identical to Time Trials unit FNL-0001 RankingRow)",
+  "cross_check": {
+   "M": {
+    "pdf": "123result CS_2026/siwidata/2488/CSLMX1IND-------------FNL-000100--@Results.pdf",
+    "rows": 72,
+    "mismatches": 0
+   },
+   "W": {
+    "pdf": "123result CS_2026/siwidata/2488/CSLWX1IND-------------FNL-000100--@Results.pdf",
+    "rows": 55,
+    "mismatches": 0
+   }
+  },
+  "match": "gender+bib, Name1 exact vs archive and PDF, Team and ICF_ID1 checked",
+  "rows": 127,
+  "ranked": 124,
+  "left_empty": 3,
+  "rank_empty_official": [
+   {
+    "row": 321,
+    "bib": "42",
+    "name": "NOVAK Lea",
+    "team": "SLO",
+    "status": "DNS",
+    "note": "official classification prints no rank; RANK left empty (not computed)"
+   },
+   {
+    "row": 340,
+    "bib": "23",
+    "name": "PANKOVA Zuzana",
+    "team": "SVK",
+    "status": "DNS",
+    "note": "official classification prints no rank; RANK left empty (not computed)"
+   },
+   {
+    "row": 376,
+    "bib": "59",
+    "name": "BIERMANS Nils",
+    "team": "NED",
+    "status": "DNS",
+    "note": "official classification prints no rank; RANK left empty (not computed)"
+   }
+  ],
+  "classification_missing": [],
+  "rank_order": "not changed (only Rank cells patched, per instruction)",
+  "notes": [],
+  "cell_patch": {
+   "kind": "in-place cell patch, Rank column only, every old value empty; all other cells identical (value, type, number format, style), race numbers identical; only docProps/core.xml modified timestamp differs outside the sheet",
+   "previous_sha256": "638dae6f012fa5614a218ef58e1b5c55da69ebe3d9a38447fed9854507dcb450",
+   "changed_cells": 124,
+   "log": "race-desk/logs/kx_tt_ranks_republish_2026-10-24.md"
+  }
+ }
 }
