@@ -10,7 +10,7 @@
   "dates": "2013-05-10/2013-05-12",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-23T19:39:26Z",
+  "generated_at_utc": "2026-10-24T10:10:17Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "Szeged organiser results book (ICF-hosted PDF; surname/given/country-name columns; country names mapped to NOC codes, map in country_name_map) prints the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule). OQ/para races in the same book are kept (one key).",
@@ -9948,7 +9948,8 @@
       "source": "given_family_unique",
       "new_id": "60657",
       "team": "HUN",
-      "name_bound_profile": "kept: profile lists 2013 ICF CANOE SPRINT WORLD CUP 1 / K2 Men 1000m"
+      "name_bound_profile": "kept: profile lists 2013 ICF CANOE SPRINT WORLD CUP 1 / K2 Men 1000m",
+      "nation_check": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country bind kept: profile 60657 lists Szeged_2013_WC"
     },
     {
       "results_row": 125,
@@ -12916,7 +12917,8 @@
       "source": "given_family_unique",
       "new_id": "60657",
       "team": "HUN",
-      "name_bound_profile": "kept: profile lists 2013 ICF CANOE SPRINT WORLD CUP 1 / K2 Men 1000m"
+      "name_bound_profile": "kept: profile lists 2013 ICF CANOE SPRINT WORLD CUP 1 / K2 Men 1000m",
+      "nation_check": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country bind kept: profile 60657 lists Szeged_2013_WC"
     },
     {
       "results_row": 307,
@@ -17055,7 +17057,8 @@
       "source": "given_family_unique",
       "new_id": "60657",
       "team": "HUN",
-      "name_bound_profile": "kept: profile lists 2013 ICF CANOE SPRINT WORLD CUP 1 / K2 Men 1000m"
+      "name_bound_profile": "kept: profile lists 2013 ICF CANOE SPRINT WORLD CUP 1 / K2 Men 1000m",
+      "nation_check": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country bind kept: profile 60657 lists Szeged_2013_WC"
     },
     {
       "results_row": 582,
@@ -26329,12 +26332,12 @@
     {
       "kind": "xlsx",
       "name": "Szeged_2013_WC_Results.xlsx",
-      "sha256": "aab4a4374ddbcd4e9e58f6fd31f0b51e35de5866f231e48802956d3fe8a33e87",
-      "bytes": 99938
+      "sha256": "19302e71cb083b9b812424482593ecec81fdbd469015a207d3a8e0597c64e233",
+      "bytes": 99937
     }
   ],
   "output_xlsx": "Szeged_2013_WC_Results.xlsx",
-  "output_xlsx_sha256": "aab4a4374ddbcd4e9e58f6fd31f0b51e35de5866f231e48802956d3fe8a33e87",
+  "output_xlsx_sha256": "19302e71cb083b9b812424482593ecec81fdbd469015a207d3a8e0597c64e233",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -26365,7 +26368,7 @@
     "race 25: not printed in the approved source(s); no rows (maintainer 2026-10-17 Q21)",
     "race 44: not printed in the approved source(s); no rows (maintainer 2026-10-17 Q21)"
   ],
-  "updated_at": "2026-10-23T19:39:26Z",
+  "updated_at": "2026-10-24T10:10:17Z",
   "name_bound_check": {
     "completed": true,
     "profiles_checked": 265,
@@ -26378,7 +26381,11 @@
     "olympic": false,
     "newly_bound_t59": 129,
     "no_icf_id_t59": 573,
-    "same_meeting_unified_t59": 0
+    "same_meeting_unified_t59": 0,
+    "t60_ru166": {
+      "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule first + sole-candidate keep (replaces Q76/Q80b) + cross-country review",
+      "cc_kept": 3
+    }
   },
   "nation_change_log": [
     {
@@ -26544,5 +26551,6 @@
       "145": 13,
       "146": 24
     }
-  }
+  },
+  "corrections_log": []
 }

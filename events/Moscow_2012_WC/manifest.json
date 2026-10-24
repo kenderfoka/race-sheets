@@ -11,7 +11,7 @@
   "dates": "2012-06-01/2012-06-03",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-23T19:39:26Z",
+  "generated_at_utc": "2026-10-24T10:10:17Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "IMAS race pages print the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule).",
@@ -7675,10 +7675,23 @@
       "results_row": 302,
       "seat": "ICF_ID2",
       "source_printed_name": "Nikolay LIPKIN",
-      "action": "bound_by_name_unconfirmed",
+      "action": "no_icf_id",
       "source": "given_family_unique",
-      "new_id": "84718",
-      "team": "RUS"
+      "team": "RUS",
+      "candidate_logged": {
+        "id": "84718",
+        "name": "Nikolay LIPKIN",
+        "birth_date": "1985-05-20",
+        "nationality": "UZB",
+        "federation": "UZB"
+      },
+      "evidence": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 84718 Nikolay LIPKIN (ICF nationality UZB / federation UZB) differs from printed RUS and profile 84718 does not list Moscow_2012_WC; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Nikolay LIPKIN (RUS, M)",
+      "detail": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 84718 Nikolay LIPKIN (ICF nationality UZB / federation UZB) differs from printed RUS and profile 84718 does not list Moscow_2012_WC; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Nikolay LIPKIN (RUS, M)",
+      "correction": {
+        "previous_id": "84718",
+        "new_id": "",
+        "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country"
+      }
     },
     {
       "results_row": 303,
@@ -9238,10 +9251,23 @@
       "results_row": 432,
       "seat": "ICF_ID2",
       "source_printed_name": "Nikolay LIPKIN",
-      "action": "bound_by_name_unconfirmed",
+      "action": "no_icf_id",
       "source": "given_family_unique",
-      "new_id": "84718",
-      "team": "RUS"
+      "team": "RUS",
+      "candidate_logged": {
+        "id": "84718",
+        "name": "Nikolay LIPKIN",
+        "birth_date": "1985-05-20",
+        "nationality": "UZB",
+        "federation": "UZB"
+      },
+      "evidence": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 84718 Nikolay LIPKIN (ICF nationality UZB / federation UZB) differs from printed RUS and profile 84718 does not list Moscow_2012_WC; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Nikolay LIPKIN (RUS, M)",
+      "detail": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 84718 Nikolay LIPKIN (ICF nationality UZB / federation UZB) differs from printed RUS and profile 84718 does not list Moscow_2012_WC; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Nikolay LIPKIN (RUS, M)",
+      "correction": {
+        "previous_id": "84718",
+        "new_id": "",
+        "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country"
+      }
     },
     {
       "results_row": 433,
@@ -10999,12 +11025,12 @@
     {
       "kind": "xlsx",
       "name": "Moscow_2012_WC_Results.xlsx",
-      "sha256": "6da3552e7e9649f53af221d72a6c454cec43dfdf411192ee09ebe1acda67a21d",
-      "bytes": 41959
+      "sha256": "bd6ea675104524c3371ebc72df3882bbf57129e7a4003bcd01951c0556717a49",
+      "bytes": 41927
     }
   ],
   "output_xlsx": "Moscow_2012_WC_Results.xlsx",
-  "output_xlsx_sha256": "6da3552e7e9649f53af221d72a6c454cec43dfdf411192ee09ebe1acda67a21d",
+  "output_xlsx_sha256": "bd6ea675104524c3371ebc72df3882bbf57129e7a4003bcd01951c0556717a49",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -11067,21 +11093,9 @@
         518
       ],
       "note": "nation changed after the event; id and printed nation kept, logged (maintainer 2026-10-16 10:39)"
-    },
-    {
-      "id": "84718",
-      "name": "Nikolay Lipkin",
-      "printed_team": "RUS",
-      "profile_noc": "UZB",
-      "seats": 2,
-      "results_rows": [
-        302,
-        432
-      ],
-      "note": "nation changed after the event; id and printed nation kept, logged (maintainer 2026-10-16 10:39)"
     }
   ],
-  "updated_at": "2026-10-23T19:39:26Z",
+  "updated_at": "2026-10-24T10:10:17Z",
   "name_change_log": [],
   "name_bound_check": {
     "completed": true,
@@ -11089,7 +11103,12 @@
     "newly_bound_t59": 27,
     "no_icf_id_t59": 289,
     "same_meeting_unified_t59": 0,
-    "emptied": 0
+    "emptied": 0,
+    "t60_ru166": {
+      "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule first + sole-candidate keep (replaces Q76/Q80b) + cross-country review",
+      "emptied_to_no_icf_id": 2,
+      "cc_emptied": 2
+    }
   },
   "printed_field_counts": {
     "source": "boats per race in Moscow_2012_WC official results",
@@ -11166,5 +11185,47 @@
       "84": 10,
       "85": 13
     }
-  }
+  },
+  "corrections_log": [
+    {
+      "results_row": 302,
+      "seat": "ICF_ID2",
+      "printed": "Nikolay LIPKIN",
+      "team": "RUS",
+      "category": "SENIOR",
+      "previous_id": "84718",
+      "new_id": "",
+      "action": "no_icf_id",
+      "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 84718 Nikolay LIPKIN (ICF nationality UZB / federation UZB) differs from printed RUS and profile 84718 does not list Moscow_2012_WC; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Nikolay LIPKIN (RUS, M)",
+      "previous_record": {
+        "id": "84718",
+        "name": "Nikolay LIPKIN",
+        "birth_date": "1985-05-20",
+        "nationality": "UZB",
+        "federation": "UZB"
+      },
+      "new_record": null
+    },
+    {
+      "results_row": 432,
+      "seat": "ICF_ID2",
+      "printed": "Nikolay LIPKIN",
+      "team": "RUS",
+      "category": "SENIOR",
+      "previous_id": "84718",
+      "new_id": "",
+      "action": "no_icf_id",
+      "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 84718 Nikolay LIPKIN (ICF nationality UZB / federation UZB) differs from printed RUS and profile 84718 does not list Moscow_2012_WC; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Nikolay LIPKIN (RUS, M)",
+      "previous_record": {
+        "id": "84718",
+        "name": "Nikolay LIPKIN",
+        "birth_date": "1985-05-20",
+        "nationality": "UZB",
+        "federation": "UZB"
+      },
+      "new_record": null
+    }
+  ]
 }

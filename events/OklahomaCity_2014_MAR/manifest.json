@@ -10,7 +10,7 @@
   "dates": "2014-09-26/2014-09-28",
   "discipline": "marathon",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-23T19:39:26Z",
+  "generated_at_utc": "2026-10-24T10:10:17Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "Telerik results book prints race number, date, distance and the start clock to the minute (written HH:MM:00). RESULT = printed time; DIFFERENCE not written (marathon precedent). STARTING_LANE = printed boat number; Bib are event bibs. Names printed all caps unsplit: split/closed from the single matching profile (maintainer 2026-10-17 Q19), PERSONS names from the profile.",
@@ -2363,7 +2363,13 @@
       "new_id": "153408",
       "team": "CAN",
       "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW): kept 153408",
-      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)"
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-23 Rule 2b (unique name+NOC+gender in ICF; meeting/event not split on PWW)",
+      "age_conflict": {
+        "id": "153408",
+        "birth_date": "1981-08-10",
+        "reason": "age 33 in a U23 race",
+        "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule: sole candidate carrying the printed name and country is kept; conflict logged"
+      }
     },
     {
       "results_row": 66,
@@ -5414,12 +5420,12 @@
     {
       "kind": "xlsx",
       "name": "OklahomaCity_2014_MAR_Results.xlsx",
-      "sha256": "f0a99997e62bd8ff538bd645a3fee7d858c37b4a0b277618e52d5ae2f91e40a9",
-      "bytes": 27196
+      "sha256": "fdf4aa6922c15944bb7fa108a007f327ab280c1096e3f993561ae5c407b5d6e3",
+      "bytes": 27195
     }
   ],
   "output_xlsx": "OklahomaCity_2014_MAR_Results.xlsx",
-  "output_xlsx_sha256": "f0a99997e62bd8ff538bd645a3fee7d858c37b4a0b277618e52d5ae2f91e40a9",
+  "output_xlsx_sha256": "fdf4aa6922c15944bb7fa108a007f327ab280c1096e3f993561ae5c407b5d6e3",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -5457,9 +5463,13 @@
     "olympic": false,
     "newly_bound_t59": 20,
     "no_icf_id_t59": 88,
-    "same_meeting_unified_t59": 0
+    "same_meeting_unified_t59": 0,
+    "t60_ru166": {
+      "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule first + sole-candidate keep (replaces Q76/Q80b) + cross-country review",
+      "age_conflict_kept": 1
+    }
   },
-  "updated_at": "2026-10-23T19:39:26Z",
+  "updated_at": "2026-10-24T10:10:17Z",
   "name_change_log": [],
   "nation_change_log": [],
   "printed_field_counts": {
@@ -5482,5 +5492,6 @@
       "14": 10,
       "15": 21
     }
-  }
+  },
+  "corrections_log": []
 }

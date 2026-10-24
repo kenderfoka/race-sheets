@@ -10,7 +10,7 @@
   "dates": "2012-09-21/2012-09-23",
   "discipline": "marathon",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-23T19:39:26Z",
+  "generated_at_utc": "2026-10-24T10:10:17Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "Organiser results book (rank / boat n° / NOC - country / id / SURNAME Given / YOB / time / gap; times printed with decimal comma, kept as published). STARTING_LANE = printed boat number (Gyor_2025_MAR precedent); id is the event bib, not an ICF id. Name order exceptions in name_order_log. Prints the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule). OQ/para races in the same book are kept (one key).",
@@ -3855,11 +3855,23 @@
       "results_row": 132,
       "seat": "ICF_ID1",
       "source_printed_name": "Jonas SAELENS",
-      "action": "bound_by_name_unconfirmed",
+      "action": "no_icf_id",
       "source": "given_family_unique",
-      "new_id": "48800",
       "team": "BEL",
-      "detail": "contract: 2008-2012 profiles list no results; bound by name, nation and gender only, logged bound_by_name_unconfirmed"
+      "detail": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 48800 Jonas SAELENS (ICF nationality FIN / federation FIN) differs from printed BEL and profile 48800 does not list Rome_2012_MAR; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Jonas SAELENS (BEL, M)",
+      "candidate_logged": {
+        "id": "48800",
+        "name": "Jonas SAELENS",
+        "birth_date": "1989-02-02",
+        "nationality": "FIN",
+        "federation": "FIN"
+      },
+      "evidence": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 48800 Jonas SAELENS (ICF nationality FIN / federation FIN) differs from printed BEL and profile 48800 does not list Rome_2012_MAR; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Jonas SAELENS (BEL, M)",
+      "correction": {
+        "previous_id": "48800",
+        "new_id": "",
+        "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country"
+      }
     },
     {
       "results_row": 133,
@@ -4130,7 +4142,13 @@
       "source": "pww_search",
       "new_id": "37664",
       "team": "ESP",
-      "detail": "contract: 2008-2012 profiles list no results; bound by name, nation and gender only, logged bound_by_name_unconfirmed"
+      "detail": "contract: 2008-2012 profiles list no results; bound by name, nation and gender only, logged bound_by_name_unconfirmed",
+      "age_conflict": {
+        "id": "37664",
+        "birth_date": "1991-04-25",
+        "reason": "age 21 in a JUNIOR race",
+        "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule: sole candidate carrying the printed name and country is kept; conflict logged"
+      }
     },
     {
       "results_row": 153,
@@ -4748,14 +4766,20 @@
       "results_row": 183,
       "seat": "ICF_ID2",
       "source_printed_name": "Paula GARCÍA",
-      "action": "no_icf_id",
+      "action": "bound_by_name_unconfirmed",
       "source": "pww_search",
       "team": "ESP",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Paula GARCÍA (ESP, W) | Q76: 85415 (born 2000-05-15) was under 14 on 2012-09-21; no single same-nation same-gender athlete of the right age carries the printed name; seat empty",
-      "q76_emptied_id": "85415",
+      "detail": "MAINTAINER_ANSWERS_2026-10-24 Rule 3 (variant/compound unique): bound 85415 (Paula DOMINGUEZ GARCIA, dob=2000-05-15), also_ids=[] | age_conflict=85415|2000-05-15|under 14 on 2012-09-21",
       "q76_birth_date": "2000-05-15",
       "rule_q76": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Paula GARCÍA (ESP, W) | Q76: 85415 (born 2000-05-15) was under 14 on 2012-09-21; no single same-nation same-gender athlete of the right age carries the printed name; seat empty"
+      "new_id": "85415",
+      "q76_superseded": "MAINTAINER_ANSWERS_2026-10-24 RU166: Q76/Q80(b) replaced by the age rule (was q76_emptied_id 85415)",
+      "age_conflict": {
+        "id": "85415",
+        "birth_date": "2000-05-15",
+        "reason": "under 14 on 2012-09-21",
+        "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule: sole candidate carrying the printed name and country is kept; conflict logged"
+      }
     },
     {
       "results_row": 184,
@@ -6967,11 +6991,23 @@
       "results_row": 338,
       "seat": "ICF_ID2",
       "source_printed_name": "Jonas SAELENS",
-      "action": "bound_by_name_unconfirmed",
+      "action": "no_icf_id",
       "source": "given_family_unique",
-      "new_id": "48800",
       "team": "BEL",
-      "detail": "contract: 2008-2012 profiles list no results; bound by name, nation and gender only, logged bound_by_name_unconfirmed"
+      "detail": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 48800 Jonas SAELENS (ICF nationality FIN / federation FIN) differs from printed BEL and profile 48800 does not list Rome_2012_MAR; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Jonas SAELENS (BEL, M)",
+      "candidate_logged": {
+        "id": "48800",
+        "name": "Jonas SAELENS",
+        "birth_date": "1989-02-02",
+        "nationality": "FIN",
+        "federation": "FIN"
+      },
+      "evidence": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 48800 Jonas SAELENS (ICF nationality FIN / federation FIN) differs from printed BEL and profile 48800 does not list Rome_2012_MAR; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Jonas SAELENS (BEL, M)",
+      "correction": {
+        "previous_id": "48800",
+        "new_id": "",
+        "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country"
+      }
     },
     {
       "results_row": 339,
@@ -7508,12 +7544,12 @@
     {
       "kind": "xlsx",
       "name": "Rome_2012_MAR_Results.xlsx",
-      "sha256": "a4c6b02dd2b0ec33ef7af29b60ff0cc180244eab9d088f95f590ed760f944fcf",
-      "bytes": 38268
+      "sha256": "523d72dd054d24cb4974b7102687de7543d78312a1b25047230bf17ccf8049f6",
+      "bytes": 38273
     }
   ],
   "output_xlsx": "Rome_2012_MAR_Results.xlsx",
-  "output_xlsx_sha256": "a4c6b02dd2b0ec33ef7af29b60ff0cc180244eab9d088f95f590ed760f944fcf",
+  "output_xlsx_sha256": "523d72dd054d24cb4974b7102687de7543d78312a1b25047230bf17ccf8049f6",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -7539,20 +7575,8 @@
     "repairs": "name-bound seats vs printed names on Organiser results book (ICF-hosted PDF) https://cdn.paddleworldwide.com/media/2012-world-ch-rome_ita.pdf (vendor published results, text rebuilt from glyph positions)",
     "fixtures": "skill fixtures belong to other meetings; reference Organiser results book (ICF-hosted PDF) https://cdn.paddleworldwide.com/media/2012-world-ch-rome_ita.pdf (vendor published results, text rebuilt from glyph positions)"
   },
-  "updated_at": "2026-10-23T19:39:26Z",
+  "updated_at": "2026-10-24T10:10:17Z",
   "nation_change_log": [
-    {
-      "id": "48800",
-      "name": "Jonas SAELENS",
-      "printed_team": "BEL",
-      "profile_noc": "FIN",
-      "seats": 2,
-      "results_rows": [
-        132,
-        338
-      ],
-      "note": "contract line 387: unique ICF athlete with the printed name, profile NOC FIN; id and printed BEL kept, logged"
-    },
     {
       "id": "88454",
       "name": "Jonathan SIMMONS",
@@ -7642,7 +7666,15 @@
     "rule": "MAINTAINER_ANSWERS_2026-10-23 Rules 1-5 + same-meeting unification",
     "newly_bound_t59": 9,
     "no_icf_id_t59": 208,
-    "same_meeting_unified_t59": 0
+    "same_meeting_unified_t59": 0,
+    "t60_ru166": {
+      "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule first + sole-candidate keep (replaces Q76/Q80b) + cross-country review",
+      "emptied_to_no_icf_id": 2,
+      "cc_emptied": 2,
+      "age_conflict_kept": 1,
+      "newbind": 1,
+      "newbind_age_conflict": 1
+    }
   },
   "q78a_age_filter_binds": {
     "rule": "MAINTAINER_ANSWERS_2026-10-19f Q78a: with under-14 namesakes dropped (Q76), a printed name that now fits exactly one same-nation same-gender athlete binds (Q71), logged unconfirmed; Q80(b): a candidate left single only by the age filter matches every printed name token",
@@ -7692,5 +7724,47 @@
       }
     ]
   },
-  "name_change_log": []
+  "name_change_log": [],
+  "corrections_log": [
+    {
+      "results_row": 132,
+      "seat": "ICF_ID1",
+      "printed": "Jonas SAELENS",
+      "team": "BEL",
+      "category": "U23",
+      "previous_id": "48800",
+      "new_id": "",
+      "action": "no_icf_id",
+      "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 48800 Jonas SAELENS (ICF nationality FIN / federation FIN) differs from printed BEL and profile 48800 does not list Rome_2012_MAR; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Jonas SAELENS (BEL, M)",
+      "previous_record": {
+        "id": "48800",
+        "name": "Jonas SAELENS",
+        "birth_date": "1989-02-02",
+        "nationality": "FIN",
+        "federation": "FIN"
+      },
+      "new_record": null
+    },
+    {
+      "results_row": 338,
+      "seat": "ICF_ID2",
+      "printed": "Jonas SAELENS",
+      "team": "BEL",
+      "category": "SENIOR",
+      "previous_id": "48800",
+      "new_id": "",
+      "action": "no_icf_id",
+      "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 48800 Jonas SAELENS (ICF nationality FIN / federation FIN) differs from printed BEL and profile 48800 does not list Rome_2012_MAR; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Jonas SAELENS (BEL, M)",
+      "previous_record": {
+        "id": "48800",
+        "name": "Jonas SAELENS",
+        "birth_date": "1989-02-02",
+        "nationality": "FIN",
+        "federation": "FIN"
+      },
+      "new_record": null
+    }
+  ]
 }

@@ -10,7 +10,7 @@
   "dates": "2017-05-25/2017-05-28",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-23T19:39:26Z",
+  "generated_at_utc": "2026-10-24T10:10:17Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "Szeged organiser results book (ICF-hosted PDF; surname/given/country-name columns; country names mapped to NOC codes, map in country_name_map) prints the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule). OQ/para races in the same book are kept (one key).",
@@ -21716,7 +21716,13 @@
       "source": "pww_search",
       "new_id": "75503",
       "team": "UZB",
-      "name_bound_profile": "kept: profile lists 2017 ICF CANOE SPRINT WORLD CUP 2 / C1 Men 200m"
+      "name_bound_profile": "kept: profile lists 2017 ICF CANOE SPRINT WORLD CUP 2 / C1 Men 200m",
+      "age_conflict": {
+        "id": "75503",
+        "birth_date": "2017-03-18",
+        "reason": "under 14 on 2017-05-25",
+        "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule: sole candidate carrying the printed name and country is kept; conflict logged"
+      }
     },
     {
       "results_row": 676,
@@ -27499,7 +27505,13 @@
       "source": "pww_search",
       "new_id": "75503",
       "team": "UZB",
-      "name_bound_profile": "kept: profile lists 2017 ICF CANOE SPRINT WORLD CUP 2 / C1 Men 200m"
+      "name_bound_profile": "kept: profile lists 2017 ICF CANOE SPRINT WORLD CUP 2 / C1 Men 200m",
+      "age_conflict": {
+        "id": "75503",
+        "birth_date": "2017-03-18",
+        "reason": "under 14 on 2017-05-25",
+        "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule: sole candidate carrying the printed name and country is kept; conflict logged"
+      }
     },
     {
       "results_row": 1140,
@@ -35737,7 +35749,13 @@
       "source": "pww_search",
       "new_id": "75503",
       "team": "UZB",
-      "name_bound_profile": "kept: profile lists 2017 ICF CANOE SPRINT WORLD CUP 2 / C1 Men 200m"
+      "name_bound_profile": "kept: profile lists 2017 ICF CANOE SPRINT WORLD CUP 2 / C1 Men 200m",
+      "age_conflict": {
+        "id": "75503",
+        "birth_date": "2017-03-18",
+        "reason": "under 14 on 2017-05-25",
+        "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule: sole candidate carrying the printed name and country is kept; conflict logged"
+      }
     },
     {
       "results_row": 1538,
@@ -40905,12 +40923,12 @@
     {
       "kind": "xlsx",
       "name": "Szeged_2017_WC_Results.xlsx",
-      "sha256": "5d252cd612719216ede9b51376d966b2509945016274f13e3b293680d10eb16b",
+      "sha256": "6bba6b65bc150b0ab982c71c1b3a768796f19e292d4a63b0271b20a7d7e8cdb1",
       "bytes": 160505
     }
   ],
   "output_xlsx": "Szeged_2017_WC_Results.xlsx",
-  "output_xlsx_sha256": "5d252cd612719216ede9b51376d966b2509945016274f13e3b293680d10eb16b",
+  "output_xlsx_sha256": "6bba6b65bc150b0ab982c71c1b3a768796f19e292d4a63b0271b20a7d7e8cdb1",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -40950,9 +40968,13 @@
     "olympic": false,
     "newly_bound_t59": 113,
     "no_icf_id_t59": 128,
-    "same_meeting_unified_t59": 0
+    "same_meeting_unified_t59": 0,
+    "t60_ru166": {
+      "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule first + sole-candidate keep (replaces Q76/Q80b) + cross-country review",
+      "age_conflict_kept": 3
+    }
   },
-  "updated_at": "2026-10-23T19:39:26Z",
+  "updated_at": "2026-10-24T10:10:17Z",
   "printed_field_counts": {
     "source": "boats per race as parsed from the published source (https://cdn.paddleworldwide.com/media/full_results_2017_canoe_sprint_world_cup_2_szeged.pdf); back-filled 2026-10-19 from the published RESULTS (the builder parse), race coverage cross-checked independently by GATE10b",
     "rule": "MAINTAINER_ANSWERS_2026-10-18c Fix 1: printed count decides",
@@ -41183,5 +41205,6 @@
     "backfilled": "2026-10-19"
   },
   "name_change_log": [],
-  "nation_change_log": []
+  "nation_change_log": [],
+  "corrections_log": []
 }

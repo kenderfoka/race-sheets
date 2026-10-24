@@ -11,7 +11,7 @@
   "dates": "2013-08-28/2013-09-01",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-23T19:39:26Z",
+  "generated_at_utc": "2026-10-24T10:10:17Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "IMAS race pages print the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule).",
@@ -30028,7 +30028,8 @@
       "source": "given_family_unique",
       "new_id": "46104",
       "team": "TRI",
-      "name_bound_profile": "kept: profile lists 2013 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K1 Men 200m"
+      "name_bound_profile": "kept: profile lists 2013 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K1 Men 200m",
+      "nation_check": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country bind kept: profile 46104 lists Duisburg_2013_WCH"
     },
     {
       "results_row": 1059,
@@ -47479,12 +47480,12 @@
     {
       "kind": "xlsx",
       "name": "Duisburg_2013_WCH_Results.xlsx",
-      "sha256": "70b5eacc8944dfbbd7d3e84ee0f17a689b93415c8b0a40776f998c3b5f5aab21",
-      "bytes": 154706
+      "sha256": "dffdaf01feec269bf1db02d1ff8831cb83baed46ced0f11a4e8e59c5c07fa138",
+      "bytes": 154708
     }
   ],
   "output_xlsx": "Duisburg_2013_WCH_Results.xlsx",
-  "output_xlsx_sha256": "70b5eacc8944dfbbd7d3e84ee0f17a689b93415c8b0a40776f998c3b5f5aab21",
+  "output_xlsx_sha256": "dffdaf01feec269bf1db02d1ff8831cb83baed46ced0f11a4e8e59c5c07fa138",
   "checks": {
     "start-times": {
       "status": "pass",
@@ -47521,94 +47522,6 @@
   },
   "nation_change_log": [
     {
-      "id": "99700",
-      "name": "Aleksandra Grishina",
-      "printed_team": "BLR",
-      "profile_noc": "BUL",
-      "seats": 4,
-      "results_rows": [
-        228,
-        487,
-        1486,
-        1601
-      ],
-      "note": "nation changed after the event (or old printed code); id and printed nation kept, logged (maintainer 2026-10-16 10:39)"
-    },
-    {
-      "id": "66277",
-      "name": "Adnan Aliev",
-      "printed_team": "BUL",
-      "profile_noc": "TUR",
-      "seats": 3,
-      "results_rows": [
-        287,
-        546,
-        1587
-      ],
-      "note": "nation changed after the event (or old printed code); id and printed nation kept, logged (maintainer 2026-10-16 10:39)"
-    },
-    {
-      "id": "153412",
-      "name": "Péter Korisánszky",
-      "printed_team": "HUN",
-      "profile_noc": "CAN",
-      "seats": 3,
-      "results_rows": [
-        434,
-        675,
-        1565
-      ],
-      "note": "nation changed after the event (or old printed code); id and printed nation kept, logged (maintainer 2026-10-16 10:39)"
-    },
-    {
-      "id": "65863",
-      "name": "Lasma Liepa",
-      "printed_team": "LAT",
-      "profile_noc": "TUR",
-      "seats": 2,
-      "results_rows": [
-        1133,
-        1257
-      ],
-      "note": "nation changed after the event (or old printed code); id and printed nation kept, logged (maintainer 2026-10-16 10:39)"
-    },
-    {
-      "id": "84718",
-      "name": "Nikolay Lipkin",
-      "printed_team": "RUS",
-      "profile_noc": "UZB",
-      "seats": 2,
-      "results_rows": [
-        1166,
-        1763
-      ],
-      "note": "nation changed after the event (or old printed code); id and printed nation kept, logged (maintainer 2026-10-16 10:39)"
-    },
-    {
-      "id": "55865",
-      "name": "Sergii Tokarnytskyi",
-      "printed_team": "UKR",
-      "profile_noc": "KAZ",
-      "seats": 3,
-      "results_rows": [
-        1227,
-        1315,
-        1707
-      ],
-      "note": "nation changed after the event (or old printed code); id and printed nation kept, logged (maintainer 2026-10-16 10:39)"
-    },
-    {
-      "id": "75434",
-      "name": "Ievgen Karabuta",
-      "printed_team": "UKR",
-      "profile_noc": "AZE",
-      "seats": 1,
-      "results_rows": [
-        1923
-      ],
-      "note": "nation changed after the event (or old printed code); id and printed nation kept, logged (maintainer 2026-10-16 10:39)"
-    },
-    {
       "id": "166100",
       "name": "Stanislav Shymanskyi",
       "printed_team": "UKR",
@@ -47619,6 +47532,12 @@
         1975
       ],
       "note": "nation changed after the event (or old printed code); id and printed nation kept, logged (maintainer 2026-10-16 10:39)"
+    },
+    {
+      "id": "46104",
+      "printed_team": "TRI",
+      "profile_noc": "TTO",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-24 RU166: ICF nationality TTO / federation TTO differs from printed TRI; kept because profile 46104 lists Duisburg_2013_WCH"
     }
   ],
   "gate_repairs": [
@@ -47688,9 +47607,13 @@
     "olympic": false,
     "newly_bound_t59": 209,
     "no_icf_id_t59": 766,
-    "same_meeting_unified_t59": 0
+    "same_meeting_unified_t59": 0,
+    "t60_ru166": {
+      "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule first + sole-candidate keep (replaces Q76/Q80b) + cross-country review",
+      "cc_kept": 1
+    }
   },
-  "updated_at": "2026-10-23T19:39:26Z",
+  "updated_at": "2026-10-24T10:10:17Z",
   "rank_source_log": [
     {
       "race": 7,
@@ -47955,5 +47878,6 @@
       "241": 9,
       "242": 9
     }
-  }
+  },
+  "corrections_log": []
 }

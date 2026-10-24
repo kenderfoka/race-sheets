@@ -10,7 +10,7 @@
   "dates": "2013-05-17/2013-05-19",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-23T19:39:26Z",
+  "generated_at_utc": "2026-10-24T10:10:17Z",
   "grade": "FAIL",
   "gaps": [],
   "note": "Racice 2013 organiser results book prints each race start to the minute (written HH:MM:00) and the day on each page header. RESULT = printed time. Rows printed out of rank order keep the printed rank. Names printed FAMILY Given, bound by bind_seat. No ICF ids printed.",
@@ -11502,7 +11502,8 @@
       "name_bound_profile": "kept: profile lists 2013 ICF CANOE SPRINT WORLD CUP RACE 2 / K1 Women 1000m",
       "new_id": "47779",
       "restored": "MAINTAINER_ANSWERS_2026-10-19b FIX: nation change (printed AUT, profile SRB); profile lists 2013 World Cup Race 2 K1 Women 1000m/5000m",
-      "profile_noc": "SRB"
+      "profile_noc": "SRB",
+      "nation_check": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country bind kept: profile 47779 lists Racice_2013_WC"
     },
     {
       "results_row": 174,
@@ -20087,7 +20088,8 @@
       "name_bound_profile": "kept: profile lists 2013 ICF CANOE SPRINT WORLD CUP RACE 2 / K1 Women 1000m",
       "new_id": "47779",
       "restored": "MAINTAINER_ANSWERS_2026-10-19b FIX: nation change (printed AUT, profile SRB); profile lists 2013 World Cup Race 2 K1 Women 1000m/5000m",
-      "profile_noc": "SRB"
+      "profile_noc": "SRB",
+      "nation_check": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country bind kept: profile 47779 lists Racice_2013_WC"
     },
     {
       "results_row": 682,
@@ -28818,7 +28820,8 @@
       "name_bound_profile": "kept: profile lists 2013 ICF CANOE SPRINT WORLD CUP RACE 2 / K1 Women 5000m",
       "new_id": "47779",
       "restored": "MAINTAINER_ANSWERS_2026-10-19b FIX: nation change (printed AUT, profile SRB); profile lists 2013 World Cup Race 2 K1 Women 1000m/5000m",
-      "profile_noc": "SRB"
+      "profile_noc": "SRB",
+      "nation_check": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country bind kept: profile 47779 lists Racice_2013_WC"
     },
     {
       "results_row": 1253,
@@ -29269,12 +29272,12 @@
     {
       "kind": "xlsx",
       "name": "Racice_2013_WC_Results.xlsx",
-      "sha256": "ad772319deac8eb09eb9f2f55798e4020327665622558652ce33644edc7050f6",
+      "sha256": "95aa2b9a61b9eefdd23ebe0cab2436efef74fd14c89df16244414286bc541838",
       "bytes": 98096
     }
   ],
   "output_xlsx": "Racice_2013_WC_Results.xlsx",
-  "output_xlsx_sha256": "ad772319deac8eb09eb9f2f55798e4020327665622558652ce33644edc7050f6",
+  "output_xlsx_sha256": "95aa2b9a61b9eefdd23ebe0cab2436efef74fd14c89df16244414286bc541838",
   "checks": {
     "start-times": "fail: A 65 rows without START_DATE/START_TIME",
     "phases": "pass",
@@ -29315,9 +29318,13 @@
     "olympic": false,
     "newly_bound_t59": 154,
     "no_icf_id_t59": 556,
-    "same_meeting_unified_t59": 0
+    "same_meeting_unified_t59": 0,
+    "t60_ru166": {
+      "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule first + sole-candidate keep (replaces Q76/Q80b) + cross-country review",
+      "cc_kept": 3
+    }
   },
-  "updated_at": "2026-10-23T19:39:26Z",
+  "updated_at": "2026-10-24T10:10:17Z",
   "name_change_log": [
     {
       "results_row": 7,
@@ -29578,5 +29585,6 @@
       ],
       "note": "MAINTAINER_ANSWERS_2026-10-19b FIX: nation change (printed AUT, profile SRB); profile lists 2013 World Cup Race 2 K1 Women 1000m/5000m"
     }
-  ]
+  ],
+  "corrections_log": []
 }

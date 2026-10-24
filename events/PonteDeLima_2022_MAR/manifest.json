@@ -10,7 +10,7 @@
   "dates": "2022-09-29/2022-10-02",
   "discipline": "marathon",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-23T18:47:56Z",
+  "generated_at_utc": "2026-10-24T10:10:17Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "MemoSoft marathon results book prints each race start to the minute (scheduled; written HH:MM:00). RESULT = printed final time; DIFFERENCE not written (marathon precedent). STARTING_LANE = printed boat number (Gyor_2025_MAR precedent); Bib(s) are event bibs, BIB_BOAT empty. No ICF ids printed: seats bound by bind_seat + name_bound_check.",
@@ -3572,7 +3572,13 @@
       "source": "pww_search",
       "new_id": "113889",
       "team": "POR",
-      "name_bound_profile": "kept: profile lists 2022 ICF CANOE MARATHON WORLD CHAMPIONSHIPS / C1 Women 11800m"
+      "name_bound_profile": "kept: profile lists 2022 ICF CANOE MARATHON WORLD CHAMPIONSHIPS / C1 Women 11800m",
+      "age_conflict": {
+        "id": "113889",
+        "birth_date": "1992-10-12",
+        "reason": "age 30 in a JUNIOR race",
+        "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule: sole candidate carrying the printed name and country is kept; conflict logged"
+      }
     },
     {
       "results_row": 33,
@@ -9014,12 +9020,12 @@
     {
       "kind": "xlsx",
       "name": "PonteDeLima_2022_MAR_Results.xlsx",
-      "sha256": "8afc26766abfe6c25389a18d7ad4472cc521b33b66bdf70e6c5f685e7361a804",
+      "sha256": "3949d777caba879bfa01aa05ee69ae5f31ee05018e70a9c3204da75cbb8237cf",
       "bytes": 46461
     }
   ],
   "output_xlsx": "PonteDeLima_2022_MAR_Results.xlsx",
-  "output_xlsx_sha256": "8afc26766abfe6c25389a18d7ad4472cc521b33b66bdf70e6c5f685e7361a804",
+  "output_xlsx_sha256": "3949d777caba879bfa01aa05ee69ae5f31ee05018e70a9c3204da75cbb8237cf",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -9057,9 +9063,13 @@
     "olympic": false,
     "newly_bound_t59": 40,
     "no_icf_id_t59": 5,
-    "same_meeting_unified_t59": 0
+    "same_meeting_unified_t59": 0,
+    "t60_ru166": {
+      "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule first + sole-candidate keep (replaces Q76/Q80b) + cross-country review",
+      "age_conflict_kept": 1
+    }
   },
-  "updated_at": "2026-10-23T18:47:56Z",
+  "updated_at": "2026-10-24T10:10:17Z",
   "printed_field_counts": {
     "source": "boats per race as parsed from the published source (https://cdn.paddleworldwide.com/media/2022_icf_canoe_marathon_world_championships_-_full_results_book.pdf); back-filled 2026-10-19 from the published RESULTS (the builder parse), race coverage cross-checked independently by GATE10b",
     "rule": "MAINTAINER_ANSWERS_2026-10-18c Fix 1: printed count decides",
@@ -9093,5 +9103,6 @@
     "backfilled": "2026-10-19"
   },
   "name_change_log": [],
-  "nation_change_log": []
+  "nation_change_log": [],
+  "corrections_log": []
 }

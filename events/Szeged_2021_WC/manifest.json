@@ -31,7 +31,7 @@
   "dates": "2021-05-12/2021-05-16",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-23T18:47:56Z",
+  "generated_at_utc": "2026-10-24T10:10:17Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "Digicorp (Prawn) results book prints the scheduled race start to the minute (written HH:MM:00); Digicorp hub dead, no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule). OQ/para races in the same book are kept (one key).",
@@ -15424,7 +15424,8 @@
       "new_id": "75566",
       "team": "ROU",
       "name_bound_profile": "kept: profile lists 2021 CANOE SPRINT EUROPEAN OLYMPIC QUALIFIER / K1 Women 200m",
-      "detail": "nation_change: id 75566 kept with printed TEAM ROU (profile NOC now AZE); maintainer 2026-10-16 10:39"
+      "detail": "nation_change: id 75566 kept with printed TEAM ROU (profile NOC now AZE); maintainer 2026-10-16 10:39",
+      "nation_check": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country bind kept: profile 75566 lists Szeged_2021_WC"
     },
     {
       "results_row": 144,
@@ -16478,7 +16479,8 @@
       "new_id": "75566",
       "team": "ROU",
       "name_bound_profile": "kept: profile lists 2021 CANOE SPRINT EUROPEAN OLYMPIC QUALIFIER / K1 Women 200m",
-      "detail": "nation_change: id 75566 kept with printed TEAM ROU (profile NOC now AZE); maintainer 2026-10-16 10:39"
+      "detail": "nation_change: id 75566 kept with printed TEAM ROU (profile NOC now AZE); maintainer 2026-10-16 10:39",
+      "nation_check": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country bind kept: profile 75566 lists Szeged_2021_WC"
     },
     {
       "results_row": 210,
@@ -21666,7 +21668,8 @@
       "new_id": "75566",
       "team": "ROU",
       "name_bound_profile": "kept: profile lists 2021 CANOE SPRINT EUROPEAN OLYMPIC QUALIFIER / K1 Women 200m",
-      "detail": "nation_change: id 75566 kept with printed TEAM ROU (profile NOC now AZE); maintainer 2026-10-16 10:39"
+      "detail": "nation_change: id 75566 kept with printed TEAM ROU (profile NOC now AZE); maintainer 2026-10-16 10:39",
+      "nation_check": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country bind kept: profile 75566 lists Szeged_2021_WC"
     },
     {
       "results_row": 643,
@@ -42917,12 +42920,12 @@
     {
       "kind": "xlsx",
       "name": "Szeged_2021_WC_Results.xlsx",
-      "sha256": "e59ec04681e8746e08eef576d03f98d81096253ed05a1fb0cd4d5f3edd71f671",
-      "bytes": 169341
+      "sha256": "2b4aeeeaf7be886356d363ae555b2ecc3119c6cad99a76218a48fa7b47fabcc6",
+      "bytes": 169340
     }
   ],
   "output_xlsx": "Szeged_2021_WC_Results.xlsx",
-  "output_xlsx_sha256": "e59ec04681e8746e08eef576d03f98d81096253ed05a1fb0cd4d5f3edd71f671",
+  "output_xlsx_sha256": "2b4aeeeaf7be886356d363ae555b2ecc3119c6cad99a76218a48fa7b47fabcc6",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -42962,9 +42965,13 @@
     "olympic": false,
     "newly_bound_t59": 223,
     "no_icf_id_t59": 36,
-    "same_meeting_unified_t59": 0
+    "same_meeting_unified_t59": 0,
+    "t60_ru166": {
+      "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule first + sole-candidate keep (replaces Q76/Q80b) + cross-country review",
+      "cc_kept": 3
+    }
   },
-  "updated_at": "2026-10-23T18:47:56Z",
+  "updated_at": "2026-10-24T10:10:17Z",
   "gate_repairs": [
     {
       "icf_id": "75566",
@@ -45480,5 +45487,6 @@
       "252": 13,
       "253": 25
     }
-  }
+  },
+  "corrections_log": []
 }

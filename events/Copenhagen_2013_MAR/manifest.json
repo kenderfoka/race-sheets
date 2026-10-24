@@ -10,7 +10,7 @@
   "dates": "2013-09-20/2013-09-22",
   "discipline": "marathon",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-23T19:39:26Z",
+  "generated_at_utc": "2026-10-24T10:10:17Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "Organiser Excel results book prints race number, date, distance and the start clock to the minute (written HH:MM:00). RESULT = printed time; DIFFERENCE not written (marathon precedent). STARTING_LANE = printed boat number; Bib are event bibs. Names printed with mojibake (\\u00e3 for many letters): re-decoded where clean, else the single matching profile under the profile check, else seat emptied, row kept, logged in q20_emptied_seats (maintainer 2026-10-17 Q20). PERSONS names from the profile.",
@@ -3352,9 +3352,14 @@
       "action": "corrected",
       "source": "none",
       "team": "POR",
-      "new_id": "36459",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4.1 (only 1 candidate profile lists meeting): bound 36459 (Joana SOUSA)",
-      "name_bound_profile": "kept: profile lists Copenhagen_2013_MAR"
+      "new_id": "48165",
+      "detail": "MAINTAINER_ANSWERS_2026-10-24 Age rule (RU166: birth year vs category chooses between candidates): bound 48165 (Joana MARINHO SOUSA, dob=1991-08-15), also_ids=[] | age rule dropped 36459 (dob=1983-08-10; age 30 in a U23 race)",
+      "name_bound_profile": "kept: MAINTAINER_ANSWERS_2026-10-24 Age rule (RU166: birth year vs category chooses between candidates)",
+      "correction": {
+        "previous_id": "36459",
+        "new_id": "48165",
+        "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule"
+      }
     },
     {
       "results_row": 95,
@@ -6578,7 +6583,8 @@
       "source": "given_family_unique",
       "new_id": "48800",
       "team": "BEL",
-      "name_bound_profile": "kept: profile lists 2013 ICF CANOE MARATHON WORLD CHAMPIONSHIPS / K2 Men 30100m"
+      "name_bound_profile": "kept: profile lists 2013 ICF CANOE MARATHON WORLD CHAMPIONSHIPS / K2 Men 30100m",
+      "nation_check": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country bind kept: profile 48800 lists Copenhagen_2013_MAR"
     },
     {
       "results_row": 330,
@@ -7997,12 +8003,12 @@
     {
       "kind": "xlsx",
       "name": "Copenhagen_2013_MAR_Results.xlsx",
-      "sha256": "80f34b4cc7b66a9268f64fb047f3418567d0debeed43fc87091c74f3017cdff6",
-      "bytes": 34365
+      "sha256": "21358321292474b0c7cad5a6d3439d669a7e107b60c766e42d8621b8e8be34d2",
+      "bytes": 34367
     }
   ],
   "output_xlsx": "Copenhagen_2013_MAR_Results.xlsx",
-  "output_xlsx_sha256": "80f34b4cc7b66a9268f64fb047f3418567d0debeed43fc87091c74f3017cdff6",
+  "output_xlsx_sha256": "21358321292474b0c7cad5a6d3439d669a7e107b60c766e42d8621b8e8be34d2",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -8040,9 +8046,15 @@
     "olympic": false,
     "newly_bound_t59": 43,
     "no_icf_id_t59": 173,
-    "same_meeting_unified_t59": 0
+    "same_meeting_unified_t59": 0,
+    "t60_ru166": {
+      "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule first + sole-candidate keep (replaces Q76/Q80b) + cross-country review",
+      "rebound": 1,
+      "age_rebound": 1,
+      "cc_kept": 1
+    }
   },
-  "updated_at": "2026-10-23T19:39:26Z",
+  "updated_at": "2026-10-24T10:10:17Z",
   "nation_change_log": [
     {
       "id": "48800",
@@ -8084,5 +8096,33 @@
       "14": 13,
       "15": 32
     }
-  }
+  },
+  "corrections_log": [
+    {
+      "results_row": 94,
+      "seat": "ICF_ID1",
+      "printed": "Joana SOUSA",
+      "team": "POR",
+      "category": "U23",
+      "previous_id": "36459",
+      "new_id": "48165",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-24 Age rule (RU166: birth year vs category chooses between candidates): bound 48165 (Joana MARINHO SOUSA, dob=1991-08-15), also_ids=[] | age rule dropped 36459 (dob=1983-08-10; age 30 in a U23 race)",
+      "previous_record": {
+        "id": "36459",
+        "name": "Joana SOUSA",
+        "birth_date": "1983-08-10",
+        "nationality": "POR",
+        "federation": "POR"
+      },
+      "new_record": {
+        "id": "48165",
+        "name": "Joana MARINHO SOUSA",
+        "birth_date": "1991-08-15",
+        "nationality": "POR",
+        "federation": "POR"
+      }
+    }
+  ]
 }
