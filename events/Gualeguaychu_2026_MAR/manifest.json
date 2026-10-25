@@ -22,8 +22,8 @@
   "gaps": [
     "results_missing"
   ],
-  "generated_at_utc": "2026-10-25T12:01:51Z",
-  "updated_at": "2026-10-25T12:01:51Z",
+  "generated_at_utc": "2026-10-25T12:16:45Z",
+  "updated_at": "2026-10-25T12:16:45Z",
   "sources": [
     {
       "path": "gualeguaychu-sources/eventdetail_168.html",
@@ -5382,12 +5382,12 @@
     {
       "kind": "xlsx",
       "name": "Gualeguaychu_2026_MAR_Results.xlsx",
-      "sha256": "f6ab8aef4f5d93384333c450f2281c5e87a001d0fc7f4192382f1ca6ded57a15",
-      "bytes": 58562
+      "sha256": "0e34be9eed7150788076e46a514b640fd86489f8e418badaa587ab9d87a00789",
+      "bytes": 59152
     }
   ],
   "output_xlsx": "Gualeguaychu_2026_MAR_Results.xlsx",
-  "output_xlsx_sha256": "f6ab8aef4f5d93384333c450f2281c5e87a001d0fc7f4192382f1ca6ded57a15",
+  "output_xlsx_sha256": "0e34be9eed7150788076e46a514b640fd86489f8e418badaa587ab9d87a00789",
   "name_bound_check": {
     "completed": true,
     "profiles_checked": 6,
@@ -5399,5 +5399,84 @@
     "persons_dropped": 0,
     "olympic": false
   },
-  "published_at": "2026-10-25T12:01:51Z"
+  "published_at": "2026-10-25T12:01:51Z",
+  "log_corrections": [
+    {
+      "kind": "sheet_layout",
+      "date": "2026-10-25",
+      "sheet": "RESULTS 2392",
+      "field": "RESULTS header row (column names and order)",
+      "seat_ids_unchanged": true,
+      "values_unchanged": true,
+      "previous": {
+        "ref": "events/Gualeguaychu_2026_MAR/Gualeguaychu_2026_MAR_Results.xlsx at 1eda7361c7317c0461a3cf464d7232c7a2c9704f",
+        "xlsx_sha256": "f6ab8aef4f5d93384333c450f2281c5e87a001d0fc7f4192382f1ca6ded57a15",
+        "headers": [
+          "START_DATE",
+          "START_TIME",
+          "ICF_ID1",
+          "ICF_ID2",
+          "ICF_ID3",
+          "ICF_ID4",
+          "ICF_ID5",
+          "ICF_ID6",
+          "TEAM",
+          "GENDER",
+          "RACE_NUMBER",
+          "STARTING_LANE",
+          "RANK",
+          "PENALTIES",
+          "BIB_BOAT",
+          "RESULTS",
+          "CATEGORY",
+          "EVENT",
+          "DISTANCE",
+          "PHASE",
+          "UNIT",
+          "VENUE",
+          "COURSE",
+          "OBS"
+        ]
+      },
+      "new": {
+        "xlsx_sha256": "0e34be9eed7150788076e46a514b640fd86489f8e418badaa587ab9d87a00789",
+        "headers": [
+          "GENDER",
+          "CATEGORY",
+          "EVENT",
+          "DISTANCE",
+          "PHASE",
+          "UNIT",
+          "START_DATE",
+          "START_TIME",
+          "TEAM",
+          "BIB_BOAT",
+          "RACE_NUMBER",
+          "STARTING_LANE",
+          "RANK",
+          "RANK_ORDER",
+          "PENALTIES",
+          "RESULT",
+          "DIFFERENCE",
+          "ICF_ID1",
+          "ICF_ID2",
+          "ICF_ID3",
+          "ICF_ID4",
+          "ICF_ID5",
+          "ICF_ID6",
+          "OBS",
+          "VENUE",
+          "COURSE"
+        ]
+      },
+      "changes": [
+        "time column RESULTS renamed RESULT (values unchanged)",
+        "RANK_ORDER and DIFFERENCE added empty in their contract positions",
+        "columns reordered to the PADDLETAGGER_CONTRACT flatwater RESULTS list",
+        "VENUE and COURSE kept after all contract columns"
+      ],
+      "check": "cell-for-cell: 618 RESULTS rows, every value/type/number format identical under the new header; START_DATE date-typed YYYY-MM-DD; ICF_ID seats 700/700 (353 distinct); PERSONS 353 rows identical",
+      "rule": "MAINTAINER_ANSWERS_2026-10-25b (PaddleTagger: time column must be RESULT, lookup is exact; add RANK_ORDER and DIFFERENCE; VENUE/COURSE only after the contract columns) + PADDLETAGGER_CONTRACT Flatwater Sheet 1 column list; correction of the sheet layout, not of seats (no corrections_log entry, no value, seat or id change)"
+    }
+  ]
 }
