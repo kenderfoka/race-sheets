@@ -22,8 +22,8 @@
   "gaps": [
     "results_missing"
   ],
-  "generated_at_utc": "2026-10-25T12:16:45Z",
-  "updated_at": "2026-10-25T12:16:45Z",
+  "generated_at_utc": "2026-10-25T15:31:02Z",
+  "updated_at": "2026-10-25T15:31:02Z",
   "sources": [
     {
       "path": "gualeguaychu-sources/eventdetail_168.html",
@@ -5382,12 +5382,12 @@
     {
       "kind": "xlsx",
       "name": "Gualeguaychu_2026_MAR_Results.xlsx",
-      "sha256": "0e34be9eed7150788076e46a514b640fd86489f8e418badaa587ab9d87a00789",
-      "bytes": 59152
+      "sha256": "782d0d00bd3d495e44adeb2c1745c17eef12cad7b5dd27c5d34229fd173659c3",
+      "bytes": 59139
     }
   ],
   "output_xlsx": "Gualeguaychu_2026_MAR_Results.xlsx",
-  "output_xlsx_sha256": "0e34be9eed7150788076e46a514b640fd86489f8e418badaa587ab9d87a00789",
+  "output_xlsx_sha256": "782d0d00bd3d495e44adeb2c1745c17eef12cad7b5dd27c5d34229fd173659c3",
   "name_bound_check": {
     "completed": true,
     "profiles_checked": 6,
@@ -5477,6 +5477,34 @@
       ],
       "check": "cell-for-cell: 618 RESULTS rows, every value/type/number format identical under the new header; START_DATE date-typed YYYY-MM-DD; ICF_ID seats 700/700 (353 distinct); PERSONS 353 rows identical",
       "rule": "MAINTAINER_ANSWERS_2026-10-25b (PaddleTagger: time column must be RESULT, lookup is exact; add RANK_ORDER and DIFFERENCE; VENUE/COURSE only after the contract columns) + PADDLETAGGER_CONTRACT Flatwater Sheet 1 column list; correction of the sheet layout, not of seats (no corrections_log entry, no value, seat or id change)"
+    },
+    {
+      "kind": "format",
+      "date": "2026-10-25",
+      "sheet": "RESULTS 2392",
+      "field": "PHASE",
+      "seat_ids_unchanged": true,
+      "other_cells_unchanged": true,
+      "previous": {
+        "ref": "events/Gualeguaychu_2026_MAR/Gualeguaychu_2026_MAR_Results.xlsx at f63b23f5397db57cb023bb68c453416d802829b5",
+        "xlsx_sha256": "0e34be9eed7150788076e46a514b640fd86489f8e418badaa587ab9d87a00789",
+        "values": {
+          "Final": 484,
+          "Heat": 134
+        }
+      },
+      "new": {
+        "xlsx_sha256": "782d0d00bd3d495e44adeb2c1745c17eef12cad7b5dd27c5d34229fd173659c3",
+        "values": {
+          "final": 484,
+          "heat": 134
+        }
+      },
+      "changes": [
+        "PHASE 'Final' -> 'final' (484 cells)",
+        "PHASE 'Heat' -> 'heat' (134 cells)"
+      ],
+      "rule": "MAINTAINER_ANSWERS_2026-10-25c item 2: PHASE lowercase as PADDLETAGGER_CONTRACT.md asks (heat | quarterfinal | semifinal | final); format correction, not a data or seat change"
     }
   ]
 }
