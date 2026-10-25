@@ -10,7 +10,7 @@
   "dates": "2015-07-23/2015-07-26",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-24T10:10:17Z",
+  "generated_at_utc": "2026-10-25T15:25:49Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "MemoSoft results book (Spotfokus hub dead) prints the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule). OQ/para races in the same book are kept (one key).",
@@ -45215,12 +45215,19 @@
     "no_icf_id_t59": 114,
     "same_meeting_unified_t59": 0,
     "t60_ru166": {
-      "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule first + sole-candidate keep (replaces Q76/Q80b) + cross-country review",
+      "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule first + sole-candidate keep + cross-country review (PADDLETAGGER_CONTRACT.md Name-bound ids item 4(a), Under-14 rule and NOC check; now with the RU168 rulings of MAINTAINER_ANSWERS_2026-10-24b and ruling 4 as amended, 2026-10-24c)",
       "cc_kept": 5,
       "age_conflict_kept": 2
+    },
+    "t67a_log_corrections": {
+      "rule": "MAINTAINER_ANSWERS_2026-10-25c item 1 manifest-only log correction (no seat change): remaining citations of the superseded under-14 rule re-pointed to the governing rule, evidence kept",
+      "log_corrections": 1,
+      "by_field": {
+        "name_bound_check.t60_ru166.rule": 1
+      }
     }
   },
-  "updated_at": "2026-10-24T10:10:17Z",
+  "updated_at": "2026-10-25T15:25:49Z",
   "nation_change_log": [
     {
       "id": "52211",
@@ -45586,5 +45593,25 @@
       "236": 9
     }
   },
-  "corrections_log": []
+  "corrections_log": [],
+  "log_corrections": [
+    {
+      "kind": "log",
+      "scope": "manifest",
+      "seat_id_unchanged": true,
+      "field": "name_bound_check.t60_ru166.rule",
+      "previous_label": "name_bound_check.t60_ru166.rule",
+      "new_label": "name_bound_check.t60_ru166.rule",
+      "previous": {
+        "name_bound_check.t60_ru166.rule": {
+          "ref": "events/Montemor_2015_JWCH/manifest.json at 4345067975df28c3ebd4622b98e958c832b020c8, name_bound_check.t60_ru166.rule",
+          "sha256_of_json": "cb03a74e700d368f43339441986505e104c3e3966ab6ac01b64fbb63e258be82"
+        }
+      },
+      "new": {
+        "name_bound_check.t60_ru166.rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule first + sole-candidate keep + cross-country review (PADDLETAGGER_CONTRACT.md Name-bound ids item 4(a), Under-14 rule and NOC check; now with the RU168 rulings of MAINTAINER_ANSWERS_2026-10-24b and ruling 4 as amended, 2026-10-24c)"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-25c item 1: the run's rule note cited the superseded under-14 rule as replaced; re-pointed to the governing contract text; the run's counts unchanged; MAINTAINER_ANSWERS_2026-10-25c: correction of the log, not of a seat (no id change)"
+    }
+  ]
 }

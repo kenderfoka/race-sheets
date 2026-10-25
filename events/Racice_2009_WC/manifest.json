@@ -10,7 +10,7 @@
   "dates": "2009-05-08/2009-05-10",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-25T12:12:22Z",
+  "generated_at_utc": "2026-10-25T15:25:49Z",
   "grade": "FAIL",
   "gaps": [],
   "note": "2009 ICF Canoe Sprint World Cup Racice (8-10 May 2009) results book. START_TIME = printed scheduled race time (HH:MM:00); the 5000 m pages print no start time and no lane (start numbers only), so START_TIME and STARTING_LANE are empty there. Names print FAMILY Given.",
@@ -18162,7 +18162,7 @@
     "no_icf_id_t59": 745,
     "same_meeting_unified_t59": 0,
     "t60_ru166": {
-      "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule first + sole-candidate keep (replaces Q76/Q80b) + cross-country review",
+      "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule first + sole-candidate keep + cross-country review (PADDLETAGGER_CONTRACT.md Name-bound ids item 4(a), Under-14 rule and NOC check; now with the RU168 rulings of MAINTAINER_ANSWERS_2026-10-24b and ruling 4 as amended, 2026-10-24c)",
       "newbind": 4,
       "newbind_age_conflict": 4
     },
@@ -18185,9 +18185,16 @@
         "under14_log.rule": 1,
         "under14_log.seats[].rule": 4
       }
+    },
+    "t67a_log_corrections": {
+      "rule": "MAINTAINER_ANSWERS_2026-10-25c item 1 manifest-only log correction (no seat change): remaining citations of the superseded under-14 rule re-pointed to the governing rule, evidence kept",
+      "log_corrections": 1,
+      "by_field": {
+        "name_bound_check.t60_ru166.rule": 1
+      }
     }
   },
-  "updated_at": "2026-10-25T12:12:22Z",
+  "updated_at": "2026-10-25T15:25:49Z",
   "rebind_log": [
     {
       "date": "2026-10-19",
@@ -18813,6 +18820,24 @@
         "under14_log.seats[].rule": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 8 with the RU166 age rule of MAINTAINER_ANSWERS_2026-10-24 (PADDLETAGGER_CONTRACT.md Under-14 rule; Name-bound ids item 4(a) and item 7 ruling 8): an athlete under 14 on the meeting's first day never fits the age rule, and such a sole candidate is kept only when its profile lists the meeting; this candidate's profile does not, so the seat is no_icf_id with the candidate logged"
       },
       "rule": "MAINTAINER_ANSWERS_2026-10-25: the seat's rule re-pointed from the superseded under-14 rule to its governing rule (as in id_checks.governing_rule); evidence unchanged; MAINTAINER_ANSWERS_2026-10-25: correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "log",
+      "scope": "manifest",
+      "seat_id_unchanged": true,
+      "field": "name_bound_check.t60_ru166.rule",
+      "previous_label": "name_bound_check.t60_ru166.rule",
+      "new_label": "name_bound_check.t60_ru166.rule",
+      "previous": {
+        "name_bound_check.t60_ru166.rule": {
+          "ref": "events/Racice_2009_WC/manifest.json at 7f516a55d4e3a03c9976f8f82b0a5a10f21b8bb3, name_bound_check.t60_ru166.rule",
+          "sha256_of_json": "cb03a74e700d368f43339441986505e104c3e3966ab6ac01b64fbb63e258be82"
+        }
+      },
+      "new": {
+        "name_bound_check.t60_ru166.rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule first + sole-candidate keep + cross-country review (PADDLETAGGER_CONTRACT.md Name-bound ids item 4(a), Under-14 rule and NOC check; now with the RU168 rulings of MAINTAINER_ANSWERS_2026-10-24b and ruling 4 as amended, 2026-10-24c)"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-25c item 1: the run's rule note cited the superseded under-14 rule as replaced; re-pointed to the governing contract text; the run's counts unchanged; MAINTAINER_ANSWERS_2026-10-25c: correction of the log, not of a seat (no id change)"
     }
   ]
 }
