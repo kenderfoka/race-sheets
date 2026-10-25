@@ -10,7 +10,7 @@
   "dates": "2009-09-18/2009-09-20",
   "discipline": "marathon",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-24T21:19:57Z",
+  "generated_at_utc": "2026-10-25T12:12:22Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "ICF archive results book (Crestuma/Gaia, 18-20 Sep 2009). START_TIME = start printed in each race header (scheduled; HH:MM:00). RESULT = printed time; DIFFERENCE not written (marathon precedent). STARTING_LANE = printed boat number; Bib(s) are event bibs, BIB_BOAT empty. TEAM = NOC code printed sideways beside the flag image, read by OCR and checked by eye per distinct strip image (MAINTAINER_ANSWERS_2026-10-19b Q58; noc_strip_log). DISTANCE not printed. No ICF ids printed: bind_seat; pre-2013 seats bound_by_name_unconfirmed (Q44).",
@@ -3789,8 +3789,8 @@
       "source": "pww_search",
       "team": "HUN",
       "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Bence SZABO (HUN, M) | Q76: 73762 (born 2000-03-05) was under 14 on 2009-09-18; no single same-nation same-gender athlete of the right age carries the printed name; seat empty",
-      "q76_emptied_id": "73762",
-      "q76_birth_date": "2000-03-05",
+      "under14_emptied_id": "73762",
+      "under14_birth_date": "2000-03-05",
       "governing_rule": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 8 with the RU166 age rule of MAINTAINER_ANSWERS_2026-10-24 (PADDLETAGGER_CONTRACT.md Under-14 rule; Name-bound ids item 4(a) and item 7 ruling 8): an athlete under 14 on the meeting's first day never fits the age rule, and such a sole candidate is kept only when its profile lists the meeting; this candidate's profile does not, so the seat is no_icf_id with the candidate logged",
       "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Bence SZABO (HUN, M) | Q76: 73762 (born 2000-03-05) was under 14 on 2009-09-18; no single same-nation same-gender athlete of the right age carries the printed name; seat empty",
       "candidate_logged": {
@@ -4631,8 +4631,8 @@
       "source": "pww_search",
       "team": "ESP",
       "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Adrian GONZÁLEZ (ESP, ) | Q76: 72616 (born 1999-02-19) was under 14 on 2009-09-18; no single same-nation same-gender athlete of the right age carries the printed name; seat empty",
-      "q76_emptied_id": "72616",
-      "q76_birth_date": "1999-02-19",
+      "under14_emptied_id": "72616",
+      "under14_birth_date": "1999-02-19",
       "governing_rule": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 8 with the RU166 age rule of MAINTAINER_ANSWERS_2026-10-24 (PADDLETAGGER_CONTRACT.md Under-14 rule; Name-bound ids item 4(a) and item 7 ruling 8): an athlete under 14 on the meeting's first day never fits the age rule, and such a sole candidate is kept only when its profile lists the meeting; this candidate's profile does not, so the seat is no_icf_id with the candidate logged",
       "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Adrian GONZÁLEZ (ESP, ) | Q76: 72616 (born 1999-02-19) was under 14 on 2009-09-18; no single same-nation same-gender athlete of the right age carries the printed name; seat empty",
       "candidate_logged": {
@@ -9451,9 +9451,19 @@
       "log_corrections": 3,
       "RU168_r4_amended_r8": 1,
       "RU168_r8": 2
+    },
+    "t65_log_corrections": {
+      "rule": "MAINTAINER_ANSWERS_2026-10-25 manifest-only log correction (no seat change): under-14 evidence keys renamed to neutral names and every rule they cite re-pointed to the governing rule",
+      "log_corrections": 8,
+      "by_field": {
+        "under14_emptied_id": 2,
+        "under14_birth_date": 2,
+        "under14_log.rule": 1,
+        "under14_log.seats[].rule": 3
+      }
     }
   },
-  "updated_at": "2026-10-24T21:19:57Z",
+  "updated_at": "2026-10-25T12:12:22Z",
   "audit": {
     "fails": [],
     "nfails": 0,
@@ -9481,8 +9491,8 @@
   },
   "status_word_log": "printed D.N.F. -> DNF, D.N.S./D.N.S -> DNS, DISQ -> DSQ (Q59 mapping precedent)",
   "gender_unspecified_ruling": "MAINTAINER_ANSWERS_2026-10-19c Q70: race 9 \"C2 Junior\" GENDER empty, logged — accepted",
-  "q76_under14_log": {
-    "rule": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age",
+  "under14_log": {
+    "rule": "PADDLETAGGER_CONTRACT.md Under-14 rule: the RU166 age rule of MAINTAINER_ANSWERS_2026-10-24 with RU168 rulings 3 and 8 (MAINTAINER_ANSWERS_2026-10-24b) and ruling 4 as amended (MAINTAINER_ANSWERS_2026-10-24c): an athlete under 14 on the meeting's first day, or born after it, never fits the age rule; such a sole candidate is kept only when its profile lists the meeting, otherwise the seat is no_icf_id with the candidate logged; surname-only prints never get the sole-candidate keep. This log records the seats whose earlier under-14 emptying is now decided by those rules; each seat cites its governing rule (MAINTAINER_ANSWERS_2026-10-25)",
     "first_day": "2009-09-18",
     "source": "ICF (bence) birthDate",
     "seats": [
@@ -9495,7 +9505,7 @@
         "emptied_id": "129697",
         "birth_date": "2005-05-10",
         "first_day": "2009-09-18",
-        "rule": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age",
+        "rule": "MAINTAINER_ANSWERS_2026-10-24c RU168 ruling 4 as amended, then MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 8 (PADDLETAGGER_CONTRACT.md Under-14 rule; Name-bound ids item 7, rulings 4 and 8): the candidate's impossible ICF birth date does not count as missing because its profile does not list the meeting; the impossibly young candidate is a namesake, so the seat is no_icf_id with the candidate logged",
         "outcome": "emptied",
         "rebind_reason": "no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
       },
@@ -9508,7 +9518,7 @@
         "emptied_id": "73762",
         "birth_date": "2000-03-05",
         "first_day": "2009-09-18",
-        "rule": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age",
+        "rule": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 8 with the RU166 age rule of MAINTAINER_ANSWERS_2026-10-24 (PADDLETAGGER_CONTRACT.md Under-14 rule; Name-bound ids item 4(a) and item 7 ruling 8): an athlete under 14 on the meeting's first day never fits the age rule, and such a sole candidate is kept only when its profile lists the meeting; this candidate's profile does not, so the seat is no_icf_id with the candidate logged",
         "outcome": "emptied",
         "rebind_reason": "no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
       },
@@ -9521,7 +9531,7 @@
         "emptied_id": "72616",
         "birth_date": "1999-02-19",
         "first_day": "2009-09-18",
-        "rule": "MAINTAINER_ANSWERS_2026-10-19e Q76: an unconfirmed (name-bound) seat whose athlete was under 14 on the meeting's first day is emptied, logged with the birth date, and rebound only to a single same-nation same-gender athlete of the right age",
+        "rule": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 8 with the RU166 age rule of MAINTAINER_ANSWERS_2026-10-24 (PADDLETAGGER_CONTRACT.md Under-14 rule; Name-bound ids item 4(a) and item 7 ruling 8): an athlete under 14 on the meeting's first day never fits the age rule, and such a sole candidate is kept only when its profile lists the meeting; this candidate's profile does not, so the seat is no_icf_id with the candidate logged",
         "outcome": "emptied",
         "rebind_reason": "no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
       }
@@ -9718,6 +9728,193 @@
         "governing_rule": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 8 with the RU166 age rule of MAINTAINER_ANSWERS_2026-10-24 (PADDLETAGGER_CONTRACT.md Under-14 rule; Name-bound ids item 4(a) and item 7 ruling 8): an athlete under 14 on the meeting's first day never fits the age rule, and such a sole candidate is kept only when its profile lists the meeting; this candidate's profile does not, so the seat is no_icf_id with the candidate logged"
       },
       "rule": "MAINTAINER_ANSWERS_2026-10-24e: a field citing the superseded Q76 rule is re-pointed to the current rule governing the seat (manifest-only); correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "log",
+      "results_row": 140,
+      "seat": "ICF_ID1",
+      "printed": "Bence SZABO",
+      "team": "HUN",
+      "seat_id": "",
+      "seat_id_unchanged": true,
+      "action_unchanged": "no_icf_id",
+      "field": "id_checks entry results_row 140 seat ICF_ID1, field q76_emptied_id",
+      "previous_label": "q76_emptied_id",
+      "new_label": "under14_emptied_id",
+      "governing_rule_category": "RU168_r8",
+      "value_unchanged": true,
+      "previous": {
+        "q76_emptied_id": {
+          "ref": "events/Crestuma_2009_MAR/manifest.json at d87f7d23bd055f067a6a5cf1aaf21cb5ed83714f, id_checks entry results_row 140 seat ICF_ID1, field q76_emptied_id",
+          "sha256_of_json": "7fdbbdbce3e704713b1b2f39837cf604e3f7c1f1e7e1903ee239d9e1f23a29da"
+        }
+      },
+      "new": {
+        "under14_emptied_id": "73762"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-25: key renamed so it no longer cites the superseded under-14 rule; the evidence (the id emptied as under 14) is unchanged; the seat's rule is in governing_rule; MAINTAINER_ANSWERS_2026-10-25: correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "log",
+      "results_row": 140,
+      "seat": "ICF_ID1",
+      "printed": "Bence SZABO",
+      "team": "HUN",
+      "seat_id": "",
+      "seat_id_unchanged": true,
+      "action_unchanged": "no_icf_id",
+      "field": "id_checks entry results_row 140 seat ICF_ID1, field q76_birth_date",
+      "previous_label": "q76_birth_date",
+      "new_label": "under14_birth_date",
+      "governing_rule_category": "RU168_r8",
+      "value_unchanged": true,
+      "previous": {
+        "q76_birth_date": {
+          "ref": "events/Crestuma_2009_MAR/manifest.json at d87f7d23bd055f067a6a5cf1aaf21cb5ed83714f, id_checks entry results_row 140 seat ICF_ID1, field q76_birth_date",
+          "sha256_of_json": "69361f2435a0f2cd49a6a930bffd54a1e8e23843a127cb2c00305de1ca128a81"
+        }
+      },
+      "new": {
+        "under14_birth_date": "2000-03-05"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-25: key renamed so it no longer cites the superseded under-14 rule; the evidence (the emptied id's ICF birth date) is unchanged; MAINTAINER_ANSWERS_2026-10-25: correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "log",
+      "results_row": 181,
+      "seat": "ICF_ID2",
+      "printed": "Adrian GONZÁLEZ",
+      "team": "ESP",
+      "seat_id": "",
+      "seat_id_unchanged": true,
+      "action_unchanged": "no_icf_id",
+      "field": "id_checks entry results_row 181 seat ICF_ID2, field q76_emptied_id",
+      "previous_label": "q76_emptied_id",
+      "new_label": "under14_emptied_id",
+      "governing_rule_category": "RU168_r8",
+      "value_unchanged": true,
+      "previous": {
+        "q76_emptied_id": {
+          "ref": "events/Crestuma_2009_MAR/manifest.json at d87f7d23bd055f067a6a5cf1aaf21cb5ed83714f, id_checks entry results_row 181 seat ICF_ID2, field q76_emptied_id",
+          "sha256_of_json": "1c23d79d75b5ee03c2015181494a37d821212c67eb3e9fab69b11c1e5d0c31af"
+        }
+      },
+      "new": {
+        "under14_emptied_id": "72616"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-25: key renamed so it no longer cites the superseded under-14 rule; the evidence (the id emptied as under 14) is unchanged; the seat's rule is in governing_rule; MAINTAINER_ANSWERS_2026-10-25: correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "log",
+      "results_row": 181,
+      "seat": "ICF_ID2",
+      "printed": "Adrian GONZÁLEZ",
+      "team": "ESP",
+      "seat_id": "",
+      "seat_id_unchanged": true,
+      "action_unchanged": "no_icf_id",
+      "field": "id_checks entry results_row 181 seat ICF_ID2, field q76_birth_date",
+      "previous_label": "q76_birth_date",
+      "new_label": "under14_birth_date",
+      "governing_rule_category": "RU168_r8",
+      "value_unchanged": true,
+      "previous": {
+        "q76_birth_date": {
+          "ref": "events/Crestuma_2009_MAR/manifest.json at d87f7d23bd055f067a6a5cf1aaf21cb5ed83714f, id_checks entry results_row 181 seat ICF_ID2, field q76_birth_date",
+          "sha256_of_json": "affe98e54283f7736c3b5359d008e1a77aeceae2c40238415e2ca9af633de394"
+        }
+      },
+      "new": {
+        "under14_birth_date": "1999-02-19"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-25: key renamed so it no longer cites the superseded under-14 rule; the evidence (the emptied id's ICF birth date) is unchanged; MAINTAINER_ANSWERS_2026-10-25: correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "log",
+      "scope": "manifest",
+      "seat_id_unchanged": true,
+      "field": "q76_under14_log (key) and q76_under14_log.rule",
+      "previous_label": "q76_under14_log.rule",
+      "new_label": "under14_log.rule",
+      "previous": {
+        "q76_under14_log.rule": {
+          "ref": "events/Crestuma_2009_MAR/manifest.json at d87f7d23bd055f067a6a5cf1aaf21cb5ed83714f, q76_under14_log (key) and q76_under14_log.rule",
+          "sha256_of_json": "40d8cfb3c5631e6196693f3bf59b193443d6f42bae81da6fbb205b0d1d91c559"
+        }
+      },
+      "new": {
+        "under14_log.rule": "PADDLETAGGER_CONTRACT.md Under-14 rule: the RU166 age rule of MAINTAINER_ANSWERS_2026-10-24 with RU168 rulings 3 and 8 (MAINTAINER_ANSWERS_2026-10-24b) and ruling 4 as amended (MAINTAINER_ANSWERS_2026-10-24c): an athlete under 14 on the meeting's first day, or born after it, never fits the age rule; such a sole candidate is kept only when its profile lists the meeting, otherwise the seat is no_icf_id with the candidate logged; surname-only prints never get the sole-candidate keep. This log records the seats whose earlier under-14 emptying is now decided by those rules; each seat cites its governing rule (MAINTAINER_ANSWERS_2026-10-25)"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-25: top-level log key renamed so it no longer cites the superseded under-14 rule; its rule re-pointed to the contract's Under-14 rule (RU166, RU168 rulings 3, 4 as amended and 8); seats and evidence unchanged; MAINTAINER_ANSWERS_2026-10-25: correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "log",
+      "results_row": 63,
+      "seat": "ICF_ID1",
+      "printed": "Diogo FERREIRA",
+      "team": "POR",
+      "seat_id": "",
+      "seat_id_unchanged": true,
+      "action_unchanged": "no_icf_id",
+      "field": "q76_under14_log.seats[0] (results_row 63 seat ICF_ID1).rule",
+      "previous_label": "q76_under14_log.seats[].rule",
+      "new_label": "under14_log.seats[].rule",
+      "previous": {
+        "q76_under14_log.seats[].rule": {
+          "ref": "events/Crestuma_2009_MAR/manifest.json at d87f7d23bd055f067a6a5cf1aaf21cb5ed83714f, q76_under14_log.seats[0] (results_row 63 seat ICF_ID1).rule",
+          "sha256_of_json": "40d8cfb3c5631e6196693f3bf59b193443d6f42bae81da6fbb205b0d1d91c559"
+        }
+      },
+      "new": {
+        "under14_log.seats[].rule": "MAINTAINER_ANSWERS_2026-10-24c RU168 ruling 4 as amended, then MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 8 (PADDLETAGGER_CONTRACT.md Under-14 rule; Name-bound ids item 7, rulings 4 and 8): the candidate's impossible ICF birth date does not count as missing because its profile does not list the meeting; the impossibly young candidate is a namesake, so the seat is no_icf_id with the candidate logged"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-25: the seat's rule re-pointed from the superseded under-14 rule to its governing rule (as in id_checks.governing_rule); evidence unchanged; MAINTAINER_ANSWERS_2026-10-25: correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "log",
+      "results_row": 140,
+      "seat": "ICF_ID1",
+      "printed": "Bence SZABO",
+      "team": "HUN",
+      "seat_id": "",
+      "seat_id_unchanged": true,
+      "action_unchanged": "no_icf_id",
+      "field": "q76_under14_log.seats[1] (results_row 140 seat ICF_ID1).rule",
+      "previous_label": "q76_under14_log.seats[].rule",
+      "new_label": "under14_log.seats[].rule",
+      "previous": {
+        "q76_under14_log.seats[].rule": {
+          "ref": "events/Crestuma_2009_MAR/manifest.json at d87f7d23bd055f067a6a5cf1aaf21cb5ed83714f, q76_under14_log.seats[1] (results_row 140 seat ICF_ID1).rule",
+          "sha256_of_json": "40d8cfb3c5631e6196693f3bf59b193443d6f42bae81da6fbb205b0d1d91c559"
+        }
+      },
+      "new": {
+        "under14_log.seats[].rule": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 8 with the RU166 age rule of MAINTAINER_ANSWERS_2026-10-24 (PADDLETAGGER_CONTRACT.md Under-14 rule; Name-bound ids item 4(a) and item 7 ruling 8): an athlete under 14 on the meeting's first day never fits the age rule, and such a sole candidate is kept only when its profile lists the meeting; this candidate's profile does not, so the seat is no_icf_id with the candidate logged"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-25: the seat's rule re-pointed from the superseded under-14 rule to its governing rule (as in id_checks.governing_rule); evidence unchanged; MAINTAINER_ANSWERS_2026-10-25: correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "log",
+      "results_row": 181,
+      "seat": "ICF_ID2",
+      "printed": "Adrian GONZÁLEZ",
+      "team": "ESP",
+      "seat_id": "",
+      "seat_id_unchanged": true,
+      "action_unchanged": "no_icf_id",
+      "field": "q76_under14_log.seats[2] (results_row 181 seat ICF_ID2).rule",
+      "previous_label": "q76_under14_log.seats[].rule",
+      "new_label": "under14_log.seats[].rule",
+      "previous": {
+        "q76_under14_log.seats[].rule": {
+          "ref": "events/Crestuma_2009_MAR/manifest.json at d87f7d23bd055f067a6a5cf1aaf21cb5ed83714f, q76_under14_log.seats[2] (results_row 181 seat ICF_ID2).rule",
+          "sha256_of_json": "40d8cfb3c5631e6196693f3bf59b193443d6f42bae81da6fbb205b0d1d91c559"
+        }
+      },
+      "new": {
+        "under14_log.seats[].rule": "MAINTAINER_ANSWERS_2026-10-24b RU168 ruling 8 with the RU166 age rule of MAINTAINER_ANSWERS_2026-10-24 (PADDLETAGGER_CONTRACT.md Under-14 rule; Name-bound ids item 4(a) and item 7 ruling 8): an athlete under 14 on the meeting's first day never fits the age rule, and such a sole candidate is kept only when its profile lists the meeting; this candidate's profile does not, so the seat is no_icf_id with the candidate logged"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-25: the seat's rule re-pointed from the superseded under-14 rule to its governing rule (as in id_checks.governing_rule); evidence unchanged; MAINTAINER_ANSWERS_2026-10-25: correction of the log, not of a seat (no id change)"
     }
   ]
 }
