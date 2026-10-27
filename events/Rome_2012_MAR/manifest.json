@@ -10,7 +10,7 @@
   "dates": "2012-09-21/2012-09-23",
   "discipline": "marathon",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-25T15:25:49Z",
+  "generated_at_utc": "2026-10-27T20:22:29Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "Organiser results book (rank / boat n° / NOC - country / id / SURNAME Given / YOB / time / gap; times printed with decimal comma, kept as published). STARTING_LANE = printed boat number (Gyor_2025_MAR precedent); id is the event bib, not an ICF id. Name order exceptions in name_order_log. Prints the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule). OQ/para races in the same book are kept (one key).",
@@ -4294,11 +4294,45 @@
       "results_row": 160,
       "seat": "ICF_ID1",
       "source_printed_name": "Robin COUCQUYT",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Robin COUCQUYT (BEL, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Robin COUCQUYT' (BEL, M) -> 74023 Robin COUCKUIT (born 1995-08-04, ICF nationality BEL / federation BEL); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"ROBIN\", \"/\", \"COUCQUIT\"], \"icf_variant\": [\"ROBIN\", \"/\", \"COUCUIT\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 74023 'Robin COUCKUIT' noc=BEL gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "BEL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Robin COUCQUYT (BEL, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Robin COUCQUYT' (BEL, M) -> 74023 Robin COUCKUIT (born 1995-08-04, ICF nationality BEL / federation BEL); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"ROBIN\", \"/\", \"COUCQUIT\"], \"icf_variant\": [\"ROBIN\", \"/\", \"COUCUIT\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 74023 'Robin COUCKUIT' noc=BEL gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "74023",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Robin COUCQUYT",
+        "proposed_id": "74023",
+        "icf_record": "74023 Robin COUCKUIT M 1995-08-04 nat=BEL fed=BEL",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "ROBIN",
+            "/",
+            "COUCQUIT"
+          ],
+          "icf_variant": [
+            "ROBIN",
+            "/",
+            "COUCUIT"
+          ]
+        },
+        "pww_name_check": "PWW profile 74023 'Robin COUCKUIT' noc=BEL gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 74023 'Robin COUCKUIT' noc=BEL gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Robin COUCQUYT (BEL, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "74023",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 160,
@@ -7531,7 +7565,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 219
+      "rows": 227
     }
   },
   "empty_crew_log": [
@@ -7550,12 +7584,12 @@
     {
       "kind": "xlsx",
       "name": "Rome_2012_MAR_Results.xlsx",
-      "sha256": "1bbb7a9f3fcfa3ac792cad01b929f67465b47d0806dbbd285b59a7a4a00e2378",
-      "bytes": 38231
+      "sha256": "97610b7d49b47832ca788b7afaa37270fcfac66f965255209225e33a89fb7cd0",
+      "bytes": 38269
     }
   ],
   "output_xlsx": "Rome_2012_MAR_Results.xlsx",
-  "output_xlsx_sha256": "1bbb7a9f3fcfa3ac792cad01b929f67465b47d0806dbbd285b59a7a4a00e2378",
+  "output_xlsx_sha256": "97610b7d49b47832ca788b7afaa37270fcfac66f965255209225e33a89fb7cd0",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -7581,7 +7615,7 @@
     "repairs": "name-bound seats vs printed names on Organiser results book (ICF-hosted PDF) https://cdn.paddleworldwide.com/media/2012-world-ch-rome_ita.pdf (vendor published results, text rebuilt from glyph positions)",
     "fixtures": "skill fixtures belong to other meetings; reference Organiser results book (ICF-hosted PDF) https://cdn.paddleworldwide.com/media/2012-world-ch-rome_ita.pdf (vendor published results, text rebuilt from glyph positions)"
   },
-  "updated_at": "2026-10-25T15:25:49Z",
+  "updated_at": "2026-10-27T20:22:29Z",
   "nation_change_log": [
     {
       "id": "88454",
@@ -7821,6 +7855,47 @@
         "federation": "ESP"
       },
       "new_record": null
+    },
+    {
+      "results_row": 160,
+      "seat": "ICF_ID1",
+      "printed": "Robin COUCQUYT",
+      "team": "BEL",
+      "category": "JUNIOR",
+      "previous_id": "",
+      "new_id": "74023",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Robin COUCQUYT' (BEL, M) -> 74023 Robin COUCKUIT (born 1995-08-04, ICF nationality BEL / federation BEL); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"ROBIN\", \"/\", \"COUCQUIT\"], \"icf_variant\": [\"ROBIN\", \"/\", \"COUCUIT\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 74023 'Robin COUCKUIT' noc=BEL gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "ROBIN",
+          "/",
+          "COUCQUIT"
+        ],
+        "icf_variant": [
+          "ROBIN",
+          "/",
+          "COUCUIT"
+        ]
+      },
+      "pww_name_check": "PWW profile 74023 'Robin COUCKUIT' noc=BEL gender=M: name-check passed",
+      "icf_record": "74023 Robin COUCKUIT M 1995-08-04 nat=BEL fed=BEL",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "74023",
+        "name": "Robin COUCKUIT",
+        "birth_date": "1995-08-04",
+        "nationality": "BEL",
+        "federation": "BEL",
+        "gender": "M"
+      }
     }
   ],
   "log_corrections": [
@@ -8117,6 +8192,15 @@
         "name_bound_check.t60_ru166.rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule first + sole-candidate keep + cross-country review (PADDLETAGGER_CONTRACT.md Name-bound ids item 4(a), Under-14 rule and NOC check; now with the RU168 rulings of MAINTAINER_ANSWERS_2026-10-24b and ruling 4 as amended, 2026-10-24c)"
       },
       "rule": "MAINTAINER_ANSWERS_2026-10-25c item 1: the run's rule note cited the superseded under-14 rule as replaced; re-pointed to the governing contract text; the run's counts unchanged; MAINTAINER_ANSWERS_2026-10-25c: correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "log",
+      "field": "sheets.PERSONS.rows",
+      "previous": 219,
+      "new": 227,
+      "previous_label": "sheets.PERSONS.rows",
+      "new_label": "sheets.PERSONS.rows",
+      "rule": "t71 (MAINTAINER_ANSWERS_2026-10-27): the manifest PERSONS row count was stale (219 vs 226 PERSONS data rows in the published xlsx); now the actual count 227 after 1 PERSONS rows added for the approved C3 binds; correction of the log, no seat change"
     }
   ]
 }

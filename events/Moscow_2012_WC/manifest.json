@@ -11,7 +11,7 @@
   "dates": "2012-06-01/2012-06-03",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-25T15:25:49Z",
+  "generated_at_utc": "2026-10-27T20:22:29Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "IMAS race pages print the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule).",
@@ -4056,11 +4056,46 @@
       "results_row": 41,
       "seat": "ICF_ID1",
       "source_printed_name": "Adel MOJALLALIMOGHADDAM FOUMANI",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Adel MOJALLALIMOGHADDAM FOUMANI (IRI, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Adel MOJALLALIMOGHADDAM FOUMANI' (IRI, M) -> 52787 Adel MOJALLALIMOGHADAM (born 1993-03-21, ICF nationality IRI / federation IRI); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\", \"FOUMANI\"], \"icf_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "IRI",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Adel MOJALLALIMOGHADDAM FOUMANI (IRI, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Adel MOJALLALIMOGHADDAM FOUMANI' (IRI, M) -> 52787 Adel MOJALLALIMOGHADAM (born 1993-03-21, ICF nationality IRI / federation IRI); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\", \"FOUMANI\"], \"icf_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "52787",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Adel MOJALLALIMOGHADDAM FOUMANI",
+        "proposed_id": "52787",
+        "icf_record": "52787 Adel MOJALLALIMOGHADAM M 1993-03-21 nat=IRI fed=IRI",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "exact",
+          "given": "exact",
+          "printed_variant": [
+            "ADEL",
+            "/",
+            "MOJALALIMOGHADAM",
+            "FOUMANI"
+          ],
+          "icf_variant": [
+            "ADEL",
+            "/",
+            "MOJALALIMOGHADAM"
+          ]
+        },
+        "pww_name_check": "PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Adel MOJALLALIMOGHADDAM FOUMANI (IRI, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "52787",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 42,
@@ -4434,11 +4469,46 @@
       "results_row": 69,
       "seat": "ICF_ID1",
       "source_printed_name": "Adel MOJALLALIMOGHADDAM FOUMANI",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Adel MOJALLALIMOGHADDAM FOUMANI (IRI, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Adel MOJALLALIMOGHADDAM FOUMANI' (IRI, M) -> 52787 Adel MOJALLALIMOGHADAM (born 1993-03-21, ICF nationality IRI / federation IRI); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\", \"FOUMANI\"], \"icf_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "IRI",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Adel MOJALLALIMOGHADDAM FOUMANI (IRI, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Adel MOJALLALIMOGHADDAM FOUMANI' (IRI, M) -> 52787 Adel MOJALLALIMOGHADAM (born 1993-03-21, ICF nationality IRI / federation IRI); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\", \"FOUMANI\"], \"icf_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "52787",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Adel MOJALLALIMOGHADDAM FOUMANI",
+        "proposed_id": "52787",
+        "icf_record": "52787 Adel MOJALLALIMOGHADAM M 1993-03-21 nat=IRI fed=IRI",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "exact",
+          "given": "exact",
+          "printed_variant": [
+            "ADEL",
+            "/",
+            "MOJALALIMOGHADAM",
+            "FOUMANI"
+          ],
+          "icf_variant": [
+            "ADEL",
+            "/",
+            "MOJALALIMOGHADAM"
+          ]
+        },
+        "pww_name_check": "PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Adel MOJALLALIMOGHADDAM FOUMANI (IRI, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "52787",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 70,
@@ -5798,11 +5868,46 @@
       "results_row": 186,
       "seat": "ICF_ID1",
       "source_printed_name": "Adel MOJALLALIMOGHADDAM FOUMANI",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Adel MOJALLALIMOGHADDAM FOUMANI (IRI, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Adel MOJALLALIMOGHADDAM FOUMANI' (IRI, M) -> 52787 Adel MOJALLALIMOGHADAM (born 1993-03-21, ICF nationality IRI / federation IRI); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\", \"FOUMANI\"], \"icf_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "IRI",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Adel MOJALLALIMOGHADDAM FOUMANI (IRI, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Adel MOJALLALIMOGHADDAM FOUMANI' (IRI, M) -> 52787 Adel MOJALLALIMOGHADAM (born 1993-03-21, ICF nationality IRI / federation IRI); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\", \"FOUMANI\"], \"icf_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "52787",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Adel MOJALLALIMOGHADDAM FOUMANI",
+        "proposed_id": "52787",
+        "icf_record": "52787 Adel MOJALLALIMOGHADAM M 1993-03-21 nat=IRI fed=IRI",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "exact",
+          "given": "exact",
+          "printed_variant": [
+            "ADEL",
+            "/",
+            "MOJALALIMOGHADAM",
+            "FOUMANI"
+          ],
+          "icf_variant": [
+            "ADEL",
+            "/",
+            "MOJALALIMOGHADAM"
+          ]
+        },
+        "pww_name_check": "PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Adel MOJALLALIMOGHADDAM FOUMANI (IRI, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "52787",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 187,
@@ -6308,11 +6413,45 @@
       "results_row": 216,
       "seat": "ICF_ID1",
       "source_printed_name": "Elena ANYSHINA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Elena ANYSHINA (RUS, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Elena ANYSHINA' (RUS, W) -> 36171 Elena ANIUSHINA (born 1993-12-08, ICF nationality RUS / federation RUS); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"ELENA\", \"/\", \"ANISHINA\"], \"icf_variant\": [\"ELENA\", \"/\", \"ANIUSHINA\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 36171 'Elena ANIUSHINA' noc=RUS gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "RUS",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Elena ANYSHINA (RUS, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Elena ANYSHINA' (RUS, W) -> 36171 Elena ANIUSHINA (born 1993-12-08, ICF nationality RUS / federation RUS); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"ELENA\", \"/\", \"ANISHINA\"], \"icf_variant\": [\"ELENA\", \"/\", \"ANIUSHINA\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 36171 'Elena ANIUSHINA' noc=RUS gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "36171",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Elena ANYSHINA",
+        "proposed_id": "36171",
+        "icf_record": "36171 Elena ANIUSHINA W 1993-12-08 nat=RUS fed=RUS",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "ELENA",
+            "/",
+            "ANISHINA"
+          ],
+          "icf_variant": [
+            "ELENA",
+            "/",
+            "ANIUSHINA"
+          ]
+        },
+        "pww_name_check": "PWW profile 36171 'Elena ANIUSHINA' noc=RUS gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 36171 'Elena ANIUSHINA' noc=RUS gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Elena ANYSHINA (RUS, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "36171",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 216,
@@ -6800,11 +6939,46 @@
       "results_row": 228,
       "seat": "ICF_ID4",
       "source_printed_name": "Adel MOJALLALIMOGHADDAM FOUMANI",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Adel MOJALLALIMOGHADDAM FOUMANI (IRI, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Adel MOJALLALIMOGHADDAM FOUMANI' (IRI, M) -> 52787 Adel MOJALLALIMOGHADAM (born 1993-03-21, ICF nationality IRI / federation IRI); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\", \"FOUMANI\"], \"icf_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "IRI",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Adel MOJALLALIMOGHADDAM FOUMANI (IRI, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Adel MOJALLALIMOGHADDAM FOUMANI' (IRI, M) -> 52787 Adel MOJALLALIMOGHADAM (born 1993-03-21, ICF nationality IRI / federation IRI); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\", \"FOUMANI\"], \"icf_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "52787",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Adel MOJALLALIMOGHADDAM FOUMANI",
+        "proposed_id": "52787",
+        "icf_record": "52787 Adel MOJALLALIMOGHADAM M 1993-03-21 nat=IRI fed=IRI",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "exact",
+          "given": "exact",
+          "printed_variant": [
+            "ADEL",
+            "/",
+            "MOJALALIMOGHADAM",
+            "FOUMANI"
+          ],
+          "icf_variant": [
+            "ADEL",
+            "/",
+            "MOJALALIMOGHADAM"
+          ]
+        },
+        "pww_name_check": "PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Adel MOJALLALIMOGHADDAM FOUMANI (IRI, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "52787",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 229,
@@ -7145,11 +7319,46 @@
       "results_row": 262,
       "seat": "ICF_ID1",
       "source_printed_name": "Adel MOJALLALIMOGHADDAM FOUMANI",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Adel MOJALLALIMOGHADDAM FOUMANI (IRI, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Adel MOJALLALIMOGHADDAM FOUMANI' (IRI, M) -> 52787 Adel MOJALLALIMOGHADAM (born 1993-03-21, ICF nationality IRI / federation IRI); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\", \"FOUMANI\"], \"icf_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "IRI",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Adel MOJALLALIMOGHADDAM FOUMANI (IRI, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Adel MOJALLALIMOGHADDAM FOUMANI' (IRI, M) -> 52787 Adel MOJALLALIMOGHADAM (born 1993-03-21, ICF nationality IRI / federation IRI); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\", \"FOUMANI\"], \"icf_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "52787",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Adel MOJALLALIMOGHADDAM FOUMANI",
+        "proposed_id": "52787",
+        "icf_record": "52787 Adel MOJALLALIMOGHADAM M 1993-03-21 nat=IRI fed=IRI",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "exact",
+          "given": "exact",
+          "printed_variant": [
+            "ADEL",
+            "/",
+            "MOJALALIMOGHADAM",
+            "FOUMANI"
+          ],
+          "icf_variant": [
+            "ADEL",
+            "/",
+            "MOJALALIMOGHADAM"
+          ]
+        },
+        "pww_name_check": "PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Adel MOJALLALIMOGHADDAM FOUMANI (IRI, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "52787",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 263,
@@ -7528,11 +7737,45 @@
       "results_row": 295,
       "seat": "ICF_ID1",
       "source_printed_name": "Jesse PHILLIP",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jesse PHILLIP (AUS, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Jesse PHILLIP' (AUS, M) -> 45847 Jesse PHILLIPS (born 1986-07-26, ICF nationality AUS / federation AUS); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"JESE\", \"/\", \"PHILIP\"], \"icf_variant\": [\"JESE\", \"/\", \"PHILIPS\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 45847 'Jesse PHILLIPS' noc=AUS gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "AUS",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jesse PHILLIP (AUS, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Jesse PHILLIP' (AUS, M) -> 45847 Jesse PHILLIPS (born 1986-07-26, ICF nationality AUS / federation AUS); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"JESE\", \"/\", \"PHILIP\"], \"icf_variant\": [\"JESE\", \"/\", \"PHILIPS\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 45847 'Jesse PHILLIPS' noc=AUS gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "45847",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Jesse PHILLIP",
+        "proposed_id": "45847",
+        "icf_record": "45847 Jesse PHILLIPS M 1986-07-26 nat=AUS fed=AUS",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "JESE",
+            "/",
+            "PHILIP"
+          ],
+          "icf_variant": [
+            "JESE",
+            "/",
+            "PHILIPS"
+          ]
+        },
+        "pww_name_check": "PWW profile 45847 'Jesse PHILLIPS' noc=AUS gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 45847 'Jesse PHILLIPS' noc=AUS gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jesse PHILLIP (AUS, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "45847",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 295,
@@ -8162,11 +8405,46 @@
       "results_row": 342,
       "seat": "ICF_ID1",
       "source_printed_name": "Adel MOJALLALIMOGHADDAM FOUMANI",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Adel MOJALLALIMOGHADDAM FOUMANI (IRI, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Adel MOJALLALIMOGHADDAM FOUMANI' (IRI, M) -> 52787 Adel MOJALLALIMOGHADAM (born 1993-03-21, ICF nationality IRI / federation IRI); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\", \"FOUMANI\"], \"icf_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "IRI",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Adel MOJALLALIMOGHADDAM FOUMANI (IRI, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Adel MOJALLALIMOGHADDAM FOUMANI' (IRI, M) -> 52787 Adel MOJALLALIMOGHADAM (born 1993-03-21, ICF nationality IRI / federation IRI); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\", \"FOUMANI\"], \"icf_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "52787",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Adel MOJALLALIMOGHADDAM FOUMANI",
+        "proposed_id": "52787",
+        "icf_record": "52787 Adel MOJALLALIMOGHADAM M 1993-03-21 nat=IRI fed=IRI",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "exact",
+          "given": "exact",
+          "printed_variant": [
+            "ADEL",
+            "/",
+            "MOJALALIMOGHADAM",
+            "FOUMANI"
+          ],
+          "icf_variant": [
+            "ADEL",
+            "/",
+            "MOJALALIMOGHADAM"
+          ]
+        },
+        "pww_name_check": "PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Adel MOJALLALIMOGHADDAM FOUMANI (IRI, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "52787",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 343,
@@ -8924,11 +9202,46 @@
       "results_row": 410,
       "seat": "ICF_ID1",
       "source_printed_name": "Adel MOJALLALIMOGHADDAM FOUMANI",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Adel MOJALLALIMOGHADDAM FOUMANI (IRI, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Adel MOJALLALIMOGHADDAM FOUMANI' (IRI, M) -> 52787 Adel MOJALLALIMOGHADAM (born 1993-03-21, ICF nationality IRI / federation IRI); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\", \"FOUMANI\"], \"icf_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "IRI",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Adel MOJALLALIMOGHADDAM FOUMANI (IRI, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Adel MOJALLALIMOGHADDAM FOUMANI' (IRI, M) -> 52787 Adel MOJALLALIMOGHADAM (born 1993-03-21, ICF nationality IRI / federation IRI); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\", \"FOUMANI\"], \"icf_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "52787",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Adel MOJALLALIMOGHADDAM FOUMANI",
+        "proposed_id": "52787",
+        "icf_record": "52787 Adel MOJALLALIMOGHADAM M 1993-03-21 nat=IRI fed=IRI",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "exact",
+          "given": "exact",
+          "printed_variant": [
+            "ADEL",
+            "/",
+            "MOJALALIMOGHADAM",
+            "FOUMANI"
+          ],
+          "icf_variant": [
+            "ADEL",
+            "/",
+            "MOJALALIMOGHADAM"
+          ]
+        },
+        "pww_name_check": "PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Adel MOJALLALIMOGHADDAM FOUMANI (IRI, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "52787",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 411,
@@ -9079,11 +9392,45 @@
       "results_row": 423,
       "seat": "ICF_ID2",
       "source_printed_name": "Jesse PHILLIP",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jesse PHILLIP (AUS, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Jesse PHILLIP' (AUS, M) -> 45847 Jesse PHILLIPS (born 1986-07-26, ICF nationality AUS / federation AUS); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"JESE\", \"/\", \"PHILIP\"], \"icf_variant\": [\"JESE\", \"/\", \"PHILIPS\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 45847 'Jesse PHILLIPS' noc=AUS gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "AUS",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jesse PHILLIP (AUS, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Jesse PHILLIP' (AUS, M) -> 45847 Jesse PHILLIPS (born 1986-07-26, ICF nationality AUS / federation AUS); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"JESE\", \"/\", \"PHILIP\"], \"icf_variant\": [\"JESE\", \"/\", \"PHILIPS\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 45847 'Jesse PHILLIPS' noc=AUS gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "45847",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Jesse PHILLIP",
+        "proposed_id": "45847",
+        "icf_record": "45847 Jesse PHILLIPS M 1986-07-26 nat=AUS fed=AUS",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "JESE",
+            "/",
+            "PHILIP"
+          ],
+          "icf_variant": [
+            "JESE",
+            "/",
+            "PHILIPS"
+          ]
+        },
+        "pww_name_check": "PWW profile 45847 'Jesse PHILLIPS' noc=AUS gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 45847 'Jesse PHILLIPS' noc=AUS gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jesse PHILLIP (AUS, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "45847",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 424,
@@ -10291,11 +10638,46 @@
       "results_row": 503,
       "seat": "ICF_ID1",
       "source_printed_name": "Adel MOJALLALIMOGHADDAM FOUMANI",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Adel MOJALLALIMOGHADDAM FOUMANI (IRI, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Adel MOJALLALIMOGHADDAM FOUMANI' (IRI, M) -> 52787 Adel MOJALLALIMOGHADAM (born 1993-03-21, ICF nationality IRI / federation IRI); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\", \"FOUMANI\"], \"icf_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "IRI",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Adel MOJALLALIMOGHADDAM FOUMANI (IRI, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Adel MOJALLALIMOGHADDAM FOUMANI' (IRI, M) -> 52787 Adel MOJALLALIMOGHADAM (born 1993-03-21, ICF nationality IRI / federation IRI); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\", \"FOUMANI\"], \"icf_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "52787",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Adel MOJALLALIMOGHADDAM FOUMANI",
+        "proposed_id": "52787",
+        "icf_record": "52787 Adel MOJALLALIMOGHADAM M 1993-03-21 nat=IRI fed=IRI",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "exact",
+          "given": "exact",
+          "printed_variant": [
+            "ADEL",
+            "/",
+            "MOJALALIMOGHADAM",
+            "FOUMANI"
+          ],
+          "icf_variant": [
+            "ADEL",
+            "/",
+            "MOJALALIMOGHADAM"
+          ]
+        },
+        "pww_name_check": "PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Adel MOJALLALIMOGHADDAM FOUMANI (IRI, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "52787",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 504,
@@ -10839,7 +11221,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 104
+      "rows": 113
     }
   },
   "oq_races": [],
@@ -11025,12 +11407,12 @@
     {
       "kind": "xlsx",
       "name": "Moscow_2012_WC_Results.xlsx",
-      "sha256": "bd6ea675104524c3371ebc72df3882bbf57129e7a4003bcd01951c0556717a49",
-      "bytes": 41927
+      "sha256": "3c9792619b45aa5b5554277c4324be757a9cc24f170cd1516c9453a86f185ea7",
+      "bytes": 42100
     }
   ],
   "output_xlsx": "Moscow_2012_WC_Results.xlsx",
-  "output_xlsx_sha256": "bd6ea675104524c3371ebc72df3882bbf57129e7a4003bcd01951c0556717a49",
+  "output_xlsx_sha256": "3c9792619b45aa5b5554277c4324be757a9cc24f170cd1516c9453a86f185ea7",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -11095,7 +11477,7 @@
       "note": "nation changed after the event; id and printed nation kept, logged (maintainer 2026-10-16 10:39)"
     }
   ],
-  "updated_at": "2026-10-25T15:25:49Z",
+  "updated_at": "2026-10-27T20:22:29Z",
   "name_change_log": [],
   "name_bound_check": {
     "completed": true,
@@ -11233,6 +11615,465 @@
         "federation": "UZB"
       },
       "new_record": null
+    },
+    {
+      "results_row": 41,
+      "seat": "ICF_ID1",
+      "printed": "Adel MOJALLALIMOGHADDAM FOUMANI",
+      "team": "IRI",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "52787",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Adel MOJALLALIMOGHADDAM FOUMANI' (IRI, M) -> 52787 Adel MOJALLALIMOGHADAM (born 1993-03-21, ICF nationality IRI / federation IRI); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\", \"FOUMANI\"], \"icf_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "exact",
+        "given": "exact",
+        "printed_variant": [
+          "ADEL",
+          "/",
+          "MOJALALIMOGHADAM",
+          "FOUMANI"
+        ],
+        "icf_variant": [
+          "ADEL",
+          "/",
+          "MOJALALIMOGHADAM"
+        ]
+      },
+      "pww_name_check": "PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed",
+      "icf_record": "52787 Adel MOJALLALIMOGHADAM M 1993-03-21 nat=IRI fed=IRI",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "52787",
+        "name": "Adel MOJALLALIMOGHADAM",
+        "birth_date": "1993-03-21",
+        "nationality": "IRI",
+        "federation": "IRI",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 69,
+      "seat": "ICF_ID1",
+      "printed": "Adel MOJALLALIMOGHADDAM FOUMANI",
+      "team": "IRI",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "52787",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Adel MOJALLALIMOGHADDAM FOUMANI' (IRI, M) -> 52787 Adel MOJALLALIMOGHADAM (born 1993-03-21, ICF nationality IRI / federation IRI); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\", \"FOUMANI\"], \"icf_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "exact",
+        "given": "exact",
+        "printed_variant": [
+          "ADEL",
+          "/",
+          "MOJALALIMOGHADAM",
+          "FOUMANI"
+        ],
+        "icf_variant": [
+          "ADEL",
+          "/",
+          "MOJALALIMOGHADAM"
+        ]
+      },
+      "pww_name_check": "PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed",
+      "icf_record": "52787 Adel MOJALLALIMOGHADAM M 1993-03-21 nat=IRI fed=IRI",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "52787",
+        "name": "Adel MOJALLALIMOGHADAM",
+        "birth_date": "1993-03-21",
+        "nationality": "IRI",
+        "federation": "IRI",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 186,
+      "seat": "ICF_ID1",
+      "printed": "Adel MOJALLALIMOGHADDAM FOUMANI",
+      "team": "IRI",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "52787",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Adel MOJALLALIMOGHADDAM FOUMANI' (IRI, M) -> 52787 Adel MOJALLALIMOGHADAM (born 1993-03-21, ICF nationality IRI / federation IRI); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\", \"FOUMANI\"], \"icf_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "exact",
+        "given": "exact",
+        "printed_variant": [
+          "ADEL",
+          "/",
+          "MOJALALIMOGHADAM",
+          "FOUMANI"
+        ],
+        "icf_variant": [
+          "ADEL",
+          "/",
+          "MOJALALIMOGHADAM"
+        ]
+      },
+      "pww_name_check": "PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed",
+      "icf_record": "52787 Adel MOJALLALIMOGHADAM M 1993-03-21 nat=IRI fed=IRI",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "52787",
+        "name": "Adel MOJALLALIMOGHADAM",
+        "birth_date": "1993-03-21",
+        "nationality": "IRI",
+        "federation": "IRI",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 216,
+      "seat": "ICF_ID1",
+      "printed": "Elena ANYSHINA",
+      "team": "RUS",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "36171",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Elena ANYSHINA' (RUS, W) -> 36171 Elena ANIUSHINA (born 1993-12-08, ICF nationality RUS / federation RUS); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"ELENA\", \"/\", \"ANISHINA\"], \"icf_variant\": [\"ELENA\", \"/\", \"ANIUSHINA\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 36171 'Elena ANIUSHINA' noc=RUS gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "ELENA",
+          "/",
+          "ANISHINA"
+        ],
+        "icf_variant": [
+          "ELENA",
+          "/",
+          "ANIUSHINA"
+        ]
+      },
+      "pww_name_check": "PWW profile 36171 'Elena ANIUSHINA' noc=RUS gender=F: name-check passed",
+      "icf_record": "36171 Elena ANIUSHINA W 1993-12-08 nat=RUS fed=RUS",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "36171",
+        "name": "Elena ANIUSHINA",
+        "birth_date": "1993-12-08",
+        "nationality": "RUS",
+        "federation": "RUS",
+        "gender": "W"
+      }
+    },
+    {
+      "results_row": 228,
+      "seat": "ICF_ID4",
+      "printed": "Adel MOJALLALIMOGHADDAM FOUMANI",
+      "team": "IRI",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "52787",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Adel MOJALLALIMOGHADDAM FOUMANI' (IRI, M) -> 52787 Adel MOJALLALIMOGHADAM (born 1993-03-21, ICF nationality IRI / federation IRI); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\", \"FOUMANI\"], \"icf_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "exact",
+        "given": "exact",
+        "printed_variant": [
+          "ADEL",
+          "/",
+          "MOJALALIMOGHADAM",
+          "FOUMANI"
+        ],
+        "icf_variant": [
+          "ADEL",
+          "/",
+          "MOJALALIMOGHADAM"
+        ]
+      },
+      "pww_name_check": "PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed",
+      "icf_record": "52787 Adel MOJALLALIMOGHADAM M 1993-03-21 nat=IRI fed=IRI",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "52787",
+        "name": "Adel MOJALLALIMOGHADAM",
+        "birth_date": "1993-03-21",
+        "nationality": "IRI",
+        "federation": "IRI",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 262,
+      "seat": "ICF_ID1",
+      "printed": "Adel MOJALLALIMOGHADDAM FOUMANI",
+      "team": "IRI",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "52787",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Adel MOJALLALIMOGHADDAM FOUMANI' (IRI, M) -> 52787 Adel MOJALLALIMOGHADAM (born 1993-03-21, ICF nationality IRI / federation IRI); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\", \"FOUMANI\"], \"icf_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "exact",
+        "given": "exact",
+        "printed_variant": [
+          "ADEL",
+          "/",
+          "MOJALALIMOGHADAM",
+          "FOUMANI"
+        ],
+        "icf_variant": [
+          "ADEL",
+          "/",
+          "MOJALALIMOGHADAM"
+        ]
+      },
+      "pww_name_check": "PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed",
+      "icf_record": "52787 Adel MOJALLALIMOGHADAM M 1993-03-21 nat=IRI fed=IRI",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "52787",
+        "name": "Adel MOJALLALIMOGHADAM",
+        "birth_date": "1993-03-21",
+        "nationality": "IRI",
+        "federation": "IRI",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 295,
+      "seat": "ICF_ID1",
+      "printed": "Jesse PHILLIP",
+      "team": "AUS",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "45847",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Jesse PHILLIP' (AUS, M) -> 45847 Jesse PHILLIPS (born 1986-07-26, ICF nationality AUS / federation AUS); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"JESE\", \"/\", \"PHILIP\"], \"icf_variant\": [\"JESE\", \"/\", \"PHILIPS\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 45847 'Jesse PHILLIPS' noc=AUS gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "JESE",
+          "/",
+          "PHILIP"
+        ],
+        "icf_variant": [
+          "JESE",
+          "/",
+          "PHILIPS"
+        ]
+      },
+      "pww_name_check": "PWW profile 45847 'Jesse PHILLIPS' noc=AUS gender=M: name-check passed",
+      "icf_record": "45847 Jesse PHILLIPS M 1986-07-26 nat=AUS fed=AUS",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "45847",
+        "name": "Jesse PHILLIPS",
+        "birth_date": "1986-07-26",
+        "nationality": "AUS",
+        "federation": "AUS",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 342,
+      "seat": "ICF_ID1",
+      "printed": "Adel MOJALLALIMOGHADDAM FOUMANI",
+      "team": "IRI",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "52787",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Adel MOJALLALIMOGHADDAM FOUMANI' (IRI, M) -> 52787 Adel MOJALLALIMOGHADAM (born 1993-03-21, ICF nationality IRI / federation IRI); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\", \"FOUMANI\"], \"icf_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "exact",
+        "given": "exact",
+        "printed_variant": [
+          "ADEL",
+          "/",
+          "MOJALALIMOGHADAM",
+          "FOUMANI"
+        ],
+        "icf_variant": [
+          "ADEL",
+          "/",
+          "MOJALALIMOGHADAM"
+        ]
+      },
+      "pww_name_check": "PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed",
+      "icf_record": "52787 Adel MOJALLALIMOGHADAM M 1993-03-21 nat=IRI fed=IRI",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "52787",
+        "name": "Adel MOJALLALIMOGHADAM",
+        "birth_date": "1993-03-21",
+        "nationality": "IRI",
+        "federation": "IRI",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 410,
+      "seat": "ICF_ID1",
+      "printed": "Adel MOJALLALIMOGHADDAM FOUMANI",
+      "team": "IRI",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "52787",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Adel MOJALLALIMOGHADDAM FOUMANI' (IRI, M) -> 52787 Adel MOJALLALIMOGHADAM (born 1993-03-21, ICF nationality IRI / federation IRI); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\", \"FOUMANI\"], \"icf_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "exact",
+        "given": "exact",
+        "printed_variant": [
+          "ADEL",
+          "/",
+          "MOJALALIMOGHADAM",
+          "FOUMANI"
+        ],
+        "icf_variant": [
+          "ADEL",
+          "/",
+          "MOJALALIMOGHADAM"
+        ]
+      },
+      "pww_name_check": "PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed",
+      "icf_record": "52787 Adel MOJALLALIMOGHADAM M 1993-03-21 nat=IRI fed=IRI",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "52787",
+        "name": "Adel MOJALLALIMOGHADAM",
+        "birth_date": "1993-03-21",
+        "nationality": "IRI",
+        "federation": "IRI",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 423,
+      "seat": "ICF_ID2",
+      "printed": "Jesse PHILLIP",
+      "team": "AUS",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "45847",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Jesse PHILLIP' (AUS, M) -> 45847 Jesse PHILLIPS (born 1986-07-26, ICF nationality AUS / federation AUS); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"JESE\", \"/\", \"PHILIP\"], \"icf_variant\": [\"JESE\", \"/\", \"PHILIPS\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 45847 'Jesse PHILLIPS' noc=AUS gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "JESE",
+          "/",
+          "PHILIP"
+        ],
+        "icf_variant": [
+          "JESE",
+          "/",
+          "PHILIPS"
+        ]
+      },
+      "pww_name_check": "PWW profile 45847 'Jesse PHILLIPS' noc=AUS gender=M: name-check passed",
+      "icf_record": "45847 Jesse PHILLIPS M 1986-07-26 nat=AUS fed=AUS",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "45847",
+        "name": "Jesse PHILLIPS",
+        "birth_date": "1986-07-26",
+        "nationality": "AUS",
+        "federation": "AUS",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 503,
+      "seat": "ICF_ID1",
+      "printed": "Adel MOJALLALIMOGHADDAM FOUMANI",
+      "team": "IRI",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "52787",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Adel MOJALLALIMOGHADDAM FOUMANI' (IRI, M) -> 52787 Adel MOJALLALIMOGHADAM (born 1993-03-21, ICF nationality IRI / federation IRI); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\", \"FOUMANI\"], \"icf_variant\": [\"ADEL\", \"/\", \"MOJALALIMOGHADAM\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "exact",
+        "given": "exact",
+        "printed_variant": [
+          "ADEL",
+          "/",
+          "MOJALALIMOGHADAM",
+          "FOUMANI"
+        ],
+        "icf_variant": [
+          "ADEL",
+          "/",
+          "MOJALALIMOGHADAM"
+        ]
+      },
+      "pww_name_check": "PWW profile 52787 'Adel MOJALLALIMOGHADAM' noc=IRI gender=M: name-check passed",
+      "icf_record": "52787 Adel MOJALLALIMOGHADAM M 1993-03-21 nat=IRI fed=IRI",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "52787",
+        "name": "Adel MOJALLALIMOGHADAM",
+        "birth_date": "1993-03-21",
+        "nationality": "IRI",
+        "federation": "IRI",
+        "gender": "M"
+      }
     }
   ],
   "log_corrections": [
@@ -11253,6 +12094,15 @@
         "name_bound_check.t60_ru166.rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule first + sole-candidate keep + cross-country review (PADDLETAGGER_CONTRACT.md Name-bound ids item 4(a), Under-14 rule and NOC check; now with the RU168 rulings of MAINTAINER_ANSWERS_2026-10-24b and ruling 4 as amended, 2026-10-24c)"
       },
       "rule": "MAINTAINER_ANSWERS_2026-10-25c item 1: the run's rule note cited the superseded under-14 rule as replaced; re-pointed to the governing contract text; the run's counts unchanged; MAINTAINER_ANSWERS_2026-10-25c: correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "log",
+      "field": "sheets.PERSONS.rows",
+      "previous": 104,
+      "new": 113,
+      "previous_label": "sheets.PERSONS.rows",
+      "new_label": "sheets.PERSONS.rows",
+      "rule": "t71 (MAINTAINER_ANSWERS_2026-10-27): the manifest PERSONS row count was stale (104 vs 110 PERSONS data rows in the published xlsx); now the actual count 113 after 3 PERSONS rows added for the approved C3 binds; correction of the log, no seat change"
     }
   ]
 }
