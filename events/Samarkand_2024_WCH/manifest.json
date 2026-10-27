@@ -11,7 +11,7 @@
   "dates": "2024-08-23/2024-08-25",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-27T19:37:46Z",
+  "generated_at_utc": "2026-10-27T20:35:06Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "IMAS race pages print the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule).",
@@ -16462,12 +16462,12 @@
     {
       "kind": "xlsx",
       "name": "Samarkand_2024_WCH_Results.xlsx",
-      "sha256": "6237472e97711a76b4beb23cf60f9fd25e59af38d086720f19582c757661467f",
+      "sha256": "f4886b53e002b485555254ba80b949df1ca3c46d0a354314c8047c083ec82ee9",
       "bytes": 65455
     }
   ],
   "output_xlsx": "Samarkand_2024_WCH_Results.xlsx",
-  "output_xlsx_sha256": "6237472e97711a76b4beb23cf60f9fd25e59af38d086720f19582c757661467f",
+  "output_xlsx_sha256": "f4886b53e002b485555254ba80b949df1ca3c46d0a354314c8047c083ec82ee9",
   "name_bound_check": {
     "same_meeting_unified": 1,
     "rule": "MAINTAINER_ANSWERS_2026-10-23 Rules 1-5 + same-meeting unification",
@@ -16481,7 +16481,7 @@
     "no_icf_id_t59": 2,
     "same_meeting_unified_t59": 0
   },
-  "updated_at": "2026-10-27T19:37:46Z",
+  "updated_at": "2026-10-27T20:35:06Z",
   "name_change_log": [
     {
       "results_row": 174,
@@ -16682,5 +16682,30 @@
       }
     }
   ],
-  "log_corrections": []
+  "log_corrections": [
+    {
+      "kind": "persons_spelling",
+      "sheet": "PERSONS",
+      "excel_row": 289,
+      "id": "97611",
+      "seat_id_unchanged": true,
+      "field": "PERSONS row 289 (ID_ICF 97611) NAME/SURNAME",
+      "previous": {
+        "NAME": "Gergely",
+        "SURNAME": "BALOGH"
+      },
+      "new": {
+        "NAME": "Gagely",
+        "SURNAME": "BALOGH"
+      },
+      "printed": "Gagely (2001, M) BALOGH",
+      "printed_seats": [
+        "RESULTS row 406 ICF_ID4",
+        "RESULTS row 639 ICF_ID4"
+      ],
+      "rule": "PADDLETAGGER_CONTRACT.md line 233 (PERSONS section): NAME and SURNAME are the official results spelling, never copied from the ICF page; the t70 Part B PERSONS row had been written with the ICF/PWW spelling (self-correction t72, no id change, so no corrections_log entry)",
+      "logged_at_utc": "2026-10-27T20:26:05Z",
+      "printed_form_note": "printed name with the parenthesised year/gender '(2001, M)' stripped, as the name-check does (stripped: 'Gagely BALOGH')"
+    }
+  ]
 }

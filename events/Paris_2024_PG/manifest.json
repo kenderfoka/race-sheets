@@ -12,7 +12,7 @@
   "dates": "2024-09-06/2024-09-08",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-27T19:37:46Z",
+  "generated_at_utc": "2026-10-27T20:35:06Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "ICF Olympic OVR results book prints each race Start Time to the minute (ICF results archive per-race clocks are scheduled per VENDOR_MAP; written HH:MM:00). Event bibs are not ICF ids (BIB_BOAT empty). No ICF ids printed: seats bound by name, nation and gender under the Olympic Games rule (bound_by_name, no profile check). Paralympic Games: MAINTAINER_ANSWERS_2026-10-19 Q45 — profiles do not list the Paris Paralympics, seats bound by name, nation and gender, logged bound_by_name_unconfirmed. EVENT = para class as printed.",
@@ -5434,12 +5434,12 @@
     {
       "kind": "xlsx",
       "name": "Paris_2024_PG_Results.xlsx",
-      "sha256": "608f492497889361eb6c9a822b9fdc8a4b58586f69db6c00a86f0f390d46907f",
-      "bytes": 30536
+      "sha256": "19cc883a686e63719f14b8fc5273e74d2c8609031f0d311dfce943fc0ab50575",
+      "bytes": 30534
     }
   ],
   "output_xlsx": "Paris_2024_PG_Results.xlsx",
-  "output_xlsx_sha256": "608f492497889361eb6c9a822b9fdc8a4b58586f69db6c00a86f0f390d46907f",
+  "output_xlsx_sha256": "19cc883a686e63719f14b8fc5273e74d2c8609031f0d311dfce943fc0ab50575",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -5537,7 +5537,7 @@
     "no_icf_id_t59": 3,
     "same_meeting_unified_t59": 0
   },
-  "updated_at": "2026-10-27T19:37:46Z",
+  "updated_at": "2026-10-27T20:35:06Z",
   "name_change_log": [],
   "nation_change_log": [],
   "corrections_log": [
@@ -5605,7 +5605,32 @@
       }
     }
   ],
-  "log_corrections": [],
+  "log_corrections": [
+    {
+      "kind": "persons_spelling",
+      "sheet": "PERSONS",
+      "excel_row": 100,
+      "id": "98111",
+      "seat_id_unchanged": true,
+      "field": "PERSONS row 100 (ID_ICF 98111) NAME/SURNAME",
+      "previous": {
+        "NAME": "Steven",
+        "SURNAME": "HAXTON"
+      },
+      "new": {
+        "NAME": "Blake",
+        "SURNAME": "HAXTON"
+      },
+      "printed": "Blake HAXTON",
+      "printed_seats": [
+        "RESULTS row 89 ICF_ID1",
+        "RESULTS row 237 ICF_ID1",
+        "RESULTS row 284 ICF_ID1"
+      ],
+      "rule": "PADDLETAGGER_CONTRACT.md line 233 (PERSONS section): NAME and SURNAME are the official results spelling, never copied from the ICF page; the t70 Part B PERSONS row had been written with the ICF/PWW spelling (self-correction t72, no id change, so no corrections_log entry)",
+      "logged_at_utc": "2026-10-27T20:26:05Z"
+    }
+  ],
   "ruled_binds": [
     {
       "icf_id": "98111",
