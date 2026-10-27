@@ -10,7 +10,7 @@
   "dates": "2011-05-06/2011-05-08",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-23T19:39:26Z",
+  "generated_at_utc": "2026-10-27T20:22:39Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "Poznan organiser results book prints each race start to the minute (hh.mm, written HH:MM:00). RESULT = printed time. Names printed all caps unsplit: split/closed from the single matching profile (maintainer 2026-10-17 Q19), PERSONS names from the profile. No ICF ids printed.",
@@ -6602,11 +6602,45 @@
       "results_row": 25,
       "seat": "ICF_ID1",
       "source_printed_name": "IRINA PODOINKOVA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for IRINA PODOINKOVA (KAZ, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'IRINA PODOINKOVA' (KAZ, W) -> 52610 Irina PODOINIKOVA (born 1988-06-28, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"IRINA\", \"/\", \"PODOINCOVA\"], \"icf_variant\": [\"IRINA\", \"/\", \"PODOINICOVA\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52610 'Irina PODOINIKOVA' noc=KAZ gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "KAZ",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for IRINA PODOINKOVA (KAZ, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'IRINA PODOINKOVA' (KAZ, W) -> 52610 Irina PODOINIKOVA (born 1988-06-28, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"IRINA\", \"/\", \"PODOINCOVA\"], \"icf_variant\": [\"IRINA\", \"/\", \"PODOINICOVA\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52610 'Irina PODOINIKOVA' noc=KAZ gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "52610",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "IRINA PODOINKOVA",
+        "proposed_id": "52610",
+        "icf_record": "52610 Irina PODOINIKOVA W 1988-06-28 nat=KAZ fed=KAZ",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "IRINA",
+            "/",
+            "PODOINCOVA"
+          ],
+          "icf_variant": [
+            "IRINA",
+            "/",
+            "PODOINICOVA"
+          ]
+        },
+        "pww_name_check": "PWW profile 52610 'Irina PODOINIKOVA' noc=KAZ gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 52610 'Irina PODOINIKOVA' noc=KAZ gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for IRINA PODOINKOVA (KAZ, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "52610",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 26,
@@ -7230,11 +7264,45 @@
       "results_row": 85,
       "seat": "ICF_ID1",
       "source_printed_name": "YIURI CHEBAN",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for YIURI CHEBAN (UKR, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'YIURI CHEBAN' (UKR, M) -> 46354 Iurii CHEBAN (born 1986-07-05, ICF nationality UKR / federation UKR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"IURI\", \"/\", \"CHEBAN\"], \"icf_variant\": [\"IURI\", \"/\", \"CHEBAN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 46354 'Iurii CHEBAN' noc=UKR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "UKR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for YIURI CHEBAN (UKR, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'YIURI CHEBAN' (UKR, M) -> 46354 Iurii CHEBAN (born 1986-07-05, ICF nationality UKR / federation UKR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"IURI\", \"/\", \"CHEBAN\"], \"icf_variant\": [\"IURI\", \"/\", \"CHEBAN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 46354 'Iurii CHEBAN' noc=UKR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "46354",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "YIURI CHEBAN",
+        "proposed_id": "46354",
+        "icf_record": "46354 Iurii CHEBAN M 1986-07-05 nat=UKR fed=UKR",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "exact",
+          "given": "exact",
+          "printed_variant": [
+            "IURI",
+            "/",
+            "CHEBAN"
+          ],
+          "icf_variant": [
+            "IURI",
+            "/",
+            "CHEBAN"
+          ]
+        },
+        "pww_name_check": "PWW profile 46354 'Iurii CHEBAN' noc=UKR gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 46354 'Iurii CHEBAN' noc=UKR gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for YIURI CHEBAN (UKR, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "46354",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 85,
@@ -7501,11 +7569,45 @@
       "results_row": 98,
       "seat": "ICF_ID2",
       "source_printed_name": "EDUARD SHEMETILA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for EDUARD SHEMETILA (UKR, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'EDUARD SHEMETILA' (UKR, M) -> 46397 Eduard SHEMETYLO (born 1990-08-14, ICF nationality UKR / federation UKR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EDUARD\", \"/\", \"SHEMETILA\"], \"icf_variant\": [\"EDUARD\", \"/\", \"SHEMETILO\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 46397 'Eduard SHEMETYLO' noc=UKR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "UKR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for EDUARD SHEMETILA (UKR, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'EDUARD SHEMETILA' (UKR, M) -> 46397 Eduard SHEMETYLO (born 1990-08-14, ICF nationality UKR / federation UKR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EDUARD\", \"/\", \"SHEMETILA\"], \"icf_variant\": [\"EDUARD\", \"/\", \"SHEMETILO\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 46397 'Eduard SHEMETYLO' noc=UKR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "46397",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "EDUARD SHEMETILA",
+        "proposed_id": "46397",
+        "icf_record": "46397 Eduard SHEMETYLO M 1990-08-14 nat=UKR fed=UKR",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "EDUARD",
+            "/",
+            "SHEMETILA"
+          ],
+          "icf_variant": [
+            "EDUARD",
+            "/",
+            "SHEMETILO"
+          ]
+        },
+        "pww_name_check": "PWW profile 46397 'Eduard SHEMETYLO' noc=UKR gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 46397 'Eduard SHEMETYLO' noc=UKR gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for EDUARD SHEMETILA (UKR, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "46397",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 99,
@@ -7661,11 +7763,45 @@
       "results_row": 106,
       "seat": "ICF_ID2",
       "source_printed_name": "JESUS COLMENARES",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for JESUS COLMENARES (VEN, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'JESUS COLMENARES' (VEN, M) -> 36501 Jesus COLMENAREZ (born 1981-09-08, ICF nationality VEN / federation VEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"JESUS\", \"/\", \"COLMENARES\"], \"icf_variant\": [\"JESUS\", \"/\", \"COLMENAREZ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "VEN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for JESUS COLMENARES (VEN, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'JESUS COLMENARES' (VEN, M) -> 36501 Jesus COLMENAREZ (born 1981-09-08, ICF nationality VEN / federation VEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"JESUS\", \"/\", \"COLMENARES\"], \"icf_variant\": [\"JESUS\", \"/\", \"COLMENAREZ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "36501",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "JESUS COLMENARES",
+        "proposed_id": "36501",
+        "icf_record": "36501 Jesus COLMENAREZ M 1981-09-08 nat=VEN fed=VEN",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "JESUS",
+            "/",
+            "COLMENARES"
+          ],
+          "icf_variant": [
+            "JESUS",
+            "/",
+            "COLMENAREZ"
+          ]
+        },
+        "pww_name_check": "PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for JESUS COLMENARES (VEN, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "36501",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 107,
@@ -8114,11 +8250,45 @@
       "results_row": 137,
       "seat": "ICF_ID1",
       "source_printed_name": "IRINA PODOINKOVA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for IRINA PODOINKOVA (KAZ, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'IRINA PODOINKOVA' (KAZ, W) -> 52610 Irina PODOINIKOVA (born 1988-06-28, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"IRINA\", \"/\", \"PODOINCOVA\"], \"icf_variant\": [\"IRINA\", \"/\", \"PODOINICOVA\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52610 'Irina PODOINIKOVA' noc=KAZ gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "KAZ",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for IRINA PODOINKOVA (KAZ, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'IRINA PODOINKOVA' (KAZ, W) -> 52610 Irina PODOINIKOVA (born 1988-06-28, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"IRINA\", \"/\", \"PODOINCOVA\"], \"icf_variant\": [\"IRINA\", \"/\", \"PODOINICOVA\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52610 'Irina PODOINIKOVA' noc=KAZ gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "52610",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "IRINA PODOINKOVA",
+        "proposed_id": "52610",
+        "icf_record": "52610 Irina PODOINIKOVA W 1988-06-28 nat=KAZ fed=KAZ",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "IRINA",
+            "/",
+            "PODOINCOVA"
+          ],
+          "icf_variant": [
+            "IRINA",
+            "/",
+            "PODOINICOVA"
+          ]
+        },
+        "pww_name_check": "PWW profile 52610 'Irina PODOINIKOVA' noc=KAZ gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 52610 'Irina PODOINIKOVA' noc=KAZ gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for IRINA PODOINKOVA (KAZ, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "52610",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 138,
@@ -8720,11 +8890,45 @@
       "results_row": 190,
       "seat": "ICF_ID2",
       "source_printed_name": "EDUARD SHEMETILA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for EDUARD SHEMETILA (UKR, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'EDUARD SHEMETILA' (UKR, M) -> 46397 Eduard SHEMETYLO (born 1990-08-14, ICF nationality UKR / federation UKR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EDUARD\", \"/\", \"SHEMETILA\"], \"icf_variant\": [\"EDUARD\", \"/\", \"SHEMETILO\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 46397 'Eduard SHEMETYLO' noc=UKR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "UKR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for EDUARD SHEMETILA (UKR, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'EDUARD SHEMETILA' (UKR, M) -> 46397 Eduard SHEMETYLO (born 1990-08-14, ICF nationality UKR / federation UKR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EDUARD\", \"/\", \"SHEMETILA\"], \"icf_variant\": [\"EDUARD\", \"/\", \"SHEMETILO\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 46397 'Eduard SHEMETYLO' noc=UKR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "46397",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "EDUARD SHEMETILA",
+        "proposed_id": "46397",
+        "icf_record": "46397 Eduard SHEMETYLO M 1990-08-14 nat=UKR fed=UKR",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "EDUARD",
+            "/",
+            "SHEMETILA"
+          ],
+          "icf_variant": [
+            "EDUARD",
+            "/",
+            "SHEMETILO"
+          ]
+        },
+        "pww_name_check": "PWW profile 46397 'Eduard SHEMETYLO' noc=UKR gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 46397 'Eduard SHEMETYLO' noc=UKR gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for EDUARD SHEMETILA (UKR, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "46397",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 191,
@@ -9101,11 +9305,45 @@
       "results_row": 209,
       "seat": "ICF_ID2",
       "source_printed_name": "JESUS COLMENARES",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for JESUS COLMENARES (VEN, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'JESUS COLMENARES' (VEN, M) -> 36501 Jesus COLMENAREZ (born 1981-09-08, ICF nationality VEN / federation VEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"JESUS\", \"/\", \"COLMENARES\"], \"icf_variant\": [\"JESUS\", \"/\", \"COLMENAREZ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "VEN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for JESUS COLMENARES (VEN, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'JESUS COLMENARES' (VEN, M) -> 36501 Jesus COLMENAREZ (born 1981-09-08, ICF nationality VEN / federation VEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"JESUS\", \"/\", \"COLMENARES\"], \"icf_variant\": [\"JESUS\", \"/\", \"COLMENAREZ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "36501",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "JESUS COLMENARES",
+        "proposed_id": "36501",
+        "icf_record": "36501 Jesus COLMENAREZ M 1981-09-08 nat=VEN fed=VEN",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "JESUS",
+            "/",
+            "COLMENARES"
+          ],
+          "icf_variant": [
+            "JESUS",
+            "/",
+            "COLMENAREZ"
+          ]
+        },
+        "pww_name_check": "PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for JESUS COLMENARES (VEN, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "36501",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 210,
@@ -9619,11 +9857,45 @@
       "results_row": 259,
       "seat": "ICF_ID2",
       "source_printed_name": "VADZIM MAKHNEV",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "BLR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "42044",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "VADZIM MAKHNEV",
+        "proposed_id": "42044",
+        "icf_record": "42044 Vadzim MAKHNEU M 1979-12-21 nat=BLR fed=BLR",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "VADZIM",
+            "/",
+            "MACHNEV"
+          ],
+          "icf_variant": [
+            "VADZIM",
+            "/",
+            "MACHNEU"
+          ]
+        },
+        "pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "42044",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 260,
@@ -10010,11 +10282,45 @@
       "results_row": 279,
       "seat": "ICF_ID1",
       "source_printed_name": "JESUS COLMENARES",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for JESUS COLMENARES (VEN, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'JESUS COLMENARES' (VEN, M) -> 36501 Jesus COLMENAREZ (born 1981-09-08, ICF nationality VEN / federation VEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"JESUS\", \"/\", \"COLMENARES\"], \"icf_variant\": [\"JESUS\", \"/\", \"COLMENAREZ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "VEN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for JESUS COLMENARES (VEN, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'JESUS COLMENARES' (VEN, M) -> 36501 Jesus COLMENAREZ (born 1981-09-08, ICF nationality VEN / federation VEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"JESUS\", \"/\", \"COLMENARES\"], \"icf_variant\": [\"JESUS\", \"/\", \"COLMENAREZ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "36501",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "JESUS COLMENARES",
+        "proposed_id": "36501",
+        "icf_record": "36501 Jesus COLMENAREZ M 1981-09-08 nat=VEN fed=VEN",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "JESUS",
+            "/",
+            "COLMENARES"
+          ],
+          "icf_variant": [
+            "JESUS",
+            "/",
+            "COLMENAREZ"
+          ]
+        },
+        "pww_name_check": "PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for JESUS COLMENARES (VEN, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "36501",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 279,
@@ -10313,11 +10619,45 @@
       "results_row": 293,
       "seat": "ICF_ID1",
       "source_printed_name": "PAVEL MIADZVEDZEV",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for PAVEL MIADZVEDZEV (BLR, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'PAVEL MIADZVEDZEV' (BLR, M) -> 42046 Pavel MIADZVEDZEU (born 1991-09-23, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"PAVEL\", \"/\", \"MIADZVEDZEV\"], \"icf_variant\": [\"PAVEL\", \"/\", \"MIADZVEDZEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42046 'Pavel MIADZVEDZEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "BLR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for PAVEL MIADZVEDZEV (BLR, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'PAVEL MIADZVEDZEV' (BLR, M) -> 42046 Pavel MIADZVEDZEU (born 1991-09-23, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"PAVEL\", \"/\", \"MIADZVEDZEV\"], \"icf_variant\": [\"PAVEL\", \"/\", \"MIADZVEDZEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42046 'Pavel MIADZVEDZEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "42046",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "PAVEL MIADZVEDZEV",
+        "proposed_id": "42046",
+        "icf_record": "42046 Pavel MIADZVEDZEU M 1991-09-23 nat=BLR fed=BLR",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "PAVEL",
+            "/",
+            "MIADZVEDZEV"
+          ],
+          "icf_variant": [
+            "PAVEL",
+            "/",
+            "MIADZVEDZEU"
+          ]
+        },
+        "pww_name_check": "PWW profile 42046 'Pavel MIADZVEDZEU' noc=BLR gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 42046 'Pavel MIADZVEDZEU' noc=BLR gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for PAVEL MIADZVEDZEV (BLR, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "42046",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 293,
@@ -10473,11 +10813,45 @@
       "results_row": 297,
       "seat": "ICF_ID1",
       "source_printed_name": "JESUS COLMENARES",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for JESUS COLMENARES (VEN, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'JESUS COLMENARES' (VEN, M) -> 36501 Jesus COLMENAREZ (born 1981-09-08, ICF nationality VEN / federation VEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"JESUS\", \"/\", \"COLMENARES\"], \"icf_variant\": [\"JESUS\", \"/\", \"COLMENAREZ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "VEN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for JESUS COLMENARES (VEN, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'JESUS COLMENARES' (VEN, M) -> 36501 Jesus COLMENAREZ (born 1981-09-08, ICF nationality VEN / federation VEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"JESUS\", \"/\", \"COLMENARES\"], \"icf_variant\": [\"JESUS\", \"/\", \"COLMENAREZ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "36501",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "JESUS COLMENARES",
+        "proposed_id": "36501",
+        "icf_record": "36501 Jesus COLMENAREZ M 1981-09-08 nat=VEN fed=VEN",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "JESUS",
+            "/",
+            "COLMENARES"
+          ],
+          "icf_variant": [
+            "JESUS",
+            "/",
+            "COLMENAREZ"
+          ]
+        },
+        "pww_name_check": "PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for JESUS COLMENARES (VEN, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "36501",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 297,
@@ -10543,11 +10917,45 @@
       "results_row": 298,
       "seat": "ICF_ID4",
       "source_printed_name": "VADZIM MAKHNEV",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "BLR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "42044",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "VADZIM MAKHNEV",
+        "proposed_id": "42044",
+        "icf_record": "42044 Vadzim MAKHNEU M 1979-12-21 nat=BLR fed=BLR",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "VADZIM",
+            "/",
+            "MACHNEV"
+          ],
+          "icf_variant": [
+            "VADZIM",
+            "/",
+            "MACHNEU"
+          ]
+        },
+        "pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "42044",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 299,
@@ -11240,11 +11648,45 @@
       "results_row": 347,
       "seat": "ICF_ID1",
       "source_printed_name": "JESUS COLMENARES",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for JESUS COLMENARES (VEN, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'JESUS COLMENARES' (VEN, M) -> 36501 Jesus COLMENAREZ (born 1981-09-08, ICF nationality VEN / federation VEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"JESUS\", \"/\", \"COLMENARES\"], \"icf_variant\": [\"JESUS\", \"/\", \"COLMENAREZ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "VEN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for JESUS COLMENARES (VEN, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'JESUS COLMENARES' (VEN, M) -> 36501 Jesus COLMENAREZ (born 1981-09-08, ICF nationality VEN / federation VEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"JESUS\", \"/\", \"COLMENARES\"], \"icf_variant\": [\"JESUS\", \"/\", \"COLMENAREZ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "36501",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "JESUS COLMENARES",
+        "proposed_id": "36501",
+        "icf_record": "36501 Jesus COLMENAREZ M 1981-09-08 nat=VEN fed=VEN",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "JESUS",
+            "/",
+            "COLMENARES"
+          ],
+          "icf_variant": [
+            "JESUS",
+            "/",
+            "COLMENAREZ"
+          ]
+        },
+        "pww_name_check": "PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for JESUS COLMENARES (VEN, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "36501",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 347,
@@ -11663,11 +12105,45 @@
       "results_row": 364,
       "seat": "ICF_ID1",
       "source_printed_name": "JESUS COLMENARES",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for JESUS COLMENARES (VEN, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'JESUS COLMENARES' (VEN, M) -> 36501 Jesus COLMENAREZ (born 1981-09-08, ICF nationality VEN / federation VEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"JESUS\", \"/\", \"COLMENARES\"], \"icf_variant\": [\"JESUS\", \"/\", \"COLMENAREZ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "VEN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for JESUS COLMENARES (VEN, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'JESUS COLMENARES' (VEN, M) -> 36501 Jesus COLMENAREZ (born 1981-09-08, ICF nationality VEN / federation VEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"JESUS\", \"/\", \"COLMENARES\"], \"icf_variant\": [\"JESUS\", \"/\", \"COLMENAREZ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "36501",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "JESUS COLMENARES",
+        "proposed_id": "36501",
+        "icf_record": "36501 Jesus COLMENAREZ M 1981-09-08 nat=VEN fed=VEN",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "JESUS",
+            "/",
+            "COLMENARES"
+          ],
+          "icf_variant": [
+            "JESUS",
+            "/",
+            "COLMENAREZ"
+          ]
+        },
+        "pww_name_check": "PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for JESUS COLMENARES (VEN, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "36501",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 364,
@@ -13135,11 +13611,45 @@
       "results_row": 461,
       "seat": "ICF_ID1",
       "source_printed_name": "YIURI CHEBAN",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for YIURI CHEBAN (UKR, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'YIURI CHEBAN' (UKR, M) -> 46354 Iurii CHEBAN (born 1986-07-05, ICF nationality UKR / federation UKR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"IURI\", \"/\", \"CHEBAN\"], \"icf_variant\": [\"IURI\", \"/\", \"CHEBAN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 46354 'Iurii CHEBAN' noc=UKR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "UKR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for YIURI CHEBAN (UKR, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'YIURI CHEBAN' (UKR, M) -> 46354 Iurii CHEBAN (born 1986-07-05, ICF nationality UKR / federation UKR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"IURI\", \"/\", \"CHEBAN\"], \"icf_variant\": [\"IURI\", \"/\", \"CHEBAN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 46354 'Iurii CHEBAN' noc=UKR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "46354",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "YIURI CHEBAN",
+        "proposed_id": "46354",
+        "icf_record": "46354 Iurii CHEBAN M 1986-07-05 nat=UKR fed=UKR",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "exact",
+          "given": "exact",
+          "printed_variant": [
+            "IURI",
+            "/",
+            "CHEBAN"
+          ],
+          "icf_variant": [
+            "IURI",
+            "/",
+            "CHEBAN"
+          ]
+        },
+        "pww_name_check": "PWW profile 46354 'Iurii CHEBAN' noc=UKR gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 46354 'Iurii CHEBAN' noc=UKR gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for YIURI CHEBAN (UKR, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "46354",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 461,
@@ -13608,21 +14118,89 @@
       "results_row": 473,
       "seat": "ICF_ID4",
       "source_printed_name": "VADZIM MAKHNEV",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "BLR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "42044",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "VADZIM MAKHNEV",
+        "proposed_id": "42044",
+        "icf_record": "42044 Vadzim MAKHNEU M 1979-12-21 nat=BLR fed=BLR",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "VADZIM",
+            "/",
+            "MACHNEV"
+          ],
+          "icf_variant": [
+            "VADZIM",
+            "/",
+            "MACHNEU"
+          ]
+        },
+        "pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "42044",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 474,
       "seat": "ICF_ID1",
       "source_printed_name": "PAVEL MIADZVEDZEV",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for PAVEL MIADZVEDZEV (BLR, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'PAVEL MIADZVEDZEV' (BLR, M) -> 42046 Pavel MIADZVEDZEU (born 1991-09-23, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"PAVEL\", \"/\", \"MIADZVEDZEV\"], \"icf_variant\": [\"PAVEL\", \"/\", \"MIADZVEDZEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42046 'Pavel MIADZVEDZEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "BLR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for PAVEL MIADZVEDZEV (BLR, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'PAVEL MIADZVEDZEV' (BLR, M) -> 42046 Pavel MIADZVEDZEU (born 1991-09-23, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"PAVEL\", \"/\", \"MIADZVEDZEV\"], \"icf_variant\": [\"PAVEL\", \"/\", \"MIADZVEDZEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42046 'Pavel MIADZVEDZEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "42046",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "PAVEL MIADZVEDZEV",
+        "proposed_id": "42046",
+        "icf_record": "42046 Pavel MIADZVEDZEU M 1991-09-23 nat=BLR fed=BLR",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "PAVEL",
+            "/",
+            "MIADZVEDZEV"
+          ],
+          "icf_variant": [
+            "PAVEL",
+            "/",
+            "MIADZVEDZEU"
+          ]
+        },
+        "pww_name_check": "PWW profile 42046 'Pavel MIADZVEDZEU' noc=BLR gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 42046 'Pavel MIADZVEDZEU' noc=BLR gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for PAVEL MIADZVEDZEV (BLR, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "42046",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 474,
@@ -14375,11 +14953,45 @@
       "results_row": 528,
       "seat": "ICF_ID1",
       "source_printed_name": "IRINA PODOINKOVA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for IRINA PODOINKOVA (KAZ, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'IRINA PODOINKOVA' (KAZ, W) -> 52610 Irina PODOINIKOVA (born 1988-06-28, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"IRINA\", \"/\", \"PODOINCOVA\"], \"icf_variant\": [\"IRINA\", \"/\", \"PODOINICOVA\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52610 'Irina PODOINIKOVA' noc=KAZ gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "KAZ",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for IRINA PODOINKOVA (KAZ, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'IRINA PODOINKOVA' (KAZ, W) -> 52610 Irina PODOINIKOVA (born 1988-06-28, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"IRINA\", \"/\", \"PODOINCOVA\"], \"icf_variant\": [\"IRINA\", \"/\", \"PODOINICOVA\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52610 'Irina PODOINIKOVA' noc=KAZ gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "52610",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "IRINA PODOINKOVA",
+        "proposed_id": "52610",
+        "icf_record": "52610 Irina PODOINIKOVA W 1988-06-28 nat=KAZ fed=KAZ",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "IRINA",
+            "/",
+            "PODOINCOVA"
+          ],
+          "icf_variant": [
+            "IRINA",
+            "/",
+            "PODOINICOVA"
+          ]
+        },
+        "pww_name_check": "PWW profile 52610 'Irina PODOINIKOVA' noc=KAZ gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 52610 'Irina PODOINIKOVA' noc=KAZ gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for IRINA PODOINKOVA (KAZ, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "52610",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 529,
@@ -14576,11 +15188,45 @@
       "results_row": 548,
       "seat": "ICF_ID1",
       "source_printed_name": "YIURI CHEBAN",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for YIURI CHEBAN (UKR, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'YIURI CHEBAN' (UKR, M) -> 46354 Iurii CHEBAN (born 1986-07-05, ICF nationality UKR / federation UKR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"IURI\", \"/\", \"CHEBAN\"], \"icf_variant\": [\"IURI\", \"/\", \"CHEBAN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 46354 'Iurii CHEBAN' noc=UKR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "UKR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for YIURI CHEBAN (UKR, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'YIURI CHEBAN' (UKR, M) -> 46354 Iurii CHEBAN (born 1986-07-05, ICF nationality UKR / federation UKR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"IURI\", \"/\", \"CHEBAN\"], \"icf_variant\": [\"IURI\", \"/\", \"CHEBAN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 46354 'Iurii CHEBAN' noc=UKR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "46354",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "YIURI CHEBAN",
+        "proposed_id": "46354",
+        "icf_record": "46354 Iurii CHEBAN M 1986-07-05 nat=UKR fed=UKR",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "exact",
+          "given": "exact",
+          "printed_variant": [
+            "IURI",
+            "/",
+            "CHEBAN"
+          ],
+          "icf_variant": [
+            "IURI",
+            "/",
+            "CHEBAN"
+          ]
+        },
+        "pww_name_check": "PWW profile 46354 'Iurii CHEBAN' noc=UKR gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 46354 'Iurii CHEBAN' noc=UKR gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for YIURI CHEBAN (UKR, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "46354",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 549,
@@ -15216,11 +15862,45 @@
       "results_row": 588,
       "seat": "ICF_ID1",
       "source_printed_name": "JESUS COLMENARES",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for JESUS COLMENARES (VEN, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'JESUS COLMENARES' (VEN, M) -> 36501 Jesus COLMENAREZ (born 1981-09-08, ICF nationality VEN / federation VEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"JESUS\", \"/\", \"COLMENARES\"], \"icf_variant\": [\"JESUS\", \"/\", \"COLMENAREZ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "VEN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for JESUS COLMENARES (VEN, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'JESUS COLMENARES' (VEN, M) -> 36501 Jesus COLMENAREZ (born 1981-09-08, ICF nationality VEN / federation VEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"JESUS\", \"/\", \"COLMENARES\"], \"icf_variant\": [\"JESUS\", \"/\", \"COLMENAREZ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "36501",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "JESUS COLMENARES",
+        "proposed_id": "36501",
+        "icf_record": "36501 Jesus COLMENAREZ M 1981-09-08 nat=VEN fed=VEN",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "JESUS",
+            "/",
+            "COLMENARES"
+          ],
+          "icf_variant": [
+            "JESUS",
+            "/",
+            "COLMENAREZ"
+          ]
+        },
+        "pww_name_check": "PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for JESUS COLMENARES (VEN, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "36501",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 588,
@@ -15407,11 +16087,45 @@
       "results_row": 597,
       "seat": "ICF_ID2",
       "source_printed_name": "VADZIM MAKHNEV",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "BLR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "42044",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "VADZIM MAKHNEV",
+        "proposed_id": "42044",
+        "icf_record": "42044 Vadzim MAKHNEU M 1979-12-21 nat=BLR fed=BLR",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "VADZIM",
+            "/",
+            "MACHNEV"
+          ],
+          "icf_variant": [
+            "VADZIM",
+            "/",
+            "MACHNEU"
+          ]
+        },
+        "pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "42044",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 598,
@@ -15942,11 +16656,45 @@
       "results_row": 645,
       "seat": "ICF_ID1",
       "source_printed_name": "IRINA PODOINKOVA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for IRINA PODOINKOVA (KAZ, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'IRINA PODOINKOVA' (KAZ, W) -> 52610 Irina PODOINIKOVA (born 1988-06-28, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"IRINA\", \"/\", \"PODOINCOVA\"], \"icf_variant\": [\"IRINA\", \"/\", \"PODOINICOVA\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52610 'Irina PODOINIKOVA' noc=KAZ gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "KAZ",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for IRINA PODOINKOVA (KAZ, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'IRINA PODOINKOVA' (KAZ, W) -> 52610 Irina PODOINIKOVA (born 1988-06-28, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"IRINA\", \"/\", \"PODOINCOVA\"], \"icf_variant\": [\"IRINA\", \"/\", \"PODOINICOVA\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52610 'Irina PODOINIKOVA' noc=KAZ gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "52610",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "IRINA PODOINKOVA",
+        "proposed_id": "52610",
+        "icf_record": "52610 Irina PODOINIKOVA W 1988-06-28 nat=KAZ fed=KAZ",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "IRINA",
+            "/",
+            "PODOINCOVA"
+          ],
+          "icf_variant": [
+            "IRINA",
+            "/",
+            "PODOINICOVA"
+          ]
+        },
+        "pww_name_check": "PWW profile 52610 'Irina PODOINIKOVA' noc=KAZ gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 52610 'Irina PODOINIKOVA' noc=KAZ gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for IRINA PODOINKOVA (KAZ, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "52610",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 646,
@@ -16368,11 +17116,45 @@
       "results_row": 676,
       "seat": "ICF_ID2",
       "source_printed_name": "VADZIM MAKHNEV",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "BLR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "42044",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "VADZIM MAKHNEV",
+        "proposed_id": "42044",
+        "icf_record": "42044 Vadzim MAKHNEU M 1979-12-21 nat=BLR fed=BLR",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "VADZIM",
+            "/",
+            "MACHNEV"
+          ],
+          "icf_variant": [
+            "VADZIM",
+            "/",
+            "MACHNEU"
+          ]
+        },
+        "pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "42044",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 677,
@@ -16478,11 +17260,45 @@
       "results_row": 682,
       "seat": "ICF_ID1",
       "source_printed_name": "JESUS COLMENARES",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for JESUS COLMENARES (VEN, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'JESUS COLMENARES' (VEN, M) -> 36501 Jesus COLMENAREZ (born 1981-09-08, ICF nationality VEN / federation VEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"JESUS\", \"/\", \"COLMENARES\"], \"icf_variant\": [\"JESUS\", \"/\", \"COLMENAREZ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "VEN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for JESUS COLMENARES (VEN, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'JESUS COLMENARES' (VEN, M) -> 36501 Jesus COLMENAREZ (born 1981-09-08, ICF nationality VEN / federation VEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"JESUS\", \"/\", \"COLMENARES\"], \"icf_variant\": [\"JESUS\", \"/\", \"COLMENAREZ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "36501",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "JESUS COLMENARES",
+        "proposed_id": "36501",
+        "icf_record": "36501 Jesus COLMENAREZ M 1981-09-08 nat=VEN fed=VEN",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "JESUS",
+            "/",
+            "COLMENARES"
+          ],
+          "icf_variant": [
+            "JESUS",
+            "/",
+            "COLMENAREZ"
+          ]
+        },
+        "pww_name_check": "PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for JESUS COLMENARES (VEN, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "36501",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 682,
@@ -16819,11 +17635,45 @@
       "results_row": 707,
       "seat": "ICF_ID1",
       "source_printed_name": "IRINA PODOINKOVA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for IRINA PODOINKOVA (KAZ, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'IRINA PODOINKOVA' (KAZ, W) -> 52610 Irina PODOINIKOVA (born 1988-06-28, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"IRINA\", \"/\", \"PODOINCOVA\"], \"icf_variant\": [\"IRINA\", \"/\", \"PODOINICOVA\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52610 'Irina PODOINIKOVA' noc=KAZ gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "KAZ",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for IRINA PODOINKOVA (KAZ, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'IRINA PODOINKOVA' (KAZ, W) -> 52610 Irina PODOINIKOVA (born 1988-06-28, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"IRINA\", \"/\", \"PODOINCOVA\"], \"icf_variant\": [\"IRINA\", \"/\", \"PODOINICOVA\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52610 'Irina PODOINIKOVA' noc=KAZ gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "52610",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "IRINA PODOINKOVA",
+        "proposed_id": "52610",
+        "icf_record": "52610 Irina PODOINIKOVA W 1988-06-28 nat=KAZ fed=KAZ",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "IRINA",
+            "/",
+            "PODOINCOVA"
+          ],
+          "icf_variant": [
+            "IRINA",
+            "/",
+            "PODOINICOVA"
+          ]
+        },
+        "pww_name_check": "PWW profile 52610 'Irina PODOINIKOVA' noc=KAZ gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 52610 'Irina PODOINIKOVA' noc=KAZ gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for IRINA PODOINKOVA (KAZ, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "52610",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 708,
@@ -17242,11 +18092,45 @@
       "results_row": 740,
       "seat": "ICF_ID1",
       "source_printed_name": "YIURI CHEBAN",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for YIURI CHEBAN (UKR, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'YIURI CHEBAN' (UKR, M) -> 46354 Iurii CHEBAN (born 1986-07-05, ICF nationality UKR / federation UKR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"IURI\", \"/\", \"CHEBAN\"], \"icf_variant\": [\"IURI\", \"/\", \"CHEBAN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 46354 'Iurii CHEBAN' noc=UKR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "UKR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for YIURI CHEBAN (UKR, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'YIURI CHEBAN' (UKR, M) -> 46354 Iurii CHEBAN (born 1986-07-05, ICF nationality UKR / federation UKR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"IURI\", \"/\", \"CHEBAN\"], \"icf_variant\": [\"IURI\", \"/\", \"CHEBAN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 46354 'Iurii CHEBAN' noc=UKR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "46354",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "YIURI CHEBAN",
+        "proposed_id": "46354",
+        "icf_record": "46354 Iurii CHEBAN M 1986-07-05 nat=UKR fed=UKR",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "exact",
+          "given": "exact",
+          "printed_variant": [
+            "IURI",
+            "/",
+            "CHEBAN"
+          ],
+          "icf_variant": [
+            "IURI",
+            "/",
+            "CHEBAN"
+          ]
+        },
+        "pww_name_check": "PWW profile 46354 'Iurii CHEBAN' noc=UKR gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 46354 'Iurii CHEBAN' noc=UKR gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for YIURI CHEBAN (UKR, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "46354",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 741,
@@ -17515,11 +18399,45 @@
       "results_row": 762,
       "seat": "ICF_ID2",
       "source_printed_name": "VADZIM MAKHNEV",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "BLR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "42044",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "VADZIM MAKHNEV",
+        "proposed_id": "42044",
+        "icf_record": "42044 Vadzim MAKHNEU M 1979-12-21 nat=BLR fed=BLR",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "VADZIM",
+            "/",
+            "MACHNEV"
+          ],
+          "icf_variant": [
+            "VADZIM",
+            "/",
+            "MACHNEU"
+          ]
+        },
+        "pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "42044",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 763,
@@ -18598,11 +19516,45 @@
       "results_row": 829,
       "seat": "ICF_ID2",
       "source_printed_name": "VADZIM MAKHNEV",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "BLR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "42044",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "VADZIM MAKHNEV",
+        "proposed_id": "42044",
+        "icf_record": "42044 Vadzim MAKHNEU M 1979-12-21 nat=BLR fed=BLR",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "VADZIM",
+            "/",
+            "MACHNEV"
+          ],
+          "icf_variant": [
+            "VADZIM",
+            "/",
+            "MACHNEU"
+          ]
+        },
+        "pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "42044",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 830,
@@ -19273,11 +20225,45 @@
       "results_row": 879,
       "seat": "ICF_ID1",
       "source_printed_name": "EDUARD SHEMETILA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for EDUARD SHEMETILA (UKR, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'EDUARD SHEMETILA' (UKR, M) -> 46397 Eduard SHEMETYLO (born 1990-08-14, ICF nationality UKR / federation UKR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EDUARD\", \"/\", \"SHEMETILA\"], \"icf_variant\": [\"EDUARD\", \"/\", \"SHEMETILO\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 46397 'Eduard SHEMETYLO' noc=UKR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "UKR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for EDUARD SHEMETILA (UKR, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'EDUARD SHEMETILA' (UKR, M) -> 46397 Eduard SHEMETYLO (born 1990-08-14, ICF nationality UKR / federation UKR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EDUARD\", \"/\", \"SHEMETILA\"], \"icf_variant\": [\"EDUARD\", \"/\", \"SHEMETILO\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 46397 'Eduard SHEMETYLO' noc=UKR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "46397",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "EDUARD SHEMETILA",
+        "proposed_id": "46397",
+        "icf_record": "46397 Eduard SHEMETYLO M 1990-08-14 nat=UKR fed=UKR",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "EDUARD",
+            "/",
+            "SHEMETILA"
+          ],
+          "icf_variant": [
+            "EDUARD",
+            "/",
+            "SHEMETILO"
+          ]
+        },
+        "pww_name_check": "PWW profile 46397 'Eduard SHEMETYLO' noc=UKR gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 46397 'Eduard SHEMETYLO' noc=UKR gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for EDUARD SHEMETILA (UKR, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "46397",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 880,
@@ -20735,7 +21721,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 135
+      "rows": 152
     }
   },
   "reason_code": "AUDITOR_FAIL",
@@ -20746,12 +21732,12 @@
     {
       "kind": "xlsx",
       "name": "Poznan_2011_WC_Results.xlsx",
-      "sha256": "90d3074b29613fb4520cdf60c6f414d52ca6d5ba35f851d13e405938e72af043",
-      "bytes": 65563
+      "sha256": "5418d351acf15474c9bcebbb8128e8932c2975f1637658534cc111e79966727a",
+      "bytes": 65961
     }
   ],
   "output_xlsx": "Poznan_2011_WC_Results.xlsx",
-  "output_xlsx_sha256": "90d3074b29613fb4520cdf60c6f414d52ca6d5ba35f851d13e405938e72af043",
+  "output_xlsx_sha256": "5418d351acf15474c9bcebbb8128e8932c2975f1637658534cc111e79966727a",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -20788,7 +21774,7 @@
     "no_icf_id_t59": 670,
     "same_meeting_unified_t59": 0
   },
-  "updated_at": "2026-10-23T19:39:26Z",
+  "updated_at": "2026-10-27T20:22:39Z",
   "rebind_log": [
     {
       "date": "2026-10-19",
@@ -21024,5 +22010,1207 @@
     "added": "2026-10-19 Run 15"
   },
   "name_change_log": [],
-  "nation_change_log": []
+  "nation_change_log": [],
+  "corrections_log": [
+    {
+      "results_row": 25,
+      "seat": "ICF_ID1",
+      "printed": "IRINA PODOINKOVA",
+      "team": "KAZ",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "52610",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'IRINA PODOINKOVA' (KAZ, W) -> 52610 Irina PODOINIKOVA (born 1988-06-28, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"IRINA\", \"/\", \"PODOINCOVA\"], \"icf_variant\": [\"IRINA\", \"/\", \"PODOINICOVA\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52610 'Irina PODOINIKOVA' noc=KAZ gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "IRINA",
+          "/",
+          "PODOINCOVA"
+        ],
+        "icf_variant": [
+          "IRINA",
+          "/",
+          "PODOINICOVA"
+        ]
+      },
+      "pww_name_check": "PWW profile 52610 'Irina PODOINIKOVA' noc=KAZ gender=F: name-check passed",
+      "icf_record": "52610 Irina PODOINIKOVA W 1988-06-28 nat=KAZ fed=KAZ",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "52610",
+        "name": "Irina PODOINIKOVA",
+        "birth_date": "1988-06-28",
+        "nationality": "KAZ",
+        "federation": "KAZ",
+        "gender": "W"
+      }
+    },
+    {
+      "results_row": 85,
+      "seat": "ICF_ID1",
+      "printed": "YIURI CHEBAN",
+      "team": "UKR",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "46354",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'YIURI CHEBAN' (UKR, M) -> 46354 Iurii CHEBAN (born 1986-07-05, ICF nationality UKR / federation UKR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"IURI\", \"/\", \"CHEBAN\"], \"icf_variant\": [\"IURI\", \"/\", \"CHEBAN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 46354 'Iurii CHEBAN' noc=UKR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "exact",
+        "given": "exact",
+        "printed_variant": [
+          "IURI",
+          "/",
+          "CHEBAN"
+        ],
+        "icf_variant": [
+          "IURI",
+          "/",
+          "CHEBAN"
+        ]
+      },
+      "pww_name_check": "PWW profile 46354 'Iurii CHEBAN' noc=UKR gender=M: name-check passed",
+      "icf_record": "46354 Iurii CHEBAN M 1986-07-05 nat=UKR fed=UKR",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "46354",
+        "name": "Iurii CHEBAN",
+        "birth_date": "1986-07-05",
+        "nationality": "UKR",
+        "federation": "UKR",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 98,
+      "seat": "ICF_ID2",
+      "printed": "EDUARD SHEMETILA",
+      "team": "UKR",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "46397",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'EDUARD SHEMETILA' (UKR, M) -> 46397 Eduard SHEMETYLO (born 1990-08-14, ICF nationality UKR / federation UKR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EDUARD\", \"/\", \"SHEMETILA\"], \"icf_variant\": [\"EDUARD\", \"/\", \"SHEMETILO\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 46397 'Eduard SHEMETYLO' noc=UKR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "EDUARD",
+          "/",
+          "SHEMETILA"
+        ],
+        "icf_variant": [
+          "EDUARD",
+          "/",
+          "SHEMETILO"
+        ]
+      },
+      "pww_name_check": "PWW profile 46397 'Eduard SHEMETYLO' noc=UKR gender=M: name-check passed",
+      "icf_record": "46397 Eduard SHEMETYLO M 1990-08-14 nat=UKR fed=UKR",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "46397",
+        "name": "Eduard SHEMETYLO",
+        "birth_date": "1990-08-14",
+        "nationality": "UKR",
+        "federation": "UKR",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 106,
+      "seat": "ICF_ID2",
+      "printed": "JESUS COLMENARES",
+      "team": "VEN",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "36501",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'JESUS COLMENARES' (VEN, M) -> 36501 Jesus COLMENAREZ (born 1981-09-08, ICF nationality VEN / federation VEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"JESUS\", \"/\", \"COLMENARES\"], \"icf_variant\": [\"JESUS\", \"/\", \"COLMENAREZ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "JESUS",
+          "/",
+          "COLMENARES"
+        ],
+        "icf_variant": [
+          "JESUS",
+          "/",
+          "COLMENAREZ"
+        ]
+      },
+      "pww_name_check": "PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed",
+      "icf_record": "36501 Jesus COLMENAREZ M 1981-09-08 nat=VEN fed=VEN",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "36501",
+        "name": "Jesus COLMENAREZ",
+        "birth_date": "1981-09-08",
+        "nationality": "VEN",
+        "federation": "VEN",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 137,
+      "seat": "ICF_ID1",
+      "printed": "IRINA PODOINKOVA",
+      "team": "KAZ",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "52610",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'IRINA PODOINKOVA' (KAZ, W) -> 52610 Irina PODOINIKOVA (born 1988-06-28, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"IRINA\", \"/\", \"PODOINCOVA\"], \"icf_variant\": [\"IRINA\", \"/\", \"PODOINICOVA\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52610 'Irina PODOINIKOVA' noc=KAZ gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "IRINA",
+          "/",
+          "PODOINCOVA"
+        ],
+        "icf_variant": [
+          "IRINA",
+          "/",
+          "PODOINICOVA"
+        ]
+      },
+      "pww_name_check": "PWW profile 52610 'Irina PODOINIKOVA' noc=KAZ gender=F: name-check passed",
+      "icf_record": "52610 Irina PODOINIKOVA W 1988-06-28 nat=KAZ fed=KAZ",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "52610",
+        "name": "Irina PODOINIKOVA",
+        "birth_date": "1988-06-28",
+        "nationality": "KAZ",
+        "federation": "KAZ",
+        "gender": "W"
+      }
+    },
+    {
+      "results_row": 190,
+      "seat": "ICF_ID2",
+      "printed": "EDUARD SHEMETILA",
+      "team": "UKR",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "46397",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'EDUARD SHEMETILA' (UKR, M) -> 46397 Eduard SHEMETYLO (born 1990-08-14, ICF nationality UKR / federation UKR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EDUARD\", \"/\", \"SHEMETILA\"], \"icf_variant\": [\"EDUARD\", \"/\", \"SHEMETILO\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 46397 'Eduard SHEMETYLO' noc=UKR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "EDUARD",
+          "/",
+          "SHEMETILA"
+        ],
+        "icf_variant": [
+          "EDUARD",
+          "/",
+          "SHEMETILO"
+        ]
+      },
+      "pww_name_check": "PWW profile 46397 'Eduard SHEMETYLO' noc=UKR gender=M: name-check passed",
+      "icf_record": "46397 Eduard SHEMETYLO M 1990-08-14 nat=UKR fed=UKR",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "46397",
+        "name": "Eduard SHEMETYLO",
+        "birth_date": "1990-08-14",
+        "nationality": "UKR",
+        "federation": "UKR",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 209,
+      "seat": "ICF_ID2",
+      "printed": "JESUS COLMENARES",
+      "team": "VEN",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "36501",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'JESUS COLMENARES' (VEN, M) -> 36501 Jesus COLMENAREZ (born 1981-09-08, ICF nationality VEN / federation VEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"JESUS\", \"/\", \"COLMENARES\"], \"icf_variant\": [\"JESUS\", \"/\", \"COLMENAREZ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "JESUS",
+          "/",
+          "COLMENARES"
+        ],
+        "icf_variant": [
+          "JESUS",
+          "/",
+          "COLMENAREZ"
+        ]
+      },
+      "pww_name_check": "PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed",
+      "icf_record": "36501 Jesus COLMENAREZ M 1981-09-08 nat=VEN fed=VEN",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "36501",
+        "name": "Jesus COLMENAREZ",
+        "birth_date": "1981-09-08",
+        "nationality": "VEN",
+        "federation": "VEN",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 259,
+      "seat": "ICF_ID2",
+      "printed": "VADZIM MAKHNEV",
+      "team": "BLR",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "42044",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "VADZIM",
+          "/",
+          "MACHNEV"
+        ],
+        "icf_variant": [
+          "VADZIM",
+          "/",
+          "MACHNEU"
+        ]
+      },
+      "pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed",
+      "icf_record": "42044 Vadzim MAKHNEU M 1979-12-21 nat=BLR fed=BLR",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "42044",
+        "name": "Vadzim MAKHNEU",
+        "birth_date": "1979-12-21",
+        "nationality": "BLR",
+        "federation": "BLR",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 279,
+      "seat": "ICF_ID1",
+      "printed": "JESUS COLMENARES",
+      "team": "VEN",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "36501",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'JESUS COLMENARES' (VEN, M) -> 36501 Jesus COLMENAREZ (born 1981-09-08, ICF nationality VEN / federation VEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"JESUS\", \"/\", \"COLMENARES\"], \"icf_variant\": [\"JESUS\", \"/\", \"COLMENAREZ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "JESUS",
+          "/",
+          "COLMENARES"
+        ],
+        "icf_variant": [
+          "JESUS",
+          "/",
+          "COLMENAREZ"
+        ]
+      },
+      "pww_name_check": "PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed",
+      "icf_record": "36501 Jesus COLMENAREZ M 1981-09-08 nat=VEN fed=VEN",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "36501",
+        "name": "Jesus COLMENAREZ",
+        "birth_date": "1981-09-08",
+        "nationality": "VEN",
+        "federation": "VEN",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 293,
+      "seat": "ICF_ID1",
+      "printed": "PAVEL MIADZVEDZEV",
+      "team": "BLR",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "42046",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'PAVEL MIADZVEDZEV' (BLR, M) -> 42046 Pavel MIADZVEDZEU (born 1991-09-23, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"PAVEL\", \"/\", \"MIADZVEDZEV\"], \"icf_variant\": [\"PAVEL\", \"/\", \"MIADZVEDZEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42046 'Pavel MIADZVEDZEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "PAVEL",
+          "/",
+          "MIADZVEDZEV"
+        ],
+        "icf_variant": [
+          "PAVEL",
+          "/",
+          "MIADZVEDZEU"
+        ]
+      },
+      "pww_name_check": "PWW profile 42046 'Pavel MIADZVEDZEU' noc=BLR gender=M: name-check passed",
+      "icf_record": "42046 Pavel MIADZVEDZEU M 1991-09-23 nat=BLR fed=BLR",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "42046",
+        "name": "Pavel MIADZVEDZEU",
+        "birth_date": "1991-09-23",
+        "nationality": "BLR",
+        "federation": "BLR",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 297,
+      "seat": "ICF_ID1",
+      "printed": "JESUS COLMENARES",
+      "team": "VEN",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "36501",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'JESUS COLMENARES' (VEN, M) -> 36501 Jesus COLMENAREZ (born 1981-09-08, ICF nationality VEN / federation VEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"JESUS\", \"/\", \"COLMENARES\"], \"icf_variant\": [\"JESUS\", \"/\", \"COLMENAREZ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "JESUS",
+          "/",
+          "COLMENARES"
+        ],
+        "icf_variant": [
+          "JESUS",
+          "/",
+          "COLMENAREZ"
+        ]
+      },
+      "pww_name_check": "PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed",
+      "icf_record": "36501 Jesus COLMENAREZ M 1981-09-08 nat=VEN fed=VEN",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "36501",
+        "name": "Jesus COLMENAREZ",
+        "birth_date": "1981-09-08",
+        "nationality": "VEN",
+        "federation": "VEN",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 298,
+      "seat": "ICF_ID4",
+      "printed": "VADZIM MAKHNEV",
+      "team": "BLR",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "42044",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "VADZIM",
+          "/",
+          "MACHNEV"
+        ],
+        "icf_variant": [
+          "VADZIM",
+          "/",
+          "MACHNEU"
+        ]
+      },
+      "pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed",
+      "icf_record": "42044 Vadzim MAKHNEU M 1979-12-21 nat=BLR fed=BLR",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "42044",
+        "name": "Vadzim MAKHNEU",
+        "birth_date": "1979-12-21",
+        "nationality": "BLR",
+        "federation": "BLR",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 347,
+      "seat": "ICF_ID1",
+      "printed": "JESUS COLMENARES",
+      "team": "VEN",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "36501",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'JESUS COLMENARES' (VEN, M) -> 36501 Jesus COLMENAREZ (born 1981-09-08, ICF nationality VEN / federation VEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"JESUS\", \"/\", \"COLMENARES\"], \"icf_variant\": [\"JESUS\", \"/\", \"COLMENAREZ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "JESUS",
+          "/",
+          "COLMENARES"
+        ],
+        "icf_variant": [
+          "JESUS",
+          "/",
+          "COLMENAREZ"
+        ]
+      },
+      "pww_name_check": "PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed",
+      "icf_record": "36501 Jesus COLMENAREZ M 1981-09-08 nat=VEN fed=VEN",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "36501",
+        "name": "Jesus COLMENAREZ",
+        "birth_date": "1981-09-08",
+        "nationality": "VEN",
+        "federation": "VEN",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 364,
+      "seat": "ICF_ID1",
+      "printed": "JESUS COLMENARES",
+      "team": "VEN",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "36501",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'JESUS COLMENARES' (VEN, M) -> 36501 Jesus COLMENAREZ (born 1981-09-08, ICF nationality VEN / federation VEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"JESUS\", \"/\", \"COLMENARES\"], \"icf_variant\": [\"JESUS\", \"/\", \"COLMENAREZ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "JESUS",
+          "/",
+          "COLMENARES"
+        ],
+        "icf_variant": [
+          "JESUS",
+          "/",
+          "COLMENAREZ"
+        ]
+      },
+      "pww_name_check": "PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed",
+      "icf_record": "36501 Jesus COLMENAREZ M 1981-09-08 nat=VEN fed=VEN",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "36501",
+        "name": "Jesus COLMENAREZ",
+        "birth_date": "1981-09-08",
+        "nationality": "VEN",
+        "federation": "VEN",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 461,
+      "seat": "ICF_ID1",
+      "printed": "YIURI CHEBAN",
+      "team": "UKR",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "46354",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'YIURI CHEBAN' (UKR, M) -> 46354 Iurii CHEBAN (born 1986-07-05, ICF nationality UKR / federation UKR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"IURI\", \"/\", \"CHEBAN\"], \"icf_variant\": [\"IURI\", \"/\", \"CHEBAN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 46354 'Iurii CHEBAN' noc=UKR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "exact",
+        "given": "exact",
+        "printed_variant": [
+          "IURI",
+          "/",
+          "CHEBAN"
+        ],
+        "icf_variant": [
+          "IURI",
+          "/",
+          "CHEBAN"
+        ]
+      },
+      "pww_name_check": "PWW profile 46354 'Iurii CHEBAN' noc=UKR gender=M: name-check passed",
+      "icf_record": "46354 Iurii CHEBAN M 1986-07-05 nat=UKR fed=UKR",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "46354",
+        "name": "Iurii CHEBAN",
+        "birth_date": "1986-07-05",
+        "nationality": "UKR",
+        "federation": "UKR",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 473,
+      "seat": "ICF_ID4",
+      "printed": "VADZIM MAKHNEV",
+      "team": "BLR",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "42044",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "VADZIM",
+          "/",
+          "MACHNEV"
+        ],
+        "icf_variant": [
+          "VADZIM",
+          "/",
+          "MACHNEU"
+        ]
+      },
+      "pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed",
+      "icf_record": "42044 Vadzim MAKHNEU M 1979-12-21 nat=BLR fed=BLR",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "42044",
+        "name": "Vadzim MAKHNEU",
+        "birth_date": "1979-12-21",
+        "nationality": "BLR",
+        "federation": "BLR",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 474,
+      "seat": "ICF_ID1",
+      "printed": "PAVEL MIADZVEDZEV",
+      "team": "BLR",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "42046",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'PAVEL MIADZVEDZEV' (BLR, M) -> 42046 Pavel MIADZVEDZEU (born 1991-09-23, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"PAVEL\", \"/\", \"MIADZVEDZEV\"], \"icf_variant\": [\"PAVEL\", \"/\", \"MIADZVEDZEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42046 'Pavel MIADZVEDZEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "PAVEL",
+          "/",
+          "MIADZVEDZEV"
+        ],
+        "icf_variant": [
+          "PAVEL",
+          "/",
+          "MIADZVEDZEU"
+        ]
+      },
+      "pww_name_check": "PWW profile 42046 'Pavel MIADZVEDZEU' noc=BLR gender=M: name-check passed",
+      "icf_record": "42046 Pavel MIADZVEDZEU M 1991-09-23 nat=BLR fed=BLR",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "42046",
+        "name": "Pavel MIADZVEDZEU",
+        "birth_date": "1991-09-23",
+        "nationality": "BLR",
+        "federation": "BLR",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 528,
+      "seat": "ICF_ID1",
+      "printed": "IRINA PODOINKOVA",
+      "team": "KAZ",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "52610",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'IRINA PODOINKOVA' (KAZ, W) -> 52610 Irina PODOINIKOVA (born 1988-06-28, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"IRINA\", \"/\", \"PODOINCOVA\"], \"icf_variant\": [\"IRINA\", \"/\", \"PODOINICOVA\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52610 'Irina PODOINIKOVA' noc=KAZ gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "IRINA",
+          "/",
+          "PODOINCOVA"
+        ],
+        "icf_variant": [
+          "IRINA",
+          "/",
+          "PODOINICOVA"
+        ]
+      },
+      "pww_name_check": "PWW profile 52610 'Irina PODOINIKOVA' noc=KAZ gender=F: name-check passed",
+      "icf_record": "52610 Irina PODOINIKOVA W 1988-06-28 nat=KAZ fed=KAZ",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "52610",
+        "name": "Irina PODOINIKOVA",
+        "birth_date": "1988-06-28",
+        "nationality": "KAZ",
+        "federation": "KAZ",
+        "gender": "W"
+      }
+    },
+    {
+      "results_row": 548,
+      "seat": "ICF_ID1",
+      "printed": "YIURI CHEBAN",
+      "team": "UKR",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "46354",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'YIURI CHEBAN' (UKR, M) -> 46354 Iurii CHEBAN (born 1986-07-05, ICF nationality UKR / federation UKR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"IURI\", \"/\", \"CHEBAN\"], \"icf_variant\": [\"IURI\", \"/\", \"CHEBAN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 46354 'Iurii CHEBAN' noc=UKR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "exact",
+        "given": "exact",
+        "printed_variant": [
+          "IURI",
+          "/",
+          "CHEBAN"
+        ],
+        "icf_variant": [
+          "IURI",
+          "/",
+          "CHEBAN"
+        ]
+      },
+      "pww_name_check": "PWW profile 46354 'Iurii CHEBAN' noc=UKR gender=M: name-check passed",
+      "icf_record": "46354 Iurii CHEBAN M 1986-07-05 nat=UKR fed=UKR",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "46354",
+        "name": "Iurii CHEBAN",
+        "birth_date": "1986-07-05",
+        "nationality": "UKR",
+        "federation": "UKR",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 588,
+      "seat": "ICF_ID1",
+      "printed": "JESUS COLMENARES",
+      "team": "VEN",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "36501",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'JESUS COLMENARES' (VEN, M) -> 36501 Jesus COLMENAREZ (born 1981-09-08, ICF nationality VEN / federation VEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"JESUS\", \"/\", \"COLMENARES\"], \"icf_variant\": [\"JESUS\", \"/\", \"COLMENAREZ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "JESUS",
+          "/",
+          "COLMENARES"
+        ],
+        "icf_variant": [
+          "JESUS",
+          "/",
+          "COLMENAREZ"
+        ]
+      },
+      "pww_name_check": "PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed",
+      "icf_record": "36501 Jesus COLMENAREZ M 1981-09-08 nat=VEN fed=VEN",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "36501",
+        "name": "Jesus COLMENAREZ",
+        "birth_date": "1981-09-08",
+        "nationality": "VEN",
+        "federation": "VEN",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 597,
+      "seat": "ICF_ID2",
+      "printed": "VADZIM MAKHNEV",
+      "team": "BLR",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "42044",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "VADZIM",
+          "/",
+          "MACHNEV"
+        ],
+        "icf_variant": [
+          "VADZIM",
+          "/",
+          "MACHNEU"
+        ]
+      },
+      "pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed",
+      "icf_record": "42044 Vadzim MAKHNEU M 1979-12-21 nat=BLR fed=BLR",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "42044",
+        "name": "Vadzim MAKHNEU",
+        "birth_date": "1979-12-21",
+        "nationality": "BLR",
+        "federation": "BLR",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 645,
+      "seat": "ICF_ID1",
+      "printed": "IRINA PODOINKOVA",
+      "team": "KAZ",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "52610",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'IRINA PODOINKOVA' (KAZ, W) -> 52610 Irina PODOINIKOVA (born 1988-06-28, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"IRINA\", \"/\", \"PODOINCOVA\"], \"icf_variant\": [\"IRINA\", \"/\", \"PODOINICOVA\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52610 'Irina PODOINIKOVA' noc=KAZ gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "IRINA",
+          "/",
+          "PODOINCOVA"
+        ],
+        "icf_variant": [
+          "IRINA",
+          "/",
+          "PODOINICOVA"
+        ]
+      },
+      "pww_name_check": "PWW profile 52610 'Irina PODOINIKOVA' noc=KAZ gender=F: name-check passed",
+      "icf_record": "52610 Irina PODOINIKOVA W 1988-06-28 nat=KAZ fed=KAZ",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "52610",
+        "name": "Irina PODOINIKOVA",
+        "birth_date": "1988-06-28",
+        "nationality": "KAZ",
+        "federation": "KAZ",
+        "gender": "W"
+      }
+    },
+    {
+      "results_row": 676,
+      "seat": "ICF_ID2",
+      "printed": "VADZIM MAKHNEV",
+      "team": "BLR",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "42044",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "VADZIM",
+          "/",
+          "MACHNEV"
+        ],
+        "icf_variant": [
+          "VADZIM",
+          "/",
+          "MACHNEU"
+        ]
+      },
+      "pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed",
+      "icf_record": "42044 Vadzim MAKHNEU M 1979-12-21 nat=BLR fed=BLR",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "42044",
+        "name": "Vadzim MAKHNEU",
+        "birth_date": "1979-12-21",
+        "nationality": "BLR",
+        "federation": "BLR",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 682,
+      "seat": "ICF_ID1",
+      "printed": "JESUS COLMENARES",
+      "team": "VEN",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "36501",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'JESUS COLMENARES' (VEN, M) -> 36501 Jesus COLMENAREZ (born 1981-09-08, ICF nationality VEN / federation VEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"JESUS\", \"/\", \"COLMENARES\"], \"icf_variant\": [\"JESUS\", \"/\", \"COLMENAREZ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "JESUS",
+          "/",
+          "COLMENARES"
+        ],
+        "icf_variant": [
+          "JESUS",
+          "/",
+          "COLMENAREZ"
+        ]
+      },
+      "pww_name_check": "PWW profile 36501 'Jesus COLMENAREZ' noc=VEN gender=M: name-check passed",
+      "icf_record": "36501 Jesus COLMENAREZ M 1981-09-08 nat=VEN fed=VEN",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "36501",
+        "name": "Jesus COLMENAREZ",
+        "birth_date": "1981-09-08",
+        "nationality": "VEN",
+        "federation": "VEN",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 707,
+      "seat": "ICF_ID1",
+      "printed": "IRINA PODOINKOVA",
+      "team": "KAZ",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "52610",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'IRINA PODOINKOVA' (KAZ, W) -> 52610 Irina PODOINIKOVA (born 1988-06-28, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"IRINA\", \"/\", \"PODOINCOVA\"], \"icf_variant\": [\"IRINA\", \"/\", \"PODOINICOVA\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 52610 'Irina PODOINIKOVA' noc=KAZ gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "IRINA",
+          "/",
+          "PODOINCOVA"
+        ],
+        "icf_variant": [
+          "IRINA",
+          "/",
+          "PODOINICOVA"
+        ]
+      },
+      "pww_name_check": "PWW profile 52610 'Irina PODOINIKOVA' noc=KAZ gender=F: name-check passed",
+      "icf_record": "52610 Irina PODOINIKOVA W 1988-06-28 nat=KAZ fed=KAZ",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "52610",
+        "name": "Irina PODOINIKOVA",
+        "birth_date": "1988-06-28",
+        "nationality": "KAZ",
+        "federation": "KAZ",
+        "gender": "W"
+      }
+    },
+    {
+      "results_row": 740,
+      "seat": "ICF_ID1",
+      "printed": "YIURI CHEBAN",
+      "team": "UKR",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "46354",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'YIURI CHEBAN' (UKR, M) -> 46354 Iurii CHEBAN (born 1986-07-05, ICF nationality UKR / federation UKR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"IURI\", \"/\", \"CHEBAN\"], \"icf_variant\": [\"IURI\", \"/\", \"CHEBAN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 46354 'Iurii CHEBAN' noc=UKR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "exact",
+        "given": "exact",
+        "printed_variant": [
+          "IURI",
+          "/",
+          "CHEBAN"
+        ],
+        "icf_variant": [
+          "IURI",
+          "/",
+          "CHEBAN"
+        ]
+      },
+      "pww_name_check": "PWW profile 46354 'Iurii CHEBAN' noc=UKR gender=M: name-check passed",
+      "icf_record": "46354 Iurii CHEBAN M 1986-07-05 nat=UKR fed=UKR",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "46354",
+        "name": "Iurii CHEBAN",
+        "birth_date": "1986-07-05",
+        "nationality": "UKR",
+        "federation": "UKR",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 762,
+      "seat": "ICF_ID2",
+      "printed": "VADZIM MAKHNEV",
+      "team": "BLR",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "42044",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "VADZIM",
+          "/",
+          "MACHNEV"
+        ],
+        "icf_variant": [
+          "VADZIM",
+          "/",
+          "MACHNEU"
+        ]
+      },
+      "pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed",
+      "icf_record": "42044 Vadzim MAKHNEU M 1979-12-21 nat=BLR fed=BLR",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "42044",
+        "name": "Vadzim MAKHNEU",
+        "birth_date": "1979-12-21",
+        "nationality": "BLR",
+        "federation": "BLR",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 829,
+      "seat": "ICF_ID2",
+      "printed": "VADZIM MAKHNEV",
+      "team": "BLR",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "42044",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "VADZIM",
+          "/",
+          "MACHNEV"
+        ],
+        "icf_variant": [
+          "VADZIM",
+          "/",
+          "MACHNEU"
+        ]
+      },
+      "pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed",
+      "icf_record": "42044 Vadzim MAKHNEU M 1979-12-21 nat=BLR fed=BLR",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "42044",
+        "name": "Vadzim MAKHNEU",
+        "birth_date": "1979-12-21",
+        "nationality": "BLR",
+        "federation": "BLR",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 879,
+      "seat": "ICF_ID1",
+      "printed": "EDUARD SHEMETILA",
+      "team": "UKR",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "46397",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'EDUARD SHEMETILA' (UKR, M) -> 46397 Eduard SHEMETYLO (born 1990-08-14, ICF nationality UKR / federation UKR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EDUARD\", \"/\", \"SHEMETILA\"], \"icf_variant\": [\"EDUARD\", \"/\", \"SHEMETILO\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 46397 'Eduard SHEMETYLO' noc=UKR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "EDUARD",
+          "/",
+          "SHEMETILA"
+        ],
+        "icf_variant": [
+          "EDUARD",
+          "/",
+          "SHEMETILO"
+        ]
+      },
+      "pww_name_check": "PWW profile 46397 'Eduard SHEMETYLO' noc=UKR gender=M: name-check passed",
+      "icf_record": "46397 Eduard SHEMETYLO M 1990-08-14 nat=UKR fed=UKR",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "46397",
+        "name": "Eduard SHEMETYLO",
+        "birth_date": "1990-08-14",
+        "nationality": "UKR",
+        "federation": "UKR",
+        "gender": "M"
+      }
+    }
+  ],
+  "log_corrections": [
+    {
+      "kind": "log",
+      "field": "sheets.PERSONS.rows",
+      "previous": 135,
+      "new": 152,
+      "previous_label": "sheets.PERSONS.rows",
+      "new_label": "sheets.PERSONS.rows",
+      "rule": "t71 (MAINTAINER_ANSWERS_2026-10-27): the manifest PERSONS row count was stale (135 vs 146 PERSONS data rows in the published xlsx); now the actual count 152 after 6 PERSONS rows added for the approved C3 binds; correction of the log, no seat change"
+    }
+  ]
 }
