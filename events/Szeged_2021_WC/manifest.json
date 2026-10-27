@@ -31,7 +31,7 @@
   "dates": "2021-05-12/2021-05-16",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-25T15:25:49Z",
+  "generated_at_utc": "2026-10-27T20:20:02Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "Digicorp (Prawn) results book prints the scheduled race start to the minute (written HH:MM:00); Digicorp hub dead, no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule). OQ/para races in the same book are kept (one key).",
@@ -16223,11 +16223,45 @@
       "results_row": 193,
       "seat": "ICF_ID2",
       "source_printed_name": "Kristina BEDEC",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Kristina BEDEC' (SRB, W) -> 47779 Krisztina BEDOCS (born 1986-11-20, ICF nationality SRB / federation SRB); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"CRISTINA\", \"/\", \"BEDEC\"], \"icf_variant\": [\"CRISTINA\", \"/\", \"BEDOC\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "SRB",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Kristina BEDEC' (SRB, W) -> 47779 Krisztina BEDOCS (born 1986-11-20, ICF nationality SRB / federation SRB); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"CRISTINA\", \"/\", \"BEDEC\"], \"icf_variant\": [\"CRISTINA\", \"/\", \"BEDOC\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "47779",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Kristina BEDEC",
+        "proposed_id": "47779",
+        "icf_record": "47779 Krisztina BEDOCS W 1986-11-20 nat=SRB fed=SRB",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "CRISTINA",
+            "/",
+            "BEDEC"
+          ],
+          "icf_variant": [
+            "CRISTINA",
+            "/",
+            "BEDOC"
+          ]
+        },
+        "pww_name_check": "PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "47779",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 194,
@@ -20664,11 +20698,45 @@
       "results_row": 548,
       "seat": "ICF_ID2",
       "source_printed_name": "Kristina BEDEC",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Kristina BEDEC' (SRB, W) -> 47779 Krisztina BEDOCS (born 1986-11-20, ICF nationality SRB / federation SRB); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"CRISTINA\", \"/\", \"BEDEC\"], \"icf_variant\": [\"CRISTINA\", \"/\", \"BEDOC\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "SRB",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Kristina BEDEC' (SRB, W) -> 47779 Krisztina BEDOCS (born 1986-11-20, ICF nationality SRB / federation SRB); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"CRISTINA\", \"/\", \"BEDEC\"], \"icf_variant\": [\"CRISTINA\", \"/\", \"BEDOC\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "47779",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Kristina BEDEC",
+        "proposed_id": "47779",
+        "icf_record": "47779 Krisztina BEDOCS W 1986-11-20 nat=SRB fed=SRB",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "CRISTINA",
+            "/",
+            "BEDEC"
+          ],
+          "icf_variant": [
+            "CRISTINA",
+            "/",
+            "BEDOC"
+          ]
+        },
+        "pww_name_check": "PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "47779",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 549,
@@ -23204,11 +23272,45 @@
       "results_row": 790,
       "seat": "ICF_ID1",
       "source_printed_name": "Kristina BEDEC",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Kristina BEDEC' (SRB, W) -> 47779 Krisztina BEDOCS (born 1986-11-20, ICF nationality SRB / federation SRB); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"CRISTINA\", \"/\", \"BEDEC\"], \"icf_variant\": [\"CRISTINA\", \"/\", \"BEDOC\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "SRB",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Kristina BEDEC' (SRB, W) -> 47779 Krisztina BEDOCS (born 1986-11-20, ICF nationality SRB / federation SRB); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"CRISTINA\", \"/\", \"BEDEC\"], \"icf_variant\": [\"CRISTINA\", \"/\", \"BEDOC\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "47779",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Kristina BEDEC",
+        "proposed_id": "47779",
+        "icf_record": "47779 Krisztina BEDOCS W 1986-11-20 nat=SRB fed=SRB",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "CRISTINA",
+            "/",
+            "BEDEC"
+          ],
+          "icf_variant": [
+            "CRISTINA",
+            "/",
+            "BEDOC"
+          ]
+        },
+        "pww_name_check": "PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "47779",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 791,
@@ -28730,11 +28832,45 @@
       "results_row": 1155,
       "seat": "ICF_ID1",
       "source_printed_name": "Kristina BEDEC",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Kristina BEDEC' (SRB, W) -> 47779 Krisztina BEDOCS (born 1986-11-20, ICF nationality SRB / federation SRB); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"CRISTINA\", \"/\", \"BEDEC\"], \"icf_variant\": [\"CRISTINA\", \"/\", \"BEDOC\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "SRB",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Kristina BEDEC' (SRB, W) -> 47779 Krisztina BEDOCS (born 1986-11-20, ICF nationality SRB / federation SRB); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"CRISTINA\", \"/\", \"BEDEC\"], \"icf_variant\": [\"CRISTINA\", \"/\", \"BEDOC\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "47779",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Kristina BEDEC",
+        "proposed_id": "47779",
+        "icf_record": "47779 Krisztina BEDOCS W 1986-11-20 nat=SRB fed=SRB",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "CRISTINA",
+            "/",
+            "BEDEC"
+          ],
+          "icf_variant": [
+            "CRISTINA",
+            "/",
+            "BEDOC"
+          ]
+        },
+        "pww_name_check": "PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "47779",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 1156,
@@ -32833,11 +32969,45 @@
       "results_row": 1478,
       "seat": "ICF_ID1",
       "source_printed_name": "Kristina BEDEC",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Kristina BEDEC' (SRB, W) -> 47779 Krisztina BEDOCS (born 1986-11-20, ICF nationality SRB / federation SRB); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"CRISTINA\", \"/\", \"BEDEC\"], \"icf_variant\": [\"CRISTINA\", \"/\", \"BEDOC\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "SRB",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Kristina BEDEC' (SRB, W) -> 47779 Krisztina BEDOCS (born 1986-11-20, ICF nationality SRB / federation SRB); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"CRISTINA\", \"/\", \"BEDEC\"], \"icf_variant\": [\"CRISTINA\", \"/\", \"BEDOC\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "47779",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Kristina BEDEC",
+        "proposed_id": "47779",
+        "icf_record": "47779 Krisztina BEDOCS W 1986-11-20 nat=SRB fed=SRB",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "CRISTINA",
+            "/",
+            "BEDEC"
+          ],
+          "icf_variant": [
+            "CRISTINA",
+            "/",
+            "BEDOC"
+          ]
+        },
+        "pww_name_check": "PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "47779",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 1479,
@@ -42498,11 +42668,45 @@
       "results_row": 1962,
       "seat": "ICF_ID1",
       "source_printed_name": "Kristina BEDEC",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Kristina BEDEC' (SRB, W) -> 47779 Krisztina BEDOCS (born 1986-11-20, ICF nationality SRB / federation SRB); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"CRISTINA\", \"/\", \"BEDEC\"], \"icf_variant\": [\"CRISTINA\", \"/\", \"BEDOC\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "SRB",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Kristina BEDEC' (SRB, W) -> 47779 Krisztina BEDOCS (born 1986-11-20, ICF nationality SRB / federation SRB); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"CRISTINA\", \"/\", \"BEDEC\"], \"icf_variant\": [\"CRISTINA\", \"/\", \"BEDOC\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "47779",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Kristina BEDEC",
+        "proposed_id": "47779",
+        "icf_record": "47779 Krisztina BEDOCS W 1986-11-20 nat=SRB fed=SRB",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "CRISTINA",
+            "/",
+            "BEDEC"
+          ],
+          "icf_variant": [
+            "CRISTINA",
+            "/",
+            "BEDOC"
+          ]
+        },
+        "pww_name_check": "PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "47779",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 1963,
@@ -42910,7 +43114,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 596
+      "rows": 639
     }
   },
   "domain": "flatwater_sprint",
@@ -42920,12 +43124,12 @@
     {
       "kind": "xlsx",
       "name": "Szeged_2021_WC_Results.xlsx",
-      "sha256": "2b4aeeeaf7be886356d363ae555b2ecc3119c6cad99a76218a48fa7b47fabcc6",
-      "bytes": 169340
+      "sha256": "c670bf05937462c1db66eeb95fa89ef03ab762908a91a620017fedaf0325d155",
+      "bytes": 169402
     }
   ],
   "output_xlsx": "Szeged_2021_WC_Results.xlsx",
-  "output_xlsx_sha256": "2b4aeeeaf7be886356d363ae555b2ecc3119c6cad99a76218a48fa7b47fabcc6",
+  "output_xlsx_sha256": "c670bf05937462c1db66eeb95fa89ef03ab762908a91a620017fedaf0325d155",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -42978,7 +43182,7 @@
       }
     }
   },
-  "updated_at": "2026-10-25T15:25:49Z",
+  "updated_at": "2026-10-27T20:20:02Z",
   "gate_repairs": [
     {
       "icf_id": "75566",
@@ -45495,7 +45699,254 @@
       "253": 25
     }
   },
-  "corrections_log": [],
+  "corrections_log": [
+    {
+      "results_row": 193,
+      "seat": "ICF_ID2",
+      "printed": "Kristina BEDEC",
+      "team": "SRB",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "47779",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Kristina BEDEC' (SRB, W) -> 47779 Krisztina BEDOCS (born 1986-11-20, ICF nationality SRB / federation SRB); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"CRISTINA\", \"/\", \"BEDEC\"], \"icf_variant\": [\"CRISTINA\", \"/\", \"BEDOC\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "CRISTINA",
+          "/",
+          "BEDEC"
+        ],
+        "icf_variant": [
+          "CRISTINA",
+          "/",
+          "BEDOC"
+        ]
+      },
+      "pww_name_check": "PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed",
+      "icf_record": "47779 Krisztina BEDOCS W 1986-11-20 nat=SRB fed=SRB",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "47779",
+        "name": "Krisztina BEDOCS",
+        "birth_date": "1986-11-20",
+        "nationality": "SRB",
+        "federation": "SRB",
+        "gender": "W"
+      }
+    },
+    {
+      "results_row": 548,
+      "seat": "ICF_ID2",
+      "printed": "Kristina BEDEC",
+      "team": "SRB",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "47779",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Kristina BEDEC' (SRB, W) -> 47779 Krisztina BEDOCS (born 1986-11-20, ICF nationality SRB / federation SRB); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"CRISTINA\", \"/\", \"BEDEC\"], \"icf_variant\": [\"CRISTINA\", \"/\", \"BEDOC\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "CRISTINA",
+          "/",
+          "BEDEC"
+        ],
+        "icf_variant": [
+          "CRISTINA",
+          "/",
+          "BEDOC"
+        ]
+      },
+      "pww_name_check": "PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed",
+      "icf_record": "47779 Krisztina BEDOCS W 1986-11-20 nat=SRB fed=SRB",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "47779",
+        "name": "Krisztina BEDOCS",
+        "birth_date": "1986-11-20",
+        "nationality": "SRB",
+        "federation": "SRB",
+        "gender": "W"
+      }
+    },
+    {
+      "results_row": 790,
+      "seat": "ICF_ID1",
+      "printed": "Kristina BEDEC",
+      "team": "SRB",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "47779",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Kristina BEDEC' (SRB, W) -> 47779 Krisztina BEDOCS (born 1986-11-20, ICF nationality SRB / federation SRB); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"CRISTINA\", \"/\", \"BEDEC\"], \"icf_variant\": [\"CRISTINA\", \"/\", \"BEDOC\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "CRISTINA",
+          "/",
+          "BEDEC"
+        ],
+        "icf_variant": [
+          "CRISTINA",
+          "/",
+          "BEDOC"
+        ]
+      },
+      "pww_name_check": "PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed",
+      "icf_record": "47779 Krisztina BEDOCS W 1986-11-20 nat=SRB fed=SRB",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "47779",
+        "name": "Krisztina BEDOCS",
+        "birth_date": "1986-11-20",
+        "nationality": "SRB",
+        "federation": "SRB",
+        "gender": "W"
+      }
+    },
+    {
+      "results_row": 1155,
+      "seat": "ICF_ID1",
+      "printed": "Kristina BEDEC",
+      "team": "SRB",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "47779",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Kristina BEDEC' (SRB, W) -> 47779 Krisztina BEDOCS (born 1986-11-20, ICF nationality SRB / federation SRB); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"CRISTINA\", \"/\", \"BEDEC\"], \"icf_variant\": [\"CRISTINA\", \"/\", \"BEDOC\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "CRISTINA",
+          "/",
+          "BEDEC"
+        ],
+        "icf_variant": [
+          "CRISTINA",
+          "/",
+          "BEDOC"
+        ]
+      },
+      "pww_name_check": "PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed",
+      "icf_record": "47779 Krisztina BEDOCS W 1986-11-20 nat=SRB fed=SRB",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "47779",
+        "name": "Krisztina BEDOCS",
+        "birth_date": "1986-11-20",
+        "nationality": "SRB",
+        "federation": "SRB",
+        "gender": "W"
+      }
+    },
+    {
+      "results_row": 1478,
+      "seat": "ICF_ID1",
+      "printed": "Kristina BEDEC",
+      "team": "SRB",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "47779",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Kristina BEDEC' (SRB, W) -> 47779 Krisztina BEDOCS (born 1986-11-20, ICF nationality SRB / federation SRB); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"CRISTINA\", \"/\", \"BEDEC\"], \"icf_variant\": [\"CRISTINA\", \"/\", \"BEDOC\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "CRISTINA",
+          "/",
+          "BEDEC"
+        ],
+        "icf_variant": [
+          "CRISTINA",
+          "/",
+          "BEDOC"
+        ]
+      },
+      "pww_name_check": "PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed",
+      "icf_record": "47779 Krisztina BEDOCS W 1986-11-20 nat=SRB fed=SRB",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "47779",
+        "name": "Krisztina BEDOCS",
+        "birth_date": "1986-11-20",
+        "nationality": "SRB",
+        "federation": "SRB",
+        "gender": "W"
+      }
+    },
+    {
+      "results_row": 1962,
+      "seat": "ICF_ID1",
+      "printed": "Kristina BEDEC",
+      "team": "SRB",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "47779",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Kristina BEDEC' (SRB, W) -> 47779 Krisztina BEDOCS (born 1986-11-20, ICF nationality SRB / federation SRB); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"CRISTINA\", \"/\", \"BEDEC\"], \"icf_variant\": [\"CRISTINA\", \"/\", \"BEDOC\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "CRISTINA",
+          "/",
+          "BEDEC"
+        ],
+        "icf_variant": [
+          "CRISTINA",
+          "/",
+          "BEDOC"
+        ]
+      },
+      "pww_name_check": "PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed",
+      "icf_record": "47779 Krisztina BEDOCS W 1986-11-20 nat=SRB fed=SRB",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "47779",
+        "name": "Krisztina BEDOCS",
+        "birth_date": "1986-11-20",
+        "nationality": "SRB",
+        "federation": "SRB",
+        "gender": "W"
+      }
+    }
+  ],
   "log_corrections": [
     {
       "kind": "log",
@@ -45514,6 +45965,15 @@
         "name_bound_check.t60_ru166.rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule first + sole-candidate keep + cross-country review (PADDLETAGGER_CONTRACT.md Name-bound ids item 4(a), Under-14 rule and NOC check; now with the RU168 rulings of MAINTAINER_ANSWERS_2026-10-24b and ruling 4 as amended, 2026-10-24c)"
       },
       "rule": "MAINTAINER_ANSWERS_2026-10-25c item 1: the run's rule note cited the superseded under-14 rule as replaced; re-pointed to the governing contract text; the run's counts unchanged; MAINTAINER_ANSWERS_2026-10-25c: correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "log",
+      "field": "sheets.PERSONS.rows",
+      "previous": 596,
+      "new": 639,
+      "previous_label": "sheets.PERSONS.rows",
+      "new_label": "sheets.PERSONS.rows",
+      "rule": "t71 (MAINTAINER_ANSWERS_2026-10-27): the manifest PERSONS row count was stale (596 vs 638 PERSONS data rows in the published xlsx); now the actual count 639 after 1 PERSONS rows added for the approved C3 binds; correction of the log, no seat change"
     }
   ]
 }
