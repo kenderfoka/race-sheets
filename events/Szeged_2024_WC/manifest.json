@@ -10,7 +10,7 @@
   "dates": "2024-05-08/2024-05-12",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-27T19:37:46Z",
+  "generated_at_utc": "2026-10-27T20:31:14Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "Digicorp per-race result PDFs print the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source (hub race pages redirect; Connect/STARTED not published). No ICF ids printed: seats name-bound (bind_seat + PWW profile rule). Para (Paracanoe WCH 2024) and EOQ races in the same hub/book are kept (one key).",
@@ -43831,12 +43831,12 @@
     {
       "kind": "xlsx",
       "name": "Szeged_2024_WC_Results.xlsx",
-      "sha256": "a19ec593d74166a61261dc242ee05754872bdc51a15b6771e9914cf66186b368",
-      "bytes": 179680
+      "sha256": "cb736a0d060410c6f9fe96938091bc4118adab35dbe156f966d36393624f77a5",
+      "bytes": 179678
     }
   ],
   "output_xlsx": "Szeged_2024_WC_Results.xlsx",
-  "output_xlsx_sha256": "a19ec593d74166a61261dc242ee05754872bdc51a15b6771e9914cf66186b368",
+  "output_xlsx_sha256": "cb736a0d060410c6f9fe96938091bc4118adab35dbe156f966d36393624f77a5",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -43888,7 +43888,7 @@
       }
     }
   },
-  "updated_at": "2026-10-27T19:37:46Z",
+  "updated_at": "2026-10-27T20:31:14Z",
   "name_change_log": [
     {
       "results_row": 508,
@@ -44804,6 +44804,29 @@
         "detail": "MAINTAINER_ANSWERS_2026-10-27 item B4: no ICF id for Anna MUS (NED, W) in ICF/PWW/Dutch federation sources, searched 2026-10-27: ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records): no family name MUS and no NED woman named Anna; PaddleWorldwide athlete search (paddleworldwide.com/api/search for 'Anna Mus', 'Mus', 'MUS Anna', 'Anna Mus Netherlands'): no MUS record; PaddleWorldwide profile 104732 (the id once printed for this athlete in Poznan sheets): HTTP 404, and 104732 is not in the ICF list; canoeicf.com/athlete/anna-mus: HTTP 404 (a search-engine copy shows 'Anna MUS (NED)', federation Watersportverbond, no ICF id); Dutch federation (Watersportverbond, the kanosport federation) site search 'Anna Mus' (watersportverbond.nl/zoeken, kanosport.nl): no athlete record or ICF id; C3 fallback steps a-d: no match. The seat stays empty (no_icf_id)"
       },
       "rule": "MAINTAINER_ANSWERS_2026-10-27 item B4: no record found in ICF/PWW/Dutch federation sources; the evidence now lists what was searched; correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "persons_spelling",
+      "sheet": "PERSONS",
+      "excel_row": 701,
+      "id": "47779",
+      "seat_id_unchanged": true,
+      "field": "PERSONS row 701 (ID_ICF 47779) NAME/SURNAME",
+      "previous": {
+        "NAME": "Krisztina",
+        "SURNAME": "BEDOCS"
+      },
+      "new": {
+        "NAME": "Kristina",
+        "SURNAME": "BEDEC"
+      },
+      "printed": "Kristina BEDEC",
+      "printed_seats": [
+        "RESULTS row 36 ICF_ID1",
+        "RESULTS row 62 ICF_ID1"
+      ],
+      "rule": "PADDLETAGGER_CONTRACT.md line 233 (PERSONS section): NAME and SURNAME are the official results spelling, never copied from the ICF page; the t70 Part B PERSONS row had been written with the ICF/PWW spelling (self-correction t72, no id change, so no corrections_log entry)",
+      "logged_at_utc": "2026-10-27T20:26:05Z"
     }
   ]
 }
