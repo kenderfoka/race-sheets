@@ -10,7 +10,7 @@
   "dates": "2013-08-01/2013-08-04",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-25T15:25:49Z",
+  "generated_at_utc": "2026-10-27T20:22:14Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "MemoSoft results book (Spotfokus hub dead) prints the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule). OQ/para races in the same book are kept (one key).",
@@ -10087,11 +10087,47 @@
       "results_row": 10,
       "seat": "ICF_ID3",
       "source_printed_name": "Emma JØRGENSEN",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma JØRGENSEN' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "DEN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma JØRGENSEN' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "42844",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Emma JØRGENSEN",
+        "proposed_id": "42844",
+        "icf_record": "42844 Emma Aastrand JORGENSEN W 1996-01-30 nat=DEN fed=DEN",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "EMA",
+            "/",
+            "J",
+            "RGENSEN"
+          ],
+          "icf_variant": [
+            "EMA",
+            "ASTRAND",
+            "/",
+            "JORGENSEN"
+          ]
+        },
+        "pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "42844",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 10,
@@ -16770,11 +16806,47 @@
       "results_row": 396,
       "seat": "ICF_ID1",
       "source_printed_name": "Emma JØRGENSEN",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma JØRGENSEN' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "DEN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma JØRGENSEN' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "42844",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Emma JØRGENSEN",
+        "proposed_id": "42844",
+        "icf_record": "42844 Emma Aastrand JORGENSEN W 1996-01-30 nat=DEN fed=DEN",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "EMA",
+            "/",
+            "J",
+            "RGENSEN"
+          ],
+          "icf_variant": [
+            "EMA",
+            "ASTRAND",
+            "/",
+            "JORGENSEN"
+          ]
+        },
+        "pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "42844",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 397,
@@ -18823,11 +18895,47 @@
       "results_row": 502,
       "seat": "ICF_ID1",
       "source_printed_name": "Emma JØRGENSEN",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma JØRGENSEN' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "DEN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma JØRGENSEN' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "42844",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Emma JØRGENSEN",
+        "proposed_id": "42844",
+        "icf_record": "42844 Emma Aastrand JORGENSEN W 1996-01-30 nat=DEN fed=DEN",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "EMA",
+            "/",
+            "J",
+            "RGENSEN"
+          ],
+          "icf_variant": [
+            "EMA",
+            "ASTRAND",
+            "/",
+            "JORGENSEN"
+          ]
+        },
+        "pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "42844",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 503,
@@ -20178,11 +20286,47 @@
       "results_row": 600,
       "seat": "ICF_ID1",
       "source_printed_name": "Emma JØRGENSEN",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma JØRGENSEN' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "DEN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma JØRGENSEN' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "42844",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Emma JØRGENSEN",
+        "proposed_id": "42844",
+        "icf_record": "42844 Emma Aastrand JORGENSEN W 1996-01-30 nat=DEN fed=DEN",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "EMA",
+            "/",
+            "J",
+            "RGENSEN"
+          ],
+          "icf_variant": [
+            "EMA",
+            "ASTRAND",
+            "/",
+            "JORGENSEN"
+          ]
+        },
+        "pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "42844",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 601,
@@ -22858,11 +23002,47 @@
       "results_row": 798,
       "seat": "ICF_ID3",
       "source_printed_name": "Emma JØRGENSEN",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma JØRGENSEN' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "DEN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma JØRGENSEN' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "42844",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Emma JØRGENSEN",
+        "proposed_id": "42844",
+        "icf_record": "42844 Emma Aastrand JORGENSEN W 1996-01-30 nat=DEN fed=DEN",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "EMA",
+            "/",
+            "J",
+            "RGENSEN"
+          ],
+          "icf_variant": [
+            "EMA",
+            "ASTRAND",
+            "/",
+            "JORGENSEN"
+          ]
+        },
+        "pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "42844",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 798,
@@ -25629,11 +25809,47 @@
       "results_row": 980,
       "seat": "ICF_ID1",
       "source_printed_name": "Emma JØRGENSEN",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma JØRGENSEN' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "DEN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma JØRGENSEN' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "42844",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Emma JØRGENSEN",
+        "proposed_id": "42844",
+        "icf_record": "42844 Emma Aastrand JORGENSEN W 1996-01-30 nat=DEN fed=DEN",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "EMA",
+            "/",
+            "J",
+            "RGENSEN"
+          ],
+          "icf_variant": [
+            "EMA",
+            "ASTRAND",
+            "/",
+            "JORGENSEN"
+          ]
+        },
+        "pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "42844",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 981,
@@ -28212,11 +28428,47 @@
       "results_row": 1186,
       "seat": "ICF_ID1",
       "source_printed_name": "Emma JØRGENSEN",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma JØRGENSEN' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "DEN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma JØRGENSEN' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "42844",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Emma JØRGENSEN",
+        "proposed_id": "42844",
+        "icf_record": "42844 Emma Aastrand JORGENSEN W 1996-01-30 nat=DEN fed=DEN",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "EMA",
+            "/",
+            "J",
+            "RGENSEN"
+          ],
+          "icf_variant": [
+            "EMA",
+            "ASTRAND",
+            "/",
+            "JORGENSEN"
+          ]
+        },
+        "pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "42844",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 1187,
@@ -30135,11 +30387,47 @@
       "results_row": 1322,
       "seat": "ICF_ID1",
       "source_printed_name": "Emma JØRGENSEN",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma JØRGENSEN' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "DEN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma JØRGENSEN' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "42844",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Emma JØRGENSEN",
+        "proposed_id": "42844",
+        "icf_record": "42844 Emma Aastrand JORGENSEN W 1996-01-30 nat=DEN fed=DEN",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "EMA",
+            "/",
+            "J",
+            "RGENSEN"
+          ],
+          "icf_variant": [
+            "EMA",
+            "ASTRAND",
+            "/",
+            "JORGENSEN"
+          ]
+        },
+        "pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma JØRGENSEN (DEN, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "42844",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 1323,
@@ -31468,7 +31756,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 365
+      "rows": 382
     }
   },
   "no_race_printed": [],
@@ -31488,12 +31776,12 @@
     {
       "kind": "xlsx",
       "name": "Welland_2013_JWCH_Results.xlsx",
-      "sha256": "eb99e2a6c85dde93a00349efd5b94cedf667976aa6359c19e6335c0c63b46d99",
-      "bytes": 117001
+      "sha256": "8d67d24d2fc70f519e4a5c24af5f9a7a39ffeebab3f22d10344d42db34d1f9fe",
+      "bytes": 117080
     }
   ],
   "output_xlsx": "Welland_2013_JWCH_Results.xlsx",
-  "output_xlsx_sha256": "eb99e2a6c85dde93a00349efd5b94cedf667976aa6359c19e6335c0c63b46d99",
+  "output_xlsx_sha256": "8d67d24d2fc70f519e4a5c24af5f9a7a39ffeebab3f22d10344d42db34d1f9fe",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -31549,7 +31837,7 @@
       }
     }
   },
-  "updated_at": "2026-10-25T15:25:49Z",
+  "updated_at": "2026-10-27T20:22:14Z",
   "name_change_log": [
     {
       "results_row": 6,
@@ -31963,6 +32251,350 @@
         "federation": "MEX"
       },
       "new_record": null
+    },
+    {
+      "results_row": 10,
+      "seat": "ICF_ID3",
+      "printed": "Emma JØRGENSEN",
+      "team": "DEN",
+      "category": "JUNIOR",
+      "previous_id": "",
+      "new_id": "42844",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma JØRGENSEN' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "EMA",
+          "/",
+          "J",
+          "RGENSEN"
+        ],
+        "icf_variant": [
+          "EMA",
+          "ASTRAND",
+          "/",
+          "JORGENSEN"
+        ]
+      },
+      "pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+      "icf_record": "42844 Emma Aastrand JORGENSEN W 1996-01-30 nat=DEN fed=DEN",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "42844",
+        "name": "Emma Aastrand JORGENSEN",
+        "birth_date": "1996-01-30",
+        "nationality": "DEN",
+        "federation": "DEN",
+        "gender": "W"
+      }
+    },
+    {
+      "results_row": 396,
+      "seat": "ICF_ID1",
+      "printed": "Emma JØRGENSEN",
+      "team": "DEN",
+      "category": "JUNIOR",
+      "previous_id": "",
+      "new_id": "42844",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma JØRGENSEN' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "EMA",
+          "/",
+          "J",
+          "RGENSEN"
+        ],
+        "icf_variant": [
+          "EMA",
+          "ASTRAND",
+          "/",
+          "JORGENSEN"
+        ]
+      },
+      "pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+      "icf_record": "42844 Emma Aastrand JORGENSEN W 1996-01-30 nat=DEN fed=DEN",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "42844",
+        "name": "Emma Aastrand JORGENSEN",
+        "birth_date": "1996-01-30",
+        "nationality": "DEN",
+        "federation": "DEN",
+        "gender": "W"
+      }
+    },
+    {
+      "results_row": 502,
+      "seat": "ICF_ID1",
+      "printed": "Emma JØRGENSEN",
+      "team": "DEN",
+      "category": "JUNIOR",
+      "previous_id": "",
+      "new_id": "42844",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma JØRGENSEN' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "EMA",
+          "/",
+          "J",
+          "RGENSEN"
+        ],
+        "icf_variant": [
+          "EMA",
+          "ASTRAND",
+          "/",
+          "JORGENSEN"
+        ]
+      },
+      "pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+      "icf_record": "42844 Emma Aastrand JORGENSEN W 1996-01-30 nat=DEN fed=DEN",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "42844",
+        "name": "Emma Aastrand JORGENSEN",
+        "birth_date": "1996-01-30",
+        "nationality": "DEN",
+        "federation": "DEN",
+        "gender": "W"
+      }
+    },
+    {
+      "results_row": 600,
+      "seat": "ICF_ID1",
+      "printed": "Emma JØRGENSEN",
+      "team": "DEN",
+      "category": "JUNIOR",
+      "previous_id": "",
+      "new_id": "42844",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma JØRGENSEN' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "EMA",
+          "/",
+          "J",
+          "RGENSEN"
+        ],
+        "icf_variant": [
+          "EMA",
+          "ASTRAND",
+          "/",
+          "JORGENSEN"
+        ]
+      },
+      "pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+      "icf_record": "42844 Emma Aastrand JORGENSEN W 1996-01-30 nat=DEN fed=DEN",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "42844",
+        "name": "Emma Aastrand JORGENSEN",
+        "birth_date": "1996-01-30",
+        "nationality": "DEN",
+        "federation": "DEN",
+        "gender": "W"
+      }
+    },
+    {
+      "results_row": 798,
+      "seat": "ICF_ID3",
+      "printed": "Emma JØRGENSEN",
+      "team": "DEN",
+      "category": "JUNIOR",
+      "previous_id": "",
+      "new_id": "42844",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma JØRGENSEN' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "EMA",
+          "/",
+          "J",
+          "RGENSEN"
+        ],
+        "icf_variant": [
+          "EMA",
+          "ASTRAND",
+          "/",
+          "JORGENSEN"
+        ]
+      },
+      "pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+      "icf_record": "42844 Emma Aastrand JORGENSEN W 1996-01-30 nat=DEN fed=DEN",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "42844",
+        "name": "Emma Aastrand JORGENSEN",
+        "birth_date": "1996-01-30",
+        "nationality": "DEN",
+        "federation": "DEN",
+        "gender": "W"
+      }
+    },
+    {
+      "results_row": 980,
+      "seat": "ICF_ID1",
+      "printed": "Emma JØRGENSEN",
+      "team": "DEN",
+      "category": "JUNIOR",
+      "previous_id": "",
+      "new_id": "42844",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma JØRGENSEN' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "EMA",
+          "/",
+          "J",
+          "RGENSEN"
+        ],
+        "icf_variant": [
+          "EMA",
+          "ASTRAND",
+          "/",
+          "JORGENSEN"
+        ]
+      },
+      "pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+      "icf_record": "42844 Emma Aastrand JORGENSEN W 1996-01-30 nat=DEN fed=DEN",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "42844",
+        "name": "Emma Aastrand JORGENSEN",
+        "birth_date": "1996-01-30",
+        "nationality": "DEN",
+        "federation": "DEN",
+        "gender": "W"
+      }
+    },
+    {
+      "results_row": 1186,
+      "seat": "ICF_ID1",
+      "printed": "Emma JØRGENSEN",
+      "team": "DEN",
+      "category": "JUNIOR",
+      "previous_id": "",
+      "new_id": "42844",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma JØRGENSEN' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "EMA",
+          "/",
+          "J",
+          "RGENSEN"
+        ],
+        "icf_variant": [
+          "EMA",
+          "ASTRAND",
+          "/",
+          "JORGENSEN"
+        ]
+      },
+      "pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+      "icf_record": "42844 Emma Aastrand JORGENSEN W 1996-01-30 nat=DEN fed=DEN",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "42844",
+        "name": "Emma Aastrand JORGENSEN",
+        "birth_date": "1996-01-30",
+        "nationality": "DEN",
+        "federation": "DEN",
+        "gender": "W"
+      }
+    },
+    {
+      "results_row": 1322,
+      "seat": "ICF_ID1",
+      "printed": "Emma JØRGENSEN",
+      "team": "DEN",
+      "category": "JUNIOR",
+      "previous_id": "",
+      "new_id": "42844",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma JØRGENSEN' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "EMA",
+          "/",
+          "J",
+          "RGENSEN"
+        ],
+        "icf_variant": [
+          "EMA",
+          "ASTRAND",
+          "/",
+          "JORGENSEN"
+        ]
+      },
+      "pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+      "icf_record": "42844 Emma Aastrand JORGENSEN W 1996-01-30 nat=DEN fed=DEN",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "42844",
+        "name": "Emma Aastrand JORGENSEN",
+        "birth_date": "1996-01-30",
+        "nationality": "DEN",
+        "federation": "DEN",
+        "gender": "W"
+      }
     }
   ],
   "log_corrections": [
@@ -31983,6 +32615,15 @@
         "name_bound_check.t60_ru166.rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule first + sole-candidate keep + cross-country review (PADDLETAGGER_CONTRACT.md Name-bound ids item 4(a), Under-14 rule and NOC check; now with the RU168 rulings of MAINTAINER_ANSWERS_2026-10-24b and ruling 4 as amended, 2026-10-24c)"
       },
       "rule": "MAINTAINER_ANSWERS_2026-10-25c item 1: the run's rule note cited the superseded under-14 rule as replaced; re-pointed to the governing contract text; the run's counts unchanged; MAINTAINER_ANSWERS_2026-10-25c: correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "log",
+      "field": "sheets.PERSONS.rows",
+      "previous": 365,
+      "new": 382,
+      "previous_label": "sheets.PERSONS.rows",
+      "new_label": "sheets.PERSONS.rows",
+      "rule": "t71 (MAINTAINER_ANSWERS_2026-10-27): the manifest PERSONS row count was stale (365 vs 381 PERSONS data rows in the published xlsx); now the actual count 382 after 1 PERSONS rows added for the approved C3 binds; correction of the log, no seat change"
     }
   ]
 }

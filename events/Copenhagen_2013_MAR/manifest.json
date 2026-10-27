@@ -10,7 +10,7 @@
   "dates": "2013-09-20/2013-09-22",
   "discipline": "marathon",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-25T15:25:49Z",
+  "generated_at_utc": "2026-10-27T20:22:14Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "Organiser Excel results book prints race number, date, distance and the start clock to the minute (written HH:MM:00). RESULT = printed time; DIFFERENCE not written (marathon precedent). STARTING_LANE = printed boat number; Bib are event bibs. Names printed with mojibake (\\u00e3 for many letters): re-decoded where clean, else the single matching profile under the profile check, else seat emptied, row kept, logged in q20_emptied_seats (maintainer 2026-10-17 Q20). PERSONS names from the profile.",
@@ -6752,11 +6752,45 @@
       "results_row": 338,
       "seat": "ICF_ID1",
       "source_printed_name": "Gaona Gaston",
-      "action": "no_icf_id",
-      "source": "pww_search",
+      "action": "corrected",
+      "source": "c3_fallback",
       "team": "ARG",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Gaona Gaston (ARG, M)",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Gaona Gaston (ARG, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Gaona Gaston' (ARG, M) -> 161210 Gaston GAUNA (born 1988-11-04, ICF nationality ARG / federation ARG); C3 step b; match {\"orientation\": \"swapped\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"GASTON\", \"/\", \"GAONA\"], \"icf_variant\": [\"GASTON\", \"/\", \"GAUNA\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 161210 'Gaston GAUNA' noc=ARG gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Gaona Gaston' (ARG, M) -> 161210 Gaston GAUNA (born 1988-11-04, ICF nationality ARG / federation ARG); C3 step b; match {\"orientation\": \"swapped\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"GASTON\", \"/\", \"GAONA\"], \"icf_variant\": [\"GASTON\", \"/\", \"GAUNA\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 161210 'Gaston GAUNA' noc=ARG gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "161210",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Gaona Gaston",
+        "proposed_id": "161210",
+        "icf_record": "161210 Gaston GAUNA M 1988-11-04 nat=ARG fed=ARG",
+        "step": "b",
+        "match": {
+          "orientation": "swapped",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "GASTON",
+            "/",
+            "GAONA"
+          ],
+          "icf_variant": [
+            "GASTON",
+            "/",
+            "GAUNA"
+          ]
+        },
+        "pww_name_check": "PWW profile 161210 'Gaston GAUNA' noc=ARG gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 161210 'Gaston GAUNA' noc=ARG gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Gaona Gaston (ARG, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "161210",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 338,
@@ -7993,7 +8027,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 218
+      "rows": 234
     }
   },
   "domain": "flatwater_marathon",
@@ -8003,12 +8037,12 @@
     {
       "kind": "xlsx",
       "name": "Copenhagen_2013_MAR_Results.xlsx",
-      "sha256": "21358321292474b0c7cad5a6d3439d669a7e107b60c766e42d8621b8e8be34d2",
-      "bytes": 34367
+      "sha256": "1f03412989c43e957fb33b8879adfd785dc6c2fc47921348bb43f57e2d66a142",
+      "bytes": 34400
     }
   ],
   "output_xlsx": "Copenhagen_2013_MAR_Results.xlsx",
-  "output_xlsx_sha256": "21358321292474b0c7cad5a6d3439d669a7e107b60c766e42d8621b8e8be34d2",
+  "output_xlsx_sha256": "1f03412989c43e957fb33b8879adfd785dc6c2fc47921348bb43f57e2d66a142",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -8061,7 +8095,7 @@
       }
     }
   },
-  "updated_at": "2026-10-25T15:25:49Z",
+  "updated_at": "2026-10-27T20:22:14Z",
   "nation_change_log": [
     {
       "id": "48800",
@@ -8130,6 +8164,47 @@
         "nationality": "POR",
         "federation": "POR"
       }
+    },
+    {
+      "results_row": 338,
+      "seat": "ICF_ID1",
+      "printed": "Gaona Gaston",
+      "team": "ARG",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "161210",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Gaona Gaston' (ARG, M) -> 161210 Gaston GAUNA (born 1988-11-04, ICF nationality ARG / federation ARG); C3 step b; match {\"orientation\": \"swapped\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"GASTON\", \"/\", \"GAONA\"], \"icf_variant\": [\"GASTON\", \"/\", \"GAUNA\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 161210 'Gaston GAUNA' noc=ARG gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "swapped",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "GASTON",
+          "/",
+          "GAONA"
+        ],
+        "icf_variant": [
+          "GASTON",
+          "/",
+          "GAUNA"
+        ]
+      },
+      "pww_name_check": "PWW profile 161210 'Gaston GAUNA' noc=ARG gender=M: name-check passed",
+      "icf_record": "161210 Gaston GAUNA M 1988-11-04 nat=ARG fed=ARG",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "161210",
+        "name": "Gaston GAUNA",
+        "birth_date": "1988-11-04",
+        "nationality": "ARG",
+        "federation": "ARG",
+        "gender": "M"
+      }
     }
   ],
   "log_corrections": [
@@ -8150,6 +8225,15 @@
         "name_bound_check.t60_ru166.rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule first + sole-candidate keep + cross-country review (PADDLETAGGER_CONTRACT.md Name-bound ids item 4(a), Under-14 rule and NOC check; now with the RU168 rulings of MAINTAINER_ANSWERS_2026-10-24b and ruling 4 as amended, 2026-10-24c)"
       },
       "rule": "MAINTAINER_ANSWERS_2026-10-25c item 1: the run's rule note cited the superseded under-14 rule as replaced; re-pointed to the governing contract text; the run's counts unchanged; MAINTAINER_ANSWERS_2026-10-25c: correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "log",
+      "field": "sheets.PERSONS.rows",
+      "previous": 218,
+      "new": 234,
+      "previous_label": "sheets.PERSONS.rows",
+      "new_label": "sheets.PERSONS.rows",
+      "rule": "t71 (MAINTAINER_ANSWERS_2026-10-27): the manifest PERSONS row count was stale (218 vs 233 PERSONS data rows in the published xlsx); now the actual count 234 after 1 PERSONS rows added for the approved C3 binds; correction of the log, no seat change"
     }
   ]
 }
