@@ -10,7 +10,7 @@
   "dates": "2010-09-24/2010-09-26",
   "discipline": "marathon",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-25T15:25:49Z",
+  "generated_at_utc": "2026-10-27T20:22:50Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "2010 ICF Canoe Marathon World Championships Banyoles-Girona, organiser results book. One final per class; START_TIME = printed start time; DISTANCE = printed km x 1000. Names 'FAMILY Given'; all-caps unsplit names split by the one matching ICF profile (rule Q19) or passed as printed, logged. Status words mapped No Start->DNS, Disqualified->DSQ, Retired->DNF (Q59). Points columns ignored.",
@@ -2478,11 +2478,45 @@
       "results_row": 27,
       "seat": "ICF_ID1",
       "source_printed_name": "Malin TITOTIC",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Malin TITOTIC (SLO, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Malin TITOTIC' (SLO, M) -> 61292 Malin TITORIC (born 1992-05-26, ICF nationality SLO / federation SLO); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"MALIN\", \"/\", \"TITOTIC\"], \"icf_variant\": [\"MALIN\", \"/\", \"TITORIC\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 61292 'Malin TITORIC' noc=SLO gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "SLO",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Malin TITOTIC (SLO, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Malin TITOTIC' (SLO, M) -> 61292 Malin TITORIC (born 1992-05-26, ICF nationality SLO / federation SLO); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"MALIN\", \"/\", \"TITOTIC\"], \"icf_variant\": [\"MALIN\", \"/\", \"TITORIC\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 61292 'Malin TITORIC' noc=SLO gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "61292",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Malin TITOTIC",
+        "proposed_id": "61292",
+        "icf_record": "61292 Malin TITORIC M 1992-05-26 nat=SLO fed=SLO",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "MALIN",
+            "/",
+            "TITOTIC"
+          ],
+          "icf_variant": [
+            "MALIN",
+            "/",
+            "TITORIC"
+          ]
+        },
+        "pww_name_check": "PWW profile 61292 'Malin TITORIC' noc=SLO gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 61292 'Malin TITORIC' noc=SLO gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Malin TITOTIC (SLO, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "61292",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 28,
@@ -2863,11 +2897,45 @@
       "results_row": 65,
       "seat": "ICF_ID1",
       "source_printed_name": "Yul OELZE",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Yul OELZE (GER, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Yul OELZE' (GER, M) -> 42510 Yul OELTZE (born 1993-09-13, ICF nationality GER / federation GER); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"IUL\", \"/\", \"OELZE\"], \"icf_variant\": [\"IUL\", \"/\", \"OELTZE\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42510 'Yul OELTZE' noc=GER gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "GER",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Yul OELZE (GER, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Yul OELZE' (GER, M) -> 42510 Yul OELTZE (born 1993-09-13, ICF nationality GER / federation GER); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"IUL\", \"/\", \"OELZE\"], \"icf_variant\": [\"IUL\", \"/\", \"OELTZE\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42510 'Yul OELTZE' noc=GER gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "42510",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Yul OELZE",
+        "proposed_id": "42510",
+        "icf_record": "42510 Yul OELTZE M 1993-09-13 nat=GER fed=GER",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "IUL",
+            "/",
+            "OELZE"
+          ],
+          "icf_variant": [
+            "IUL",
+            "/",
+            "OELTZE"
+          ]
+        },
+        "pww_name_check": "PWW profile 42510 'Yul OELTZE' noc=GER gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 42510 'Yul OELTZE' noc=GER gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Yul OELZE (GER, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "42510",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 66,
@@ -4280,11 +4348,47 @@
       "results_row": 171,
       "seat": "ICF_ID1",
       "source_printed_name": "Sofie JØRGENSEN",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sofie JØRGENSEN (DEN, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sofie JØRGENSEN' (DEN, W) -> 49637 Sofie Aastrand JORGENSEN (born 1992-09-03, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"SOFIE\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"SOFIE\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 49637 'Sofie Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "DEN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sofie JØRGENSEN (DEN, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sofie JØRGENSEN' (DEN, W) -> 49637 Sofie Aastrand JORGENSEN (born 1992-09-03, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"SOFIE\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"SOFIE\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 49637 'Sofie Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "49637",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Sofie JØRGENSEN",
+        "proposed_id": "49637",
+        "icf_record": "49637 Sofie Aastrand JORGENSEN W 1992-09-03 nat=DEN fed=DEN",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "SOFIE",
+            "/",
+            "J",
+            "RGENSEN"
+          ],
+          "icf_variant": [
+            "SOFIE",
+            "ASTRAND",
+            "/",
+            "JORGENSEN"
+          ]
+        },
+        "pww_name_check": "PWW profile 49637 'Sofie Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 49637 'Sofie Aastrand JORGENSEN' noc=DEN gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sofie JØRGENSEN (DEN, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "49637",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 171,
@@ -6601,7 +6705,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 139
+      "rows": 156
     }
   },
   "printed_field_counts": {
@@ -6695,12 +6799,12 @@
     {
       "kind": "xlsx",
       "name": "Banyoles_2010_MAR_Results.xlsx",
-      "sha256": "18d6058758d697cc6f07ab5447419c99def7c18bb137c509f09db7ffaa81dc00",
-      "bytes": 30948
+      "sha256": "a7373cd39427de74de0972c50add81149eba53e372ce3c8638f610e8c49fcc5d",
+      "bytes": 31055
     }
   ],
   "output_xlsx": "Banyoles_2010_MAR_Results.xlsx",
-  "output_xlsx_sha256": "18d6058758d697cc6f07ab5447419c99def7c18bb137c509f09db7ffaa81dc00",
+  "output_xlsx_sha256": "a7373cd39427de74de0972c50add81149eba53e372ce3c8638f610e8c49fcc5d",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -6777,7 +6881,7 @@
       }
     }
   },
-  "updated_at": "2026-10-25T15:25:49Z",
+  "updated_at": "2026-10-27T20:22:50Z",
   "under14_log": {
     "rule": "PADDLETAGGER_CONTRACT.md Under-14 rule: the RU166 age rule of MAINTAINER_ANSWERS_2026-10-24 with RU168 rulings 3 and 8 (MAINTAINER_ANSWERS_2026-10-24b) and ruling 4 as amended (MAINTAINER_ANSWERS_2026-10-24c): an athlete under 14 on the meeting's first day, or born after it, never fits the age rule; such a sole candidate is kept only when its profile lists the meeting, otherwise the seat is no_icf_id with the candidate logged; surname-only prints never get the sole-candidate keep. This log records the seats whose earlier under-14 emptying is now decided by those rules; each seat cites its governing rule (MAINTAINER_ANSWERS_2026-10-25)",
     "first_day": "2010-09-24",
@@ -6962,6 +7066,131 @@
         "federation": "GBR"
       },
       "new_record": null
+    },
+    {
+      "results_row": 27,
+      "seat": "ICF_ID1",
+      "printed": "Malin TITOTIC",
+      "team": "SLO",
+      "category": "JUNIOR",
+      "previous_id": "",
+      "new_id": "61292",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Malin TITOTIC' (SLO, M) -> 61292 Malin TITORIC (born 1992-05-26, ICF nationality SLO / federation SLO); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"MALIN\", \"/\", \"TITOTIC\"], \"icf_variant\": [\"MALIN\", \"/\", \"TITORIC\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 61292 'Malin TITORIC' noc=SLO gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "MALIN",
+          "/",
+          "TITOTIC"
+        ],
+        "icf_variant": [
+          "MALIN",
+          "/",
+          "TITORIC"
+        ]
+      },
+      "pww_name_check": "PWW profile 61292 'Malin TITORIC' noc=SLO gender=M: name-check passed",
+      "icf_record": "61292 Malin TITORIC M 1992-05-26 nat=SLO fed=SLO",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "61292",
+        "name": "Malin TITORIC",
+        "birth_date": "1992-05-26",
+        "nationality": "SLO",
+        "federation": "SLO",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 65,
+      "seat": "ICF_ID1",
+      "printed": "Yul OELZE",
+      "team": "GER",
+      "category": "JUNIOR",
+      "previous_id": "",
+      "new_id": "42510",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Yul OELZE' (GER, M) -> 42510 Yul OELTZE (born 1993-09-13, ICF nationality GER / federation GER); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"IUL\", \"/\", \"OELZE\"], \"icf_variant\": [\"IUL\", \"/\", \"OELTZE\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42510 'Yul OELTZE' noc=GER gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "IUL",
+          "/",
+          "OELZE"
+        ],
+        "icf_variant": [
+          "IUL",
+          "/",
+          "OELTZE"
+        ]
+      },
+      "pww_name_check": "PWW profile 42510 'Yul OELTZE' noc=GER gender=M: name-check passed",
+      "icf_record": "42510 Yul OELTZE M 1993-09-13 nat=GER fed=GER",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "42510",
+        "name": "Yul OELTZE",
+        "birth_date": "1993-09-13",
+        "nationality": "GER",
+        "federation": "GER",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 171,
+      "seat": "ICF_ID1",
+      "printed": "Sofie JØRGENSEN",
+      "team": "DEN",
+      "category": "JUNIOR",
+      "previous_id": "",
+      "new_id": "49637",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sofie JØRGENSEN' (DEN, W) -> 49637 Sofie Aastrand JORGENSEN (born 1992-09-03, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"SOFIE\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"SOFIE\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 49637 'Sofie Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "SOFIE",
+          "/",
+          "J",
+          "RGENSEN"
+        ],
+        "icf_variant": [
+          "SOFIE",
+          "ASTRAND",
+          "/",
+          "JORGENSEN"
+        ]
+      },
+      "pww_name_check": "PWW profile 49637 'Sofie Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+      "icf_record": "49637 Sofie Aastrand JORGENSEN W 1992-09-03 nat=DEN fed=DEN",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "49637",
+        "name": "Sofie Aastrand JORGENSEN",
+        "birth_date": "1992-09-03",
+        "nationality": "DEN",
+        "federation": "DEN",
+        "gender": "W"
+      }
     }
   ],
   "log_corrections": [
@@ -7885,6 +8114,15 @@
         "name_bound_check.t60_ru166.rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule first + sole-candidate keep + cross-country review (PADDLETAGGER_CONTRACT.md Name-bound ids item 4(a), Under-14 rule and NOC check; now with the RU168 rulings of MAINTAINER_ANSWERS_2026-10-24b and ruling 4 as amended, 2026-10-24c)"
       },
       "rule": "MAINTAINER_ANSWERS_2026-10-25c item 1: the run's rule note cited the superseded under-14 rule as replaced; re-pointed to the governing contract text; the run's counts unchanged; MAINTAINER_ANSWERS_2026-10-25c: correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "log",
+      "field": "sheets.PERSONS.rows",
+      "previous": 139,
+      "new": 156,
+      "previous_label": "sheets.PERSONS.rows",
+      "new_label": "sheets.PERSONS.rows",
+      "rule": "t71 (MAINTAINER_ANSWERS_2026-10-27): the manifest PERSONS row count was stale (139 vs 153 PERSONS data rows in the published xlsx); now the actual count 156 after 3 PERSONS rows added for the approved C3 binds; correction of the log, no seat change"
     }
   ]
 }
