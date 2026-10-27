@@ -10,7 +10,7 @@
   "dates": "2009-09-18/2009-09-20",
   "discipline": "marathon",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-25T15:25:49Z",
+  "generated_at_utc": "2026-10-27T20:23:03Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "ICF archive results book (Crestuma/Gaia, 18-20 Sep 2009). START_TIME = start printed in each race header (scheduled; HH:MM:00). RESULT = printed time; DIFFERENCE not written (marathon precedent). STARTING_LANE = printed boat number; Bib(s) are event bibs, BIB_BOAT empty. TEAM = NOC code printed sideways beside the flag image, read by OCR and checked by eye per distinct strip image (MAINTAINER_ANSWERS_2026-10-19b Q58; noc_strip_log). DISTANCE not printed. No ICF ids printed: bind_seat; pre-2013 seats bound_by_name_unconfirmed (Q44).",
@@ -2922,11 +2922,45 @@
       "results_row": 67,
       "seat": "ICF_ID1",
       "source_printed_name": "Henrik VASBAYAI",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Henrik VASBAYAI (HUN, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Henrik VASBAYAI' (HUN, M) -> 47426 Henrik VASBANYAI (born 1991-07-16, ICF nationality HUN / federation HUN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"HENRIC\", \"/\", \"VASBAIAI\"], \"icf_variant\": [\"HENRIC\", \"/\", \"VASBANIAI\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 47426 'Henrik VASBANYAI' noc=HUN gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "HUN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Henrik VASBAYAI (HUN, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Henrik VASBAYAI' (HUN, M) -> 47426 Henrik VASBANYAI (born 1991-07-16, ICF nationality HUN / federation HUN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"HENRIC\", \"/\", \"VASBAIAI\"], \"icf_variant\": [\"HENRIC\", \"/\", \"VASBANIAI\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 47426 'Henrik VASBANYAI' noc=HUN gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "47426",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Henrik VASBAYAI",
+        "proposed_id": "47426",
+        "icf_record": "47426 Henrik VASBANYAI M 1991-07-16 nat=HUN fed=HUN",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "HENRIC",
+            "/",
+            "VASBAIAI"
+          ],
+          "icf_variant": [
+            "HENRIC",
+            "/",
+            "VASBANIAI"
+          ]
+        },
+        "pww_name_check": "PWW profile 47426 'Henrik VASBANYAI' noc=HUN gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 47426 'Henrik VASBANYAI' noc=HUN gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Henrik VASBAYAI (HUN, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "47426",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 68,
@@ -4788,11 +4822,45 @@
       "results_row": 189,
       "seat": "ICF_ID1",
       "source_printed_name": "Henrik VASBAYAI",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Henrik VASBAYAI (HUN, )",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Henrik VASBAYAI' (HUN, gender empty) -> 47426 Henrik VASBANYAI (born 1991-07-16, ICF nationality HUN / federation HUN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"HENRIC\", \"/\", \"VASBAIAI\"], \"icf_variant\": [\"HENRIC\", \"/\", \"VASBANIAI\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 47426 'Henrik VASBANYAI' noc=HUN gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "HUN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Henrik VASBAYAI (HUN, )"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Henrik VASBAYAI' (HUN, gender empty) -> 47426 Henrik VASBANYAI (born 1991-07-16, ICF nationality HUN / federation HUN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"HENRIC\", \"/\", \"VASBAIAI\"], \"icf_variant\": [\"HENRIC\", \"/\", \"VASBANIAI\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 47426 'Henrik VASBANYAI' noc=HUN gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "47426",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Henrik VASBAYAI",
+        "proposed_id": "47426",
+        "icf_record": "47426 Henrik VASBANYAI M 1991-07-16 nat=HUN fed=HUN",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "HENRIC",
+            "/",
+            "VASBAIAI"
+          ],
+          "icf_variant": [
+            "HENRIC",
+            "/",
+            "VASBANIAI"
+          ]
+        },
+        "pww_name_check": "PWW profile 47426 'Henrik VASBANYAI' noc=HUN gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 47426 'Henrik VASBANYAI' noc=HUN gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Henrik VASBAYAI (HUN, )",
+      "correction": {
+        "previous_id": "",
+        "new_id": "47426",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 189,
@@ -9389,7 +9457,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 122
+      "rows": 131
     }
   },
   "printed_field_counts": {
@@ -9420,12 +9488,12 @@
     {
       "kind": "xlsx",
       "name": "Crestuma_2009_MAR_Results.xlsx",
-      "sha256": "7968d0c6765c87ceaebb82ba5b9c6f89353dc264de054dadd209466ee7a1c941",
-      "bytes": 28572
+      "sha256": "78f27f79be7b838c0c13283704bc0ec9faf68c9842ccfef2640b75dada1426a8",
+      "bytes": 28618
     }
   ],
   "output_xlsx": "Crestuma_2009_MAR_Results.xlsx",
-  "output_xlsx_sha256": "7968d0c6765c87ceaebb82ba5b9c6f89353dc264de054dadd209466ee7a1c941",
+  "output_xlsx_sha256": "78f27f79be7b838c0c13283704bc0ec9faf68c9842ccfef2640b75dada1426a8",
   "name_bound_check": {
     "completed": true,
     "rule": "MAINTAINER_ANSWERS_2026-10-23 Rules 1-5 + same-meeting unification",
@@ -9473,7 +9541,7 @@
       }
     }
   },
-  "updated_at": "2026-10-25T15:25:49Z",
+  "updated_at": "2026-10-27T20:23:03Z",
   "audit": {
     "fails": [],
     "nfails": 0,
@@ -9638,6 +9706,88 @@
         "federation": "POR"
       },
       "new_record": null
+    },
+    {
+      "results_row": 67,
+      "seat": "ICF_ID1",
+      "printed": "Henrik VASBAYAI",
+      "team": "HUN",
+      "category": "JUNIOR",
+      "previous_id": "",
+      "new_id": "47426",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Henrik VASBAYAI' (HUN, M) -> 47426 Henrik VASBANYAI (born 1991-07-16, ICF nationality HUN / federation HUN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"HENRIC\", \"/\", \"VASBAIAI\"], \"icf_variant\": [\"HENRIC\", \"/\", \"VASBANIAI\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 47426 'Henrik VASBANYAI' noc=HUN gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "HENRIC",
+          "/",
+          "VASBAIAI"
+        ],
+        "icf_variant": [
+          "HENRIC",
+          "/",
+          "VASBANIAI"
+        ]
+      },
+      "pww_name_check": "PWW profile 47426 'Henrik VASBANYAI' noc=HUN gender=M: name-check passed",
+      "icf_record": "47426 Henrik VASBANYAI M 1991-07-16 nat=HUN fed=HUN",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "47426",
+        "name": "Henrik VASBANYAI",
+        "birth_date": "1991-07-16",
+        "nationality": "HUN",
+        "federation": "HUN",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 189,
+      "seat": "ICF_ID1",
+      "printed": "Henrik VASBAYAI",
+      "team": "HUN",
+      "category": "JUNIOR",
+      "previous_id": "",
+      "new_id": "47426",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Henrik VASBAYAI' (HUN, gender empty) -> 47426 Henrik VASBANYAI (born 1991-07-16, ICF nationality HUN / federation HUN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"HENRIC\", \"/\", \"VASBAIAI\"], \"icf_variant\": [\"HENRIC\", \"/\", \"VASBANIAI\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 47426 'Henrik VASBANYAI' noc=HUN gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "HENRIC",
+          "/",
+          "VASBAIAI"
+        ],
+        "icf_variant": [
+          "HENRIC",
+          "/",
+          "VASBANIAI"
+        ]
+      },
+      "pww_name_check": "PWW profile 47426 'Henrik VASBANYAI' noc=HUN gender=M: name-check passed",
+      "icf_record": "47426 Henrik VASBANYAI M 1991-07-16 nat=HUN fed=HUN",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "47426",
+        "name": "Henrik VASBANYAI",
+        "birth_date": "1991-07-16",
+        "nationality": "HUN",
+        "federation": "HUN",
+        "gender": "M"
+      }
     }
   ],
   "gate4_age_split_log": [
@@ -10231,6 +10381,15 @@
         "q78a_age_filter_binds.rule": "PADDLETAGGER_CONTRACT.md Age-filter binds (MAINTAINER_ANSWERS_2026-10-19f Q78a) with the RU166 age rule of MAINTAINER_ANSWERS_2026-10-24 applied first (Name-bound ids item 4(a)): an athlete under 14 on the meeting's first day, or born after it, never fits the age rule (RU168 rulings 4 as amended and 8, MAINTAINER_ANSWERS_2026-10-24b/c); a printed name that fits exactly one same-nation, same-gender athlete once the age rule has set aside the candidates that do not fit binds under the Q71 rule, logged unconfirmed"
       },
       "rule": "MAINTAINER_ANSWERS_2026-10-25c item 1: the log's rule quoted the Q78a wording citing the superseded under-14 rule and Q80(b); re-pointed to the current Age-filter binds rule with the RU166 age rule; seats, birth dates and persons_added unchanged; MAINTAINER_ANSWERS_2026-10-25c: correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "log",
+      "field": "sheets.PERSONS.rows",
+      "previous": 122,
+      "new": 131,
+      "previous_label": "sheets.PERSONS.rows",
+      "new_label": "sheets.PERSONS.rows",
+      "rule": "t71 (MAINTAINER_ANSWERS_2026-10-27): the manifest PERSONS row count was stale (122 vs 130 PERSONS data rows in the published xlsx); now the actual count 131 after 1 PERSONS rows added for the approved C3 binds; correction of the log, no seat change"
     }
   ]
 }

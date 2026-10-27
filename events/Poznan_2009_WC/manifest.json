@@ -10,7 +10,7 @@
   "dates": "2009-05-22/2009-05-24",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-25T15:25:49Z",
+  "generated_at_utc": "2026-10-27T20:23:03Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "2009 ICF Canoe Sprint World Cup Poznan, organiser results book (tools/n27/poz_old.py, word coordinates). Rank, lane and NOC cells are vertically centred in each boat's row and paired with boats in order; ranks checked against result order (all races consistent). START_TIME = printed scheduled time. Names printed in caps; split by the one matching ICF profile (rule Q19) else first token family. Name font prints Ł as '!' and Ń as '\"' (decoded, logged). Races 12, 13, 14, 36, 47, 79, 87, 118, 121 not printed (Q64).",
@@ -8987,11 +8987,45 @@
       "results_row": 122,
       "seat": "ICF_ID2",
       "source_printed_name": "VADZIM MAKHNEV",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "BLR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "42044",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "VADZIM MAKHNEV",
+        "proposed_id": "42044",
+        "icf_record": "42044 Vadzim MAKHNEU M 1979-12-21 nat=BLR fed=BLR",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "VADZIM",
+            "/",
+            "MACHNEV"
+          ],
+          "icf_variant": [
+            "VADZIM",
+            "/",
+            "MACHNEU"
+          ]
+        },
+        "pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "42044",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 123,
@@ -12908,11 +12942,45 @@
       "results_row": 353,
       "seat": "ICF_ID4",
       "source_printed_name": "VADZIM MAKHNEV",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "BLR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "42044",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "VADZIM MAKHNEV",
+        "proposed_id": "42044",
+        "icf_record": "42044 Vadzim MAKHNEU M 1979-12-21 nat=BLR fed=BLR",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "VADZIM",
+            "/",
+            "MACHNEV"
+          ],
+          "icf_variant": [
+            "VADZIM",
+            "/",
+            "MACHNEU"
+          ]
+        },
+        "pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "42044",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 354,
@@ -15055,11 +15123,45 @@
       "results_row": 486,
       "seat": "ICF_ID2",
       "source_printed_name": "VADZIM MAKHNEV",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "BLR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "42044",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "VADZIM MAKHNEV",
+        "proposed_id": "42044",
+        "icf_record": "42044 Vadzim MAKHNEU M 1979-12-21 nat=BLR fed=BLR",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "VADZIM",
+            "/",
+            "MACHNEV"
+          ],
+          "icf_variant": [
+            "VADZIM",
+            "/",
+            "MACHNEU"
+          ]
+        },
+        "pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "42044",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 487,
@@ -18840,11 +18942,45 @@
       "results_row": 715,
       "seat": "ICF_ID2",
       "source_printed_name": "VADZIM MAKHNEV",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "BLR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "42044",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "VADZIM MAKHNEV",
+        "proposed_id": "42044",
+        "icf_record": "42044 Vadzim MAKHNEU M 1979-12-21 nat=BLR fed=BLR",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "VADZIM",
+            "/",
+            "MACHNEV"
+          ],
+          "icf_variant": [
+            "VADZIM",
+            "/",
+            "MACHNEU"
+          ]
+        },
+        "pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "42044",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 716,
@@ -21244,11 +21380,45 @@
       "results_row": 859,
       "seat": "ICF_ID4",
       "source_printed_name": "VADZIM MAKHNEV",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "BLR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "42044",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "VADZIM MAKHNEV",
+        "proposed_id": "42044",
+        "icf_record": "42044 Vadzim MAKHNEU M 1979-12-21 nat=BLR fed=BLR",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "VADZIM",
+            "/",
+            "MACHNEV"
+          ],
+          "icf_variant": [
+            "VADZIM",
+            "/",
+            "MACHNEU"
+          ]
+        },
+        "pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for VADZIM MAKHNEV (BLR, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "42044",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 860,
@@ -23306,7 +23476,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 119
+      "rows": 128
     }
   },
   "printed_field_counts": {
@@ -25090,12 +25260,12 @@
     {
       "kind": "xlsx",
       "name": "Poznan_2009_WC_Results.xlsx",
-      "sha256": "cba89bc9a6411e9d65268b596d4d474dcc2626218c9f635188d459fa8ef6c728",
-      "bytes": 70770
+      "sha256": "d427cbf0125128bfacaa944756bfb47d9855359a06cf6b8c87f203f4e042ae92",
+      "bytes": 70831
     }
   ],
   "output_xlsx": "Poznan_2009_WC_Results.xlsx",
-  "output_xlsx_sha256": "cba89bc9a6411e9d65268b596d4d474dcc2626218c9f635188d459fa8ef6c728",
+  "output_xlsx_sha256": "d427cbf0125128bfacaa944756bfb47d9855359a06cf6b8c87f203f4e042ae92",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -25175,7 +25345,7 @@
       }
     }
   },
-  "updated_at": "2026-10-25T15:25:49Z",
+  "updated_at": "2026-10-27T20:23:03Z",
   "races_not_printed": [
     {
       "race": 12,
@@ -25813,6 +25983,211 @@
         "federation": "GBR"
       },
       "new_record": null
+    },
+    {
+      "results_row": 122,
+      "seat": "ICF_ID2",
+      "printed": "VADZIM MAKHNEV",
+      "team": "BLR",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "42044",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "VADZIM",
+          "/",
+          "MACHNEV"
+        ],
+        "icf_variant": [
+          "VADZIM",
+          "/",
+          "MACHNEU"
+        ]
+      },
+      "pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed",
+      "icf_record": "42044 Vadzim MAKHNEU M 1979-12-21 nat=BLR fed=BLR",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "42044",
+        "name": "Vadzim MAKHNEU",
+        "birth_date": "1979-12-21",
+        "nationality": "BLR",
+        "federation": "BLR",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 353,
+      "seat": "ICF_ID4",
+      "printed": "VADZIM MAKHNEV",
+      "team": "BLR",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "42044",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "VADZIM",
+          "/",
+          "MACHNEV"
+        ],
+        "icf_variant": [
+          "VADZIM",
+          "/",
+          "MACHNEU"
+        ]
+      },
+      "pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed",
+      "icf_record": "42044 Vadzim MAKHNEU M 1979-12-21 nat=BLR fed=BLR",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "42044",
+        "name": "Vadzim MAKHNEU",
+        "birth_date": "1979-12-21",
+        "nationality": "BLR",
+        "federation": "BLR",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 486,
+      "seat": "ICF_ID2",
+      "printed": "VADZIM MAKHNEV",
+      "team": "BLR",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "42044",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "VADZIM",
+          "/",
+          "MACHNEV"
+        ],
+        "icf_variant": [
+          "VADZIM",
+          "/",
+          "MACHNEU"
+        ]
+      },
+      "pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed",
+      "icf_record": "42044 Vadzim MAKHNEU M 1979-12-21 nat=BLR fed=BLR",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "42044",
+        "name": "Vadzim MAKHNEU",
+        "birth_date": "1979-12-21",
+        "nationality": "BLR",
+        "federation": "BLR",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 715,
+      "seat": "ICF_ID2",
+      "printed": "VADZIM MAKHNEV",
+      "team": "BLR",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "42044",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "VADZIM",
+          "/",
+          "MACHNEV"
+        ],
+        "icf_variant": [
+          "VADZIM",
+          "/",
+          "MACHNEU"
+        ]
+      },
+      "pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed",
+      "icf_record": "42044 Vadzim MAKHNEU M 1979-12-21 nat=BLR fed=BLR",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "42044",
+        "name": "Vadzim MAKHNEU",
+        "birth_date": "1979-12-21",
+        "nationality": "BLR",
+        "federation": "BLR",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 859,
+      "seat": "ICF_ID4",
+      "printed": "VADZIM MAKHNEV",
+      "team": "BLR",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "42044",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'VADZIM MAKHNEV' (BLR, M) -> 42044 Vadzim MAKHNEU (born 1979-12-21, ICF nationality BLR / federation BLR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VADZIM\", \"/\", \"MACHNEV\"], \"icf_variant\": [\"VADZIM\", \"/\", \"MACHNEU\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "VADZIM",
+          "/",
+          "MACHNEV"
+        ],
+        "icf_variant": [
+          "VADZIM",
+          "/",
+          "MACHNEU"
+        ]
+      },
+      "pww_name_check": "PWW profile 42044 'Vadzim MAKHNEU' noc=BLR gender=M: name-check passed",
+      "icf_record": "42044 Vadzim MAKHNEU M 1979-12-21 nat=BLR fed=BLR",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "42044",
+        "name": "Vadzim MAKHNEU",
+        "birth_date": "1979-12-21",
+        "nationality": "BLR",
+        "federation": "BLR",
+        "gender": "M"
+      }
     }
   ],
   "log_corrections": [
@@ -28113,6 +28488,15 @@
         "name_bound_check.t60_ru166.rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule first + sole-candidate keep + cross-country review (PADDLETAGGER_CONTRACT.md Name-bound ids item 4(a), Under-14 rule and NOC check; now with the RU168 rulings of MAINTAINER_ANSWERS_2026-10-24b and ruling 4 as amended, 2026-10-24c)"
       },
       "rule": "MAINTAINER_ANSWERS_2026-10-25c item 1: the run's rule note cited the superseded under-14 rule as replaced; re-pointed to the governing contract text; the run's counts unchanged; MAINTAINER_ANSWERS_2026-10-25c: correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "log",
+      "field": "sheets.PERSONS.rows",
+      "previous": 119,
+      "new": 128,
+      "previous_label": "sheets.PERSONS.rows",
+      "new_label": "sheets.PERSONS.rows",
+      "rule": "t71 (MAINTAINER_ANSWERS_2026-10-27): the manifest PERSONS row count was stale (119 vs 127 PERSONS data rows in the published xlsx); now the actual count 128 after 1 PERSONS rows added for the approved C3 binds; correction of the log, no seat change"
     }
   ]
 }
