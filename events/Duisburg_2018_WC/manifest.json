@@ -11,7 +11,7 @@
   "dates": "2018-05-25/2018-05-27",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-23T19:39:26Z",
+  "generated_at_utc": "2026-10-27T20:20:39Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "IMAS race pages print the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule).",
@@ -17168,11 +17168,47 @@
       "results_row": 409,
       "seat": "ICF_ID1",
       "source_printed_name": "Sergei [1] 583 - TOKARNITSKYI",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sergei [1] 583 - TOKARNITSKYI (KAZ, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sergei [1] 583 - TOKARNITSKYI' (KAZ, M) -> 55865 Sergii TOKARNYTSKYI (born 1993-02-01, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"one\", \"printed_variant\": [\"SERGEI\", \"\", \"\", \"/\", \"TOCARNITSCI\"], \"icf_variant\": [\"SERGI\", \"/\", \"TOCARNITSCI\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "KAZ",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sergei [1] 583 - TOKARNITSKYI (KAZ, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sergei [1] 583 - TOKARNITSKYI' (KAZ, M) -> 55865 Sergii TOKARNYTSKYI (born 1993-02-01, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"one\", \"printed_variant\": [\"SERGEI\", \"\", \"\", \"/\", \"TOCARNITSCI\"], \"icf_variant\": [\"SERGI\", \"/\", \"TOCARNITSCI\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "55865",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Sergei [1] 583 - TOKARNITSKYI",
+        "proposed_id": "55865",
+        "icf_record": "55865 Sergii TOKARNYTSKYI M 1993-02-01 nat=KAZ fed=KAZ",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "exact",
+          "given": "one",
+          "printed_variant": [
+            "SERGEI",
+            "",
+            "",
+            "/",
+            "TOCARNITSCI"
+          ],
+          "icf_variant": [
+            "SERGI",
+            "/",
+            "TOCARNITSCI"
+          ]
+        },
+        "pww_name_check": "PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sergei [1] 583 - TOKARNITSKYI (KAZ, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "55865",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 410,
@@ -21511,11 +21547,47 @@
       "results_row": 738,
       "seat": "ICF_ID1",
       "source_printed_name": "Sergei [1] 583 - TOKARNITSKYI",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sergei [1] 583 - TOKARNITSKYI (KAZ, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sergei [1] 583 - TOKARNITSKYI' (KAZ, M) -> 55865 Sergii TOKARNYTSKYI (born 1993-02-01, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"one\", \"printed_variant\": [\"SERGEI\", \"\", \"\", \"/\", \"TOCARNITSCI\"], \"icf_variant\": [\"SERGI\", \"/\", \"TOCARNITSCI\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "KAZ",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sergei [1] 583 - TOKARNITSKYI (KAZ, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sergei [1] 583 - TOKARNITSKYI' (KAZ, M) -> 55865 Sergii TOKARNYTSKYI (born 1993-02-01, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"one\", \"printed_variant\": [\"SERGEI\", \"\", \"\", \"/\", \"TOCARNITSCI\"], \"icf_variant\": [\"SERGI\", \"/\", \"TOCARNITSCI\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "55865",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Sergei [1] 583 - TOKARNITSKYI",
+        "proposed_id": "55865",
+        "icf_record": "55865 Sergii TOKARNYTSKYI M 1993-02-01 nat=KAZ fed=KAZ",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "exact",
+          "given": "one",
+          "printed_variant": [
+            "SERGEI",
+            "",
+            "",
+            "/",
+            "TOCARNITSCI"
+          ],
+          "icf_variant": [
+            "SERGI",
+            "/",
+            "TOCARNITSCI"
+          ]
+        },
+        "pww_name_check": "PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sergei [1] 583 - TOKARNITSKYI (KAZ, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "55865",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 739,
@@ -25180,11 +25252,47 @@
       "results_row": 968,
       "seat": "ICF_ID1",
       "source_printed_name": "Sergei [1] 583 - TOKARNITSKYI",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sergei [1] 583 - TOKARNITSKYI (KAZ, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sergei [1] 583 - TOKARNITSKYI' (KAZ, M) -> 55865 Sergii TOKARNYTSKYI (born 1993-02-01, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"one\", \"printed_variant\": [\"SERGEI\", \"\", \"\", \"/\", \"TOCARNITSCI\"], \"icf_variant\": [\"SERGI\", \"/\", \"TOCARNITSCI\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "KAZ",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sergei [1] 583 - TOKARNITSKYI (KAZ, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sergei [1] 583 - TOKARNITSKYI' (KAZ, M) -> 55865 Sergii TOKARNYTSKYI (born 1993-02-01, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"one\", \"printed_variant\": [\"SERGEI\", \"\", \"\", \"/\", \"TOCARNITSCI\"], \"icf_variant\": [\"SERGI\", \"/\", \"TOCARNITSCI\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "55865",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Sergei [1] 583 - TOKARNITSKYI",
+        "proposed_id": "55865",
+        "icf_record": "55865 Sergii TOKARNYTSKYI M 1993-02-01 nat=KAZ fed=KAZ",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "exact",
+          "given": "one",
+          "printed_variant": [
+            "SERGEI",
+            "",
+            "",
+            "/",
+            "TOCARNITSCI"
+          ],
+          "icf_variant": [
+            "SERGI",
+            "/",
+            "TOCARNITSCI"
+          ]
+        },
+        "pww_name_check": "PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sergei [1] 583 - TOKARNITSKYI (KAZ, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "55865",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 969,
@@ -25733,11 +25841,47 @@
       "results_row": 1009,
       "seat": "ICF_ID1",
       "source_printed_name": "Sergei [1] 583 - TOKARNITSKYI",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sergei [1] 583 - TOKARNITSKYI (KAZ, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sergei [1] 583 - TOKARNITSKYI' (KAZ, M) -> 55865 Sergii TOKARNYTSKYI (born 1993-02-01, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"one\", \"printed_variant\": [\"SERGEI\", \"\", \"\", \"/\", \"TOCARNITSCI\"], \"icf_variant\": [\"SERGI\", \"/\", \"TOCARNITSCI\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "KAZ",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sergei [1] 583 - TOKARNITSKYI (KAZ, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sergei [1] 583 - TOKARNITSKYI' (KAZ, M) -> 55865 Sergii TOKARNYTSKYI (born 1993-02-01, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"one\", \"printed_variant\": [\"SERGEI\", \"\", \"\", \"/\", \"TOCARNITSCI\"], \"icf_variant\": [\"SERGI\", \"/\", \"TOCARNITSCI\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "55865",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Sergei [1] 583 - TOKARNITSKYI",
+        "proposed_id": "55865",
+        "icf_record": "55865 Sergii TOKARNYTSKYI M 1993-02-01 nat=KAZ fed=KAZ",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "exact",
+          "given": "one",
+          "printed_variant": [
+            "SERGEI",
+            "",
+            "",
+            "/",
+            "TOCARNITSCI"
+          ],
+          "icf_variant": [
+            "SERGI",
+            "/",
+            "TOCARNITSCI"
+          ]
+        },
+        "pww_name_check": "PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sergei [1] 583 - TOKARNITSKYI (KAZ, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "55865",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 1010,
@@ -28766,11 +28910,47 @@
       "results_row": 1207,
       "seat": "ICF_ID1",
       "source_printed_name": "Sergei [1] 583 - TOKARNITSKYI",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sergei [1] 583 - TOKARNITSKYI (KAZ, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sergei [1] 583 - TOKARNITSKYI' (KAZ, M) -> 55865 Sergii TOKARNYTSKYI (born 1993-02-01, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"one\", \"printed_variant\": [\"SERGEI\", \"\", \"\", \"/\", \"TOCARNITSCI\"], \"icf_variant\": [\"SERGI\", \"/\", \"TOCARNITSCI\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "KAZ",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sergei [1] 583 - TOKARNITSKYI (KAZ, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sergei [1] 583 - TOKARNITSKYI' (KAZ, M) -> 55865 Sergii TOKARNYTSKYI (born 1993-02-01, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"one\", \"printed_variant\": [\"SERGEI\", \"\", \"\", \"/\", \"TOCARNITSCI\"], \"icf_variant\": [\"SERGI\", \"/\", \"TOCARNITSCI\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "55865",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Sergei [1] 583 - TOKARNITSKYI",
+        "proposed_id": "55865",
+        "icf_record": "55865 Sergii TOKARNYTSKYI M 1993-02-01 nat=KAZ fed=KAZ",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "exact",
+          "given": "one",
+          "printed_variant": [
+            "SERGEI",
+            "",
+            "",
+            "/",
+            "TOCARNITSCI"
+          ],
+          "icf_variant": [
+            "SERGI",
+            "/",
+            "TOCARNITSCI"
+          ]
+        },
+        "pww_name_check": "PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sergei [1] 583 - TOKARNITSKYI (KAZ, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "55865",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 1208,
@@ -31833,11 +32013,47 @@
       "results_row": 1383,
       "seat": "ICF_ID1",
       "source_printed_name": "Sergei [1] 583 - TOKARNITSKYI",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sergei [1] 583 - TOKARNITSKYI (KAZ, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sergei [1] 583 - TOKARNITSKYI' (KAZ, M) -> 55865 Sergii TOKARNYTSKYI (born 1993-02-01, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"one\", \"printed_variant\": [\"SERGEI\", \"\", \"\", \"/\", \"TOCARNITSCI\"], \"icf_variant\": [\"SERGI\", \"/\", \"TOCARNITSCI\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "KAZ",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sergei [1] 583 - TOKARNITSKYI (KAZ, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sergei [1] 583 - TOKARNITSKYI' (KAZ, M) -> 55865 Sergii TOKARNYTSKYI (born 1993-02-01, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"one\", \"printed_variant\": [\"SERGEI\", \"\", \"\", \"/\", \"TOCARNITSCI\"], \"icf_variant\": [\"SERGI\", \"/\", \"TOCARNITSCI\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "55865",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Sergei [1] 583 - TOKARNITSKYI",
+        "proposed_id": "55865",
+        "icf_record": "55865 Sergii TOKARNYTSKYI M 1993-02-01 nat=KAZ fed=KAZ",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "exact",
+          "given": "one",
+          "printed_variant": [
+            "SERGEI",
+            "",
+            "",
+            "/",
+            "TOCARNITSCI"
+          ],
+          "icf_variant": [
+            "SERGI",
+            "/",
+            "TOCARNITSCI"
+          ]
+        },
+        "pww_name_check": "PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sergei [1] 583 - TOKARNITSKYI (KAZ, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "55865",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 1384,
@@ -33787,7 +34003,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 470
+      "rows": 495
     }
   },
   "oq_races": [],
@@ -33863,12 +34079,12 @@
     {
       "kind": "xlsx",
       "name": "Duisburg_2018_WC_Results.xlsx",
-      "sha256": "c1d137b7d16c91816fc7f00690d28168d715ee50f9d931c7546a2654c76ff6b1",
-      "bytes": 121811
+      "sha256": "469d506bd30e4384487a78b061fe44053001808e3962cead249c4cf15489060c",
+      "bytes": 121884
     }
   ],
   "output_xlsx": "Duisburg_2018_WC_Results.xlsx",
-  "output_xlsx_sha256": "c1d137b7d16c91816fc7f00690d28168d715ee50f9d931c7546a2654c76ff6b1",
+  "output_xlsx_sha256": "469d506bd30e4384487a78b061fe44053001808e3962cead249c4cf15489060c",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -33909,7 +34125,7 @@
     "no_icf_id_t59": 115,
     "same_meeting_unified_t59": 0
   },
-  "updated_at": "2026-10-23T19:39:26Z",
+  "updated_at": "2026-10-27T20:20:39Z",
   "surname_prefix_fix_log": {
     "note": "Maintainer 2026-10-18b Fix 2: \"[n] bib - \" prefix stripped from SURNAME",
     "entries": [
@@ -36478,5 +36694,276 @@
     ]
   },
   "name_change_log": [],
-  "nation_change_log": []
+  "nation_change_log": [],
+  "corrections_log": [
+    {
+      "results_row": 409,
+      "seat": "ICF_ID1",
+      "printed": "Sergei [1] 583 - TOKARNITSKYI",
+      "team": "KAZ",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "55865",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sergei [1] 583 - TOKARNITSKYI' (KAZ, M) -> 55865 Sergii TOKARNYTSKYI (born 1993-02-01, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"one\", \"printed_variant\": [\"SERGEI\", \"\", \"\", \"/\", \"TOCARNITSCI\"], \"icf_variant\": [\"SERGI\", \"/\", \"TOCARNITSCI\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "exact",
+        "given": "one",
+        "printed_variant": [
+          "SERGEI",
+          "",
+          "",
+          "/",
+          "TOCARNITSCI"
+        ],
+        "icf_variant": [
+          "SERGI",
+          "/",
+          "TOCARNITSCI"
+        ]
+      },
+      "pww_name_check": "PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed",
+      "icf_record": "55865 Sergii TOKARNYTSKYI M 1993-02-01 nat=KAZ fed=KAZ",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "55865",
+        "name": "Sergii TOKARNYTSKYI",
+        "birth_date": "1993-02-01",
+        "nationality": "KAZ",
+        "federation": "KAZ",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 738,
+      "seat": "ICF_ID1",
+      "printed": "Sergei [1] 583 - TOKARNITSKYI",
+      "team": "KAZ",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "55865",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sergei [1] 583 - TOKARNITSKYI' (KAZ, M) -> 55865 Sergii TOKARNYTSKYI (born 1993-02-01, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"one\", \"printed_variant\": [\"SERGEI\", \"\", \"\", \"/\", \"TOCARNITSCI\"], \"icf_variant\": [\"SERGI\", \"/\", \"TOCARNITSCI\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "exact",
+        "given": "one",
+        "printed_variant": [
+          "SERGEI",
+          "",
+          "",
+          "/",
+          "TOCARNITSCI"
+        ],
+        "icf_variant": [
+          "SERGI",
+          "/",
+          "TOCARNITSCI"
+        ]
+      },
+      "pww_name_check": "PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed",
+      "icf_record": "55865 Sergii TOKARNYTSKYI M 1993-02-01 nat=KAZ fed=KAZ",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "55865",
+        "name": "Sergii TOKARNYTSKYI",
+        "birth_date": "1993-02-01",
+        "nationality": "KAZ",
+        "federation": "KAZ",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 968,
+      "seat": "ICF_ID1",
+      "printed": "Sergei [1] 583 - TOKARNITSKYI",
+      "team": "KAZ",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "55865",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sergei [1] 583 - TOKARNITSKYI' (KAZ, M) -> 55865 Sergii TOKARNYTSKYI (born 1993-02-01, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"one\", \"printed_variant\": [\"SERGEI\", \"\", \"\", \"/\", \"TOCARNITSCI\"], \"icf_variant\": [\"SERGI\", \"/\", \"TOCARNITSCI\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "exact",
+        "given": "one",
+        "printed_variant": [
+          "SERGEI",
+          "",
+          "",
+          "/",
+          "TOCARNITSCI"
+        ],
+        "icf_variant": [
+          "SERGI",
+          "/",
+          "TOCARNITSCI"
+        ]
+      },
+      "pww_name_check": "PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed",
+      "icf_record": "55865 Sergii TOKARNYTSKYI M 1993-02-01 nat=KAZ fed=KAZ",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "55865",
+        "name": "Sergii TOKARNYTSKYI",
+        "birth_date": "1993-02-01",
+        "nationality": "KAZ",
+        "federation": "KAZ",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 1009,
+      "seat": "ICF_ID1",
+      "printed": "Sergei [1] 583 - TOKARNITSKYI",
+      "team": "KAZ",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "55865",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sergei [1] 583 - TOKARNITSKYI' (KAZ, M) -> 55865 Sergii TOKARNYTSKYI (born 1993-02-01, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"one\", \"printed_variant\": [\"SERGEI\", \"\", \"\", \"/\", \"TOCARNITSCI\"], \"icf_variant\": [\"SERGI\", \"/\", \"TOCARNITSCI\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "exact",
+        "given": "one",
+        "printed_variant": [
+          "SERGEI",
+          "",
+          "",
+          "/",
+          "TOCARNITSCI"
+        ],
+        "icf_variant": [
+          "SERGI",
+          "/",
+          "TOCARNITSCI"
+        ]
+      },
+      "pww_name_check": "PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed",
+      "icf_record": "55865 Sergii TOKARNYTSKYI M 1993-02-01 nat=KAZ fed=KAZ",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "55865",
+        "name": "Sergii TOKARNYTSKYI",
+        "birth_date": "1993-02-01",
+        "nationality": "KAZ",
+        "federation": "KAZ",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 1207,
+      "seat": "ICF_ID1",
+      "printed": "Sergei [1] 583 - TOKARNITSKYI",
+      "team": "KAZ",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "55865",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sergei [1] 583 - TOKARNITSKYI' (KAZ, M) -> 55865 Sergii TOKARNYTSKYI (born 1993-02-01, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"one\", \"printed_variant\": [\"SERGEI\", \"\", \"\", \"/\", \"TOCARNITSCI\"], \"icf_variant\": [\"SERGI\", \"/\", \"TOCARNITSCI\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "exact",
+        "given": "one",
+        "printed_variant": [
+          "SERGEI",
+          "",
+          "",
+          "/",
+          "TOCARNITSCI"
+        ],
+        "icf_variant": [
+          "SERGI",
+          "/",
+          "TOCARNITSCI"
+        ]
+      },
+      "pww_name_check": "PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed",
+      "icf_record": "55865 Sergii TOKARNYTSKYI M 1993-02-01 nat=KAZ fed=KAZ",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "55865",
+        "name": "Sergii TOKARNYTSKYI",
+        "birth_date": "1993-02-01",
+        "nationality": "KAZ",
+        "federation": "KAZ",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 1383,
+      "seat": "ICF_ID1",
+      "printed": "Sergei [1] 583 - TOKARNITSKYI",
+      "team": "KAZ",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "55865",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sergei [1] 583 - TOKARNITSKYI' (KAZ, M) -> 55865 Sergii TOKARNYTSKYI (born 1993-02-01, ICF nationality KAZ / federation KAZ); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"one\", \"printed_variant\": [\"SERGEI\", \"\", \"\", \"/\", \"TOCARNITSCI\"], \"icf_variant\": [\"SERGI\", \"/\", \"TOCARNITSCI\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "exact",
+        "given": "one",
+        "printed_variant": [
+          "SERGEI",
+          "",
+          "",
+          "/",
+          "TOCARNITSCI"
+        ],
+        "icf_variant": [
+          "SERGI",
+          "/",
+          "TOCARNITSCI"
+        ]
+      },
+      "pww_name_check": "PWW profile 55865 'Sergii TOKARNYTSKYI' noc=KAZ gender=M: name-check passed",
+      "icf_record": "55865 Sergii TOKARNYTSKYI M 1993-02-01 nat=KAZ fed=KAZ",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "55865",
+        "name": "Sergii TOKARNYTSKYI",
+        "birth_date": "1993-02-01",
+        "nationality": "KAZ",
+        "federation": "KAZ",
+        "gender": "M"
+      }
+    }
+  ],
+  "log_corrections": [
+    {
+      "kind": "log",
+      "field": "sheets.PERSONS.rows",
+      "previous": 470,
+      "new": 495,
+      "previous_label": "sheets.PERSONS.rows",
+      "new_label": "sheets.PERSONS.rows",
+      "rule": "t71 (MAINTAINER_ANSWERS_2026-10-27): the manifest PERSONS row count was stale (470 vs 494 PERSONS data rows in the published xlsx); now the actual count 495 after 1 PERSONS rows added for the approved C3 binds; correction of the log, no seat change"
+    }
+  ]
 }
