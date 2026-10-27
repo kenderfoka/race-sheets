@@ -11,7 +11,7 @@
   "dates": "2016-07-28/2016-07-31",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-25T15:25:49Z",
+  "generated_at_utc": "2026-10-27T20:21:19Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "IMAS race pages print the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule).",
@@ -15639,11 +15639,49 @@
       "results_row": 42,
       "seat": "ICF_ID1",
       "source_printed_name": "Jean VAN DER WESTHUIZEN",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jean VAN DER WESTHUIZEN (RSA, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Jean VAN DER WESTHUIZEN' (RSA, M) -> 94098 Jean VAN DER WESTHUYZEN (born 1998-12-09, ICF nationality RSA / federation AUS); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"JEAN\", \"/\", \"VAN\", \"DER\", \"WESTHUIZEN\"], \"icf_variant\": [\"JEAN\", \"/\", \"VAN\", \"DER\", \"WESTHUIZEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 94098 'Jean VAN DER WESTHUYZEN' noc=AUS gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "RSA",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jean VAN DER WESTHUIZEN (RSA, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Jean VAN DER WESTHUIZEN' (RSA, M) -> 94098 Jean VAN DER WESTHUYZEN (born 1998-12-09, ICF nationality RSA / federation AUS); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"JEAN\", \"/\", \"VAN\", \"DER\", \"WESTHUIZEN\"], \"icf_variant\": [\"JEAN\", \"/\", \"VAN\", \"DER\", \"WESTHUIZEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 94098 'Jean VAN DER WESTHUYZEN' noc=AUS gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "94098",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Jean VAN DER WESTHUIZEN",
+        "proposed_id": "94098",
+        "icf_record": "94098 Jean VAN DER WESTHUYZEN M 1998-12-09 nat=RSA fed=AUS",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "exact",
+          "given": "exact",
+          "printed_variant": [
+            "JEAN",
+            "/",
+            "VAN",
+            "DER",
+            "WESTHUIZEN"
+          ],
+          "icf_variant": [
+            "JEAN",
+            "/",
+            "VAN",
+            "DER",
+            "WESTHUIZEN"
+          ]
+        },
+        "pww_name_check": "PWW profile 94098 'Jean VAN DER WESTHUYZEN' noc=AUS gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 94098 'Jean VAN DER WESTHUYZEN' noc=AUS gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jean VAN DER WESTHUIZEN (RSA, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "94098",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 43,
@@ -20600,11 +20638,49 @@
       "results_row": 319,
       "seat": "ICF_ID1",
       "source_printed_name": "Jean VAN DER WESTHUIZEN",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jean VAN DER WESTHUIZEN (RSA, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Jean VAN DER WESTHUIZEN' (RSA, M) -> 94098 Jean VAN DER WESTHUYZEN (born 1998-12-09, ICF nationality RSA / federation AUS); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"JEAN\", \"/\", \"VAN\", \"DER\", \"WESTHUIZEN\"], \"icf_variant\": [\"JEAN\", \"/\", \"VAN\", \"DER\", \"WESTHUIZEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 94098 'Jean VAN DER WESTHUYZEN' noc=AUS gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "RSA",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jean VAN DER WESTHUIZEN (RSA, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Jean VAN DER WESTHUIZEN' (RSA, M) -> 94098 Jean VAN DER WESTHUYZEN (born 1998-12-09, ICF nationality RSA / federation AUS); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"JEAN\", \"/\", \"VAN\", \"DER\", \"WESTHUIZEN\"], \"icf_variant\": [\"JEAN\", \"/\", \"VAN\", \"DER\", \"WESTHUIZEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 94098 'Jean VAN DER WESTHUYZEN' noc=AUS gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "94098",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Jean VAN DER WESTHUIZEN",
+        "proposed_id": "94098",
+        "icf_record": "94098 Jean VAN DER WESTHUYZEN M 1998-12-09 nat=RSA fed=AUS",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "exact",
+          "given": "exact",
+          "printed_variant": [
+            "JEAN",
+            "/",
+            "VAN",
+            "DER",
+            "WESTHUIZEN"
+          ],
+          "icf_variant": [
+            "JEAN",
+            "/",
+            "VAN",
+            "DER",
+            "WESTHUIZEN"
+          ]
+        },
+        "pww_name_check": "PWW profile 94098 'Jean VAN DER WESTHUYZEN' noc=AUS gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 94098 'Jean VAN DER WESTHUYZEN' noc=AUS gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jean VAN DER WESTHUIZEN (RSA, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "94098",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 320,
@@ -36406,11 +36482,49 @@
       "results_row": 1273,
       "seat": "ICF_ID1",
       "source_printed_name": "Jean VAN DER WESTHUIZEN",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jean VAN DER WESTHUIZEN (RSA, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Jean VAN DER WESTHUIZEN' (RSA, M) -> 94098 Jean VAN DER WESTHUYZEN (born 1998-12-09, ICF nationality RSA / federation AUS); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"JEAN\", \"/\", \"VAN\", \"DER\", \"WESTHUIZEN\"], \"icf_variant\": [\"JEAN\", \"/\", \"VAN\", \"DER\", \"WESTHUIZEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 94098 'Jean VAN DER WESTHUYZEN' noc=AUS gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "RSA",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jean VAN DER WESTHUIZEN (RSA, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Jean VAN DER WESTHUIZEN' (RSA, M) -> 94098 Jean VAN DER WESTHUYZEN (born 1998-12-09, ICF nationality RSA / federation AUS); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"JEAN\", \"/\", \"VAN\", \"DER\", \"WESTHUIZEN\"], \"icf_variant\": [\"JEAN\", \"/\", \"VAN\", \"DER\", \"WESTHUIZEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 94098 'Jean VAN DER WESTHUYZEN' noc=AUS gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "94098",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Jean VAN DER WESTHUIZEN",
+        "proposed_id": "94098",
+        "icf_record": "94098 Jean VAN DER WESTHUYZEN M 1998-12-09 nat=RSA fed=AUS",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "exact",
+          "given": "exact",
+          "printed_variant": [
+            "JEAN",
+            "/",
+            "VAN",
+            "DER",
+            "WESTHUIZEN"
+          ],
+          "icf_variant": [
+            "JEAN",
+            "/",
+            "VAN",
+            "DER",
+            "WESTHUIZEN"
+          ]
+        },
+        "pww_name_check": "PWW profile 94098 'Jean VAN DER WESTHUYZEN' noc=AUS gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 94098 'Jean VAN DER WESTHUYZEN' noc=AUS gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jean VAN DER WESTHUIZEN (RSA, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "94098",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 1274,
@@ -49587,7 +49701,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 869
+      "rows": 891
     }
   },
   "oq_races": [],
@@ -49679,12 +49793,12 @@
     {
       "kind": "xlsx",
       "name": "Minsk_2016_JWCH_Results.xlsx",
-      "sha256": "7023e5738ffe83696166ccb30483bc4e48af88a4fb21e1e14dfaa9c49626be7e",
-      "bytes": 174666
+      "sha256": "68d5d44e99c2bd07915a4cdde44b3b6be26473654de097a80dba955d820c7f49",
+      "bytes": 174724
     }
   ],
   "output_xlsx": "Minsk_2016_JWCH_Results.xlsx",
-  "output_xlsx_sha256": "7023e5738ffe83696166ccb30483bc4e48af88a4fb21e1e14dfaa9c49626be7e",
+  "output_xlsx_sha256": "68d5d44e99c2bd07915a4cdde44b3b6be26473654de097a80dba955d820c7f49",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -49736,7 +49850,7 @@
       }
     }
   },
-  "updated_at": "2026-10-25T15:25:49Z",
+  "updated_at": "2026-10-27T20:21:19Z",
   "printed_field_counts": {
     "source": "boats per race as parsed from the published source (https://results.imas-sport.com/imas/regatta.php?competition=wettkampf_127); back-filled 2026-10-19 from the published RESULTS (the builder parse), race coverage cross-checked independently by GATE10b",
     "rule": "MAINTAINER_ANSWERS_2026-10-18c Fix 1: printed count decides",
@@ -50028,7 +50142,143 @@
   },
   "name_change_log": [],
   "nation_change_log": [],
-  "corrections_log": [],
+  "corrections_log": [
+    {
+      "results_row": 42,
+      "seat": "ICF_ID1",
+      "printed": "Jean VAN DER WESTHUIZEN",
+      "team": "RSA",
+      "category": "JUNIOR",
+      "previous_id": "",
+      "new_id": "94098",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Jean VAN DER WESTHUIZEN' (RSA, M) -> 94098 Jean VAN DER WESTHUYZEN (born 1998-12-09, ICF nationality RSA / federation AUS); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"JEAN\", \"/\", \"VAN\", \"DER\", \"WESTHUIZEN\"], \"icf_variant\": [\"JEAN\", \"/\", \"VAN\", \"DER\", \"WESTHUIZEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 94098 'Jean VAN DER WESTHUYZEN' noc=AUS gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "exact",
+        "given": "exact",
+        "printed_variant": [
+          "JEAN",
+          "/",
+          "VAN",
+          "DER",
+          "WESTHUIZEN"
+        ],
+        "icf_variant": [
+          "JEAN",
+          "/",
+          "VAN",
+          "DER",
+          "WESTHUIZEN"
+        ]
+      },
+      "pww_name_check": "PWW profile 94098 'Jean VAN DER WESTHUYZEN' noc=AUS gender=M: name-check passed",
+      "icf_record": "94098 Jean VAN DER WESTHUYZEN M 1998-12-09 nat=RSA fed=AUS",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "94098",
+        "name": "Jean VAN DER WESTHUYZEN",
+        "birth_date": "1998-12-09",
+        "nationality": "RSA",
+        "federation": "AUS",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 319,
+      "seat": "ICF_ID1",
+      "printed": "Jean VAN DER WESTHUIZEN",
+      "team": "RSA",
+      "category": "JUNIOR",
+      "previous_id": "",
+      "new_id": "94098",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Jean VAN DER WESTHUIZEN' (RSA, M) -> 94098 Jean VAN DER WESTHUYZEN (born 1998-12-09, ICF nationality RSA / federation AUS); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"JEAN\", \"/\", \"VAN\", \"DER\", \"WESTHUIZEN\"], \"icf_variant\": [\"JEAN\", \"/\", \"VAN\", \"DER\", \"WESTHUIZEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 94098 'Jean VAN DER WESTHUYZEN' noc=AUS gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "exact",
+        "given": "exact",
+        "printed_variant": [
+          "JEAN",
+          "/",
+          "VAN",
+          "DER",
+          "WESTHUIZEN"
+        ],
+        "icf_variant": [
+          "JEAN",
+          "/",
+          "VAN",
+          "DER",
+          "WESTHUIZEN"
+        ]
+      },
+      "pww_name_check": "PWW profile 94098 'Jean VAN DER WESTHUYZEN' noc=AUS gender=M: name-check passed",
+      "icf_record": "94098 Jean VAN DER WESTHUYZEN M 1998-12-09 nat=RSA fed=AUS",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "94098",
+        "name": "Jean VAN DER WESTHUYZEN",
+        "birth_date": "1998-12-09",
+        "nationality": "RSA",
+        "federation": "AUS",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 1273,
+      "seat": "ICF_ID1",
+      "printed": "Jean VAN DER WESTHUIZEN",
+      "team": "RSA",
+      "category": "JUNIOR",
+      "previous_id": "",
+      "new_id": "94098",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Jean VAN DER WESTHUIZEN' (RSA, M) -> 94098 Jean VAN DER WESTHUYZEN (born 1998-12-09, ICF nationality RSA / federation AUS); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"exact\", \"given\": \"exact\", \"printed_variant\": [\"JEAN\", \"/\", \"VAN\", \"DER\", \"WESTHUIZEN\"], \"icf_variant\": [\"JEAN\", \"/\", \"VAN\", \"DER\", \"WESTHUIZEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 94098 'Jean VAN DER WESTHUYZEN' noc=AUS gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "exact",
+        "given": "exact",
+        "printed_variant": [
+          "JEAN",
+          "/",
+          "VAN",
+          "DER",
+          "WESTHUIZEN"
+        ],
+        "icf_variant": [
+          "JEAN",
+          "/",
+          "VAN",
+          "DER",
+          "WESTHUIZEN"
+        ]
+      },
+      "pww_name_check": "PWW profile 94098 'Jean VAN DER WESTHUYZEN' noc=AUS gender=M: name-check passed",
+      "icf_record": "94098 Jean VAN DER WESTHUYZEN M 1998-12-09 nat=RSA fed=AUS",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "94098",
+        "name": "Jean VAN DER WESTHUYZEN",
+        "birth_date": "1998-12-09",
+        "nationality": "RSA",
+        "federation": "AUS",
+        "gender": "M"
+      }
+    }
+  ],
   "log_corrections": [
     {
       "kind": "log",
@@ -50047,6 +50297,15 @@
         "name_bound_check.t60_ru166.rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule first + sole-candidate keep + cross-country review (PADDLETAGGER_CONTRACT.md Name-bound ids item 4(a), Under-14 rule and NOC check; now with the RU168 rulings of MAINTAINER_ANSWERS_2026-10-24b and ruling 4 as amended, 2026-10-24c)"
       },
       "rule": "MAINTAINER_ANSWERS_2026-10-25c item 1: the run's rule note cited the superseded under-14 rule as replaced; re-pointed to the governing contract text; the run's counts unchanged; MAINTAINER_ANSWERS_2026-10-25c: correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "log",
+      "field": "sheets.PERSONS.rows",
+      "previous": 869,
+      "new": 891,
+      "previous_label": "sheets.PERSONS.rows",
+      "new_label": "sheets.PERSONS.rows",
+      "rule": "t71 (MAINTAINER_ANSWERS_2026-10-27): the manifest PERSONS row count was stale (869 vs 890 PERSONS data rows in the published xlsx); now the actual count 891 after 1 PERSONS rows added for the approved C3 binds; correction of the log, no seat change"
     }
   ]
 }
