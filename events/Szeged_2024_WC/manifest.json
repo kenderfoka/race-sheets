@@ -10,7 +10,7 @@
   "dates": "2024-05-08/2024-05-12",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-25T15:25:49Z",
+  "generated_at_utc": "2026-10-27T19:37:46Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "Digicorp per-race result PDFs print the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source (hub race pages redirect; Connect/STARTED not published). No ICF ids printed: seats name-bound (bind_seat + PWW profile rule). Para (Paracanoe WCH 2024) and EOQ races in the same hub/book are kept (one key).",
@@ -15643,11 +15643,45 @@
       "results_row": 36,
       "seat": "ICF_ID1",
       "source_printed_name": "Kristina BEDEC",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 item B1: printed 'Kristina BEDEC' (SRB) -> 47779 Krisztina BEDOCS (born 1986-11-20, ICF nationality SRB / federation SRB); found by C3 step b on the ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records); PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed on 2026-10-27; country, gender and age rule pass; no other candidate",
       "team": "SRB",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 item B1: printed 'Kristina BEDEC' (SRB) -> 47779 Krisztina BEDOCS (born 1986-11-20, ICF nationality SRB / federation SRB); found by C3 step b on the ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records); PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed on 2026-10-27; country, gender and age rule pass; no other candidate",
+      "new_id": "47779",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Kristina BEDEC",
+        "stripped": "",
+        "printed_yob": "",
+        "printed_gender": "",
+        "team": "SRB",
+        "gender": "W",
+        "icf_list": "bence (refreshed per build)",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "CRISTINA",
+            "/",
+            "BEDEC"
+          ],
+          "icf_variant": [
+            "CRISTINA",
+            "/",
+            "BEDOC"
+          ]
+        },
+        "icf_record": "47779 Krisztina BEDOCS W 1986-11-20 nat=SRB fed=SRB",
+        "name_check": "PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "47779",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 item B1"
+      }
     },
     {
       "results_row": 36,
@@ -16164,11 +16198,45 @@
       "results_row": 62,
       "seat": "ICF_ID1",
       "source_printed_name": "Kristina BEDEC",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 item B1: printed 'Kristina BEDEC' (SRB) -> 47779 Krisztina BEDOCS (born 1986-11-20, ICF nationality SRB / federation SRB); found by C3 step b on the ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records); PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed on 2026-10-27; country, gender and age rule pass; no other candidate",
       "team": "SRB",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 item B1: printed 'Kristina BEDEC' (SRB) -> 47779 Krisztina BEDOCS (born 1986-11-20, ICF nationality SRB / federation SRB); found by C3 step b on the ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records); PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed on 2026-10-27; country, gender and age rule pass; no other candidate",
+      "new_id": "47779",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Kristina BEDEC",
+        "stripped": "",
+        "printed_yob": "",
+        "printed_gender": "",
+        "team": "SRB",
+        "gender": "W",
+        "icf_list": "bence (refreshed per build)",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "CRISTINA",
+            "/",
+            "BEDEC"
+          ],
+          "icf_variant": [
+            "CRISTINA",
+            "/",
+            "BEDOC"
+          ]
+        },
+        "icf_record": "47779 Krisztina BEDOCS W 1986-11-20 nat=SRB fed=SRB",
+        "name_check": "PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kristina BEDEC (SRB, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "47779",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 item B1"
+      }
     },
     {
       "results_row": 62,
@@ -17790,9 +17858,18 @@
       "source_printed_name": "Anna MUS",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 item B4: no ICF id for Anna MUS (NED, W) in ICF/PWW/Dutch federation sources, searched 2026-10-27: ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records): no family name MUS and no NED woman named Anna; PaddleWorldwide athlete search (paddleworldwide.com/api/search for 'Anna Mus', 'Mus', 'MUS Anna', 'Anna Mus Netherlands'): no MUS record; PaddleWorldwide profile 104732 (the id once printed for this athlete in Poznan sheets): HTTP 404, and 104732 is not in the ICF list; canoeicf.com/athlete/anna-mus: HTTP 404 (a search-engine copy shows 'Anna MUS (NED)', federation Watersportverbond, no ICF id); Dutch federation (Watersportverbond, the kanosport federation) site search 'Anna Mus' (watersportverbond.nl/zoeken, kanosport.nl): no athlete record or ICF id; C3 fallback steps a-d: no match. The seat stays empty (no_icf_id)",
       "team": "NED",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 item B4: no ICF id for Anna MUS (NED, W) in ICF/PWW/Dutch federation sources, searched 2026-10-27: ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records): no family name MUS and no NED woman named Anna; PaddleWorldwide athlete search (paddleworldwide.com/api/search for 'Anna Mus', 'Mus', 'MUS Anna', 'Anna Mus Netherlands'): no MUS record; PaddleWorldwide profile 104732 (the id once printed for this athlete in Poznan sheets): HTTP 404, and 104732 is not in the ICF list; canoeicf.com/athlete/anna-mus: HTTP 404 (a search-engine copy shows 'Anna MUS (NED)', federation Watersportverbond, no ICF id); Dutch federation (Watersportverbond, the kanosport federation) site search 'Anna Mus' (watersportverbond.nl/zoeken, kanosport.nl): no athlete record or ICF id; C3 fallback steps a-d: no match. The seat stays empty (no_icf_id)",
+      "searched_sources": [
+        "ICF list (bence)",
+        "paddleworldwide.com/api/search",
+        "paddleworldwide.com/athlete/104732",
+        "canoeicf.com/athlete/anna-mus",
+        "watersportverbond.nl/zoeken",
+        "kanosport.nl",
+        "C3 fallback a-d"
+      ]
     },
     {
       "results_row": 194,
@@ -18814,9 +18891,18 @@
       "source_printed_name": "Anna MUS",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 item B4: no ICF id for Anna MUS (NED, W) in ICF/PWW/Dutch federation sources, searched 2026-10-27: ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records): no family name MUS and no NED woman named Anna; PaddleWorldwide athlete search (paddleworldwide.com/api/search for 'Anna Mus', 'Mus', 'MUS Anna', 'Anna Mus Netherlands'): no MUS record; PaddleWorldwide profile 104732 (the id once printed for this athlete in Poznan sheets): HTTP 404, and 104732 is not in the ICF list; canoeicf.com/athlete/anna-mus: HTTP 404 (a search-engine copy shows 'Anna MUS (NED)', federation Watersportverbond, no ICF id); Dutch federation (Watersportverbond, the kanosport federation) site search 'Anna Mus' (watersportverbond.nl/zoeken, kanosport.nl): no athlete record or ICF id; C3 fallback steps a-d: no match. The seat stays empty (no_icf_id)",
       "team": "NED",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 item B4: no ICF id for Anna MUS (NED, W) in ICF/PWW/Dutch federation sources, searched 2026-10-27: ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records): no family name MUS and no NED woman named Anna; PaddleWorldwide athlete search (paddleworldwide.com/api/search for 'Anna Mus', 'Mus', 'MUS Anna', 'Anna Mus Netherlands'): no MUS record; PaddleWorldwide profile 104732 (the id once printed for this athlete in Poznan sheets): HTTP 404, and 104732 is not in the ICF list; canoeicf.com/athlete/anna-mus: HTTP 404 (a search-engine copy shows 'Anna MUS (NED)', federation Watersportverbond, no ICF id); Dutch federation (Watersportverbond, the kanosport federation) site search 'Anna Mus' (watersportverbond.nl/zoeken, kanosport.nl): no athlete record or ICF id; C3 fallback steps a-d: no match. The seat stays empty (no_icf_id)",
+      "searched_sources": [
+        "ICF list (bence)",
+        "paddleworldwide.com/api/search",
+        "paddleworldwide.com/athlete/104732",
+        "canoeicf.com/athlete/anna-mus",
+        "watersportverbond.nl/zoeken",
+        "kanosport.nl",
+        "C3 fallback a-d"
+      ]
     },
     {
       "results_row": 296,
@@ -37999,9 +38085,18 @@
       "source_printed_name": "Anna MUS",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 item B4: no ICF id for Anna MUS (NED, W) in ICF/PWW/Dutch federation sources, searched 2026-10-27: ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records): no family name MUS and no NED woman named Anna; PaddleWorldwide athlete search (paddleworldwide.com/api/search for 'Anna Mus', 'Mus', 'MUS Anna', 'Anna Mus Netherlands'): no MUS record; PaddleWorldwide profile 104732 (the id once printed for this athlete in Poznan sheets): HTTP 404, and 104732 is not in the ICF list; canoeicf.com/athlete/anna-mus: HTTP 404 (a search-engine copy shows 'Anna MUS (NED)', federation Watersportverbond, no ICF id); Dutch federation (Watersportverbond, the kanosport federation) site search 'Anna Mus' (watersportverbond.nl/zoeken, kanosport.nl): no athlete record or ICF id; C3 fallback steps a-d: no match. The seat stays empty (no_icf_id)",
       "team": "NED",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 item B4: no ICF id for Anna MUS (NED, W) in ICF/PWW/Dutch federation sources, searched 2026-10-27: ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records): no family name MUS and no NED woman named Anna; PaddleWorldwide athlete search (paddleworldwide.com/api/search for 'Anna Mus', 'Mus', 'MUS Anna', 'Anna Mus Netherlands'): no MUS record; PaddleWorldwide profile 104732 (the id once printed for this athlete in Poznan sheets): HTTP 404, and 104732 is not in the ICF list; canoeicf.com/athlete/anna-mus: HTTP 404 (a search-engine copy shows 'Anna MUS (NED)', federation Watersportverbond, no ICF id); Dutch federation (Watersportverbond, the kanosport federation) site search 'Anna Mus' (watersportverbond.nl/zoeken, kanosport.nl): no athlete record or ICF id; C3 fallback steps a-d: no match. The seat stays empty (no_icf_id)",
+      "searched_sources": [
+        "ICF list (bence)",
+        "paddleworldwide.com/api/search",
+        "paddleworldwide.com/athlete/104732",
+        "canoeicf.com/athlete/anna-mus",
+        "watersportverbond.nl/zoeken",
+        "kanosport.nl",
+        "C3 fallback a-d"
+      ]
     },
     {
       "results_row": 1694,
@@ -38909,9 +39004,18 @@
       "source_printed_name": "Anna MUS",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 item B4: no ICF id for Anna MUS (NED, W) in ICF/PWW/Dutch federation sources, searched 2026-10-27: ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records): no family name MUS and no NED woman named Anna; PaddleWorldwide athlete search (paddleworldwide.com/api/search for 'Anna Mus', 'Mus', 'MUS Anna', 'Anna Mus Netherlands'): no MUS record; PaddleWorldwide profile 104732 (the id once printed for this athlete in Poznan sheets): HTTP 404, and 104732 is not in the ICF list; canoeicf.com/athlete/anna-mus: HTTP 404 (a search-engine copy shows 'Anna MUS (NED)', federation Watersportverbond, no ICF id); Dutch federation (Watersportverbond, the kanosport federation) site search 'Anna Mus' (watersportverbond.nl/zoeken, kanosport.nl): no athlete record or ICF id; C3 fallback steps a-d: no match. The seat stays empty (no_icf_id)",
       "team": "NED",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 item B4: no ICF id for Anna MUS (NED, W) in ICF/PWW/Dutch federation sources, searched 2026-10-27: ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records): no family name MUS and no NED woman named Anna; PaddleWorldwide athlete search (paddleworldwide.com/api/search for 'Anna Mus', 'Mus', 'MUS Anna', 'Anna Mus Netherlands'): no MUS record; PaddleWorldwide profile 104732 (the id once printed for this athlete in Poznan sheets): HTTP 404, and 104732 is not in the ICF list; canoeicf.com/athlete/anna-mus: HTTP 404 (a search-engine copy shows 'Anna MUS (NED)', federation Watersportverbond, no ICF id); Dutch federation (Watersportverbond, the kanosport federation) site search 'Anna Mus' (watersportverbond.nl/zoeken, kanosport.nl): no athlete record or ICF id; C3 fallback steps a-d: no match. The seat stays empty (no_icf_id)",
+      "searched_sources": [
+        "ICF list (bence)",
+        "paddleworldwide.com/api/search",
+        "paddleworldwide.com/athlete/104732",
+        "canoeicf.com/athlete/anna-mus",
+        "watersportverbond.nl/zoeken",
+        "kanosport.nl",
+        "C3 fallback a-d"
+      ]
     },
     {
       "results_row": 1783,
@@ -40375,9 +40479,18 @@
       "source_printed_name": "Anna MUS",
       "action": "no_icf_id",
       "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 item B4: no ICF id for Anna MUS (NED, W) in ICF/PWW/Dutch federation sources, searched 2026-10-27: ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records): no family name MUS and no NED woman named Anna; PaddleWorldwide athlete search (paddleworldwide.com/api/search for 'Anna Mus', 'Mus', 'MUS Anna', 'Anna Mus Netherlands'): no MUS record; PaddleWorldwide profile 104732 (the id once printed for this athlete in Poznan sheets): HTTP 404, and 104732 is not in the ICF list; canoeicf.com/athlete/anna-mus: HTTP 404 (a search-engine copy shows 'Anna MUS (NED)', federation Watersportverbond, no ICF id); Dutch federation (Watersportverbond, the kanosport federation) site search 'Anna Mus' (watersportverbond.nl/zoeken, kanosport.nl): no athlete record or ICF id; C3 fallback steps a-d: no match. The seat stays empty (no_icf_id)",
       "team": "NED",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 item B4: no ICF id for Anna MUS (NED, W) in ICF/PWW/Dutch federation sources, searched 2026-10-27: ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records): no family name MUS and no NED woman named Anna; PaddleWorldwide athlete search (paddleworldwide.com/api/search for 'Anna Mus', 'Mus', 'MUS Anna', 'Anna Mus Netherlands'): no MUS record; PaddleWorldwide profile 104732 (the id once printed for this athlete in Poznan sheets): HTTP 404, and 104732 is not in the ICF list; canoeicf.com/athlete/anna-mus: HTTP 404 (a search-engine copy shows 'Anna MUS (NED)', federation Watersportverbond, no ICF id); Dutch federation (Watersportverbond, the kanosport federation) site search 'Anna Mus' (watersportverbond.nl/zoeken, kanosport.nl): no athlete record or ICF id; C3 fallback steps a-d: no match. The seat stays empty (no_icf_id)",
+      "searched_sources": [
+        "ICF list (bence)",
+        "paddleworldwide.com/api/search",
+        "paddleworldwide.com/athlete/104732",
+        "canoeicf.com/athlete/anna-mus",
+        "watersportverbond.nl/zoeken",
+        "kanosport.nl",
+        "C3 fallback a-d"
+      ]
     },
     {
       "results_row": 1927,
@@ -43708,7 +43821,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 687
+      "rows": 688
     }
   },
   "domain": "flatwater_sprint",
@@ -43718,12 +43831,12 @@
     {
       "kind": "xlsx",
       "name": "Szeged_2024_WC_Results.xlsx",
-      "sha256": "345ffb689fcaf6bfe79ba721daa07719aa8fd141c7883cfe6b2ca546db988ee8",
-      "bytes": 179643
+      "sha256": "a19ec593d74166a61261dc242ee05754872bdc51a15b6771e9914cf66186b368",
+      "bytes": 179680
     }
   ],
   "output_xlsx": "Szeged_2024_WC_Results.xlsx",
-  "output_xlsx_sha256": "345ffb689fcaf6bfe79ba721daa07719aa8fd141c7883cfe6b2ca546db988ee8",
+  "output_xlsx_sha256": "a19ec593d74166a61261dc242ee05754872bdc51a15b6771e9914cf66186b368",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -43775,7 +43888,7 @@
       }
     }
   },
-  "updated_at": "2026-10-25T15:25:49Z",
+  "updated_at": "2026-10-27T19:37:46Z",
   "name_change_log": [
     {
       "results_row": 508,
@@ -44399,6 +44512,48 @@
         "federation": "HUN"
       },
       "new_record": null
+    },
+    {
+      "results_row": 36,
+      "seat": "ICF_ID1",
+      "printed": "Kristina BEDEC",
+      "team": "SRB",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "47779",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 item B1; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 item B1: printed 'Kristina BEDEC' (SRB) -> 47779 Krisztina BEDOCS (born 1986-11-20, ICF nationality SRB / federation SRB); found by C3 step b on the ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records); PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed on 2026-10-27; country, gender and age rule pass; no other candidate",
+      "previous_record": null,
+      "new_record": {
+        "id": "47779",
+        "name": "Krisztina BEDOCS",
+        "birth_date": "1986-11-20",
+        "nationality": "SRB",
+        "federation": "SRB",
+        "gender": "W"
+      }
+    },
+    {
+      "results_row": 62,
+      "seat": "ICF_ID1",
+      "printed": "Kristina BEDEC",
+      "team": "SRB",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "47779",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 item B1; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 item B1: printed 'Kristina BEDEC' (SRB) -> 47779 Krisztina BEDOCS (born 1986-11-20, ICF nationality SRB / federation SRB); found by C3 step b on the ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records); PWW profile 47779 'Krisztina BEDOCS' noc=SRB gender=F: name-check passed on 2026-10-27; country, gender and age rule pass; no other candidate",
+      "previous_record": null,
+      "new_record": {
+        "id": "47779",
+        "name": "Krisztina BEDOCS",
+        "birth_date": "1986-11-20",
+        "nationality": "SRB",
+        "federation": "SRB",
+        "gender": "W"
+      }
     }
   ],
   "log_corrections": [
@@ -44419,6 +44574,236 @@
         "name_bound_check.t60_ru166.rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule first + sole-candidate keep + cross-country review (PADDLETAGGER_CONTRACT.md Name-bound ids item 4(a), Under-14 rule and NOC check; now with the RU168 rulings of MAINTAINER_ANSWERS_2026-10-24b and ruling 4 as amended, 2026-10-24c)"
       },
       "rule": "MAINTAINER_ANSWERS_2026-10-25c item 1: the run's rule note cited the superseded under-14 rule as replaced; re-pointed to the governing contract text; the run's counts unchanged; MAINTAINER_ANSWERS_2026-10-25c: correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "log",
+      "results_row": 1693,
+      "seat": "ICF_ID1",
+      "printed": "Anna MUS",
+      "team": "NED",
+      "seat_id": "",
+      "seat_id_unchanged": true,
+      "action_unchanged": "no_icf_id",
+      "field": "id_checks entry results_row 1693 seat ICF_ID1, field evidence",
+      "previous_label": "evidence",
+      "new_label": "evidence",
+      "previous": {
+        "evidence": {
+          "ref": "events/Szeged_2024_WC/manifest.json at 99b09bc2234aa22def8469a59f03f089b9d0d35e, id_checks entry results_row 1693 seat ICF_ID1, field evidence",
+          "sha256_of_json": "25a1c0ca2106332a98eb0649b77f79feef889db759ce3640345561e8116ee873"
+        }
+      },
+      "new": {
+        "evidence": "MAINTAINER_ANSWERS_2026-10-27 item B4: no ICF id for Anna MUS (NED, W) in ICF/PWW/Dutch federation sources, searched 2026-10-27: ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records): no family name MUS and no NED woman named Anna; PaddleWorldwide athlete search (paddleworldwide.com/api/search for 'Anna Mus', 'Mus', 'MUS Anna', 'Anna Mus Netherlands'): no MUS record; PaddleWorldwide profile 104732 (the id once printed for this athlete in Poznan sheets): HTTP 404, and 104732 is not in the ICF list; canoeicf.com/athlete/anna-mus: HTTP 404 (a search-engine copy shows 'Anna MUS (NED)', federation Watersportverbond, no ICF id); Dutch federation (Watersportverbond, the kanosport federation) site search 'Anna Mus' (watersportverbond.nl/zoeken, kanosport.nl): no athlete record or ICF id; C3 fallback steps a-d: no match. The seat stays empty (no_icf_id)"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 item B4: no record found in ICF/PWW/Dutch federation sources; the evidence now lists what was searched; correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "log",
+      "results_row": 1693,
+      "seat": "ICF_ID1",
+      "printed": "Anna MUS",
+      "team": "NED",
+      "seat_id": "",
+      "seat_id_unchanged": true,
+      "action_unchanged": "no_icf_id",
+      "field": "id_checks entry results_row 1693 seat ICF_ID1, field detail",
+      "previous_label": "detail",
+      "new_label": "detail",
+      "previous": {
+        "detail": {
+          "ref": "events/Szeged_2024_WC/manifest.json at 99b09bc2234aa22def8469a59f03f089b9d0d35e, id_checks entry results_row 1693 seat ICF_ID1, field detail",
+          "sha256_of_json": "25a1c0ca2106332a98eb0649b77f79feef889db759ce3640345561e8116ee873"
+        }
+      },
+      "new": {
+        "detail": "MAINTAINER_ANSWERS_2026-10-27 item B4: no ICF id for Anna MUS (NED, W) in ICF/PWW/Dutch federation sources, searched 2026-10-27: ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records): no family name MUS and no NED woman named Anna; PaddleWorldwide athlete search (paddleworldwide.com/api/search for 'Anna Mus', 'Mus', 'MUS Anna', 'Anna Mus Netherlands'): no MUS record; PaddleWorldwide profile 104732 (the id once printed for this athlete in Poznan sheets): HTTP 404, and 104732 is not in the ICF list; canoeicf.com/athlete/anna-mus: HTTP 404 (a search-engine copy shows 'Anna MUS (NED)', federation Watersportverbond, no ICF id); Dutch federation (Watersportverbond, the kanosport federation) site search 'Anna Mus' (watersportverbond.nl/zoeken, kanosport.nl): no athlete record or ICF id; C3 fallback steps a-d: no match. The seat stays empty (no_icf_id)"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 item B4: no record found in ICF/PWW/Dutch federation sources; the evidence now lists what was searched; correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "log",
+      "results_row": 1782,
+      "seat": "ICF_ID1",
+      "printed": "Anna MUS",
+      "team": "NED",
+      "seat_id": "",
+      "seat_id_unchanged": true,
+      "action_unchanged": "no_icf_id",
+      "field": "id_checks entry results_row 1782 seat ICF_ID1, field evidence",
+      "previous_label": "evidence",
+      "new_label": "evidence",
+      "previous": {
+        "evidence": {
+          "ref": "events/Szeged_2024_WC/manifest.json at 99b09bc2234aa22def8469a59f03f089b9d0d35e, id_checks entry results_row 1782 seat ICF_ID1, field evidence",
+          "sha256_of_json": "25a1c0ca2106332a98eb0649b77f79feef889db759ce3640345561e8116ee873"
+        }
+      },
+      "new": {
+        "evidence": "MAINTAINER_ANSWERS_2026-10-27 item B4: no ICF id for Anna MUS (NED, W) in ICF/PWW/Dutch federation sources, searched 2026-10-27: ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records): no family name MUS and no NED woman named Anna; PaddleWorldwide athlete search (paddleworldwide.com/api/search for 'Anna Mus', 'Mus', 'MUS Anna', 'Anna Mus Netherlands'): no MUS record; PaddleWorldwide profile 104732 (the id once printed for this athlete in Poznan sheets): HTTP 404, and 104732 is not in the ICF list; canoeicf.com/athlete/anna-mus: HTTP 404 (a search-engine copy shows 'Anna MUS (NED)', federation Watersportverbond, no ICF id); Dutch federation (Watersportverbond, the kanosport federation) site search 'Anna Mus' (watersportverbond.nl/zoeken, kanosport.nl): no athlete record or ICF id; C3 fallback steps a-d: no match. The seat stays empty (no_icf_id)"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 item B4: no record found in ICF/PWW/Dutch federation sources; the evidence now lists what was searched; correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "log",
+      "results_row": 1782,
+      "seat": "ICF_ID1",
+      "printed": "Anna MUS",
+      "team": "NED",
+      "seat_id": "",
+      "seat_id_unchanged": true,
+      "action_unchanged": "no_icf_id",
+      "field": "id_checks entry results_row 1782 seat ICF_ID1, field detail",
+      "previous_label": "detail",
+      "new_label": "detail",
+      "previous": {
+        "detail": {
+          "ref": "events/Szeged_2024_WC/manifest.json at 99b09bc2234aa22def8469a59f03f089b9d0d35e, id_checks entry results_row 1782 seat ICF_ID1, field detail",
+          "sha256_of_json": "25a1c0ca2106332a98eb0649b77f79feef889db759ce3640345561e8116ee873"
+        }
+      },
+      "new": {
+        "detail": "MAINTAINER_ANSWERS_2026-10-27 item B4: no ICF id for Anna MUS (NED, W) in ICF/PWW/Dutch federation sources, searched 2026-10-27: ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records): no family name MUS and no NED woman named Anna; PaddleWorldwide athlete search (paddleworldwide.com/api/search for 'Anna Mus', 'Mus', 'MUS Anna', 'Anna Mus Netherlands'): no MUS record; PaddleWorldwide profile 104732 (the id once printed for this athlete in Poznan sheets): HTTP 404, and 104732 is not in the ICF list; canoeicf.com/athlete/anna-mus: HTTP 404 (a search-engine copy shows 'Anna MUS (NED)', federation Watersportverbond, no ICF id); Dutch federation (Watersportverbond, the kanosport federation) site search 'Anna Mus' (watersportverbond.nl/zoeken, kanosport.nl): no athlete record or ICF id; C3 fallback steps a-d: no match. The seat stays empty (no_icf_id)"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 item B4: no record found in ICF/PWW/Dutch federation sources; the evidence now lists what was searched; correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "log",
+      "results_row": 1926,
+      "seat": "ICF_ID1",
+      "printed": "Anna MUS",
+      "team": "NED",
+      "seat_id": "",
+      "seat_id_unchanged": true,
+      "action_unchanged": "no_icf_id",
+      "field": "id_checks entry results_row 1926 seat ICF_ID1, field evidence",
+      "previous_label": "evidence",
+      "new_label": "evidence",
+      "previous": {
+        "evidence": {
+          "ref": "events/Szeged_2024_WC/manifest.json at 99b09bc2234aa22def8469a59f03f089b9d0d35e, id_checks entry results_row 1926 seat ICF_ID1, field evidence",
+          "sha256_of_json": "25a1c0ca2106332a98eb0649b77f79feef889db759ce3640345561e8116ee873"
+        }
+      },
+      "new": {
+        "evidence": "MAINTAINER_ANSWERS_2026-10-27 item B4: no ICF id for Anna MUS (NED, W) in ICF/PWW/Dutch federation sources, searched 2026-10-27: ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records): no family name MUS and no NED woman named Anna; PaddleWorldwide athlete search (paddleworldwide.com/api/search for 'Anna Mus', 'Mus', 'MUS Anna', 'Anna Mus Netherlands'): no MUS record; PaddleWorldwide profile 104732 (the id once printed for this athlete in Poznan sheets): HTTP 404, and 104732 is not in the ICF list; canoeicf.com/athlete/anna-mus: HTTP 404 (a search-engine copy shows 'Anna MUS (NED)', federation Watersportverbond, no ICF id); Dutch federation (Watersportverbond, the kanosport federation) site search 'Anna Mus' (watersportverbond.nl/zoeken, kanosport.nl): no athlete record or ICF id; C3 fallback steps a-d: no match. The seat stays empty (no_icf_id)"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 item B4: no record found in ICF/PWW/Dutch federation sources; the evidence now lists what was searched; correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "log",
+      "results_row": 1926,
+      "seat": "ICF_ID1",
+      "printed": "Anna MUS",
+      "team": "NED",
+      "seat_id": "",
+      "seat_id_unchanged": true,
+      "action_unchanged": "no_icf_id",
+      "field": "id_checks entry results_row 1926 seat ICF_ID1, field detail",
+      "previous_label": "detail",
+      "new_label": "detail",
+      "previous": {
+        "detail": {
+          "ref": "events/Szeged_2024_WC/manifest.json at 99b09bc2234aa22def8469a59f03f089b9d0d35e, id_checks entry results_row 1926 seat ICF_ID1, field detail",
+          "sha256_of_json": "25a1c0ca2106332a98eb0649b77f79feef889db759ce3640345561e8116ee873"
+        }
+      },
+      "new": {
+        "detail": "MAINTAINER_ANSWERS_2026-10-27 item B4: no ICF id for Anna MUS (NED, W) in ICF/PWW/Dutch federation sources, searched 2026-10-27: ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records): no family name MUS and no NED woman named Anna; PaddleWorldwide athlete search (paddleworldwide.com/api/search for 'Anna Mus', 'Mus', 'MUS Anna', 'Anna Mus Netherlands'): no MUS record; PaddleWorldwide profile 104732 (the id once printed for this athlete in Poznan sheets): HTTP 404, and 104732 is not in the ICF list; canoeicf.com/athlete/anna-mus: HTTP 404 (a search-engine copy shows 'Anna MUS (NED)', federation Watersportverbond, no ICF id); Dutch federation (Watersportverbond, the kanosport federation) site search 'Anna Mus' (watersportverbond.nl/zoeken, kanosport.nl): no athlete record or ICF id; C3 fallback steps a-d: no match. The seat stays empty (no_icf_id)"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 item B4: no record found in ICF/PWW/Dutch federation sources; the evidence now lists what was searched; correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "log",
+      "results_row": 193,
+      "seat": "ICF_ID1",
+      "printed": "Anna MUS",
+      "team": "NED",
+      "seat_id": "",
+      "seat_id_unchanged": true,
+      "action_unchanged": "no_icf_id",
+      "field": "id_checks entry results_row 193 seat ICF_ID1, field evidence",
+      "previous_label": "evidence",
+      "new_label": "evidence",
+      "previous": {
+        "evidence": {
+          "ref": "events/Szeged_2024_WC/manifest.json at 99b09bc2234aa22def8469a59f03f089b9d0d35e, id_checks entry results_row 193 seat ICF_ID1, field evidence",
+          "sha256_of_json": "25a1c0ca2106332a98eb0649b77f79feef889db759ce3640345561e8116ee873"
+        }
+      },
+      "new": {
+        "evidence": "MAINTAINER_ANSWERS_2026-10-27 item B4: no ICF id for Anna MUS (NED, W) in ICF/PWW/Dutch federation sources, searched 2026-10-27: ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records): no family name MUS and no NED woman named Anna; PaddleWorldwide athlete search (paddleworldwide.com/api/search for 'Anna Mus', 'Mus', 'MUS Anna', 'Anna Mus Netherlands'): no MUS record; PaddleWorldwide profile 104732 (the id once printed for this athlete in Poznan sheets): HTTP 404, and 104732 is not in the ICF list; canoeicf.com/athlete/anna-mus: HTTP 404 (a search-engine copy shows 'Anna MUS (NED)', federation Watersportverbond, no ICF id); Dutch federation (Watersportverbond, the kanosport federation) site search 'Anna Mus' (watersportverbond.nl/zoeken, kanosport.nl): no athlete record or ICF id; C3 fallback steps a-d: no match. The seat stays empty (no_icf_id)"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 item B4: no record found in ICF/PWW/Dutch federation sources; the evidence now lists what was searched; correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "log",
+      "results_row": 193,
+      "seat": "ICF_ID1",
+      "printed": "Anna MUS",
+      "team": "NED",
+      "seat_id": "",
+      "seat_id_unchanged": true,
+      "action_unchanged": "no_icf_id",
+      "field": "id_checks entry results_row 193 seat ICF_ID1, field detail",
+      "previous_label": "detail",
+      "new_label": "detail",
+      "previous": {
+        "detail": {
+          "ref": "events/Szeged_2024_WC/manifest.json at 99b09bc2234aa22def8469a59f03f089b9d0d35e, id_checks entry results_row 193 seat ICF_ID1, field detail",
+          "sha256_of_json": "25a1c0ca2106332a98eb0649b77f79feef889db759ce3640345561e8116ee873"
+        }
+      },
+      "new": {
+        "detail": "MAINTAINER_ANSWERS_2026-10-27 item B4: no ICF id for Anna MUS (NED, W) in ICF/PWW/Dutch federation sources, searched 2026-10-27: ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records): no family name MUS and no NED woman named Anna; PaddleWorldwide athlete search (paddleworldwide.com/api/search for 'Anna Mus', 'Mus', 'MUS Anna', 'Anna Mus Netherlands'): no MUS record; PaddleWorldwide profile 104732 (the id once printed for this athlete in Poznan sheets): HTTP 404, and 104732 is not in the ICF list; canoeicf.com/athlete/anna-mus: HTTP 404 (a search-engine copy shows 'Anna MUS (NED)', federation Watersportverbond, no ICF id); Dutch federation (Watersportverbond, the kanosport federation) site search 'Anna Mus' (watersportverbond.nl/zoeken, kanosport.nl): no athlete record or ICF id; C3 fallback steps a-d: no match. The seat stays empty (no_icf_id)"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 item B4: no record found in ICF/PWW/Dutch federation sources; the evidence now lists what was searched; correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "log",
+      "results_row": 295,
+      "seat": "ICF_ID1",
+      "printed": "Anna MUS",
+      "team": "NED",
+      "seat_id": "",
+      "seat_id_unchanged": true,
+      "action_unchanged": "no_icf_id",
+      "field": "id_checks entry results_row 295 seat ICF_ID1, field evidence",
+      "previous_label": "evidence",
+      "new_label": "evidence",
+      "previous": {
+        "evidence": {
+          "ref": "events/Szeged_2024_WC/manifest.json at 99b09bc2234aa22def8469a59f03f089b9d0d35e, id_checks entry results_row 295 seat ICF_ID1, field evidence",
+          "sha256_of_json": "25a1c0ca2106332a98eb0649b77f79feef889db759ce3640345561e8116ee873"
+        }
+      },
+      "new": {
+        "evidence": "MAINTAINER_ANSWERS_2026-10-27 item B4: no ICF id for Anna MUS (NED, W) in ICF/PWW/Dutch federation sources, searched 2026-10-27: ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records): no family name MUS and no NED woman named Anna; PaddleWorldwide athlete search (paddleworldwide.com/api/search for 'Anna Mus', 'Mus', 'MUS Anna', 'Anna Mus Netherlands'): no MUS record; PaddleWorldwide profile 104732 (the id once printed for this athlete in Poznan sheets): HTTP 404, and 104732 is not in the ICF list; canoeicf.com/athlete/anna-mus: HTTP 404 (a search-engine copy shows 'Anna MUS (NED)', federation Watersportverbond, no ICF id); Dutch federation (Watersportverbond, the kanosport federation) site search 'Anna Mus' (watersportverbond.nl/zoeken, kanosport.nl): no athlete record or ICF id; C3 fallback steps a-d: no match. The seat stays empty (no_icf_id)"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 item B4: no record found in ICF/PWW/Dutch federation sources; the evidence now lists what was searched; correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "log",
+      "results_row": 295,
+      "seat": "ICF_ID1",
+      "printed": "Anna MUS",
+      "team": "NED",
+      "seat_id": "",
+      "seat_id_unchanged": true,
+      "action_unchanged": "no_icf_id",
+      "field": "id_checks entry results_row 295 seat ICF_ID1, field detail",
+      "previous_label": "detail",
+      "new_label": "detail",
+      "previous": {
+        "detail": {
+          "ref": "events/Szeged_2024_WC/manifest.json at 99b09bc2234aa22def8469a59f03f089b9d0d35e, id_checks entry results_row 295 seat ICF_ID1, field detail",
+          "sha256_of_json": "25a1c0ca2106332a98eb0649b77f79feef889db759ce3640345561e8116ee873"
+        }
+      },
+      "new": {
+        "detail": "MAINTAINER_ANSWERS_2026-10-27 item B4: no ICF id for Anna MUS (NED, W) in ICF/PWW/Dutch federation sources, searched 2026-10-27: ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records): no family name MUS and no NED woman named Anna; PaddleWorldwide athlete search (paddleworldwide.com/api/search for 'Anna Mus', 'Mus', 'MUS Anna', 'Anna Mus Netherlands'): no MUS record; PaddleWorldwide profile 104732 (the id once printed for this athlete in Poznan sheets): HTTP 404, and 104732 is not in the ICF list; canoeicf.com/athlete/anna-mus: HTTP 404 (a search-engine copy shows 'Anna MUS (NED)', federation Watersportverbond, no ICF id); Dutch federation (Watersportverbond, the kanosport federation) site search 'Anna Mus' (watersportverbond.nl/zoeken, kanosport.nl): no athlete record or ICF id; C3 fallback steps a-d: no match. The seat stays empty (no_icf_id)"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 item B4: no record found in ICF/PWW/Dutch federation sources; the evidence now lists what was searched; correction of the log, not of a seat (no id change)"
     }
   ]
 }

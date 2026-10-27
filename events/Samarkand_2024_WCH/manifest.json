@@ -11,7 +11,7 @@
   "dates": "2024-08-23/2024-08-25",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-23T18:47:56Z",
+  "generated_at_utc": "2026-10-27T19:37:46Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "IMAS race pages print the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule).",
@@ -10870,11 +10870,34 @@
       "results_row": 406,
       "seat": "ICF_ID4",
       "source_printed_name": "Gagely (2001, M) BALOGH",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Gagely (2001, M) BALOGH (HUN, X)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 item B2: printed 'Gagely (2001, M) BALOGH' (HUN) -> 97611 Gergely BALOGH (born 2001-06-19, ICF nationality HUN / federation HUN); found by C3 step a,c on the ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records); PWW profile 97611 'Gergely BALOGH' noc=HUN gender=M: name-check passed on 2026-10-27; country, gender and age rule pass; no other candidate",
       "team": "HUN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Gagely (2001, M) BALOGH (HUN, X)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 item B2: printed 'Gagely (2001, M) BALOGH' (HUN) -> 97611 Gergely BALOGH (born 2001-06-19, ICF nationality HUN / federation HUN); found by C3 step a,c on the ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records); PWW profile 97611 'Gergely BALOGH' noc=HUN gender=M: name-check passed on 2026-10-27; country, gender and age rule pass; no other candidate",
+      "new_id": "97611",
+      "fallback": "C3(a,c)",
+      "c3_evidence": {
+        "printed": "Gagely (2001, M) BALOGH",
+        "stripped": "Gagely BALOGH",
+        "printed_yob": "2001",
+        "printed_gender": "M",
+        "team": "HUN",
+        "gender": "X",
+        "icf_list": "bence (refreshed per build)",
+        "match": {
+          "orientation": "as_printed",
+          "rule": "family match + given within name-check distance + born 2001"
+        },
+        "icf_record": "97611 Gergely BALOGH M 2001-06-19 nat=HUN fed=HUN",
+        "name_check": "PWW profile 97611 'Gergely BALOGH' noc=HUN gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Gagely (2001, M) BALOGH (HUN, X)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "97611",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 item B2"
+      }
     },
     {
       "results_row": 407,
@@ -14495,11 +14518,34 @@
       "results_row": 639,
       "seat": "ICF_ID4",
       "source_printed_name": "Gagely (2001, M) BALOGH",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Gagely (2001, M) BALOGH (HUN, X)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 item B2: printed 'Gagely (2001, M) BALOGH' (HUN) -> 97611 Gergely BALOGH (born 2001-06-19, ICF nationality HUN / federation HUN); found by C3 step a,c on the ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records); PWW profile 97611 'Gergely BALOGH' noc=HUN gender=M: name-check passed on 2026-10-27; country, gender and age rule pass; no other candidate",
       "team": "HUN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Gagely (2001, M) BALOGH (HUN, X)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 item B2: printed 'Gagely (2001, M) BALOGH' (HUN) -> 97611 Gergely BALOGH (born 2001-06-19, ICF nationality HUN / federation HUN); found by C3 step a,c on the ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records); PWW profile 97611 'Gergely BALOGH' noc=HUN gender=M: name-check passed on 2026-10-27; country, gender and age rule pass; no other candidate",
+      "new_id": "97611",
+      "fallback": "C3(a,c)",
+      "c3_evidence": {
+        "printed": "Gagely (2001, M) BALOGH",
+        "stripped": "Gagely BALOGH",
+        "printed_yob": "2001",
+        "printed_gender": "M",
+        "team": "HUN",
+        "gender": "X",
+        "icf_list": "bence (refreshed per build)",
+        "match": {
+          "orientation": "as_printed",
+          "rule": "family match + given within name-check distance + born 2001"
+        },
+        "icf_record": "97611 Gergely BALOGH M 2001-06-19 nat=HUN fed=HUN",
+        "name_check": "PWW profile 97611 'Gergely BALOGH' noc=HUN gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Gagely (2001, M) BALOGH (HUN, X)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "97611",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 item B2"
+      }
     },
     {
       "results_row": 640,
@@ -16388,7 +16434,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 278
+      "rows": 279
     }
   },
   "checks": {
@@ -16416,12 +16462,12 @@
     {
       "kind": "xlsx",
       "name": "Samarkand_2024_WCH_Results.xlsx",
-      "sha256": "c9c029e7b7729d6e5262ab8e2e4d0bf16aa67f13e4fd1c6242e5e20ce2980704",
-      "bytes": 65408
+      "sha256": "6237472e97711a76b4beb23cf60f9fd25e59af38d086720f19582c757661467f",
+      "bytes": 65455
     }
   ],
   "output_xlsx": "Samarkand_2024_WCH_Results.xlsx",
-  "output_xlsx_sha256": "c9c029e7b7729d6e5262ab8e2e4d0bf16aa67f13e4fd1c6242e5e20ce2980704",
+  "output_xlsx_sha256": "6237472e97711a76b4beb23cf60f9fd25e59af38d086720f19582c757661467f",
   "name_bound_check": {
     "same_meeting_unified": 1,
     "rule": "MAINTAINER_ANSWERS_2026-10-23 Rules 1-5 + same-meeting unification",
@@ -16435,7 +16481,7 @@
     "no_icf_id_t59": 2,
     "same_meeting_unified_t59": 0
   },
-  "updated_at": "2026-10-23T18:47:56Z",
+  "updated_at": "2026-10-27T19:37:46Z",
   "name_change_log": [
     {
       "results_row": 174,
@@ -16591,5 +16637,50 @@
     },
     "backfilled": "2026-10-19"
   },
-  "nation_change_log": []
+  "nation_change_log": [],
+  "corrections_log": [
+    {
+      "results_row": 406,
+      "seat": "ICF_ID4",
+      "printed": "Gagely (2001, M) BALOGH",
+      "team": "HUN",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "97611",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 item B2; C3(a,c)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 item B2: printed 'Gagely (2001, M) BALOGH' (HUN) -> 97611 Gergely BALOGH (born 2001-06-19, ICF nationality HUN / federation HUN); found by C3 step a,c on the ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records); PWW profile 97611 'Gergely BALOGH' noc=HUN gender=M: name-check passed on 2026-10-27; country, gender and age rule pass; no other candidate",
+      "previous_record": null,
+      "new_record": {
+        "id": "97611",
+        "name": "Gergely BALOGH",
+        "birth_date": "2001-06-19",
+        "nationality": "HUN",
+        "federation": "HUN",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 639,
+      "seat": "ICF_ID4",
+      "printed": "Gagely (2001, M) BALOGH",
+      "team": "HUN",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "97611",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 item B2; C3(a,c)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 item B2: printed 'Gagely (2001, M) BALOGH' (HUN) -> 97611 Gergely BALOGH (born 2001-06-19, ICF nationality HUN / federation HUN); found by C3 step a,c on the ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records); PWW profile 97611 'Gergely BALOGH' noc=HUN gender=M: name-check passed on 2026-10-27; country, gender and age rule pass; no other candidate",
+      "previous_record": null,
+      "new_record": {
+        "id": "97611",
+        "name": "Gergely BALOGH",
+        "birth_date": "2001-06-19",
+        "nationality": "HUN",
+        "federation": "HUN",
+        "gender": "M"
+      }
+    }
+  ],
+  "log_corrections": []
 }
