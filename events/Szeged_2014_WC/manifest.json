@@ -10,7 +10,7 @@
   "dates": "2014-05-23/2014-05-25",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-23T19:39:26Z",
+  "generated_at_utc": "2026-10-27T20:21:58Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "Szeged organiser results book (ICF-hosted PDF; surname/given/country-name columns; country names mapped to NOC codes, map in country_name_map) prints the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule). OQ/para races in the same book are kept (one key).",
@@ -11081,11 +11081,47 @@
       "results_row": 50,
       "seat": "ICF_ID2",
       "source_printed_name": "Sofie Jørgensen",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sofie Jørgensen (DEN, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sofie Jørgensen' (DEN, W) -> 49637 Sofie Aastrand JORGENSEN (born 1992-09-03, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"SOFIE\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"SOFIE\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 49637 'Sofie Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "DEN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sofie Jørgensen (DEN, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sofie Jørgensen' (DEN, W) -> 49637 Sofie Aastrand JORGENSEN (born 1992-09-03, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"SOFIE\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"SOFIE\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 49637 'Sofie Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "49637",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Sofie Jørgensen",
+        "proposed_id": "49637",
+        "icf_record": "49637 Sofie Aastrand JORGENSEN W 1992-09-03 nat=DEN fed=DEN",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "SOFIE",
+            "/",
+            "J",
+            "RGENSEN"
+          ],
+          "icf_variant": [
+            "SOFIE",
+            "ASTRAND",
+            "/",
+            "JORGENSEN"
+          ]
+        },
+        "pww_name_check": "PWW profile 49637 'Sofie Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 49637 'Sofie Aastrand JORGENSEN' noc=DEN gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sofie Jørgensen (DEN, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "49637",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 51,
@@ -15472,11 +15508,47 @@
       "results_row": 303,
       "seat": "ICF_ID2",
       "source_printed_name": "Sofie Jørgensen",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sofie Jørgensen (DEN, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sofie Jørgensen' (DEN, W) -> 49637 Sofie Aastrand JORGENSEN (born 1992-09-03, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"SOFIE\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"SOFIE\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 49637 'Sofie Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "DEN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sofie Jørgensen (DEN, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sofie Jørgensen' (DEN, W) -> 49637 Sofie Aastrand JORGENSEN (born 1992-09-03, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"SOFIE\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"SOFIE\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 49637 'Sofie Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "49637",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Sofie Jørgensen",
+        "proposed_id": "49637",
+        "icf_record": "49637 Sofie Aastrand JORGENSEN W 1992-09-03 nat=DEN fed=DEN",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "SOFIE",
+            "/",
+            "J",
+            "RGENSEN"
+          ],
+          "icf_variant": [
+            "SOFIE",
+            "ASTRAND",
+            "/",
+            "JORGENSEN"
+          ]
+        },
+        "pww_name_check": "PWW profile 49637 'Sofie Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 49637 'Sofie Aastrand JORGENSEN' noc=DEN gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sofie Jørgensen (DEN, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "49637",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 304,
@@ -24097,11 +24169,45 @@
       "results_row": 830,
       "seat": "ICF_ID1",
       "source_printed_name": "Natalia Lagutenko",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Natalia Lagutenko (UKR, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Natalia Lagutenko' (UKR, W) -> 46444 Nataliia LAHUTENKO (born 1985-11-14, ICF nationality UKR / federation UKR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"NATALIA\", \"/\", \"LAGUTENCO\"], \"icf_variant\": [\"NATALIA\", \"/\", \"LAHUTENCO\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 46444 'Nataliia LAHUTENKO' noc=UKR gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "UKR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Natalia Lagutenko (UKR, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Natalia Lagutenko' (UKR, W) -> 46444 Nataliia LAHUTENKO (born 1985-11-14, ICF nationality UKR / federation UKR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"NATALIA\", \"/\", \"LAGUTENCO\"], \"icf_variant\": [\"NATALIA\", \"/\", \"LAHUTENCO\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 46444 'Nataliia LAHUTENKO' noc=UKR gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "46444",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Natalia Lagutenko",
+        "proposed_id": "46444",
+        "icf_record": "46444 Nataliia LAHUTENKO W 1985-11-14 nat=UKR fed=UKR",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "NATALIA",
+            "/",
+            "LAGUTENCO"
+          ],
+          "icf_variant": [
+            "NATALIA",
+            "/",
+            "LAHUTENCO"
+          ]
+        },
+        "pww_name_check": "PWW profile 46444 'Nataliia LAHUTENKO' noc=UKR gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 46444 'Nataliia LAHUTENKO' noc=UKR gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Natalia Lagutenko (UKR, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "46444",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 831,
@@ -27221,11 +27327,47 @@
       "results_row": 1024,
       "seat": "ICF_ID2",
       "source_printed_name": "Sofie Jørgensen",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sofie Jørgensen (DEN, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sofie Jørgensen' (DEN, W) -> 49637 Sofie Aastrand JORGENSEN (born 1992-09-03, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"SOFIE\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"SOFIE\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 49637 'Sofie Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "DEN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sofie Jørgensen (DEN, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sofie Jørgensen' (DEN, W) -> 49637 Sofie Aastrand JORGENSEN (born 1992-09-03, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"SOFIE\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"SOFIE\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 49637 'Sofie Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "49637",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Sofie Jørgensen",
+        "proposed_id": "49637",
+        "icf_record": "49637 Sofie Aastrand JORGENSEN W 1992-09-03 nat=DEN fed=DEN",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "SOFIE",
+            "/",
+            "J",
+            "RGENSEN"
+          ],
+          "icf_variant": [
+            "SOFIE",
+            "ASTRAND",
+            "/",
+            "JORGENSEN"
+          ]
+        },
+        "pww_name_check": "PWW profile 49637 'Sofie Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 49637 'Sofie Aastrand JORGENSEN' noc=DEN gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sofie Jørgensen (DEN, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "49637",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 1025,
@@ -29938,11 +30080,47 @@
       "results_row": 1190,
       "seat": "ICF_ID2",
       "source_printed_name": "Sofie Jørgensen",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sofie Jørgensen (DEN, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sofie Jørgensen' (DEN, W) -> 49637 Sofie Aastrand JORGENSEN (born 1992-09-03, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"SOFIE\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"SOFIE\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 49637 'Sofie Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "DEN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sofie Jørgensen (DEN, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sofie Jørgensen' (DEN, W) -> 49637 Sofie Aastrand JORGENSEN (born 1992-09-03, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"SOFIE\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"SOFIE\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 49637 'Sofie Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "49637",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Sofie Jørgensen",
+        "proposed_id": "49637",
+        "icf_record": "49637 Sofie Aastrand JORGENSEN W 1992-09-03 nat=DEN fed=DEN",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "SOFIE",
+            "/",
+            "J",
+            "RGENSEN"
+          ],
+          "icf_variant": [
+            "SOFIE",
+            "ASTRAND",
+            "/",
+            "JORGENSEN"
+          ]
+        },
+        "pww_name_check": "PWW profile 49637 'Sofie Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 49637 'Sofie Aastrand JORGENSEN' noc=DEN gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Sofie Jørgensen (DEN, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "49637",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 1191,
@@ -32851,11 +33029,45 @@
       "results_row": 1384,
       "seat": "ICF_ID1",
       "source_printed_name": "Natalia Lagutenko",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Natalia Lagutenko (UKR, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Natalia Lagutenko' (UKR, W) -> 46444 Nataliia LAHUTENKO (born 1985-11-14, ICF nationality UKR / federation UKR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"NATALIA\", \"/\", \"LAGUTENCO\"], \"icf_variant\": [\"NATALIA\", \"/\", \"LAHUTENCO\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 46444 'Nataliia LAHUTENKO' noc=UKR gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "UKR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Natalia Lagutenko (UKR, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Natalia Lagutenko' (UKR, W) -> 46444 Nataliia LAHUTENKO (born 1985-11-14, ICF nationality UKR / federation UKR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"NATALIA\", \"/\", \"LAGUTENCO\"], \"icf_variant\": [\"NATALIA\", \"/\", \"LAHUTENCO\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 46444 'Nataliia LAHUTENKO' noc=UKR gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "46444",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Natalia Lagutenko",
+        "proposed_id": "46444",
+        "icf_record": "46444 Nataliia LAHUTENKO W 1985-11-14 nat=UKR fed=UKR",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "NATALIA",
+            "/",
+            "LAGUTENCO"
+          ],
+          "icf_variant": [
+            "NATALIA",
+            "/",
+            "LAHUTENCO"
+          ]
+        },
+        "pww_name_check": "PWW profile 46444 'Nataliia LAHUTENKO' noc=UKR gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 46444 'Nataliia LAHUTENKO' noc=UKR gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Natalia Lagutenko (UKR, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "46444",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 1385,
@@ -34395,7 +34607,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 371
+      "rows": 440
     }
   },
   "country_name_map": {
@@ -34499,12 +34711,12 @@
     {
       "kind": "xlsx",
       "name": "Szeged_2014_WC_Results.xlsx",
-      "sha256": "383ad43f3fc73bcd0326c7b45a9f6070fa214d16caf71b25e9af1f25afa613d1",
-      "bytes": 129788
+      "sha256": "aed07304c243594f03e535b2cc2b82daea1088a8f3aa98c7095e95edc60bff06",
+      "bytes": 129886
     }
   ],
   "output_xlsx": "Szeged_2014_WC_Results.xlsx",
-  "output_xlsx_sha256": "383ad43f3fc73bcd0326c7b45a9f6070fa214d16caf71b25e9af1f25afa613d1",
+  "output_xlsx_sha256": "aed07304c243594f03e535b2cc2b82daea1088a8f3aa98c7095e95edc60bff06",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -34539,7 +34751,7 @@
     "race 150: not printed in the approved source(s); no rows (maintainer 2026-10-17 Q14)",
     "race 161: not printed in the approved source(s); no rows (maintainer 2026-10-17 Q14)"
   ],
-  "updated_at": "2026-10-23T19:39:26Z",
+  "updated_at": "2026-10-27T20:21:58Z",
   "name_bound_check": {
     "completed": true,
     "profiles_checked": 371,
@@ -35033,5 +35245,272 @@
     }
   ],
   "name_change_log": [],
-  "nation_change_log": []
+  "nation_change_log": [],
+  "corrections_log": [
+    {
+      "results_row": 50,
+      "seat": "ICF_ID2",
+      "printed": "Sofie Jørgensen",
+      "team": "DEN",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "49637",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sofie Jørgensen' (DEN, W) -> 49637 Sofie Aastrand JORGENSEN (born 1992-09-03, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"SOFIE\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"SOFIE\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 49637 'Sofie Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "SOFIE",
+          "/",
+          "J",
+          "RGENSEN"
+        ],
+        "icf_variant": [
+          "SOFIE",
+          "ASTRAND",
+          "/",
+          "JORGENSEN"
+        ]
+      },
+      "pww_name_check": "PWW profile 49637 'Sofie Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+      "icf_record": "49637 Sofie Aastrand JORGENSEN W 1992-09-03 nat=DEN fed=DEN",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "49637",
+        "name": "Sofie Aastrand JORGENSEN",
+        "birth_date": "1992-09-03",
+        "nationality": "DEN",
+        "federation": "DEN",
+        "gender": "W"
+      }
+    },
+    {
+      "results_row": 303,
+      "seat": "ICF_ID2",
+      "printed": "Sofie Jørgensen",
+      "team": "DEN",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "49637",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sofie Jørgensen' (DEN, W) -> 49637 Sofie Aastrand JORGENSEN (born 1992-09-03, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"SOFIE\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"SOFIE\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 49637 'Sofie Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "SOFIE",
+          "/",
+          "J",
+          "RGENSEN"
+        ],
+        "icf_variant": [
+          "SOFIE",
+          "ASTRAND",
+          "/",
+          "JORGENSEN"
+        ]
+      },
+      "pww_name_check": "PWW profile 49637 'Sofie Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+      "icf_record": "49637 Sofie Aastrand JORGENSEN W 1992-09-03 nat=DEN fed=DEN",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "49637",
+        "name": "Sofie Aastrand JORGENSEN",
+        "birth_date": "1992-09-03",
+        "nationality": "DEN",
+        "federation": "DEN",
+        "gender": "W"
+      }
+    },
+    {
+      "results_row": 830,
+      "seat": "ICF_ID1",
+      "printed": "Natalia Lagutenko",
+      "team": "UKR",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "46444",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Natalia Lagutenko' (UKR, W) -> 46444 Nataliia LAHUTENKO (born 1985-11-14, ICF nationality UKR / federation UKR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"NATALIA\", \"/\", \"LAGUTENCO\"], \"icf_variant\": [\"NATALIA\", \"/\", \"LAHUTENCO\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 46444 'Nataliia LAHUTENKO' noc=UKR gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "NATALIA",
+          "/",
+          "LAGUTENCO"
+        ],
+        "icf_variant": [
+          "NATALIA",
+          "/",
+          "LAHUTENCO"
+        ]
+      },
+      "pww_name_check": "PWW profile 46444 'Nataliia LAHUTENKO' noc=UKR gender=F: name-check passed",
+      "icf_record": "46444 Nataliia LAHUTENKO W 1985-11-14 nat=UKR fed=UKR",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "46444",
+        "name": "Nataliia LAHUTENKO",
+        "birth_date": "1985-11-14",
+        "nationality": "UKR",
+        "federation": "UKR",
+        "gender": "W"
+      }
+    },
+    {
+      "results_row": 1024,
+      "seat": "ICF_ID2",
+      "printed": "Sofie Jørgensen",
+      "team": "DEN",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "49637",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sofie Jørgensen' (DEN, W) -> 49637 Sofie Aastrand JORGENSEN (born 1992-09-03, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"SOFIE\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"SOFIE\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 49637 'Sofie Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "SOFIE",
+          "/",
+          "J",
+          "RGENSEN"
+        ],
+        "icf_variant": [
+          "SOFIE",
+          "ASTRAND",
+          "/",
+          "JORGENSEN"
+        ]
+      },
+      "pww_name_check": "PWW profile 49637 'Sofie Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+      "icf_record": "49637 Sofie Aastrand JORGENSEN W 1992-09-03 nat=DEN fed=DEN",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "49637",
+        "name": "Sofie Aastrand JORGENSEN",
+        "birth_date": "1992-09-03",
+        "nationality": "DEN",
+        "federation": "DEN",
+        "gender": "W"
+      }
+    },
+    {
+      "results_row": 1190,
+      "seat": "ICF_ID2",
+      "printed": "Sofie Jørgensen",
+      "team": "DEN",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "49637",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Sofie Jørgensen' (DEN, W) -> 49637 Sofie Aastrand JORGENSEN (born 1992-09-03, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"SOFIE\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"SOFIE\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 49637 'Sofie Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "SOFIE",
+          "/",
+          "J",
+          "RGENSEN"
+        ],
+        "icf_variant": [
+          "SOFIE",
+          "ASTRAND",
+          "/",
+          "JORGENSEN"
+        ]
+      },
+      "pww_name_check": "PWW profile 49637 'Sofie Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+      "icf_record": "49637 Sofie Aastrand JORGENSEN W 1992-09-03 nat=DEN fed=DEN",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "49637",
+        "name": "Sofie Aastrand JORGENSEN",
+        "birth_date": "1992-09-03",
+        "nationality": "DEN",
+        "federation": "DEN",
+        "gender": "W"
+      }
+    },
+    {
+      "results_row": 1384,
+      "seat": "ICF_ID1",
+      "printed": "Natalia Lagutenko",
+      "team": "UKR",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "46444",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Natalia Lagutenko' (UKR, W) -> 46444 Nataliia LAHUTENKO (born 1985-11-14, ICF nationality UKR / federation UKR); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"NATALIA\", \"/\", \"LAGUTENCO\"], \"icf_variant\": [\"NATALIA\", \"/\", \"LAHUTENCO\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 46444 'Nataliia LAHUTENKO' noc=UKR gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "NATALIA",
+          "/",
+          "LAGUTENCO"
+        ],
+        "icf_variant": [
+          "NATALIA",
+          "/",
+          "LAHUTENCO"
+        ]
+      },
+      "pww_name_check": "PWW profile 46444 'Nataliia LAHUTENKO' noc=UKR gender=F: name-check passed",
+      "icf_record": "46444 Nataliia LAHUTENKO W 1985-11-14 nat=UKR fed=UKR",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "46444",
+        "name": "Nataliia LAHUTENKO",
+        "birth_date": "1985-11-14",
+        "nationality": "UKR",
+        "federation": "UKR",
+        "gender": "W"
+      }
+    }
+  ],
+  "log_corrections": [
+    {
+      "kind": "log",
+      "field": "sheets.PERSONS.rows",
+      "previous": 371,
+      "new": 440,
+      "previous_label": "sheets.PERSONS.rows",
+      "new_label": "sheets.PERSONS.rows",
+      "rule": "t71 (MAINTAINER_ANSWERS_2026-10-27): the manifest PERSONS row count was stale (371 vs 438 PERSONS data rows in the published xlsx); now the actual count 440 after 2 PERSONS rows added for the approved C3 binds; correction of the log, no seat change"
+    }
+  ]
 }

@@ -10,7 +10,7 @@
   "dates": "2014-07-17/2014-07-20",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-25T15:25:49Z",
+  "generated_at_utc": "2026-10-27T20:21:58Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "Szeged organiser results book (ICF-hosted PDF; surname/given/country-name columns; country names mapped to NOC codes, map in country_name_map) prints the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule). OQ/para races in the same book are kept (one key).",
@@ -21896,11 +21896,45 @@
       "results_row": 503,
       "seat": "ICF_ID2",
       "source_printed_name": "Beccardo Luca",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beccardo Luca (ITA, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Beccardo Luca' (ITA, M) -> 54735 Luca BECCARO (born 1997-07-10, ICF nationality ITA / federation ITA); C3 step b; match {\"orientation\": \"swapped\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"LUCA\", \"/\", \"BECARDO\"], \"icf_variant\": [\"LUCA\", \"/\", \"BECARO\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 54735 'Luca BECCARO' noc=ITA gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "ITA",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beccardo Luca (ITA, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Beccardo Luca' (ITA, M) -> 54735 Luca BECCARO (born 1997-07-10, ICF nationality ITA / federation ITA); C3 step b; match {\"orientation\": \"swapped\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"LUCA\", \"/\", \"BECARDO\"], \"icf_variant\": [\"LUCA\", \"/\", \"BECARO\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 54735 'Luca BECCARO' noc=ITA gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "54735",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Beccardo Luca",
+        "proposed_id": "54735",
+        "icf_record": "54735 Luca BECCARO M 1997-07-10 nat=ITA fed=ITA",
+        "step": "b",
+        "match": {
+          "orientation": "swapped",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "LUCA",
+            "/",
+            "BECARDO"
+          ],
+          "icf_variant": [
+            "LUCA",
+            "/",
+            "BECARO"
+          ]
+        },
+        "pww_name_check": "PWW profile 54735 'Luca BECCARO' noc=ITA gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 54735 'Luca BECCARO' noc=ITA gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beccardo Luca (ITA, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "54735",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 503,
@@ -22822,11 +22856,47 @@
       "results_row": 527,
       "seat": "ICF_ID1",
       "source_printed_name": "Emma Jørgensen",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma Jørgensen (DEN, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma Jørgensen' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "DEN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma Jørgensen (DEN, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma Jørgensen' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "42844",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Emma Jørgensen",
+        "proposed_id": "42844",
+        "icf_record": "42844 Emma Aastrand JORGENSEN W 1996-01-30 nat=DEN fed=DEN",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "EMA",
+            "/",
+            "J",
+            "RGENSEN"
+          ],
+          "icf_variant": [
+            "EMA",
+            "ASTRAND",
+            "/",
+            "JORGENSEN"
+          ]
+        },
+        "pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma Jørgensen (DEN, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "42844",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 528,
@@ -23154,11 +23224,45 @@
       "results_row": 558,
       "seat": "ICF_ID2",
       "source_printed_name": "Nilufar Zakirova",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Nilufar Zakirova (UZB, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Nilufar Zakirova' (UZB, W) -> 61144 Nilufar ZOKIROVA (born 1997-06-15, ICF nationality UZB / federation UZB); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"NILUFAR\", \"/\", \"ZACIROVA\"], \"icf_variant\": [\"NILUFAR\", \"/\", \"ZOCIROVA\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 61144 'Nilufar ZOKIROVA' noc=UZB gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "UZB",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Nilufar Zakirova (UZB, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Nilufar Zakirova' (UZB, W) -> 61144 Nilufar ZOKIROVA (born 1997-06-15, ICF nationality UZB / federation UZB); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"NILUFAR\", \"/\", \"ZACIROVA\"], \"icf_variant\": [\"NILUFAR\", \"/\", \"ZOCIROVA\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 61144 'Nilufar ZOKIROVA' noc=UZB gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "61144",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Nilufar Zakirova",
+        "proposed_id": "61144",
+        "icf_record": "61144 Nilufar ZOKIROVA W 1997-06-15 nat=UZB fed=UZB",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "NILUFAR",
+            "/",
+            "ZACIROVA"
+          ],
+          "icf_variant": [
+            "NILUFAR",
+            "/",
+            "ZOCIROVA"
+          ]
+        },
+        "pww_name_check": "PWW profile 61144 'Nilufar ZOKIROVA' noc=UZB gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 61144 'Nilufar ZOKIROVA' noc=UZB gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Nilufar Zakirova (UZB, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "61144",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 559,
@@ -25466,11 +25570,45 @@
       "results_row": 670,
       "seat": "ICF_ID2",
       "source_printed_name": "Beccardo Luca",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beccardo Luca (ITA, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Beccardo Luca' (ITA, M) -> 54735 Luca BECCARO (born 1997-07-10, ICF nationality ITA / federation ITA); C3 step b; match {\"orientation\": \"swapped\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"LUCA\", \"/\", \"BECARDO\"], \"icf_variant\": [\"LUCA\", \"/\", \"BECARO\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 54735 'Luca BECCARO' noc=ITA gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "ITA",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beccardo Luca (ITA, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Beccardo Luca' (ITA, M) -> 54735 Luca BECCARO (born 1997-07-10, ICF nationality ITA / federation ITA); C3 step b; match {\"orientation\": \"swapped\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"LUCA\", \"/\", \"BECARDO\"], \"icf_variant\": [\"LUCA\", \"/\", \"BECARO\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 54735 'Luca BECCARO' noc=ITA gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "54735",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Beccardo Luca",
+        "proposed_id": "54735",
+        "icf_record": "54735 Luca BECCARO M 1997-07-10 nat=ITA fed=ITA",
+        "step": "b",
+        "match": {
+          "orientation": "swapped",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "LUCA",
+            "/",
+            "BECARDO"
+          ],
+          "icf_variant": [
+            "LUCA",
+            "/",
+            "BECARO"
+          ]
+        },
+        "pww_name_check": "PWW profile 54735 'Luca BECCARO' noc=ITA gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 54735 'Luca BECCARO' noc=ITA gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beccardo Luca (ITA, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "54735",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 670,
@@ -26278,11 +26416,47 @@
       "results_row": 704,
       "seat": "ICF_ID1",
       "source_printed_name": "Emma Jørgensen",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma Jørgensen (DEN, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma Jørgensen' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "DEN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma Jørgensen (DEN, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma Jørgensen' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "42844",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Emma Jørgensen",
+        "proposed_id": "42844",
+        "icf_record": "42844 Emma Aastrand JORGENSEN W 1996-01-30 nat=DEN fed=DEN",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "EMA",
+            "/",
+            "J",
+            "RGENSEN"
+          ],
+          "icf_variant": [
+            "EMA",
+            "ASTRAND",
+            "/",
+            "JORGENSEN"
+          ]
+        },
+        "pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma Jørgensen (DEN, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "42844",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 705,
@@ -28266,11 +28440,47 @@
       "results_row": 834,
       "seat": "ICF_ID1",
       "source_printed_name": "Emma Jørgensen",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma Jørgensen (DEN, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma Jørgensen' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "DEN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma Jørgensen (DEN, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma Jørgensen' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "42844",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Emma Jørgensen",
+        "proposed_id": "42844",
+        "icf_record": "42844 Emma Aastrand JORGENSEN W 1996-01-30 nat=DEN fed=DEN",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "EMA",
+            "/",
+            "J",
+            "RGENSEN"
+          ],
+          "icf_variant": [
+            "EMA",
+            "ASTRAND",
+            "/",
+            "JORGENSEN"
+          ]
+        },
+        "pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma Jørgensen (DEN, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "42844",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 835,
@@ -29453,11 +29663,45 @@
       "results_row": 951,
       "seat": "ICF_ID1",
       "source_printed_name": "Caplinski Viktor",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caplinski Viktor (LTU, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Caplinski Viktor' (LTU, M) -> 104879 Viktor CAPLINSKIJ (born 1991-06-06, ICF nationality LTU / federation LTU); C3 step b; match {\"orientation\": \"swapped\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VICTOR\", \"/\", \"CAPLINSCI\"], \"icf_variant\": [\"VICTOR\", \"/\", \"CAPLINSCIJ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 104879 'Viktor CAPLINSKIJ' noc=LTU gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "LTU",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caplinski Viktor (LTU, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Caplinski Viktor' (LTU, M) -> 104879 Viktor CAPLINSKIJ (born 1991-06-06, ICF nationality LTU / federation LTU); C3 step b; match {\"orientation\": \"swapped\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VICTOR\", \"/\", \"CAPLINSCI\"], \"icf_variant\": [\"VICTOR\", \"/\", \"CAPLINSCIJ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 104879 'Viktor CAPLINSKIJ' noc=LTU gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "104879",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Caplinski Viktor",
+        "proposed_id": "104879",
+        "icf_record": "104879 Viktor CAPLINSKIJ M 1991-06-06 nat=LTU fed=LTU",
+        "step": "b",
+        "match": {
+          "orientation": "swapped",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "VICTOR",
+            "/",
+            "CAPLINSCI"
+          ],
+          "icf_variant": [
+            "VICTOR",
+            "/",
+            "CAPLINSCIJ"
+          ]
+        },
+        "pww_name_check": "PWW profile 104879 'Viktor CAPLINSKIJ' noc=LTU gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 104879 'Viktor CAPLINSKIJ' noc=LTU gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caplinski Viktor (LTU, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "104879",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 952,
@@ -35407,11 +35651,47 @@
       "results_row": 1337,
       "seat": "ICF_ID1",
       "source_printed_name": "Emma Jørgensen",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma Jørgensen (DEN, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma Jørgensen' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "DEN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma Jørgensen (DEN, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma Jørgensen' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "42844",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Emma Jørgensen",
+        "proposed_id": "42844",
+        "icf_record": "42844 Emma Aastrand JORGENSEN W 1996-01-30 nat=DEN fed=DEN",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "EMA",
+            "/",
+            "J",
+            "RGENSEN"
+          ],
+          "icf_variant": [
+            "EMA",
+            "ASTRAND",
+            "/",
+            "JORGENSEN"
+          ]
+        },
+        "pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma Jørgensen (DEN, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "42844",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 1338,
@@ -36261,11 +36541,45 @@
       "results_row": 1422,
       "seat": "ICF_ID1",
       "source_printed_name": "Caplinski Viktor",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caplinski Viktor (LTU, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Caplinski Viktor' (LTU, M) -> 104879 Viktor CAPLINSKIJ (born 1991-06-06, ICF nationality LTU / federation LTU); C3 step b; match {\"orientation\": \"swapped\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VICTOR\", \"/\", \"CAPLINSCI\"], \"icf_variant\": [\"VICTOR\", \"/\", \"CAPLINSCIJ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 104879 'Viktor CAPLINSKIJ' noc=LTU gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "LTU",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caplinski Viktor (LTU, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Caplinski Viktor' (LTU, M) -> 104879 Viktor CAPLINSKIJ (born 1991-06-06, ICF nationality LTU / federation LTU); C3 step b; match {\"orientation\": \"swapped\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VICTOR\", \"/\", \"CAPLINSCI\"], \"icf_variant\": [\"VICTOR\", \"/\", \"CAPLINSCIJ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 104879 'Viktor CAPLINSKIJ' noc=LTU gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "104879",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Caplinski Viktor",
+        "proposed_id": "104879",
+        "icf_record": "104879 Viktor CAPLINSKIJ M 1991-06-06 nat=LTU fed=LTU",
+        "step": "b",
+        "match": {
+          "orientation": "swapped",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "VICTOR",
+            "/",
+            "CAPLINSCI"
+          ],
+          "icf_variant": [
+            "VICTOR",
+            "/",
+            "CAPLINSCIJ"
+          ]
+        },
+        "pww_name_check": "PWW profile 104879 'Viktor CAPLINSKIJ' noc=LTU gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 104879 'Viktor CAPLINSKIJ' noc=LTU gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caplinski Viktor (LTU, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "104879",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 1423,
@@ -39215,11 +39529,47 @@
       "results_row": 1641,
       "seat": "ICF_ID1",
       "source_printed_name": "Emma Jørgensen",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma Jørgensen (DEN, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma Jørgensen' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "DEN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma Jørgensen (DEN, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma Jørgensen' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "42844",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Emma Jørgensen",
+        "proposed_id": "42844",
+        "icf_record": "42844 Emma Aastrand JORGENSEN W 1996-01-30 nat=DEN fed=DEN",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "EMA",
+            "/",
+            "J",
+            "RGENSEN"
+          ],
+          "icf_variant": [
+            "EMA",
+            "ASTRAND",
+            "/",
+            "JORGENSEN"
+          ]
+        },
+        "pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma Jørgensen (DEN, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "42844",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 1642,
@@ -39677,11 +40027,45 @@
       "results_row": 1678,
       "seat": "ICF_ID1",
       "source_printed_name": "Caplinski Viktor",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caplinski Viktor (LTU, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Caplinski Viktor' (LTU, M) -> 104879 Viktor CAPLINSKIJ (born 1991-06-06, ICF nationality LTU / federation LTU); C3 step b; match {\"orientation\": \"swapped\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VICTOR\", \"/\", \"CAPLINSCI\"], \"icf_variant\": [\"VICTOR\", \"/\", \"CAPLINSCIJ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 104879 'Viktor CAPLINSKIJ' noc=LTU gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "LTU",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caplinski Viktor (LTU, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Caplinski Viktor' (LTU, M) -> 104879 Viktor CAPLINSKIJ (born 1991-06-06, ICF nationality LTU / federation LTU); C3 step b; match {\"orientation\": \"swapped\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VICTOR\", \"/\", \"CAPLINSCI\"], \"icf_variant\": [\"VICTOR\", \"/\", \"CAPLINSCIJ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 104879 'Viktor CAPLINSKIJ' noc=LTU gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "104879",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Caplinski Viktor",
+        "proposed_id": "104879",
+        "icf_record": "104879 Viktor CAPLINSKIJ M 1991-06-06 nat=LTU fed=LTU",
+        "step": "b",
+        "match": {
+          "orientation": "swapped",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "VICTOR",
+            "/",
+            "CAPLINSCI"
+          ],
+          "icf_variant": [
+            "VICTOR",
+            "/",
+            "CAPLINSCIJ"
+          ]
+        },
+        "pww_name_check": "PWW profile 104879 'Viktor CAPLINSKIJ' noc=LTU gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 104879 'Viktor CAPLINSKIJ' noc=LTU gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caplinski Viktor (LTU, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "104879",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 1679,
@@ -41663,11 +42047,45 @@
       "results_row": 1800,
       "seat": "ICF_ID2",
       "source_printed_name": "Beccardo Luca",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beccardo Luca (ITA, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Beccardo Luca' (ITA, M) -> 54735 Luca BECCARO (born 1997-07-10, ICF nationality ITA / federation ITA); C3 step b; match {\"orientation\": \"swapped\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"LUCA\", \"/\", \"BECARDO\"], \"icf_variant\": [\"LUCA\", \"/\", \"BECARO\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 54735 'Luca BECCARO' noc=ITA gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "ITA",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beccardo Luca (ITA, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Beccardo Luca' (ITA, M) -> 54735 Luca BECCARO (born 1997-07-10, ICF nationality ITA / federation ITA); C3 step b; match {\"orientation\": \"swapped\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"LUCA\", \"/\", \"BECARDO\"], \"icf_variant\": [\"LUCA\", \"/\", \"BECARO\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 54735 'Luca BECCARO' noc=ITA gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "54735",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Beccardo Luca",
+        "proposed_id": "54735",
+        "icf_record": "54735 Luca BECCARO M 1997-07-10 nat=ITA fed=ITA",
+        "step": "b",
+        "match": {
+          "orientation": "swapped",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "LUCA",
+            "/",
+            "BECARDO"
+          ],
+          "icf_variant": [
+            "LUCA",
+            "/",
+            "BECARO"
+          ]
+        },
+        "pww_name_check": "PWW profile 54735 'Luca BECCARO' noc=ITA gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 54735 'Luca BECCARO' noc=ITA gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beccardo Luca (ITA, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "54735",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 1800,
@@ -42049,11 +42467,47 @@
       "results_row": 1821,
       "seat": "ICF_ID1",
       "source_printed_name": "Emma Jørgensen",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma Jørgensen (DEN, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma Jørgensen' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "DEN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma Jørgensen (DEN, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma Jørgensen' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "42844",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Emma Jørgensen",
+        "proposed_id": "42844",
+        "icf_record": "42844 Emma Aastrand JORGENSEN W 1996-01-30 nat=DEN fed=DEN",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "EMA",
+            "/",
+            "J",
+            "RGENSEN"
+          ],
+          "icf_variant": [
+            "EMA",
+            "ASTRAND",
+            "/",
+            "JORGENSEN"
+          ]
+        },
+        "pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Emma Jørgensen (DEN, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "42844",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 1822,
@@ -42211,11 +42665,45 @@
       "results_row": 1833,
       "seat": "ICF_ID2",
       "source_printed_name": "Nilufar Zakirova",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Nilufar Zakirova (UZB, W)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Nilufar Zakirova' (UZB, W) -> 61144 Nilufar ZOKIROVA (born 1997-06-15, ICF nationality UZB / federation UZB); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"NILUFAR\", \"/\", \"ZACIROVA\"], \"icf_variant\": [\"NILUFAR\", \"/\", \"ZOCIROVA\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 61144 'Nilufar ZOKIROVA' noc=UZB gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "UZB",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Nilufar Zakirova (UZB, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Nilufar Zakirova' (UZB, W) -> 61144 Nilufar ZOKIROVA (born 1997-06-15, ICF nationality UZB / federation UZB); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"NILUFAR\", \"/\", \"ZACIROVA\"], \"icf_variant\": [\"NILUFAR\", \"/\", \"ZOCIROVA\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 61144 'Nilufar ZOKIROVA' noc=UZB gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "61144",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Nilufar Zakirova",
+        "proposed_id": "61144",
+        "icf_record": "61144 Nilufar ZOKIROVA W 1997-06-15 nat=UZB fed=UZB",
+        "step": "b",
+        "match": {
+          "orientation": "as_printed",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "NILUFAR",
+            "/",
+            "ZACIROVA"
+          ],
+          "icf_variant": [
+            "NILUFAR",
+            "/",
+            "ZOCIROVA"
+          ]
+        },
+        "pww_name_check": "PWW profile 61144 'Nilufar ZOKIROVA' noc=UZB gender=F: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 61144 'Nilufar ZOKIROVA' noc=UZB gender=F: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Nilufar Zakirova (UZB, W)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "61144",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 1834,
@@ -43628,7 +44116,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 591
+      "rows": 637
     }
   },
   "country_name_map": {
@@ -43738,12 +44226,12 @@
     {
       "kind": "xlsx",
       "name": "Szeged_2014_JWCH_Results.xlsx",
-      "sha256": "1c53a4f1a8405a7d6bbeef881d35e6996dd5e82b39f670371fb8f648a886d9bc",
-      "bytes": 163337
+      "sha256": "c5476b8e881dbf87947a2f494263c8cb8c4333c024e4a0c180a953e4fda07ea0",
+      "bytes": 163555
     }
   ],
   "output_xlsx": "Szeged_2014_JWCH_Results.xlsx",
-  "output_xlsx_sha256": "1c53a4f1a8405a7d6bbeef881d35e6996dd5e82b39f670371fb8f648a886d9bc",
+  "output_xlsx_sha256": "c5476b8e881dbf87947a2f494263c8cb8c4333c024e4a0c180a953e4fda07ea0",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -43777,7 +44265,7 @@
     "race 187: not printed in the approved source(s); no rows (maintainer 2026-10-17 Q14)",
     "race 193: not printed in the approved source(s); no rows (maintainer 2026-10-17 Q14)"
   ],
-  "updated_at": "2026-10-25T15:25:49Z",
+  "updated_at": "2026-10-27T20:21:58Z",
   "name_bound_check": {
     "completed": true,
     "profiles_checked": 591,
@@ -44143,6 +44631,592 @@
         "nationality": "GER",
         "federation": "GER"
       }
+    },
+    {
+      "results_row": 503,
+      "seat": "ICF_ID2",
+      "printed": "Beccardo Luca",
+      "team": "ITA",
+      "category": "JUNIOR",
+      "previous_id": "",
+      "new_id": "54735",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Beccardo Luca' (ITA, M) -> 54735 Luca BECCARO (born 1997-07-10, ICF nationality ITA / federation ITA); C3 step b; match {\"orientation\": \"swapped\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"LUCA\", \"/\", \"BECARDO\"], \"icf_variant\": [\"LUCA\", \"/\", \"BECARO\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 54735 'Luca BECCARO' noc=ITA gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "swapped",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "LUCA",
+          "/",
+          "BECARDO"
+        ],
+        "icf_variant": [
+          "LUCA",
+          "/",
+          "BECARO"
+        ]
+      },
+      "pww_name_check": "PWW profile 54735 'Luca BECCARO' noc=ITA gender=M: name-check passed",
+      "icf_record": "54735 Luca BECCARO M 1997-07-10 nat=ITA fed=ITA",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "54735",
+        "name": "Luca BECCARO",
+        "birth_date": "1997-07-10",
+        "nationality": "ITA",
+        "federation": "ITA",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 527,
+      "seat": "ICF_ID1",
+      "printed": "Emma Jørgensen",
+      "team": "DEN",
+      "category": "JUNIOR",
+      "previous_id": "",
+      "new_id": "42844",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma Jørgensen' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "EMA",
+          "/",
+          "J",
+          "RGENSEN"
+        ],
+        "icf_variant": [
+          "EMA",
+          "ASTRAND",
+          "/",
+          "JORGENSEN"
+        ]
+      },
+      "pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+      "icf_record": "42844 Emma Aastrand JORGENSEN W 1996-01-30 nat=DEN fed=DEN",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "42844",
+        "name": "Emma Aastrand JORGENSEN",
+        "birth_date": "1996-01-30",
+        "nationality": "DEN",
+        "federation": "DEN",
+        "gender": "W"
+      }
+    },
+    {
+      "results_row": 558,
+      "seat": "ICF_ID2",
+      "printed": "Nilufar Zakirova",
+      "team": "UZB",
+      "category": "JUNIOR",
+      "previous_id": "",
+      "new_id": "61144",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Nilufar Zakirova' (UZB, W) -> 61144 Nilufar ZOKIROVA (born 1997-06-15, ICF nationality UZB / federation UZB); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"NILUFAR\", \"/\", \"ZACIROVA\"], \"icf_variant\": [\"NILUFAR\", \"/\", \"ZOCIROVA\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 61144 'Nilufar ZOKIROVA' noc=UZB gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "NILUFAR",
+          "/",
+          "ZACIROVA"
+        ],
+        "icf_variant": [
+          "NILUFAR",
+          "/",
+          "ZOCIROVA"
+        ]
+      },
+      "pww_name_check": "PWW profile 61144 'Nilufar ZOKIROVA' noc=UZB gender=F: name-check passed",
+      "icf_record": "61144 Nilufar ZOKIROVA W 1997-06-15 nat=UZB fed=UZB",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "61144",
+        "name": "Nilufar ZOKIROVA",
+        "birth_date": "1997-06-15",
+        "nationality": "UZB",
+        "federation": "UZB",
+        "gender": "W"
+      }
+    },
+    {
+      "results_row": 670,
+      "seat": "ICF_ID2",
+      "printed": "Beccardo Luca",
+      "team": "ITA",
+      "category": "JUNIOR",
+      "previous_id": "",
+      "new_id": "54735",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Beccardo Luca' (ITA, M) -> 54735 Luca BECCARO (born 1997-07-10, ICF nationality ITA / federation ITA); C3 step b; match {\"orientation\": \"swapped\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"LUCA\", \"/\", \"BECARDO\"], \"icf_variant\": [\"LUCA\", \"/\", \"BECARO\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 54735 'Luca BECCARO' noc=ITA gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "swapped",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "LUCA",
+          "/",
+          "BECARDO"
+        ],
+        "icf_variant": [
+          "LUCA",
+          "/",
+          "BECARO"
+        ]
+      },
+      "pww_name_check": "PWW profile 54735 'Luca BECCARO' noc=ITA gender=M: name-check passed",
+      "icf_record": "54735 Luca BECCARO M 1997-07-10 nat=ITA fed=ITA",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "54735",
+        "name": "Luca BECCARO",
+        "birth_date": "1997-07-10",
+        "nationality": "ITA",
+        "federation": "ITA",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 704,
+      "seat": "ICF_ID1",
+      "printed": "Emma Jørgensen",
+      "team": "DEN",
+      "category": "JUNIOR",
+      "previous_id": "",
+      "new_id": "42844",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma Jørgensen' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "EMA",
+          "/",
+          "J",
+          "RGENSEN"
+        ],
+        "icf_variant": [
+          "EMA",
+          "ASTRAND",
+          "/",
+          "JORGENSEN"
+        ]
+      },
+      "pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+      "icf_record": "42844 Emma Aastrand JORGENSEN W 1996-01-30 nat=DEN fed=DEN",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "42844",
+        "name": "Emma Aastrand JORGENSEN",
+        "birth_date": "1996-01-30",
+        "nationality": "DEN",
+        "federation": "DEN",
+        "gender": "W"
+      }
+    },
+    {
+      "results_row": 834,
+      "seat": "ICF_ID1",
+      "printed": "Emma Jørgensen",
+      "team": "DEN",
+      "category": "JUNIOR",
+      "previous_id": "",
+      "new_id": "42844",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma Jørgensen' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "EMA",
+          "/",
+          "J",
+          "RGENSEN"
+        ],
+        "icf_variant": [
+          "EMA",
+          "ASTRAND",
+          "/",
+          "JORGENSEN"
+        ]
+      },
+      "pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+      "icf_record": "42844 Emma Aastrand JORGENSEN W 1996-01-30 nat=DEN fed=DEN",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "42844",
+        "name": "Emma Aastrand JORGENSEN",
+        "birth_date": "1996-01-30",
+        "nationality": "DEN",
+        "federation": "DEN",
+        "gender": "W"
+      }
+    },
+    {
+      "results_row": 951,
+      "seat": "ICF_ID1",
+      "printed": "Caplinski Viktor",
+      "team": "LTU",
+      "category": "U23",
+      "previous_id": "",
+      "new_id": "104879",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Caplinski Viktor' (LTU, M) -> 104879 Viktor CAPLINSKIJ (born 1991-06-06, ICF nationality LTU / federation LTU); C3 step b; match {\"orientation\": \"swapped\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VICTOR\", \"/\", \"CAPLINSCI\"], \"icf_variant\": [\"VICTOR\", \"/\", \"CAPLINSCIJ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 104879 'Viktor CAPLINSKIJ' noc=LTU gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "swapped",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "VICTOR",
+          "/",
+          "CAPLINSCI"
+        ],
+        "icf_variant": [
+          "VICTOR",
+          "/",
+          "CAPLINSCIJ"
+        ]
+      },
+      "pww_name_check": "PWW profile 104879 'Viktor CAPLINSKIJ' noc=LTU gender=M: name-check passed",
+      "icf_record": "104879 Viktor CAPLINSKIJ M 1991-06-06 nat=LTU fed=LTU",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "104879",
+        "name": "Viktor CAPLINSKIJ",
+        "birth_date": "1991-06-06",
+        "nationality": "LTU",
+        "federation": "LTU",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 1337,
+      "seat": "ICF_ID1",
+      "printed": "Emma Jørgensen",
+      "team": "DEN",
+      "category": "JUNIOR",
+      "previous_id": "",
+      "new_id": "42844",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma Jørgensen' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "EMA",
+          "/",
+          "J",
+          "RGENSEN"
+        ],
+        "icf_variant": [
+          "EMA",
+          "ASTRAND",
+          "/",
+          "JORGENSEN"
+        ]
+      },
+      "pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+      "icf_record": "42844 Emma Aastrand JORGENSEN W 1996-01-30 nat=DEN fed=DEN",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "42844",
+        "name": "Emma Aastrand JORGENSEN",
+        "birth_date": "1996-01-30",
+        "nationality": "DEN",
+        "federation": "DEN",
+        "gender": "W"
+      }
+    },
+    {
+      "results_row": 1422,
+      "seat": "ICF_ID1",
+      "printed": "Caplinski Viktor",
+      "team": "LTU",
+      "category": "U23",
+      "previous_id": "",
+      "new_id": "104879",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Caplinski Viktor' (LTU, M) -> 104879 Viktor CAPLINSKIJ (born 1991-06-06, ICF nationality LTU / federation LTU); C3 step b; match {\"orientation\": \"swapped\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VICTOR\", \"/\", \"CAPLINSCI\"], \"icf_variant\": [\"VICTOR\", \"/\", \"CAPLINSCIJ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 104879 'Viktor CAPLINSKIJ' noc=LTU gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "swapped",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "VICTOR",
+          "/",
+          "CAPLINSCI"
+        ],
+        "icf_variant": [
+          "VICTOR",
+          "/",
+          "CAPLINSCIJ"
+        ]
+      },
+      "pww_name_check": "PWW profile 104879 'Viktor CAPLINSKIJ' noc=LTU gender=M: name-check passed",
+      "icf_record": "104879 Viktor CAPLINSKIJ M 1991-06-06 nat=LTU fed=LTU",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "104879",
+        "name": "Viktor CAPLINSKIJ",
+        "birth_date": "1991-06-06",
+        "nationality": "LTU",
+        "federation": "LTU",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 1641,
+      "seat": "ICF_ID1",
+      "printed": "Emma Jørgensen",
+      "team": "DEN",
+      "category": "JUNIOR",
+      "previous_id": "",
+      "new_id": "42844",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma Jørgensen' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "EMA",
+          "/",
+          "J",
+          "RGENSEN"
+        ],
+        "icf_variant": [
+          "EMA",
+          "ASTRAND",
+          "/",
+          "JORGENSEN"
+        ]
+      },
+      "pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+      "icf_record": "42844 Emma Aastrand JORGENSEN W 1996-01-30 nat=DEN fed=DEN",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "42844",
+        "name": "Emma Aastrand JORGENSEN",
+        "birth_date": "1996-01-30",
+        "nationality": "DEN",
+        "federation": "DEN",
+        "gender": "W"
+      }
+    },
+    {
+      "results_row": 1678,
+      "seat": "ICF_ID1",
+      "printed": "Caplinski Viktor",
+      "team": "LTU",
+      "category": "U23",
+      "previous_id": "",
+      "new_id": "104879",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Caplinski Viktor' (LTU, M) -> 104879 Viktor CAPLINSKIJ (born 1991-06-06, ICF nationality LTU / federation LTU); C3 step b; match {\"orientation\": \"swapped\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"VICTOR\", \"/\", \"CAPLINSCI\"], \"icf_variant\": [\"VICTOR\", \"/\", \"CAPLINSCIJ\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 104879 'Viktor CAPLINSKIJ' noc=LTU gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "swapped",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "VICTOR",
+          "/",
+          "CAPLINSCI"
+        ],
+        "icf_variant": [
+          "VICTOR",
+          "/",
+          "CAPLINSCIJ"
+        ]
+      },
+      "pww_name_check": "PWW profile 104879 'Viktor CAPLINSKIJ' noc=LTU gender=M: name-check passed",
+      "icf_record": "104879 Viktor CAPLINSKIJ M 1991-06-06 nat=LTU fed=LTU",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "104879",
+        "name": "Viktor CAPLINSKIJ",
+        "birth_date": "1991-06-06",
+        "nationality": "LTU",
+        "federation": "LTU",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 1800,
+      "seat": "ICF_ID2",
+      "printed": "Beccardo Luca",
+      "team": "ITA",
+      "category": "JUNIOR",
+      "previous_id": "",
+      "new_id": "54735",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Beccardo Luca' (ITA, M) -> 54735 Luca BECCARO (born 1997-07-10, ICF nationality ITA / federation ITA); C3 step b; match {\"orientation\": \"swapped\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"LUCA\", \"/\", \"BECARDO\"], \"icf_variant\": [\"LUCA\", \"/\", \"BECARO\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 54735 'Luca BECCARO' noc=ITA gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "swapped",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "LUCA",
+          "/",
+          "BECARDO"
+        ],
+        "icf_variant": [
+          "LUCA",
+          "/",
+          "BECARO"
+        ]
+      },
+      "pww_name_check": "PWW profile 54735 'Luca BECCARO' noc=ITA gender=M: name-check passed",
+      "icf_record": "54735 Luca BECCARO M 1997-07-10 nat=ITA fed=ITA",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "54735",
+        "name": "Luca BECCARO",
+        "birth_date": "1997-07-10",
+        "nationality": "ITA",
+        "federation": "ITA",
+        "gender": "M"
+      }
+    },
+    {
+      "results_row": 1821,
+      "seat": "ICF_ID1",
+      "printed": "Emma Jørgensen",
+      "team": "DEN",
+      "category": "JUNIOR",
+      "previous_id": "",
+      "new_id": "42844",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Emma Jørgensen' (DEN, W) -> 42844 Emma Aastrand JORGENSEN (born 1996-01-30, ICF nationality DEN / federation DEN); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"EMA\", \"/\", \"J\", \"RGENSEN\"], \"icf_variant\": [\"EMA\", \"ASTRAND\", \"/\", \"JORGENSEN\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "EMA",
+          "/",
+          "J",
+          "RGENSEN"
+        ],
+        "icf_variant": [
+          "EMA",
+          "ASTRAND",
+          "/",
+          "JORGENSEN"
+        ]
+      },
+      "pww_name_check": "PWW profile 42844 'Emma Aastrand JORGENSEN' noc=DEN gender=F: name-check passed",
+      "icf_record": "42844 Emma Aastrand JORGENSEN W 1996-01-30 nat=DEN fed=DEN",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "42844",
+        "name": "Emma Aastrand JORGENSEN",
+        "birth_date": "1996-01-30",
+        "nationality": "DEN",
+        "federation": "DEN",
+        "gender": "W"
+      }
+    },
+    {
+      "results_row": 1833,
+      "seat": "ICF_ID2",
+      "printed": "Nilufar Zakirova",
+      "team": "UZB",
+      "category": "JUNIOR",
+      "previous_id": "",
+      "new_id": "61144",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Nilufar Zakirova' (UZB, W) -> 61144 Nilufar ZOKIROVA (born 1997-06-15, ICF nationality UZB / federation UZB); C3 step b; match {\"orientation\": \"as_printed\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"NILUFAR\", \"/\", \"ZACIROVA\"], \"icf_variant\": [\"NILUFAR\", \"/\", \"ZOCIROVA\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 61144 'Nilufar ZOKIROVA' noc=UZB gender=F: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "as_printed",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "NILUFAR",
+          "/",
+          "ZACIROVA"
+        ],
+        "icf_variant": [
+          "NILUFAR",
+          "/",
+          "ZOCIROVA"
+        ]
+      },
+      "pww_name_check": "PWW profile 61144 'Nilufar ZOKIROVA' noc=UZB gender=F: name-check passed",
+      "icf_record": "61144 Nilufar ZOKIROVA W 1997-06-15 nat=UZB fed=UZB",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "61144",
+        "name": "Nilufar ZOKIROVA",
+        "birth_date": "1997-06-15",
+        "nationality": "UZB",
+        "federation": "UZB",
+        "gender": "W"
+      }
     }
   ],
   "log_corrections": [
@@ -44163,6 +45237,15 @@
         "name_bound_check.t60_ru166.rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule first + sole-candidate keep + cross-country review (PADDLETAGGER_CONTRACT.md Name-bound ids item 4(a), Under-14 rule and NOC check; now with the RU168 rulings of MAINTAINER_ANSWERS_2026-10-24b and ruling 4 as amended, 2026-10-24c)"
       },
       "rule": "MAINTAINER_ANSWERS_2026-10-25c item 1: the run's rule note cited the superseded under-14 rule as replaced; re-pointed to the governing contract text; the run's counts unchanged; MAINTAINER_ANSWERS_2026-10-25c: correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "log",
+      "field": "sheets.PERSONS.rows",
+      "previous": 591,
+      "new": 637,
+      "previous_label": "sheets.PERSONS.rows",
+      "new_label": "sheets.PERSONS.rows",
+      "rule": "t71 (MAINTAINER_ANSWERS_2026-10-27): the manifest PERSONS row count was stale (591 vs 633 PERSONS data rows in the published xlsx); now the actual count 637 after 4 PERSONS rows added for the approved C3 binds; correction of the log, no seat change"
     }
   ]
 }

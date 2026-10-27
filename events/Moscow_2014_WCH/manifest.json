@@ -11,7 +11,7 @@
   "dates": "2014-08-06/2014-08-10",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-23T19:39:26Z",
+  "generated_at_utc": "2026-10-27T20:21:58Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "IMAS race pages print the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule).",
@@ -33456,11 +33456,45 @@
       "results_row": 1249,
       "seat": "ICF_ID2",
       "source_printed_name": "Furntes OJAY",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Furntes OJAY (PHI, M)",
+      "action": "corrected",
+      "source": "c3_fallback",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Furntes OJAY' (PHI, M) -> 63329 Ojay FUENTES (born 1998-06-13, ICF nationality PHI / federation PHI); C3 step b; match {\"orientation\": \"swapped\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"OJAI\", \"/\", \"FURNTES\"], \"icf_variant\": [\"OJAI\", \"/\", \"FUENTES\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 63329 'Ojay FUENTES' noc=PHI gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
       "team": "PHI",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Furntes OJAY (PHI, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Furntes OJAY' (PHI, M) -> 63329 Ojay FUENTES (born 1998-06-13, ICF nationality PHI / federation PHI); C3 step b; match {\"orientation\": \"swapped\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"OJAI\", \"/\", \"FURNTES\"], \"icf_variant\": [\"OJAI\", \"/\", \"FUENTES\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 63329 'Ojay FUENTES' noc=PHI gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "new_id": "63329",
+      "fallback": "C3(b)",
+      "c3_evidence": {
+        "printed": "Furntes OJAY",
+        "proposed_id": "63329",
+        "icf_record": "63329 Ojay FUENTES M 1998-06-13 nat=PHI fed=PHI",
+        "step": "b",
+        "match": {
+          "orientation": "swapped",
+          "family": "one",
+          "given": "exact",
+          "printed_variant": [
+            "OJAI",
+            "/",
+            "FURNTES"
+          ],
+          "icf_variant": [
+            "OJAI",
+            "/",
+            "FUENTES"
+          ]
+        },
+        "pww_name_check": "PWW profile 63329 'Ojay FUENTES' noc=PHI gender=M: name-check passed",
+        "icf_list": "ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...)",
+        "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+        "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+        "dry_run_pww_name_check": "PWW profile 63329 'Ojay FUENTES' noc=PHI gender=M: name-check passed"
+      },
+      "previous_evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Furntes OJAY (PHI, M)",
+      "correction": {
+        "previous_id": "",
+        "new_id": "63329",
+        "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)"
+      }
     },
     {
       "results_row": 1250,
@@ -49202,7 +49236,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 660
+      "rows": 720
     }
   },
   "oq_races": [],
@@ -49593,12 +49627,12 @@
     {
       "kind": "xlsx",
       "name": "Moscow_2014_WCH_Results.xlsx",
-      "sha256": "02e5cbeb0d7189eb3641a1811d3197837f2d2f09ddfcf1b08ddb94320cec4f3a",
-      "bytes": 167683
+      "sha256": "ebe7468bbe3b1c08a7898e4b68902cfb47b80d1076ac7a34664437687fd9acd0",
+      "bytes": 167718
     }
   ],
   "output_xlsx": "Moscow_2014_WCH_Results.xlsx",
-  "output_xlsx_sha256": "02e5cbeb0d7189eb3641a1811d3197837f2d2f09ddfcf1b08ddb94320cec4f3a",
+  "output_xlsx_sha256": "ebe7468bbe3b1c08a7898e4b68902cfb47b80d1076ac7a34664437687fd9acd0",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -49640,7 +49674,7 @@
     "no_icf_id_t59": 469,
     "same_meeting_unified_t59": 0
   },
-  "updated_at": "2026-10-23T19:39:26Z",
+  "updated_at": "2026-10-27T20:21:58Z",
   "printed_field_counts": {
     "source": "boats per race as parsed from the published source ( +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  + ); back-filled 2026-10-19 from the published RESULTS (the builder parse), race coverage cross-checked independently by GATE10b",
     "rule": "MAINTAINER_ANSWERS_2026-10-18c Fix 1: printed count decides",
@@ -49919,5 +49953,59 @@
     ]
   },
   "name_change_log": [],
-  "nation_change_log": []
+  "nation_change_log": [],
+  "corrections_log": [
+    {
+      "results_row": 1249,
+      "seat": "ICF_ID2",
+      "printed": "Furntes OJAY",
+      "team": "PHI",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "63329",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-10-27 21:01 approval of the C3 dry run; C3(b)",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\" Printed 'Furntes OJAY' (PHI, M) -> 63329 Ojay FUENTES (born 1998-06-13, ICF nationality PHI / federation PHI); C3 step b; match {\"orientation\": \"swapped\", \"family\": \"one\", \"given\": \"exact\", \"printed_variant\": [\"OJAI\", \"/\", \"FURNTES\"], \"icf_variant\": [\"OJAI\", \"/\", \"FUENTES\"]}; ICF record re-verified on the ICF athlete list (bence) refreshed 2026-10-27T20:04:32Z (28899 records, sha256 e9d26e6642a9...); PWW profile 63329 'Ojay FUENTES' noc=PHI gender=M: name-check passed (fetched fresh 2026-10-27); country, gender, age rule and same-row checks pass; live published cell was empty with the same printed name",
+      "c3_step": "b",
+      "match": {
+        "orientation": "swapped",
+        "family": "one",
+        "given": "exact",
+        "printed_variant": [
+          "OJAI",
+          "/",
+          "FURNTES"
+        ],
+        "icf_variant": [
+          "OJAI",
+          "/",
+          "FUENTES"
+        ]
+      },
+      "pww_name_check": "PWW profile 63329 'Ojay FUENTES' noc=PHI gender=M: name-check passed",
+      "icf_record": "63329 Ojay FUENTES M 1998-06-13 nat=PHI fed=PHI",
+      "approval": "MAINTAINER_ANSWERS_2026-10-27 answer 2026-10-27 21:01 Europe/Budapest: maintainer approved the C3 dry-run binds listed in C3_dryrun_review_APPROVED_2026-10-27.xlsx (sha256 460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339): \"They all look good to me.\"",
+      "approved_list_sha256": "460dc9ccf948e88bbdd4cc83ee99e15ee9759426e3c956104559a77a997f5339",
+      "previous_record": null,
+      "new_record": {
+        "id": "63329",
+        "name": "Ojay FUENTES",
+        "birth_date": "1998-06-13",
+        "nationality": "PHI",
+        "federation": "PHI",
+        "gender": "M"
+      }
+    }
+  ],
+  "log_corrections": [
+    {
+      "kind": "log",
+      "field": "sheets.PERSONS.rows",
+      "previous": 660,
+      "new": 720,
+      "previous_label": "sheets.PERSONS.rows",
+      "new_label": "sheets.PERSONS.rows",
+      "rule": "t71 (MAINTAINER_ANSWERS_2026-10-27): the manifest PERSONS row count was stale (660 vs 719 PERSONS data rows in the published xlsx); now the actual count 720 after 1 PERSONS rows added for the approved C3 binds; correction of the log, no seat change"
+    }
+  ]
 }
