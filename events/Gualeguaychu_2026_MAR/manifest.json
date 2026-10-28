@@ -20,8 +20,8 @@
   "start_times": "scheduled",
   "grade": "PERFECT",
   "gaps": [],
-  "generated_at_utc": "2026-10-26T12:05:09Z",
-  "updated_at": "2026-10-26T12:05:09Z",
+  "generated_at_utc": "2026-10-28T18:17:24Z",
+  "updated_at": "2026-10-28T18:17:24Z",
   "sources": [
     {
       "path": "gualeguaychu-sources/eventdetail_168.html",
@@ -942,13 +942,14 @@
         "hub regata_marathon.php?nr=45 results": 347
       },
       "note": "all other race-45 boats are 641..657; 347 is the same crew's boat number in race 31 (likely vendor carry-over)",
-      "resolution": "results print 347; 647 kept (as published at 6e93163) per Erno Radafuk's decision on 2026-10-26, pending a vendor answer (STARTING_LANE override in builder BOAT_OVERRIDES; BIB_BOAT stays empty since vendor Bib is the athlete bib)",
+      "resolution": "results print 347; 647 kept (as published at 6e93163) per Erno Radafuk's decision on 2026-10-26 (confirmed 2026-10-28): results' 347 is a print error (STARTING_LANE override in builder BOAT_OVERRIDES; BIB_BOAT stays empty since vendor Bib is the athlete bib)",
       "decision": {
         "by": "Erno Radafuk",
         "date": "2026-10-26",
         "kept": 647,
         "printed_in_results": 347,
-        "status": "pending_vendor_answer"
+        "status": "results_print_error",
+        "date_confirmed": "2026-10-28"
       }
     }
   ],
@@ -5546,5 +5547,5 @@
     "persons_dropped": 0,
     "olympic": false
   },
-  "published_at": "2026-10-26T12:05:09Z"
+  "published_at": "2026-10-28T18:17:24Z"
 }
