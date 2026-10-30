@@ -10,12 +10,12 @@
   "dates": "2009-08-13/2009-08-16",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-30T15:48:18Z",
+  "generated_at_utc": "2026-10-30T21:43:46Z",
   "grade": "USABLE",
   "gaps": [
     "ranks_missing"
   ],
-  "note": "Dartmouth (Halifax), 13-16 Aug 2009. Races, lanes and start times from the ICF archive results book (each race header prints day + start to the minute, scheduled, HH:MM:00); race numbers from the book's own Race Schedule pages. TEAM = flag image identified through the book's own Countries legend (same image -> country name -> NOC), logged per boat. Full names from the canoeresults.eu printout (cfly.ca, approved for this event only, MAINTAINER_ANSWERS_2026-10-19c Q71) for the races it lists (finals A); elsewhere the book prints surnames only and seats bind only on a unique same-nation same-gender surname. Pre-2013: binds bound_by_name_unconfirmed (Q44). DIFFERENCE not written. Given names for 84 surname-only athletes and K1/C1 bibs from the canoe09.ca organiser draw of 11 Aug 2009 (MAINTAINER_ANSWERS_2026-10-30.md t86u (\"For Halifax, yes, use the draw for names and bibs\"); names and bibs only, never times). Crew BIB_BOAT holds the crew members' draw bibs joined with \"/\" in seat order (525 rows; MAINTAINER_ANSWERS_2026-10-30.md t86s490 (\"Put all crew bibs joined with / in BIB_BOAT\"; \"the never-copy rule only covers vendor bibs that are ICF ids; real start bibs may go in BIB_BOAT\")). t86s496 (2026-10-30 16:35 CET): t87 draw-mismatch proposals applied (keep 63, emptied 86, rebound 4); EGAN/HOGAN given names Jenny/Maggie from the draw. t88: crew BIB_BOAT now 603 rows.",
+  "note": "Dartmouth (Halifax), 13-16 Aug 2009. Races, lanes and start times from the ICF archive results book (each race header prints day + start to the minute, scheduled, HH:MM:00); race numbers from the book's own Race Schedule pages. TEAM = flag image identified through the book's own Countries legend (same image -> country name -> NOC), logged per boat. Full names from the canoeresults.eu printout (cfly.ca, approved for this event only, MAINTAINER_ANSWERS_2026-10-19c Q71) for the races it lists (finals A); elsewhere the book prints surnames only and seats bind only on a unique same-nation same-gender surname. Pre-2013: binds bound_by_name_unconfirmed (Q44). DIFFERENCE not written. Given names for 84 surname-only athletes and K1/C1 bibs from the canoe09.ca organiser draw of 11 Aug 2009 (MAINTAINER_ANSWERS_2026-10-30.md t86u (\"For Halifax, yes, use the draw for names and bibs\"); names and bibs only, never times). Crew BIB_BOAT holds the crew members' draw bibs joined with \"/\" in seat order (525 rows; MAINTAINER_ANSWERS_2026-10-30.md t86s490 (\"Put all crew bibs joined with / in BIB_BOAT\"; \"the never-copy rule only covers vendor bibs that are ICF ids; real start bibs may go in BIB_BOAT\")). t86s496 (2026-10-30 16:35 CET): t87 draw-mismatch proposals applied (keep 63, emptied 86, rebound 4); EGAN/HOGAN given names Jenny/Maggie from the draw. t88: crew BIB_BOAT now 603 rows. t86s503: given names Nivalter (36633) and Edward (36234) from the draw; t88 crew bibs confirmed.",
   "race_numbers_missing": [],
   "races_not_printed": [
     {
@@ -55613,7 +55613,8 @@
       "MAINTAINER_ANSWERS_2026-10-30.md t86u (\"For Halifax, yes, use the draw for names and bibs\")",
       "MAINTAINER_ANSWERS_2026-10-30.md t86s490 (\"Put all crew bibs joined with / in BIB_BOAT\"; \"the never-copy rule only covers vendor bibs that are ICF ids; real start bibs may go in BIB_BOAT\")",
       "MAINTAINER_ANSWERS_2026-10-30.md t86s496 (\"Fill bibs for the six spelling-variant crew rows.\")",
-      "MAINTAINER_ANSWERS_2026-10-30.md t86s496 (\"Approve all mismatch proposals: keep 63, empty 86, rebind 4\")"
+      "MAINTAINER_ANSWERS_2026-10-30.md t86s496 (\"Approve all mismatch proposals: keep 63, empty 86, rebind 4\")",
+      "MAINTAINER_ANSWERS_2026-10-30.md t86s503 (\"Keep the 9 extra crew bibs and the MIRBEKOV order swap.\")"
     ],
     "filled_rows": 1319,
     "detail": "K1/C1/LTA single boats: BIB_BOAT = the athlete bib printed in the organiser draw (as printed, leading zeros kept), matched on event + nation with the book surname checked; semis/finals carry the heat bib only when the athlete prints one bib throughout the draw. Crew boats (K2/K4/C2/C4, relays, TA/LTA crews), per MAINTAINER_ANSWERS_2026-10-30.md t86s490 (\"Put all crew bibs joined with / in BIB_BOAT\"; \"the never-copy rule only covers vendor bibs that are ICF ids; real start bibs may go in BIB_BOAT\"): BIB_BOAT = every crew member's draw bib joined with \"/\" in ICF_ID1..n seat order, filled only when every printed seat matches exactly one athlete of the draw boat, every bound id agrees with that draw athlete, no seat is a late-swap keep (book athlete not in the draw boat; HOFF), (t88, per t86s496) seats of approved same-person keeps and the six spelling-variant rows count as matched, and no bib conflicts; later rounds carry the heat bibs only for the same printed crew. 603 crew rows filled (525 at t87, 78 at t88), 213 left empty (crew_not_filled). BIB_BOAT never holds an ICF id. Bibs are not lanes; STARTING_LANE stays as the book prints it.",
@@ -57133,6 +57134,27 @@
         "results_row": 1585,
         "team": "CAN",
         "reason": "later round: no filled draw heat with the same printed crew (crew changed, partial print, or its heat row was not filled)"
+      }
+    ],
+    "rulings_confirmed": [
+      {
+        "rule": "MAINTAINER_ANSWERS_2026-10-30.md t86s503 (\"Keep the 9 extra crew bibs and the MIRBEKOV order swap.\")",
+        "rows_same_person_keeps": [
+          415,
+          1026,
+          1046,
+          1091,
+          1110,
+          1429,
+          1454,
+          1495,
+          1507
+        ],
+        "rows_mirbekov_order_swap": [
+          297,
+          328
+        ],
+        "logged_at_utc": "2026-10-30T21:43:14Z"
       }
     ]
   },
@@ -74011,7 +74033,7 @@
     }
   ],
   "given_name_not_printed": {
-    "rule": "MAINTAINER_ANSWERS_2026-10-19 Q40: the source prints no given name (family names only, or family names with a trailing initial); NAME left empty, SURNAME as printed; never filled from the ICF profile. Halifax: the ICF book prints family names only for races the Q71 printout does not list. Amended by MAINTAINER_ANSWERS_2026-10-30.md t86u (\"For Halifax, yes, use the draw for names and bibs\"): the canoe09.ca draw (updated-draw-aug-11.pdf) is a printed source for given names; 84 given names filled from it (given_name_from_draw), the 27 listed here stay empty (draw contradicts the bound id, or no seat-level match). t88 (MAINTAINER_ANSWERS_2026-10-30.md t86s496 (\"Fill PERSONS NAME with Jenny EGAN and Maggie HOGAN as printed in the draw.\"); MAINTAINER_ANSWERS_2026-10-30.md t86s496 answer, 2026-10-30 16:35 CET (\"Approve all mismatch proposals: keep 63, empty 86, rebind 4, including the KORISANSZKY nation_change exception.\")): EGAN 42797 and HOGAN 42360 filled from the draw; entries for ids removed from PERSONS by the t86s496 empties/rebinds dropped; 6 remain",
+    "rule": "MAINTAINER_ANSWERS_2026-10-19 Q40: the source prints no given name (family names only, or family names with a trailing initial); NAME left empty, SURNAME as printed; never filled from the ICF profile. Halifax: the ICF book prints family names only for races the Q71 printout does not list. Amended by MAINTAINER_ANSWERS_2026-10-30.md t86u (\"For Halifax, yes, use the draw for names and bibs\"): the canoe09.ca draw (updated-draw-aug-11.pdf) is a printed source for given names; 84 given names filled from it (given_name_from_draw), the 27 listed here stay empty (draw contradicts the bound id, or no seat-level match). t88 (MAINTAINER_ANSWERS_2026-10-30.md t86s496 (\"Fill PERSONS NAME with Jenny EGAN and Maggie HOGAN as printed in the draw.\"); MAINTAINER_ANSWERS_2026-10-30.md t86s496 answer, 2026-10-30 16:35 CET (\"Approve all mismatch proposals: keep 63, empty 86, rebind 4, including the KORISANSZKY nation_change exception.\")): EGAN 42797 and HOGAN 42360 filled from the draw; entries for ids removed from PERSONS by the t86s496 empties/rebinds dropped; 6 remain. t89 (MAINTAINER_ANSWERS_2026-10-30.md t86s503 answer, 2026-10-30 22:41 CET (\"Fill given names Nivalter for 36633 and Edward for 36234.\")): 36633 Nivalter and 36234 Edward filled from the draw; 4 remain",
     "persons": [
       {
         "icf_id": "42732",
@@ -74032,16 +74054,6 @@
         "icf_id": "36498",
         "surname_printed": "Ramos",
         "t86_draw": "held: four different draw athletes under the id: Gleinso (bib 978), Favio (980), Anderson (990), Giovanni (982); 36498 is Jose Giovanny RAMOS"
-      },
-      {
-        "icf_id": "36234",
-        "surname_printed": "RUTHERFORD",
-        "t86_draw": "held: draw Edward RUTHERFORD (bib 365); 36234 is William RUTHERFORD"
-      },
-      {
-        "icf_id": "36633",
-        "surname_printed": "SANTOS DE JESUS",
-        "t86_draw": "held: draw Nivalter SANTOS DE JESUS (bib 112); 36633 is Alvaro Acco Koslowski SANTOS DE JESUS"
       }
     ]
   },
@@ -74845,12 +74857,12 @@
     {
       "kind": "xlsx",
       "name": "Halifax_2009_WCH_Results.xlsx",
-      "sha256": "efa77b847fd6a10c9dd4cc4353df684b4b96c273b9bf98d18202aa977328fb71",
-      "bytes": 119952
+      "sha256": "3adabd693f38b7ceace850aa58e2ad908da17a02f7a89abec2473af102780e7e",
+      "bytes": 119961
     }
   ],
   "output_xlsx": "Halifax_2009_WCH_Results.xlsx",
-  "output_xlsx_sha256": "efa77b847fd6a10c9dd4cc4353df684b4b96c273b9bf98d18202aa977328fb71",
+  "output_xlsx_sha256": "3adabd693f38b7ceace850aa58e2ad908da17a02f7a89abec2473af102780e7e",
   "audit": {
     "fails": [],
     "nfails": 0,
@@ -74947,7 +74959,7 @@
       }
     }
   },
-  "updated_at": "2026-10-30T15:48:18Z",
+  "updated_at": "2026-10-30T21:43:46Z",
   "under14_log": {
     "rule": "PADDLETAGGER_CONTRACT.md Under-14 rule: the RU166 age rule of MAINTAINER_ANSWERS_2026-10-24 with RU168 rulings 3 and 8 (MAINTAINER_ANSWERS_2026-10-24b) and ruling 4 as amended (MAINTAINER_ANSWERS_2026-10-24c): an athlete under 14 on the meeting's first day, or born after it, never fits the age rule; such a sole candidate is kept only when its profile lists the meeting, otherwise the seat is no_icf_id with the candidate logged; surname-only prints never get the sole-candidate keep. This log records the seats whose earlier under-14 emptying is now decided by those rules; each seat cites its governing rule (MAINTAINER_ANSWERS_2026-10-25)",
     "first_day": "2009-08-13",
@@ -77332,6 +77344,18 @@
       "printed": "SANTOS JESUS Nivalter",
       "icf_name": "Alvaro Acco Koslowski SANTOS DE JESUS",
       "evidence": "MAINTAINER_ANSWERS_2026-10-30.md t86s496 (\"Approve all mismatch proposals: keep 63, empty 86, rebind 4\"): row 130 ICF_ID1 printed \"SANTOS JESUS Nivalter\" (printout C1 200 final A) rebound to 36633; same person as the draw's Nivalter SANTOS DE JESUS (bib 112): PWW 36633 results equal Nivalter Santos Jesus's results line by line (the-sports.org); the ICF given name \"Alvaro Acco Koslowski\" does not appear in any 2009 print"
+    },
+    {
+      "icf_id": "36633",
+      "printed": "Nivalter SANTOS DE JESUS",
+      "icf_name": "Alvaro Acco Koslowski SANTOS DE JESUS",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-30.md t86s503 answer, 2026-10-30 22:41 CET (\"Fill given names Nivalter for 36633 and Edward for 36234.\"): maintainer-ruled alias, scoped to this id and this printed form only (GATE1/GATE3 MAINT_BIND); draw \"Nivalter SANTOS DE JESUS\" bib 112; t89 research: the ICF database results under 36633 (PWW: 2013 WC3 C1 500 heat 1; 2013 WCH C1 200 heat 1/SF 1; 2014 WC1 C1 200 heat 1/final 5; 2014 WCH C1 200 heat/SF/final B 5; 2015 WCH C1 1000 heat 7/SF 8) are row for row the official results printed for \"Nivalter Santos JESUS\" (Poznan_2013_WC, Duisburg_2013_WCH, Milan_2014_WC, Moscow_2014_WCH, Milan_2015_WCH); ICF height 1.72 m/75 kg fits Nivalter (Olympedia 116515: 173 cm/77 kg, b. 1987-09-17), not Alvaro Acco Koslowski (Olympedia 9165: b. 1971-04-20, 183 cm/81 kg, K2 kayaker, BRA coach and CBCa sprint supervisor)"
+    },
+    {
+      "icf_id": "36234",
+      "printed": "Edward RUTHERFORD",
+      "icf_name": "William RUTHERFORD",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-30.md t86s503 answer, 2026-10-30 22:41 CET (\"Fill given names Nivalter for 36633 and Edward for 36234.\"): maintainer-ruled alias, scoped to this id and this printed form only (GATE1/GATE3 MAINT_BIND); draw \"Edward RUTHERFORD\" bib 365; PWW 36234 William RUTHERFORD (b. 1990-06-27) profile: \"Twitter @Ed_Rutherford ... Ed Rutherford is a K1 & K2 1000m sprint kayaker\" (t87 proposal keep, high; approved t86s496)"
     }
   ],
   "nation_change_log": [
@@ -95443,6 +95467,28 @@
       "rule": "MAINTAINER_ANSWERS_2026-10-30.md t86s496",
       "evidence": "MAINTAINER_ANSWERS_2026-10-30.md t86s496 (\"Approve all mismatch proposals: keep 63, empty 86, rebind 4\"): row 130 ICF_ID1 printed \"SANTOS JESUS Nivalter\" (printout C1 200 final A) rebound to 36633; same person as the draw's Nivalter SANTOS DE JESUS (bib 112): PWW 36633 results equal Nivalter Santos Jesus's results line by line (the-sports.org); the ICF given name \"Alvaro Acco Koslowski\" does not appear in any 2009 print",
       "logged_at_utc": "2026-10-30T15:41:08Z"
+    },
+    {
+      "sheet": "PERSONS",
+      "icf_id": "36633",
+      "field": "NAME",
+      "previous": "",
+      "new": "Nivalter",
+      "action": "given_name_filled",
+      "rule": "MAINTAINER_ANSWERS_2026-10-30.md t86s503 answer, 2026-10-30 22:41 CET (\"Fill given names Nivalter for 36633 and Edward for 36234.\")",
+      "evidence": "draw \"Nivalter SANTOS DE JESUS\" bib 112; t89 research: the ICF database results under 36633 (PWW: 2013 WC3 C1 500 heat 1; 2013 WCH C1 200 heat 1/SF 1; 2014 WC1 C1 200 heat 1/final 5; 2014 WCH C1 200 heat/SF/final B 5; 2015 WCH C1 1000 heat 7/SF 8) are row for row the official results printed for \"Nivalter Santos JESUS\" (Poznan_2013_WC, Duisburg_2013_WCH, Milan_2014_WC, Moscow_2014_WCH, Milan_2015_WCH); ICF height 1.72 m/75 kg fits Nivalter (Olympedia 116515: 173 cm/77 kg, b. 1987-09-17), not Alvaro Acco Koslowski (Olympedia 9165: b. 1971-04-20, 183 cm/81 kg, K2 kayaker, BRA coach and CBCa sprint supervisor)",
+      "logged_at_utc": "2026-10-30T21:43:14Z"
+    },
+    {
+      "sheet": "PERSONS",
+      "icf_id": "36234",
+      "field": "NAME",
+      "previous": "",
+      "new": "Edward",
+      "action": "given_name_filled",
+      "rule": "MAINTAINER_ANSWERS_2026-10-30.md t86s503 answer, 2026-10-30 22:41 CET (\"Fill given names Nivalter for 36633 and Edward for 36234.\")",
+      "evidence": "draw \"Edward RUTHERFORD\" bib 365; PWW 36234 William RUTHERFORD (b. 1990-06-27) profile: \"Twitter @Ed_Rutherford ... Ed Rutherford is a K1 & K2 1000m sprint kayaker\" (t87 proposal keep, high; approved t86s496)",
+      "logged_at_utc": "2026-10-30T21:43:14Z"
     }
   ],
   "log_corrections": [
@@ -120044,6 +120090,20 @@
       "rule": "MAINTAINER_ANSWERS_2026-10-30.md t86s496 (\"Fill bibs for the six spelling-variant crew rows.\"); MAINTAINER_ANSWERS_2026-10-30.md t86s496 (\"Approve all mismatch proposals: keep 63, empty 86, rebind 4\")",
       "detail": "BIB_BOAT filled on 78 more crew rows (spelling-variant rows and their later rounds 13, rows unblocked by the approved empties/rebinds 56, approved same-person keeps 9); crew total 603, 213 left empty (bib_boat.crew_not_filled); earlier fills unchanged",
       "logged_at_utc": "2026-10-30T15:40:15Z"
+    },
+    {
+      "kind": "log",
+      "action": "crew_bibs_confirmed",
+      "rule": "MAINTAINER_ANSWERS_2026-10-30.md t86s503 (\"Keep the 9 extra crew bibs and the MIRBEKOV order swap.\")",
+      "detail": "maintainer confirmed the t88 BIB_BOAT fills on the 9 same-person-keep crew rows [415, 1026, 1046, 1091, 1110, 1429, 1454, 1495, 1507] and the MIRBEKOV given/family order swap (ICF_ID2) on rows [297, 328]; no cell changed",
+      "logged_at_utc": "2026-10-30T21:43:14Z"
+    },
+    {
+      "kind": "log",
+      "action": "given_names_filled_t89",
+      "rule": "MAINTAINER_ANSWERS_2026-10-30.md t86s503 answer, 2026-10-30 22:41 CET (\"Fill given names Nivalter for 36633 and Edward for 36234.\")",
+      "detail": "PERSONS NAME Nivalter (36633) and Edward (36234) from the draw; GATE1 accepts them through name_change_log maintainer entries scoped to these ids and printed forms only; GATE1 otherwise unchanged. Row 130 / 36633 bindings unchanged (maintainer decision pending on t89 research).",
+      "logged_at_utc": "2026-10-30T21:43:14Z"
     }
   ],
   "given_name_from_draw": {
@@ -120823,6 +120883,24 @@
         "decision": "maintainer-ruled short form (t86s496)",
         "evidence": "draw \"Maggie HOGAN\" bib 949 = 42360 Margaret HOGAN (USA, b.1979-01-01; Olympedia 132065, Team USA)",
         "rule": "MAINTAINER_ANSWERS_2026-10-30.md t86s496 (\"Fill PERSONS NAME with Jenny EGAN and Maggie HOGAN as printed in the draw.\")"
+      },
+      {
+        "icf_id": "36633",
+        "surname": "SANTOS DE JESUS",
+        "name_filled": "Nivalter",
+        "draw_spelling": "Nivalter",
+        "decision": "maintainer-ruled given name (t86s503)",
+        "evidence": "draw \"Nivalter SANTOS DE JESUS\" bib 112; t89 research: the ICF database results under 36633 (PWW: 2013 WC3 C1 500 heat 1; 2013 WCH C1 200 heat 1/SF 1; 2014 WC1 C1 200 heat 1/final 5; 2014 WCH C1 200 heat/SF/final B 5; 2015 WCH C1 1000 heat 7/SF 8) are row for row the official results printed for \"Nivalter Santos JESUS\" (Poznan_2013_WC, Duisburg_2013_WCH, Milan_2014_WC, Moscow_2014_WCH, Milan_2015_WCH); ICF height 1.72 m/75 kg fits Nivalter (Olympedia 116515: 173 cm/77 kg, b. 1987-09-17), not Alvaro Acco Koslowski (Olympedia 9165: b. 1971-04-20, 183 cm/81 kg, K2 kayaker, BRA coach and CBCa sprint supervisor)",
+        "rule": "MAINTAINER_ANSWERS_2026-10-30.md t86s503 answer, 2026-10-30 22:41 CET (\"Fill given names Nivalter for 36633 and Edward for 36234.\")"
+      },
+      {
+        "icf_id": "36234",
+        "surname": "RUTHERFORD",
+        "name_filled": "Edward",
+        "draw_spelling": "Edward",
+        "decision": "maintainer-ruled given name (t86s503)",
+        "evidence": "draw \"Edward RUTHERFORD\" bib 365; PWW 36234 William RUTHERFORD (b. 1990-06-27) profile: \"Twitter @Ed_Rutherford ... Ed Rutherford is a K1 & K2 1000m sprint kayaker\" (t87 proposal keep, high; approved t86s496)",
+        "rule": "MAINTAINER_ANSWERS_2026-10-30.md t86s503 answer, 2026-10-30 22:41 CET (\"Fill given names Nivalter for 36633 and Edward for 36234.\")"
       }
     ]
   }
