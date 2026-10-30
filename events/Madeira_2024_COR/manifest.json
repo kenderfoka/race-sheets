@@ -9,11 +9,11 @@
   "year": "2024",
   "kind": "WCH",
   "dates": "2024-10-04/2024-10-05",
-  "discipline": "ocean",
+  "discipline": "ocean racing",
   "domain": "flatwater_ocean",
   "start_times": "scheduled",
   "notes": [
-    "discipline \"ocean\" and domain \"flatwater_ocean\": PADDLETAGGER_CONTRACT.md \"Maintainer 2026-10-30: Canoe ocean racing\" (approved t78u / t78s428 answer, MAINTAINER_ANSWERS_2026-10-30.md)",
+    "discipline \"ocean racing\" and domain \"flatwater_ocean\": PADDLETAGGER_CONTRACT.md line 13 and \"Maintainer 2026-10-30: Canoe ocean racing\" (approved t78u / t78s428 answer; value \"ocean racing\" per t79u / t79s438 answer, MAINTAINER_ANSWERS_2026-10-30.md)",
     "Scope: WCH races 3,4,5,14,15,16,33,34 only (maintainer t75u 4)",
     "START_TIME = scheduled HH:MM printed in race headers; one mass start shared by several races (14:15 SS1 men; 14:25 SS1 women; 05/10 14:15 SS2)",
     "BIB_BOAT and STARTING_LANE = printed Boat Number/Bib (event bib, not an ICF id; maintainer t76u). PDF \"Lane\" running number not used.",
@@ -23,10 +23,10 @@
   "grade": "USABLE",
   "gaps": [
     "start_times scheduled HH:MM only; shared mass starts (3 clocks / 8 races)",
-    "55 athletes (56 seats) carry printed ids with no ICF/PWW profile (t77s412, t77s419 (2))",
+    "54 athletes (55 seats) carry printed ids with no ICF/PWW profile (t77s412, t77s419 (2))",
     "151218: printed for Mateus ORNELAS, ICF list names Joao ORNELAS (same ID_ICF, two names)"
   ],
-  "generated_at_utc": "2026-10-30T08:46:50Z",
+  "generated_at_utc": "2026-10-30T09:22:00Z",
   "id_class_counts": {
     "icf_list_printed": 145,
     "printed_no_profile": 54,
@@ -1082,7 +1082,7 @@
       "source": "spotfokus_competitors_list",
       "new_id": "151218",
       "icf_list_name": "Joao ORNELAS",
-      "detail": "printed id, no ICF/PWW profile; ICF list has 151218 as Joao ORNELAS (ID_ICF maps to two names: printed vs ICF list); kept per MAINTAINER_ANSWERS_2026-10-29.md t77s419 (2)",
+      "detail": "printed id belongs to another athlete's profile; ICF list has 151218 as Joao ORNELAS (ID_ICF maps to two names: printed vs ICF list); kept per MAINTAINER_ANSWERS_2026-10-29.md t77s419 (2)",
       "evidence": "CompetitorsList prints 151218 for Mateus ORNELAS; ICF list 151218 = Joao ORNELAS (bence_all.json 2026-10-30)"
     },
     {
@@ -3269,7 +3269,7 @@
       "source": "spotfokus_competitors_list",
       "new_id": "151218",
       "icf_list_name": "Joao ORNELAS",
-      "detail": "printed id, no ICF/PWW profile; ICF list has 151218 as Joao ORNELAS (ID_ICF maps to two names: printed vs ICF list); kept per MAINTAINER_ANSWERS_2026-10-29.md t77s419 (2)",
+      "detail": "printed id belongs to another athlete's profile; ICF list has 151218 as Joao ORNELAS (ID_ICF maps to two names: printed vs ICF list); kept per MAINTAINER_ANSWERS_2026-10-29.md t77s419 (2)",
       "evidence": "CompetitorsList prints 151218 for Mateus ORNELAS; ICF list 151218 = Joao ORNELAS (bence_all.json 2026-10-30)"
     },
     {
@@ -5812,7 +5812,45 @@
       "note": "Contract wording for canoe ocean racing approved and added to PADDLETAGGER_CONTRACT.md (discipline ocean, domain flatwater_ocean, mixed-nation TEAM CHN/POR, printed ids with no profile); the two contract-pending gaps no longer apply. No RESULTS/PERSONS cell changed (rebuild 2026-10-30 09:4x CET after ICF list refresh 08:40:38Z: 0 cell differences); local_only flag removed.",
       "approval": "MAINTAINER_ANSWERS_2026-10-30.md t78u \"go ahead, publish\"; t78s428 card answer \"Yes, the app can read ocean racing and the contract wording is approved. Publish Madeira.\"",
       "at_utc": "2026-10-30T08:45:00Z"
+    },
+    {
+      "kind": "log",
+      "action": "discipline_value",
+      "previous": "ocean",
+      "new": "ocean racing",
+      "seat_changes": 0,
+      "note": "manifest discipline set to the official discipline name; contract line 13 lists `ocean racing`. Domain flatwater_ocean unchanged.",
+      "approval": "MAINTAINER_ANSWERS_2026-10-30.md t79u (09:58 CET) and t79s438 card answer (10:18 CET): \"yes, but 'ocean racing', that is the official discipline name\"; \"Change the manifest value to 'ocean racing' too, and republish Madeira.\"",
+      "at_utc": "2026-10-30T09:25:00Z"
+    },
+    {
+      "kind": "log",
+      "action": "id_check_wording",
+      "id": "151218",
+      "printed": "Mateus ORNELAS",
+      "rows": [
+        {
+          "results_row": 83,
+          "seat": "ICF_ID1"
+        },
+        {
+          "results_row": 234,
+          "seat": "ICF_ID1"
+        }
+      ],
+      "previous_detail_prefix": "printed id, no ICF/PWW profile",
+      "new_detail_prefix": "printed id belongs to another athlete's profile",
+      "seat_id_unchanged": true,
+      "seat_changes": 0,
+      "gap_reworded": {
+        "previous": "55 athletes (56 seats) carry printed ids with no ICF/PWW profile (t77s412, t77s419 (2))",
+        "new": "54 athletes (55 seats) carry printed ids with no ICF/PWW profile (t77s412, t77s419 (2))",
+        "why": "151218 (1 athlete, 2 seats) is no longer described as no-profile; the no-profile count is 54 athletes / 55 seats (151419 sits on 2 seats). The previous \"56 seats\" was a miscount: 57 seats carried printed_id_no_profile actions incl. 151218."
+      },
+      "note": "action code printed_id_no_profile and the printed_id_no_profile list entry are kept (the approved Gate 1/Gate 3 exception reads that list); only the wording changed.",
+      "approval": "MAINTAINER_ANSWERS_2026-10-30.md t79u (09:58 CET) and t79s438 card answer (10:18 CET): \"Should the 151218 log line say \\\"printed id belongs to another athlete's profile\\\" instead of \\\"no ICF/PWW profile\\\"? - yes\"",
+      "at_utc": "2026-10-30T09:25:00Z"
     }
   ],
-  "updated_at": "2026-10-30T08:46:50Z"
+  "updated_at": "2026-10-30T09:22:00Z"
 }
