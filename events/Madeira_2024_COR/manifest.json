@@ -23,15 +23,14 @@
   "grade": "USABLE",
   "gaps": [
     "start_times scheduled HH:MM only; shared mass starts (3 clocks / 8 races)",
-    "54 athletes (55 seats) carry printed ids with no ICF/PWW profile (t77s412, t77s419 (2))",
-    "151218: printed for Mateus ORNELAS, ICF list names Joao ORNELAS (same ID_ICF, two names)"
+    "54 athletes (55 seats) carry printed ids with no ICF/PWW profile (t77s412, t77s419 (2))"
   ],
-  "generated_at_utc": "2026-10-30T09:22:00Z",
+  "generated_at_utc": "2026-10-30T09:32:55Z",
   "id_class_counts": {
-    "icf_list_printed": 145,
     "printed_no_profile": 54,
+    "icf_list_printed": 145,
     "conflict_bound_icf_list": 26,
-    "printed_id_belongs_to_other_athlete": 1
+    "printed_id_confirmed_ruling": 1
   },
   "id_checks": [
     {
@@ -1078,12 +1077,14 @@
       "printed_number": "151218",
       "team": "POR",
       "bib": "22",
-      "action": "printed_id_no_profile",
+      "action": "printed_id_confirmed",
       "source": "spotfokus_competitors_list",
       "new_id": "151218",
       "icf_list_name": "Joao ORNELAS",
-      "detail": "printed id belongs to another athlete's profile; ICF list has 151218 as Joao ORNELAS (ID_ICF maps to two names: printed vs ICF list); kept per MAINTAINER_ANSWERS_2026-10-29.md t77s419 (2)",
-      "evidence": "CompetitorsList prints 151218 for Mateus ORNELAS; ICF list 151218 = Joao ORNELAS (bence_all.json 2026-10-30)"
+      "detail": "printed id confirmed: same athlete, João Mateus Jesus Ornelas, printed under his middle name \"Mateus\" (ICF list Joao ORNELAS; printed birth year 2002 = ICF birthDate 2002-12-03)",
+      "rule": "MAINTAINER_ANSWERS_2026-10-30.md t80s448 card answer",
+      "evidence": "JORAM I Série n.º 98, 2 June 2026 (supplement), Resolução do Conselho do Governo Regional n.º 541/2026: \"Louva publicamente o atleta madeirense, João Mateus Jesus Ornelas, da Associação Náutica de Câmara de Lobos … 3.º lugar na 1.ª Etapa do ICF Ocean Racing World Cup 2026 … classe SS1\" — https://joram.madeira.gov.pt/joram/1serie/Ano%20de%202026/ISerie-098-2026-06-02sup.pdf",
+      "corroboration": "CDP reports the same podium as \"Mateus Ornelas\", same club: https://www.cdp.pt/2026/05/04/atletas-portugueses-em-destaque-no-madeira-ocean-challenge-2026/"
     },
     {
       "results_row": 84,
@@ -3265,12 +3266,14 @@
       "printed_number": "151218",
       "team": "POR",
       "bib": "22",
-      "action": "printed_id_no_profile",
+      "action": "printed_id_confirmed",
       "source": "spotfokus_competitors_list",
       "new_id": "151218",
       "icf_list_name": "Joao ORNELAS",
-      "detail": "printed id belongs to another athlete's profile; ICF list has 151218 as Joao ORNELAS (ID_ICF maps to two names: printed vs ICF list); kept per MAINTAINER_ANSWERS_2026-10-29.md t77s419 (2)",
-      "evidence": "CompetitorsList prints 151218 for Mateus ORNELAS; ICF list 151218 = Joao ORNELAS (bence_all.json 2026-10-30)"
+      "detail": "printed id confirmed: same athlete, João Mateus Jesus Ornelas, printed under his middle name \"Mateus\" (ICF list Joao ORNELAS; printed birth year 2002 = ICF birthDate 2002-12-03)",
+      "rule": "MAINTAINER_ANSWERS_2026-10-30.md t80s448 card answer",
+      "evidence": "JORAM I Série n.º 98, 2 June 2026 (supplement), Resolução do Conselho do Governo Regional n.º 541/2026: \"Louva publicamente o atleta madeirense, João Mateus Jesus Ornelas, da Associação Náutica de Câmara de Lobos … 3.º lugar na 1.ª Etapa do ICF Ocean Racing World Cup 2026 … classe SS1\" — https://joram.madeira.gov.pt/joram/1serie/Ano%20de%202026/ISerie-098-2026-06-02sup.pdf",
+      "corroboration": "CDP reports the same podium as \"Mateus Ornelas\", same club: https://www.cdp.pt/2026/05/04/atletas-portugueses-em-destaque-no-madeira-ocean-challenge-2026/"
     },
     {
       "results_row": 234,
@@ -3917,14 +3920,6 @@
       "printed_name": "Mateus FREITAS",
       "printed_id": "151474",
       "tie_candidates": []
-    },
-    {
-      "bib": "22",
-      "printed_name": "Mateus ORNELAS",
-      "printed_id": "151218",
-      "icf_list_name_for_id": "Joao ORNELAS",
-      "flag": "same ID_ICF maps to two names (printed vs ICF list)",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t77s419 (2)"
     },
     {
       "bib": "20",
@@ -5850,7 +5845,84 @@
       "note": "action code printed_id_no_profile and the printed_id_no_profile list entry are kept (the approved Gate 1/Gate 3 exception reads that list); only the wording changed.",
       "approval": "MAINTAINER_ANSWERS_2026-10-30.md t79u (09:58 CET) and t79s438 card answer (10:18 CET): \"Should the 151218 log line say \\\"printed id belongs to another athlete's profile\\\" instead of \\\"no ICF/PWW profile\\\"? - yes\"",
       "at_utc": "2026-10-30T09:25:00Z"
+    },
+    {
+      "kind": "log",
+      "action": "id_confirmed",
+      "id": "151218",
+      "printed": "Mateus ORNELAS",
+      "icf_list_name": "Joao ORNELAS",
+      "rows": [
+        {
+          "results_row": 83,
+          "seat": "ICF_ID1"
+        },
+        {
+          "results_row": 234,
+          "seat": "ICF_ID1"
+        }
+      ],
+      "previous_action": "printed_id_no_profile",
+      "previous_detail": "printed id belongs to another athlete's profile; ICF list has 151218 as Joao ORNELAS (ID_ICF maps to two names: printed vs ICF list); kept per MAINTAINER_ANSWERS_2026-10-29.md t77s419 (2)",
+      "new_action": "printed_id_confirmed",
+      "new_detail": "printed id confirmed: same athlete, João Mateus Jesus Ornelas, printed under his middle name \"Mateus\" (ICF list Joao ORNELAS; printed birth year 2002 = ICF birthDate 2002-12-03)",
+      "evidence": "JORAM I Série n.º 98, 2 June 2026 (supplement), Resolução do Conselho do Governo Regional n.º 541/2026: \"Louva publicamente o atleta madeirense, João Mateus Jesus Ornelas, da Associação Náutica de Câmara de Lobos … 3.º lugar na 1.ª Etapa do ICF Ocean Racing World Cup 2026 … classe SS1\" — https://joram.madeira.gov.pt/joram/1serie/Ano%20de%202026/ISerie-098-2026-06-02sup.pdf",
+      "corroboration": "CDP reports the same podium as \"Mateus Ornelas\", same club: https://www.cdp.pt/2026/05/04/atletas-portugueses-em-destaque-no-madeira-ocean-challenge-2026/",
+      "removed_from_printed_id_no_profile": {
+        "bib": "22",
+        "printed_name": "Mateus ORNELAS",
+        "printed_id": "151218",
+        "icf_list_name_for_id": "Joao ORNELAS",
+        "flag": "same ID_ICF maps to two names (printed vs ICF list)",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t77s419 (2)"
+      },
+      "ruled_binds_added": 2,
+      "id_class_counts_change": "printed_id_belongs_to_other_athlete 1 -> printed_id_confirmed_ruling 1",
+      "seat_id_unchanged": true,
+      "seat_changes": 0,
+      "persons_unchanged": "PERSONS keeps printed spelling Mateus ORNELAS",
+      "approval": "MAINTAINER_ANSWERS_2026-10-30.md t80s448 card answer (10:29 CET): \"Log 151218 as confirmed: same athlete, João Mateus Jesus Ornelas, printed under his middle name, with the gazette as evidence. Drop it from the gaps.\"",
+      "at_utc": "2026-10-30T09:35:00Z"
+    },
+    {
+      "kind": "log",
+      "action": "gap_removed",
+      "previous_gaps": [
+        "start_times scheduled HH:MM only; shared mass starts (3 clocks / 8 races)",
+        "54 athletes (55 seats) carry printed ids with no ICF/PWW profile (t77s412, t77s419 (2))",
+        "151218: printed for Mateus ORNELAS, ICF list names Joao ORNELAS (same ID_ICF, two names)"
+      ],
+      "new_gaps": [
+        "start_times scheduled HH:MM only; shared mass starts (3 clocks / 8 races)",
+        "54 athletes (55 seats) carry printed ids with no ICF/PWW profile (t77s412, t77s419 (2))"
+      ],
+      "removed": "151218: printed for Mateus ORNELAS, ICF list names Joao ORNELAS (same ID_ICF, two names)",
+      "seat_changes": 0,
+      "approval": "MAINTAINER_ANSWERS_2026-10-30.md t80s448 card answer (10:29 CET): \"Log 151218 as confirmed: same athlete, João Mateus Jesus Ornelas, printed under his middle name, with the gazette as evidence. Drop it from the gaps.\"",
+      "at_utc": "2026-10-30T09:35:00Z"
     }
   ],
-  "updated_at": "2026-10-30T09:22:00Z"
+  "updated_at": "2026-10-30T09:32:55Z",
+  "ruled_binds": [
+    {
+      "icf_id": "151218",
+      "results_row": 83,
+      "seat": "ICF_ID1",
+      "printed": "Mateus ORNELAS",
+      "icf_name": "Joao ORNELAS",
+      "ruling": "MAINTAINER_ANSWERS_2026-10-30.md t80s448 card answer",
+      "evidence": "JORAM I Série n.º 98, 2 June 2026 (supplement), Resolução do Conselho do Governo Regional n.º 541/2026: \"Louva publicamente o atleta madeirense, João Mateus Jesus Ornelas, da Associação Náutica de Câmara de Lobos … 3.º lugar na 1.ª Etapa do ICF Ocean Racing World Cup 2026 … classe SS1\" — https://joram.madeira.gov.pt/joram/1serie/Ano%20de%202026/ISerie-098-2026-06-02sup.pdf",
+      "corroboration": "CDP reports the same podium as \"Mateus Ornelas\", same club: https://www.cdp.pt/2026/05/04/atletas-portugueses-em-destaque-no-madeira-ocean-challenge-2026/"
+    },
+    {
+      "icf_id": "151218",
+      "results_row": 234,
+      "seat": "ICF_ID1",
+      "printed": "Mateus ORNELAS",
+      "icf_name": "Joao ORNELAS",
+      "ruling": "MAINTAINER_ANSWERS_2026-10-30.md t80s448 card answer",
+      "evidence": "JORAM I Série n.º 98, 2 June 2026 (supplement), Resolução do Conselho do Governo Regional n.º 541/2026: \"Louva publicamente o atleta madeirense, João Mateus Jesus Ornelas, da Associação Náutica de Câmara de Lobos … 3.º lugar na 1.ª Etapa do ICF Ocean Racing World Cup 2026 … classe SS1\" — https://joram.madeira.gov.pt/joram/1serie/Ano%20de%202026/ISerie-098-2026-06-02sup.pdf",
+      "corroboration": "CDP reports the same podium as \"Mateus Ornelas\", same club: https://www.cdp.pt/2026/05/04/atletas-portugueses-em-destaque-no-madeira-ocean-challenge-2026/"
+    }
+  ]
 }
