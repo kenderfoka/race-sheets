@@ -19,7 +19,7 @@
     "BIB_BOAT and STARTING_LANE = printed Boat Number/Bib (event bib, not an ICF id; maintainer t76u). PDF \"Lane\" running number not used.",
     "GENDER X = SS2 Mix crews (approved t75u 1); PERSONS GENDER from CompetitorsList Men/Women headings",
     "RESULT = printed final time; DIFFERENCE not written (marathon precedent)",
-    "Masters races 7-12, 18, 20: CATEGORY written as published in the race header (\"SS1 Master 40-44 Men\" -> MASTER 40-44); the contract ocean CATEGORY list names SENIOR | U23 | JUNIOR only (question on the pull request)"
+    "Masters races 7-12, 18, 20: CATEGORY written as published in the race header (\"SS1 Master 40-44 Men\" -> MASTER 40-44); sheet-only exception to the contract ocean CATEGORY list (SENIOR | U23 | JUNIOR), see category_exception; ruling t114u (2026-11-02): \"Add the Master categories as an exception only for this sheet.\""
   ],
   "grade": "USABLE",
   "gaps": [
@@ -9850,6 +9850,42 @@
         "20": "04/10/2024 14:25 WCH Race 20 SS1 Master 50-54 Women 21,50 km 6"
       },
       "at_utc": "2026-11-02T22:40:28Z"
+    },
+    {
+      "kind": "log",
+      "action": "category_exception",
+      "values": [
+        "MASTER 40-44",
+        "MASTER 45-49",
+        "MASTER 50-54",
+        "MASTER 55-59",
+        "MASTER 60-64",
+        "MASTER 65-69"
+      ],
+      "races": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "18",
+        "20"
+      ],
+      "existing_rows_changed": 0,
+      "approval": "t114u (2026-11-02): \"Add the Master categories as an exception only for this sheet.\"",
+      "at_utc": "2026-11-02T22:51:12Z"
+    },
+    {
+      "kind": "log",
+      "action": "namesake_research",
+      "bibs": [
+        "456",
+        "467"
+      ],
+      "result": "no bind; printed numbers 151443 and 151534 kept",
+      "approval": "t114u (2026-11-02): \"Research 456 and 467\"",
+      "at_utc": "2026-11-02T22:51:12Z"
     }
   ],
   "updated_at": "2026-11-02T22:40:28Z",
@@ -9884,7 +9920,19 @@
       "printed_number": "151443",
       "namesake": "162671",
       "namesake_birth": "2010-06-16",
-      "namesake_noc": "POR"
+      "namesake_noc": "POR",
+      "research": "t114u",
+      "sources": [
+        "CompetitorsList-V2: 151443 456 Joao FERREIRA 1969 POR0186 SS1 55-59M SS2 55-59M",
+        "Start list-V2 (SS1 and SS2): 456 POR Joao FERREIRA 1969",
+        "race 10 PDF: Joao FERREIRA 1969 2:10:50.48; race 31 PDF (SS2, not in sheet): 456 POR Joao FERREIRA 1969",
+        "bence ICF list, token rule, all nations: FERREIRA+Joao -> 162671 Joao FERREIRA POR M 2010-06-16 only (99982 Joao Gustavo Ferreira De OLIVEIRA SANTOS BRA 2002: surname differs)",
+        "PWW search \"Joao Ferreira\": 162671, 99982 only",
+        "paddleworldwide.com/athlete/151443: no profile (Page Not Found)",
+        "paddleworldwide.com/athlete/162671: profile POR, 0 results (no ocean or masters result)"
+      ],
+      "finding": "no ICF athlete born 1969; only namesake 162671 born 2010 (age 14 in a 55-59 race); birth year mismatch",
+      "decision": "not bound; printed number 151443 kept (rule 4, printed_id_no_profile)"
     },
     {
       "results_row": 327,
@@ -9894,7 +9942,19 @@
       "printed_number": "151534",
       "namesake": "36494",
       "namesake_birth": "1977-12-20",
-      "namesake_noc": "VEN"
+      "namesake_noc": "VEN",
+      "research": "t114u",
+      "sources": [
+        "CompetitorsList-V2: 151534 467 Jose SILVA 1965 VEN0001 SS1 55-59M",
+        "Start list-V2: Jose SILVA 1965",
+        "race 10 PDF: Jose SILVA 1965 3:40:39.50, 467 VEN",
+        "bence ICF list, token rule, all nations: SILVA+Jose -> 36494 Jose SILVA VEN M 1977-12-20 only (149468 Jaser Antonio SILVA ESP M 2007-03-20: token-near given name but NOC ESP and birth 2007 disagree)",
+        "PWW search \"Jose Silva\": 36494 only",
+        "paddleworldwide.com/athlete/151534: no profile (Page Not Found)",
+        "paddleworldwide.com/athlete/36494: profile VEN, 36 distinct results, all canoe slalom C1/C2 Men 2013-2026 (World Cups, WCH); no ocean or masters result"
+      ],
+      "finding": "nation agrees (VEN) but birth year 1977 vs printed 1965 and results are slalom only; no evidence of the same person",
+      "decision": "not bound; printed number 151534 kept (rule 4, printed_id_no_profile)"
     }
   ],
   "nation_change_log": [
@@ -9916,5 +9976,39 @@
       "icf_federation": "SXM",
       "action": "printed NOC equals ICF-list federation; ICF nationality differs; id and printed nation kept"
     }
-  ]
+  ],
+  "category_exception": {
+    "scope": "Madeira_2024_COR only (this sheet); not a contract, skill or rule change",
+    "column": "RESULTS CATEGORY",
+    "values": [
+      "MASTER 40-44",
+      "MASTER 45-49",
+      "MASTER 50-54",
+      "MASTER 55-59",
+      "MASTER 60-64",
+      "MASTER 65-69"
+    ],
+    "races": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "18",
+      "20"
+    ],
+    "rows": "RESULTS 240-376",
+    "counts": {
+      "MASTER 40-44": 27,
+      "MASTER 45-49": 26,
+      "MASTER 50-54": 29,
+      "MASTER 55-59": 22,
+      "MASTER 60-64": 21,
+      "MASTER 65-69": 12
+    },
+    "contract_list": "SENIOR | U23 | JUNIOR (unchanged for every other sheet)",
+    "source": "race header as published, e.g. \"SS1 Master 40-44 Men\" -> MASTER 40-44",
+    "ruling": "t114u (2026-11-02): \"Add the Master categories as an exception only for this sheet.\""
+  }
 }
