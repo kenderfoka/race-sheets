@@ -14,22 +14,23 @@
   "start_times": "scheduled",
   "notes": [
     "discipline \"ocean racing\" and domain \"flatwater_ocean\": PADDLETAGGER_CONTRACT.md line 13 and \"Maintainer 2026-10-30: Canoe ocean racing\" (approved t78u / t78s428 answer; value \"ocean racing\" per t79u / t79s438 answer, MAINTAINER_ANSWERS_2026-10-30.md)",
-    "Scope: WCH races 3,4,5,14,15,16,33,34 only (maintainer t75u 4)",
+    "Scope: WCH races 3,4,5,14,15,16,33,34 (maintainer t75u 4) + WCH-labelled SS1 Masters races 7,8,9,10,11,12,18,20 of 4 October (t113u + card answer t113s618 (2026-11-02): \"Add only the WCH-labelled races 7–12, 18 and 20 with PERSONS rows, and republish.\"); WCup-labelled masters races 6,13,17,19,21,22, race 1 OC1 and 5 October races not included",
     "START_TIME = scheduled HH:MM printed in race headers; one mass start shared by several races (14:15 SS1 men; 14:25 SS1 women; 05/10 14:15 SS2)",
     "BIB_BOAT and STARTING_LANE = printed Boat Number/Bib (event bib, not an ICF id; maintainer t76u). PDF \"Lane\" running number not used.",
     "GENDER X = SS2 Mix crews (approved t75u 1); PERSONS GENDER from CompetitorsList Men/Women headings",
-    "RESULT = printed final time; DIFFERENCE not written (marathon precedent)"
+    "RESULT = printed final time; DIFFERENCE not written (marathon precedent)",
+    "Masters races 7-12, 18, 20: CATEGORY written as published in the race header (\"SS1 Master 40-44 Men\" -> MASTER 40-44); the contract ocean CATEGORY list names SENIOR | U23 | JUNIOR only (question on the pull request)"
   ],
   "grade": "USABLE",
   "gaps": [
-    "start_times scheduled HH:MM only; shared mass starts (3 clocks / 8 races)",
-    "54 athletes (55 seats) carry printed ids with no ICF/PWW profile (t77s412, t77s419 (2))"
+    "start_times scheduled HH:MM only; shared mass starts (3 clocks / 16 races)",
+    "162 athletes carry printed ids with no ICF/PWW profile (t77s412, t77s419 (2)); 54 in races 3-34 senior/U23/junior, 108 in the added masters races"
   ],
-  "generated_at_utc": "2026-10-30T09:32:55Z",
+  "generated_at_utc": "2026-11-02T22:40:28Z",
   "id_class_counts": {
-    "printed_no_profile": 54,
-    "icf_list_printed": 145,
-    "conflict_bound_icf_list": 26,
+    "printed_no_profile": 162,
+    "icf_list_printed": 157,
+    "conflict_bound_icf_list": 40,
     "printed_id_confirmed_ruling": 1
   },
   "id_checks": [
@@ -3412,6 +3413,2127 @@
       "source": "spotfokus_competitors_list",
       "new_id": "135238",
       "icf_list_name": "Leonardo CANDELA"
+    },
+    {
+      "results_row": 240,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Hugo LIMA",
+      "printed_number": "151437",
+      "team": "POR",
+      "bib": "378",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151437",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151437 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 241,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Eliseu REIS",
+      "printed_number": "151420",
+      "team": "POR",
+      "bib": "374",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151420",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151420 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 242,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Luis SILVA",
+      "printed_number": "151462",
+      "team": "POR",
+      "bib": "382",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151462",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151462 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 243,
+      "seat": "ICF_ID1",
+      "source_printed_name": "David HORKAN",
+      "printed_number": "151128",
+      "team": "IRL",
+      "bib": "130",
+      "action": "printed_id_confirmed",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151128",
+      "icf_list_name": "David HORKAN",
+      "pww_profile": {
+        "url": "https://paddleworldwide.com/athlete/151128",
+        "title": "David HORKAN",
+        "fetched": "2026-11-02",
+        "lists_madeira_2024": false,
+        "note": "PWW lists no 2024 ocean racing result for any athlete of this meeting (checked also 83178, 42514); id printed by the source, not name-bound"
+      },
+      "checks": {
+        "name": "token rule pass",
+        "noc": "pass",
+        "gender": "pass",
+        "birth_year": "pass"
+      }
+    },
+    {
+      "results_row": 244,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Vicenç ROURA",
+      "printed_number": "151341",
+      "team": "ESP",
+      "bib": "389",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151341",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151341 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 245,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Gonçalo S TOMAS",
+      "printed_number": "151432",
+      "team": "POR",
+      "bib": "376",
+      "action": "printed_id_no_profile",
+      "source": "same-meeting bind (Gate 4): this printed name + NOC + bib already bound on main",
+      "new_id": "151432"
+    },
+    {
+      "results_row": 246,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Joao B CAMARA",
+      "printed_number": "151442",
+      "team": "POR",
+      "bib": "380",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151442",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151442 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 247,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Tiago SOBRAL",
+      "printed_number": "151506",
+      "team": "POR",
+      "bib": "387",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151506",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151506 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 248,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Johnatha VAZ",
+      "printed_number": "151286",
+      "team": "BRA",
+      "bib": "98",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151286",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151286 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 249,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Cesar COTA",
+      "printed_number": "151409",
+      "team": "POR",
+      "bib": "372",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151409",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151409 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 250,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Ruben FREITAS",
+      "printed_number": "151499",
+      "team": "POR",
+      "bib": "385",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151499",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151499 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 251,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Wai ho LAI",
+      "printed_number": "151369",
+      "team": "HKG",
+      "bib": "126",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151369",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [
+        "141502",
+        "152103"
+      ],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151369 = Page Not Found (fetched 2026-11-02)",
+      "tie_note": "two distinct ICF ids for one name and one birth date (141502, 152103); not unique, printed number kept"
+    },
+    {
+      "results_row": 252,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Julio MORGADO",
+      "printed_number": "151457",
+      "team": "POR",
+      "bib": "381",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151457",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151457 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 253,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Manuel GONZALEZ",
+      "printed_number": "151327",
+      "team": "ESP",
+      "bib": "94",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151327",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151327 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 254,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Nuno PEREIRA",
+      "printed_number": "151483",
+      "team": "POR",
+      "bib": "384",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151483",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151483 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 255,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Jason MENESES",
+      "printed_number": "151439",
+      "team": "POR",
+      "bib": "379",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151439",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151439 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 256,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Francisco TEIXEIRA",
+      "printed_number": "151429",
+      "team": "POR",
+      "bib": "375",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151429",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151429 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 257,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Carlos REIS",
+      "printed_number": "151404",
+      "team": "POR",
+      "bib": "371",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151404",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151404 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 258,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Richard BUSTON",
+      "printed_number": "151355",
+      "team": "GBR",
+      "bib": "99",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151355",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151355 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 259,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Diogo DRUMOND",
+      "printed_number": "151413",
+      "team": "POR",
+      "bib": "373",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151413",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151413 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 260,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Manuel SERRANO",
+      "printed_number": "151465",
+      "team": "POR",
+      "bib": "383",
+      "action": "printed_id_no_profile",
+      "source": "same-meeting bind (Gate 4): this printed name + NOC + bib already bound on main",
+      "new_id": "151465"
+    },
+    {
+      "results_row": 261,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Oier AIZPURUA",
+      "printed_number": "151330",
+      "team": "ESP",
+      "bib": "419",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151330",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151330 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 262,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Todd GRACE",
+      "printed_number": "151276",
+      "team": "AUS",
+      "bib": "391",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151276",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151276 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 263,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Filipe BESADA",
+      "printed_number": "151313",
+      "team": "ESP",
+      "bib": "413",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151313",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151313 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 264,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Mariano BIFANO",
+      "printed_number": "151379",
+      "team": "ITA",
+      "bib": "398",
+      "action": "bound_icf_list_id_printed_conflicting",
+      "source": "icf_list_exact_name",
+      "new_id": "36541",
+      "icf_list_name": "Mariano BIFANO",
+      "evidence": "PADDLETAGGER_CONTRACT.md ocean ICF ids rule 3 (t77s412); NOC, gender and birth year agree with ICF list (1979-03-11)",
+      "pww_profile": {
+        "url": "https://paddleworldwide.com/athlete/36541",
+        "title": "Mariano BIFANO",
+        "fetched": "2026-11-02",
+        "lists_madeira_2024": false
+      }
+    },
+    {
+      "results_row": 265,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Ernest VAN RIET",
+      "printed_number": "151514",
+      "team": "RSA",
+      "bib": "409",
+      "action": "bound_icf_list_id_printed_conflicting",
+      "source": "icf_list_exact_name",
+      "new_id": "100226",
+      "icf_list_name": "Ernest VAN RIET",
+      "evidence": "PADDLETAGGER_CONTRACT.md ocean ICF ids rule 3 (t77s412); NOC, gender and birth year agree with ICF list (1977-06-09)",
+      "pww_profile": {
+        "url": "https://paddleworldwide.com/athlete/100226",
+        "title": "Ernest VAN RIET",
+        "fetched": "2026-11-02",
+        "lists_madeira_2024": false
+      }
+    },
+    {
+      "results_row": 266,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Borys MARKIN",
+      "printed_number": "151199",
+      "team": "USA",
+      "bib": "193",
+      "action": "printed_id_confirmed",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151199",
+      "icf_list_name": "Borys MARKIN",
+      "pww_profile": {
+        "url": "https://paddleworldwide.com/athlete/151199",
+        "title": "Borys MARKIN",
+        "fetched": "2026-11-02",
+        "lists_madeira_2024": false,
+        "note": "PWW lists no 2024 ocean racing result for any athlete of this meeting (checked also 83178, 42514); id printed by the source, not name-bound"
+      },
+      "checks": {
+        "name": "token rule pass",
+        "noc": "pass",
+        "gender": "pass",
+        "birth_year": "pass"
+      }
+    },
+    {
+      "results_row": 267,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Jordi RAMON",
+      "printed_number": "151319",
+      "team": "ESP",
+      "bib": "416",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151319",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151319 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 268,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Aizpurua ENAUT",
+      "printed_number": "151301",
+      "team": "ESP",
+      "bib": "410",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151301",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151301 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 269,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Ernesto GOMES",
+      "printed_number": "151422",
+      "team": "POR",
+      "bib": "401",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151422",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151422 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 270,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Zachary HANDLER",
+      "printed_number": "143614",
+      "team": "USA",
+      "bib": "198",
+      "action": "printed_id_confirmed",
+      "source": "spotfokus_competitors_list",
+      "new_id": "143614",
+      "icf_list_name": "Zachary HANDLER",
+      "pww_profile": {
+        "url": "https://paddleworldwide.com/athlete/143614",
+        "title": "Zachary HANDLER",
+        "fetched": "2026-11-02",
+        "lists_madeira_2024": false,
+        "note": "PWW lists no 2024 ocean racing result for any athlete of this meeting (checked also 83178, 42514); id printed by the source, not name-bound"
+      },
+      "checks": {
+        "name": "token rule pass",
+        "noc": "pass",
+        "gender": "pass",
+        "birth_year": "pass"
+      }
+    },
+    {
+      "results_row": 271,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Jorge ALZOLA",
+      "printed_number": "151320",
+      "team": "ESP",
+      "bib": "417",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151320",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151320 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 272,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Pedro BARTOLOMEU",
+      "printed_number": "151488",
+      "team": "POR",
+      "bib": "406",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151488",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151488 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 273,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Gonzalo INFANTE",
+      "printed_number": "151314",
+      "team": "ESP",
+      "bib": "414",
+      "action": "bound_icf_list_id_printed_conflicting",
+      "source": "icf_list_exact_name",
+      "new_id": "129372",
+      "icf_list_name": "Gonzalo INFANTE",
+      "evidence": "PADDLETAGGER_CONTRACT.md ocean ICF ids rule 3 (t77s412); NOC, gender and birth year agree with ICF list (1977-07-26)",
+      "pww_profile": {
+        "url": "https://paddleworldwide.com/athlete/129372",
+        "title": "Gonzalo INFANTE",
+        "fetched": "2026-11-02",
+        "lists_madeira_2024": false
+      }
+    },
+    {
+      "results_row": 274,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Daniel MARTIN",
+      "printed_number": "151308",
+      "team": "ESP",
+      "bib": "411",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151308",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151308 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 275,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Stephen ALEXANDER",
+      "printed_number": "151274",
+      "team": "AUS",
+      "bib": "390",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151274",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151274 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 276,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Matthew DRAYER",
+      "printed_number": "151533",
+      "team": "USA",
+      "bib": "420",
+      "action": "bound_icf_list_id_printed_conflicting",
+      "source": "icf_list_exact_name",
+      "new_id": "143589",
+      "icf_list_name": "Matthew DRAYER",
+      "evidence": "PADDLETAGGER_CONTRACT.md ocean ICF ids rule 3 (t77s412); NOC, gender and birth year agree with ICF list (1976-12-01)",
+      "pww_profile": {
+        "url": "https://paddleworldwide.com/athlete/143589",
+        "title": "Matthew DRAYER",
+        "fetched": "2026-11-02",
+        "lists_madeira_2024": false
+      }
+    },
+    {
+      "results_row": 277,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Oleg MOZESSOV",
+      "printed_number": "151342",
+      "team": "EST",
+      "bib": "396",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151342",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151342 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 278,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Mario MATHIOTTE",
+      "printed_number": "151469",
+      "team": "POR",
+      "bib": "403",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151469",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151469 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 279,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Nuno RICO",
+      "printed_number": "151484",
+      "team": "POR",
+      "bib": "405",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151484",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151484 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 280,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Vitor CHAVES",
+      "printed_number": "151508",
+      "team": "POR",
+      "bib": "408",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151508",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151508 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 281,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Rui SOARES",
+      "printed_number": "151502",
+      "team": "POR",
+      "bib": "407",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151502",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151502 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 282,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Brian HARRIS",
+      "printed_number": "148983",
+      "team": "IRL",
+      "bib": "129",
+      "action": "printed_id_confirmed",
+      "source": "spotfokus_competitors_list",
+      "new_id": "148983",
+      "icf_list_name": "Brian HARRIS",
+      "pww_profile": {
+        "url": "https://paddleworldwide.com/athlete/148983",
+        "title": "Brian HARRIS",
+        "fetched": "2026-11-02",
+        "lists_madeira_2024": false,
+        "note": "PWW lists no 2024 ocean racing result for any athlete of this meeting (checked also 83178, 42514); id printed by the source, not name-bound"
+      },
+      "checks": {
+        "name": "token rule pass",
+        "noc": "pass",
+        "gender": "pass",
+        "birth_year": "pass"
+      }
+    },
+    {
+      "results_row": 283,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Daniel GONÇALVES",
+      "printed_number": "151412",
+      "team": "POR",
+      "bib": "400",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151412",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151412 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 284,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Didac NADAL",
+      "printed_number": "151309",
+      "team": "ESP",
+      "bib": "412",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151309",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151309 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 285,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Vinicius MARTINS",
+      "printed_number": "151293",
+      "team": "BRA",
+      "bib": "394",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151293",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151293 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 286,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Tadhg BARRA",
+      "printed_number": "98581",
+      "team": "IRL",
+      "bib": "131",
+      "action": "printed_id_confirmed",
+      "source": "spotfokus_competitors_list",
+      "new_id": "98581",
+      "icf_list_name": "Tadhg DE BARRA",
+      "pww_profile": {
+        "url": "https://paddleworldwide.com/athlete/98581",
+        "title": "Tadhg DE BARRA",
+        "fetched": "2026-11-02",
+        "lists_madeira_2024": false,
+        "note": "PWW lists no 2024 ocean racing result for any athlete of this meeting (checked also 83178, 42514); id printed by the source, not name-bound"
+      },
+      "checks": {
+        "name": "token rule pass",
+        "noc": "pass",
+        "gender": "pass",
+        "birth_year": "pass"
+      }
+    },
+    {
+      "results_row": 287,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Manuel MELARA",
+      "printed_number": "151328",
+      "team": "ESP",
+      "bib": "442",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151328",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151328 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 288,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Thomas ZACHERT",
+      "printed_number": "112726",
+      "team": "GER",
+      "bib": "119",
+      "action": "printed_id_confirmed",
+      "source": "spotfokus_competitors_list",
+      "new_id": "112726",
+      "icf_list_name": "Thomas ZACHERT",
+      "pww_profile": {
+        "url": "https://paddleworldwide.com/athlete/112726",
+        "title": "Thomas ZACHERT",
+        "fetched": "2026-11-02",
+        "lists_madeira_2024": false,
+        "note": "PWW lists no 2024 ocean racing result for any athlete of this meeting (checked also 83178, 42514); id printed by the source, not name-bound"
+      },
+      "checks": {
+        "name": "token rule pass",
+        "noc": "pass",
+        "gender": "pass",
+        "birth_year": "pass"
+      }
+    },
+    {
+      "results_row": 289,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Juan MENDEZ",
+      "printed_number": "151321",
+      "team": "ESP",
+      "bib": "441",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151321",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151321 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 290,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Tanton OLIVIER",
+      "printed_number": "151347",
+      "team": "FRA",
+      "bib": "425",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151347",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151347 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 291,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Garth HUNTER",
+      "printed_number": "151270",
+      "team": "AUS",
+      "bib": "422",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151270",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151270 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 292,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Mario CANGALHO",
+      "printed_number": "151468",
+      "team": "POR",
+      "bib": "435",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151468",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151468 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 293,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Nicholas MURRAY",
+      "printed_number": "144890",
+      "team": "USA",
+      "bib": "197",
+      "action": "printed_id_confirmed",
+      "source": "spotfokus_competitors_list",
+      "new_id": "144890",
+      "icf_list_name": "Nicholas MURRAY",
+      "pww_profile": {
+        "url": "https://paddleworldwide.com/athlete/144890",
+        "title": "Nicholas MURRAY",
+        "fetched": "2026-11-02",
+        "lists_madeira_2024": false,
+        "note": "PWW lists no 2024 ocean racing result for any athlete of this meeting (checked also 83178, 42514); id printed by the source, not name-bound"
+      },
+      "checks": {
+        "name": "token rule pass",
+        "noc": "pass",
+        "gender": "pass",
+        "birth_year": "pass"
+      }
+    },
+    {
+      "results_row": 294,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Jordi BORRA",
+      "printed_number": "151317",
+      "team": "ESP",
+      "bib": "440",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151317",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151317 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 295,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Oscar TERUEL",
+      "printed_number": "151331",
+      "team": "ESP",
+      "bib": "443",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151331",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151331 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 296,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Carlos GONZALEZ",
+      "printed_number": "151307",
+      "team": "ESP",
+      "bib": "439",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151307",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151307 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 297,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Jose FRAZAO",
+      "printed_number": "151453",
+      "team": "POR",
+      "bib": "434",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151453",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151453 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 298,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Bruno SANTOS",
+      "printed_number": "151403",
+      "team": "POR",
+      "bib": "432",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151403",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151403 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 299,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Alexandre MIRANDA",
+      "printed_number": "151280",
+      "team": "BRA",
+      "bib": "423",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151280",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151280 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 300,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Nick HIBBERD",
+      "printed_number": "151354",
+      "team": "GBR",
+      "bib": "427",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151354",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151354 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 301,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Connor HUGHES",
+      "printed_number": "151268",
+      "team": "AUS",
+      "bib": "421",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151268",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151268 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 302,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Duarte CAMACHO",
+      "printed_number": "151417",
+      "team": "POR",
+      "bib": "433",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151417",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151417 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 303,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Rui GONÇALVES",
+      "printed_number": "151500",
+      "team": "POR",
+      "bib": "437",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151500",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151500 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 304,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Brenden BOSCH",
+      "printed_number": "151348",
+      "team": "GBR",
+      "bib": "426",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151348",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151348 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 305,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Agostinho ORFAO",
+      "printed_number": "151389",
+      "team": "POR",
+      "bib": "429",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151389",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151389 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 306,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Anderson SENA",
+      "printed_number": "151392",
+      "team": "POR",
+      "bib": "430",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151392",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151392 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 307,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Avelino CAMARA",
+      "printed_number": "151399",
+      "team": "POR",
+      "bib": "431",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151399",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151399 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 308,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Ying ho LAW",
+      "printed_number": "151370",
+      "team": "HKG",
+      "bib": "428",
+      "action": "bound_icf_list_id_printed_conflicting",
+      "source": "icf_list_exact_name",
+      "new_id": "141496",
+      "icf_list_name": "Ying Ho LAW",
+      "evidence": "PADDLETAGGER_CONTRACT.md ocean ICF ids rule 3 (t77s412); NOC, gender and birth year agree with ICF list (1973-02-23)",
+      "pww_profile": {
+        "url": "https://paddleworldwide.com/athlete/141496",
+        "title": "Ying Ho LAW",
+        "fetched": "2026-11-02",
+        "lists_madeira_2024": false
+      }
+    },
+    {
+      "results_row": 309,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Nuno BRAGA",
+      "printed_number": "151481",
+      "team": "POR",
+      "bib": "436",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151481",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151481 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 310,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Michael DOBLER",
+      "printed_number": "93306",
+      "team": "GER",
+      "bib": "447",
+      "action": "printed_id_confirmed",
+      "source": "spotfokus_competitors_list",
+      "new_id": "93306",
+      "icf_list_name": "Michael DOBLER",
+      "pww_profile": {
+        "url": "https://paddleworldwide.com/athlete/93306",
+        "title": "Michael DOBLER",
+        "fetched": "2026-11-02",
+        "lists_madeira_2024": false,
+        "note": "PWW lists no 2024 ocean racing result for any athlete of this meeting (checked also 83178, 42514); id printed by the source, not name-bound"
+      },
+      "checks": {
+        "name": "token rule pass",
+        "noc": "pass",
+        "gender": "pass",
+        "birth_year": "pass"
+      }
+    },
+    {
+      "results_row": 311,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Erik VERDUYCKT",
+      "printed_number": "151278",
+      "team": "BEL",
+      "bib": "445",
+      "action": "bound_icf_list_id_printed_conflicting",
+      "source": "icf_list_exact_name",
+      "new_id": "71638",
+      "icf_list_name": "Erik VERDUYCKT",
+      "evidence": "PADDLETAGGER_CONTRACT.md ocean ICF ids rule 3 (t77s412); NOC, gender and birth year agree with ICF list (1967-12-22)",
+      "pww_profile": {
+        "url": "https://paddleworldwide.com/athlete/71638",
+        "title": "Erik VERDUYCKT",
+        "fetched": "2026-11-02",
+        "lists_madeira_2024": false
+      }
+    },
+    {
+      "results_row": 312,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Russell SEYMOUR",
+      "printed_number": "151520",
+      "team": "RSA",
+      "bib": "460",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151520",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151520 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 313,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Joao VILAÇA",
+      "printed_number": "151450",
+      "team": "POR",
+      "bib": "72",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151450",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151450 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 314,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Wayne BORCHARDT",
+      "printed_number": "151362",
+      "team": "GER",
+      "bib": "448",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151362",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151362 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 315,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Joao FERREIRA",
+      "printed_number": "151443",
+      "team": "POR",
+      "bib": "456",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151443",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [
+        "162671"
+      ],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151443 = Page Not Found (fetched 2026-11-02)",
+      "tie_note": "single ICF-list namesake 162671 Joao FERREIRA POR born 2010-06-16 rejected: printed birth year 1969; not the same athlete, printed number kept (question on the pull request)"
+    },
+    {
+      "results_row": 316,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Gregory LESHER",
+      "printed_number": "143613",
+      "team": "USA",
+      "bib": "195",
+      "action": "printed_id_confirmed",
+      "source": "spotfokus_competitors_list",
+      "new_id": "143613",
+      "icf_list_name": "Gregory LESHER",
+      "pww_profile": {
+        "url": "https://paddleworldwide.com/athlete/143613",
+        "title": "Gregory LESHER",
+        "fetched": "2026-11-02",
+        "lists_madeira_2024": false,
+        "note": "PWW lists no 2024 ocean racing result for any athlete of this meeting (checked also 83178, 42514); id printed by the source, not name-bound"
+      },
+      "checks": {
+        "name": "token rule pass",
+        "noc": "pass",
+        "gender": "pass",
+        "birth_year": "pass"
+      }
+    },
+    {
+      "results_row": 317,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Jan LUPINSKI",
+      "printed_number": "151385",
+      "team": "POL",
+      "bib": "454",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151385",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151385 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 318,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Roberto ESPER-CHAIN",
+      "printed_number": "151334",
+      "team": "ESP",
+      "bib": "466",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151334",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151334 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 319,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Ian ROBINSON",
+      "printed_number": "151351",
+      "team": "GBR",
+      "bib": "449",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151351",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151351 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 320,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Thierry PERSONNE",
+      "printed_number": "151532",
+      "team": "SXM",
+      "bib": "459",
+      "action": "bound_icf_list_id_printed_conflicting",
+      "source": "icf_list_exact_name",
+      "new_id": "148990",
+      "icf_list_name": "Thierry PERSONNE",
+      "evidence": "PADDLETAGGER_CONTRACT.md ocean ICF ids rule 3 (t77s412); NOC, gender and birth year agree with ICF list (1969-11-14)",
+      "pww_profile": {
+        "url": "https://paddleworldwide.com/athlete/148990",
+        "title": "Thierry PERSONNE",
+        "fetched": "2026-11-02",
+        "lists_madeira_2024": false
+      }
+    },
+    {
+      "results_row": 321,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Rubens POMPEU",
+      "printed_number": "151290",
+      "team": "BRA",
+      "bib": "446",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151290",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151290 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 322,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Carlos SENA",
+      "printed_number": "151405",
+      "team": "POR",
+      "bib": "455",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151405",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151405 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 323,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Jose LUZ",
+      "printed_number": "151454",
+      "team": "POR",
+      "bib": "457",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151454",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151454 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 324,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Paulo BARCELOS",
+      "printed_number": "151485",
+      "team": "POR",
+      "bib": "458",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151485",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151485 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 325,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Avi GISPAN",
+      "printed_number": "151372",
+      "team": "ISR",
+      "bib": "450",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151372",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151372 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 326,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Marco BONGIOVANNI",
+      "printed_number": "151378",
+      "team": "ITA",
+      "bib": "452",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151378",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151378 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 327,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Jose SILVA",
+      "printed_number": "151534",
+      "team": "VEN",
+      "bib": "467",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151534",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [
+        "36494"
+      ],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151534 = Page Not Found (fetched 2026-11-02)",
+      "tie_note": "single ICF-list namesake 36494 Jose SILVA VEN born 1977-12-20 rejected: printed birth year 1965; not the same athlete, printed number kept (question on the pull request)"
+    },
+    {
+      "results_row": 328,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Andrew SNEDDON",
+      "printed_number": "151267",
+      "team": "AUS",
+      "bib": "444",
+      "action": "bound_icf_list_id_printed_conflicting",
+      "source": "icf_list_exact_name",
+      "new_id": "83165",
+      "icf_list_name": "Andrew SNEDDON",
+      "evidence": "PADDLETAGGER_CONTRACT.md ocean ICF ids rule 3 (t77s412); NOC, gender and birth year agree with ICF list (1969-05-12)",
+      "pww_profile": {
+        "url": "https://paddleworldwide.com/athlete/83165",
+        "title": "Andrew SNEDDON",
+        "fetched": "2026-11-02",
+        "lists_madeira_2024": false
+      }
+    },
+    {
+      "results_row": 329,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Shaun FRAYNE",
+      "printed_number": "151521",
+      "team": "RSA",
+      "bib": "461",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151521",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151521 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 330,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Juan MONCHO",
+      "printed_number": "151322",
+      "team": "ESP",
+      "bib": "464",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151322",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151322 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 331,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Juan SANCHEZ",
+      "printed_number": "151323",
+      "team": "ESP",
+      "bib": "465",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151323",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151323 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 332,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Scott WOOD",
+      "printed_number": "151358",
+      "team": "GBR",
+      "bib": "477",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151358",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151358 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 333,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Jeremy NORTON",
+      "printed_number": "151271",
+      "team": "AUS",
+      "bib": "469",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151271",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151271 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 334,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Roy FIELDUS",
+      "printed_number": "151357",
+      "team": "GBR",
+      "bib": "476",
+      "action": "bound_icf_list_id_printed_conflicting",
+      "source": "icf_list_exact_name",
+      "new_id": "102079",
+      "icf_list_name": "Roy FIELDUS",
+      "evidence": "PADDLETAGGER_CONTRACT.md ocean ICF ids rule 3 (t77s412); NOC, gender and birth year agree with ICF list (1962-07-28)",
+      "pww_profile": {
+        "url": "https://paddleworldwide.com/athlete/102079",
+        "title": "Roy FIELDUS",
+        "fetched": "2026-11-02",
+        "lists_madeira_2024": false
+      }
+    },
+    {
+      "results_row": 335,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Claudio BAZZINI",
+      "printed_number": "151376",
+      "team": "ITA",
+      "bib": "479",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151376",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151376 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 336,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Tim CORNISH",
+      "printed_number": "151275",
+      "team": "AUS",
+      "bib": "470",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151275",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151275 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 337,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Salvatore CALSO",
+      "printed_number": "151337",
+      "team": "ESP",
+      "bib": "187",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151337",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151337 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 338,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Ulrich GWINNER",
+      "printed_number": "151368",
+      "team": "HKG",
+      "bib": "478",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151368",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151368 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 339,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Ruperto CASANAS",
+      "printed_number": "151336",
+      "team": "ESP",
+      "bib": "249",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151336",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151336 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 340,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Dean PARRY",
+      "printed_number": "151269",
+      "team": "AUS",
+      "bib": "468",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151269",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151269 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 341,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Daniel MALAN",
+      "printed_number": "151512",
+      "team": "RSA",
+      "bib": "484",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151512",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151512 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 342,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Patrick HEMMENS",
+      "printed_number": "151518",
+      "team": "RSA",
+      "bib": "485",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151518",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151518 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 343,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Stuart KNAGGS",
+      "printed_number": "93319",
+      "team": "SXM",
+      "bib": "160",
+      "action": "printed_id_confirmed",
+      "source": "spotfokus_competitors_list",
+      "new_id": "93319",
+      "icf_list_name": "Stuart KNAGGS",
+      "pww_profile": {
+        "url": "https://paddleworldwide.com/athlete/93319",
+        "title": "Stuart KNAGGS",
+        "fetched": "2026-11-02",
+        "lists_madeira_2024": false,
+        "note": "PWW lists no 2024 ocean racing result for any athlete of this meeting (checked also 83178, 42514); id printed by the source, not name-bound"
+      },
+      "checks": {
+        "name": "token rule pass",
+        "noc": "ICF list nationality RSA, federation SXM; printed SXM",
+        "gender": "pass",
+        "birth_year": "pass"
+      }
+    },
+    {
+      "results_row": 344,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Calum URQUHART",
+      "printed_number": "151349",
+      "team": "GBR",
+      "bib": "474",
+      "action": "bound_icf_list_id_printed_conflicting",
+      "source": "icf_list_exact_name",
+      "new_id": "118938",
+      "icf_list_name": "Calum URQUHART",
+      "evidence": "PADDLETAGGER_CONTRACT.md ocean ICF ids rule 3 (t77s412); NOC, gender and birth year agree with ICF list (1964-06-15)",
+      "pww_profile": {
+        "url": "https://paddleworldwide.com/athlete/118938",
+        "title": "Calum URQUHART",
+        "fetched": "2026-11-02",
+        "lists_madeira_2024": false
+      }
+    },
+    {
+      "results_row": 345,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Andreas VAN TONDER",
+      "printed_number": "151510",
+      "team": "RSA",
+      "bib": "482",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151510",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151510 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 346,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Andreas GRAFE",
+      "printed_number": "151360",
+      "team": "GER",
+      "bib": "473",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151360",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151360 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 347,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Peter POLLAK",
+      "printed_number": "151277",
+      "team": "AUT",
+      "bib": "471",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151277",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151277 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 348,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Sylvio CARVALHO",
+      "printed_number": "151292",
+      "team": "BRA",
+      "bib": "472",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151292",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151292 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 349,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Danie VAN WYK",
+      "printed_number": "151511",
+      "team": "RSA",
+      "bib": "483",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151511",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151511 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 350,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Jonathan SANBORN",
+      "printed_number": "147743",
+      "team": "USA",
+      "bib": "196",
+      "action": "printed_id_confirmed",
+      "source": "spotfokus_competitors_list",
+      "new_id": "147743",
+      "icf_list_name": "Jonathan SANBORN",
+      "pww_profile": {
+        "url": "https://paddleworldwide.com/athlete/147743",
+        "title": "Jonathan SANBORN",
+        "fetched": "2026-11-02",
+        "lists_madeira_2024": false,
+        "note": "PWW lists no 2024 ocean racing result for any athlete of this meeting (checked also 83178, 42514); id printed by the source, not name-bound"
+      },
+      "checks": {
+        "name": "token rule pass",
+        "noc": "pass",
+        "gender": "pass",
+        "birth_year": "pass"
+      }
+    },
+    {
+      "results_row": 351,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Raoul GOOSEN",
+      "printed_number": "151519",
+      "team": "RSA",
+      "bib": "486",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151519",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151519 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 352,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Luis CARNEIRO",
+      "printed_number": "151460",
+      "team": "POR",
+      "bib": "480",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151460",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151460 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 353,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Simon WILLMOTT",
+      "printed_number": "151522",
+      "team": "RSA",
+      "bib": "495",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151522",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151522 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 354,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Mat CARLISLE",
+      "printed_number": "151515",
+      "team": "RSA",
+      "bib": "494",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151515",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151515 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 355,
+      "seat": "ICF_ID1",
+      "source_printed_name": "William GRAM",
+      "printed_number": "151384",
+      "team": "NOR",
+      "bib": "493",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151384",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151384 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 356,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Leif DAVIDSSON",
+      "printed_number": "151528",
+      "team": "SWE",
+      "bib": "497",
+      "action": "bound_icf_list_id_printed_conflicting",
+      "source": "icf_list_exact_name",
+      "new_id": "112084",
+      "icf_list_name": "Leif DAVIDSSON",
+      "evidence": "PADDLETAGGER_CONTRACT.md ocean ICF ids rule 3 (t77s412); NOC, gender and birth year agree with ICF list (1957-07-23)",
+      "pww_profile": {
+        "url": "https://paddleworldwide.com/athlete/112084",
+        "title": "Leif DAVIDSSON",
+        "fetched": "2026-11-02",
+        "lists_madeira_2024": false
+      }
+    },
+    {
+      "results_row": 357,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Richard HOWES",
+      "printed_number": "151356",
+      "team": "GBR",
+      "bib": "489",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151356",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151356 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 358,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Robert STEVENSON",
+      "printed_number": "151366",
+      "team": "HKG",
+      "bib": "490",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151366",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151366 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 359,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Gregory GREENE",
+      "printed_number": "144458",
+      "team": "USA",
+      "bib": "194",
+      "action": "printed_id_confirmed",
+      "source": "spotfokus_competitors_list",
+      "new_id": "144458",
+      "icf_list_name": "Gregory GREENE",
+      "pww_profile": {
+        "url": "https://paddleworldwide.com/athlete/144458",
+        "title": "Gregory GREENE",
+        "fetched": "2026-11-02",
+        "lists_madeira_2024": false,
+        "note": "PWW lists no 2024 ocean racing result for any athlete of this meeting (checked also 83178, 42514); id printed by the source, not name-bound"
+      },
+      "checks": {
+        "name": "token rule pass",
+        "noc": "pass",
+        "gender": "pass",
+        "birth_year": "pass"
+      }
+    },
+    {
+      "results_row": 360,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Fernando CASTILLO",
+      "printed_number": "151312",
+      "team": "ESP",
+      "bib": "496",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151312",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151312 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 361,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Ronan HERVEET",
+      "printed_number": "151345",
+      "team": "FRA",
+      "bib": "488",
+      "action": "bound_icf_list_id_printed_conflicting",
+      "source": "icf_list_exact_name",
+      "new_id": "93331",
+      "icf_list_name": "Ronan HERVEET",
+      "evidence": "PADDLETAGGER_CONTRACT.md ocean ICF ids rule 3 (t77s412); NOC, gender and birth year agree with ICF list (1957-03-20)",
+      "pww_profile": {
+        "url": "https://paddleworldwide.com/athlete/93331",
+        "title": "Ronan HERVEET",
+        "fetched": "2026-11-02",
+        "lists_madeira_2024": false
+      }
+    },
+    {
+      "results_row": 362,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Ezra AHARON",
+      "printed_number": "151373",
+      "team": "ISR",
+      "bib": "491",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151373",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151373 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 363,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Moshe OVED",
+      "printed_number": "151374",
+      "team": "ISR",
+      "bib": "492",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151374",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151374 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 364,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Robert LANG",
+      "printed_number": "151294",
+      "team": "CAN",
+      "bib": "487",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151294",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151294 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 365,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Ellecia SAFFRON",
+      "printed_number": "141694",
+      "team": "UAE",
+      "bib": "229",
+      "action": "printed_id_confirmed",
+      "source": "same-meeting bind (Gate 4): this printed name + NOC + bib already bound on main",
+      "new_id": "141694"
+    },
+    {
+      "results_row": 366,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Ulrika ERIKSSON",
+      "printed_number": "151531",
+      "team": "SWE",
+      "bib": "261",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151531",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151531 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 367,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Andrea KANNEMANN",
+      "printed_number": "151302",
+      "team": "ESP",
+      "bib": "260",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151302",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151302 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 368,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Germana CUSTODIO",
+      "printed_number": "151283",
+      "team": "BRA",
+      "bib": "257",
+      "action": "bound_icf_list_id_printed_conflicting",
+      "source": "icf_list_exact_name",
+      "new_id": "149354",
+      "icf_list_name": "Germana CUSTODIO",
+      "evidence": "PADDLETAGGER_CONTRACT.md ocean ICF ids rule 3 (t77s412); NOC, gender and birth year agree with ICF list (1982-03-28)",
+      "pww_profile": {
+        "url": "https://paddleworldwide.com/athlete/149354",
+        "title": "Germana CUSTODIO",
+        "fetched": "2026-11-02",
+        "lists_madeira_2024": false
+      }
+    },
+    {
+      "results_row": 369,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Terese OSTERAAS",
+      "printed_number": "151383",
+      "team": "NOR",
+      "bib": "258",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151383",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151383 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 370,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Anna PESUTH",
+      "printed_number": "151834",
+      "team": "HUN",
+      "bib": "282",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151834",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151834 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 371,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Raquel ARCEDIANO",
+      "printed_number": "151333",
+      "team": "ESP",
+      "bib": "274",
+      "action": "bound_icf_list_id_printed_conflicting",
+      "source": "icf_list_exact_name",
+      "new_id": "129368",
+      "icf_list_name": "Raquel ARCEDIANO",
+      "evidence": "PADDLETAGGER_CONTRACT.md ocean ICF ids rule 3 (t77s412); NOC, gender and birth year agree with ICF list (1972-06-21)",
+      "pww_profile": {
+        "url": "https://paddleworldwide.com/athlete/129368",
+        "title": "Raquel ARCEDIANO",
+        "fetched": "2026-11-02",
+        "lists_madeira_2024": false
+      }
+    },
+    {
+      "results_row": 372,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Annabelle LE ROHELLEC",
+      "printed_number": "151343",
+      "team": "FRA",
+      "bib": "273",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151343",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151343 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 373,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Tove GUNNARSSON",
+      "printed_number": "151530",
+      "team": "SWE",
+      "bib": "275",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151530",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151530 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 374,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Kamila ROBERTS",
+      "printed_number": "151296",
+      "team": "CZE",
+      "bib": "271",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151296",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151296 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 375,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Marion MCRAE",
+      "printed_number": "151272",
+      "team": "AUS",
+      "bib": "270",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151272",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151272 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 376,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Jette BAELUM",
+      "printed_number": "151299",
+      "team": "DEN",
+      "bib": "272",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151299",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151299 = Page Not Found (fetched 2026-11-02)"
     }
   ],
   "id_conflicts": [
@@ -3648,6 +5770,132 @@
       "icf_list_name": "Simon OVEN",
       "rule": "exact normalised given+family name matches exactly one ICF-list athlete",
       "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t77s412 + t77s419 (4) (duplicate ICF-list records of one id)"
+    },
+    {
+      "bib": "398",
+      "printed_name": "Mariano BIFANO",
+      "printed_number": "151379",
+      "bound_icf_id": "36541",
+      "icf_list_name": "Mariano BIFANO",
+      "rule": "exact normalised given+family name matches exactly one ICF-list athlete",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t77s412; added under t113u + card answer t113s618 (2026-11-02): \"Add only the WCH-labelled races 7–12, 18 and 20 with PERSONS rows, and republish.\""
+    },
+    {
+      "bib": "409",
+      "printed_name": "Ernest VAN RIET",
+      "printed_number": "151514",
+      "bound_icf_id": "100226",
+      "icf_list_name": "Ernest VAN RIET",
+      "rule": "exact normalised given+family name matches exactly one ICF-list athlete",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t77s412; added under t113u + card answer t113s618 (2026-11-02): \"Add only the WCH-labelled races 7–12, 18 and 20 with PERSONS rows, and republish.\""
+    },
+    {
+      "bib": "414",
+      "printed_name": "Gonzalo INFANTE",
+      "printed_number": "151314",
+      "bound_icf_id": "129372",
+      "icf_list_name": "Gonzalo INFANTE",
+      "rule": "exact normalised given+family name matches exactly one ICF-list athlete",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t77s412; added under t113u + card answer t113s618 (2026-11-02): \"Add only the WCH-labelled races 7–12, 18 and 20 with PERSONS rows, and republish.\""
+    },
+    {
+      "bib": "420",
+      "printed_name": "Matthew DRAYER",
+      "printed_number": "151533",
+      "bound_icf_id": "143589",
+      "icf_list_name": "Matthew DRAYER",
+      "rule": "exact normalised given+family name matches exactly one ICF-list athlete",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t77s412; added under t113u + card answer t113s618 (2026-11-02): \"Add only the WCH-labelled races 7–12, 18 and 20 with PERSONS rows, and republish.\""
+    },
+    {
+      "bib": "428",
+      "printed_name": "Ying ho LAW",
+      "printed_number": "151370",
+      "bound_icf_id": "141496",
+      "icf_list_name": "Ying Ho LAW",
+      "rule": "exact normalised given+family name matches exactly one ICF-list athlete",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t77s412; added under t113u + card answer t113s618 (2026-11-02): \"Add only the WCH-labelled races 7–12, 18 and 20 with PERSONS rows, and republish.\""
+    },
+    {
+      "bib": "445",
+      "printed_name": "Erik VERDUYCKT",
+      "printed_number": "151278",
+      "bound_icf_id": "71638",
+      "icf_list_name": "Erik VERDUYCKT",
+      "rule": "exact normalised given+family name matches exactly one ICF-list athlete",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t77s412; added under t113u + card answer t113s618 (2026-11-02): \"Add only the WCH-labelled races 7–12, 18 and 20 with PERSONS rows, and republish.\""
+    },
+    {
+      "bib": "459",
+      "printed_name": "Thierry PERSONNE",
+      "printed_number": "151532",
+      "bound_icf_id": "148990",
+      "icf_list_name": "Thierry PERSONNE",
+      "rule": "exact normalised given+family name matches exactly one ICF-list athlete",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t77s412; added under t113u + card answer t113s618 (2026-11-02): \"Add only the WCH-labelled races 7–12, 18 and 20 with PERSONS rows, and republish.\""
+    },
+    {
+      "bib": "444",
+      "printed_name": "Andrew SNEDDON",
+      "printed_number": "151267",
+      "bound_icf_id": "83165",
+      "icf_list_name": "Andrew SNEDDON",
+      "rule": "exact normalised given+family name matches exactly one ICF-list athlete",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t77s412; added under t113u + card answer t113s618 (2026-11-02): \"Add only the WCH-labelled races 7–12, 18 and 20 with PERSONS rows, and republish.\""
+    },
+    {
+      "bib": "476",
+      "printed_name": "Roy FIELDUS",
+      "printed_number": "151357",
+      "bound_icf_id": "102079",
+      "icf_list_name": "Roy FIELDUS",
+      "rule": "exact normalised given+family name matches exactly one ICF-list athlete",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t77s412; added under t113u + card answer t113s618 (2026-11-02): \"Add only the WCH-labelled races 7–12, 18 and 20 with PERSONS rows, and republish.\""
+    },
+    {
+      "bib": "474",
+      "printed_name": "Calum URQUHART",
+      "printed_number": "151349",
+      "bound_icf_id": "118938",
+      "icf_list_name": "Calum URQUHART",
+      "rule": "exact normalised given+family name matches exactly one ICF-list athlete",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t77s412; added under t113u + card answer t113s618 (2026-11-02): \"Add only the WCH-labelled races 7–12, 18 and 20 with PERSONS rows, and republish.\""
+    },
+    {
+      "bib": "497",
+      "printed_name": "Leif DAVIDSSON",
+      "printed_number": "151528",
+      "bound_icf_id": "112084",
+      "icf_list_name": "Leif DAVIDSSON",
+      "rule": "exact normalised given+family name matches exactly one ICF-list athlete",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t77s412; added under t113u + card answer t113s618 (2026-11-02): \"Add only the WCH-labelled races 7–12, 18 and 20 with PERSONS rows, and republish.\""
+    },
+    {
+      "bib": "488",
+      "printed_name": "Ronan HERVEET",
+      "printed_number": "151345",
+      "bound_icf_id": "93331",
+      "icf_list_name": "Ronan HERVEET",
+      "rule": "exact normalised given+family name matches exactly one ICF-list athlete",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t77s412; added under t113u + card answer t113s618 (2026-11-02): \"Add only the WCH-labelled races 7–12, 18 and 20 with PERSONS rows, and republish.\""
+    },
+    {
+      "bib": "257",
+      "printed_name": "Germana CUSTODIO",
+      "printed_number": "151283",
+      "bound_icf_id": "149354",
+      "icf_list_name": "Germana CUSTODIO",
+      "rule": "exact normalised given+family name matches exactly one ICF-list athlete",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t77s412; added under t113u + card answer t113s618 (2026-11-02): \"Add only the WCH-labelled races 7–12, 18 and 20 with PERSONS rows, and republish.\""
+    },
+    {
+      "bib": "274",
+      "printed_name": "Raquel ARCEDIANO",
+      "printed_number": "151333",
+      "bound_icf_id": "129368",
+      "icf_list_name": "Raquel ARCEDIANO",
+      "rule": "exact normalised given+family name matches exactly one ICF-list athlete",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t77s412; added under t113u + card answer t113s618 (2026-11-02): \"Add only the WCH-labelled races 7–12, 18 and 20 with PERSONS rows, and republish.\""
     }
   ],
   "printed_id_no_profile": [
@@ -3973,6 +6221,661 @@
       "bib": "19",
       "printed_name": "Francisco RODRIGUES",
       "printed_id": "151428",
+      "tie_candidates": []
+    },
+    {
+      "bib": "378",
+      "printed_name": "Hugo LIMA",
+      "printed_id": "151437",
+      "tie_candidates": []
+    },
+    {
+      "bib": "374",
+      "printed_name": "Eliseu REIS",
+      "printed_id": "151420",
+      "tie_candidates": []
+    },
+    {
+      "bib": "382",
+      "printed_name": "Luis SILVA",
+      "printed_id": "151462",
+      "tie_candidates": []
+    },
+    {
+      "bib": "389",
+      "printed_name": "Vicenç ROURA",
+      "printed_id": "151341",
+      "tie_candidates": []
+    },
+    {
+      "bib": "380",
+      "printed_name": "Joao B CAMARA",
+      "printed_id": "151442",
+      "tie_candidates": []
+    },
+    {
+      "bib": "387",
+      "printed_name": "Tiago SOBRAL",
+      "printed_id": "151506",
+      "tie_candidates": []
+    },
+    {
+      "bib": "98",
+      "printed_name": "Johnatha VAZ",
+      "printed_id": "151286",
+      "tie_candidates": []
+    },
+    {
+      "bib": "372",
+      "printed_name": "Cesar COTA",
+      "printed_id": "151409",
+      "tie_candidates": []
+    },
+    {
+      "bib": "385",
+      "printed_name": "Ruben FREITAS",
+      "printed_id": "151499",
+      "tie_candidates": []
+    },
+    {
+      "bib": "126",
+      "printed_name": "Wai ho LAI",
+      "printed_id": "151369",
+      "tie_candidates": [
+        "141502",
+        "152103"
+      ]
+    },
+    {
+      "bib": "381",
+      "printed_name": "Julio MORGADO",
+      "printed_id": "151457",
+      "tie_candidates": []
+    },
+    {
+      "bib": "94",
+      "printed_name": "Manuel GONZALEZ",
+      "printed_id": "151327",
+      "tie_candidates": []
+    },
+    {
+      "bib": "384",
+      "printed_name": "Nuno PEREIRA",
+      "printed_id": "151483",
+      "tie_candidates": []
+    },
+    {
+      "bib": "379",
+      "printed_name": "Jason MENESES",
+      "printed_id": "151439",
+      "tie_candidates": []
+    },
+    {
+      "bib": "375",
+      "printed_name": "Francisco TEIXEIRA",
+      "printed_id": "151429",
+      "tie_candidates": []
+    },
+    {
+      "bib": "371",
+      "printed_name": "Carlos REIS",
+      "printed_id": "151404",
+      "tie_candidates": []
+    },
+    {
+      "bib": "99",
+      "printed_name": "Richard BUSTON",
+      "printed_id": "151355",
+      "tie_candidates": []
+    },
+    {
+      "bib": "373",
+      "printed_name": "Diogo DRUMOND",
+      "printed_id": "151413",
+      "tie_candidates": []
+    },
+    {
+      "bib": "419",
+      "printed_name": "Oier AIZPURUA",
+      "printed_id": "151330",
+      "tie_candidates": []
+    },
+    {
+      "bib": "391",
+      "printed_name": "Todd GRACE",
+      "printed_id": "151276",
+      "tie_candidates": []
+    },
+    {
+      "bib": "413",
+      "printed_name": "Filipe BESADA",
+      "printed_id": "151313",
+      "tie_candidates": []
+    },
+    {
+      "bib": "416",
+      "printed_name": "Jordi RAMON",
+      "printed_id": "151319",
+      "tie_candidates": []
+    },
+    {
+      "bib": "410",
+      "printed_name": "Aizpurua ENAUT",
+      "printed_id": "151301",
+      "tie_candidates": []
+    },
+    {
+      "bib": "401",
+      "printed_name": "Ernesto GOMES",
+      "printed_id": "151422",
+      "tie_candidates": []
+    },
+    {
+      "bib": "417",
+      "printed_name": "Jorge ALZOLA",
+      "printed_id": "151320",
+      "tie_candidates": []
+    },
+    {
+      "bib": "406",
+      "printed_name": "Pedro BARTOLOMEU",
+      "printed_id": "151488",
+      "tie_candidates": []
+    },
+    {
+      "bib": "411",
+      "printed_name": "Daniel MARTIN",
+      "printed_id": "151308",
+      "tie_candidates": []
+    },
+    {
+      "bib": "390",
+      "printed_name": "Stephen ALEXANDER",
+      "printed_id": "151274",
+      "tie_candidates": []
+    },
+    {
+      "bib": "396",
+      "printed_name": "Oleg MOZESSOV",
+      "printed_id": "151342",
+      "tie_candidates": []
+    },
+    {
+      "bib": "403",
+      "printed_name": "Mario MATHIOTTE",
+      "printed_id": "151469",
+      "tie_candidates": []
+    },
+    {
+      "bib": "405",
+      "printed_name": "Nuno RICO",
+      "printed_id": "151484",
+      "tie_candidates": []
+    },
+    {
+      "bib": "408",
+      "printed_name": "Vitor CHAVES",
+      "printed_id": "151508",
+      "tie_candidates": []
+    },
+    {
+      "bib": "407",
+      "printed_name": "Rui SOARES",
+      "printed_id": "151502",
+      "tie_candidates": []
+    },
+    {
+      "bib": "400",
+      "printed_name": "Daniel GONÇALVES",
+      "printed_id": "151412",
+      "tie_candidates": []
+    },
+    {
+      "bib": "412",
+      "printed_name": "Didac NADAL",
+      "printed_id": "151309",
+      "tie_candidates": []
+    },
+    {
+      "bib": "394",
+      "printed_name": "Vinicius MARTINS",
+      "printed_id": "151293",
+      "tie_candidates": []
+    },
+    {
+      "bib": "442",
+      "printed_name": "Manuel MELARA",
+      "printed_id": "151328",
+      "tie_candidates": []
+    },
+    {
+      "bib": "441",
+      "printed_name": "Juan MENDEZ",
+      "printed_id": "151321",
+      "tie_candidates": []
+    },
+    {
+      "bib": "425",
+      "printed_name": "Tanton OLIVIER",
+      "printed_id": "151347",
+      "tie_candidates": []
+    },
+    {
+      "bib": "422",
+      "printed_name": "Garth HUNTER",
+      "printed_id": "151270",
+      "tie_candidates": []
+    },
+    {
+      "bib": "435",
+      "printed_name": "Mario CANGALHO",
+      "printed_id": "151468",
+      "tie_candidates": []
+    },
+    {
+      "bib": "440",
+      "printed_name": "Jordi BORRA",
+      "printed_id": "151317",
+      "tie_candidates": []
+    },
+    {
+      "bib": "443",
+      "printed_name": "Oscar TERUEL",
+      "printed_id": "151331",
+      "tie_candidates": []
+    },
+    {
+      "bib": "439",
+      "printed_name": "Carlos GONZALEZ",
+      "printed_id": "151307",
+      "tie_candidates": []
+    },
+    {
+      "bib": "434",
+      "printed_name": "Jose FRAZAO",
+      "printed_id": "151453",
+      "tie_candidates": []
+    },
+    {
+      "bib": "432",
+      "printed_name": "Bruno SANTOS",
+      "printed_id": "151403",
+      "tie_candidates": []
+    },
+    {
+      "bib": "423",
+      "printed_name": "Alexandre MIRANDA",
+      "printed_id": "151280",
+      "tie_candidates": []
+    },
+    {
+      "bib": "427",
+      "printed_name": "Nick HIBBERD",
+      "printed_id": "151354",
+      "tie_candidates": []
+    },
+    {
+      "bib": "421",
+      "printed_name": "Connor HUGHES",
+      "printed_id": "151268",
+      "tie_candidates": []
+    },
+    {
+      "bib": "433",
+      "printed_name": "Duarte CAMACHO",
+      "printed_id": "151417",
+      "tie_candidates": []
+    },
+    {
+      "bib": "437",
+      "printed_name": "Rui GONÇALVES",
+      "printed_id": "151500",
+      "tie_candidates": []
+    },
+    {
+      "bib": "426",
+      "printed_name": "Brenden BOSCH",
+      "printed_id": "151348",
+      "tie_candidates": []
+    },
+    {
+      "bib": "429",
+      "printed_name": "Agostinho ORFAO",
+      "printed_id": "151389",
+      "tie_candidates": []
+    },
+    {
+      "bib": "430",
+      "printed_name": "Anderson SENA",
+      "printed_id": "151392",
+      "tie_candidates": []
+    },
+    {
+      "bib": "431",
+      "printed_name": "Avelino CAMARA",
+      "printed_id": "151399",
+      "tie_candidates": []
+    },
+    {
+      "bib": "436",
+      "printed_name": "Nuno BRAGA",
+      "printed_id": "151481",
+      "tie_candidates": []
+    },
+    {
+      "bib": "460",
+      "printed_name": "Russell SEYMOUR",
+      "printed_id": "151520",
+      "tie_candidates": []
+    },
+    {
+      "bib": "72",
+      "printed_name": "Joao VILAÇA",
+      "printed_id": "151450",
+      "tie_candidates": []
+    },
+    {
+      "bib": "448",
+      "printed_name": "Wayne BORCHARDT",
+      "printed_id": "151362",
+      "tie_candidates": []
+    },
+    {
+      "bib": "456",
+      "printed_name": "Joao FERREIRA",
+      "printed_id": "151443",
+      "tie_candidates": [
+        "162671"
+      ]
+    },
+    {
+      "bib": "454",
+      "printed_name": "Jan LUPINSKI",
+      "printed_id": "151385",
+      "tie_candidates": []
+    },
+    {
+      "bib": "466",
+      "printed_name": "Roberto ESPER-CHAIN",
+      "printed_id": "151334",
+      "tie_candidates": []
+    },
+    {
+      "bib": "449",
+      "printed_name": "Ian ROBINSON",
+      "printed_id": "151351",
+      "tie_candidates": []
+    },
+    {
+      "bib": "446",
+      "printed_name": "Rubens POMPEU",
+      "printed_id": "151290",
+      "tie_candidates": []
+    },
+    {
+      "bib": "455",
+      "printed_name": "Carlos SENA",
+      "printed_id": "151405",
+      "tie_candidates": []
+    },
+    {
+      "bib": "457",
+      "printed_name": "Jose LUZ",
+      "printed_id": "151454",
+      "tie_candidates": []
+    },
+    {
+      "bib": "458",
+      "printed_name": "Paulo BARCELOS",
+      "printed_id": "151485",
+      "tie_candidates": []
+    },
+    {
+      "bib": "450",
+      "printed_name": "Avi GISPAN",
+      "printed_id": "151372",
+      "tie_candidates": []
+    },
+    {
+      "bib": "452",
+      "printed_name": "Marco BONGIOVANNI",
+      "printed_id": "151378",
+      "tie_candidates": []
+    },
+    {
+      "bib": "467",
+      "printed_name": "Jose SILVA",
+      "printed_id": "151534",
+      "tie_candidates": [
+        "36494"
+      ]
+    },
+    {
+      "bib": "461",
+      "printed_name": "Shaun FRAYNE",
+      "printed_id": "151521",
+      "tie_candidates": []
+    },
+    {
+      "bib": "464",
+      "printed_name": "Juan MONCHO",
+      "printed_id": "151322",
+      "tie_candidates": []
+    },
+    {
+      "bib": "465",
+      "printed_name": "Juan SANCHEZ",
+      "printed_id": "151323",
+      "tie_candidates": []
+    },
+    {
+      "bib": "477",
+      "printed_name": "Scott WOOD",
+      "printed_id": "151358",
+      "tie_candidates": []
+    },
+    {
+      "bib": "469",
+      "printed_name": "Jeremy NORTON",
+      "printed_id": "151271",
+      "tie_candidates": []
+    },
+    {
+      "bib": "479",
+      "printed_name": "Claudio BAZZINI",
+      "printed_id": "151376",
+      "tie_candidates": []
+    },
+    {
+      "bib": "470",
+      "printed_name": "Tim CORNISH",
+      "printed_id": "151275",
+      "tie_candidates": []
+    },
+    {
+      "bib": "187",
+      "printed_name": "Salvatore CALSO",
+      "printed_id": "151337",
+      "tie_candidates": []
+    },
+    {
+      "bib": "478",
+      "printed_name": "Ulrich GWINNER",
+      "printed_id": "151368",
+      "tie_candidates": []
+    },
+    {
+      "bib": "249",
+      "printed_name": "Ruperto CASANAS",
+      "printed_id": "151336",
+      "tie_candidates": []
+    },
+    {
+      "bib": "468",
+      "printed_name": "Dean PARRY",
+      "printed_id": "151269",
+      "tie_candidates": []
+    },
+    {
+      "bib": "484",
+      "printed_name": "Daniel MALAN",
+      "printed_id": "151512",
+      "tie_candidates": []
+    },
+    {
+      "bib": "485",
+      "printed_name": "Patrick HEMMENS",
+      "printed_id": "151518",
+      "tie_candidates": []
+    },
+    {
+      "bib": "482",
+      "printed_name": "Andreas VAN TONDER",
+      "printed_id": "151510",
+      "tie_candidates": []
+    },
+    {
+      "bib": "473",
+      "printed_name": "Andreas GRAFE",
+      "printed_id": "151360",
+      "tie_candidates": []
+    },
+    {
+      "bib": "471",
+      "printed_name": "Peter POLLAK",
+      "printed_id": "151277",
+      "tie_candidates": []
+    },
+    {
+      "bib": "472",
+      "printed_name": "Sylvio CARVALHO",
+      "printed_id": "151292",
+      "tie_candidates": []
+    },
+    {
+      "bib": "483",
+      "printed_name": "Danie VAN WYK",
+      "printed_id": "151511",
+      "tie_candidates": []
+    },
+    {
+      "bib": "486",
+      "printed_name": "Raoul GOOSEN",
+      "printed_id": "151519",
+      "tie_candidates": []
+    },
+    {
+      "bib": "480",
+      "printed_name": "Luis CARNEIRO",
+      "printed_id": "151460",
+      "tie_candidates": []
+    },
+    {
+      "bib": "495",
+      "printed_name": "Simon WILLMOTT",
+      "printed_id": "151522",
+      "tie_candidates": []
+    },
+    {
+      "bib": "494",
+      "printed_name": "Mat CARLISLE",
+      "printed_id": "151515",
+      "tie_candidates": []
+    },
+    {
+      "bib": "493",
+      "printed_name": "William GRAM",
+      "printed_id": "151384",
+      "tie_candidates": []
+    },
+    {
+      "bib": "489",
+      "printed_name": "Richard HOWES",
+      "printed_id": "151356",
+      "tie_candidates": []
+    },
+    {
+      "bib": "490",
+      "printed_name": "Robert STEVENSON",
+      "printed_id": "151366",
+      "tie_candidates": []
+    },
+    {
+      "bib": "496",
+      "printed_name": "Fernando CASTILLO",
+      "printed_id": "151312",
+      "tie_candidates": []
+    },
+    {
+      "bib": "491",
+      "printed_name": "Ezra AHARON",
+      "printed_id": "151373",
+      "tie_candidates": []
+    },
+    {
+      "bib": "492",
+      "printed_name": "Moshe OVED",
+      "printed_id": "151374",
+      "tie_candidates": []
+    },
+    {
+      "bib": "487",
+      "printed_name": "Robert LANG",
+      "printed_id": "151294",
+      "tie_candidates": []
+    },
+    {
+      "bib": "261",
+      "printed_name": "Ulrika ERIKSSON",
+      "printed_id": "151531",
+      "tie_candidates": []
+    },
+    {
+      "bib": "260",
+      "printed_name": "Andrea KANNEMANN",
+      "printed_id": "151302",
+      "tie_candidates": []
+    },
+    {
+      "bib": "258",
+      "printed_name": "Terese OSTERAAS",
+      "printed_id": "151383",
+      "tie_candidates": []
+    },
+    {
+      "bib": "282",
+      "printed_name": "Anna PESUTH",
+      "printed_id": "151834",
+      "tie_candidates": []
+    },
+    {
+      "bib": "273",
+      "printed_name": "Annabelle LE ROHELLEC",
+      "printed_id": "151343",
+      "tie_candidates": []
+    },
+    {
+      "bib": "275",
+      "printed_name": "Tove GUNNARSSON",
+      "printed_id": "151530",
+      "tie_candidates": []
+    },
+    {
+      "bib": "271",
+      "printed_name": "Kamila ROBERTS",
+      "printed_id": "151296",
+      "tie_candidates": []
+    },
+    {
+      "bib": "270",
+      "printed_name": "Marion MCRAE",
+      "printed_id": "151272",
+      "tie_candidates": []
+    },
+    {
+      "bib": "272",
+      "printed_name": "Jette BAELUM",
+      "printed_id": "151299",
       "tie_candidates": []
     }
   ],
@@ -5665,6 +8568,965 @@
       "rank": null,
       "obs": "DNS",
       "team": "ITA"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 378,
+      "rank": 1,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 374,
+      "rank": 2,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 382,
+      "rank": 3,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 130,
+      "rank": 4,
+      "obs": null,
+      "team": "IRL"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 389,
+      "rank": 5,
+      "obs": null,
+      "team": "ESP"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 376,
+      "rank": 6,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 380,
+      "rank": 7,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 387,
+      "rank": 8,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 98,
+      "rank": 9,
+      "obs": null,
+      "team": "BRA"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 372,
+      "rank": 10,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 385,
+      "rank": 11,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 126,
+      "rank": 12,
+      "obs": null,
+      "team": "HKG"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 381,
+      "rank": 13,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 94,
+      "rank": 14,
+      "obs": null,
+      "team": "ESP"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 384,
+      "rank": 15,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 379,
+      "rank": 16,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 375,
+      "rank": 17,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 371,
+      "rank": null,
+      "obs": "DNF",
+      "team": "POR"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 99,
+      "rank": null,
+      "obs": "DNS",
+      "team": "GBR"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 373,
+      "rank": null,
+      "obs": "DNS",
+      "team": "POR"
+    },
+    {
+      "race_number": "7",
+      "starting_lane": 383,
+      "rank": null,
+      "obs": "DNS",
+      "team": "POR"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 419,
+      "rank": 1,
+      "obs": null,
+      "team": "ESP"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 391,
+      "rank": 2,
+      "obs": null,
+      "team": "AUS"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 413,
+      "rank": 3,
+      "obs": null,
+      "team": "ESP"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 398,
+      "rank": 4,
+      "obs": null,
+      "team": "ITA"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 409,
+      "rank": 5,
+      "obs": null,
+      "team": "RSA"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 193,
+      "rank": 6,
+      "obs": null,
+      "team": "USA"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 416,
+      "rank": 7,
+      "obs": null,
+      "team": "ESP"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 410,
+      "rank": 8,
+      "obs": null,
+      "team": "ESP"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 401,
+      "rank": 9,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 198,
+      "rank": 10,
+      "obs": null,
+      "team": "USA"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 417,
+      "rank": 11,
+      "obs": null,
+      "team": "ESP"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 406,
+      "rank": 12,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 414,
+      "rank": 13,
+      "obs": null,
+      "team": "ESP"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 411,
+      "rank": 14,
+      "obs": null,
+      "team": "ESP"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 390,
+      "rank": 15,
+      "obs": null,
+      "team": "AUS"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 420,
+      "rank": 16,
+      "obs": null,
+      "team": "USA"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 396,
+      "rank": 17,
+      "obs": null,
+      "team": "EST"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 403,
+      "rank": 18,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 405,
+      "rank": 19,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 408,
+      "rank": 20,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 407,
+      "rank": 21,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 129,
+      "rank": 22,
+      "obs": null,
+      "team": "IRL"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 400,
+      "rank": 23,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 412,
+      "rank": 24,
+      "obs": null,
+      "team": "ESP"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 394,
+      "rank": 25,
+      "obs": null,
+      "team": "BRA"
+    },
+    {
+      "race_number": "8",
+      "starting_lane": 131,
+      "rank": null,
+      "obs": "DNS",
+      "team": "IRL"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 442,
+      "rank": 1,
+      "obs": null,
+      "team": "ESP"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 119,
+      "rank": 2,
+      "obs": null,
+      "team": "GER"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 441,
+      "rank": 3,
+      "obs": null,
+      "team": "ESP"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 425,
+      "rank": 4,
+      "obs": null,
+      "team": "FRA"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 422,
+      "rank": 5,
+      "obs": null,
+      "team": "AUS"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 435,
+      "rank": 6,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 197,
+      "rank": 7,
+      "obs": null,
+      "team": "USA"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 440,
+      "rank": 8,
+      "obs": null,
+      "team": "ESP"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 443,
+      "rank": 9,
+      "obs": null,
+      "team": "ESP"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 439,
+      "rank": 10,
+      "obs": null,
+      "team": "ESP"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 434,
+      "rank": 11,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 432,
+      "rank": 12,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 423,
+      "rank": 13,
+      "obs": null,
+      "team": "BRA"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 427,
+      "rank": 14,
+      "obs": null,
+      "team": "GBR"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 421,
+      "rank": 15,
+      "obs": null,
+      "team": "AUS"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 433,
+      "rank": 16,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 437,
+      "rank": 17,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 426,
+      "rank": 18,
+      "obs": null,
+      "team": "GBR"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 429,
+      "rank": 19,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 430,
+      "rank": 20,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 431,
+      "rank": 21,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 428,
+      "rank": 22,
+      "obs": null,
+      "team": "HKG"
+    },
+    {
+      "race_number": "9",
+      "starting_lane": 436,
+      "rank": 23,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 447,
+      "rank": 1,
+      "obs": null,
+      "team": "GER"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 445,
+      "rank": 2,
+      "obs": null,
+      "team": "BEL"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 460,
+      "rank": 3,
+      "obs": null,
+      "team": "RSA"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 72,
+      "rank": 4,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 448,
+      "rank": 5,
+      "obs": null,
+      "team": "GER"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 456,
+      "rank": 6,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 195,
+      "rank": 7,
+      "obs": null,
+      "team": "USA"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 454,
+      "rank": 8,
+      "obs": null,
+      "team": "POL"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 466,
+      "rank": 9,
+      "obs": null,
+      "team": "ESP"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 449,
+      "rank": 10,
+      "obs": null,
+      "team": "GBR"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 459,
+      "rank": 11,
+      "obs": null,
+      "team": "SXM"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 446,
+      "rank": 12,
+      "obs": null,
+      "team": "BRA"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 455,
+      "rank": 13,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 457,
+      "rank": 14,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 458,
+      "rank": 15,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 450,
+      "rank": 16,
+      "obs": null,
+      "team": "ISR"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 452,
+      "rank": 17,
+      "obs": null,
+      "team": "ITA"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 467,
+      "rank": 18,
+      "obs": null,
+      "team": "VEN"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 444,
+      "rank": null,
+      "obs": "DNS",
+      "team": "AUS"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 461,
+      "rank": null,
+      "obs": "DNS",
+      "team": "RSA"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 464,
+      "rank": null,
+      "obs": "DNS",
+      "team": "ESP"
+    },
+    {
+      "race_number": "10",
+      "starting_lane": 465,
+      "rank": null,
+      "obs": "DNS",
+      "team": "ESP"
+    },
+    {
+      "race_number": "11",
+      "starting_lane": 477,
+      "rank": 1,
+      "obs": null,
+      "team": "GBR"
+    },
+    {
+      "race_number": "11",
+      "starting_lane": 469,
+      "rank": 2,
+      "obs": null,
+      "team": "AUS"
+    },
+    {
+      "race_number": "11",
+      "starting_lane": 476,
+      "rank": 3,
+      "obs": null,
+      "team": "GBR"
+    },
+    {
+      "race_number": "11",
+      "starting_lane": 479,
+      "rank": 4,
+      "obs": null,
+      "team": "ITA"
+    },
+    {
+      "race_number": "11",
+      "starting_lane": 470,
+      "rank": 5,
+      "obs": null,
+      "team": "AUS"
+    },
+    {
+      "race_number": "11",
+      "starting_lane": 187,
+      "rank": 6,
+      "obs": null,
+      "team": "ESP"
+    },
+    {
+      "race_number": "11",
+      "starting_lane": 478,
+      "rank": 7,
+      "obs": null,
+      "team": "HKG"
+    },
+    {
+      "race_number": "11",
+      "starting_lane": 249,
+      "rank": 8,
+      "obs": null,
+      "team": "ESP"
+    },
+    {
+      "race_number": "11",
+      "starting_lane": 468,
+      "rank": 9,
+      "obs": null,
+      "team": "AUS"
+    },
+    {
+      "race_number": "11",
+      "starting_lane": 484,
+      "rank": 10,
+      "obs": null,
+      "team": "RSA"
+    },
+    {
+      "race_number": "11",
+      "starting_lane": 485,
+      "rank": 11,
+      "obs": null,
+      "team": "RSA"
+    },
+    {
+      "race_number": "11",
+      "starting_lane": 160,
+      "rank": 12,
+      "obs": null,
+      "team": "SXM"
+    },
+    {
+      "race_number": "11",
+      "starting_lane": 474,
+      "rank": 13,
+      "obs": null,
+      "team": "GBR"
+    },
+    {
+      "race_number": "11",
+      "starting_lane": 482,
+      "rank": 14,
+      "obs": null,
+      "team": "RSA"
+    },
+    {
+      "race_number": "11",
+      "starting_lane": 473,
+      "rank": 15,
+      "obs": null,
+      "team": "GER"
+    },
+    {
+      "race_number": "11",
+      "starting_lane": 471,
+      "rank": 16,
+      "obs": null,
+      "team": "AUT"
+    },
+    {
+      "race_number": "11",
+      "starting_lane": 472,
+      "rank": 17,
+      "obs": null,
+      "team": "BRA"
+    },
+    {
+      "race_number": "11",
+      "starting_lane": 483,
+      "rank": 18,
+      "obs": null,
+      "team": "RSA"
+    },
+    {
+      "race_number": "11",
+      "starting_lane": 196,
+      "rank": 19,
+      "obs": null,
+      "team": "USA"
+    },
+    {
+      "race_number": "11",
+      "starting_lane": 486,
+      "rank": 20,
+      "obs": null,
+      "team": "RSA"
+    },
+    {
+      "race_number": "11",
+      "starting_lane": 480,
+      "rank": 21,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "12",
+      "starting_lane": 495,
+      "rank": 1,
+      "obs": null,
+      "team": "RSA"
+    },
+    {
+      "race_number": "12",
+      "starting_lane": 494,
+      "rank": 2,
+      "obs": null,
+      "team": "RSA"
+    },
+    {
+      "race_number": "12",
+      "starting_lane": 493,
+      "rank": 3,
+      "obs": null,
+      "team": "NOR"
+    },
+    {
+      "race_number": "12",
+      "starting_lane": 497,
+      "rank": 4,
+      "obs": null,
+      "team": "SWE"
+    },
+    {
+      "race_number": "12",
+      "starting_lane": 489,
+      "rank": 5,
+      "obs": null,
+      "team": "GBR"
+    },
+    {
+      "race_number": "12",
+      "starting_lane": 490,
+      "rank": 6,
+      "obs": null,
+      "team": "HKG"
+    },
+    {
+      "race_number": "12",
+      "starting_lane": 194,
+      "rank": 7,
+      "obs": null,
+      "team": "USA"
+    },
+    {
+      "race_number": "12",
+      "starting_lane": 496,
+      "rank": 8,
+      "obs": null,
+      "team": "ESP"
+    },
+    {
+      "race_number": "12",
+      "starting_lane": 488,
+      "rank": 9,
+      "obs": null,
+      "team": "FRA"
+    },
+    {
+      "race_number": "12",
+      "starting_lane": 491,
+      "rank": 10,
+      "obs": null,
+      "team": "ISR"
+    },
+    {
+      "race_number": "12",
+      "starting_lane": 492,
+      "rank": 11,
+      "obs": null,
+      "team": "ISR"
+    },
+    {
+      "race_number": "12",
+      "starting_lane": 487,
+      "rank": 12,
+      "obs": null,
+      "team": "CAN"
+    },
+    {
+      "race_number": "18",
+      "starting_lane": 229,
+      "rank": 1,
+      "obs": null,
+      "team": "UAE"
+    },
+    {
+      "race_number": "18",
+      "starting_lane": 261,
+      "rank": 2,
+      "obs": null,
+      "team": "SWE"
+    },
+    {
+      "race_number": "18",
+      "starting_lane": 260,
+      "rank": 3,
+      "obs": null,
+      "team": "ESP"
+    },
+    {
+      "race_number": "18",
+      "starting_lane": 257,
+      "rank": 4,
+      "obs": null,
+      "team": "BRA"
+    },
+    {
+      "race_number": "18",
+      "starting_lane": 258,
+      "rank": 5,
+      "obs": null,
+      "team": "NOR"
+    },
+    {
+      "race_number": "18",
+      "starting_lane": 282,
+      "rank": null,
+      "obs": "DNS",
+      "team": "HUN"
+    },
+    {
+      "race_number": "20",
+      "starting_lane": 274,
+      "rank": 1,
+      "obs": null,
+      "team": "ESP"
+    },
+    {
+      "race_number": "20",
+      "starting_lane": 273,
+      "rank": 2,
+      "obs": null,
+      "team": "FRA"
+    },
+    {
+      "race_number": "20",
+      "starting_lane": 275,
+      "rank": 3,
+      "obs": null,
+      "team": "SWE"
+    },
+    {
+      "race_number": "20",
+      "starting_lane": 271,
+      "rank": 4,
+      "obs": null,
+      "team": "CZE"
+    },
+    {
+      "race_number": "20",
+      "starting_lane": 270,
+      "rank": 5,
+      "obs": null,
+      "team": "AUS"
+    },
+    {
+      "race_number": "20",
+      "starting_lane": 272,
+      "rank": null,
+      "obs": "DNS",
+      "team": "DEN"
     }
   ],
   "sources": [
@@ -5722,28 +9584,68 @@
       "path": "/workspace/race-desk/scratch_t73/spotfokus/files/Results-Results.pdf",
       "url": "https://memosoft.spotfokus.com/timetable//uploads/XML_Provas/2024/120/pdf/Results/Results.pdf",
       "sha256": "741caba4ec9a199fa60d9c19b54d64f538adf3cc5bf6b4a9cfdd27a91f16d565"
+    },
+    {
+      "path": "/workspace/race-desk/scratch_t73/spotfokus/files/7.pdf",
+      "url": "https://memosoft.spotfokus.com/timetable//uploads/XML_Provas/2024/120/pdf/7.pdf",
+      "sha256": "02241b8e452757be21398030fb6f5294c9c0e5c0f0b6e7f71826f2bec6fe845f"
+    },
+    {
+      "path": "/workspace/race-desk/scratch_t73/spotfokus/files/8.pdf",
+      "url": "https://memosoft.spotfokus.com/timetable//uploads/XML_Provas/2024/120/pdf/8.pdf",
+      "sha256": "f13270c53264776dae681e09bec45e7079b1bb0e89ac57a1b97585d2d60328c8"
+    },
+    {
+      "path": "/workspace/race-desk/scratch_t73/spotfokus/files/9.pdf",
+      "url": "https://memosoft.spotfokus.com/timetable//uploads/XML_Provas/2024/120/pdf/9.pdf",
+      "sha256": "9dd9c05b7941ae9b44c345905ee944e94419774d9565468bad72fb22e14bd5a2"
+    },
+    {
+      "path": "/workspace/race-desk/scratch_t73/spotfokus/files/10.pdf",
+      "url": "https://memosoft.spotfokus.com/timetable//uploads/XML_Provas/2024/120/pdf/10.pdf",
+      "sha256": "a5fbebcdb5baf83ea6fa88831f9a1e476d42b7e3b911d946ba14b80a8e7b4cb0"
+    },
+    {
+      "path": "/workspace/race-desk/scratch_t73/spotfokus/files/11.pdf",
+      "url": "https://memosoft.spotfokus.com/timetable//uploads/XML_Provas/2024/120/pdf/11.pdf",
+      "sha256": "dbc737c6826ead413c92724e8ab1769e95b1e4797ae47d47351a2059aa37797a"
+    },
+    {
+      "path": "/workspace/race-desk/scratch_t73/spotfokus/files/12.pdf",
+      "url": "https://memosoft.spotfokus.com/timetable//uploads/XML_Provas/2024/120/pdf/12.pdf",
+      "sha256": "d4d7e4e51f25e26d21a10bfa1d78e00d89eb5193d5c1be97629616a7c7850d94"
+    },
+    {
+      "path": "/workspace/race-desk/scratch_t73/spotfokus/files/18.pdf",
+      "url": "https://memosoft.spotfokus.com/timetable//uploads/XML_Provas/2024/120/pdf/18.pdf",
+      "sha256": "54df4de1b2b7bdd495100afc293bc0f36e716b65ad78002f401a40e3a8be8c78"
+    },
+    {
+      "path": "/workspace/race-desk/scratch_t73/spotfokus/files/20.pdf",
+      "url": "https://memosoft.spotfokus.com/timetable//uploads/XML_Provas/2024/120/pdf/20.pdf",
+      "sha256": "6a86d694449d77b6d93480a464f7f369a53003d52e723313f247ab9bc21cc2f4"
     }
   ],
   "sheets": {
     "RESULTS": {
       "name": "RESULTS 120",
-      "rows": 238
+      "rows": 375
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 226
+      "rows": 360
     }
   },
   "sheet": "Madeira_2024_COR_Results.xlsx",
   "format": "marathon_RESULTS_PERSONS",
   "output_xlsx": "Madeira_2024_COR_Results.xlsx",
-  "output_xlsx_sha256": "fbb30516573fc0193e41a505c060bd7fe1c0e5e2cdb32df592ba9a21c675636d",
+  "output_xlsx_sha256": "b81fe87a72cc82d39287f004869163626294be3630b9b081b85e441343dda6c1",
   "files": [
     {
       "kind": "xlsx",
       "name": "Madeira_2024_COR_Results.xlsx",
-      "sha256": "fbb30516573fc0193e41a505c060bd7fe1c0e5e2cdb32df592ba9a21c675636d",
-      "bytes": 28632
+      "sha256": "b81fe87a72cc82d39287f004869163626294be3630b9b081b85e441343dda6c1",
+      "bytes": 41661
     }
   ],
   "checks": {
@@ -5781,7 +9683,15 @@
       "15": 11,
       "16": 15,
       "33": 18,
-      "34": 9
+      "34": 9,
+      "7": 21,
+      "8": 26,
+      "9": 23,
+      "10": 22,
+      "11": 21,
+      "12": 12,
+      "18": 6,
+      "20": 6
     }
   },
   "log_corrections": [
@@ -5900,9 +9810,49 @@
       "seat_changes": 0,
       "approval": "MAINTAINER_ANSWERS_2026-10-30.md t80s448 card answer (10:29 CET): \"Log 151218 as confirmed: same athlete, João Mateus Jesus Ornelas, printed under his middle name, with the gazette as evidence. Drop it from the gaps.\"",
       "at_utc": "2026-10-30T09:35:00Z"
+    },
+    {
+      "kind": "log",
+      "action": "races_added",
+      "races": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "18",
+        "20"
+      ],
+      "rows_added": 137,
+      "results_rows": "240-376",
+      "persons_added": 134,
+      "existing_rows_changed": 0,
+      "printed_field_counts": {
+        "7": 21,
+        "8": 26,
+        "9": 23,
+        "10": 22,
+        "11": 21,
+        "12": 12,
+        "18": 6,
+        "20": 6
+      },
+      "approval": "t113u + card answer t113s618 (2026-11-02): \"Add only the WCH-labelled races 7–12, 18 and 20 with PERSONS rows, and republish.\"",
+      "headers": {
+        "7": "04/10/2024 14:15 WCH Race 7 SS1 Master 40-44 Men 21,50 km 21",
+        "8": "04/10/2024 14:15 WCH Race 8 SS1 Master 45-49 Men 21,50 km 26",
+        "9": "04/10/2024 14:15 WCH Race 9 SS1 Master 50-54 Men 21,50 km 23",
+        "10": "04/10/2024 14:15 WCH Race 10 SS1 Master 55-59 Men 21,50 km 22",
+        "11": "04/10/2024 14:15 WCH Race 11 SS1 Master 60-64 Men 21,50 km 21",
+        "12": "04/10/2024 14:15 WCH Race 12 SS1 Master 65-69 Men 21,50 km 12",
+        "18": "04/10/2024 14:25 WCH Race 18 SS1 Master 40-44 Women 21,50 km 6",
+        "20": "04/10/2024 14:25 WCH Race 20 SS1 Master 50-54 Women 21,50 km 6"
+      },
+      "at_utc": "2026-11-02T22:40:28Z"
     }
   ],
-  "updated_at": "2026-10-30T09:32:55Z",
+  "updated_at": "2026-11-02T22:40:28Z",
   "ruled_binds": [
     {
       "icf_id": "151218",
@@ -5923,6 +9873,48 @@
       "ruling": "MAINTAINER_ANSWERS_2026-10-30.md t80s448 card answer",
       "evidence": "JORAM I Série n.º 98, 2 June 2026 (supplement), Resolução do Conselho do Governo Regional n.º 541/2026: \"Louva publicamente o atleta madeirense, João Mateus Jesus Ornelas, da Associação Náutica de Câmara de Lobos … 3.º lugar na 1.ª Etapa do ICF Ocean Racing World Cup 2026 … classe SS1\" — https://joram.madeira.gov.pt/joram/1serie/Ano%20de%202026/ISerie-098-2026-06-02sup.pdf",
       "corroboration": "CDP reports the same podium as \"Mateus Ornelas\", same club: https://www.cdp.pt/2026/05/04/atletas-portugueses-em-destaque-no-madeira-ocean-challenge-2026/"
+    }
+  ],
+  "namesake_rejected": [
+    {
+      "results_row": 315,
+      "bib": "456",
+      "printed": "Joao FERREIRA",
+      "printed_yob": "1969",
+      "printed_number": "151443",
+      "namesake": "162671",
+      "namesake_birth": "2010-06-16",
+      "namesake_noc": "POR"
+    },
+    {
+      "results_row": 327,
+      "bib": "467",
+      "printed": "Jose SILVA",
+      "printed_yob": "1965",
+      "printed_number": "151534",
+      "namesake": "36494",
+      "namesake_birth": "1977-12-20",
+      "namesake_noc": "VEN"
+    }
+  ],
+  "nation_change_log": [
+    {
+      "results_row": 320,
+      "id": "148990",
+      "printed": "Thierry PERSONNE",
+      "printed_noc": "SXM",
+      "icf_nationality": "FRA",
+      "icf_federation": "SXM",
+      "action": "printed NOC equals ICF-list federation; ICF nationality differs; id and printed nation kept"
+    },
+    {
+      "results_row": 343,
+      "id": "93319",
+      "printed": "Stuart KNAGGS",
+      "printed_noc": "SXM",
+      "icf_nationality": "RSA",
+      "icf_federation": "SXM",
+      "action": "printed NOC equals ICF-list federation; ICF nationality differs; id and printed nation kept"
     }
   ]
 }
