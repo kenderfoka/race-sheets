@@ -25,13 +25,13 @@
   "grade": "USABLE",
   "gaps": [
     "start_times scheduled HH:MM only; shared mass starts (4 clocks / 18 races)",
-    "171 athletes carry printed ids with no ICF/PWW profile (t77s412, t77s419 (2)); 54 in races 3-34 senior/U23/junior, 108 in masters races 7-12, 18, 20, 9 new in races 6 and 1"
+    "170 athletes carry printed ids with no ICF/PWW profile (t77s412, t77s419 (2)); 54 in races 3-34 senior/U23/junior, 107 in masters races 7-12, 18, 20 (bib 98 bound under t121s672), 9 new in races 6 and 1"
   ],
-  "generated_at_utc": "2026-11-03T13:28:39Z",
+  "generated_at_utc": "2026-11-03T13:39:08Z",
   "id_class_counts": {
-    "printed_no_profile": 171,
+    "printed_no_profile": 170,
     "icf_list_printed": 159,
-    "conflict_bound_icf_list": 42,
+    "conflict_bound_icf_list": 43,
     "printed_id_confirmed_ruling": 1
   },
   "id_checks": [
@@ -3542,12 +3542,17 @@
       "printed_number": "151286",
       "team": "BRA",
       "bib": "98",
-      "action": "printed_id_no_profile",
-      "source": "spotfokus_competitors_list",
-      "new_id": "151286",
-      "detail": "printed id, no ICF/PWW profile",
-      "tie_candidates": [],
-      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151286 = Page Not Found (fetched 2026-11-02)"
+      "action": "bound_icf_list_id_printed_conflicting",
+      "source": "maintainer_ruled_bind",
+      "new_id": "149349",
+      "evidence": "one-off maintainer-ruled bind, t121s672 card answer (2026-11-03 14:38 CET): \"Bind bib 98 to 149349 VAZ ZEFERINO as a one-off ruled bind.\"; only token-rule candidate in the ICF list and PWW search (\"Johnatha\", \"Johnatha Vaz\", \"Vaz Zeferino\"): 149349 Johnatha VAZ ZEFERINO, BRA, M, born 1983-01-19, federation BRA; printed Johnatha VAZ, BRA, 1983, BRA0016 (CompetitorsList-V2); compound surname (printed VAZ = first token of VAZ ZEFERINO), so ocean rule 3 (exact name) did not apply; printed 151286 has no PWW profile (Page Not Found, 2026-11-03); PWW profile 149349 BRA, no results listed",
+      "icf_list_name": "Johnatha VAZ ZEFERINO",
+      "pww_profile": {
+        "url": "https://paddleworldwide.com/athlete/149349",
+        "title": "Johnatha VAZ ZEFERINO",
+        "fetched": "2026-11-03",
+        "lists_madeira_2024": false
+      }
     },
     {
       "results_row": 249,
@@ -6160,6 +6165,16 @@
       "icf_list_name": "Marco GOMES",
       "rule": "exact normalised given+family name matches exactly one ICF-list athlete",
       "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t77s412; added under t121u (2026-11-03 14"
+    },
+    {
+      "bib": "98",
+      "printed_name": "Johnatha VAZ",
+      "printed_number": "151286",
+      "bound_icf_id": "149349",
+      "icf_list_name": "Johnatha VAZ ZEFERINO",
+      "rule": "one-off maintainer-ruled bind (compound surname; not ocean rule 3, which needs an exact name); applies to this seat only",
+      "ruling": "t121s672 card answer (2026-11-03 14:38 CET): \"Bind bib 98 to 149349 VAZ ZEFERINO as a one-off ruled bind.\"",
+      "evidence": "only token-rule candidate in the ICF list and PWW search (\"Johnatha\", \"Johnatha Vaz\", \"Vaz Zeferino\"): 149349 Johnatha VAZ ZEFERINO, BRA, M, born 1983-01-19, federation BRA; printed Johnatha VAZ, BRA, 1983, BRA0016 (CompetitorsList-V2); compound surname (printed VAZ = first token of VAZ ZEFERINO), so ocean rule 3 (exact name) did not apply; printed 151286 has no PWW profile (Page Not Found, 2026-11-03); PWW profile 149349 BRA, no results listed"
     }
   ],
   "printed_id_no_profile": [
@@ -6521,12 +6536,6 @@
       "bib": "387",
       "printed_name": "Tiago SOBRAL",
       "printed_id": "151506",
-      "tie_candidates": []
-    },
-    {
-      "bib": "98",
-      "printed_name": "Johnatha VAZ",
-      "printed_id": "151286",
       "tie_candidates": []
     },
     {
@@ -10077,13 +10086,13 @@
   "sheet": "Madeira_2024_COR_Results.xlsx",
   "format": "marathon_RESULTS_PERSONS",
   "output_xlsx": "Madeira_2024_COR_Results.xlsx",
-  "output_xlsx_sha256": "6f31db016ade728ab2aa9dd29442c19708d03176118f44a615d7a3e0a84ac9b5",
+  "output_xlsx_sha256": "8fabc56463b365f87f110a7604fed5dca90be4b38db51bc4ec49db33ec7bbc15",
   "files": [
     {
       "kind": "xlsx",
       "name": "Madeira_2024_COR_Results.xlsx",
-      "sha256": "6f31db016ade728ab2aa9dd29442c19708d03176118f44a615d7a3e0a84ac9b5",
-      "bytes": 43033
+      "sha256": "8fabc56463b365f87f110a7604fed5dca90be4b38db51bc4ec49db33ec7bbc15",
+      "bytes": 43022
     }
   ],
   "checks": {
@@ -10359,9 +10368,22 @@
         "1": "04/10/2024 14:00 WCup Race 1 OC1 21,50 km 4"
       },
       "at_utc": "2026-11-03T13:28:39Z"
+    },
+    {
+      "kind": "log",
+      "action": "ruled_bind",
+      "bib": "98",
+      "results_row": 248,
+      "persons_row": 356,
+      "old_id": "151286",
+      "new_id": "149349",
+      "persons_spelling": "printed (Johnatha VAZ) kept",
+      "seat_changes": 1,
+      "approval": "t121s672 card answer (2026-11-03 14:38 CET): \"Bind bib 98 to 149349 VAZ ZEFERINO as a one-off ruled bind.\"",
+      "at_utc": "2026-11-03T13:39:08Z"
     }
   ],
-  "updated_at": "2026-11-03T13:28:39Z",
+  "updated_at": "2026-11-03T13:39:08Z",
   "ruled_binds": [
     {
       "icf_id": "151218",
@@ -10382,6 +10404,16 @@
       "ruling": "MAINTAINER_ANSWERS_2026-10-30.md t80s448 card answer",
       "evidence": "JORAM I Série n.º 98, 2 June 2026 (supplement), Resolução do Conselho do Governo Regional n.º 541/2026: \"Louva publicamente o atleta madeirense, João Mateus Jesus Ornelas, da Associação Náutica de Câmara de Lobos … 3.º lugar na 1.ª Etapa do ICF Ocean Racing World Cup 2026 … classe SS1\" — https://joram.madeira.gov.pt/joram/1serie/Ano%20de%202026/ISerie-098-2026-06-02sup.pdf",
       "corroboration": "CDP reports the same podium as \"Mateus Ornelas\", same club: https://www.cdp.pt/2026/05/04/atletas-portugueses-em-destaque-no-madeira-ocean-challenge-2026/"
+    },
+    {
+      "icf_id": "149349",
+      "results_row": 248,
+      "seat": "ICF_ID1",
+      "printed": "Johnatha VAZ",
+      "icf_name": "Johnatha VAZ ZEFERINO",
+      "printed_number": "151286",
+      "ruling": "t121s672 card answer (2026-11-03 14:38 CET): \"Bind bib 98 to 149349 VAZ ZEFERINO as a one-off ruled bind.\"",
+      "evidence": "only token-rule candidate in the ICF list and PWW search (\"Johnatha\", \"Johnatha Vaz\", \"Vaz Zeferino\"): 149349 Johnatha VAZ ZEFERINO, BRA, M, born 1983-01-19, federation BRA; printed Johnatha VAZ, BRA, 1983, BRA0016 (CompetitorsList-V2); compound surname (printed VAZ = first token of VAZ ZEFERINO), so ocean rule 3 (exact name) did not apply; printed 151286 has no PWW profile (Page Not Found, 2026-11-03); PWW profile 149349 BRA, no results listed"
     }
   ],
   "namesake_rejected": [
