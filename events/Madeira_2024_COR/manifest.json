@@ -14,23 +14,24 @@
   "start_times": "scheduled",
   "notes": [
     "discipline \"ocean racing\" and domain \"flatwater_ocean\": PADDLETAGGER_CONTRACT.md line 13 and \"Maintainer 2026-10-30: Canoe ocean racing\" (approved t78u / t78s428 answer; value \"ocean racing\" per t79u / t79s438 answer, MAINTAINER_ANSWERS_2026-10-30.md)",
-    "Scope: WCH races 3,4,5,14,15,16,33,34 (maintainer t75u 4) + WCH-labelled SS1 Masters races 7,8,9,10,11,12,18,20 of 4 October (t113u + card answer t113s618 (2026-11-02): \"Add only the WCH-labelled races 7–12, 18 and 20 with PERSONS rows, and republish.\"); WCup-labelled masters races 6,13,17,19,21,22, race 1 OC1 and 5 October races not included",
-    "START_TIME = scheduled HH:MM printed in race headers; one mass start shared by several races (14:15 SS1 men; 14:25 SS1 women; 05/10 14:15 SS2)",
+    "Scope: WCH races 3,4,5,14,15,16,33,34 (maintainer t75u 4) + WCH-labelled SS1 Masters races 7,8,9,10,11,12,18,20 of 4 October (t113u + card answer t113s618 (2026-11-02): \"Add only the WCH-labelled races 7–12, 18 and 20 with PERSONS rows, and republish.\"); + WCup-labelled race 6 (SS1 Master 35-39 Men) and race 1 (OC1) of 4 October (t121u (2026-11-03 14:25 CET): \"Madeira_2024_COR, pull request #5: please add two more races of 4 October with their PERSONS rows: race 6, SS1 Master 35-39 Men (14:15, 11 boats), and race 1, OC1 (14:00, 4 boats).\"); WCup-labelled masters races 13,17,19,21,22 and 5 October races not included",
+    "START_TIME = scheduled HH:MM printed in race headers; one mass start shared by several races (14:00 OC1; 14:15 SS1 men; 14:25 SS1 women; 05/10 14:15 SS2)",
     "BIB_BOAT and STARTING_LANE = printed Boat Number/Bib (event bib, not an ICF id; maintainer t76u). PDF \"Lane\" running number not used.",
     "GENDER X = SS2 Mix crews (approved t75u 1); PERSONS GENDER from CompetitorsList Men/Women headings",
     "RESULT = printed final time; DIFFERENCE not written (marathon precedent)",
-    "Masters races 7-12, 18, 20: CATEGORY written as published in the race header (\"SS1 Master 40-44 Men\" -> MASTER 40-44); sheet-only exception to the contract ocean CATEGORY list (SENIOR | U23 | JUNIOR), see category_exception; ruling t114u (2026-11-02): \"Add the Master categories as an exception only for this sheet.\""
+    "Masters races 7-12, 18, 20: CATEGORY written as published in the race header (\"SS1 Master 40-44 Men\" -> MASTER 40-44); sheet-only exception to the contract ocean CATEGORY list (SENIOR | U23 | JUNIOR), see category_exception; ruling t114u (2026-11-02): \"Add the Master categories as an exception only for this sheet.\"",
+    "Race 1 OC1 (t121u): EVENT OC1 (the contract ocean EVENT value reserved for OC1); the header prints no class or gender, so CATEGORY SENIOR (open class, no age band printed; the contract ocean CATEGORY list has no other fitting value) and GENDER M (all 4 athletes under the CompetitorsList Men heading). Question on the pull request."
   ],
   "grade": "USABLE",
   "gaps": [
-    "start_times scheduled HH:MM only; shared mass starts (3 clocks / 16 races)",
-    "162 athletes carry printed ids with no ICF/PWW profile (t77s412, t77s419 (2)); 54 in races 3-34 senior/U23/junior, 108 in the added masters races"
+    "start_times scheduled HH:MM only; shared mass starts (4 clocks / 18 races)",
+    "171 athletes carry printed ids with no ICF/PWW profile (t77s412, t77s419 (2)); 54 in races 3-34 senior/U23/junior, 108 in masters races 7-12, 18, 20, 9 new in races 6 and 1"
   ],
-  "generated_at_utc": "2026-11-02T22:40:28Z",
+  "generated_at_utc": "2026-11-03T13:28:39Z",
   "id_class_counts": {
-    "printed_no_profile": 162,
-    "icf_list_printed": 157,
-    "conflict_bound_icf_list": 40,
+    "printed_no_profile": 171,
+    "icf_list_printed": 159,
+    "conflict_bound_icf_list": 42,
     "printed_id_confirmed_ruling": 1
   },
   "id_checks": [
@@ -5534,6 +5535,251 @@
       "detail": "printed id, no ICF/PWW profile",
       "tie_candidates": [],
       "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151299 = Page Not Found (fetched 2026-11-02)"
+    },
+    {
+      "results_row": 377,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Joao SANTOS",
+      "printed_number": "151448",
+      "team": "POR",
+      "bib": "89",
+      "action": "bound_icf_list_id_printed_conflicting",
+      "source": "icf_list_exact_name",
+      "new_id": "100856",
+      "icf_list_name": "Joao SANTOS",
+      "evidence": "PADDLETAGGER_CONTRACT.md ocean ICF ids rule 3 (t77s412); NOC, gender and birth year agree with ICF list (1986-03-28)",
+      "pww_profile": {
+        "url": "https://paddleworldwide.com/athlete/100856",
+        "title": "Joao SANTOS",
+        "fetched": "2026-11-03",
+        "lists_madeira_2024": false
+      }
+    },
+    {
+      "results_row": 378,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Tiago OLIVEIRA",
+      "printed_number": "126298",
+      "team": "UAE",
+      "bib": "97",
+      "action": "printed_id_confirmed",
+      "source": "spotfokus_competitors_list",
+      "new_id": "126298",
+      "icf_list_name": "Tiago Afonso RIBEIRO DE OLIVEIRA",
+      "pww_profile": {
+        "url": "https://paddleworldwide.com/athlete/126298",
+        "title": "Tiago Afonso RIBEIRO DE OLIVEIRA",
+        "fetched": "2026-11-03",
+        "lists_madeira_2024": false
+      },
+      "checks": {
+        "name": "token rule pass",
+        "noc": "ICF list nationality POR, federation UAE; printed UAE",
+        "gender": "pass",
+        "birth_year": "pass"
+      }
+    },
+    {
+      "results_row": 379,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Marco GOMES",
+      "printed_number": "151466",
+      "team": "POR",
+      "bib": "90",
+      "action": "bound_icf_list_id_printed_conflicting",
+      "source": "icf_list_exact_name",
+      "new_id": "83375",
+      "icf_list_name": "Marco GOMES",
+      "evidence": "PADDLETAGGER_CONTRACT.md ocean ICF ids rule 3 (t77s412); NOC, gender and birth year agree with ICF list (1985-04-25)",
+      "pww_profile": {
+        "url": "https://paddleworldwide.com/athlete/83375",
+        "title": "Marco GOMES",
+        "fetched": "2026-11-03",
+        "lists_madeira_2024": false
+      }
+    },
+    {
+      "results_row": 380,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Pedro MENDES",
+      "printed_number": "151490",
+      "team": "POR",
+      "bib": "91",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151490",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151490 = Page Not Found (fetched 2026-11-03)"
+    },
+    {
+      "results_row": 381,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Andre PINTO",
+      "printed_number": "151393",
+      "team": "POR",
+      "bib": "86",
+      "action": "printed_id_no_profile",
+      "source": "same-meeting bind (Gate 4): this printed name + NOC + bib already bound on this sheet",
+      "new_id": "151393",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": []
+    },
+    {
+      "results_row": 382,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Mario GARCIA",
+      "printed_number": "151329",
+      "team": "ESP",
+      "bib": "95",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151329",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151329 = Page Not Found (fetched 2026-11-03)"
+    },
+    {
+      "results_row": 383,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Alvise POLESELLO",
+      "printed_number": "151375",
+      "team": "ITA",
+      "bib": "85",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151375",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151375 = Page Not Found (fetched 2026-11-03)"
+    },
+    {
+      "results_row": 384,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Aleksandrs ZIGALOVS",
+      "printed_number": "147861",
+      "team": "UAE",
+      "bib": "96",
+      "action": "printed_id_confirmed",
+      "source": "spotfokus_competitors_list",
+      "new_id": "147861",
+      "icf_list_name": "Aleksandrs ZIGALOVS",
+      "pww_profile": {
+        "url": "https://paddleworldwide.com/athlete/147861",
+        "title": "Aleksandrs ZIGALOVS",
+        "fetched": "2026-11-03",
+        "lists_madeira_2024": false
+      },
+      "checks": {
+        "name": "token rule pass",
+        "noc": "ICF list nationality GBR, federation UAE; printed UAE",
+        "gender": "pass",
+        "birth_year": "pass"
+      }
+    },
+    {
+      "results_row": 385,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Igor CARVALHO",
+      "printed_number": "151285",
+      "team": "BRA",
+      "bib": "84",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151285",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151285 = Page Not Found (fetched 2026-11-03)"
+    },
+    {
+      "results_row": 386,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Eduardo PALMERO",
+      "printed_number": "151310",
+      "team": "ESP",
+      "bib": "93",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151310",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151310 = Page Not Found (fetched 2026-11-03)"
+    },
+    {
+      "results_row": 387,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Fabio MENESES",
+      "printed_number": "151423",
+      "team": "POR",
+      "bib": "88",
+      "action": "printed_id_no_profile",
+      "source": "same-meeting bind (Gate 4): this printed name + NOC + bib already bound on this sheet",
+      "new_id": "151423",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": []
+    },
+    {
+      "results_row": 388,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Jesus PEREZ",
+      "printed_number": "151316",
+      "team": "ESP",
+      "bib": "180",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151316",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [
+        "36091"
+      ],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151316 = Page Not Found (fetched 2026-11-03)",
+      "tie_note": "single ICF-list namesake 36091 Jesus PEREZ ESP born 1991-12-08 rejected: printed birth year 1976; not the same athlete, printed number kept (question on the pull request)"
+    },
+    {
+      "results_row": 389,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Pedro FRAZAO",
+      "printed_number": "151489",
+      "team": "POR",
+      "bib": "157",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151489",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151489 = Page Not Found (fetched 2026-11-03)"
+    },
+    {
+      "results_row": 390,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Antonio RODRIGUES",
+      "printed_number": "151398",
+      "team": "POR",
+      "bib": "135",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151398",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151398 = Page Not Found (fetched 2026-11-03)"
+    },
+    {
+      "results_row": 391,
+      "seat": "ICF_ID1",
+      "source_printed_name": "Andre SILVA",
+      "printed_number": "151394",
+      "team": "POR",
+      "bib": "134",
+      "action": "printed_id_no_profile",
+      "source": "spotfokus_competitors_list",
+      "new_id": "151394",
+      "detail": "printed id, no ICF/PWW profile",
+      "tie_candidates": [
+        "129695",
+        "87190"
+      ],
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t75u(3)/t77s412; PWW https://paddleworldwide.com/athlete/151394 = Page Not Found (fetched 2026-11-03)",
+      "tie_note": "several distinct ICF ids for one name (129695 born 2006-06-16, 87190 born 2000-05-11); not unique, printed number kept"
     }
   ],
   "id_conflicts": [
@@ -5896,6 +6142,24 @@
       "icf_list_name": "Raquel ARCEDIANO",
       "rule": "exact normalised given+family name matches exactly one ICF-list athlete",
       "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t77s412; added under t113u + card answer t113s618 (2026-11-02): \"Add only the WCH-labelled races 7–12, 18 and 20 with PERSONS rows, and republish.\""
+    },
+    {
+      "bib": "89",
+      "printed_name": "Joao SANTOS",
+      "printed_number": "151448",
+      "bound_icf_id": "100856",
+      "icf_list_name": "Joao SANTOS",
+      "rule": "exact normalised given+family name matches exactly one ICF-list athlete",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t77s412; added under t121u (2026-11-03 14"
+    },
+    {
+      "bib": "90",
+      "printed_name": "Marco GOMES",
+      "printed_number": "151466",
+      "bound_icf_id": "83375",
+      "icf_list_name": "Marco GOMES",
+      "rule": "exact normalised given+family name matches exactly one ICF-list athlete",
+      "evidence": "MAINTAINER_ANSWERS_2026-10-29.md t77s412; added under t121u (2026-11-03 14"
     }
   ],
   "printed_id_no_profile": [
@@ -6877,6 +7141,65 @@
       "printed_name": "Jette BAELUM",
       "printed_id": "151299",
       "tie_candidates": []
+    },
+    {
+      "bib": "91",
+      "printed_name": "Pedro MENDES",
+      "printed_id": "151490",
+      "tie_candidates": []
+    },
+    {
+      "bib": "95",
+      "printed_name": "Mario GARCIA",
+      "printed_id": "151329",
+      "tie_candidates": []
+    },
+    {
+      "bib": "85",
+      "printed_name": "Alvise POLESELLO",
+      "printed_id": "151375",
+      "tie_candidates": []
+    },
+    {
+      "bib": "84",
+      "printed_name": "Igor CARVALHO",
+      "printed_id": "151285",
+      "tie_candidates": []
+    },
+    {
+      "bib": "93",
+      "printed_name": "Eduardo PALMERO",
+      "printed_id": "151310",
+      "tie_candidates": []
+    },
+    {
+      "bib": "180",
+      "printed_name": "Jesus PEREZ",
+      "printed_id": "151316",
+      "tie_candidates": [
+        "36091"
+      ]
+    },
+    {
+      "bib": "157",
+      "printed_name": "Pedro FRAZAO",
+      "printed_id": "151489",
+      "tie_candidates": []
+    },
+    {
+      "bib": "135",
+      "printed_name": "Antonio RODRIGUES",
+      "printed_id": "151398",
+      "tie_candidates": []
+    },
+    {
+      "bib": "134",
+      "printed_name": "Andre SILVA",
+      "printed_id": "151394",
+      "tie_candidates": [
+        "129695",
+        "87190"
+      ]
     }
   ],
   "team_missing": [],
@@ -9527,6 +9850,111 @@
       "rank": null,
       "obs": "DNS",
       "team": "DEN"
+    },
+    {
+      "race_number": "6",
+      "starting_lane": 89,
+      "rank": 1,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "6",
+      "starting_lane": 97,
+      "rank": 2,
+      "obs": null,
+      "team": "UAE"
+    },
+    {
+      "race_number": "6",
+      "starting_lane": 90,
+      "rank": 3,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "6",
+      "starting_lane": 91,
+      "rank": 4,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "6",
+      "starting_lane": 86,
+      "rank": 5,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "6",
+      "starting_lane": 95,
+      "rank": 6,
+      "obs": null,
+      "team": "ESP"
+    },
+    {
+      "race_number": "6",
+      "starting_lane": 85,
+      "rank": 7,
+      "obs": null,
+      "team": "ITA"
+    },
+    {
+      "race_number": "6",
+      "starting_lane": 96,
+      "rank": 8,
+      "obs": null,
+      "team": "UAE"
+    },
+    {
+      "race_number": "6",
+      "starting_lane": 84,
+      "rank": 9,
+      "obs": null,
+      "team": "BRA"
+    },
+    {
+      "race_number": "6",
+      "starting_lane": 93,
+      "rank": 10,
+      "obs": null,
+      "team": "ESP"
+    },
+    {
+      "race_number": "6",
+      "starting_lane": 88,
+      "rank": null,
+      "obs": "DNS",
+      "team": "POR"
+    },
+    {
+      "race_number": "1",
+      "starting_lane": 180,
+      "rank": 1,
+      "obs": null,
+      "team": "ESP"
+    },
+    {
+      "race_number": "1",
+      "starting_lane": 157,
+      "rank": 2,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "1",
+      "starting_lane": 135,
+      "rank": 3,
+      "obs": null,
+      "team": "POR"
+    },
+    {
+      "race_number": "1",
+      "starting_lane": 134,
+      "rank": 4,
+      "obs": null,
+      "team": "POR"
     }
   ],
   "sources": [
@@ -9624,28 +10052,38 @@
       "path": "/workspace/race-desk/scratch_t73/spotfokus/files/20.pdf",
       "url": "https://memosoft.spotfokus.com/timetable//uploads/XML_Provas/2024/120/pdf/20.pdf",
       "sha256": "6a86d694449d77b6d93480a464f7f369a53003d52e723313f247ab9bc21cc2f4"
+    },
+    {
+      "path": "/workspace/race-desk/scratch_t73/spotfokus/files/6.pdf",
+      "url": "https://memosoft.spotfokus.com/timetable//uploads/XML_Provas/2024/120/pdf/6.pdf",
+      "sha256": "2b5724fe92e9e4112ea10c351237b93f04aafbeb9380c7b2b55760db6d73c6e3"
+    },
+    {
+      "path": "/workspace/race-desk/scratch_t73/spotfokus/files/1.pdf",
+      "url": "https://memosoft.spotfokus.com/timetable//uploads/XML_Provas/2024/120/pdf/1.pdf",
+      "sha256": "c0a0cae31fbea52a12f0908d962d6c38582e89041fe4893e9569ba4c91af6eaa"
     }
   ],
   "sheets": {
     "RESULTS": {
       "name": "RESULTS 120",
-      "rows": 375
+      "rows": 390
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 360
+      "rows": 373
     }
   },
   "sheet": "Madeira_2024_COR_Results.xlsx",
   "format": "marathon_RESULTS_PERSONS",
   "output_xlsx": "Madeira_2024_COR_Results.xlsx",
-  "output_xlsx_sha256": "b81fe87a72cc82d39287f004869163626294be3630b9b081b85e441343dda6c1",
+  "output_xlsx_sha256": "6f31db016ade728ab2aa9dd29442c19708d03176118f44a615d7a3e0a84ac9b5",
   "files": [
     {
       "kind": "xlsx",
       "name": "Madeira_2024_COR_Results.xlsx",
-      "sha256": "b81fe87a72cc82d39287f004869163626294be3630b9b081b85e441343dda6c1",
-      "bytes": 41661
+      "sha256": "6f31db016ade728ab2aa9dd29442c19708d03176118f44a615d7a3e0a84ac9b5",
+      "bytes": 43033
     }
   ],
   "checks": {
@@ -9691,7 +10129,9 @@
       "11": 21,
       "12": 12,
       "18": 6,
-      "20": 6
+      "20": 6,
+      "6": 11,
+      "1": 4
     }
   },
   "log_corrections": [
@@ -9886,9 +10326,42 @@
       "result": "no bind; printed numbers 151443 and 151534 kept",
       "approval": "t114u (2026-11-02): \"Research 456 and 467\"",
       "at_utc": "2026-11-02T22:51:12Z"
+    },
+    {
+      "kind": "log",
+      "action": "races_added",
+      "races": [
+        "6",
+        "1"
+      ],
+      "rows_added": 15,
+      "results_rows": "377-391",
+      "persons_added": 13,
+      "existing_rows_changed": 0,
+      "printed_field_counts": {
+        "6": 11,
+        "1": 4
+      },
+      "photo_bibs_present": {
+        "6": [
+          "95",
+          "85",
+          "90",
+          "86"
+        ],
+        "1": [
+          "180"
+        ]
+      },
+      "approval": "t121u (2026-11-03 14:25 CET): \"Madeira_2024_COR, pull request #5: please add two more races of 4 October with their PERSONS rows: race 6, SS1 Master 35-39 Men (14:15, 11 boats), and race 1, OC1 (14:00, 4 boats).\"",
+      "headers": {
+        "6": "04/10/2024 14:15 WCup Race 6 SS1 Master 35-39 Men 21,50 km 11",
+        "1": "04/10/2024 14:00 WCup Race 1 OC1 21,50 km 4"
+      },
+      "at_utc": "2026-11-03T13:28:39Z"
     }
   ],
-  "updated_at": "2026-11-02T22:40:28Z",
+  "updated_at": "2026-11-03T13:28:39Z",
   "ruled_binds": [
     {
       "icf_id": "151218",
@@ -9955,6 +10428,24 @@
       ],
       "finding": "nation agrees (VEN) but birth year 1977 vs printed 1965 and results are slalom only; no evidence of the same person",
       "decision": "not bound; printed number 151534 kept (rule 4, printed_id_no_profile)"
+    },
+    {
+      "results_row": 388,
+      "bib": "180",
+      "printed": "Jesus PEREZ",
+      "printed_yob": "1976",
+      "printed_number": "151316",
+      "namesake": "36091",
+      "namesake_birth": "1991-12-08",
+      "namesake_noc": "ESP",
+      "sources": [
+        "CompetitorsList-V2: 151316 180 Jesus PEREZ 1976 OC1",
+        "race 1 PDF: Jesus PEREZ 1976 rank 1 02:11:30.380",
+        "paddleworldwide.com/athlete/151316: no profile (Page Not Found)",
+        "paddleworldwide.com/athlete/36091: profile ESP, 22 distinct results, canoe slalom C2 / wildwater C2 Men 2013-2017; no ocean result"
+      ],
+      "finding": "nation and gender agree; birth year 1991 vs printed 1976 and slalom/wildwater-only results",
+      "decision": "not bound; printed number kept (rule 4, printed_id_no_profile)"
     }
   ],
   "nation_change_log": [
@@ -9975,12 +10466,31 @@
       "icf_nationality": "RSA",
       "icf_federation": "SXM",
       "action": "printed NOC equals ICF-list federation; ICF nationality differs; id and printed nation kept"
+    },
+    {
+      "results_row": 378,
+      "id": "126298",
+      "printed": "Tiago OLIVEIRA",
+      "printed_noc": "UAE",
+      "icf_nationality": "POR",
+      "icf_federation": "UAE",
+      "action": "printed NOC equals ICF-list federation; ICF nationality differs; id and printed nation kept"
+    },
+    {
+      "results_row": 384,
+      "id": "147861",
+      "printed": "Aleksandrs ZIGALOVS",
+      "printed_noc": "UAE",
+      "icf_nationality": "GBR",
+      "icf_federation": "UAE",
+      "action": "printed NOC equals ICF-list federation; ICF nationality differs; id and printed nation kept"
     }
   ],
   "category_exception": {
     "scope": "Madeira_2024_COR only (this sheet); not a contract, skill or rule change",
     "column": "RESULTS CATEGORY",
     "values": [
+      "MASTER 35-39",
       "MASTER 40-44",
       "MASTER 45-49",
       "MASTER 50-54",
@@ -9989,6 +10499,7 @@
       "MASTER 65-69"
     ],
     "races": [
+      "6",
       "7",
       "8",
       "9",
@@ -9998,8 +10509,9 @@
       "18",
       "20"
     ],
-    "rows": "RESULTS 240-376",
+    "rows": "RESULTS 240-376 (t114u) and 377-387 (race 6, t121u)",
     "counts": {
+      "MASTER 35-39": 11,
       "MASTER 40-44": 27,
       "MASTER 45-49": 26,
       "MASTER 50-54": 29,
@@ -10009,6 +10521,9 @@
     },
     "contract_list": "SENIOR | U23 | JUNIOR (unchanged for every other sheet)",
     "source": "race header as published, e.g. \"SS1 Master 40-44 Men\" -> MASTER 40-44",
-    "ruling": "t114u (2026-11-02): \"Add the Master categories as an exception only for this sheet.\""
+    "ruling": [
+      "t114u (2026-11-02): \"Add the Master categories as an exception only for this sheet.\"",
+      "t121u (2026-11-03 14:25 CET): \"Madeira_2024_COR, pull request #5: please add two more races of 4 October with their PERSONS rows: race 6, SS1 Master 35-39 Men (14:15, 11 boats), and race 1, OC1 (14:00, 4 boats).\" (extends the t114u exception to MASTER 35-39)"
+    ]
   }
 }
