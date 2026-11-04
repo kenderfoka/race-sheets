@@ -11,7 +11,7 @@
   "dates": "2019-05-23/2019-05-26",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-27T20:20:23Z",
+  "generated_at_utc": "2026-11-04T20:27:45Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "IMAS race pages print the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule).",
@@ -3072,7 +3072,7 @@
     {
       "race_number": "58",
       "starting_lane": 4,
-      "rank": 7,
+      "rank": 8,
       "obs": "",
       "team": "GBR"
     },
@@ -39941,6 +39941,13 @@
     {
       "path": "imas-sources/Poznan_2019_WC/race_99.html",
       "sha256": "ef2bdc30cbf3a135a0af42596ea523f11e24def7851bb1d108ef3ce4456f4cd3"
+    },
+    {
+      "path": "github-release:kenderfoka/race-desk@startlists-2026-11-04/startlists_2026-11-04.zip:sprint/World_Cups/2019_icf_canoe_sprint_world_cup_1_poznan_-_full_results.pdf",
+      "sha256": "d70a9791ee1ba0d1f66a7969b597cb3cc60a881e1ab0f6044ab4406b44369af9",
+      "bytes": 4619174,
+      "host": "github release (not in VENDOR_MAP; RU221 new source)",
+      "ruling": "t122u"
     }
   ],
   "sheets": {
@@ -40003,12 +40010,12 @@
     {
       "kind": "xlsx",
       "name": "Poznan_2019_WC_Results.xlsx",
-      "sha256": "8bdd9b3fc4bf5d662dda1c2dc09230f8816c40de5a2c795b283110fcf8877012",
-      "bytes": 143532
+      "sha256": "d6b713bee822bf9eca34c95ba318d08a5b4aa4b7f4117dcf1eaaa7af8e33f7cd",
+      "bytes": 143535
     }
   ],
   "output_xlsx": "Poznan_2019_WC_Results.xlsx",
-  "output_xlsx_sha256": "8bdd9b3fc4bf5d662dda1c2dc09230f8816c40de5a2c795b283110fcf8877012",
+  "output_xlsx_sha256": "d6b713bee822bf9eca34c95ba318d08a5b4aa4b7f4117dcf1eaaa7af8e33f7cd",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -40052,7 +40059,7 @@
     "no_icf_id_t59": 96,
     "same_meeting_unified_t59": 0
   },
-  "updated_at": "2026-10-27T20:20:23Z",
+  "updated_at": "2026-11-04T20:27:45Z",
   "name_change_log": [
     {
       "results_row": 338,
@@ -40904,6 +40911,24 @@
         "nationality": "SRB",
         "federation": "SRB",
         "gender": "W"
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:45Z",
+      "kind": "cell_patch",
+      "results_row": 426,
+      "race": "58",
+      "lane": 4,
+      "team": "GBR",
+      "field": "RANK",
+      "previous": 7,
+      "new": 8,
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2019_icf_canoe_sprint_world_cup_1_poznan_-_full_results.pdf (sha256 d70a9791ee1ba0d1f66a7969b597cb3cc60a881e1ab0f6044ab4406b44369af9)",
+      "evidence": "sprint/World_Cups/2019_icf_canoe_sprint_world_cup_1_poznan_-_full_results.pdf: K1 M 1000 - Heat 4, Race 58 17:08 23/MAY/2019 prints '8  4  GBR Charles SMITH ... 2:45.93 (6) 3:45.115' (Rank 7 is Lane 5 SVK 3:42.911)",
+      "rank_oracle_previous": {
+        "rank": 7,
+        "obs": ""
       }
     }
   ],
