@@ -20,12 +20,13 @@
     "GENDER X = SS2 Mix crews (approved t75u 1); PERSONS GENDER from CompetitorsList Men/Women headings",
     "RESULT = printed final time; DIFFERENCE not written (marathon precedent)",
     "Masters races 7-12, 18, 20: CATEGORY written as published in the race header (\"SS1 Master 40-44 Men\" -> MASTER 40-44); sheet-only exception to the contract ocean CATEGORY list (SENIOR | U23 | JUNIOR), see category_exception; ruling t114u (2026-11-02): \"Add the Master categories as an exception only for this sheet.\"",
-    "Race 1 OC1 (t121u): EVENT OC1 (the contract ocean EVENT value reserved for OC1); the header prints no class or gender, so CATEGORY SENIOR (open class, no age band printed; the contract ocean CATEGORY list has no other fitting value) and GENDER M (all 4 athletes under the CompetitorsList Men heading). Question on the pull request."
+    "Race 1 OC1 (t121u): EVENT OC1 (the contract ocean EVENT value reserved for OC1); the header prints no class or gender, so CATEGORY SENIOR (open class, no age band printed; the contract ocean CATEGORY list has no other fitting value) and GENDER M (all 4 athletes under the CompetitorsList Men heading). Question on the pull request.",
+    "Gap detail (gap icf_ids_incomplete; finding-9b0b7d27e9, 2026-11-04): 170 athletes carry printed ids with no ICF/PWW profile (t77s412, t77s419 (2)); 54 in races 3-34 senior/U23/junior, 107 in masters races 7-12, 18, 20 (bib 98 bound under t121s672), 9 new in races 6 and 1. These seats keep the printed number by the maintainer card answer t77s412 (\"keep the printed number\") but cannot be confirmed on ICF/PWW (paddleworldwide.com/athlete/<id> HTTP 404), so they are unconfirmed ids.",
+    "Not a gap (contract Grades, \"Not gaps\": scheduled times when no public actual time exists on the finite source list): start_times scheduled HH:MM only; shared mass starts (4 clocks / 18 races). The Spotfokus/Memosoft results PDFs print only the scheduled race-header clock."
   ],
   "grade": "USABLE",
   "gaps": [
-    "start_times scheduled HH:MM only; shared mass starts (4 clocks / 18 races)",
-    "170 athletes carry printed ids with no ICF/PWW profile (t77s412, t77s419 (2)); 54 in races 3-34 senior/U23/junior, 107 in masters races 7-12, 18, 20 (bib 98 bound under t121s672), 9 new in races 6 and 1"
+    "icf_ids_incomplete"
   ],
   "generated_at_utc": "2026-11-03T13:39:08Z",
   "id_class_counts": {
@@ -10383,7 +10384,7 @@
       "at_utc": "2026-11-03T13:39:08Z"
     }
   ],
-  "updated_at": "2026-11-03T13:39:08Z",
+  "updated_at": "2026-11-04T06:13:08Z",
   "ruled_binds": [
     {
       "icf_id": "151218",
