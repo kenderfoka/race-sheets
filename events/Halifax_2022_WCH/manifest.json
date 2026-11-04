@@ -10,7 +10,7 @@
   "dates": "2022-08-03/2022-08-07",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-25T15:25:49Z",
+  "generated_at_utc": "2026-11-03T11:38:44Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "MemoSoft results book (Spotfokus hub dead) prints the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule). OQ/para races in the same book are kept (one key).",
@@ -10042,11 +10042,20 @@
       "results_row": 14,
       "seat": "ICF_ID1",
       "source_printed_name": "Alejandro RAMIREZ",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Alejandro RAMIREZ\\\" (COL, 9 seats) is RODRIGUEZ Alejandro 69215, born 1996-11-17 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69215 RODRIGUEZ Alejandro, COL, M, born 1996-11-17 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Rodriguez Ramirez; maintainer photo tag \"rodriguez ramirez alejandro\"): printed \"Alejandro RAMIREZ\" -> ICF \"Alejandro RODRIGUEZ\"; given name ALEJANDRO passes the token rule. The ICF list has no COL Alejandro RAMIREZ (only COL RAMIREZ: 167359 Cristian Fernando AVILA RAMIREZ, born 2006) and one COL Alejandro RODRIGUEZ (69215). PWW profile 69215 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 200m Heats rank 5 00:00:41.99 = this row (C1 M 200 heat, rank 5, 41.99). No same-id conflict in the boat or race.",
       "team": "COL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Alejandro RAMIREZ' = 69215 (Alejandro RODRIGUEZ); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "69215",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:18Z"
+      }
     },
     {
       "results_row": 15,
@@ -11079,11 +11088,20 @@
       "results_row": 75,
       "seat": "ICF_ID4",
       "source_printed_name": "Anna MUS",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\" Exception (this athlete only, t117u item 4): 104732 has no PWW profile (paddleworldwide.com/athlete/104732 HTTP 404, fetched 2026-11-03) and is not in the ICF athlete list (bence, fetched 2026-11-03); the contract and the gates are unchanged; the seat passes the gates through the existing manifest name_check_fail_log (maintainer 2026-10-16 10:39). This source prints no id; the printed name, NOC NED and gender W are the same as on her Poznań 2022/2023/2024 seats, where the ICF results print 104732. Row: K4 W 500 heat unit 2 race 19 lane 8, rank 7, 1:41.51; crew ICF_ID2=78956, ICF_ID3=95045.",
       "team": "NED",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4: maintainer-ruled exception bind of 104732 (Anna MUS, NED, W; no ICF/PWW record); was no_icf_id (superseded by t117u item 4)",
+      "new_id": "104732",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)",
+        "source": "pww+bence",
+        "superseded_by": "t117u item 4",
+        "superseded_at_utc": "2026-11-03T11:38:44Z"
+      }
     },
     {
       "results_row": 76,
@@ -12564,21 +12582,39 @@
       "results_row": 127,
       "seat": "ICF_ID1",
       "source_printed_name": "Alejandro RAMIREZ",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Alejandro RAMIREZ\\\" (COL, 9 seats) is RODRIGUEZ Alejandro 69215, born 1996-11-17 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69215 RODRIGUEZ Alejandro, COL, M, born 1996-11-17 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Rodriguez Ramirez; maintainer photo tag \"rodriguez ramirez alejandro\"): printed \"Alejandro RAMIREZ\" -> ICF \"Alejandro RODRIGUEZ\"; given name ALEJANDRO passes the token rule. The ICF list has no COL Alejandro RAMIREZ (only COL RAMIREZ: 167359 Cristian Fernando AVILA RAMIREZ, born 2006) and one COL Alejandro RODRIGUEZ (69215). PWW profile 69215 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 500m Heats rank 5 00:01:49.41 = this row (C2 M 500 heat, rank 5, 1:49.41). No same-id conflict in the boat or race.",
       "team": "COL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Alejandro RAMIREZ' = 69215 (Alejandro RODRIGUEZ); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "69215",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:18Z"
+      }
     },
     {
       "results_row": 127,
       "seat": "ICF_ID2",
       "source_printed_name": "Daniel CIPAGAUTA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Daniel CIPAGAUTA\\\" (COL, 6 seats) is PACHECO Daniel 69203, born 1998-05-27 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69203 PACHECO Daniel, COL, M, born 1998-05-27 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Pacheco Cipagauta; maintainer photo tag \"pacheco cipagauta daniel alfonso\"): printed \"Daniel CIPAGAUTA\" -> ICF \"Daniel PACHECO\"; given name DANIEL passes the token rule. Barnaul_2021_WC binds \"Daniel Alfonso PACHECO CIPAGAUTA\" to 69203 (MAINTAINER_ANSWERS_2026-10-23 Rule 3). The ICF list has no CIPAGAUTA and one COL Daniel PACHECO (69203). PWW profile 69203 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 500m Heats rank 5 00:01:49.41 = this row (C2 M 500 heat, rank 5, 1:49.41). No same-id conflict in the boat or race.",
       "team": "COL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Daniel CIPAGAUTA' = 69203 (Daniel PACHECO); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "69203",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:18Z"
+      }
     },
     {
       "results_row": 128,
@@ -13861,11 +13897,20 @@
       "results_row": 243,
       "seat": "ICF_ID1",
       "source_printed_name": "Isaquias SANTOS",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Isaquias SANTOS\\\" (BRA, 5 seats) is GUIMARAES QUEIROZ Isaquias 42767, born 1994-01-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 42767 GUIMARAES QUEIROZ Isaquias, BRA, M, born 1994-01-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Isaquias SANTOS\" -> ICF \"Isaquias GUIMARAES QUEIROZ\"; given name ISAQUIAS passes the token rule. No other athlete in the ICF list carries the given name Isaquias. The same desk binds \"Isaquias QUEIROZ DOS SANTOS\" to 42767 on Duisburg_2013_WCH, Duisburg_2015_WC and Duisburg_2016_WC (profile-listed). PWW profile 42767 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 500m Heats rank 1 00:01:52.70 = this row (C1 M 500 heat, rank 1, 1:52.70). No same-id conflict in the boat or race.",
       "team": "BRA",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Isaquias SANTOS' = 42767 (Isaquias GUIMARAES QUEIROZ); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "42767",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:18Z"
+      }
     },
     {
       "results_row": 244,
@@ -15829,11 +15874,20 @@
       "results_row": 438,
       "seat": "ICF_ID1",
       "source_printed_name": "Isaquias SANTOS",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Isaquias SANTOS\\\" (BRA, 5 seats) is GUIMARAES QUEIROZ Isaquias 42767, born 1994-01-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 42767 GUIMARAES QUEIROZ Isaquias, BRA, M, born 1994-01-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Isaquias SANTOS\" -> ICF \"Isaquias GUIMARAES QUEIROZ\"; given name ISAQUIAS passes the token rule. No other athlete in the ICF list carries the given name Isaquias. The same desk binds \"Isaquias QUEIROZ DOS SANTOS\" to 42767 on Duisburg_2013_WCH, Duisburg_2015_WC and Duisburg_2016_WC (profile-listed). PWW profile 42767 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 1000m Heats rank 2 00:03:59.71 = this row (C1 M 1000 heat, rank 2, 3:59.71). No same-id conflict in the boat or race.",
       "team": "BRA",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Isaquias SANTOS' = 42767 (Isaquias GUIMARAES QUEIROZ); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "42767",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:18Z"
+      }
     },
     {
       "results_row": 439,
@@ -16591,21 +16645,39 @@
       "results_row": 490,
       "seat": "ICF_ID1",
       "source_printed_name": "Alejandro RAMIREZ",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Alejandro RAMIREZ\\\" (COL, 9 seats) is RODRIGUEZ Alejandro 69215, born 1996-11-17 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69215 RODRIGUEZ Alejandro, COL, M, born 1996-11-17 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Rodriguez Ramirez; maintainer photo tag \"rodriguez ramirez alejandro\"): printed \"Alejandro RAMIREZ\" -> ICF \"Alejandro RODRIGUEZ\"; given name ALEJANDRO passes the token rule. The ICF list has no COL Alejandro RAMIREZ (only COL RAMIREZ: 167359 Cristian Fernando AVILA RAMIREZ, born 2006) and one COL Alejandro RODRIGUEZ (69215). PWW profile 69215 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 1000m Heats rank 5 00:04:05.66 = this row (C2 M 1000 heat, rank 5, 4:05.66). No same-id conflict in the boat or race.",
       "team": "COL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Alejandro RAMIREZ' = 69215 (Alejandro RODRIGUEZ); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "69215",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:18Z"
+      }
     },
     {
       "results_row": 490,
       "seat": "ICF_ID2",
       "source_printed_name": "Daniel CIPAGAUTA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Daniel CIPAGAUTA\\\" (COL, 6 seats) is PACHECO Daniel 69203, born 1998-05-27 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69203 PACHECO Daniel, COL, M, born 1998-05-27 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Pacheco Cipagauta; maintainer photo tag \"pacheco cipagauta daniel alfonso\"): printed \"Daniel CIPAGAUTA\" -> ICF \"Daniel PACHECO\"; given name DANIEL passes the token rule. Barnaul_2021_WC binds \"Daniel Alfonso PACHECO CIPAGAUTA\" to 69203 (MAINTAINER_ANSWERS_2026-10-23 Rule 3). The ICF list has no CIPAGAUTA and one COL Daniel PACHECO (69203). PWW profile 69203 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 1000m Heats rank 5 00:04:05.66 = this row (C2 M 1000 heat, rank 5, 4:05.66). No same-id conflict in the boat or race.",
       "team": "COL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Daniel CIPAGAUTA' = 69203 (Daniel PACHECO); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "69203",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:18Z"
+      }
     },
     {
       "results_row": 491,
@@ -18696,11 +18768,20 @@
       "results_row": 630,
       "seat": "ICF_ID1",
       "source_printed_name": "Alejandro RAMIREZ",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Alejandro RAMIREZ\\\" (COL, 9 seats) is RODRIGUEZ Alejandro 69215, born 1996-11-17 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69215 RODRIGUEZ Alejandro, COL, M, born 1996-11-17 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Rodriguez Ramirez; maintainer photo tag \"rodriguez ramirez alejandro\"): printed \"Alejandro RAMIREZ\" -> ICF \"Alejandro RODRIGUEZ\"; given name ALEJANDRO passes the token rule. The ICF list has no COL Alejandro RAMIREZ (only COL RAMIREZ: 167359 Cristian Fernando AVILA RAMIREZ, born 2006) and one COL Alejandro RODRIGUEZ (69215). PWW profile 69215 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 200m Semifinal rank 5 00:00:43.22 = this row (C1 M 200 semifinal, rank 5, 43.22). No same-id conflict in the boat or race.",
       "team": "COL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Alejandro RAMIREZ' = 69215 (Alejandro RODRIGUEZ); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "69215",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:18Z"
+      }
     },
     {
       "results_row": 631,
@@ -19061,11 +19142,20 @@
       "results_row": 642,
       "seat": "ICF_ID4",
       "source_printed_name": "Anna MUS",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\" Exception (this athlete only, t117u item 4): 104732 has no PWW profile (paddleworldwide.com/athlete/104732 HTTP 404, fetched 2026-11-03) and is not in the ICF athlete list (bence, fetched 2026-11-03); the contract and the gates are unchanged; the seat passes the gates through the existing manifest name_check_fail_log (maintainer 2026-10-16 10:39). This source prints no id; the printed name, NOC NED and gender W are the same as on her Poznań 2022/2023/2024 seats, where the ICF results print 104732. Row: K4 W 500 semifinal unit 1 race 115 lane 1, rank 8, 1:41.98; crew ICF_ID2=78956, ICF_ID3=95045.",
       "team": "NED",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4: maintainer-ruled exception bind of 104732 (Anna MUS, NED, W; no ICF/PWW record); was no_icf_id (superseded by t117u item 4)",
+      "new_id": "104732",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)",
+        "source": "pww+bence",
+        "superseded_by": "t117u item 4",
+        "superseded_at_utc": "2026-11-03T11:38:44Z"
+      }
     },
     {
       "results_row": 643,
@@ -20260,21 +20350,39 @@
       "results_row": 683,
       "seat": "ICF_ID1",
       "source_printed_name": "Alejandro RAMIREZ",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Alejandro RAMIREZ\\\" (COL, 9 seats) is RODRIGUEZ Alejandro 69215, born 1996-11-17 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69215 RODRIGUEZ Alejandro, COL, M, born 1996-11-17 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Rodriguez Ramirez; maintainer photo tag \"rodriguez ramirez alejandro\"): printed \"Alejandro RAMIREZ\" -> ICF \"Alejandro RODRIGUEZ\"; given name ALEJANDRO passes the token rule. The ICF list has no COL Alejandro RAMIREZ (only COL RAMIREZ: 167359 Cristian Fernando AVILA RAMIREZ, born 2006) and one COL Alejandro RODRIGUEZ (69215). PWW profile 69215 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 500m Semifinal rank 7 00:01:49.65 = this row (C2 M 500 semifinal, rank 7, 1:49.65). No same-id conflict in the boat or race.",
       "team": "COL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Alejandro RAMIREZ' = 69215 (Alejandro RODRIGUEZ); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "69215",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:18Z"
+      }
     },
     {
       "results_row": 683,
       "seat": "ICF_ID2",
       "source_printed_name": "Daniel CIPAGAUTA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Daniel CIPAGAUTA\\\" (COL, 6 seats) is PACHECO Daniel 69203, born 1998-05-27 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69203 PACHECO Daniel, COL, M, born 1998-05-27 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Pacheco Cipagauta; maintainer photo tag \"pacheco cipagauta daniel alfonso\"): printed \"Daniel CIPAGAUTA\" -> ICF \"Daniel PACHECO\"; given name DANIEL passes the token rule. Barnaul_2021_WC binds \"Daniel Alfonso PACHECO CIPAGAUTA\" to 69203 (MAINTAINER_ANSWERS_2026-10-23 Rule 3). The ICF list has no CIPAGAUTA and one COL Daniel PACHECO (69203). PWW profile 69203 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 500m Semifinal rank 7 00:01:49.65 = this row (C2 M 500 semifinal, rank 7, 1:49.65). No same-id conflict in the boat or race.",
       "team": "COL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Daniel CIPAGAUTA' = 69203 (Daniel PACHECO); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "69203",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:18Z"
+      }
     },
     {
       "results_row": 684,
@@ -22401,11 +22509,20 @@
       "results_row": 890,
       "seat": "ICF_ID1",
       "source_printed_name": "Isaquias SANTOS",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Isaquias SANTOS\\\" (BRA, 5 seats) is GUIMARAES QUEIROZ Isaquias 42767, born 1994-01-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 42767 GUIMARAES QUEIROZ Isaquias, BRA, M, born 1994-01-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Isaquias SANTOS\" -> ICF \"Isaquias GUIMARAES QUEIROZ\"; given name ISAQUIAS passes the token rule. No other athlete in the ICF list carries the given name Isaquias. The same desk binds \"Isaquias QUEIROZ DOS SANTOS\" to 42767 on Duisburg_2013_WCH, Duisburg_2015_WC and Duisburg_2016_WC (profile-listed). PWW profile 42767 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 1000m Semifinal rank 1 00:04:09.37 = this row (C1 M 1000 semifinal, rank 1, 4:09.37). No same-id conflict in the boat or race.",
       "team": "BRA",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Isaquias SANTOS' = 42767 (Isaquias GUIMARAES QUEIROZ); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "42767",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:18Z"
+      }
     },
     {
       "results_row": 891,
@@ -22735,21 +22852,39 @@
       "results_row": 915,
       "seat": "ICF_ID1",
       "source_printed_name": "Alejandro RAMIREZ",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Alejandro RAMIREZ\\\" (COL, 9 seats) is RODRIGUEZ Alejandro 69215, born 1996-11-17 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69215 RODRIGUEZ Alejandro, COL, M, born 1996-11-17 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Rodriguez Ramirez; maintainer photo tag \"rodriguez ramirez alejandro\"): printed \"Alejandro RAMIREZ\" -> ICF \"Alejandro RODRIGUEZ\"; given name ALEJANDRO passes the token rule. The ICF list has no COL Alejandro RAMIREZ (only COL RAMIREZ: 167359 Cristian Fernando AVILA RAMIREZ, born 2006) and one COL Alejandro RODRIGUEZ (69215). PWW profile 69215 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 1000m Semifinal rank 2 00:03:57.84 = this row (C2 M 1000 semifinal, rank 2, 3:57.84). No same-id conflict in the boat or race.",
       "team": "COL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Alejandro RAMIREZ' = 69215 (Alejandro RODRIGUEZ); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "69215",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:18Z"
+      }
     },
     {
       "results_row": 915,
       "seat": "ICF_ID2",
       "source_printed_name": "Daniel CIPAGAUTA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Daniel CIPAGAUTA\\\" (COL, 6 seats) is PACHECO Daniel 69203, born 1998-05-27 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69203 PACHECO Daniel, COL, M, born 1998-05-27 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Pacheco Cipagauta; maintainer photo tag \"pacheco cipagauta daniel alfonso\"): printed \"Daniel CIPAGAUTA\" -> ICF \"Daniel PACHECO\"; given name DANIEL passes the token rule. Barnaul_2021_WC binds \"Daniel Alfonso PACHECO CIPAGAUTA\" to 69203 (MAINTAINER_ANSWERS_2026-10-23 Rule 3). The ICF list has no CIPAGAUTA and one COL Daniel PACHECO (69203). PWW profile 69203 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 1000m Semifinal rank 2 00:03:57.84 = this row (C2 M 1000 semifinal, rank 2, 3:57.84). No same-id conflict in the boat or race.",
       "team": "COL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Daniel CIPAGAUTA' = 69203 (Daniel PACHECO); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "69203",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:18Z"
+      }
     },
     {
       "results_row": 916,
@@ -26037,11 +26172,20 @@
       "results_row": 1103,
       "seat": "ICF_ID1",
       "source_printed_name": "Isaquias SANTOS",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Isaquias SANTOS\\\" (BRA, 5 seats) is GUIMARAES QUEIROZ Isaquias 42767, born 1994-01-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 42767 GUIMARAES QUEIROZ Isaquias, BRA, M, born 1994-01-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Isaquias SANTOS\" -> ICF \"Isaquias GUIMARAES QUEIROZ\"; given name ISAQUIAS passes the token rule. No other athlete in the ICF list carries the given name Isaquias. The same desk binds \"Isaquias QUEIROZ DOS SANTOS\" to 42767 on Duisburg_2013_WCH, Duisburg_2015_WC and Duisburg_2016_WC (profile-listed). PWW profile 42767 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 500m Final rank 1 00:01:54.49 = this row (C1 M 500 final, rank 1, 1:54.49). No same-id conflict in the boat or race.",
       "team": "BRA",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Isaquias SANTOS' = 42767 (Isaquias GUIMARAES QUEIROZ); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "42767",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:18Z"
+      }
     },
     {
       "results_row": 1104,
@@ -26789,21 +26933,39 @@
       "results_row": 1144,
       "seat": "ICF_ID1",
       "source_printed_name": "Alejandro RAMIREZ",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Alejandro RAMIREZ\\\" (COL, 9 seats) is RODRIGUEZ Alejandro 69215, born 1996-11-17 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69215 RODRIGUEZ Alejandro, COL, M, born 1996-11-17 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Rodriguez Ramirez; maintainer photo tag \"rodriguez ramirez alejandro\"): printed \"Alejandro RAMIREZ\" -> ICF \"Alejandro RODRIGUEZ\"; given name ALEJANDRO passes the token rule. The ICF list has no COL Alejandro RAMIREZ (only COL RAMIREZ: 167359 Cristian Fernando AVILA RAMIREZ, born 2006) and one COL Alejandro RODRIGUEZ (69215). PWW profile 69215 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 500m Final rank 8 00:02:00.18 = this row (C2 M 500 final, rank 8, 2:00.18). No same-id conflict in the boat or race.",
       "team": "COL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Alejandro RAMIREZ' = 69215 (Alejandro RODRIGUEZ); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "69215",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:18Z"
+      }
     },
     {
       "results_row": 1144,
       "seat": "ICF_ID2",
       "source_printed_name": "Daniel CIPAGAUTA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Daniel CIPAGAUTA\\\" (COL, 6 seats) is PACHECO Daniel 69203, born 1998-05-27 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69203 PACHECO Daniel, COL, M, born 1998-05-27 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Pacheco Cipagauta; maintainer photo tag \"pacheco cipagauta daniel alfonso\"): printed \"Daniel CIPAGAUTA\" -> ICF \"Daniel PACHECO\"; given name DANIEL passes the token rule. Barnaul_2021_WC binds \"Daniel Alfonso PACHECO CIPAGAUTA\" to 69203 (MAINTAINER_ANSWERS_2026-10-23 Rule 3). The ICF list has no CIPAGAUTA and one COL Daniel PACHECO (69203). PWW profile 69203 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 500m Final rank 8 00:02:00.18 = this row (C2 M 500 final, rank 8, 2:00.18). No same-id conflict in the boat or race.",
       "team": "COL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Daniel CIPAGAUTA' = 69203 (Daniel PACHECO); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "69203",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:18Z"
+      }
     },
     {
       "results_row": 1145,
@@ -28252,11 +28414,20 @@
       "results_row": 1266,
       "seat": "ICF_ID1",
       "source_printed_name": "Isaquias SANTOS",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Isaquias SANTOS\\\" (BRA, 5 seats) is GUIMARAES QUEIROZ Isaquias 42767, born 1994-01-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 42767 GUIMARAES QUEIROZ Isaquias, BRA, M, born 1994-01-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Isaquias SANTOS\" -> ICF \"Isaquias GUIMARAES QUEIROZ\"; given name ISAQUIAS passes the token rule. No other athlete in the ICF list carries the given name Isaquias. The same desk binds \"Isaquias QUEIROZ DOS SANTOS\" to 42767 on Duisburg_2013_WCH, Duisburg_2015_WC and Duisburg_2016_WC (profile-listed). PWW profile 42767 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 1000m Final rank 2 00:04:15.80 = this row (C1 M 1000 final, rank 2, 4:15.80). No same-id conflict in the boat or race.",
       "team": "BRA",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Isaquias SANTOS' = 42767 (Isaquias GUIMARAES QUEIROZ); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "42767",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:18Z"
+      }
     },
     {
       "results_row": 1267,
@@ -28838,21 +29009,39 @@
       "results_row": 1308,
       "seat": "ICF_ID1",
       "source_printed_name": "Alejandro RAMIREZ",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Alejandro RAMIREZ\\\" (COL, 9 seats) is RODRIGUEZ Alejandro 69215, born 1996-11-17 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69215 RODRIGUEZ Alejandro, COL, M, born 1996-11-17 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Rodriguez Ramirez; maintainer photo tag \"rodriguez ramirez alejandro\"): printed \"Alejandro RAMIREZ\" -> ICF \"Alejandro RODRIGUEZ\"; given name ALEJANDRO passes the token rule. The ICF list has no COL Alejandro RAMIREZ (only COL RAMIREZ: 167359 Cristian Fernando AVILA RAMIREZ, born 2006) and one COL Alejandro RODRIGUEZ (69215). PWW profile 69215 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 1000m Final rank 8 00:04:18.65 = this row (C2 M 1000 final, rank 8, 4:18.65). No same-id conflict in the boat or race.",
       "team": "COL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Alejandro RAMIREZ' = 69215 (Alejandro RODRIGUEZ); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "69215",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:18Z"
+      }
     },
     {
       "results_row": 1308,
       "seat": "ICF_ID2",
       "source_printed_name": "Daniel CIPAGAUTA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Daniel CIPAGAUTA\\\" (COL, 6 seats) is PACHECO Daniel 69203, born 1998-05-27 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69203 PACHECO Daniel, COL, M, born 1998-05-27 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Pacheco Cipagauta; maintainer photo tag \"pacheco cipagauta daniel alfonso\"): printed \"Daniel CIPAGAUTA\" -> ICF \"Daniel PACHECO\"; given name DANIEL passes the token rule. Barnaul_2021_WC binds \"Daniel Alfonso PACHECO CIPAGAUTA\" to 69203 (MAINTAINER_ANSWERS_2026-10-23 Rule 3). The ICF list has no CIPAGAUTA and one COL Daniel PACHECO (69203). PWW profile 69203 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 1000m Final rank 8 00:04:18.65 = this row (C2 M 1000 final, rank 8, 4:18.65). No same-id conflict in the boat or race.",
       "team": "COL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Daniel CIPAGAUTA' = 69203 (Daniel PACHECO); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "69203",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Daniel CIPAGAUTA (COL, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:18Z"
+      }
     },
     {
       "results_row": 1309,
@@ -29649,11 +29838,20 @@
       "results_row": 1342,
       "seat": "ICF_ID1",
       "source_printed_name": "Alejandro RAMIREZ",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, X)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Alejandro RAMIREZ\\\" (COL, 9 seats) is RODRIGUEZ Alejandro 69215, born 1996-11-17 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69215 RODRIGUEZ Alejandro, COL, M, born 1996-11-17 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Rodriguez Ramirez; maintainer photo tag \"rodriguez ramirez alejandro\"): printed \"Alejandro RAMIREZ\" -> ICF \"Alejandro RODRIGUEZ\"; given name ALEJANDRO passes the token rule. The ICF list has no COL Alejandro RAMIREZ (only COL RAMIREZ: 167359 Cristian Fernando AVILA RAMIREZ, born 2006) and one COL Alejandro RODRIGUEZ (69215). PWW profile 69215 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Mixed 500m Final rank null DNS = this row (C2 X 500 final, rank -, DNS). Crew: ICF_ID2 79159 profile lists the same race and time. No same-id conflict in the boat or race.",
       "team": "COL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, X)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Alejandro RAMIREZ' = 69215 (Alejandro RODRIGUEZ); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "69215",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, X)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alejandro RAMIREZ (COL, X)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:18Z"
+      }
     },
     {
       "results_row": 1342,
@@ -30224,11 +30422,20 @@
       "results_row": 1368,
       "seat": "ICF_ID1",
       "source_printed_name": "Anna MUS",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\" Exception (this athlete only, t117u item 4): 104732 has no PWW profile (paddleworldwide.com/athlete/104732 HTTP 404, fetched 2026-11-03) and is not in the ICF athlete list (bence, fetched 2026-11-03); the contract and the gates are unchanged; the seat passes the gates through the existing manifest name_check_fail_log (maintainer 2026-10-16 10:39). This source prints no id; the printed name, NOC NED and gender W are the same as on her Poznań 2022/2023/2024 seats, where the ICF results print 104732. Row: K1 W 5000 final unit A race 207 lane 4, rank -, DNF; crew none.",
       "team": "NED",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4: maintainer-ruled exception bind of 104732 (Anna MUS, NED, W; no ICF/PWW record); was no_icf_id (superseded by t117u item 4)",
+      "new_id": "104732",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)",
+        "source": "pww+bence",
+        "superseded_by": "t117u item 4",
+        "superseded_at_utc": "2026-11-03T11:38:44Z"
+      }
     },
     {
       "results_row": 1369,
@@ -30829,7 +31036,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 545
+      "rows": 590
     }
   },
   "domain": "flatwater_sprint",
@@ -30839,12 +31046,12 @@
     {
       "kind": "xlsx",
       "name": "Halifax_2022_WCH_Results.xlsx",
-      "sha256": "b852e31abc6681c80ebff85d78d19b73419bdbd38ff9546e968b640c7d7b3181",
-      "bytes": 126349
+      "sha256": "a0f9020c79ab3f5ea7a470a4ffe7408a83a0f2962646593c36d5e980c8556ba3",
+      "bytes": 126616
     }
   ],
   "output_xlsx": "Halifax_2022_WCH_Results.xlsx",
-  "output_xlsx_sha256": "b852e31abc6681c80ebff85d78d19b73419bdbd38ff9546e968b640c7d7b3181",
+  "output_xlsx_sha256": "a0f9020c79ab3f5ea7a470a4ffe7408a83a0f2962646593c36d5e980c8556ba3",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -30896,7 +31103,7 @@
       }
     }
   },
-  "updated_at": "2026-10-25T15:25:49Z",
+  "updated_at": "2026-11-03T11:38:44Z",
   "name_change_log": [
     {
       "results_row": 64,
@@ -31103,6 +31310,226 @@
       "printed": "Maria MORENO",
       "icf_name": "Angels MORENO",
       "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (compound given name Maria dels Angels): bound 112684 (Angels MORENO) lists Halifax_2022_WCH"
+    },
+    {
+      "results_row": 243,
+      "seat": "ICF_ID1",
+      "printed": "Isaquias SANTOS",
+      "icf_id": "42767",
+      "profile_name": "Isaquias GUIMARAES QUEIROZ",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Isaquias SANTOS\\\" (BRA, 5 seats) is GUIMARAES QUEIROZ Isaquias 42767, born 1994-01-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 42767 GUIMARAES QUEIROZ Isaquias, BRA, M, born 1994-01-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Isaquias SANTOS\" -> ICF \"Isaquias GUIMARAES QUEIROZ\"; given name ISAQUIAS passes the token rule. No other athlete in the ICF list carries the given name Isaquias. The same desk binds \"Isaquias QUEIROZ DOS SANTOS\" to 42767 on Duisburg_2013_WCH, Duisburg_2015_WC and Duisburg_2016_WC (profile-listed). PWW profile 42767 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 500m Heats rank 1 00:01:52.70 = this row (C1 M 500 heat, rank 1, 1:52.70). No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 438,
+      "seat": "ICF_ID1",
+      "printed": "Isaquias SANTOS",
+      "icf_id": "42767",
+      "profile_name": "Isaquias GUIMARAES QUEIROZ",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Isaquias SANTOS\\\" (BRA, 5 seats) is GUIMARAES QUEIROZ Isaquias 42767, born 1994-01-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 42767 GUIMARAES QUEIROZ Isaquias, BRA, M, born 1994-01-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Isaquias SANTOS\" -> ICF \"Isaquias GUIMARAES QUEIROZ\"; given name ISAQUIAS passes the token rule. No other athlete in the ICF list carries the given name Isaquias. The same desk binds \"Isaquias QUEIROZ DOS SANTOS\" to 42767 on Duisburg_2013_WCH, Duisburg_2015_WC and Duisburg_2016_WC (profile-listed). PWW profile 42767 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 1000m Heats rank 2 00:03:59.71 = this row (C1 M 1000 heat, rank 2, 3:59.71). No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 890,
+      "seat": "ICF_ID1",
+      "printed": "Isaquias SANTOS",
+      "icf_id": "42767",
+      "profile_name": "Isaquias GUIMARAES QUEIROZ",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Isaquias SANTOS\\\" (BRA, 5 seats) is GUIMARAES QUEIROZ Isaquias 42767, born 1994-01-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 42767 GUIMARAES QUEIROZ Isaquias, BRA, M, born 1994-01-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Isaquias SANTOS\" -> ICF \"Isaquias GUIMARAES QUEIROZ\"; given name ISAQUIAS passes the token rule. No other athlete in the ICF list carries the given name Isaquias. The same desk binds \"Isaquias QUEIROZ DOS SANTOS\" to 42767 on Duisburg_2013_WCH, Duisburg_2015_WC and Duisburg_2016_WC (profile-listed). PWW profile 42767 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 1000m Semifinal rank 1 00:04:09.37 = this row (C1 M 1000 semifinal, rank 1, 4:09.37). No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 1103,
+      "seat": "ICF_ID1",
+      "printed": "Isaquias SANTOS",
+      "icf_id": "42767",
+      "profile_name": "Isaquias GUIMARAES QUEIROZ",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Isaquias SANTOS\\\" (BRA, 5 seats) is GUIMARAES QUEIROZ Isaquias 42767, born 1994-01-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 42767 GUIMARAES QUEIROZ Isaquias, BRA, M, born 1994-01-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Isaquias SANTOS\" -> ICF \"Isaquias GUIMARAES QUEIROZ\"; given name ISAQUIAS passes the token rule. No other athlete in the ICF list carries the given name Isaquias. The same desk binds \"Isaquias QUEIROZ DOS SANTOS\" to 42767 on Duisburg_2013_WCH, Duisburg_2015_WC and Duisburg_2016_WC (profile-listed). PWW profile 42767 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 500m Final rank 1 00:01:54.49 = this row (C1 M 500 final, rank 1, 1:54.49). No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 1266,
+      "seat": "ICF_ID1",
+      "printed": "Isaquias SANTOS",
+      "icf_id": "42767",
+      "profile_name": "Isaquias GUIMARAES QUEIROZ",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Isaquias SANTOS\\\" (BRA, 5 seats) is GUIMARAES QUEIROZ Isaquias 42767, born 1994-01-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 42767 GUIMARAES QUEIROZ Isaquias, BRA, M, born 1994-01-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Isaquias SANTOS\" -> ICF \"Isaquias GUIMARAES QUEIROZ\"; given name ISAQUIAS passes the token rule. No other athlete in the ICF list carries the given name Isaquias. The same desk binds \"Isaquias QUEIROZ DOS SANTOS\" to 42767 on Duisburg_2013_WCH, Duisburg_2015_WC and Duisburg_2016_WC (profile-listed). PWW profile 42767 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 1000m Final rank 2 00:04:15.80 = this row (C1 M 1000 final, rank 2, 4:15.80). No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 14,
+      "seat": "ICF_ID1",
+      "printed": "Alejandro RAMIREZ",
+      "icf_id": "69215",
+      "profile_name": "Alejandro RODRIGUEZ",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Alejandro RAMIREZ\\\" (COL, 9 seats) is RODRIGUEZ Alejandro 69215, born 1996-11-17 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69215 RODRIGUEZ Alejandro, COL, M, born 1996-11-17 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Rodriguez Ramirez; maintainer photo tag \"rodriguez ramirez alejandro\"): printed \"Alejandro RAMIREZ\" -> ICF \"Alejandro RODRIGUEZ\"; given name ALEJANDRO passes the token rule. The ICF list has no COL Alejandro RAMIREZ (only COL RAMIREZ: 167359 Cristian Fernando AVILA RAMIREZ, born 2006) and one COL Alejandro RODRIGUEZ (69215). PWW profile 69215 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 200m Heats rank 5 00:00:41.99 = this row (C1 M 200 heat, rank 5, 41.99). No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 127,
+      "seat": "ICF_ID1",
+      "printed": "Alejandro RAMIREZ",
+      "icf_id": "69215",
+      "profile_name": "Alejandro RODRIGUEZ",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Alejandro RAMIREZ\\\" (COL, 9 seats) is RODRIGUEZ Alejandro 69215, born 1996-11-17 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69215 RODRIGUEZ Alejandro, COL, M, born 1996-11-17 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Rodriguez Ramirez; maintainer photo tag \"rodriguez ramirez alejandro\"): printed \"Alejandro RAMIREZ\" -> ICF \"Alejandro RODRIGUEZ\"; given name ALEJANDRO passes the token rule. The ICF list has no COL Alejandro RAMIREZ (only COL RAMIREZ: 167359 Cristian Fernando AVILA RAMIREZ, born 2006) and one COL Alejandro RODRIGUEZ (69215). PWW profile 69215 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 500m Heats rank 5 00:01:49.41 = this row (C2 M 500 heat, rank 5, 1:49.41). No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 490,
+      "seat": "ICF_ID1",
+      "printed": "Alejandro RAMIREZ",
+      "icf_id": "69215",
+      "profile_name": "Alejandro RODRIGUEZ",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Alejandro RAMIREZ\\\" (COL, 9 seats) is RODRIGUEZ Alejandro 69215, born 1996-11-17 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69215 RODRIGUEZ Alejandro, COL, M, born 1996-11-17 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Rodriguez Ramirez; maintainer photo tag \"rodriguez ramirez alejandro\"): printed \"Alejandro RAMIREZ\" -> ICF \"Alejandro RODRIGUEZ\"; given name ALEJANDRO passes the token rule. The ICF list has no COL Alejandro RAMIREZ (only COL RAMIREZ: 167359 Cristian Fernando AVILA RAMIREZ, born 2006) and one COL Alejandro RODRIGUEZ (69215). PWW profile 69215 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 1000m Heats rank 5 00:04:05.66 = this row (C2 M 1000 heat, rank 5, 4:05.66). No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 630,
+      "seat": "ICF_ID1",
+      "printed": "Alejandro RAMIREZ",
+      "icf_id": "69215",
+      "profile_name": "Alejandro RODRIGUEZ",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Alejandro RAMIREZ\\\" (COL, 9 seats) is RODRIGUEZ Alejandro 69215, born 1996-11-17 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69215 RODRIGUEZ Alejandro, COL, M, born 1996-11-17 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Rodriguez Ramirez; maintainer photo tag \"rodriguez ramirez alejandro\"): printed \"Alejandro RAMIREZ\" -> ICF \"Alejandro RODRIGUEZ\"; given name ALEJANDRO passes the token rule. The ICF list has no COL Alejandro RAMIREZ (only COL RAMIREZ: 167359 Cristian Fernando AVILA RAMIREZ, born 2006) and one COL Alejandro RODRIGUEZ (69215). PWW profile 69215 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 200m Semifinal rank 5 00:00:43.22 = this row (C1 M 200 semifinal, rank 5, 43.22). No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 683,
+      "seat": "ICF_ID1",
+      "printed": "Alejandro RAMIREZ",
+      "icf_id": "69215",
+      "profile_name": "Alejandro RODRIGUEZ",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Alejandro RAMIREZ\\\" (COL, 9 seats) is RODRIGUEZ Alejandro 69215, born 1996-11-17 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69215 RODRIGUEZ Alejandro, COL, M, born 1996-11-17 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Rodriguez Ramirez; maintainer photo tag \"rodriguez ramirez alejandro\"): printed \"Alejandro RAMIREZ\" -> ICF \"Alejandro RODRIGUEZ\"; given name ALEJANDRO passes the token rule. The ICF list has no COL Alejandro RAMIREZ (only COL RAMIREZ: 167359 Cristian Fernando AVILA RAMIREZ, born 2006) and one COL Alejandro RODRIGUEZ (69215). PWW profile 69215 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 500m Semifinal rank 7 00:01:49.65 = this row (C2 M 500 semifinal, rank 7, 1:49.65). No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 915,
+      "seat": "ICF_ID1",
+      "printed": "Alejandro RAMIREZ",
+      "icf_id": "69215",
+      "profile_name": "Alejandro RODRIGUEZ",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Alejandro RAMIREZ\\\" (COL, 9 seats) is RODRIGUEZ Alejandro 69215, born 1996-11-17 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69215 RODRIGUEZ Alejandro, COL, M, born 1996-11-17 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Rodriguez Ramirez; maintainer photo tag \"rodriguez ramirez alejandro\"): printed \"Alejandro RAMIREZ\" -> ICF \"Alejandro RODRIGUEZ\"; given name ALEJANDRO passes the token rule. The ICF list has no COL Alejandro RAMIREZ (only COL RAMIREZ: 167359 Cristian Fernando AVILA RAMIREZ, born 2006) and one COL Alejandro RODRIGUEZ (69215). PWW profile 69215 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 1000m Semifinal rank 2 00:03:57.84 = this row (C2 M 1000 semifinal, rank 2, 3:57.84). No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 1144,
+      "seat": "ICF_ID1",
+      "printed": "Alejandro RAMIREZ",
+      "icf_id": "69215",
+      "profile_name": "Alejandro RODRIGUEZ",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Alejandro RAMIREZ\\\" (COL, 9 seats) is RODRIGUEZ Alejandro 69215, born 1996-11-17 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69215 RODRIGUEZ Alejandro, COL, M, born 1996-11-17 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Rodriguez Ramirez; maintainer photo tag \"rodriguez ramirez alejandro\"): printed \"Alejandro RAMIREZ\" -> ICF \"Alejandro RODRIGUEZ\"; given name ALEJANDRO passes the token rule. The ICF list has no COL Alejandro RAMIREZ (only COL RAMIREZ: 167359 Cristian Fernando AVILA RAMIREZ, born 2006) and one COL Alejandro RODRIGUEZ (69215). PWW profile 69215 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 500m Final rank 8 00:02:00.18 = this row (C2 M 500 final, rank 8, 2:00.18). No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 1308,
+      "seat": "ICF_ID1",
+      "printed": "Alejandro RAMIREZ",
+      "icf_id": "69215",
+      "profile_name": "Alejandro RODRIGUEZ",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Alejandro RAMIREZ\\\" (COL, 9 seats) is RODRIGUEZ Alejandro 69215, born 1996-11-17 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69215 RODRIGUEZ Alejandro, COL, M, born 1996-11-17 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Rodriguez Ramirez; maintainer photo tag \"rodriguez ramirez alejandro\"): printed \"Alejandro RAMIREZ\" -> ICF \"Alejandro RODRIGUEZ\"; given name ALEJANDRO passes the token rule. The ICF list has no COL Alejandro RAMIREZ (only COL RAMIREZ: 167359 Cristian Fernando AVILA RAMIREZ, born 2006) and one COL Alejandro RODRIGUEZ (69215). PWW profile 69215 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 1000m Final rank 8 00:04:18.65 = this row (C2 M 1000 final, rank 8, 4:18.65). No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 1342,
+      "seat": "ICF_ID1",
+      "printed": "Alejandro RAMIREZ",
+      "icf_id": "69215",
+      "profile_name": "Alejandro RODRIGUEZ",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Alejandro RAMIREZ\\\" (COL, 9 seats) is RODRIGUEZ Alejandro 69215, born 1996-11-17 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69215 RODRIGUEZ Alejandro, COL, M, born 1996-11-17 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Rodriguez Ramirez; maintainer photo tag \"rodriguez ramirez alejandro\"): printed \"Alejandro RAMIREZ\" -> ICF \"Alejandro RODRIGUEZ\"; given name ALEJANDRO passes the token rule. The ICF list has no COL Alejandro RAMIREZ (only COL RAMIREZ: 167359 Cristian Fernando AVILA RAMIREZ, born 2006) and one COL Alejandro RODRIGUEZ (69215). PWW profile 69215 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Mixed 500m Final rank null DNS = this row (C2 X 500 final, rank -, DNS). Crew: ICF_ID2 79159 profile lists the same race and time. No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 127,
+      "seat": "ICF_ID2",
+      "printed": "Daniel CIPAGAUTA",
+      "icf_id": "69203",
+      "profile_name": "Daniel PACHECO",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Daniel CIPAGAUTA\\\" (COL, 6 seats) is PACHECO Daniel 69203, born 1998-05-27 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69203 PACHECO Daniel, COL, M, born 1998-05-27 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Pacheco Cipagauta; maintainer photo tag \"pacheco cipagauta daniel alfonso\"): printed \"Daniel CIPAGAUTA\" -> ICF \"Daniel PACHECO\"; given name DANIEL passes the token rule. Barnaul_2021_WC binds \"Daniel Alfonso PACHECO CIPAGAUTA\" to 69203 (MAINTAINER_ANSWERS_2026-10-23 Rule 3). The ICF list has no CIPAGAUTA and one COL Daniel PACHECO (69203). PWW profile 69203 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 500m Heats rank 5 00:01:49.41 = this row (C2 M 500 heat, rank 5, 1:49.41). No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 490,
+      "seat": "ICF_ID2",
+      "printed": "Daniel CIPAGAUTA",
+      "icf_id": "69203",
+      "profile_name": "Daniel PACHECO",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Daniel CIPAGAUTA\\\" (COL, 6 seats) is PACHECO Daniel 69203, born 1998-05-27 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69203 PACHECO Daniel, COL, M, born 1998-05-27 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Pacheco Cipagauta; maintainer photo tag \"pacheco cipagauta daniel alfonso\"): printed \"Daniel CIPAGAUTA\" -> ICF \"Daniel PACHECO\"; given name DANIEL passes the token rule. Barnaul_2021_WC binds \"Daniel Alfonso PACHECO CIPAGAUTA\" to 69203 (MAINTAINER_ANSWERS_2026-10-23 Rule 3). The ICF list has no CIPAGAUTA and one COL Daniel PACHECO (69203). PWW profile 69203 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 1000m Heats rank 5 00:04:05.66 = this row (C2 M 1000 heat, rank 5, 4:05.66). No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 683,
+      "seat": "ICF_ID2",
+      "printed": "Daniel CIPAGAUTA",
+      "icf_id": "69203",
+      "profile_name": "Daniel PACHECO",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Daniel CIPAGAUTA\\\" (COL, 6 seats) is PACHECO Daniel 69203, born 1998-05-27 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69203 PACHECO Daniel, COL, M, born 1998-05-27 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Pacheco Cipagauta; maintainer photo tag \"pacheco cipagauta daniel alfonso\"): printed \"Daniel CIPAGAUTA\" -> ICF \"Daniel PACHECO\"; given name DANIEL passes the token rule. Barnaul_2021_WC binds \"Daniel Alfonso PACHECO CIPAGAUTA\" to 69203 (MAINTAINER_ANSWERS_2026-10-23 Rule 3). The ICF list has no CIPAGAUTA and one COL Daniel PACHECO (69203). PWW profile 69203 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 500m Semifinal rank 7 00:01:49.65 = this row (C2 M 500 semifinal, rank 7, 1:49.65). No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 915,
+      "seat": "ICF_ID2",
+      "printed": "Daniel CIPAGAUTA",
+      "icf_id": "69203",
+      "profile_name": "Daniel PACHECO",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Daniel CIPAGAUTA\\\" (COL, 6 seats) is PACHECO Daniel 69203, born 1998-05-27 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69203 PACHECO Daniel, COL, M, born 1998-05-27 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Pacheco Cipagauta; maintainer photo tag \"pacheco cipagauta daniel alfonso\"): printed \"Daniel CIPAGAUTA\" -> ICF \"Daniel PACHECO\"; given name DANIEL passes the token rule. Barnaul_2021_WC binds \"Daniel Alfonso PACHECO CIPAGAUTA\" to 69203 (MAINTAINER_ANSWERS_2026-10-23 Rule 3). The ICF list has no CIPAGAUTA and one COL Daniel PACHECO (69203). PWW profile 69203 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 1000m Semifinal rank 2 00:03:57.84 = this row (C2 M 1000 semifinal, rank 2, 3:57.84). No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 1144,
+      "seat": "ICF_ID2",
+      "printed": "Daniel CIPAGAUTA",
+      "icf_id": "69203",
+      "profile_name": "Daniel PACHECO",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Daniel CIPAGAUTA\\\" (COL, 6 seats) is PACHECO Daniel 69203, born 1998-05-27 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69203 PACHECO Daniel, COL, M, born 1998-05-27 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Pacheco Cipagauta; maintainer photo tag \"pacheco cipagauta daniel alfonso\"): printed \"Daniel CIPAGAUTA\" -> ICF \"Daniel PACHECO\"; given name DANIEL passes the token rule. Barnaul_2021_WC binds \"Daniel Alfonso PACHECO CIPAGAUTA\" to 69203 (MAINTAINER_ANSWERS_2026-10-23 Rule 3). The ICF list has no CIPAGAUTA and one COL Daniel PACHECO (69203). PWW profile 69203 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 500m Final rank 8 00:02:00.18 = this row (C2 M 500 final, rank 8, 2:00.18). No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 1308,
+      "seat": "ICF_ID2",
+      "printed": "Daniel CIPAGAUTA",
+      "icf_id": "69203",
+      "profile_name": "Daniel PACHECO",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Daniel CIPAGAUTA\\\" (COL, 6 seats) is PACHECO Daniel 69203, born 1998-05-27 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69203 PACHECO Daniel, COL, M, born 1998-05-27 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Pacheco Cipagauta; maintainer photo tag \"pacheco cipagauta daniel alfonso\"): printed \"Daniel CIPAGAUTA\" -> ICF \"Daniel PACHECO\"; given name DANIEL passes the token rule. Barnaul_2021_WC binds \"Daniel Alfonso PACHECO CIPAGAUTA\" to 69203 (MAINTAINER_ANSWERS_2026-10-23 Rule 3). The ICF list has no CIPAGAUTA and one COL Daniel PACHECO (69203). PWW profile 69203 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 1000m Final rank 8 00:04:18.65 = this row (C2 M 1000 final, rank 8, 4:18.65). No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
     }
   ],
   "boats_restored_log": [
@@ -31695,7 +32122,517 @@
     }
   ],
   "nation_change_log": [],
-  "corrections_log": [],
+  "corrections_log": [
+    {
+      "results_row": 243,
+      "seat": "ICF_ID1",
+      "printed": "Isaquias SANTOS",
+      "team": "BRA",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "42767",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Isaquias SANTOS\\\" (BRA, 5 seats) is GUIMARAES QUEIROZ Isaquias 42767, born 1994-01-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 42767 GUIMARAES QUEIROZ Isaquias, BRA, M, born 1994-01-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Isaquias SANTOS\" -> ICF \"Isaquias GUIMARAES QUEIROZ\"; given name ISAQUIAS passes the token rule. No other athlete in the ICF list carries the given name Isaquias. The same desk binds \"Isaquias QUEIROZ DOS SANTOS\" to 42767 on Duisburg_2013_WCH, Duisburg_2015_WC and Duisburg_2016_WC (profile-listed). PWW profile 42767 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 500m Heats rank 1 00:01:52.70 = this row (C1 M 500 heat, rank 1, 1:52.70). No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "42767",
+        "name": "Isaquias GUIMARAES QUEIROZ",
+        "birth_date": "1994-01-03",
+        "nationality": "BRA",
+        "federation": "BRA",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:18Z"
+    },
+    {
+      "results_row": 438,
+      "seat": "ICF_ID1",
+      "printed": "Isaquias SANTOS",
+      "team": "BRA",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "42767",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Isaquias SANTOS\\\" (BRA, 5 seats) is GUIMARAES QUEIROZ Isaquias 42767, born 1994-01-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 42767 GUIMARAES QUEIROZ Isaquias, BRA, M, born 1994-01-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Isaquias SANTOS\" -> ICF \"Isaquias GUIMARAES QUEIROZ\"; given name ISAQUIAS passes the token rule. No other athlete in the ICF list carries the given name Isaquias. The same desk binds \"Isaquias QUEIROZ DOS SANTOS\" to 42767 on Duisburg_2013_WCH, Duisburg_2015_WC and Duisburg_2016_WC (profile-listed). PWW profile 42767 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 1000m Heats rank 2 00:03:59.71 = this row (C1 M 1000 heat, rank 2, 3:59.71). No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "42767",
+        "name": "Isaquias GUIMARAES QUEIROZ",
+        "birth_date": "1994-01-03",
+        "nationality": "BRA",
+        "federation": "BRA",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:18Z"
+    },
+    {
+      "results_row": 890,
+      "seat": "ICF_ID1",
+      "printed": "Isaquias SANTOS",
+      "team": "BRA",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "42767",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Isaquias SANTOS\\\" (BRA, 5 seats) is GUIMARAES QUEIROZ Isaquias 42767, born 1994-01-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 42767 GUIMARAES QUEIROZ Isaquias, BRA, M, born 1994-01-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Isaquias SANTOS\" -> ICF \"Isaquias GUIMARAES QUEIROZ\"; given name ISAQUIAS passes the token rule. No other athlete in the ICF list carries the given name Isaquias. The same desk binds \"Isaquias QUEIROZ DOS SANTOS\" to 42767 on Duisburg_2013_WCH, Duisburg_2015_WC and Duisburg_2016_WC (profile-listed). PWW profile 42767 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 1000m Semifinal rank 1 00:04:09.37 = this row (C1 M 1000 semifinal, rank 1, 4:09.37). No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "42767",
+        "name": "Isaquias GUIMARAES QUEIROZ",
+        "birth_date": "1994-01-03",
+        "nationality": "BRA",
+        "federation": "BRA",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:18Z"
+    },
+    {
+      "results_row": 1103,
+      "seat": "ICF_ID1",
+      "printed": "Isaquias SANTOS",
+      "team": "BRA",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "42767",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Isaquias SANTOS\\\" (BRA, 5 seats) is GUIMARAES QUEIROZ Isaquias 42767, born 1994-01-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 42767 GUIMARAES QUEIROZ Isaquias, BRA, M, born 1994-01-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Isaquias SANTOS\" -> ICF \"Isaquias GUIMARAES QUEIROZ\"; given name ISAQUIAS passes the token rule. No other athlete in the ICF list carries the given name Isaquias. The same desk binds \"Isaquias QUEIROZ DOS SANTOS\" to 42767 on Duisburg_2013_WCH, Duisburg_2015_WC and Duisburg_2016_WC (profile-listed). PWW profile 42767 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 500m Final rank 1 00:01:54.49 = this row (C1 M 500 final, rank 1, 1:54.49). No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "42767",
+        "name": "Isaquias GUIMARAES QUEIROZ",
+        "birth_date": "1994-01-03",
+        "nationality": "BRA",
+        "federation": "BRA",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:18Z"
+    },
+    {
+      "results_row": 1266,
+      "seat": "ICF_ID1",
+      "printed": "Isaquias SANTOS",
+      "team": "BRA",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "42767",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Isaquias SANTOS\\\" (BRA, 5 seats) is GUIMARAES QUEIROZ Isaquias 42767, born 1994-01-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 42767 GUIMARAES QUEIROZ Isaquias, BRA, M, born 1994-01-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Isaquias SANTOS\" -> ICF \"Isaquias GUIMARAES QUEIROZ\"; given name ISAQUIAS passes the token rule. No other athlete in the ICF list carries the given name Isaquias. The same desk binds \"Isaquias QUEIROZ DOS SANTOS\" to 42767 on Duisburg_2013_WCH, Duisburg_2015_WC and Duisburg_2016_WC (profile-listed). PWW profile 42767 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 1000m Final rank 2 00:04:15.80 = this row (C1 M 1000 final, rank 2, 4:15.80). No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "42767",
+        "name": "Isaquias GUIMARAES QUEIROZ",
+        "birth_date": "1994-01-03",
+        "nationality": "BRA",
+        "federation": "BRA",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:18Z"
+    },
+    {
+      "results_row": 14,
+      "seat": "ICF_ID1",
+      "printed": "Alejandro RAMIREZ",
+      "team": "COL",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "69215",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Alejandro RAMIREZ\\\" (COL, 9 seats) is RODRIGUEZ Alejandro 69215, born 1996-11-17 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69215 RODRIGUEZ Alejandro, COL, M, born 1996-11-17 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Rodriguez Ramirez; maintainer photo tag \"rodriguez ramirez alejandro\"): printed \"Alejandro RAMIREZ\" -> ICF \"Alejandro RODRIGUEZ\"; given name ALEJANDRO passes the token rule. The ICF list has no COL Alejandro RAMIREZ (only COL RAMIREZ: 167359 Cristian Fernando AVILA RAMIREZ, born 2006) and one COL Alejandro RODRIGUEZ (69215). PWW profile 69215 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 200m Heats rank 5 00:00:41.99 = this row (C1 M 200 heat, rank 5, 41.99). No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "69215",
+        "name": "Alejandro RODRIGUEZ",
+        "birth_date": "1996-11-17",
+        "nationality": "COL",
+        "federation": "COL",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:18Z"
+    },
+    {
+      "results_row": 127,
+      "seat": "ICF_ID1",
+      "printed": "Alejandro RAMIREZ",
+      "team": "COL",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "69215",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Alejandro RAMIREZ\\\" (COL, 9 seats) is RODRIGUEZ Alejandro 69215, born 1996-11-17 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69215 RODRIGUEZ Alejandro, COL, M, born 1996-11-17 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Rodriguez Ramirez; maintainer photo tag \"rodriguez ramirez alejandro\"): printed \"Alejandro RAMIREZ\" -> ICF \"Alejandro RODRIGUEZ\"; given name ALEJANDRO passes the token rule. The ICF list has no COL Alejandro RAMIREZ (only COL RAMIREZ: 167359 Cristian Fernando AVILA RAMIREZ, born 2006) and one COL Alejandro RODRIGUEZ (69215). PWW profile 69215 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 500m Heats rank 5 00:01:49.41 = this row (C2 M 500 heat, rank 5, 1:49.41). No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "69215",
+        "name": "Alejandro RODRIGUEZ",
+        "birth_date": "1996-11-17",
+        "nationality": "COL",
+        "federation": "COL",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:18Z"
+    },
+    {
+      "results_row": 490,
+      "seat": "ICF_ID1",
+      "printed": "Alejandro RAMIREZ",
+      "team": "COL",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "69215",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Alejandro RAMIREZ\\\" (COL, 9 seats) is RODRIGUEZ Alejandro 69215, born 1996-11-17 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69215 RODRIGUEZ Alejandro, COL, M, born 1996-11-17 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Rodriguez Ramirez; maintainer photo tag \"rodriguez ramirez alejandro\"): printed \"Alejandro RAMIREZ\" -> ICF \"Alejandro RODRIGUEZ\"; given name ALEJANDRO passes the token rule. The ICF list has no COL Alejandro RAMIREZ (only COL RAMIREZ: 167359 Cristian Fernando AVILA RAMIREZ, born 2006) and one COL Alejandro RODRIGUEZ (69215). PWW profile 69215 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 1000m Heats rank 5 00:04:05.66 = this row (C2 M 1000 heat, rank 5, 4:05.66). No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "69215",
+        "name": "Alejandro RODRIGUEZ",
+        "birth_date": "1996-11-17",
+        "nationality": "COL",
+        "federation": "COL",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:18Z"
+    },
+    {
+      "results_row": 630,
+      "seat": "ICF_ID1",
+      "printed": "Alejandro RAMIREZ",
+      "team": "COL",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "69215",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Alejandro RAMIREZ\\\" (COL, 9 seats) is RODRIGUEZ Alejandro 69215, born 1996-11-17 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69215 RODRIGUEZ Alejandro, COL, M, born 1996-11-17 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Rodriguez Ramirez; maintainer photo tag \"rodriguez ramirez alejandro\"): printed \"Alejandro RAMIREZ\" -> ICF \"Alejandro RODRIGUEZ\"; given name ALEJANDRO passes the token rule. The ICF list has no COL Alejandro RAMIREZ (only COL RAMIREZ: 167359 Cristian Fernando AVILA RAMIREZ, born 2006) and one COL Alejandro RODRIGUEZ (69215). PWW profile 69215 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 200m Semifinal rank 5 00:00:43.22 = this row (C1 M 200 semifinal, rank 5, 43.22). No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "69215",
+        "name": "Alejandro RODRIGUEZ",
+        "birth_date": "1996-11-17",
+        "nationality": "COL",
+        "federation": "COL",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:18Z"
+    },
+    {
+      "results_row": 683,
+      "seat": "ICF_ID1",
+      "printed": "Alejandro RAMIREZ",
+      "team": "COL",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "69215",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Alejandro RAMIREZ\\\" (COL, 9 seats) is RODRIGUEZ Alejandro 69215, born 1996-11-17 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69215 RODRIGUEZ Alejandro, COL, M, born 1996-11-17 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Rodriguez Ramirez; maintainer photo tag \"rodriguez ramirez alejandro\"): printed \"Alejandro RAMIREZ\" -> ICF \"Alejandro RODRIGUEZ\"; given name ALEJANDRO passes the token rule. The ICF list has no COL Alejandro RAMIREZ (only COL RAMIREZ: 167359 Cristian Fernando AVILA RAMIREZ, born 2006) and one COL Alejandro RODRIGUEZ (69215). PWW profile 69215 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 500m Semifinal rank 7 00:01:49.65 = this row (C2 M 500 semifinal, rank 7, 1:49.65). No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "69215",
+        "name": "Alejandro RODRIGUEZ",
+        "birth_date": "1996-11-17",
+        "nationality": "COL",
+        "federation": "COL",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:18Z"
+    },
+    {
+      "results_row": 915,
+      "seat": "ICF_ID1",
+      "printed": "Alejandro RAMIREZ",
+      "team": "COL",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "69215",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Alejandro RAMIREZ\\\" (COL, 9 seats) is RODRIGUEZ Alejandro 69215, born 1996-11-17 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69215 RODRIGUEZ Alejandro, COL, M, born 1996-11-17 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Rodriguez Ramirez; maintainer photo tag \"rodriguez ramirez alejandro\"): printed \"Alejandro RAMIREZ\" -> ICF \"Alejandro RODRIGUEZ\"; given name ALEJANDRO passes the token rule. The ICF list has no COL Alejandro RAMIREZ (only COL RAMIREZ: 167359 Cristian Fernando AVILA RAMIREZ, born 2006) and one COL Alejandro RODRIGUEZ (69215). PWW profile 69215 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 1000m Semifinal rank 2 00:03:57.84 = this row (C2 M 1000 semifinal, rank 2, 3:57.84). No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "69215",
+        "name": "Alejandro RODRIGUEZ",
+        "birth_date": "1996-11-17",
+        "nationality": "COL",
+        "federation": "COL",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:18Z"
+    },
+    {
+      "results_row": 1144,
+      "seat": "ICF_ID1",
+      "printed": "Alejandro RAMIREZ",
+      "team": "COL",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "69215",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Alejandro RAMIREZ\\\" (COL, 9 seats) is RODRIGUEZ Alejandro 69215, born 1996-11-17 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69215 RODRIGUEZ Alejandro, COL, M, born 1996-11-17 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Rodriguez Ramirez; maintainer photo tag \"rodriguez ramirez alejandro\"): printed \"Alejandro RAMIREZ\" -> ICF \"Alejandro RODRIGUEZ\"; given name ALEJANDRO passes the token rule. The ICF list has no COL Alejandro RAMIREZ (only COL RAMIREZ: 167359 Cristian Fernando AVILA RAMIREZ, born 2006) and one COL Alejandro RODRIGUEZ (69215). PWW profile 69215 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 500m Final rank 8 00:02:00.18 = this row (C2 M 500 final, rank 8, 2:00.18). No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "69215",
+        "name": "Alejandro RODRIGUEZ",
+        "birth_date": "1996-11-17",
+        "nationality": "COL",
+        "federation": "COL",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:18Z"
+    },
+    {
+      "results_row": 1308,
+      "seat": "ICF_ID1",
+      "printed": "Alejandro RAMIREZ",
+      "team": "COL",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "69215",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Alejandro RAMIREZ\\\" (COL, 9 seats) is RODRIGUEZ Alejandro 69215, born 1996-11-17 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69215 RODRIGUEZ Alejandro, COL, M, born 1996-11-17 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Rodriguez Ramirez; maintainer photo tag \"rodriguez ramirez alejandro\"): printed \"Alejandro RAMIREZ\" -> ICF \"Alejandro RODRIGUEZ\"; given name ALEJANDRO passes the token rule. The ICF list has no COL Alejandro RAMIREZ (only COL RAMIREZ: 167359 Cristian Fernando AVILA RAMIREZ, born 2006) and one COL Alejandro RODRIGUEZ (69215). PWW profile 69215 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 1000m Final rank 8 00:04:18.65 = this row (C2 M 1000 final, rank 8, 4:18.65). No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "69215",
+        "name": "Alejandro RODRIGUEZ",
+        "birth_date": "1996-11-17",
+        "nationality": "COL",
+        "federation": "COL",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:18Z"
+    },
+    {
+      "results_row": 1342,
+      "seat": "ICF_ID1",
+      "printed": "Alejandro RAMIREZ",
+      "team": "COL",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "69215",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Alejandro RAMIREZ\\\" (COL, 9 seats) is RODRIGUEZ Alejandro 69215, born 1996-11-17 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69215 RODRIGUEZ Alejandro, COL, M, born 1996-11-17 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Rodriguez Ramirez; maintainer photo tag \"rodriguez ramirez alejandro\"): printed \"Alejandro RAMIREZ\" -> ICF \"Alejandro RODRIGUEZ\"; given name ALEJANDRO passes the token rule. The ICF list has no COL Alejandro RAMIREZ (only COL RAMIREZ: 167359 Cristian Fernando AVILA RAMIREZ, born 2006) and one COL Alejandro RODRIGUEZ (69215). PWW profile 69215 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Mixed 500m Final rank null DNS = this row (C2 X 500 final, rank -, DNS). Crew: ICF_ID2 79159 profile lists the same race and time. No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "69215",
+        "name": "Alejandro RODRIGUEZ",
+        "birth_date": "1996-11-17",
+        "nationality": "COL",
+        "federation": "COL",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:18Z"
+    },
+    {
+      "results_row": 127,
+      "seat": "ICF_ID2",
+      "printed": "Daniel CIPAGAUTA",
+      "team": "COL",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "69203",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Daniel CIPAGAUTA\\\" (COL, 6 seats) is PACHECO Daniel 69203, born 1998-05-27 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69203 PACHECO Daniel, COL, M, born 1998-05-27 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Pacheco Cipagauta; maintainer photo tag \"pacheco cipagauta daniel alfonso\"): printed \"Daniel CIPAGAUTA\" -> ICF \"Daniel PACHECO\"; given name DANIEL passes the token rule. Barnaul_2021_WC binds \"Daniel Alfonso PACHECO CIPAGAUTA\" to 69203 (MAINTAINER_ANSWERS_2026-10-23 Rule 3). The ICF list has no CIPAGAUTA and one COL Daniel PACHECO (69203). PWW profile 69203 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 500m Heats rank 5 00:01:49.41 = this row (C2 M 500 heat, rank 5, 1:49.41). No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "69203",
+        "name": "Daniel PACHECO",
+        "birth_date": "1998-05-27",
+        "nationality": "COL",
+        "federation": "COL",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:18Z"
+    },
+    {
+      "results_row": 490,
+      "seat": "ICF_ID2",
+      "printed": "Daniel CIPAGAUTA",
+      "team": "COL",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "69203",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Daniel CIPAGAUTA\\\" (COL, 6 seats) is PACHECO Daniel 69203, born 1998-05-27 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69203 PACHECO Daniel, COL, M, born 1998-05-27 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Pacheco Cipagauta; maintainer photo tag \"pacheco cipagauta daniel alfonso\"): printed \"Daniel CIPAGAUTA\" -> ICF \"Daniel PACHECO\"; given name DANIEL passes the token rule. Barnaul_2021_WC binds \"Daniel Alfonso PACHECO CIPAGAUTA\" to 69203 (MAINTAINER_ANSWERS_2026-10-23 Rule 3). The ICF list has no CIPAGAUTA and one COL Daniel PACHECO (69203). PWW profile 69203 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 1000m Heats rank 5 00:04:05.66 = this row (C2 M 1000 heat, rank 5, 4:05.66). No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "69203",
+        "name": "Daniel PACHECO",
+        "birth_date": "1998-05-27",
+        "nationality": "COL",
+        "federation": "COL",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:18Z"
+    },
+    {
+      "results_row": 683,
+      "seat": "ICF_ID2",
+      "printed": "Daniel CIPAGAUTA",
+      "team": "COL",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "69203",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Daniel CIPAGAUTA\\\" (COL, 6 seats) is PACHECO Daniel 69203, born 1998-05-27 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69203 PACHECO Daniel, COL, M, born 1998-05-27 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Pacheco Cipagauta; maintainer photo tag \"pacheco cipagauta daniel alfonso\"): printed \"Daniel CIPAGAUTA\" -> ICF \"Daniel PACHECO\"; given name DANIEL passes the token rule. Barnaul_2021_WC binds \"Daniel Alfonso PACHECO CIPAGAUTA\" to 69203 (MAINTAINER_ANSWERS_2026-10-23 Rule 3). The ICF list has no CIPAGAUTA and one COL Daniel PACHECO (69203). PWW profile 69203 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 500m Semifinal rank 7 00:01:49.65 = this row (C2 M 500 semifinal, rank 7, 1:49.65). No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "69203",
+        "name": "Daniel PACHECO",
+        "birth_date": "1998-05-27",
+        "nationality": "COL",
+        "federation": "COL",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:18Z"
+    },
+    {
+      "results_row": 915,
+      "seat": "ICF_ID2",
+      "printed": "Daniel CIPAGAUTA",
+      "team": "COL",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "69203",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Daniel CIPAGAUTA\\\" (COL, 6 seats) is PACHECO Daniel 69203, born 1998-05-27 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69203 PACHECO Daniel, COL, M, born 1998-05-27 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Pacheco Cipagauta; maintainer photo tag \"pacheco cipagauta daniel alfonso\"): printed \"Daniel CIPAGAUTA\" -> ICF \"Daniel PACHECO\"; given name DANIEL passes the token rule. Barnaul_2021_WC binds \"Daniel Alfonso PACHECO CIPAGAUTA\" to 69203 (MAINTAINER_ANSWERS_2026-10-23 Rule 3). The ICF list has no CIPAGAUTA and one COL Daniel PACHECO (69203). PWW profile 69203 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 1000m Semifinal rank 2 00:03:57.84 = this row (C2 M 1000 semifinal, rank 2, 3:57.84). No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "69203",
+        "name": "Daniel PACHECO",
+        "birth_date": "1998-05-27",
+        "nationality": "COL",
+        "federation": "COL",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:18Z"
+    },
+    {
+      "results_row": 1144,
+      "seat": "ICF_ID2",
+      "printed": "Daniel CIPAGAUTA",
+      "team": "COL",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "69203",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Daniel CIPAGAUTA\\\" (COL, 6 seats) is PACHECO Daniel 69203, born 1998-05-27 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69203 PACHECO Daniel, COL, M, born 1998-05-27 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Pacheco Cipagauta; maintainer photo tag \"pacheco cipagauta daniel alfonso\"): printed \"Daniel CIPAGAUTA\" -> ICF \"Daniel PACHECO\"; given name DANIEL passes the token rule. Barnaul_2021_WC binds \"Daniel Alfonso PACHECO CIPAGAUTA\" to 69203 (MAINTAINER_ANSWERS_2026-10-23 Rule 3). The ICF list has no CIPAGAUTA and one COL Daniel PACHECO (69203). PWW profile 69203 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 500m Final rank 8 00:02:00.18 = this row (C2 M 500 final, rank 8, 2:00.18). No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "69203",
+        "name": "Daniel PACHECO",
+        "birth_date": "1998-05-27",
+        "nationality": "COL",
+        "federation": "COL",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:18Z"
+    },
+    {
+      "results_row": 1308,
+      "seat": "ICF_ID2",
+      "printed": "Daniel CIPAGAUTA",
+      "team": "COL",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "69203",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Daniel CIPAGAUTA\\\" (COL, 6 seats) is PACHECO Daniel 69203, born 1998-05-27 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 69203 PACHECO Daniel, COL, M, born 1998-05-27 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link (compound surname Pacheco Cipagauta; maintainer photo tag \"pacheco cipagauta daniel alfonso\"): printed \"Daniel CIPAGAUTA\" -> ICF \"Daniel PACHECO\"; given name DANIEL passes the token rule. Barnaul_2021_WC binds \"Daniel Alfonso PACHECO CIPAGAUTA\" to 69203 (MAINTAINER_ANSWERS_2026-10-23 Rule 3). The ICF list has no CIPAGAUTA and one COL Daniel PACHECO (69203). PWW profile 69203 lists 2022 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 1000m Final rank 8 00:04:18.65 = this row (C2 M 1000 final, rank 8, 4:18.65). No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "69203",
+        "name": "Daniel PACHECO",
+        "birth_date": "1998-05-27",
+        "nationality": "COL",
+        "federation": "COL",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:18Z"
+    },
+    {
+      "results_row": 75,
+      "seat": "ICF_ID4",
+      "printed": "Anna MUS",
+      "team": "NED",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "104732",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4; exception for 104732 only (supersedes the no_icf_id answer)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\" Exception (this athlete only, t117u item 4): 104732 has no PWW profile (paddleworldwide.com/athlete/104732 HTTP 404, fetched 2026-11-03) and is not in the ICF athlete list (bence, fetched 2026-11-03); the contract and the gates are unchanged; the seat passes the gates through the existing manifest name_check_fail_log (maintainer 2026-10-16 10:39). This source prints no id; the printed name, NOC NED and gender W are the same as on her Poznań 2022/2023/2024 seats, where the ICF results print 104732. Row: K4 W 500 heat unit 2 race 19 lane 8, rank 7, 1:41.51; crew ICF_ID2=78956, ICF_ID3=95045.",
+      "previous_record": null,
+      "new_record": {
+        "id": "104732",
+        "name": "Anna MUS",
+        "birth_date": null,
+        "nationality": null,
+        "federation": null,
+        "gender": "W",
+        "note": "no ICF/PWW record (HTTP 404, not in ICF list); name, NOC and gender as printed"
+      },
+      "logged_at_utc": "2026-11-03T11:38:44Z"
+    },
+    {
+      "results_row": 642,
+      "seat": "ICF_ID4",
+      "printed": "Anna MUS",
+      "team": "NED",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "104732",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4; exception for 104732 only (supersedes the no_icf_id answer)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\" Exception (this athlete only, t117u item 4): 104732 has no PWW profile (paddleworldwide.com/athlete/104732 HTTP 404, fetched 2026-11-03) and is not in the ICF athlete list (bence, fetched 2026-11-03); the contract and the gates are unchanged; the seat passes the gates through the existing manifest name_check_fail_log (maintainer 2026-10-16 10:39). This source prints no id; the printed name, NOC NED and gender W are the same as on her Poznań 2022/2023/2024 seats, where the ICF results print 104732. Row: K4 W 500 semifinal unit 1 race 115 lane 1, rank 8, 1:41.98; crew ICF_ID2=78956, ICF_ID3=95045.",
+      "previous_record": null,
+      "new_record": {
+        "id": "104732",
+        "name": "Anna MUS",
+        "birth_date": null,
+        "nationality": null,
+        "federation": null,
+        "gender": "W",
+        "note": "no ICF/PWW record (HTTP 404, not in ICF list); name, NOC and gender as printed"
+      },
+      "logged_at_utc": "2026-11-03T11:38:44Z"
+    },
+    {
+      "results_row": 1368,
+      "seat": "ICF_ID1",
+      "printed": "Anna MUS",
+      "team": "NED",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "104732",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4; exception for 104732 only (supersedes the no_icf_id answer)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\" Exception (this athlete only, t117u item 4): 104732 has no PWW profile (paddleworldwide.com/athlete/104732 HTTP 404, fetched 2026-11-03) and is not in the ICF athlete list (bence, fetched 2026-11-03); the contract and the gates are unchanged; the seat passes the gates through the existing manifest name_check_fail_log (maintainer 2026-10-16 10:39). This source prints no id; the printed name, NOC NED and gender W are the same as on her Poznań 2022/2023/2024 seats, where the ICF results print 104732. Row: K1 W 5000 final unit A race 207 lane 4, rank -, DNF; crew none.",
+      "previous_record": null,
+      "new_record": {
+        "id": "104732",
+        "name": "Anna MUS",
+        "birth_date": null,
+        "nationality": null,
+        "federation": null,
+        "gender": "W",
+        "note": "no ICF/PWW record (HTTP 404, not in ICF list); name, NOC and gender as printed"
+      },
+      "logged_at_utc": "2026-11-03T11:38:44Z"
+    }
+  ],
   "log_corrections": [
     {
       "kind": "log",
@@ -31714,6 +32651,215 @@
         "name_bound_check.t60_ru166.rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 age rule first + sole-candidate keep + cross-country review (PADDLETAGGER_CONTRACT.md Name-bound ids item 4(a), Under-14 rule and NOC check; now with the RU168 rulings of MAINTAINER_ANSWERS_2026-10-24b and ruling 4 as amended, 2026-10-24c)"
       },
       "rule": "MAINTAINER_ANSWERS_2026-10-25c item 1: the run's rule note cited the superseded under-14 rule as replaced; re-pointed to the governing contract text; the run's counts unchanged; MAINTAINER_ANSWERS_2026-10-25c: correction of the log, not of a seat (no id change)"
+    },
+    {
+      "kind": "log",
+      "action": "superseded_ruling",
+      "previous_rule": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id)",
+      "new_rule": "MAINTAINER_ANSWERS_2026-11-03 t116u",
+      "detail": "t116u: the 2026-10-23 Kind F answer (0 matching records for Isaquias SANTOS) is superseded; 42767 confirmed from the ICF list and PWW profile per seat (see id_checks evidence). MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Isaquias SANTOS\\\" (BRA, 5 seats) is GUIMARAES QUEIROZ Isaquias 42767, born 1994-01-03 [...] Please confirm each from the ICF's own records before binding.\"",
+      "rows": [
+        {
+          "results_row": 243,
+          "seat": "ICF_ID1"
+        },
+        {
+          "results_row": 438,
+          "seat": "ICF_ID1"
+        },
+        {
+          "results_row": 890,
+          "seat": "ICF_ID1"
+        },
+        {
+          "results_row": 1103,
+          "seat": "ICF_ID1"
+        },
+        {
+          "results_row": 1266,
+          "seat": "ICF_ID1"
+        }
+      ],
+      "seat_changes": 5,
+      "persons_added": "42767 Isaquias / SANTOS (printed spelling)",
+      "logged_at_utc": "2026-11-03T10:24:18Z"
+    },
+    {
+      "kind": "log",
+      "action": "superseded_ruling",
+      "previous_rule": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id)",
+      "new_rule": "MAINTAINER_ANSWERS_2026-11-03 t116u",
+      "detail": "t116u: the 2026-10-23 Kind F answer (0 matching records for Alejandro RAMIREZ) is superseded; 69215 confirmed from the ICF list and PWW profile per seat (see id_checks evidence). MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Alejandro RAMIREZ\\\" (COL, 9 seats) is RODRIGUEZ Alejandro 69215, born 1996-11-17 [...] Please confirm each from the ICF's own records before binding.\"",
+      "rows": [
+        {
+          "results_row": 14,
+          "seat": "ICF_ID1"
+        },
+        {
+          "results_row": 127,
+          "seat": "ICF_ID1"
+        },
+        {
+          "results_row": 490,
+          "seat": "ICF_ID1"
+        },
+        {
+          "results_row": 630,
+          "seat": "ICF_ID1"
+        },
+        {
+          "results_row": 683,
+          "seat": "ICF_ID1"
+        },
+        {
+          "results_row": 915,
+          "seat": "ICF_ID1"
+        },
+        {
+          "results_row": 1144,
+          "seat": "ICF_ID1"
+        },
+        {
+          "results_row": 1308,
+          "seat": "ICF_ID1"
+        },
+        {
+          "results_row": 1342,
+          "seat": "ICF_ID1"
+        }
+      ],
+      "seat_changes": 9,
+      "persons_added": "69215 Alejandro / RAMIREZ (printed spelling)",
+      "logged_at_utc": "2026-11-03T10:24:18Z"
+    },
+    {
+      "kind": "log",
+      "action": "superseded_ruling",
+      "previous_rule": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id)",
+      "new_rule": "MAINTAINER_ANSWERS_2026-11-03 t116u",
+      "detail": "t116u: the 2026-10-23 Kind F answer (0 matching records for Daniel CIPAGAUTA) is superseded; 69203 confirmed from the ICF list and PWW profile per seat (see id_checks evidence). MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Daniel CIPAGAUTA\\\" (COL, 6 seats) is PACHECO Daniel 69203, born 1998-05-27 [...] Please confirm each from the ICF's own records before binding.\"",
+      "rows": [
+        {
+          "results_row": 127,
+          "seat": "ICF_ID2"
+        },
+        {
+          "results_row": 490,
+          "seat": "ICF_ID2"
+        },
+        {
+          "results_row": 683,
+          "seat": "ICF_ID2"
+        },
+        {
+          "results_row": 915,
+          "seat": "ICF_ID2"
+        },
+        {
+          "results_row": 1144,
+          "seat": "ICF_ID2"
+        },
+        {
+          "results_row": 1308,
+          "seat": "ICF_ID2"
+        }
+      ],
+      "seat_changes": 6,
+      "persons_added": "69203 Daniel / CIPAGAUTA (printed spelling)",
+      "logged_at_utc": "2026-11-03T10:24:18Z"
+    },
+    {
+      "kind": "log",
+      "field": "sheets.PERSONS.rows",
+      "previous": 545,
+      "new": 589,
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t115u/t116u binds: 3 PERSONS row(s) added (42767 Isaquias / SANTOS (printed spelling); 69215 Alejandro / RAMIREZ (printed spelling); 69203 Daniel / CIPAGAUTA (printed spelling)); the previous logged value 545 did not match the sheet (586 data rows on main before this change); correction of the log",
+      "logged_at_utc": "2026-11-03T10:24:18Z"
+    },
+    {
+      "kind": "log",
+      "action": "superseded_ruling",
+      "previous_rule": "no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F / 2026-10-27 item B4)",
+      "new_rule": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4",
+      "detail": "t117u item 4: the earlier no_icf_id answer for Anna MUS is superseded; 104732 bound on 3 seat(s) as a logged exception (no ICF/PWW record); gates pass via name_check_fail_log. MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\"",
+      "rows": [
+        {
+          "results_row": 75,
+          "seat": "ICF_ID4"
+        },
+        {
+          "results_row": 642,
+          "seat": "ICF_ID4"
+        },
+        {
+          "results_row": 1368,
+          "seat": "ICF_ID1"
+        }
+      ],
+      "seat_changes": 3,
+      "persons_added": "104732 Anna / MUS (printed spelling)",
+      "logged_at_utc": "2026-11-03T11:38:44Z"
+    },
+    {
+      "kind": "log",
+      "field": "sheets.PERSONS.rows",
+      "previous": 589,
+      "new": 590,
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4: PERSONS row added (104732 Anna / MUS (printed spelling))",
+      "logged_at_utc": "2026-11-03T11:38:44Z"
+    }
+  ],
+  "id_exception_log": [
+    {
+      "results_row": 75,
+      "seat": "ICF_ID4",
+      "printed": "Anna MUS",
+      "team": "NED",
+      "id": "104732",
+      "exception": "maintainer-ruled bind of an id with no ICF/PWW record (this athlete only)",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4",
+      "gate_mechanism": "name_check_fail_log (existing; gates unchanged)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\" Exception (this athlete only, t117u item 4): 104732 has no PWW profile (paddleworldwide.com/athlete/104732 HTTP 404, fetched 2026-11-03) and is not in the ICF athlete list (bence, fetched 2026-11-03); the contract and the gates are unchanged; the seat passes the gates through the existing manifest name_check_fail_log (maintainer 2026-10-16 10:39). This source prints no id; the printed name, NOC NED and gender W are the same as on her Poznań 2022/2023/2024 seats, where the ICF results print 104732. Row: K4 W 500 heat unit 2 race 19 lane 8, rank 7, 1:41.51; crew ICF_ID2=78956, ICF_ID3=95045.",
+      "logged_at_utc": "2026-11-03T11:38:44Z"
+    },
+    {
+      "results_row": 642,
+      "seat": "ICF_ID4",
+      "printed": "Anna MUS",
+      "team": "NED",
+      "id": "104732",
+      "exception": "maintainer-ruled bind of an id with no ICF/PWW record (this athlete only)",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4",
+      "gate_mechanism": "name_check_fail_log (existing; gates unchanged)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\" Exception (this athlete only, t117u item 4): 104732 has no PWW profile (paddleworldwide.com/athlete/104732 HTTP 404, fetched 2026-11-03) and is not in the ICF athlete list (bence, fetched 2026-11-03); the contract and the gates are unchanged; the seat passes the gates through the existing manifest name_check_fail_log (maintainer 2026-10-16 10:39). This source prints no id; the printed name, NOC NED and gender W are the same as on her Poznań 2022/2023/2024 seats, where the ICF results print 104732. Row: K4 W 500 semifinal unit 1 race 115 lane 1, rank 8, 1:41.98; crew ICF_ID2=78956, ICF_ID3=95045.",
+      "logged_at_utc": "2026-11-03T11:38:44Z"
+    },
+    {
+      "results_row": 1368,
+      "seat": "ICF_ID1",
+      "printed": "Anna MUS",
+      "team": "NED",
+      "id": "104732",
+      "exception": "maintainer-ruled bind of an id with no ICF/PWW record (this athlete only)",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4",
+      "gate_mechanism": "name_check_fail_log (existing; gates unchanged)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\" Exception (this athlete only, t117u item 4): 104732 has no PWW profile (paddleworldwide.com/athlete/104732 HTTP 404, fetched 2026-11-03) and is not in the ICF athlete list (bence, fetched 2026-11-03); the contract and the gates are unchanged; the seat passes the gates through the existing manifest name_check_fail_log (maintainer 2026-10-16 10:39). This source prints no id; the printed name, NOC NED and gender W are the same as on her Poznań 2022/2023/2024 seats, where the ICF results print 104732. Row: K1 W 5000 final unit A race 207 lane 4, rank -, DNF; crew none.",
+      "logged_at_utc": "2026-11-03T11:38:44Z"
+    }
+  ],
+  "name_check_fail_log": [
+    {
+      "id": "104732",
+      "name": "Anna MUS",
+      "printed_team": "NED",
+      "profile": "none: paddleworldwide.com/athlete/104732 HTTP 404; not in the ICF athlete list (fetched 2026-11-03)",
+      "seats": 3,
+      "results_rows": [
+        75,
+        642,
+        1368
+      ],
+      "note": "Maintainer exception MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (this athlete only; contract and gates unchanged): PERSONS/seat name check cannot run on a 404 id; id kept, logged. MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\""
     }
   ]
 }
