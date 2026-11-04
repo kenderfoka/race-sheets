@@ -10,7 +10,7 @@
   "dates": "2022-05-20/2022-05-22",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-27T20:19:52Z",
+  "generated_at_utc": "2026-11-03T11:38:43Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "MemoSoft results book (Spotfokus hub dead) prints the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule). OQ/para races in the same book are kept (one key).",
@@ -9771,11 +9771,20 @@
       "results_row": 25,
       "seat": "ICF_ID4",
       "source_printed_name": "Anna MUS",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\" Exception (this athlete only, t117u item 4): 104732 has no PWW profile (paddleworldwide.com/athlete/104732 HTTP 404, fetched 2026-11-03) and is not in the ICF athlete list (bence, fetched 2026-11-03); the contract and the gates are unchanged; the seat passes the gates through the existing manifest name_check_fail_log (maintainer 2026-10-16 10:39). This source prints no id; the printed name, NOC NED and gender W are the same as on her Poznań 2022/2023/2024 seats, where the ICF results print 104732. Row: K4 W 500 heat unit 2 race 4 lane 2, rank 6, 1:38.843; crew ICF_ID1=95045, ICF_ID2=78956, ICF_ID3=53548.",
       "team": "NED",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4: maintainer-ruled exception bind of 104732 (Anna MUS, NED, W; no ICF/PWW record); was no_icf_id (superseded by t117u item 4)",
+      "new_id": "104732",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)",
+        "source": "pww+bence",
+        "superseded_by": "t117u item 4",
+        "superseded_at_utc": "2026-11-03T11:38:43Z"
+      }
     },
     {
       "results_row": 26,
@@ -10123,11 +10132,20 @@
       "results_row": 34,
       "seat": "ICF_ID3",
       "source_printed_name": "Marcus WALZ",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Marcus WALZ\\\" (ESP, 6 seats) is COOPER Marcus 47618, born 1994-10-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 47618 COOPER Marcus, ESP, M, born 1994-10-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Marcus WALZ\" -> ICF \"Marcus COOPER\" (full name Marcus Cooper Walz; the PWW profile links facebook.com/Marcus-Cooper-Walz-1776405605968479); given name MARCUS passes the token rule. The ICF list has no WALZ and one ESP COOPER (47618). PWW profile 47618 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K4 Men 500m Heats rank 1 01:20.413 = this row (K4 M 500 heat, rank 1, 1:20.413). Crew: ICF_ID1 36045 profile lists the same race and time, ICF_ID2 46821 profile lists the same race and time, ICF_ID4 46829 profile lists the same race and time. No same-id conflict in the boat or race.",
       "team": "ESP",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Marcus WALZ' = 47618 (Marcus COOPER); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "47618",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:17Z"
+      }
     },
     {
       "results_row": 34,
@@ -10404,11 +10422,20 @@
       "results_row": 41,
       "seat": "ICF_ID3",
       "source_printed_name": "Jon VOLD",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jon VOLD (NOR, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Jon VOLD\\\" (NOR, 5 seats) is VOLD Amund 63310, the record you bound for \\\"Jon VOLD\\\" on Szeged_2023_WC [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 63310 VOLD Amund, NOR, M, born 1997-11-23 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Former name \"Jon Amund VOLD\" (same link as Szeged_2023_WC, MAINTAINER_ANSWERS_2026-10-30.md t85u; Brandenburg_2016_MAR and Duisburg_2016_WC bind \"Jon Amund VOLD\" to 63310, profile-listed). Surname VOLD passes the token rule. The only other NOR man VOLD is 36743 Eivind VOLD, printed separately as \"Eivind VOLD\" at this meeting (rows 225, 1278, bound 36743). PWW profile 63310 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K4 Men 500m Heats rank 8 01:25.753 = this row (K4 M 500 heat, rank 8, 1:25.753). Crew: ICF_ID1 63850 profile lists the same race and time, ICF_ID2 72000 profile lists the same race and time, ICF_ID4 63955 profile lists the same race and time. No same-id conflict in the boat or race.",
       "team": "NOR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jon VOLD (NOR, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Jon VOLD' = 63310 (Amund VOLD); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "63310",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jon VOLD (NOR, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jon VOLD (NOR, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:17Z"
+      }
     },
     {
       "results_row": 41,
@@ -12446,11 +12473,20 @@
       "results_row": 128,
       "seat": "ICF_ID1",
       "source_printed_name": "Marcus WALZ",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Marcus WALZ\\\" (ESP, 6 seats) is COOPER Marcus 47618, born 1994-10-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 47618 COOPER Marcus, ESP, M, born 1994-10-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Marcus WALZ\" -> ICF \"Marcus COOPER\" (full name Marcus Cooper Walz; the PWW profile links facebook.com/Marcus-Cooper-Walz-1776405605968479); given name MARCUS passes the token rule. The ICF list has no WALZ and one ESP COOPER (47618). PWW profile 47618 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K1 Men 500m Heats rank 5 01:42.572 = this row (K1 M 500 heat, rank 5, 1:42.572). No same-id conflict in the boat or race.",
       "team": "ESP",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Marcus WALZ' = 47618 (Marcus COOPER); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "47618",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:17Z"
+      }
     },
     {
       "results_row": 129,
@@ -12993,11 +13029,20 @@
       "results_row": 179,
       "seat": "ICF_ID1",
       "source_printed_name": "Isaquias SANTOS",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Isaquias SANTOS\\\" (BRA, 5 seats) is GUIMARAES QUEIROZ Isaquias 42767, born 1994-01-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 42767 GUIMARAES QUEIROZ Isaquias, BRA, M, born 1994-01-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Isaquias SANTOS\" -> ICF \"Isaquias GUIMARAES QUEIROZ\"; given name ISAQUIAS passes the token rule. No other athlete in the ICF list carries the given name Isaquias. The same desk binds \"Isaquias QUEIROZ DOS SANTOS\" to 42767 on Duisburg_2013_WCH, Duisburg_2015_WC and Duisburg_2016_WC (profile-listed). PWW profile 42767 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / C1 Men 500m Heats rank 1 01:48.578 = this row (C1 M 500 heat, rank 1, 1:48.578). No same-id conflict in the boat or race.",
       "team": "BRA",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Isaquias SANTOS' = 42767 (Isaquias GUIMARAES QUEIROZ); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "42767",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:17Z"
+      }
     },
     {
       "results_row": 180,
@@ -13523,11 +13568,20 @@
       "results_row": 232,
       "seat": "ICF_ID1",
       "source_printed_name": "Jon VOLD",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jon VOLD (NOR, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Jon VOLD\\\" (NOR, 5 seats) is VOLD Amund 63310, the record you bound for \\\"Jon VOLD\\\" on Szeged_2023_WC [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 63310 VOLD Amund, NOR, M, born 1997-11-23 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Former name \"Jon Amund VOLD\" (same link as Szeged_2023_WC, MAINTAINER_ANSWERS_2026-10-30.md t85u; Brandenburg_2016_MAR and Duisburg_2016_WC bind \"Jon Amund VOLD\" to 63310, profile-listed). Surname VOLD passes the token rule. The only other NOR man VOLD is 36743 Eivind VOLD, printed separately as \"Eivind VOLD\" at this meeting (rows 225, 1278, bound 36743). PWW profile 63310 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K1 Men 1000m Heats rank 4 03:30.818 = this row (K1 M 1000 heat, rank 4, 3:30.818). No same-id conflict in the boat or race.",
       "team": "NOR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jon VOLD (NOR, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Jon VOLD' = 63310 (Amund VOLD); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "63310",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jon VOLD (NOR, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jon VOLD (NOR, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:17Z"
+      }
     },
     {
       "results_row": 233,
@@ -14053,11 +14107,20 @@
       "results_row": 263,
       "seat": "ICF_ID4",
       "source_printed_name": "Anna MUS",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\" Exception (this athlete only, t117u item 4): 104732 has no PWW profile (paddleworldwide.com/athlete/104732 HTTP 404, fetched 2026-11-03) and is not in the ICF athlete list (bence, fetched 2026-11-03); the contract and the gates are unchanged; the seat passes the gates through the existing manifest name_check_fail_log (maintainer 2026-10-16 10:39). This source prints no id; the printed name, NOC NED and gender W are the same as on her Poznań 2022/2023/2024 seats, where the ICF results print 104732. Row: K4 W 500 semifinal unit 1 race 37 lane 8, rank 7, 1:37.588; crew ICF_ID1=95045, ICF_ID2=78956, ICF_ID3=53548.",
       "team": "NED",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4: maintainer-ruled exception bind of 104732 (Anna MUS, NED, W; no ICF/PWW record); was no_icf_id (superseded by t117u item 4)",
+      "new_id": "104732",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)",
+        "source": "pww+bence",
+        "superseded_by": "t117u item 4",
+        "superseded_at_utc": "2026-11-03T11:38:43Z"
+      }
     },
     {
       "results_row": 264,
@@ -15426,11 +15489,20 @@
       "results_row": 302,
       "seat": "ICF_ID3",
       "source_printed_name": "Marcus WALZ",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Marcus WALZ\\\" (ESP, 6 seats) is COOPER Marcus 47618, born 1994-10-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 47618 COOPER Marcus, ESP, M, born 1994-10-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Marcus WALZ\" -> ICF \"Marcus COOPER\" (full name Marcus Cooper Walz; the PWW profile links facebook.com/Marcus-Cooper-Walz-1776405605968479); given name MARCUS passes the token rule. The ICF list has no WALZ and one ESP COOPER (47618). PWW profile 47618 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K4 Men 500m Semifinal rank 1 01:18.812 = this row (K4 M 500 semifinal, rank 1, 1:18.812). Crew: ICF_ID1 36045 profile lists the same race and time, ICF_ID2 46821 profile lists the same race and time, ICF_ID4 46829 profile lists the same race and time. No same-id conflict in the boat or race.",
       "team": "ESP",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Marcus WALZ' = 47618 (Marcus COOPER); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "47618",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:17Z"
+      }
     },
     {
       "results_row": 302,
@@ -16336,11 +16408,20 @@
       "results_row": 349,
       "seat": "ICF_ID1",
       "source_printed_name": "Marcus WALZ",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Marcus WALZ\\\" (ESP, 6 seats) is COOPER Marcus 47618, born 1994-10-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 47618 COOPER Marcus, ESP, M, born 1994-10-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Marcus WALZ\" -> ICF \"Marcus COOPER\" (full name Marcus Cooper Walz; the PWW profile links facebook.com/Marcus-Cooper-Walz-1776405605968479); given name MARCUS passes the token rule. The ICF list has no WALZ and one ESP COOPER (47618). PWW profile 47618 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K1 Men 500m Semifinal rank 3 01:39.386 = this row (K1 M 500 semifinal, rank 3, 1:39.386). No same-id conflict in the boat or race.",
       "team": "ESP",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Marcus WALZ' = 47618 (Marcus COOPER); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "47618",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:17Z"
+      }
     },
     {
       "results_row": 350,
@@ -17014,11 +17095,20 @@
       "results_row": 413,
       "seat": "ICF_ID1",
       "source_printed_name": "Jon VOLD",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jon VOLD (NOR, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Jon VOLD\\\" (NOR, 5 seats) is VOLD Amund 63310, the record you bound for \\\"Jon VOLD\\\" on Szeged_2023_WC [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 63310 VOLD Amund, NOR, M, born 1997-11-23 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Former name \"Jon Amund VOLD\" (same link as Szeged_2023_WC, MAINTAINER_ANSWERS_2026-10-30.md t85u; Brandenburg_2016_MAR and Duisburg_2016_WC bind \"Jon Amund VOLD\" to 63310, profile-listed). Surname VOLD passes the token rule. The only other NOR man VOLD is 36743 Eivind VOLD, printed separately as \"Eivind VOLD\" at this meeting (rows 225, 1278, bound 36743). PWW profile 63310 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K1 Men 1000m Semifinal rank 4 03:36.808 = this row (K1 M 1000 semifinal, rank 4, 3:36.808). No same-id conflict in the boat or race.",
       "team": "NOR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jon VOLD (NOR, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Jon VOLD' = 63310 (Amund VOLD); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "63310",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jon VOLD (NOR, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jon VOLD (NOR, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:17Z"
+      }
     },
     {
       "results_row": 414,
@@ -17810,11 +17900,20 @@
       "results_row": 488,
       "seat": "ICF_ID1",
       "source_printed_name": "Isaquias SANTOS",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Isaquias SANTOS\\\" (BRA, 5 seats) is GUIMARAES QUEIROZ Isaquias 42767, born 1994-01-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 42767 GUIMARAES QUEIROZ Isaquias, BRA, M, born 1994-01-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Isaquias SANTOS\" -> ICF \"Isaquias GUIMARAES QUEIROZ\"; given name ISAQUIAS passes the token rule. No other athlete in the ICF list carries the given name Isaquias. The same desk binds \"Isaquias QUEIROZ DOS SANTOS\" to 42767 on Duisburg_2013_WCH, Duisburg_2015_WC and Duisburg_2016_WC (profile-listed). PWW profile 42767 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / C1 Men 1000m Heats rank 1 03:59.531 = this row (C1 M 1000 heat, rank 1, 3:59.531). No same-id conflict in the boat or race.",
       "team": "BRA",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Isaquias SANTOS' = 42767 (Isaquias GUIMARAES QUEIROZ); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "42767",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:17Z"
+      }
     },
     {
       "results_row": 489,
@@ -18953,11 +19052,20 @@
       "results_row": 558,
       "seat": "ICF_ID4",
       "source_printed_name": "Anna MUS",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\" Exception (this athlete only, t117u item 4): 104732 has no PWW profile (paddleworldwide.com/athlete/104732 HTTP 404, fetched 2026-11-03) and is not in the ICF athlete list (bence, fetched 2026-11-03); the contract and the gates are unchanged; the seat passes the gates through the existing manifest name_check_fail_log (maintainer 2026-10-16 10:39). This source prints no id; the printed name, NOC NED and gender W are the same as on her Poznań 2022/2023/2024 seats, where the ICF results print 104732. Row: K4 W 500 final unit B race 73 lane 1, rank 9, 1:37.710; crew ICF_ID1=95045, ICF_ID2=78956, ICF_ID3=53548.",
       "team": "NED",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4: maintainer-ruled exception bind of 104732 (Anna MUS, NED, W; no ICF/PWW record); was no_icf_id (superseded by t117u item 4)",
+      "new_id": "104732",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)",
+        "source": "pww+bence",
+        "superseded_by": "t117u item 4",
+        "superseded_at_utc": "2026-11-03T11:38:43Z"
+      }
     },
     {
       "results_row": 559,
@@ -20007,11 +20115,20 @@
       "results_row": 623,
       "seat": "ICF_ID1",
       "source_printed_name": "Jon VOLD",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jon VOLD (NOR, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Jon VOLD\\\" (NOR, 5 seats) is VOLD Amund 63310, the record you bound for \\\"Jon VOLD\\\" on Szeged_2023_WC [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 63310 VOLD Amund, NOR, M, born 1997-11-23 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Former name \"Jon Amund VOLD\" (same link as Szeged_2023_WC, MAINTAINER_ANSWERS_2026-10-30.md t85u; Brandenburg_2016_MAR and Duisburg_2016_WC bind \"Jon Amund VOLD\" to 63310, profile-listed). Surname VOLD passes the token rule. The only other NOR man VOLD is 36743 Eivind VOLD, printed separately as \"Eivind VOLD\" at this meeting (rows 225, 1278, bound 36743). PWW profile 63310 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K1 Men 1000m Final rank 4 03:34.944 = this row (K1 M 1000 final, rank 4, 3:34.944). No same-id conflict in the boat or race.",
       "team": "NOR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jon VOLD (NOR, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Jon VOLD' = 63310 (Amund VOLD); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "63310",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jon VOLD (NOR, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jon VOLD (NOR, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:17Z"
+      }
     },
     {
       "results_row": 624,
@@ -20728,11 +20845,20 @@
       "results_row": 656,
       "seat": "ICF_ID3",
       "source_printed_name": "Marcus WALZ",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Marcus WALZ\\\" (ESP, 6 seats) is COOPER Marcus 47618, born 1994-10-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 47618 COOPER Marcus, ESP, M, born 1994-10-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Marcus WALZ\" -> ICF \"Marcus COOPER\" (full name Marcus Cooper Walz; the PWW profile links facebook.com/Marcus-Cooper-Walz-1776405605968479); given name MARCUS passes the token rule. The ICF list has no WALZ and one ESP COOPER (47618). PWW profile 47618 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K4 Men 500m Final rank 1 01:19.325 = this row (K4 M 500 final, rank 1, 1:19.325). Crew: ICF_ID1 36045 profile lists the same race and time, ICF_ID2 46821 profile lists the same race and time, ICF_ID4 46829 profile lists the same race and time. No same-id conflict in the boat or race.",
       "team": "ESP",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Marcus WALZ' = 47618 (Marcus COOPER); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "47618",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:17Z"
+      }
     },
     {
       "results_row": 656,
@@ -21375,11 +21501,20 @@
       "results_row": 681,
       "seat": "ICF_ID1",
       "source_printed_name": "Marcus WALZ",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Marcus WALZ\\\" (ESP, 6 seats) is COOPER Marcus 47618, born 1994-10-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 47618 COOPER Marcus, ESP, M, born 1994-10-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Marcus WALZ\" -> ICF \"Marcus COOPER\" (full name Marcus Cooper Walz; the PWW profile links facebook.com/Marcus-Cooper-Walz-1776405605968479); given name MARCUS passes the token rule. The ICF list has no WALZ and one ESP COOPER (47618). PWW profile 47618 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K1 Men 500m Final rank 3 01:39.553 = this row (K1 M 500 final, rank 3, 1:39.553). No same-id conflict in the boat or race.",
       "team": "ESP",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Marcus WALZ' = 47618 (Marcus COOPER); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "47618",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:17Z"
+      }
     },
     {
       "results_row": 682,
@@ -21547,11 +21682,20 @@
       "results_row": 698,
       "seat": "ICF_ID1",
       "source_printed_name": "Isaquias SANTOS",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Isaquias SANTOS\\\" (BRA, 5 seats) is GUIMARAES QUEIROZ Isaquias 42767, born 1994-01-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 42767 GUIMARAES QUEIROZ Isaquias, BRA, M, born 1994-01-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Isaquias SANTOS\" -> ICF \"Isaquias GUIMARAES QUEIROZ\"; given name ISAQUIAS passes the token rule. No other athlete in the ICF list carries the given name Isaquias. The same desk binds \"Isaquias QUEIROZ DOS SANTOS\" to 42767 on Duisburg_2013_WCH, Duisburg_2015_WC and Duisburg_2016_WC (profile-listed). PWW profile 42767 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / C1 Men 500m Final rank 2 01:44.245 = this row (C1 M 500 final, rank 2, 1:44.245). No same-id conflict in the boat or race.",
       "team": "BRA",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Isaquias SANTOS' = 42767 (Isaquias GUIMARAES QUEIROZ); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "42767",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:17Z"
+      }
     },
     {
       "results_row": 699,
@@ -22884,11 +23028,20 @@
       "results_row": 787,
       "seat": "ICF_ID2",
       "source_printed_name": "Anna MUS",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\" Exception (this athlete only, t117u item 4): 104732 has no PWW profile (paddleworldwide.com/athlete/104732 HTTP 404, fetched 2026-11-03) and is not in the ICF athlete list (bence, fetched 2026-11-03); the contract and the gates are unchanged; the seat passes the gates through the existing manifest name_check_fail_log (maintainer 2026-10-16 10:39). This source prints no id; the printed name, NOC NED and gender W are the same as on her Poznań 2022/2023/2024 seats, where the ICF results print 104732. Row: K2 W 500 heat unit 4 race 101 lane 3, rank 8, 1:49.083; crew ICF_ID1=95045.",
       "team": "NED",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4: maintainer-ruled exception bind of 104732 (Anna MUS, NED, W; no ICF/PWW record); was no_icf_id (superseded by t117u item 4)",
+      "new_id": "104732",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)",
+        "source": "pww+bence",
+        "superseded_by": "t117u item 4",
+        "superseded_at_utc": "2026-11-03T11:38:43Z"
+      }
     },
     {
       "results_row": 788,
@@ -24450,11 +24603,20 @@
       "results_row": 886,
       "seat": "ICF_ID1",
       "source_printed_name": "Isaquias SANTOS",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Isaquias SANTOS\\\" (BRA, 5 seats) is GUIMARAES QUEIROZ Isaquias 42767, born 1994-01-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 42767 GUIMARAES QUEIROZ Isaquias, BRA, M, born 1994-01-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Isaquias SANTOS\" -> ICF \"Isaquias GUIMARAES QUEIROZ\"; given name ISAQUIAS passes the token rule. No other athlete in the ICF list carries the given name Isaquias. The same desk binds \"Isaquias QUEIROZ DOS SANTOS\" to 42767 on Duisburg_2013_WCH, Duisburg_2015_WC and Duisburg_2016_WC (profile-listed). PWW profile 42767 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / C1 Men 1000m Semifinal rank 1 03:53.193 = this row (C1 M 1000 semifinal, rank 1, 3:53.193). No same-id conflict in the boat or race.",
       "team": "BRA",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Isaquias SANTOS' = 42767 (Isaquias GUIMARAES QUEIROZ); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "42767",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:17Z"
+      }
     },
     {
       "results_row": 887,
@@ -28503,11 +28665,20 @@
       "results_row": 1142,
       "seat": "ICF_ID1",
       "source_printed_name": "Isaquias SANTOS",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Isaquias SANTOS\\\" (BRA, 5 seats) is GUIMARAES QUEIROZ Isaquias 42767, born 1994-01-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 42767 GUIMARAES QUEIROZ Isaquias, BRA, M, born 1994-01-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Isaquias SANTOS\" -> ICF \"Isaquias GUIMARAES QUEIROZ\"; given name ISAQUIAS passes the token rule. No other athlete in the ICF list carries the given name Isaquias. The same desk binds \"Isaquias QUEIROZ DOS SANTOS\" to 42767 on Duisburg_2013_WCH, Duisburg_2015_WC and Duisburg_2016_WC (profile-listed). PWW profile 42767 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / C1 Men 1000m Final rank 6 03:51.164 = this row (C1 M 1000 final, rank 6, 3:51.164). No same-id conflict in the boat or race.",
       "team": "BRA",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Isaquias SANTOS' = 42767 (Isaquias GUIMARAES QUEIROZ); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "42767",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Isaquias SANTOS (BRA, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:17Z"
+      }
     },
     {
       "results_row": 1143,
@@ -30228,11 +30399,20 @@
       "results_row": 1280,
       "seat": "ICF_ID1",
       "source_printed_name": "Jon VOLD",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jon VOLD (NOR, M)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Jon VOLD\\\" (NOR, 5 seats) is VOLD Amund 63310, the record you bound for \\\"Jon VOLD\\\" on Szeged_2023_WC [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 63310 VOLD Amund, NOR, M, born 1997-11-23 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Former name \"Jon Amund VOLD\" (same link as Szeged_2023_WC, MAINTAINER_ANSWERS_2026-10-30.md t85u; Brandenburg_2016_MAR and Duisburg_2016_WC bind \"Jon Amund VOLD\" to 63310, profile-listed). Surname VOLD passes the token rule. The only other NOR man VOLD is 36743 Eivind VOLD, printed separately as \"Eivind VOLD\" at this meeting (rows 225, 1278, bound 36743). PWW profile 63310 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K1 Men 5000m Final rank 10 21:19.700 = this row (K1 M 5000 final, rank 10, 21:19.700). No same-id conflict in the boat or race.",
       "team": "NOR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jon VOLD (NOR, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t116u, maintainer-ruled bind confirmed from ICF records: printed 'Jon VOLD' = 63310 (Amund VOLD); was no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id), superseded by t116u)",
+      "new_id": "63310",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jon VOLD (NOR, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jon VOLD (NOR, M)",
+        "source": "pww+bence",
+        "superseded_by": "t116u",
+        "superseded_at_utc": "2026-11-03T10:24:17Z"
+      }
     },
     {
       "results_row": 1281,
@@ -30540,11 +30720,20 @@
       "results_row": 1265,
       "seat": "ICF_ID1",
       "source_printed_name": "Anna MUS",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\" Exception (this athlete only, t117u item 4): 104732 has no PWW profile (paddleworldwide.com/athlete/104732 HTTP 404, fetched 2026-11-03) and is not in the ICF athlete list (bence, fetched 2026-11-03); the contract and the gates are unchanged; the seat passes the gates through the existing manifest name_check_fail_log (maintainer 2026-10-16 10:39). This source prints no id; the printed name, NOC NED and gender W are the same as on her Poznań 2022/2023/2024 seats, where the ICF results print 104732. Row: K1 W 5000 final unit A race 154 lane 8, rank 18, None; crew none.",
       "team": "NED",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4: maintainer-ruled exception bind of 104732 (Anna MUS, NED, W; no ICF/PWW record); was no_icf_id (superseded by t117u item 4)",
+      "new_id": "104732",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anna MUS (NED, W)",
+        "source": "pww+bence",
+        "superseded_by": "t117u item 4",
+        "superseded_at_utc": "2026-11-03T11:38:43Z"
+      }
     },
     {
       "results_row": 1266,
@@ -30727,7 +30916,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 509
+      "rows": 513
     }
   },
   "relays": [],
@@ -30739,12 +30928,12 @@
     {
       "kind": "xlsx",
       "name": "Racice_2022_WC_Results.xlsx",
-      "sha256": "be8bc8208c2cccf68e4cc9b44531b6a35a15c4dfe00084173128fb2864c07207",
-      "bytes": 119294
+      "sha256": "3a2371f0d5b05a2f615bf6ca37577d245b08ac7ebe43e00dd17faa76a3cb27ed",
+      "bytes": 119540
     }
   ],
   "output_xlsx": "Racice_2022_WC_Results.xlsx",
-  "output_xlsx_sha256": "be8bc8208c2cccf68e4cc9b44531b6a35a15c4dfe00084173128fb2864c07207",
+  "output_xlsx_sha256": "3a2371f0d5b05a2f615bf6ca37577d245b08ac7ebe43e00dd17faa76a3cb27ed",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -30784,7 +30973,7 @@
     "no_icf_id_t59": 40,
     "same_meeting_unified_t59": 0
   },
-  "updated_at": "2026-10-27T20:19:52Z",
+  "updated_at": "2026-11-03T11:38:43Z",
   "name_change_log": [
     {
       "results_row": 15,
@@ -30964,6 +31153,182 @@
       "profile_name": "Alyssa BUCK",
       "rule": "name_change",
       "evidence": "profile lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K2 Mixed 500m",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 179,
+      "seat": "ICF_ID1",
+      "printed": "Isaquias SANTOS",
+      "icf_id": "42767",
+      "profile_name": "Isaquias GUIMARAES QUEIROZ",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Isaquias SANTOS\\\" (BRA, 5 seats) is GUIMARAES QUEIROZ Isaquias 42767, born 1994-01-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 42767 GUIMARAES QUEIROZ Isaquias, BRA, M, born 1994-01-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Isaquias SANTOS\" -> ICF \"Isaquias GUIMARAES QUEIROZ\"; given name ISAQUIAS passes the token rule. No other athlete in the ICF list carries the given name Isaquias. The same desk binds \"Isaquias QUEIROZ DOS SANTOS\" to 42767 on Duisburg_2013_WCH, Duisburg_2015_WC and Duisburg_2016_WC (profile-listed). PWW profile 42767 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / C1 Men 500m Heats rank 1 01:48.578 = this row (C1 M 500 heat, rank 1, 1:48.578). No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 488,
+      "seat": "ICF_ID1",
+      "printed": "Isaquias SANTOS",
+      "icf_id": "42767",
+      "profile_name": "Isaquias GUIMARAES QUEIROZ",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Isaquias SANTOS\\\" (BRA, 5 seats) is GUIMARAES QUEIROZ Isaquias 42767, born 1994-01-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 42767 GUIMARAES QUEIROZ Isaquias, BRA, M, born 1994-01-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Isaquias SANTOS\" -> ICF \"Isaquias GUIMARAES QUEIROZ\"; given name ISAQUIAS passes the token rule. No other athlete in the ICF list carries the given name Isaquias. The same desk binds \"Isaquias QUEIROZ DOS SANTOS\" to 42767 on Duisburg_2013_WCH, Duisburg_2015_WC and Duisburg_2016_WC (profile-listed). PWW profile 42767 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / C1 Men 1000m Heats rank 1 03:59.531 = this row (C1 M 1000 heat, rank 1, 3:59.531). No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 698,
+      "seat": "ICF_ID1",
+      "printed": "Isaquias SANTOS",
+      "icf_id": "42767",
+      "profile_name": "Isaquias GUIMARAES QUEIROZ",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Isaquias SANTOS\\\" (BRA, 5 seats) is GUIMARAES QUEIROZ Isaquias 42767, born 1994-01-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 42767 GUIMARAES QUEIROZ Isaquias, BRA, M, born 1994-01-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Isaquias SANTOS\" -> ICF \"Isaquias GUIMARAES QUEIROZ\"; given name ISAQUIAS passes the token rule. No other athlete in the ICF list carries the given name Isaquias. The same desk binds \"Isaquias QUEIROZ DOS SANTOS\" to 42767 on Duisburg_2013_WCH, Duisburg_2015_WC and Duisburg_2016_WC (profile-listed). PWW profile 42767 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / C1 Men 500m Final rank 2 01:44.245 = this row (C1 M 500 final, rank 2, 1:44.245). No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 886,
+      "seat": "ICF_ID1",
+      "printed": "Isaquias SANTOS",
+      "icf_id": "42767",
+      "profile_name": "Isaquias GUIMARAES QUEIROZ",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Isaquias SANTOS\\\" (BRA, 5 seats) is GUIMARAES QUEIROZ Isaquias 42767, born 1994-01-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 42767 GUIMARAES QUEIROZ Isaquias, BRA, M, born 1994-01-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Isaquias SANTOS\" -> ICF \"Isaquias GUIMARAES QUEIROZ\"; given name ISAQUIAS passes the token rule. No other athlete in the ICF list carries the given name Isaquias. The same desk binds \"Isaquias QUEIROZ DOS SANTOS\" to 42767 on Duisburg_2013_WCH, Duisburg_2015_WC and Duisburg_2016_WC (profile-listed). PWW profile 42767 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / C1 Men 1000m Semifinal rank 1 03:53.193 = this row (C1 M 1000 semifinal, rank 1, 3:53.193). No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 1142,
+      "seat": "ICF_ID1",
+      "printed": "Isaquias SANTOS",
+      "icf_id": "42767",
+      "profile_name": "Isaquias GUIMARAES QUEIROZ",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Isaquias SANTOS\\\" (BRA, 5 seats) is GUIMARAES QUEIROZ Isaquias 42767, born 1994-01-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 42767 GUIMARAES QUEIROZ Isaquias, BRA, M, born 1994-01-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Isaquias SANTOS\" -> ICF \"Isaquias GUIMARAES QUEIROZ\"; given name ISAQUIAS passes the token rule. No other athlete in the ICF list carries the given name Isaquias. The same desk binds \"Isaquias QUEIROZ DOS SANTOS\" to 42767 on Duisburg_2013_WCH, Duisburg_2015_WC and Duisburg_2016_WC (profile-listed). PWW profile 42767 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / C1 Men 1000m Final rank 6 03:51.164 = this row (C1 M 1000 final, rank 6, 3:51.164). No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 34,
+      "seat": "ICF_ID3",
+      "printed": "Marcus WALZ",
+      "icf_id": "47618",
+      "profile_name": "Marcus COOPER",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Marcus WALZ\\\" (ESP, 6 seats) is COOPER Marcus 47618, born 1994-10-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 47618 COOPER Marcus, ESP, M, born 1994-10-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Marcus WALZ\" -> ICF \"Marcus COOPER\" (full name Marcus Cooper Walz; the PWW profile links facebook.com/Marcus-Cooper-Walz-1776405605968479); given name MARCUS passes the token rule. The ICF list has no WALZ and one ESP COOPER (47618). PWW profile 47618 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K4 Men 500m Heats rank 1 01:20.413 = this row (K4 M 500 heat, rank 1, 1:20.413). Crew: ICF_ID1 36045 profile lists the same race and time, ICF_ID2 46821 profile lists the same race and time, ICF_ID4 46829 profile lists the same race and time. No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 128,
+      "seat": "ICF_ID1",
+      "printed": "Marcus WALZ",
+      "icf_id": "47618",
+      "profile_name": "Marcus COOPER",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Marcus WALZ\\\" (ESP, 6 seats) is COOPER Marcus 47618, born 1994-10-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 47618 COOPER Marcus, ESP, M, born 1994-10-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Marcus WALZ\" -> ICF \"Marcus COOPER\" (full name Marcus Cooper Walz; the PWW profile links facebook.com/Marcus-Cooper-Walz-1776405605968479); given name MARCUS passes the token rule. The ICF list has no WALZ and one ESP COOPER (47618). PWW profile 47618 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K1 Men 500m Heats rank 5 01:42.572 = this row (K1 M 500 heat, rank 5, 1:42.572). No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 302,
+      "seat": "ICF_ID3",
+      "printed": "Marcus WALZ",
+      "icf_id": "47618",
+      "profile_name": "Marcus COOPER",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Marcus WALZ\\\" (ESP, 6 seats) is COOPER Marcus 47618, born 1994-10-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 47618 COOPER Marcus, ESP, M, born 1994-10-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Marcus WALZ\" -> ICF \"Marcus COOPER\" (full name Marcus Cooper Walz; the PWW profile links facebook.com/Marcus-Cooper-Walz-1776405605968479); given name MARCUS passes the token rule. The ICF list has no WALZ and one ESP COOPER (47618). PWW profile 47618 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K4 Men 500m Semifinal rank 1 01:18.812 = this row (K4 M 500 semifinal, rank 1, 1:18.812). Crew: ICF_ID1 36045 profile lists the same race and time, ICF_ID2 46821 profile lists the same race and time, ICF_ID4 46829 profile lists the same race and time. No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 349,
+      "seat": "ICF_ID1",
+      "printed": "Marcus WALZ",
+      "icf_id": "47618",
+      "profile_name": "Marcus COOPER",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Marcus WALZ\\\" (ESP, 6 seats) is COOPER Marcus 47618, born 1994-10-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 47618 COOPER Marcus, ESP, M, born 1994-10-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Marcus WALZ\" -> ICF \"Marcus COOPER\" (full name Marcus Cooper Walz; the PWW profile links facebook.com/Marcus-Cooper-Walz-1776405605968479); given name MARCUS passes the token rule. The ICF list has no WALZ and one ESP COOPER (47618). PWW profile 47618 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K1 Men 500m Semifinal rank 3 01:39.386 = this row (K1 M 500 semifinal, rank 3, 1:39.386). No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 656,
+      "seat": "ICF_ID3",
+      "printed": "Marcus WALZ",
+      "icf_id": "47618",
+      "profile_name": "Marcus COOPER",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Marcus WALZ\\\" (ESP, 6 seats) is COOPER Marcus 47618, born 1994-10-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 47618 COOPER Marcus, ESP, M, born 1994-10-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Marcus WALZ\" -> ICF \"Marcus COOPER\" (full name Marcus Cooper Walz; the PWW profile links facebook.com/Marcus-Cooper-Walz-1776405605968479); given name MARCUS passes the token rule. The ICF list has no WALZ and one ESP COOPER (47618). PWW profile 47618 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K4 Men 500m Final rank 1 01:19.325 = this row (K4 M 500 final, rank 1, 1:19.325). Crew: ICF_ID1 36045 profile lists the same race and time, ICF_ID2 46821 profile lists the same race and time, ICF_ID4 46829 profile lists the same race and time. No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 681,
+      "seat": "ICF_ID1",
+      "printed": "Marcus WALZ",
+      "icf_id": "47618",
+      "profile_name": "Marcus COOPER",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Marcus WALZ\\\" (ESP, 6 seats) is COOPER Marcus 47618, born 1994-10-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 47618 COOPER Marcus, ESP, M, born 1994-10-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Marcus WALZ\" -> ICF \"Marcus COOPER\" (full name Marcus Cooper Walz; the PWW profile links facebook.com/Marcus-Cooper-Walz-1776405605968479); given name MARCUS passes the token rule. The ICF list has no WALZ and one ESP COOPER (47618). PWW profile 47618 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K1 Men 500m Final rank 3 01:39.553 = this row (K1 M 500 final, rank 3, 1:39.553). No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 41,
+      "seat": "ICF_ID3",
+      "printed": "Jon VOLD",
+      "icf_id": "63310",
+      "profile_name": "Amund VOLD",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Jon VOLD\\\" (NOR, 5 seats) is VOLD Amund 63310, the record you bound for \\\"Jon VOLD\\\" on Szeged_2023_WC [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 63310 VOLD Amund, NOR, M, born 1997-11-23 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Former name \"Jon Amund VOLD\" (same link as Szeged_2023_WC, MAINTAINER_ANSWERS_2026-10-30.md t85u; Brandenburg_2016_MAR and Duisburg_2016_WC bind \"Jon Amund VOLD\" to 63310, profile-listed). Surname VOLD passes the token rule. The only other NOR man VOLD is 36743 Eivind VOLD, printed separately as \"Eivind VOLD\" at this meeting (rows 225, 1278, bound 36743). PWW profile 63310 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K4 Men 500m Heats rank 8 01:25.753 = this row (K4 M 500 heat, rank 8, 1:25.753). Crew: ICF_ID1 63850 profile lists the same race and time, ICF_ID2 72000 profile lists the same race and time, ICF_ID4 63955 profile lists the same race and time. No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 232,
+      "seat": "ICF_ID1",
+      "printed": "Jon VOLD",
+      "icf_id": "63310",
+      "profile_name": "Amund VOLD",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Jon VOLD\\\" (NOR, 5 seats) is VOLD Amund 63310, the record you bound for \\\"Jon VOLD\\\" on Szeged_2023_WC [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 63310 VOLD Amund, NOR, M, born 1997-11-23 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Former name \"Jon Amund VOLD\" (same link as Szeged_2023_WC, MAINTAINER_ANSWERS_2026-10-30.md t85u; Brandenburg_2016_MAR and Duisburg_2016_WC bind \"Jon Amund VOLD\" to 63310, profile-listed). Surname VOLD passes the token rule. The only other NOR man VOLD is 36743 Eivind VOLD, printed separately as \"Eivind VOLD\" at this meeting (rows 225, 1278, bound 36743). PWW profile 63310 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K1 Men 1000m Heats rank 4 03:30.818 = this row (K1 M 1000 heat, rank 4, 3:30.818). No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 413,
+      "seat": "ICF_ID1",
+      "printed": "Jon VOLD",
+      "icf_id": "63310",
+      "profile_name": "Amund VOLD",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Jon VOLD\\\" (NOR, 5 seats) is VOLD Amund 63310, the record you bound for \\\"Jon VOLD\\\" on Szeged_2023_WC [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 63310 VOLD Amund, NOR, M, born 1997-11-23 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Former name \"Jon Amund VOLD\" (same link as Szeged_2023_WC, MAINTAINER_ANSWERS_2026-10-30.md t85u; Brandenburg_2016_MAR and Duisburg_2016_WC bind \"Jon Amund VOLD\" to 63310, profile-listed). Surname VOLD passes the token rule. The only other NOR man VOLD is 36743 Eivind VOLD, printed separately as \"Eivind VOLD\" at this meeting (rows 225, 1278, bound 36743). PWW profile 63310 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K1 Men 1000m Semifinal rank 4 03:36.808 = this row (K1 M 1000 semifinal, rank 4, 3:36.808). No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 623,
+      "seat": "ICF_ID1",
+      "printed": "Jon VOLD",
+      "icf_id": "63310",
+      "profile_name": "Amund VOLD",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Jon VOLD\\\" (NOR, 5 seats) is VOLD Amund 63310, the record you bound for \\\"Jon VOLD\\\" on Szeged_2023_WC [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 63310 VOLD Amund, NOR, M, born 1997-11-23 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Former name \"Jon Amund VOLD\" (same link as Szeged_2023_WC, MAINTAINER_ANSWERS_2026-10-30.md t85u; Brandenburg_2016_MAR and Duisburg_2016_WC bind \"Jon Amund VOLD\" to 63310, profile-listed). Surname VOLD passes the token rule. The only other NOR man VOLD is 36743 Eivind VOLD, printed separately as \"Eivind VOLD\" at this meeting (rows 225, 1278, bound 36743). PWW profile 63310 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K1 Men 1000m Final rank 4 03:34.944 = this row (K1 M 1000 final, rank 4, 3:34.944). No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 1280,
+      "seat": "ICF_ID1",
+      "printed": "Jon VOLD",
+      "icf_id": "63310",
+      "profile_name": "Amund VOLD",
+      "rule": "maintainer_ruled_bind",
+      "unconfirmed": false,
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Jon VOLD\\\" (NOR, 5 seats) is VOLD Amund 63310, the record you bound for \\\"Jon VOLD\\\" on Szeged_2023_WC [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 63310 VOLD Amund, NOR, M, born 1997-11-23 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Former name \"Jon Amund VOLD\" (same link as Szeged_2023_WC, MAINTAINER_ANSWERS_2026-10-30.md t85u; Brandenburg_2016_MAR and Duisburg_2016_WC bind \"Jon Amund VOLD\" to 63310, profile-listed). Surname VOLD passes the token rule. The only other NOR man VOLD is 36743 Eivind VOLD, printed separately as \"Eivind VOLD\" at this meeting (rows 225, 1278, bound 36743). PWW profile 63310 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K1 Men 5000m Final rank 10 21:19.700 = this row (K1 M 5000 final, rank 10, 21:19.700). No same-id conflict in the boat or race.",
       "was": "no_icf_id"
     }
   ],
@@ -32048,6 +32413,473 @@
         "federation": "SRB",
         "gender": "W"
       }
+    },
+    {
+      "results_row": 179,
+      "seat": "ICF_ID1",
+      "printed": "Isaquias SANTOS",
+      "team": "BRA",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "42767",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Isaquias SANTOS\\\" (BRA, 5 seats) is GUIMARAES QUEIROZ Isaquias 42767, born 1994-01-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 42767 GUIMARAES QUEIROZ Isaquias, BRA, M, born 1994-01-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Isaquias SANTOS\" -> ICF \"Isaquias GUIMARAES QUEIROZ\"; given name ISAQUIAS passes the token rule. No other athlete in the ICF list carries the given name Isaquias. The same desk binds \"Isaquias QUEIROZ DOS SANTOS\" to 42767 on Duisburg_2013_WCH, Duisburg_2015_WC and Duisburg_2016_WC (profile-listed). PWW profile 42767 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / C1 Men 500m Heats rank 1 01:48.578 = this row (C1 M 500 heat, rank 1, 1:48.578). No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "42767",
+        "name": "Isaquias GUIMARAES QUEIROZ",
+        "birth_date": "1994-01-03",
+        "nationality": "BRA",
+        "federation": "BRA",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:17Z"
+    },
+    {
+      "results_row": 488,
+      "seat": "ICF_ID1",
+      "printed": "Isaquias SANTOS",
+      "team": "BRA",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "42767",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Isaquias SANTOS\\\" (BRA, 5 seats) is GUIMARAES QUEIROZ Isaquias 42767, born 1994-01-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 42767 GUIMARAES QUEIROZ Isaquias, BRA, M, born 1994-01-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Isaquias SANTOS\" -> ICF \"Isaquias GUIMARAES QUEIROZ\"; given name ISAQUIAS passes the token rule. No other athlete in the ICF list carries the given name Isaquias. The same desk binds \"Isaquias QUEIROZ DOS SANTOS\" to 42767 on Duisburg_2013_WCH, Duisburg_2015_WC and Duisburg_2016_WC (profile-listed). PWW profile 42767 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / C1 Men 1000m Heats rank 1 03:59.531 = this row (C1 M 1000 heat, rank 1, 3:59.531). No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "42767",
+        "name": "Isaquias GUIMARAES QUEIROZ",
+        "birth_date": "1994-01-03",
+        "nationality": "BRA",
+        "federation": "BRA",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:17Z"
+    },
+    {
+      "results_row": 698,
+      "seat": "ICF_ID1",
+      "printed": "Isaquias SANTOS",
+      "team": "BRA",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "42767",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Isaquias SANTOS\\\" (BRA, 5 seats) is GUIMARAES QUEIROZ Isaquias 42767, born 1994-01-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 42767 GUIMARAES QUEIROZ Isaquias, BRA, M, born 1994-01-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Isaquias SANTOS\" -> ICF \"Isaquias GUIMARAES QUEIROZ\"; given name ISAQUIAS passes the token rule. No other athlete in the ICF list carries the given name Isaquias. The same desk binds \"Isaquias QUEIROZ DOS SANTOS\" to 42767 on Duisburg_2013_WCH, Duisburg_2015_WC and Duisburg_2016_WC (profile-listed). PWW profile 42767 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / C1 Men 500m Final rank 2 01:44.245 = this row (C1 M 500 final, rank 2, 1:44.245). No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "42767",
+        "name": "Isaquias GUIMARAES QUEIROZ",
+        "birth_date": "1994-01-03",
+        "nationality": "BRA",
+        "federation": "BRA",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:17Z"
+    },
+    {
+      "results_row": 886,
+      "seat": "ICF_ID1",
+      "printed": "Isaquias SANTOS",
+      "team": "BRA",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "42767",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Isaquias SANTOS\\\" (BRA, 5 seats) is GUIMARAES QUEIROZ Isaquias 42767, born 1994-01-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 42767 GUIMARAES QUEIROZ Isaquias, BRA, M, born 1994-01-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Isaquias SANTOS\" -> ICF \"Isaquias GUIMARAES QUEIROZ\"; given name ISAQUIAS passes the token rule. No other athlete in the ICF list carries the given name Isaquias. The same desk binds \"Isaquias QUEIROZ DOS SANTOS\" to 42767 on Duisburg_2013_WCH, Duisburg_2015_WC and Duisburg_2016_WC (profile-listed). PWW profile 42767 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / C1 Men 1000m Semifinal rank 1 03:53.193 = this row (C1 M 1000 semifinal, rank 1, 3:53.193). No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "42767",
+        "name": "Isaquias GUIMARAES QUEIROZ",
+        "birth_date": "1994-01-03",
+        "nationality": "BRA",
+        "federation": "BRA",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:17Z"
+    },
+    {
+      "results_row": 1142,
+      "seat": "ICF_ID1",
+      "printed": "Isaquias SANTOS",
+      "team": "BRA",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "42767",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Isaquias SANTOS\\\" (BRA, 5 seats) is GUIMARAES QUEIROZ Isaquias 42767, born 1994-01-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 42767 GUIMARAES QUEIROZ Isaquias, BRA, M, born 1994-01-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Isaquias SANTOS\" -> ICF \"Isaquias GUIMARAES QUEIROZ\"; given name ISAQUIAS passes the token rule. No other athlete in the ICF list carries the given name Isaquias. The same desk binds \"Isaquias QUEIROZ DOS SANTOS\" to 42767 on Duisburg_2013_WCH, Duisburg_2015_WC and Duisburg_2016_WC (profile-listed). PWW profile 42767 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / C1 Men 1000m Final rank 6 03:51.164 = this row (C1 M 1000 final, rank 6, 3:51.164). No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "42767",
+        "name": "Isaquias GUIMARAES QUEIROZ",
+        "birth_date": "1994-01-03",
+        "nationality": "BRA",
+        "federation": "BRA",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:17Z"
+    },
+    {
+      "results_row": 34,
+      "seat": "ICF_ID3",
+      "printed": "Marcus WALZ",
+      "team": "ESP",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "47618",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Marcus WALZ\\\" (ESP, 6 seats) is COOPER Marcus 47618, born 1994-10-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 47618 COOPER Marcus, ESP, M, born 1994-10-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Marcus WALZ\" -> ICF \"Marcus COOPER\" (full name Marcus Cooper Walz; the PWW profile links facebook.com/Marcus-Cooper-Walz-1776405605968479); given name MARCUS passes the token rule. The ICF list has no WALZ and one ESP COOPER (47618). PWW profile 47618 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K4 Men 500m Heats rank 1 01:20.413 = this row (K4 M 500 heat, rank 1, 1:20.413). Crew: ICF_ID1 36045 profile lists the same race and time, ICF_ID2 46821 profile lists the same race and time, ICF_ID4 46829 profile lists the same race and time. No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "47618",
+        "name": "Marcus COOPER",
+        "birth_date": "1994-10-03",
+        "nationality": "ESP",
+        "federation": "ESP",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:17Z"
+    },
+    {
+      "results_row": 128,
+      "seat": "ICF_ID1",
+      "printed": "Marcus WALZ",
+      "team": "ESP",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "47618",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Marcus WALZ\\\" (ESP, 6 seats) is COOPER Marcus 47618, born 1994-10-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 47618 COOPER Marcus, ESP, M, born 1994-10-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Marcus WALZ\" -> ICF \"Marcus COOPER\" (full name Marcus Cooper Walz; the PWW profile links facebook.com/Marcus-Cooper-Walz-1776405605968479); given name MARCUS passes the token rule. The ICF list has no WALZ and one ESP COOPER (47618). PWW profile 47618 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K1 Men 500m Heats rank 5 01:42.572 = this row (K1 M 500 heat, rank 5, 1:42.572). No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "47618",
+        "name": "Marcus COOPER",
+        "birth_date": "1994-10-03",
+        "nationality": "ESP",
+        "federation": "ESP",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:17Z"
+    },
+    {
+      "results_row": 302,
+      "seat": "ICF_ID3",
+      "printed": "Marcus WALZ",
+      "team": "ESP",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "47618",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Marcus WALZ\\\" (ESP, 6 seats) is COOPER Marcus 47618, born 1994-10-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 47618 COOPER Marcus, ESP, M, born 1994-10-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Marcus WALZ\" -> ICF \"Marcus COOPER\" (full name Marcus Cooper Walz; the PWW profile links facebook.com/Marcus-Cooper-Walz-1776405605968479); given name MARCUS passes the token rule. The ICF list has no WALZ and one ESP COOPER (47618). PWW profile 47618 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K4 Men 500m Semifinal rank 1 01:18.812 = this row (K4 M 500 semifinal, rank 1, 1:18.812). Crew: ICF_ID1 36045 profile lists the same race and time, ICF_ID2 46821 profile lists the same race and time, ICF_ID4 46829 profile lists the same race and time. No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "47618",
+        "name": "Marcus COOPER",
+        "birth_date": "1994-10-03",
+        "nationality": "ESP",
+        "federation": "ESP",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:17Z"
+    },
+    {
+      "results_row": 349,
+      "seat": "ICF_ID1",
+      "printed": "Marcus WALZ",
+      "team": "ESP",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "47618",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Marcus WALZ\\\" (ESP, 6 seats) is COOPER Marcus 47618, born 1994-10-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 47618 COOPER Marcus, ESP, M, born 1994-10-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Marcus WALZ\" -> ICF \"Marcus COOPER\" (full name Marcus Cooper Walz; the PWW profile links facebook.com/Marcus-Cooper-Walz-1776405605968479); given name MARCUS passes the token rule. The ICF list has no WALZ and one ESP COOPER (47618). PWW profile 47618 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K1 Men 500m Semifinal rank 3 01:39.386 = this row (K1 M 500 semifinal, rank 3, 1:39.386). No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "47618",
+        "name": "Marcus COOPER",
+        "birth_date": "1994-10-03",
+        "nationality": "ESP",
+        "federation": "ESP",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:17Z"
+    },
+    {
+      "results_row": 656,
+      "seat": "ICF_ID3",
+      "printed": "Marcus WALZ",
+      "team": "ESP",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "47618",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Marcus WALZ\\\" (ESP, 6 seats) is COOPER Marcus 47618, born 1994-10-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 47618 COOPER Marcus, ESP, M, born 1994-10-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Marcus WALZ\" -> ICF \"Marcus COOPER\" (full name Marcus Cooper Walz; the PWW profile links facebook.com/Marcus-Cooper-Walz-1776405605968479); given name MARCUS passes the token rule. The ICF list has no WALZ and one ESP COOPER (47618). PWW profile 47618 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K4 Men 500m Final rank 1 01:19.325 = this row (K4 M 500 final, rank 1, 1:19.325). Crew: ICF_ID1 36045 profile lists the same race and time, ICF_ID2 46821 profile lists the same race and time, ICF_ID4 46829 profile lists the same race and time. No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "47618",
+        "name": "Marcus COOPER",
+        "birth_date": "1994-10-03",
+        "nationality": "ESP",
+        "federation": "ESP",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:17Z"
+    },
+    {
+      "results_row": 681,
+      "seat": "ICF_ID1",
+      "printed": "Marcus WALZ",
+      "team": "ESP",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "47618",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Marcus WALZ\\\" (ESP, 6 seats) is COOPER Marcus 47618, born 1994-10-03 [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 47618 COOPER Marcus, ESP, M, born 1994-10-03 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Cross-surname link: printed \"Marcus WALZ\" -> ICF \"Marcus COOPER\" (full name Marcus Cooper Walz; the PWW profile links facebook.com/Marcus-Cooper-Walz-1776405605968479); given name MARCUS passes the token rule. The ICF list has no WALZ and one ESP COOPER (47618). PWW profile 47618 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K1 Men 500m Final rank 3 01:39.553 = this row (K1 M 500 final, rank 3, 1:39.553). No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "47618",
+        "name": "Marcus COOPER",
+        "birth_date": "1994-10-03",
+        "nationality": "ESP",
+        "federation": "ESP",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:17Z"
+    },
+    {
+      "results_row": 41,
+      "seat": "ICF_ID3",
+      "printed": "Jon VOLD",
+      "team": "NOR",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "63310",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Jon VOLD\\\" (NOR, 5 seats) is VOLD Amund 63310, the record you bound for \\\"Jon VOLD\\\" on Szeged_2023_WC [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 63310 VOLD Amund, NOR, M, born 1997-11-23 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Former name \"Jon Amund VOLD\" (same link as Szeged_2023_WC, MAINTAINER_ANSWERS_2026-10-30.md t85u; Brandenburg_2016_MAR and Duisburg_2016_WC bind \"Jon Amund VOLD\" to 63310, profile-listed). Surname VOLD passes the token rule. The only other NOR man VOLD is 36743 Eivind VOLD, printed separately as \"Eivind VOLD\" at this meeting (rows 225, 1278, bound 36743). PWW profile 63310 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K4 Men 500m Heats rank 8 01:25.753 = this row (K4 M 500 heat, rank 8, 1:25.753). Crew: ICF_ID1 63850 profile lists the same race and time, ICF_ID2 72000 profile lists the same race and time, ICF_ID4 63955 profile lists the same race and time. No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "63310",
+        "name": "Amund VOLD",
+        "birth_date": "1997-11-23",
+        "nationality": "NOR",
+        "federation": "NOR",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:17Z"
+    },
+    {
+      "results_row": 232,
+      "seat": "ICF_ID1",
+      "printed": "Jon VOLD",
+      "team": "NOR",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "63310",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Jon VOLD\\\" (NOR, 5 seats) is VOLD Amund 63310, the record you bound for \\\"Jon VOLD\\\" on Szeged_2023_WC [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 63310 VOLD Amund, NOR, M, born 1997-11-23 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Former name \"Jon Amund VOLD\" (same link as Szeged_2023_WC, MAINTAINER_ANSWERS_2026-10-30.md t85u; Brandenburg_2016_MAR and Duisburg_2016_WC bind \"Jon Amund VOLD\" to 63310, profile-listed). Surname VOLD passes the token rule. The only other NOR man VOLD is 36743 Eivind VOLD, printed separately as \"Eivind VOLD\" at this meeting (rows 225, 1278, bound 36743). PWW profile 63310 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K1 Men 1000m Heats rank 4 03:30.818 = this row (K1 M 1000 heat, rank 4, 3:30.818). No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "63310",
+        "name": "Amund VOLD",
+        "birth_date": "1997-11-23",
+        "nationality": "NOR",
+        "federation": "NOR",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:17Z"
+    },
+    {
+      "results_row": 413,
+      "seat": "ICF_ID1",
+      "printed": "Jon VOLD",
+      "team": "NOR",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "63310",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Jon VOLD\\\" (NOR, 5 seats) is VOLD Amund 63310, the record you bound for \\\"Jon VOLD\\\" on Szeged_2023_WC [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 63310 VOLD Amund, NOR, M, born 1997-11-23 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Former name \"Jon Amund VOLD\" (same link as Szeged_2023_WC, MAINTAINER_ANSWERS_2026-10-30.md t85u; Brandenburg_2016_MAR and Duisburg_2016_WC bind \"Jon Amund VOLD\" to 63310, profile-listed). Surname VOLD passes the token rule. The only other NOR man VOLD is 36743 Eivind VOLD, printed separately as \"Eivind VOLD\" at this meeting (rows 225, 1278, bound 36743). PWW profile 63310 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K1 Men 1000m Semifinal rank 4 03:36.808 = this row (K1 M 1000 semifinal, rank 4, 3:36.808). No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "63310",
+        "name": "Amund VOLD",
+        "birth_date": "1997-11-23",
+        "nationality": "NOR",
+        "federation": "NOR",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:17Z"
+    },
+    {
+      "results_row": 623,
+      "seat": "ICF_ID1",
+      "printed": "Jon VOLD",
+      "team": "NOR",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "63310",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Jon VOLD\\\" (NOR, 5 seats) is VOLD Amund 63310, the record you bound for \\\"Jon VOLD\\\" on Szeged_2023_WC [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 63310 VOLD Amund, NOR, M, born 1997-11-23 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Former name \"Jon Amund VOLD\" (same link as Szeged_2023_WC, MAINTAINER_ANSWERS_2026-10-30.md t85u; Brandenburg_2016_MAR and Duisburg_2016_WC bind \"Jon Amund VOLD\" to 63310, profile-listed). Surname VOLD passes the token rule. The only other NOR man VOLD is 36743 Eivind VOLD, printed separately as \"Eivind VOLD\" at this meeting (rows 225, 1278, bound 36743). PWW profile 63310 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K1 Men 1000m Final rank 4 03:34.944 = this row (K1 M 1000 final, rank 4, 3:34.944). No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "63310",
+        "name": "Amund VOLD",
+        "birth_date": "1997-11-23",
+        "nationality": "NOR",
+        "federation": "NOR",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:17Z"
+    },
+    {
+      "results_row": 1280,
+      "seat": "ICF_ID1",
+      "printed": "Jon VOLD",
+      "team": "NOR",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "63310",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t116u; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Jon VOLD\\\" (NOR, 5 seats) is VOLD Amund 63310, the record you bound for \\\"Jon VOLD\\\" on Szeged_2023_WC [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 63310 VOLD Amund, NOR, M, born 1997-11-23 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Former name \"Jon Amund VOLD\" (same link as Szeged_2023_WC, MAINTAINER_ANSWERS_2026-10-30.md t85u; Brandenburg_2016_MAR and Duisburg_2016_WC bind \"Jon Amund VOLD\" to 63310, profile-listed). Surname VOLD passes the token rule. The only other NOR man VOLD is 36743 Eivind VOLD, printed separately as \"Eivind VOLD\" at this meeting (rows 225, 1278, bound 36743). PWW profile 63310 lists 2022 ICF CANOE SPRINT WORLD CUP RACICE / K1 Men 5000m Final rank 10 21:19.700 = this row (K1 M 5000 final, rank 10, 21:19.700). No same-id conflict in the boat or race.",
+      "previous_record": null,
+      "new_record": {
+        "id": "63310",
+        "name": "Amund VOLD",
+        "birth_date": "1997-11-23",
+        "nationality": "NOR",
+        "federation": "NOR",
+        "gender": "M"
+      },
+      "logged_at_utc": "2026-11-03T10:24:17Z"
+    },
+    {
+      "results_row": 25,
+      "seat": "ICF_ID4",
+      "printed": "Anna MUS",
+      "team": "NED",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "104732",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4; exception for 104732 only (supersedes the no_icf_id answer)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\" Exception (this athlete only, t117u item 4): 104732 has no PWW profile (paddleworldwide.com/athlete/104732 HTTP 404, fetched 2026-11-03) and is not in the ICF athlete list (bence, fetched 2026-11-03); the contract and the gates are unchanged; the seat passes the gates through the existing manifest name_check_fail_log (maintainer 2026-10-16 10:39). This source prints no id; the printed name, NOC NED and gender W are the same as on her Poznań 2022/2023/2024 seats, where the ICF results print 104732. Row: K4 W 500 heat unit 2 race 4 lane 2, rank 6, 1:38.843; crew ICF_ID1=95045, ICF_ID2=78956, ICF_ID3=53548.",
+      "previous_record": null,
+      "new_record": {
+        "id": "104732",
+        "name": "Anna MUS",
+        "birth_date": null,
+        "nationality": null,
+        "federation": null,
+        "gender": "W",
+        "note": "no ICF/PWW record (HTTP 404, not in ICF list); name, NOC and gender as printed"
+      },
+      "logged_at_utc": "2026-11-03T11:38:43Z"
+    },
+    {
+      "results_row": 263,
+      "seat": "ICF_ID4",
+      "printed": "Anna MUS",
+      "team": "NED",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "104732",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4; exception for 104732 only (supersedes the no_icf_id answer)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\" Exception (this athlete only, t117u item 4): 104732 has no PWW profile (paddleworldwide.com/athlete/104732 HTTP 404, fetched 2026-11-03) and is not in the ICF athlete list (bence, fetched 2026-11-03); the contract and the gates are unchanged; the seat passes the gates through the existing manifest name_check_fail_log (maintainer 2026-10-16 10:39). This source prints no id; the printed name, NOC NED and gender W are the same as on her Poznań 2022/2023/2024 seats, where the ICF results print 104732. Row: K4 W 500 semifinal unit 1 race 37 lane 8, rank 7, 1:37.588; crew ICF_ID1=95045, ICF_ID2=78956, ICF_ID3=53548.",
+      "previous_record": null,
+      "new_record": {
+        "id": "104732",
+        "name": "Anna MUS",
+        "birth_date": null,
+        "nationality": null,
+        "federation": null,
+        "gender": "W",
+        "note": "no ICF/PWW record (HTTP 404, not in ICF list); name, NOC and gender as printed"
+      },
+      "logged_at_utc": "2026-11-03T11:38:43Z"
+    },
+    {
+      "results_row": 558,
+      "seat": "ICF_ID4",
+      "printed": "Anna MUS",
+      "team": "NED",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "104732",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4; exception for 104732 only (supersedes the no_icf_id answer)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\" Exception (this athlete only, t117u item 4): 104732 has no PWW profile (paddleworldwide.com/athlete/104732 HTTP 404, fetched 2026-11-03) and is not in the ICF athlete list (bence, fetched 2026-11-03); the contract and the gates are unchanged; the seat passes the gates through the existing manifest name_check_fail_log (maintainer 2026-10-16 10:39). This source prints no id; the printed name, NOC NED and gender W are the same as on her Poznań 2022/2023/2024 seats, where the ICF results print 104732. Row: K4 W 500 final unit B race 73 lane 1, rank 9, 1:37.710; crew ICF_ID1=95045, ICF_ID2=78956, ICF_ID3=53548.",
+      "previous_record": null,
+      "new_record": {
+        "id": "104732",
+        "name": "Anna MUS",
+        "birth_date": null,
+        "nationality": null,
+        "federation": null,
+        "gender": "W",
+        "note": "no ICF/PWW record (HTTP 404, not in ICF list); name, NOC and gender as printed"
+      },
+      "logged_at_utc": "2026-11-03T11:38:43Z"
+    },
+    {
+      "results_row": 787,
+      "seat": "ICF_ID2",
+      "printed": "Anna MUS",
+      "team": "NED",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "104732",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4; exception for 104732 only (supersedes the no_icf_id answer)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\" Exception (this athlete only, t117u item 4): 104732 has no PWW profile (paddleworldwide.com/athlete/104732 HTTP 404, fetched 2026-11-03) and is not in the ICF athlete list (bence, fetched 2026-11-03); the contract and the gates are unchanged; the seat passes the gates through the existing manifest name_check_fail_log (maintainer 2026-10-16 10:39). This source prints no id; the printed name, NOC NED and gender W are the same as on her Poznań 2022/2023/2024 seats, where the ICF results print 104732. Row: K2 W 500 heat unit 4 race 101 lane 3, rank 8, 1:49.083; crew ICF_ID1=95045.",
+      "previous_record": null,
+      "new_record": {
+        "id": "104732",
+        "name": "Anna MUS",
+        "birth_date": null,
+        "nationality": null,
+        "federation": null,
+        "gender": "W",
+        "note": "no ICF/PWW record (HTTP 404, not in ICF list); name, NOC and gender as printed"
+      },
+      "logged_at_utc": "2026-11-03T11:38:43Z"
+    },
+    {
+      "results_row": 1265,
+      "seat": "ICF_ID1",
+      "printed": "Anna MUS",
+      "team": "NED",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "104732",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4; exception for 104732 only (supersedes the no_icf_id answer)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\" Exception (this athlete only, t117u item 4): 104732 has no PWW profile (paddleworldwide.com/athlete/104732 HTTP 404, fetched 2026-11-03) and is not in the ICF athlete list (bence, fetched 2026-11-03); the contract and the gates are unchanged; the seat passes the gates through the existing manifest name_check_fail_log (maintainer 2026-10-16 10:39). This source prints no id; the printed name, NOC NED and gender W are the same as on her Poznań 2022/2023/2024 seats, where the ICF results print 104732. Row: K1 W 5000 final unit A race 154 lane 8, rank 18, None; crew none.",
+      "previous_record": null,
+      "new_record": {
+        "id": "104732",
+        "name": "Anna MUS",
+        "birth_date": null,
+        "nationality": null,
+        "federation": null,
+        "gender": "W",
+        "note": "no ICF/PWW record (HTTP 404, not in ICF list); name, NOC and gender as printed"
+      },
+      "logged_at_utc": "2026-11-03T11:38:43Z"
     }
   ],
   "log_corrections": [
@@ -32059,6 +32891,233 @@
       "previous_label": "sheets.PERSONS.rows",
       "new_label": "sheets.PERSONS.rows",
       "rule": "t71 (MAINTAINER_ANSWERS_2026-10-27): the manifest PERSONS row count was stale (499 vs 508 PERSONS data rows in the published xlsx); now the actual count 509 after 1 PERSONS rows added for the approved C3 binds; correction of the log, no seat change"
+    },
+    {
+      "kind": "log",
+      "action": "superseded_ruling",
+      "previous_rule": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id)",
+      "new_rule": "MAINTAINER_ANSWERS_2026-11-03 t116u",
+      "detail": "t116u: the 2026-10-23 Kind F answer (0 matching records for Isaquias SANTOS) is superseded; 42767 confirmed from the ICF list and PWW profile per seat (see id_checks evidence). MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Isaquias SANTOS\\\" (BRA, 5 seats) is GUIMARAES QUEIROZ Isaquias 42767, born 1994-01-03 [...] Please confirm each from the ICF's own records before binding.\"",
+      "rows": [
+        {
+          "results_row": 179,
+          "seat": "ICF_ID1"
+        },
+        {
+          "results_row": 488,
+          "seat": "ICF_ID1"
+        },
+        {
+          "results_row": 698,
+          "seat": "ICF_ID1"
+        },
+        {
+          "results_row": 886,
+          "seat": "ICF_ID1"
+        },
+        {
+          "results_row": 1142,
+          "seat": "ICF_ID1"
+        }
+      ],
+      "seat_changes": 5,
+      "persons_added": "42767 Isaquias / SANTOS (printed spelling)",
+      "logged_at_utc": "2026-11-03T10:24:17Z"
+    },
+    {
+      "kind": "log",
+      "action": "superseded_ruling",
+      "previous_rule": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id)",
+      "new_rule": "MAINTAINER_ANSWERS_2026-11-03 t116u",
+      "detail": "t116u: the 2026-10-23 Kind F answer (0 matching records for Marcus WALZ) is superseded; 47618 confirmed from the ICF list and PWW profile per seat (see id_checks evidence). MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Marcus WALZ\\\" (ESP, 6 seats) is COOPER Marcus 47618, born 1994-10-03 [...] Please confirm each from the ICF's own records before binding.\"",
+      "rows": [
+        {
+          "results_row": 34,
+          "seat": "ICF_ID3"
+        },
+        {
+          "results_row": 128,
+          "seat": "ICF_ID1"
+        },
+        {
+          "results_row": 302,
+          "seat": "ICF_ID3"
+        },
+        {
+          "results_row": 349,
+          "seat": "ICF_ID1"
+        },
+        {
+          "results_row": 656,
+          "seat": "ICF_ID3"
+        },
+        {
+          "results_row": 681,
+          "seat": "ICF_ID1"
+        }
+      ],
+      "seat_changes": 6,
+      "persons_added": "47618 Marcus / WALZ (printed spelling)",
+      "logged_at_utc": "2026-11-03T10:24:17Z"
+    },
+    {
+      "kind": "log",
+      "action": "superseded_ruling",
+      "previous_rule": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id)",
+      "new_rule": "MAINTAINER_ANSWERS_2026-11-03 t116u",
+      "detail": "t116u: the 2026-10-23 Kind F answer (0 matching records for Jon VOLD) is superseded; 63310 confirmed from the ICF list and PWW profile per seat (see id_checks evidence). MAINTAINER_ANSWERS_2026-11-03 t116u (2026-11-03 11:13 CET): \"\\\"Jon VOLD\\\" (NOR, 5 seats) is VOLD Amund 63310, the record you bound for \\\"Jon VOLD\\\" on Szeged_2023_WC [...] Please confirm each from the ICF's own records before binding.\"",
+      "rows": [
+        {
+          "results_row": 41,
+          "seat": "ICF_ID3"
+        },
+        {
+          "results_row": 232,
+          "seat": "ICF_ID1"
+        },
+        {
+          "results_row": 413,
+          "seat": "ICF_ID1"
+        },
+        {
+          "results_row": 623,
+          "seat": "ICF_ID1"
+        },
+        {
+          "results_row": 1280,
+          "seat": "ICF_ID1"
+        }
+      ],
+      "seat_changes": 5,
+      "persons_added": "63310 Jon / VOLD (printed spelling)",
+      "logged_at_utc": "2026-11-03T10:24:17Z"
+    },
+    {
+      "kind": "log",
+      "field": "sheets.PERSONS.rows",
+      "previous": 509,
+      "new": 512,
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t115u/t116u binds: 3 PERSONS row(s) added (42767 Isaquias / SANTOS (printed spelling); 47618 Marcus / WALZ (printed spelling); 63310 Jon / VOLD (printed spelling))",
+      "logged_at_utc": "2026-11-03T10:24:17Z"
+    },
+    {
+      "kind": "log",
+      "action": "superseded_ruling",
+      "previous_rule": "no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F / 2026-10-27 item B4)",
+      "new_rule": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4",
+      "detail": "t117u item 4: the earlier no_icf_id answer for Anna MUS is superseded; 104732 bound on 5 seat(s) as a logged exception (no ICF/PWW record); gates pass via name_check_fail_log. MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\"",
+      "rows": [
+        {
+          "results_row": 25,
+          "seat": "ICF_ID4"
+        },
+        {
+          "results_row": 263,
+          "seat": "ICF_ID4"
+        },
+        {
+          "results_row": 558,
+          "seat": "ICF_ID4"
+        },
+        {
+          "results_row": 787,
+          "seat": "ICF_ID2"
+        },
+        {
+          "results_row": 1265,
+          "seat": "ICF_ID1"
+        }
+      ],
+      "seat_changes": 5,
+      "persons_added": "104732 Anna / MUS (printed spelling)",
+      "logged_at_utc": "2026-11-03T11:38:43Z"
+    },
+    {
+      "kind": "log",
+      "field": "sheets.PERSONS.rows",
+      "previous": 512,
+      "new": 513,
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4: PERSONS row added (104732 Anna / MUS (printed spelling))",
+      "logged_at_utc": "2026-11-03T11:38:43Z"
+    }
+  ],
+  "id_exception_log": [
+    {
+      "results_row": 25,
+      "seat": "ICF_ID4",
+      "printed": "Anna MUS",
+      "team": "NED",
+      "id": "104732",
+      "exception": "maintainer-ruled bind of an id with no ICF/PWW record (this athlete only)",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4",
+      "gate_mechanism": "name_check_fail_log (existing; gates unchanged)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\" Exception (this athlete only, t117u item 4): 104732 has no PWW profile (paddleworldwide.com/athlete/104732 HTTP 404, fetched 2026-11-03) and is not in the ICF athlete list (bence, fetched 2026-11-03); the contract and the gates are unchanged; the seat passes the gates through the existing manifest name_check_fail_log (maintainer 2026-10-16 10:39). This source prints no id; the printed name, NOC NED and gender W are the same as on her Poznań 2022/2023/2024 seats, where the ICF results print 104732. Row: K4 W 500 heat unit 2 race 4 lane 2, rank 6, 1:38.843; crew ICF_ID1=95045, ICF_ID2=78956, ICF_ID3=53548.",
+      "logged_at_utc": "2026-11-03T11:38:43Z"
+    },
+    {
+      "results_row": 263,
+      "seat": "ICF_ID4",
+      "printed": "Anna MUS",
+      "team": "NED",
+      "id": "104732",
+      "exception": "maintainer-ruled bind of an id with no ICF/PWW record (this athlete only)",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4",
+      "gate_mechanism": "name_check_fail_log (existing; gates unchanged)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\" Exception (this athlete only, t117u item 4): 104732 has no PWW profile (paddleworldwide.com/athlete/104732 HTTP 404, fetched 2026-11-03) and is not in the ICF athlete list (bence, fetched 2026-11-03); the contract and the gates are unchanged; the seat passes the gates through the existing manifest name_check_fail_log (maintainer 2026-10-16 10:39). This source prints no id; the printed name, NOC NED and gender W are the same as on her Poznań 2022/2023/2024 seats, where the ICF results print 104732. Row: K4 W 500 semifinal unit 1 race 37 lane 8, rank 7, 1:37.588; crew ICF_ID1=95045, ICF_ID2=78956, ICF_ID3=53548.",
+      "logged_at_utc": "2026-11-03T11:38:43Z"
+    },
+    {
+      "results_row": 558,
+      "seat": "ICF_ID4",
+      "printed": "Anna MUS",
+      "team": "NED",
+      "id": "104732",
+      "exception": "maintainer-ruled bind of an id with no ICF/PWW record (this athlete only)",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4",
+      "gate_mechanism": "name_check_fail_log (existing; gates unchanged)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\" Exception (this athlete only, t117u item 4): 104732 has no PWW profile (paddleworldwide.com/athlete/104732 HTTP 404, fetched 2026-11-03) and is not in the ICF athlete list (bence, fetched 2026-11-03); the contract and the gates are unchanged; the seat passes the gates through the existing manifest name_check_fail_log (maintainer 2026-10-16 10:39). This source prints no id; the printed name, NOC NED and gender W are the same as on her Poznań 2022/2023/2024 seats, where the ICF results print 104732. Row: K4 W 500 final unit B race 73 lane 1, rank 9, 1:37.710; crew ICF_ID1=95045, ICF_ID2=78956, ICF_ID3=53548.",
+      "logged_at_utc": "2026-11-03T11:38:43Z"
+    },
+    {
+      "results_row": 787,
+      "seat": "ICF_ID2",
+      "printed": "Anna MUS",
+      "team": "NED",
+      "id": "104732",
+      "exception": "maintainer-ruled bind of an id with no ICF/PWW record (this athlete only)",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4",
+      "gate_mechanism": "name_check_fail_log (existing; gates unchanged)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\" Exception (this athlete only, t117u item 4): 104732 has no PWW profile (paddleworldwide.com/athlete/104732 HTTP 404, fetched 2026-11-03) and is not in the ICF athlete list (bence, fetched 2026-11-03); the contract and the gates are unchanged; the seat passes the gates through the existing manifest name_check_fail_log (maintainer 2026-10-16 10:39). This source prints no id; the printed name, NOC NED and gender W are the same as on her Poznań 2022/2023/2024 seats, where the ICF results print 104732. Row: K2 W 500 heat unit 4 race 101 lane 3, rank 8, 1:49.083; crew ICF_ID1=95045.",
+      "logged_at_utc": "2026-11-03T11:38:43Z"
+    },
+    {
+      "results_row": 1265,
+      "seat": "ICF_ID1",
+      "printed": "Anna MUS",
+      "team": "NED",
+      "id": "104732",
+      "exception": "maintainer-ruled bind of an id with no ICF/PWW record (this athlete only)",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4",
+      "gate_mechanism": "name_check_fail_log (existing; gates unchanged)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\" Exception (this athlete only, t117u item 4): 104732 has no PWW profile (paddleworldwide.com/athlete/104732 HTTP 404, fetched 2026-11-03) and is not in the ICF athlete list (bence, fetched 2026-11-03); the contract and the gates are unchanged; the seat passes the gates through the existing manifest name_check_fail_log (maintainer 2026-10-16 10:39). This source prints no id; the printed name, NOC NED and gender W are the same as on her Poznań 2022/2023/2024 seats, where the ICF results print 104732. Row: K1 W 5000 final unit A race 154 lane 8, rank 18, None; crew none.",
+      "logged_at_utc": "2026-11-03T11:38:43Z"
+    }
+  ],
+  "name_check_fail_log": [
+    {
+      "id": "104732",
+      "name": "Anna MUS",
+      "printed_team": "NED",
+      "profile": "none: paddleworldwide.com/athlete/104732 HTTP 404; not in the ICF athlete list (fetched 2026-11-03)",
+      "seats": 5,
+      "results_rows": [
+        25,
+        263,
+        558,
+        787,
+        1265
+      ],
+      "note": "Maintainer exception MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (this athlete only; contract and gates unchanged): PERSONS/seat name check cannot run on a 404 id; id kept, logged. MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\""
     }
   ]
 }
