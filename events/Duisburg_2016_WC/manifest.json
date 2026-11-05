@@ -11,7 +11,7 @@
   "dates": "2016-05-17/2016-05-22",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-27T20:21:19Z",
+  "generated_at_utc": "2026-11-04T20:27:42Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "IMAS race pages print the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule).",
@@ -1778,28 +1778,28 @@
     {
       "race_number": "31",
       "starting_lane": 1,
-      "rank": 4,
+      "rank": 5,
       "obs": "",
       "team": "NOR"
     },
     {
       "race_number": "31",
       "starting_lane": 5,
-      "rank": null,
+      "rank": 6,
       "obs": "",
       "team": "FIN"
     },
     {
       "race_number": "31",
       "starting_lane": 4,
-      "rank": 6,
+      "rank": 7,
       "obs": "",
       "team": "TUR"
     },
     {
       "race_number": "31",
       "starting_lane": 6,
-      "rank": null,
+      "rank": 8,
       "obs": "",
       "team": "GRE"
     },
@@ -47184,6 +47184,13 @@
     {
       "path": "imas-sources/Duisburg_2016_WC/race_99.html",
       "sha256": "414312ba7a9725f4b6f061b3c69fb8632f7c81b28a15ef3d74bc6bda3aafe415"
+    },
+    {
+      "path": "github-release:kenderfoka/race-desk@startlists-2026-11-04/startlists_2026-11-04.zip:sprint/World_Cups/Results_CSP_2016_World_Cup_I_Duisburg.pdf",
+      "sha256": "59c8568c85ebfb5c022e6c867b59fbaeaca87b09f7088ad01d7d93927f4e8a61",
+      "bytes": 7338647,
+      "host": "github release (not in VENDOR_MAP; RU221 new source)",
+      "ruling": "t122u"
     }
   ],
   "sheets": {
@@ -48029,12 +48036,12 @@
     {
       "kind": "xlsx",
       "name": "Duisburg_2016_WC_Results.xlsx",
-      "sha256": "0d6718668966440198c12596634ab7c5770c43d36b9175e9201e5a444aa1fdca",
-      "bytes": 173070
+      "sha256": "cc385984641ee6f57e4ae204c82a429d68e1446484b23c73132677a7d24902aa",
+      "bytes": 173081
     }
   ],
   "output_xlsx": "Duisburg_2016_WC_Results.xlsx",
-  "output_xlsx_sha256": "0d6718668966440198c12596634ab7c5770c43d36b9175e9201e5a444aa1fdca",
+  "output_xlsx_sha256": "cc385984641ee6f57e4ae204c82a429d68e1446484b23c73132677a7d24902aa",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -48076,7 +48083,7 @@
     "no_icf_id_t59": 108,
     "same_meeting_unified_t59": 0
   },
-  "updated_at": "2026-10-27T20:21:19Z",
+  "updated_at": "2026-11-04T20:27:42Z",
   "name_change_log": [
     {
       "results_row": 120,
@@ -50993,6 +51000,78 @@
         "nationality": "SRB",
         "federation": "SRB",
         "gender": "W"
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:42Z",
+      "kind": "cell_patch",
+      "results_row": 253,
+      "race": "31",
+      "lane": 1,
+      "team": "NOR",
+      "field": "RANK",
+      "previous": 4,
+      "new": 5,
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/Results_CSP_2016_World_Cup_I_Duisburg.pdf (sha256 59c8568c85ebfb5c022e6c867b59fbaeaca87b09f7088ad01d7d93927f4e8a61)",
+      "evidence": "sprint/World_Cups/Results_CSP_2016_World_Cup_I_Duisburg.pdf: Race 31 FRI 20 MAY 2016 11:47 K2 M 1000 Heat prints RANK 5, NOR, LANE 1",
+      "rank_oracle_previous": {
+        "rank": 4,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:42Z",
+      "kind": "cell_patch",
+      "results_row": 254,
+      "race": "31",
+      "lane": 5,
+      "team": "FIN",
+      "field": "RANK",
+      "previous": null,
+      "new": 6,
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/Results_CSP_2016_World_Cup_I_Duisburg.pdf (sha256 59c8568c85ebfb5c022e6c867b59fbaeaca87b09f7088ad01d7d93927f4e8a61)",
+      "evidence": "sprint/World_Cups/Results_CSP_2016_World_Cup_I_Duisburg.pdf: Race 31 FRI 20 MAY 2016 11:47 K2 M 1000 Heat prints RANK 6, FIN, LANE 5",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:42Z",
+      "kind": "cell_patch",
+      "results_row": 255,
+      "race": "31",
+      "lane": 4,
+      "team": "TUR",
+      "field": "RANK",
+      "previous": 6,
+      "new": 7,
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/Results_CSP_2016_World_Cup_I_Duisburg.pdf (sha256 59c8568c85ebfb5c022e6c867b59fbaeaca87b09f7088ad01d7d93927f4e8a61)",
+      "evidence": "sprint/World_Cups/Results_CSP_2016_World_Cup_I_Duisburg.pdf: Race 31 FRI 20 MAY 2016 11:47 K2 M 1000 Heat prints RANK 7, TUR, LANE 4",
+      "rank_oracle_previous": {
+        "rank": 6,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:42Z",
+      "kind": "cell_patch",
+      "results_row": 256,
+      "race": "31",
+      "lane": 6,
+      "team": "GRE",
+      "field": "RANK",
+      "previous": null,
+      "new": 8,
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/Results_CSP_2016_World_Cup_I_Duisburg.pdf (sha256 59c8568c85ebfb5c022e6c867b59fbaeaca87b09f7088ad01d7d93927f4e8a61)",
+      "evidence": "sprint/World_Cups/Results_CSP_2016_World_Cup_I_Duisburg.pdf: Race 31 FRI 20 MAY 2016 11:47 K2 M 1000 Heat prints RANK 8, GRE, LANE 6",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
       }
     }
   ],
