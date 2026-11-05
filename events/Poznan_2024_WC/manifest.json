@@ -11,7 +11,7 @@
   "index": "https://domtel-sport.pl/wyniki,zawody,5815",
   "discipline": "sprint",
   "start_times": "actual",
-  "generated_at_utc": "2026-10-27T20:19:27Z",
+  "generated_at_utc": "2026-11-05T22:15:31Z",
   "grade": "PERFECT",
   "gaps": [],
   "id_checks": [
@@ -638,22 +638,23 @@
     {
       "results_row": 470,
       "seat": "ICF_ID1",
-      "published_id": "104732",
       "source_printed_name": "Anna MUS",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-27 item B4: no ICF id for Anna MUS (NED, W) in ICF/PWW/Dutch federation sources, searched 2026-10-27: ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records): no family name MUS and no NED woman named Anna; PaddleWorldwide athlete search (paddleworldwide.com/api/search for 'Anna Mus', 'Mus', 'MUS Anna', 'Anna Mus Netherlands'): no MUS record; PaddleWorldwide profile 104732 (the id once printed for this athlete in Poznan sheets): HTTP 404, and 104732 is not in the ICF list; canoeicf.com/athlete/anna-mus: HTTP 404 (a search-engine copy shows 'Anna MUS (NED)', federation Watersportverbond, no ICF id); Dutch federation (Watersportverbond, the kanosport federation) site search 'Anna Mus' (watersportverbond.nl/zoeken, kanosport.nl): no athlete record or ICF id; C3 fallback steps a-d: no match. The seat stays empty (no_icf_id)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\" Exception (this athlete only, t117u item 4): 104732 has no PWW profile (paddleworldwide.com/athlete/104732 HTTP 404, fetched 2026-11-03) and is not in the ICF athlete list (bence, fetched 2026-11-03); the contract and the gates are unchanged; the seat passes the gates through the existing manifest name_check_fail_log (maintainer 2026-10-16 10:39). The official source of this sheet prints id 104732 on this seat (recorded as published_id). Row: K1 W 500 heat unit 2 race 67 lane 1, rank 6, 00:02:06.310; crew none.",
       "team": "NED",
-      "detail": "MAINTAINER_ANSWERS_2026-10-27 item B4: no ICF id for Anna MUS (NED, W) in ICF/PWW/Dutch federation sources, searched 2026-10-27: ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records): no family name MUS and no NED woman named Anna; PaddleWorldwide athlete search (paddleworldwide.com/api/search for 'Anna Mus', 'Mus', 'MUS Anna', 'Anna Mus Netherlands'): no MUS record; PaddleWorldwide profile 104732 (the id once printed for this athlete in Poznan sheets): HTTP 404, and 104732 is not in the ICF list; canoeicf.com/athlete/anna-mus: HTTP 404 (a search-engine copy shows 'Anna MUS (NED)', federation Watersportverbond, no ICF id); Dutch federation (Watersportverbond, the kanosport federation) site search 'Anna Mus' (watersportverbond.nl/zoeken, kanosport.nl): no athlete record or ICF id; C3 fallback steps a-d: no match. The seat stays empty (no_icf_id)",
-      "searched_sources": [
-        "ICF list (bence)",
-        "paddleworldwide.com/api/search",
-        "paddleworldwide.com/athlete/104732",
-        "canoeicf.com/athlete/anna-mus",
-        "watersportverbond.nl/zoeken",
-        "kanosport.nl",
-        "C3 fallback a-d"
-      ]
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4: maintainer-ruled exception bind of 104732 (Anna MUS, NED, W; no ICF/PWW record); was no_icf_id (superseded by t117u item 4)",
+      "new_id": "104732",
+      "published_id": "104732",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-27 item B4: no ICF id for Anna MUS (NED, W) in ICF/PWW/Dutch federation sources, searched 2026-10-27: ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records): no family name MUS and no NED woman named Anna; PaddleWorldwide athlete search (paddleworldwide.com/api/search for 'Anna Mus', 'Mus', 'MUS Anna', 'Anna Mus Netherlands'): no MUS record; PaddleWorldwide profile 104732 (the id once printed for this athlete in Poznan sheets): HTTP 404, and 104732 is not in the ICF list; canoeicf.com/athlete/anna-mus: HTTP 404 (a search-engine copy shows 'Anna MUS (NED)', federation Watersportverbond, no ICF id); Dutch federation (Watersportverbond, the kanosport federation) site search 'Anna Mus' (watersportverbond.nl/zoeken, kanosport.nl): no athlete record or ICF id; C3 fallback steps a-d: no match. The seat stays empty (no_icf_id)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-27 item B4: no ICF id for Anna MUS (NED, W) in ICF/PWW/Dutch federation sources, searched 2026-10-27: ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records): no family name MUS and no NED woman named Anna; PaddleWorldwide athlete search (paddleworldwide.com/api/search for 'Anna Mus', 'Mus', 'MUS Anna', 'Anna Mus Netherlands'): no MUS record; PaddleWorldwide profile 104732 (the id once printed for this athlete in Poznan sheets): HTTP 404, and 104732 is not in the ICF list; canoeicf.com/athlete/anna-mus: HTTP 404 (a search-engine copy shows 'Anna MUS (NED)', federation Watersportverbond, no ICF id); Dutch federation (Watersportverbond, the kanosport federation) site search 'Anna Mus' (watersportverbond.nl/zoeken, kanosport.nl): no athlete record or ICF id; C3 fallback steps a-d: no match. The seat stays empty (no_icf_id)",
+        "source": "pww+bence",
+        "published_id": "104732",
+        "superseded_by": "t117u item 4",
+        "superseded_at_utc": "2026-11-03T11:38:47Z"
+      }
     },
     {
       "results_row": 480,
@@ -695,22 +696,23 @@
     {
       "results_row": 552,
       "seat": "ICF_ID1",
-      "published_id": "104732",
       "source_printed_name": "Anna MUS",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-27 item B4: no ICF id for Anna MUS (NED, W) in ICF/PWW/Dutch federation sources, searched 2026-10-27: ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records): no family name MUS and no NED woman named Anna; PaddleWorldwide athlete search (paddleworldwide.com/api/search for 'Anna Mus', 'Mus', 'MUS Anna', 'Anna Mus Netherlands'): no MUS record; PaddleWorldwide profile 104732 (the id once printed for this athlete in Poznan sheets): HTTP 404, and 104732 is not in the ICF list; canoeicf.com/athlete/anna-mus: HTTP 404 (a search-engine copy shows 'Anna MUS (NED)', federation Watersportverbond, no ICF id); Dutch federation (Watersportverbond, the kanosport federation) site search 'Anna Mus' (watersportverbond.nl/zoeken, kanosport.nl): no athlete record or ICF id; C3 fallback steps a-d: no match. The seat stays empty (no_icf_id)",
+      "action": "corrected",
+      "source": "maintainer",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\" Exception (this athlete only, t117u item 4): 104732 has no PWW profile (paddleworldwide.com/athlete/104732 HTTP 404, fetched 2026-11-03) and is not in the ICF athlete list (bence, fetched 2026-11-03); the contract and the gates are unchanged; the seat passes the gates through the existing manifest name_check_fail_log (maintainer 2026-10-16 10:39). The official source of this sheet prints id 104732 on this seat (recorded as published_id). Row: K1 W 500 semifinal unit 1 race 79 lane 1, rank 8, 00:02:01.170; crew none.",
       "team": "NED",
-      "detail": "MAINTAINER_ANSWERS_2026-10-27 item B4: no ICF id for Anna MUS (NED, W) in ICF/PWW/Dutch federation sources, searched 2026-10-27: ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records): no family name MUS and no NED woman named Anna; PaddleWorldwide athlete search (paddleworldwide.com/api/search for 'Anna Mus', 'Mus', 'MUS Anna', 'Anna Mus Netherlands'): no MUS record; PaddleWorldwide profile 104732 (the id once printed for this athlete in Poznan sheets): HTTP 404, and 104732 is not in the ICF list; canoeicf.com/athlete/anna-mus: HTTP 404 (a search-engine copy shows 'Anna MUS (NED)', federation Watersportverbond, no ICF id); Dutch federation (Watersportverbond, the kanosport federation) site search 'Anna Mus' (watersportverbond.nl/zoeken, kanosport.nl): no athlete record or ICF id; C3 fallback steps a-d: no match. The seat stays empty (no_icf_id)",
-      "searched_sources": [
-        "ICF list (bence)",
-        "paddleworldwide.com/api/search",
-        "paddleworldwide.com/athlete/104732",
-        "canoeicf.com/athlete/anna-mus",
-        "watersportverbond.nl/zoeken",
-        "kanosport.nl",
-        "C3 fallback a-d"
-      ]
+      "detail": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4: maintainer-ruled exception bind of 104732 (Anna MUS, NED, W; no ICF/PWW record); was no_icf_id (superseded by t117u item 4)",
+      "new_id": "104732",
+      "published_id": "104732",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-27 item B4: no ICF id for Anna MUS (NED, W) in ICF/PWW/Dutch federation sources, searched 2026-10-27: ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records): no family name MUS and no NED woman named Anna; PaddleWorldwide athlete search (paddleworldwide.com/api/search for 'Anna Mus', 'Mus', 'MUS Anna', 'Anna Mus Netherlands'): no MUS record; PaddleWorldwide profile 104732 (the id once printed for this athlete in Poznan sheets): HTTP 404, and 104732 is not in the ICF list; canoeicf.com/athlete/anna-mus: HTTP 404 (a search-engine copy shows 'Anna MUS (NED)', federation Watersportverbond, no ICF id); Dutch federation (Watersportverbond, the kanosport federation) site search 'Anna Mus' (watersportverbond.nl/zoeken, kanosport.nl): no athlete record or ICF id; C3 fallback steps a-d: no match. The seat stays empty (no_icf_id)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-27 item B4: no ICF id for Anna MUS (NED, W) in ICF/PWW/Dutch federation sources, searched 2026-10-27: ICF athlete list (bence) fetched 2026-10-27T19:01:42Z (28899 records): no family name MUS and no NED woman named Anna; PaddleWorldwide athlete search (paddleworldwide.com/api/search for 'Anna Mus', 'Mus', 'MUS Anna', 'Anna Mus Netherlands'): no MUS record; PaddleWorldwide profile 104732 (the id once printed for this athlete in Poznan sheets): HTTP 404, and 104732 is not in the ICF list; canoeicf.com/athlete/anna-mus: HTTP 404 (a search-engine copy shows 'Anna MUS (NED)', federation Watersportverbond, no ICF id); Dutch federation (Watersportverbond, the kanosport federation) site search 'Anna Mus' (watersportverbond.nl/zoeken, kanosport.nl): no athlete record or ICF id; C3 fallback steps a-d: no match. The seat stays empty (no_icf_id)",
+        "source": "pww+bence",
+        "published_id": "104732",
+        "superseded_by": "t117u item 4",
+        "superseded_at_utc": "2026-11-03T11:38:47Z"
+      }
     },
     {
       "results_row": 566,
@@ -5666,7 +5668,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 262
+      "rows": 263
     }
   },
   "coverage": {
@@ -7167,8 +7169,7 @@
       "bytes": 30859
     }
   ],
-  "updated_at": "2026-10-27T20:19:27Z",
-  "reason_code": "NO_RACE_FOR_DATES",
+  "updated_at": "2026-11-05T22:15:31Z",
   "grade_reason": "races_catalog=96 races_with_boats=94; icf_overall=873/925 (94.38%); icf_non_exhibition=873/925 (94.38%); empty_or_failed_races=[63, 77]",
   "domain": "flatwater_sprint",
   "sheet": "Poznan_2024_WC_Results.xlsx",
@@ -7177,12 +7178,12 @@
     {
       "kind": "xlsx",
       "name": "Poznan_2024_WC_Results.xlsx",
-      "sha256": "aac4956289ae23330402c7425ed38c7c74fed2b1154c1574c7e436eb391944d6",
-      "bytes": 59705
+      "sha256": "20c549a0c9012fb337b72d1b474dc692c1d0afa92b5d7f31ee0303e227c5043f",
+      "bytes": 59749
     }
   ],
   "output_xlsx": "races/Poznan_2024_WC/Poznan_2024_WC_Results.xlsx",
-  "output_xlsx_sha256": "aac4956289ae23330402c7425ed38c7c74fed2b1154c1574c7e436eb391944d6",
+  "output_xlsx_sha256": "20c549a0c9012fb337b72d1b474dc692c1d0afa92b5d7f31ee0303e227c5043f",
   "checks": {
     "start-times": "pass",
     "crews": "pass",
@@ -7459,6 +7460,52 @@
         "federation": "GER",
         "gender": "W"
       }
+    },
+    {
+      "results_row": 470,
+      "seat": "ICF_ID1",
+      "printed": "Anna MUS",
+      "team": "NED",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "104732",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4; exception for 104732 only (supersedes the no_icf_id answer)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\" Exception (this athlete only, t117u item 4): 104732 has no PWW profile (paddleworldwide.com/athlete/104732 HTTP 404, fetched 2026-11-03) and is not in the ICF athlete list (bence, fetched 2026-11-03); the contract and the gates are unchanged; the seat passes the gates through the existing manifest name_check_fail_log (maintainer 2026-10-16 10:39). The official source of this sheet prints id 104732 on this seat (recorded as published_id). Row: K1 W 500 heat unit 2 race 67 lane 1, rank 6, 00:02:06.310; crew none.",
+      "previous_record": null,
+      "new_record": {
+        "id": "104732",
+        "name": "Anna MUS",
+        "birth_date": null,
+        "nationality": null,
+        "federation": null,
+        "gender": "W",
+        "note": "no ICF/PWW record (HTTP 404, not in ICF list); name, NOC and gender as printed"
+      },
+      "logged_at_utc": "2026-11-03T11:38:47Z"
+    },
+    {
+      "results_row": 552,
+      "seat": "ICF_ID1",
+      "printed": "Anna MUS",
+      "team": "NED",
+      "category": "SENIOR",
+      "previous_id": "",
+      "new_id": "104732",
+      "action": "corrected",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4; exception for 104732 only (supersedes the no_icf_id answer)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\" Exception (this athlete only, t117u item 4): 104732 has no PWW profile (paddleworldwide.com/athlete/104732 HTTP 404, fetched 2026-11-03) and is not in the ICF athlete list (bence, fetched 2026-11-03); the contract and the gates are unchanged; the seat passes the gates through the existing manifest name_check_fail_log (maintainer 2026-10-16 10:39). The official source of this sheet prints id 104732 on this seat (recorded as published_id). Row: K1 W 500 semifinal unit 1 race 79 lane 1, rank 8, 00:02:01.170; crew none.",
+      "previous_record": null,
+      "new_record": {
+        "id": "104732",
+        "name": "Anna MUS",
+        "birth_date": null,
+        "nationality": null,
+        "federation": null,
+        "gender": "W",
+        "note": "no ICF/PWW record (HTTP 404, not in ICF list); name, NOC and gender as printed"
+      },
+      "logged_at_utc": "2026-11-03T11:38:47Z"
     }
   ],
   "log_corrections": [
@@ -7562,6 +7609,74 @@
       "previous_label": "sheets.PERSONS.rows",
       "new_label": "sheets.PERSONS.rows",
       "rule": "t71 (MAINTAINER_ANSWERS_2026-10-27): the manifest PERSONS row count was stale (258 vs 261 PERSONS data rows in the published xlsx); now the actual count 262 after 1 PERSONS rows added for the approved C3 binds; correction of the log, no seat change"
+    },
+    {
+      "kind": "log",
+      "action": "superseded_ruling",
+      "previous_rule": "no_icf_id (MAINTAINER_ANSWERS_2026-10-23 Kind F / 2026-10-27 item B4)",
+      "new_rule": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4",
+      "detail": "t117u item 4: the earlier no_icf_id answer for Anna MUS is superseded; 104732 bound on 2 seat(s) as a logged exception (no ICF/PWW record); gates pass via name_check_fail_log. MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\"",
+      "rows": [
+        {
+          "results_row": 470,
+          "seat": "ICF_ID1"
+        },
+        {
+          "results_row": 552,
+          "seat": "ICF_ID1"
+        }
+      ],
+      "seat_changes": 2,
+      "persons_added": "104732 Anna / MUS (printed spelling)",
+      "logged_at_utc": "2026-11-03T11:38:47Z"
+    },
+    {
+      "kind": "log",
+      "field": "sheets.PERSONS.rows",
+      "previous": 262,
+      "new": 263,
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4: PERSONS row added (104732 Anna / MUS (printed spelling))",
+      "logged_at_utc": "2026-11-03T11:38:47Z"
+    }
+  ],
+  "id_exception_log": [
+    {
+      "results_row": 470,
+      "seat": "ICF_ID1",
+      "printed": "Anna MUS",
+      "team": "NED",
+      "id": "104732",
+      "exception": "maintainer-ruled bind of an id with no ICF/PWW record (this athlete only)",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4",
+      "gate_mechanism": "name_check_fail_log (existing; gates unchanged)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\" Exception (this athlete only, t117u item 4): 104732 has no PWW profile (paddleworldwide.com/athlete/104732 HTTP 404, fetched 2026-11-03) and is not in the ICF athlete list (bence, fetched 2026-11-03); the contract and the gates are unchanged; the seat passes the gates through the existing manifest name_check_fail_log (maintainer 2026-10-16 10:39). The official source of this sheet prints id 104732 on this seat (recorded as published_id). Row: K1 W 500 heat unit 2 race 67 lane 1, rank 6, 00:02:06.310; crew none.",
+      "logged_at_utc": "2026-11-03T11:38:47Z"
+    },
+    {
+      "results_row": 552,
+      "seat": "ICF_ID1",
+      "printed": "Anna MUS",
+      "team": "NED",
+      "id": "104732",
+      "exception": "maintainer-ruled bind of an id with no ICF/PWW record (this athlete only)",
+      "rule": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4",
+      "gate_mechanism": "name_check_fail_log (existing; gates unchanged)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\" Exception (this athlete only, t117u item 4): 104732 has no PWW profile (paddleworldwide.com/athlete/104732 HTTP 404, fetched 2026-11-03) and is not in the ICF athlete list (bence, fetched 2026-11-03); the contract and the gates are unchanged; the seat passes the gates through the existing manifest name_check_fail_log (maintainer 2026-10-16 10:39). The official source of this sheet prints id 104732 on this seat (recorded as published_id). Row: K1 W 500 semifinal unit 1 race 79 lane 1, rank 8, 00:02:01.170; crew none.",
+      "logged_at_utc": "2026-11-03T11:38:47Z"
+    }
+  ],
+  "name_check_fail_log": [
+    {
+      "id": "104732",
+      "name": "Anna MUS",
+      "printed_team": "NED",
+      "profile": "none: paddleworldwide.com/athlete/104732 HTTP 404; not in the ICF athlete list (fetched 2026-11-03)",
+      "seats": 2,
+      "results_rows": [
+        470,
+        552
+      ],
+      "note": "Maintainer exception MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (this athlete only; contract and gates unchanged): PERSONS/seat name check cannot run on a 404 id; id kept, logged. MAINTAINER_ANSWERS_2026-11-03 t117u item 4 (2026-11-03 12:36 CET): \"MUS Anna, 104732: an exception for her only. Keep the contract and the gates as they are, and bind 104732 on all 46 of her seats, each bind logged as an exception naming this ruling, one pull request per sheet (Račice and Halifax may go on #13 and #14).\""
     }
   ]
 }
