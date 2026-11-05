@@ -11,7 +11,7 @@
   "dates": "2014-08-06/2014-08-10",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-31T10:42:15Z",
+  "generated_at_utc": "2026-11-04T20:27:44Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "IMAS race pages print the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule).",
@@ -11712,14 +11712,14 @@
       "race_number": "203",
       "starting_lane": 61,
       "rank": null,
-      "obs": "",
+      "obs": "DNS",
       "team": "TUN"
     },
     {
       "race_number": "203",
       "starting_lane": 62,
       "rank": null,
-      "obs": "",
+      "obs": "DNF",
       "team": "EGY"
     },
     {
@@ -11747,7 +11747,7 @@
       "race_number": "203",
       "starting_lane": 70,
       "rank": null,
-      "obs": "",
+      "obs": "DNF",
       "team": "FIN"
     },
     {
@@ -11761,7 +11761,7 @@
       "race_number": "203",
       "starting_lane": 86,
       "rank": null,
-      "obs": "",
+      "obs": "DNS",
       "team": "ISR"
     },
     {
@@ -11775,14 +11775,14 @@
       "race_number": "203",
       "starting_lane": 93,
       "rank": null,
-      "obs": "",
+      "obs": "DNF",
       "team": "UZB"
     },
     {
       "race_number": "203",
       "starting_lane": 94,
       "rank": null,
-      "obs": "",
+      "obs": "DNF",
       "team": "MDA"
     },
     {
@@ -14549,6 +14549,13 @@
       "rank": null,
       "obs": "DNS",
       "team": "BLR"
+    },
+    {
+      "race_number": "15",
+      "starting_lane": 8,
+      "rank": null,
+      "obs": "DNS",
+      "team": "ITA"
     }
   ],
   "id_checks": [
@@ -48255,6 +48262,17 @@
       "team": "BLR",
       "appended": "MAINTAINER_ANSWERS_2026-10-19b Q69 (as Q38): IMAS printed 'CANCEL' for BLR 907 HRAFEEVA, Lydia, race printed 35 V1 (A) W 200 Final (sheet race 1535, renumbered per maintainer 2026-10-16), printed lane 3; row added with OBS DNS, STARTING_LANE empty per ruling, ITA untouched",
       "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Lydia HRAFEEVA (BLR, W)"
+    },
+    {
+      "seat": "ICF_ID1",
+      "source_printed_name": "Veronica Yoko PLEBANI",
+      "action": "corrected",
+      "source": "pww_search",
+      "new_id": "47296",
+      "team": "ITA",
+      "detail": "bind_seat 2026-11-04: repaired empty seat via unique ICF/PWW search -> 47296; same printed name + Team already bound 47296 on this sheet (results_row 7), same-meeting bind (gate 4)",
+      "name_bound_profile": "same-meeting unification with results_row 7 (kept: profile lists 2014 ICF PARACANOE WORLD CHAMPIONSHIPS / K1 (TA) Women 200m); DNS row",
+      "results_row": 2078
     }
   ],
   "bib_boat": "intentionally_empty",
@@ -49254,6 +49272,13 @@
     {
       "path": "imas-sources/Moscow_2014_WCH/race_99.html",
       "sha256": "5cd54ebf499963b46808c251162de48b23c521de7bfc6d1c80c9f885ca54ebf4"
+    },
+    {
+      "path": "github-release:kenderfoka/race-desk@startlists-2026-11-04/startlists_2026-11-04.zip:sprint/World_Championships/2014-0806-0810_Moscow_Sprint_World_Championships/moscow2014_results_all.pdf",
+      "sha256": "df78eaa3462eae74c07ae5170337077e087e68b980d5ed6a956f2481818ed12d",
+      "bytes": 1492253,
+      "host": "github release (not in VENDOR_MAP; RU221 new source)",
+      "ruling": "t122u"
     }
   ],
   "sheets": {
@@ -49332,42 +49357,78 @@
       "lane": "61",
       "team": "TUN",
       "printed": "---",
-      "note": "status empty, logged as '---' (maintainer 2026-10-16)"
+      "note": "status empty, logged as '---' (maintainer 2026-10-16)",
+      "superseded": {
+        "by": "OBS DNS",
+        "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2014-0806-0810_Moscow_Sprint_World_Championships/moscow2014_results_all.pdf (sha256 df78eaa3462eae74c07ae5170337077e087e68b980d5ed6a956f2481818ed12d)",
+        "at_utc": "2026-11-04T20:27:44Z",
+        "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")"
+      }
     },
     {
       "race": 203,
       "lane": "62",
       "team": "EGY",
       "printed": "---",
-      "note": "status empty, logged as '---' (maintainer 2026-10-16)"
+      "note": "status empty, logged as '---' (maintainer 2026-10-16)",
+      "superseded": {
+        "by": "OBS DNF",
+        "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2014-0806-0810_Moscow_Sprint_World_Championships/moscow2014_results_all.pdf (sha256 df78eaa3462eae74c07ae5170337077e087e68b980d5ed6a956f2481818ed12d)",
+        "at_utc": "2026-11-04T20:27:44Z",
+        "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")"
+      }
     },
     {
       "race": 203,
       "lane": "70",
       "team": "FIN",
       "printed": "---",
-      "note": "status empty, logged as '---' (maintainer 2026-10-16)"
+      "note": "status empty, logged as '---' (maintainer 2026-10-16)",
+      "superseded": {
+        "by": "OBS DNF",
+        "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2014-0806-0810_Moscow_Sprint_World_Championships/moscow2014_results_all.pdf (sha256 df78eaa3462eae74c07ae5170337077e087e68b980d5ed6a956f2481818ed12d)",
+        "at_utc": "2026-11-04T20:27:44Z",
+        "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")"
+      }
     },
     {
       "race": 203,
       "lane": "86",
       "team": "ISR",
       "printed": "---",
-      "note": "status empty, logged as '---' (maintainer 2026-10-16)"
+      "note": "status empty, logged as '---' (maintainer 2026-10-16)",
+      "superseded": {
+        "by": "OBS DNS",
+        "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2014-0806-0810_Moscow_Sprint_World_Championships/moscow2014_results_all.pdf (sha256 df78eaa3462eae74c07ae5170337077e087e68b980d5ed6a956f2481818ed12d)",
+        "at_utc": "2026-11-04T20:27:44Z",
+        "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")"
+      }
     },
     {
       "race": 203,
       "lane": "93",
       "team": "UZB",
       "printed": "---",
-      "note": "status empty, logged as '---' (maintainer 2026-10-16)"
+      "note": "status empty, logged as '---' (maintainer 2026-10-16)",
+      "superseded": {
+        "by": "OBS DNF",
+        "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2014-0806-0810_Moscow_Sprint_World_Championships/moscow2014_results_all.pdf (sha256 df78eaa3462eae74c07ae5170337077e087e68b980d5ed6a956f2481818ed12d)",
+        "at_utc": "2026-11-04T20:27:44Z",
+        "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")"
+      }
     },
     {
       "race": 203,
       "lane": "94",
       "team": "MDA",
       "printed": "---",
-      "note": "status empty, logged as '---' (maintainer 2026-10-16)"
+      "note": "status empty, logged as '---' (maintainer 2026-10-16)",
+      "superseded": {
+        "by": "OBS DNF",
+        "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2014-0806-0810_Moscow_Sprint_World_Championships/moscow2014_results_all.pdf (sha256 df78eaa3462eae74c07ae5170337077e087e68b980d5ed6a956f2481818ed12d)",
+        "at_utc": "2026-11-04T20:27:44Z",
+        "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")"
+      }
     }
   ],
   "noc_map_log": [
@@ -49654,12 +49715,12 @@
     {
       "kind": "xlsx",
       "name": "Moscow_2014_WCH_Results.xlsx",
-      "sha256": "542ab8db430b19473b2bb2b3ffbb77faf5b8d06ea094ef65ae8557b2070f26ba",
-      "bytes": 167768
+      "sha256": "c4078bf4804d6ab3ca2f4af0a5bada9a200f63cccfd7c3a1f86e0c59dbf5e6c6",
+      "bytes": 167868
     }
   ],
   "output_xlsx": "Moscow_2014_WCH_Results.xlsx",
-  "output_xlsx_sha256": "542ab8db430b19473b2bb2b3ffbb77faf5b8d06ea094ef65ae8557b2070f26ba",
+  "output_xlsx_sha256": "c4078bf4804d6ab3ca2f4af0a5bada9a200f63cccfd7c3a1f86e0c59dbf5e6c6",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -49701,7 +49762,7 @@
     "no_icf_id_t59": 469,
     "same_meeting_unified_t59": 0
   },
-  "updated_at": "2026-10-31T10:42:15Z",
+  "updated_at": "2026-11-04T20:27:44Z",
   "printed_field_counts": {
     "source": "boats per race as parsed from the published source ( +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  + ); back-filled 2026-10-19 from the published RESULTS (the builder parse), race coverage cross-checked independently by GATE10b",
     "rule": "MAINTAINER_ANSWERS_2026-10-18c Fix 1: printed count decides",
@@ -49716,7 +49777,7 @@
       "11": 9,
       "13": 6,
       "14": 6,
-      "15": 6,
+      "15": 7,
       "16": 9,
       "17": 8,
       "18": 8,
@@ -49961,6 +50022,19 @@
       "rows": 1,
       "first_row": 2077,
       "persons_added": 0
+    },
+    {
+      "at": "2026-11-04T20:27:44Z",
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "races": [
+        "15"
+      ],
+      "rows": 1,
+      "first_row": 2078,
+      "persons_added": 0,
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2014-0806-0810_Moscow_Sprint_World_Championships/moscow2014_results_all.pdf (sha256 df78eaa3462eae74c07ae5170337077e087e68b980d5ed6a956f2481818ed12d)",
+      "evidence": "sprint/World_Championships/2014-0806-0810_Moscow_Sprint_World_Championships/moscow2014_results_all.pdf: 11:30 - Race 15 K1 (LTA) W 200 Heat 2 prints 'Lane 8 ITA Did not start / 417 - PLEBANI, Veronica Yoko (1996)'; the vendor race page has no lane 8 row",
+      "printed_field_counts": "15: 6 -> 7"
     }
   ],
   "cancel_boat_log": {
@@ -50089,6 +50163,114 @@
       "rule": "MAINTAINER_ANSWERS_2026-10-31.md t87s516 (2026-10-31 11:36 CET): \"Bind all 66 Nivalter seats on the 16 sheets to 36633 and republish them.\"; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
       "evidence": "MAINTAINER_ANSWERS_2026-10-31.md t87s516 (2026-10-31 11:36 CET): \"Bind all 66 Nivalter seats on the 16 sheets to 36633 and republish them.\" research /workspace/scratch/t89/36633_findings.md and /workspace/scratch/t90/nivalter_name_research.md: ICF/PWW 36633 (SANTOS DE JESUS, givenName \"Alvaro Acco Koslowski\", BRA, M, b. 1987-09-19, 1.72 m/75 kg) carries Nivalter Santos de Jesus's results row for row (2013 WC3 Poznan C1 500 heat 1; 2013 WCH C1 200 heat/SF 1, final 5; 2014 WC1 Milan C1 200 heat 1, final 5; 2014 WCH C1 200 5/5/5; 2015 WCH C1 1000 heat 7, SF 8); the given name is a record error carrying the CBCa official Alvaro Acco Koslowski's name (Olympedia 9165, b. 1971, a different person listed beside Nivalter by CBCa 2022-2025); Nivalter (Olympedia 116515, b. 1987-09-17, 173 cm/77 kg, BRA C1; legal name NIVALTER SANTOS DE JESUS in Bolsa Atleta 2007/2010) has no other ICF id",
       "logged_at_utc": "2026-10-31T10:39:06Z"
+    },
+    {
+      "at_utc": "2026-11-04T20:27:44Z",
+      "kind": "cell_patch",
+      "results_row": 1672,
+      "race": "203",
+      "lane": 61,
+      "team": "TUN",
+      "field": "OBS",
+      "previous": null,
+      "new": "DNS",
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2014-0806-0810_Moscow_Sprint_World_Championships/moscow2014_results_all.pdf (sha256 df78eaa3462eae74c07ae5170337077e087e68b980d5ed6a956f2481818ed12d)",
+      "evidence": "sprint/World_Championships/2014-0806-0810_Moscow_Sprint_World_Championships/moscow2014_results_all.pdf: 17:30 - Race 203 prints 'Lane 61 TUN Did not start' (vendor page printed '---')",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:44Z",
+      "kind": "cell_patch",
+      "results_row": 1673,
+      "race": "203",
+      "lane": 62,
+      "team": "EGY",
+      "field": "OBS",
+      "previous": null,
+      "new": "DNF",
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2014-0806-0810_Moscow_Sprint_World_Championships/moscow2014_results_all.pdf (sha256 df78eaa3462eae74c07ae5170337077e087e68b980d5ed6a956f2481818ed12d)",
+      "evidence": "sprint/World_Championships/2014-0806-0810_Moscow_Sprint_World_Championships/moscow2014_results_all.pdf: 17:30 - Race 203 prints 'Lane 62 EGY Did not finish' (vendor page printed '---')",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:44Z",
+      "kind": "cell_patch",
+      "results_row": 1677,
+      "race": "203",
+      "lane": 70,
+      "team": "FIN",
+      "field": "OBS",
+      "previous": null,
+      "new": "DNF",
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2014-0806-0810_Moscow_Sprint_World_Championships/moscow2014_results_all.pdf (sha256 df78eaa3462eae74c07ae5170337077e087e68b980d5ed6a956f2481818ed12d)",
+      "evidence": "sprint/World_Championships/2014-0806-0810_Moscow_Sprint_World_Championships/moscow2014_results_all.pdf: 17:30 - Race 203 prints 'Lane 70 FIN Did not finish' (vendor page printed '---')",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:44Z",
+      "kind": "cell_patch",
+      "results_row": 1679,
+      "race": "203",
+      "lane": 86,
+      "team": "ISR",
+      "field": "OBS",
+      "previous": null,
+      "new": "DNS",
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2014-0806-0810_Moscow_Sprint_World_Championships/moscow2014_results_all.pdf (sha256 df78eaa3462eae74c07ae5170337077e087e68b980d5ed6a956f2481818ed12d)",
+      "evidence": "sprint/World_Championships/2014-0806-0810_Moscow_Sprint_World_Championships/moscow2014_results_all.pdf: 17:30 - Race 203 prints 'Lane 86 ISR Did not start' (vendor page printed '---')",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:44Z",
+      "kind": "cell_patch",
+      "results_row": 1681,
+      "race": "203",
+      "lane": 93,
+      "team": "UZB",
+      "field": "OBS",
+      "previous": null,
+      "new": "DNF",
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2014-0806-0810_Moscow_Sprint_World_Championships/moscow2014_results_all.pdf (sha256 df78eaa3462eae74c07ae5170337077e087e68b980d5ed6a956f2481818ed12d)",
+      "evidence": "sprint/World_Championships/2014-0806-0810_Moscow_Sprint_World_Championships/moscow2014_results_all.pdf: 17:30 - Race 203 prints 'Lane 93 UZB Did not finish' (vendor page printed '---')",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:44Z",
+      "kind": "cell_patch",
+      "results_row": 1682,
+      "race": "203",
+      "lane": 94,
+      "team": "MDA",
+      "field": "OBS",
+      "previous": null,
+      "new": "DNF",
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2014-0806-0810_Moscow_Sprint_World_Championships/moscow2014_results_all.pdf (sha256 df78eaa3462eae74c07ae5170337077e087e68b980d5ed6a956f2481818ed12d)",
+      "evidence": "sprint/World_Championships/2014-0806-0810_Moscow_Sprint_World_Championships/moscow2014_results_all.pdf: 17:30 - Race 203 prints 'Lane 94 MDA Did not finish' (vendor page printed '---')",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
     }
   ],
   "log_corrections": [
