@@ -11,7 +11,7 @@
   "dates": "2018-07-26/2018-07-29",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-27T20:20:39Z",
+  "generated_at_utc": "2026-11-04T20:27:44Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "IMAS race pages print the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule).",
@@ -4459,7 +4459,7 @@
     {
       "race_number": "82",
       "starting_lane": 4,
-      "rank": 1,
+      "rank": 2,
       "obs": "",
       "team": "BLR"
     },
@@ -49308,6 +49308,13 @@
     {
       "path": "imas-sources/Plovdiv_2018_JWCH/race_99.html",
       "sha256": "c1145ab0a751e9f372326c8768c15d5013ebd12e8ccd23ffb7d9b0d062acbc99"
+    },
+    {
+      "path": "github-release:kenderfoka/race-desk@startlists-2026-11-04/startlists_2026-11-04.zip:sprint/Junior-U23_World_Championships/2018_canoe_sprint_junior_and_u23_world_championships_-_full_results_book.pdf",
+      "sha256": "1349d1a41c83311952c4e30ee82b134d59bbba3595bac4f3d628c5c5d488a59d",
+      "bytes": 2083719,
+      "host": "github release (not in VENDOR_MAP; RU221 new source)",
+      "ruling": "t122u"
     }
   ],
   "sheets": {
@@ -49352,12 +49359,12 @@
     {
       "kind": "xlsx",
       "name": "Plovdiv_2018_JWCH_Results.xlsx",
-      "sha256": "ef2cc57e3f4eb1a717186508b51aa45ac2f364cfd765e5dca789a29f0662a08d",
-      "bytes": 179240
+      "sha256": "29bc1629204c4d65b91bb4b80d52a829111fcb9a0b805304bf0e08a6087a43d0",
+      "bytes": 179243
     }
   ],
   "output_xlsx": "Plovdiv_2018_JWCH_Results.xlsx",
-  "output_xlsx_sha256": "ef2cc57e3f4eb1a717186508b51aa45ac2f364cfd765e5dca789a29f0662a08d",
+  "output_xlsx_sha256": "29bc1629204c4d65b91bb4b80d52a829111fcb9a0b805304bf0e08a6087a43d0",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -49399,7 +49406,7 @@
     "no_icf_id_t59": 58,
     "same_meeting_unified_t59": 0
   },
-  "updated_at": "2026-10-27T20:20:39Z",
+  "updated_at": "2026-11-04T20:27:44Z",
   "name_change_log": [
     {
       "results_row": 38,
@@ -49844,6 +49851,24 @@
         "nationality": "DEN",
         "federation": "DEN",
         "gender": "M"
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:44Z",
+      "kind": "cell_patch",
+      "results_row": 636,
+      "race": "82",
+      "lane": 4,
+      "team": "BLR",
+      "field": "RANK",
+      "previous": 1,
+      "new": 2,
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/Junior-U23_World_Championships/2018_canoe_sprint_junior_and_u23_world_championships_-_full_results_book.pdf (sha256 1349d1a41c83311952c4e30ee82b134d59bbba3595bac4f3d628c5c5d488a59d)",
+      "evidence": "sprint/Junior-U23_World_Championships/2018_canoe_sprint_junior_and_u23_world_championships_-_full_results_book.pdf: 08:48 - Race 82 (K1 Men Junior 1000 Semi-Final 1) prints Place 2 for Lane 4 BLR 537 - NOVAK, Anton (Place 1 Lane 5 HUN); the sheet's 1 was the 500m split position '(1)'",
+      "rank_oracle_previous": {
+        "rank": 1,
+        "obs": ""
       }
     }
   ],
