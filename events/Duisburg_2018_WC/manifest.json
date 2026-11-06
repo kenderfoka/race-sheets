@@ -11,7 +11,7 @@
   "dates": "2018-05-25/2018-05-27",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-27T20:20:39Z",
+  "generated_at_utc": "2026-11-04T20:27:43Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "IMAS race pages print the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule).",
@@ -2503,63 +2503,63 @@
     {
       "race_number": "53",
       "starting_lane": 7,
-      "rank": null,
+      "rank": 1,
       "obs": "",
       "team": "JPN"
     },
     {
       "race_number": "53",
       "starting_lane": 5,
-      "rank": null,
+      "rank": 2,
       "obs": "",
       "team": "CAN"
     },
     {
       "race_number": "53",
       "starting_lane": 6,
-      "rank": null,
+      "rank": 3,
       "obs": "",
       "team": "HUN"
     },
     {
       "race_number": "53",
       "starting_lane": 3,
-      "rank": null,
+      "rank": 4,
       "obs": "",
       "team": "CZE"
     },
     {
       "race_number": "53",
       "starting_lane": 2,
-      "rank": null,
+      "rank": 5,
       "obs": "",
       "team": "GBR"
     },
     {
       "race_number": "53",
       "starting_lane": 4,
-      "rank": null,
+      "rank": 6,
       "obs": "",
       "team": "COL"
     },
     {
       "race_number": "53",
       "starting_lane": 9,
-      "rank": null,
+      "rank": 7,
       "obs": "",
       "team": "THA"
     },
     {
       "race_number": "53",
       "starting_lane": 1,
-      "rank": 1,
+      "rank": 8,
       "obs": "",
       "team": "GBR"
     },
     {
       "race_number": "53",
       "starting_lane": 8,
-      "rank": null,
+      "rank": 9,
       "obs": "",
       "team": "NGR"
     },
@@ -10435,21 +10435,21 @@
       "race_number": "189",
       "starting_lane": 1,
       "rank": null,
-      "obs": "",
+      "obs": "DNF",
       "team": "POL"
     },
     {
       "race_number": "189",
       "starting_lane": 5,
       "rank": null,
-      "obs": "",
+      "obs": "DSQ",
       "team": "MLT"
     },
     {
       "race_number": "189",
       "starting_lane": 7,
       "rank": null,
-      "obs": "",
+      "obs": "DNS",
       "team": "GUA"
     },
     {
@@ -10463,28 +10463,28 @@
       "race_number": "189",
       "starting_lane": 24,
       "rank": null,
-      "obs": "",
+      "obs": "DSQ",
       "team": "MLT"
     },
     {
       "race_number": "189",
       "starting_lane": 25,
       "rank": null,
-      "obs": "",
+      "obs": "DSQ",
       "team": "THA"
     },
     {
       "race_number": "189",
       "starting_lane": 26,
       "rank": null,
-      "obs": "",
+      "obs": "DNS",
       "team": "GUA"
     },
     {
       "race_number": "189",
       "starting_lane": 27,
       "rank": null,
-      "obs": "",
+      "obs": "DNS",
       "team": "DEN"
     },
     {
@@ -33994,6 +33994,13 @@
     {
       "path": "imas-sources/Duisburg_2018_WC/race_99.html",
       "sha256": "e0f204149181277c3beeb45eaabba42ded539028e28d88eb5b3eaedb3a19024e"
+    },
+    {
+      "path": "github-release:kenderfoka/race-desk@startlists-2026-11-04/startlists_2026-11-04.zip:sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf",
+      "sha256": "669c30d00045974ab3605c731490af5bc278e65fa72e8eae380985ceed03298d",
+      "bytes": 1356145,
+      "host": "github release (not in VENDOR_MAP; RU221 new source)",
+      "ruling": "t122u"
     }
   ],
   "sheets": {
@@ -34017,21 +34024,39 @@
       "lane": "1",
       "team": "POL",
       "printed": "---",
-      "note": "status empty, logged as '---' (maintainer 2026-10-16)"
+      "note": "status empty, logged as '---' (maintainer 2026-10-16)",
+      "superseded": {
+        "by": "OBS DNF",
+        "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf (sha256 669c30d00045974ab3605c731490af5bc278e65fa72e8eae380985ceed03298d)",
+        "at_utc": "2026-11-04T20:27:43Z",
+        "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")"
+      }
     },
     {
       "race": 189,
       "lane": "5",
       "team": "MLT",
       "printed": "---",
-      "note": "status empty, logged as '---' (maintainer 2026-10-16)"
+      "note": "status empty, logged as '---' (maintainer 2026-10-16)",
+      "superseded": {
+        "by": "OBS DSQ",
+        "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf (sha256 669c30d00045974ab3605c731490af5bc278e65fa72e8eae380985ceed03298d)",
+        "at_utc": "2026-11-04T20:27:43Z",
+        "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")"
+      }
     },
     {
       "race": 189,
       "lane": "7",
       "team": "GUA",
       "printed": "---",
-      "note": "status empty, logged as '---' (maintainer 2026-10-16)"
+      "note": "status empty, logged as '---' (maintainer 2026-10-16)",
+      "superseded": {
+        "by": "OBS DNS",
+        "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf (sha256 669c30d00045974ab3605c731490af5bc278e65fa72e8eae380985ceed03298d)",
+        "at_utc": "2026-11-04T20:27:43Z",
+        "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")"
+      }
     },
     {
       "race": 189,
@@ -34045,28 +34070,52 @@
       "lane": "24",
       "team": "MLT",
       "printed": "---",
-      "note": "status empty, logged as '---' (maintainer 2026-10-16)"
+      "note": "status empty, logged as '---' (maintainer 2026-10-16)",
+      "superseded": {
+        "by": "OBS DSQ",
+        "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf (sha256 669c30d00045974ab3605c731490af5bc278e65fa72e8eae380985ceed03298d)",
+        "at_utc": "2026-11-04T20:27:43Z",
+        "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")"
+      }
     },
     {
       "race": 189,
       "lane": "25",
       "team": "THA",
       "printed": "---",
-      "note": "status empty, logged as '---' (maintainer 2026-10-16)"
+      "note": "status empty, logged as '---' (maintainer 2026-10-16)",
+      "superseded": {
+        "by": "OBS DSQ",
+        "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf (sha256 669c30d00045974ab3605c731490af5bc278e65fa72e8eae380985ceed03298d)",
+        "at_utc": "2026-11-04T20:27:43Z",
+        "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")"
+      }
     },
     {
       "race": 189,
       "lane": "26",
       "team": "GUA",
       "printed": "---",
-      "note": "status empty, logged as '---' (maintainer 2026-10-16)"
+      "note": "status empty, logged as '---' (maintainer 2026-10-16)",
+      "superseded": {
+        "by": "OBS DNS",
+        "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf (sha256 669c30d00045974ab3605c731490af5bc278e65fa72e8eae380985ceed03298d)",
+        "at_utc": "2026-11-04T20:27:43Z",
+        "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")"
+      }
     },
     {
       "race": 189,
       "lane": "27",
       "team": "DEN",
       "printed": "---",
-      "note": "status empty, logged as '---' (maintainer 2026-10-16)"
+      "note": "status empty, logged as '---' (maintainer 2026-10-16)",
+      "superseded": {
+        "by": "OBS DNS",
+        "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf (sha256 669c30d00045974ab3605c731490af5bc278e65fa72e8eae380985ceed03298d)",
+        "at_utc": "2026-11-04T20:27:43Z",
+        "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")"
+      }
     }
   ],
   "noc_map_log": [],
@@ -34079,12 +34128,12 @@
     {
       "kind": "xlsx",
       "name": "Duisburg_2018_WC_Results.xlsx",
-      "sha256": "469d506bd30e4384487a78b061fe44053001808e3962cead249c4cf15489060c",
-      "bytes": 121884
+      "sha256": "f2e567990a566738b5f727603a8b5734dcea653cc708f8ac9135383274f3a10c",
+      "bytes": 121942
     }
   ],
   "output_xlsx": "Duisburg_2018_WC_Results.xlsx",
-  "output_xlsx_sha256": "469d506bd30e4384487a78b061fe44053001808e3962cead249c4cf15489060c",
+  "output_xlsx_sha256": "f2e567990a566738b5f727603a8b5734dcea653cc708f8ac9135383274f3a10c",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -34125,7 +34174,7 @@
     "no_icf_id_t59": 115,
     "same_meeting_unified_t59": 0
   },
-  "updated_at": "2026-10-27T20:20:39Z",
+  "updated_at": "2026-11-04T20:27:43Z",
   "surname_prefix_fix_log": {
     "note": "Maintainer 2026-10-18b Fix 2: \"[n] bib - \" prefix stripped from SURNAME",
     "entries": [
@@ -36952,6 +37001,294 @@
         "nationality": "KAZ",
         "federation": "KAZ",
         "gender": "M"
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:43Z",
+      "kind": "cell_patch",
+      "results_row": 356,
+      "race": "53",
+      "lane": 7,
+      "team": "JPN",
+      "field": "RANK",
+      "previous": null,
+      "new": 1,
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf (sha256 669c30d00045974ab3605c731490af5bc278e65fa72e8eae380985ceed03298d)",
+      "evidence": "sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf: Race 53 FRI 25 MAY 2018 17:30 C2 Women 500m Semi-Final prints RANK 1, JPN, LANE 7",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:43Z",
+      "kind": "cell_patch",
+      "results_row": 357,
+      "race": "53",
+      "lane": 5,
+      "team": "CAN",
+      "field": "RANK",
+      "previous": null,
+      "new": 2,
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf (sha256 669c30d00045974ab3605c731490af5bc278e65fa72e8eae380985ceed03298d)",
+      "evidence": "sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf: Race 53 FRI 25 MAY 2018 17:30 C2 Women 500m Semi-Final prints RANK 2, CAN, LANE 5",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:43Z",
+      "kind": "cell_patch",
+      "results_row": 358,
+      "race": "53",
+      "lane": 6,
+      "team": "HUN",
+      "field": "RANK",
+      "previous": null,
+      "new": 3,
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf (sha256 669c30d00045974ab3605c731490af5bc278e65fa72e8eae380985ceed03298d)",
+      "evidence": "sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf: Race 53 FRI 25 MAY 2018 17:30 C2 Women 500m Semi-Final prints RANK 3, HUN, LANE 6",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:43Z",
+      "kind": "cell_patch",
+      "results_row": 359,
+      "race": "53",
+      "lane": 3,
+      "team": "CZE",
+      "field": "RANK",
+      "previous": null,
+      "new": 4,
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf (sha256 669c30d00045974ab3605c731490af5bc278e65fa72e8eae380985ceed03298d)",
+      "evidence": "sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf: Race 53 FRI 25 MAY 2018 17:30 C2 Women 500m Semi-Final prints RANK 4, CZE, LANE 3",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:43Z",
+      "kind": "cell_patch",
+      "results_row": 360,
+      "race": "53",
+      "lane": 2,
+      "team": "GBR",
+      "field": "RANK",
+      "previous": null,
+      "new": 5,
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf (sha256 669c30d00045974ab3605c731490af5bc278e65fa72e8eae380985ceed03298d)",
+      "evidence": "sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf: Race 53 FRI 25 MAY 2018 17:30 C2 Women 500m Semi-Final prints RANK 5, GBR, LANE 2",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:43Z",
+      "kind": "cell_patch",
+      "results_row": 361,
+      "race": "53",
+      "lane": 4,
+      "team": "COL",
+      "field": "RANK",
+      "previous": null,
+      "new": 6,
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf (sha256 669c30d00045974ab3605c731490af5bc278e65fa72e8eae380985ceed03298d)",
+      "evidence": "sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf: Race 53 FRI 25 MAY 2018 17:30 C2 Women 500m Semi-Final prints RANK 6, COL, LANE 4",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:43Z",
+      "kind": "cell_patch",
+      "results_row": 362,
+      "race": "53",
+      "lane": 9,
+      "team": "THA",
+      "field": "RANK",
+      "previous": null,
+      "new": 7,
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf (sha256 669c30d00045974ab3605c731490af5bc278e65fa72e8eae380985ceed03298d)",
+      "evidence": "sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf: Race 53 FRI 25 MAY 2018 17:30 C2 Women 500m Semi-Final prints RANK 7, THA, LANE 9",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:43Z",
+      "kind": "cell_patch",
+      "results_row": 363,
+      "race": "53",
+      "lane": 1,
+      "team": "GBR",
+      "field": "RANK",
+      "previous": 1,
+      "new": 8,
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf (sha256 669c30d00045974ab3605c731490af5bc278e65fa72e8eae380985ceed03298d)",
+      "evidence": "sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf: Race 53 FRI 25 MAY 2018 17:30 C2 Women 500m Semi-Final prints RANK 8, GBR, LANE 1",
+      "rank_oracle_previous": {
+        "rank": 1,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:43Z",
+      "kind": "cell_patch",
+      "results_row": 364,
+      "race": "53",
+      "lane": 8,
+      "team": "NGR",
+      "field": "RANK",
+      "previous": null,
+      "new": 9,
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf (sha256 669c30d00045974ab3605c731490af5bc278e65fa72e8eae380985ceed03298d)",
+      "evidence": "sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf: Race 53 FRI 25 MAY 2018 17:30 C2 Women 500m Semi-Final prints RANK 9, NGR, LANE 8",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:43Z",
+      "kind": "cell_patch",
+      "results_row": 1489,
+      "race": "189",
+      "lane": 1,
+      "team": "POL",
+      "field": "OBS",
+      "previous": null,
+      "new": "DNF",
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf (sha256 669c30d00045974ab3605c731490af5bc278e65fa72e8eae380985ceed03298d)",
+      "evidence": "sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf: Race 189 SUN 27 MAY 2018 16:40 K1 Men 5000m prints 'KORSAK, Przemyslaw  POL  1  DNF' (vendor page printed '---')",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:43Z",
+      "kind": "cell_patch",
+      "results_row": 1490,
+      "race": "189",
+      "lane": 5,
+      "team": "MLT",
+      "field": "OBS",
+      "previous": null,
+      "new": "DSQ",
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf (sha256 669c30d00045974ab3605c731490af5bc278e65fa72e8eae380985ceed03298d)",
+      "evidence": "sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf: Race 189 SUN 27 MAY 2018 16:40 K1 Men 5000m prints 'BORG, Samuel  MLT  5  DSQ' (vendor page printed '---')",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:43Z",
+      "kind": "cell_patch",
+      "results_row": 1491,
+      "race": "189",
+      "lane": 7,
+      "team": "GUA",
+      "field": "OBS",
+      "previous": null,
+      "new": "DNS",
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf (sha256 669c30d00045974ab3605c731490af5bc278e65fa72e8eae380985ceed03298d)",
+      "evidence": "sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf: Race 189 SUN 27 MAY 2018 16:40 K1 Men 5000m prints 'LUNA GONZALES, Anderson Ariel  GUA  7  DNS' (vendor page printed '---')",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:43Z",
+      "kind": "cell_patch",
+      "results_row": 1493,
+      "race": "189",
+      "lane": 24,
+      "team": "MLT",
+      "field": "OBS",
+      "previous": null,
+      "new": "DSQ",
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf (sha256 669c30d00045974ab3605c731490af5bc278e65fa72e8eae380985ceed03298d)",
+      "evidence": "sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf: Race 189 SUN 27 MAY 2018 16:40 K1 Men 5000m prints 'SCHEMBRI, Matthew  MLT  24  DSQ' (vendor page printed '---')",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:43Z",
+      "kind": "cell_patch",
+      "results_row": 1494,
+      "race": "189",
+      "lane": 25,
+      "team": "THA",
+      "field": "OBS",
+      "previous": null,
+      "new": "DSQ",
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf (sha256 669c30d00045974ab3605c731490af5bc278e65fa72e8eae380985ceed03298d)",
+      "evidence": "sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf: Race 189 SUN 27 MAY 2018 16:40 K1 Men 5000m prints 'SONTHI, Thoedsak  THA  25  DSQ' (vendor page printed '---')",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:43Z",
+      "kind": "cell_patch",
+      "results_row": 1495,
+      "race": "189",
+      "lane": 26,
+      "team": "GUA",
+      "field": "OBS",
+      "previous": null,
+      "new": "DNS",
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf (sha256 669c30d00045974ab3605c731490af5bc278e65fa72e8eae380985ceed03298d)",
+      "evidence": "sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf: Race 189 SUN 27 MAY 2018 16:40 K1 Men 5000m prints 'GUEVARA ESTRADA, Juan Carlos  GUA  26  DNS' (vendor page printed '---')",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:43Z",
+      "kind": "cell_patch",
+      "results_row": 1496,
+      "race": "189",
+      "lane": 27,
+      "team": "DEN",
+      "field": "OBS",
+      "previous": null,
+      "new": "DNS",
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf (sha256 669c30d00045974ab3605c731490af5bc278e65fa72e8eae380985ceed03298d)",
+      "evidence": "sprint/World_Cups/2018/2018_canoe_sprint_world_cup_2_duisburg_germany_results_book.pdf: Race 189 SUN 27 MAY 2018 16:40 K1 Men 5000m prints 'POULSEN, René Holten  DEN  27  DNS' (vendor page printed '---')",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
       }
     }
   ],
