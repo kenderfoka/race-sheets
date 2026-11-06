@@ -47812,7 +47812,6 @@
     "V1 W 200m (Paracanoe LTA) -> V1 (LTA)",
     "V1 W 200m (Paracanoe TA) -> V1 (TA)"
   ],
-  "reason_code": "AUDITOR_FAIL",
   "domain": "flatwater_sprint",
   "sheet": "Duisburg_2013_WCH_Results.xlsx",
   "format": "sprint_RESULTS_PERSONS",
@@ -47827,16 +47826,10 @@
   "output_xlsx": "Duisburg_2013_WCH_Results.xlsx",
   "output_xlsx_sha256": "c51bf3aefb5c557854844d94e21df94ad172ac67724bcaa98fe5596fd267a919",
   "checks": {
-    "start-times": {
-      "status": "pass",
-      "note": "shared clock 2013-08-30 17:03 races 147/148 logged in shared_clock_log (maintainer 2026-10-16 10:39)"
-    },
+    "start-times": "pass",
     "phases": "pass",
     "crews": "pass",
-    "OBS": {
-      "status": "pass",
-      "note": "race 7 '01:08:101' written 00:01:08.101, logged in malformed_result_log"
-    },
+    "OBS": "pass",
     "RANK vs official results": "pass",
     "PERSONS vs ICF": "pass",
     "repairs": "pass",
@@ -47852,9 +47845,9 @@
   },
   "check_diff_summaries": {
     "phases": "sheet_audit C: phase order vs race number/clock per event, one race per event/phase/unit label, on IMAS hub https://results.imas-sport.com/kanuduisburg/regatta.php?competition=wettkampf_99 race result pages (vendor published results) + ICF results book (lapped notes)",
-    "start-times": "START_TIME = scheduled start printed on each race page of IMAS hub https://results.imas-sport.com/kanuduisburg/regatta.php?competition=wettkampf_99 race result pages (vendor published results) + ICF results book (lapped notes); sheet_audit A/B/D: one clock per race, no clock shared by races, coverage >=90%, dates inside meeting",
+    "start-times": "START_TIME = scheduled start printed on each race page of IMAS hub https://results.imas-sport.com/kanuduisburg/regatta.php?competition=wettkampf_99 race result pages (vendor published results) + ICF results book (lapped notes); sheet_audit A/B/D: one clock per race, no clock shared by races, coverage >=90%, dates inside meeting; shared clock 2013-08-30 17:03 races 147/148 logged in shared_clock_log (maintainer 2026-10-16 10:39)",
     "crews": "crew size vs class on IMAS hub https://results.imas-sport.com/kanuduisburg/regatta.php?competition=wettkampf_99 race result pages (vendor published results) + ICF results book (lapped notes)",
-    "OBS": "DNS/DNF/DSQ verbatim from IMAS hub https://results.imas-sport.com/kanuduisburg/regatta.php?competition=wettkampf_99 race result pages (vendor published results) + ICF results book (lapped notes); LAP only where the results book prints \"Lane N was Lapped\"",
+    "OBS": "DNS/DNF/DSQ verbatim from IMAS hub https://results.imas-sport.com/kanuduisburg/regatta.php?competition=wettkampf_99 race result pages (vendor published results) + ICF results book (lapped notes); LAP only where the results book prints \"Lane N was Lapped\"; race 7 '01:08:101' written 00:01:08.101, logged in malformed_result_log",
     "RANK vs official results": "RANK = Rank column of IMAS hub https://results.imas-sport.com/kanuduisburg/regatta.php?competition=wettkampf_99 race result pages (vendor published results) + ICF results book (lapped notes) (rank_oracle)",
     "PERSONS vs ICF": "PERSONS from bind_seat-accepted seats, printed names from IMAS hub https://results.imas-sport.com/kanuduisburg/regatta.php?competition=wettkampf_99 race result pages (vendor published results) + ICF results book (lapped notes)",
     "repairs": "name-bound seats vs printed names on IMAS hub https://results.imas-sport.com/kanuduisburg/regatta.php?competition=wettkampf_99 race result pages (vendor published results) + ICF results book (lapped notes)",
