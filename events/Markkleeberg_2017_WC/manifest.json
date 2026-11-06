@@ -11,16 +11,16 @@
  "gaps": [
   "icf_ids_incomplete"
  ],
- "generated_at_utc": "2026-10-16T09:02:04Z",
- "updated_at": "2026-10-16T09:05:44Z",
+ "generated_at_utc": "2026-11-06T19:13:15Z",
+ "updated_at": "2026-11-06T19:13:15Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "Markkleeberg_2017_WC_start.xlsx",
-   "sha256": "e05ad92b73d196e5cc505ea4f017e65c200fc160d675a44c2034513d7149822a"
+   "sha256": "b4a622609642cc3009c7b538db2dbe0bda6e28f2a474a16d463d860a7e44e253"
   }
  ],
- "row_count": 578,
+ "row_count": 676,
  "source": {
   "archive": "https://123result.blob.core.windows.net/canoe?restype=container&comp=list&prefix=CS_2017/201201/994/",
   "encoding": "123result Start List / Results PDFs",
@@ -53,7 +53,19 @@
    "https://123result.blob.core.windows.net/canoe/CS_2017/201201/994/K1W_FI_2%40Start%20List.pdf",
    "https://123result.blob.core.windows.net/canoe/CS_2017/201201/994/K1W_NHT1_30%40Start%20List.pdf",
    "https://123result.blob.core.windows.net/canoe/CS_2017/201201/994/K1W_NHT2_30%40Start%20List.pdf",
-   "https://123result.blob.core.windows.net/canoe/CS_2017/201201/994/K1W_SF_2%40Start%20List.pdf"
+   "https://123result.blob.core.windows.net/canoe/CS_2017/201201/994/K1W_SF_2%40Start%20List.pdf",
+   "https://123result.blob.core.windows.net/canoe/CS_2017/201201/994/K1MC_X4_1%40Cross%20Finals%20Bracket.pdf",
+   "https://123result.blob.core.windows.net/canoe/CS_2017/201201/994/K1MC_XER_1%40Other.pdf",
+   "https://123result.blob.core.windows.net/canoe/CS_2017/201201/994/K1MC_XF_1%40Cross%20Finals%20Bracket.pdf",
+   "https://123result.blob.core.windows.net/canoe/CS_2017/201201/994/K1MC_XS_1%40Cross%20Finals%20Bracket.pdf",
+   "https://123result.blob.core.windows.net/canoe/CS_2017/201201/994/K1MC_XT_1%40Results.pdf",
+   "https://123result.blob.core.windows.net/canoe/CS_2017/201201/994/K1MC_XT_1%40Start%20List.pdf",
+   "https://123result.blob.core.windows.net/canoe/CS_2017/201201/994/K1WC_X4_1%40Cross%20Finals%20Bracket.pdf",
+   "https://123result.blob.core.windows.net/canoe/CS_2017/201201/994/K1WC_XER_1%40Other.pdf",
+   "https://123result.blob.core.windows.net/canoe/CS_2017/201201/994/K1WC_XF_1%40Cross%20Finals%20Bracket.pdf",
+   "https://123result.blob.core.windows.net/canoe/CS_2017/201201/994/K1WC_XS_1%40Cross%20Finals%20Bracket.pdf",
+   "https://123result.blob.core.windows.net/canoe/CS_2017/201201/994/K1WC_XT_1%40Results.pdf",
+   "https://123result.blob.core.windows.net/canoe/CS_2017/201201/994/K1WC_XT_1%40Start%20List.pdf"
   ],
   "note": "no SIWIDATA archive for this meeting; printed per-boat start clocks are scheduled; no listed source prints actual starts"
  },
@@ -66,10 +78,7 @@
  "ain_log": [],
  "placeholders": [],
  "spellings": [],
- "dropped": [
-  "K1MC_XT_1: cross/trials unit in a pre-2018 123result meeting; class code unverified, left out (logged)",
-  "K1WC_XT_1: cross/trials unit in a pre-2018 123result meeting; class code unverified, left out (logged)"
- ],
+ "dropped": [],
  "id_checks": [
   {
    "row": 2,
@@ -181,6 +190,17 @@
    "event_log": "forerunner Event C2 from next race block C2M_NHT1_30 (first start 09:00:00); source prints no class"
   },
   {
+   "row": 11,
+   "seat": "ICF_ID2",
+   "printed_name": "WAGNER Piet Lennart",
+   "source": "123result FR_NHT1_16@Start List.pdf (CS_2017/201201/994/)",
+   "published_id": "",
+   "action": "forerunner",
+   "new_id": "",
+   "detail": "forerunner seat: bib 1 prints a second crew name, WAGNER Piet Lennart (GER), under JUETTNER Aaron; seat left empty as every forerunner seat on this sheet (forerunner, not a gap); Name2 cell empty as on main, not changed here",
+   "event_log": "forerunner Event C2 from next race block C2M_NHT1_30 (first start 09:00:00); source prints no class"
+  },
+  {
    "row": 12,
    "seat": "ICF_ID1",
    "printed_name": "BAYN Nele",
@@ -192,6 +212,17 @@
    "event_log": "forerunner Event C2 from next race block C2M_NHT1_30 (first start 09:00:00); source prints no class"
   },
   {
+   "row": 12,
+   "seat": "ICF_ID2",
+   "printed_name": "",
+   "source": "123result FR_NHT1_16@Start List.pdf (CS_2017/201201/994/)",
+   "published_id": "",
+   "action": "forerunner",
+   "new_id": "",
+   "detail": "forerunner seat: the source prints one name only for this forerunner boat (no second crew member); Event C2 comes from the next race block, as logged on ICF_ID1; seat empty (forerunner, not a gap)",
+   "event_log": "forerunner Event C2 from next race block C2M_NHT1_30 (first start 09:00:00); source prints no class"
+  },
+  {
    "row": 13,
    "seat": "ICF_ID1",
    "printed_name": "APEL Elena",
@@ -199,6 +230,17 @@
    "published_id": "",
    "action": "forerunner",
    "detail": "forerunner_unbound: no ICF profile for 'APEL Elena' 'GER'; Gender empty, logged (maintainer 2026-10-13)",
+   "event_log": "forerunner Event C2 from next race block C2M_NHT1_30 (first start 09:00:00); source prints no class"
+  },
+  {
+   "row": 13,
+   "seat": "ICF_ID2",
+   "printed_name": "",
+   "source": "123result FR_NHT1_16@Start List.pdf (CS_2017/201201/994/)",
+   "published_id": "",
+   "action": "forerunner",
+   "new_id": "",
+   "detail": "forerunner seat: the source prints one name only for this forerunner boat (no second crew member); Event C2 comes from the next race block, as logged on ICF_ID1; seat empty (forerunner, not a gap)",
    "event_log": "forerunner Event C2 from next race block C2M_NHT1_30 (first start 09:00:00); source prints no class"
   },
   {
@@ -213,6 +255,17 @@
    "event_log": "forerunner Event C2 from next race block C2M_NHT1_30 (first start 09:00:00); source prints no class"
   },
   {
+   "row": 14,
+   "seat": "ICF_ID2",
+   "printed_name": "",
+   "source": "123result FR_NHT1_16@Start List.pdf (CS_2017/201201/994/)",
+   "published_id": "",
+   "action": "forerunner",
+   "new_id": "",
+   "detail": "forerunner seat: the source prints one name only for this forerunner boat (no second crew member); Event C2 comes from the next race block, as logged on ICF_ID1; seat empty (forerunner, not a gap)",
+   "event_log": "forerunner Event C2 from next race block C2M_NHT1_30 (first start 09:00:00); source prints no class"
+  },
+  {
    "row": 15,
    "seat": "ICF_ID1",
    "printed_name": "STRAUSS Thomas",
@@ -221,6 +274,17 @@
    "action": "forerunner",
    "new_id": "",
    "detail": "forerunner bound by name+nation to 55113; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "event_log": "forerunner Event C2 from next race block C2M_NHT1_30 (first start 09:00:00); source prints no class"
+  },
+  {
+   "row": 15,
+   "seat": "ICF_ID2",
+   "printed_name": "",
+   "source": "123result FR_NHT1_16@Start List.pdf (CS_2017/201201/994/)",
+   "published_id": "",
+   "action": "forerunner",
+   "new_id": "",
+   "detail": "forerunner seat: the source prints one name only for this forerunner boat (no second crew member); Event C2 comes from the next race block, as logged on ICF_ID1; seat empty (forerunner, not a gap)",
    "event_log": "forerunner Event C2 from next race block C2M_NHT1_30 (first start 09:00:00); source prints no class"
   },
   {
@@ -3975,6 +4039,17 @@
    "event_log": "forerunner Event C2 from next race block C2M_SF_1 (first start 09:20:00); source prints no class"
   },
   {
+   "row": 378,
+   "seat": "ICF_ID2",
+   "printed_name": "WAGNER Piet Lennart",
+   "source": "123result FR_SF_1@Start List.pdf (CS_2017/201201/994/)",
+   "published_id": "",
+   "action": "forerunner",
+   "new_id": "",
+   "detail": "forerunner seat: bib 1 prints a second crew name, WAGNER Piet Lennart (GER), under JUETTNER Aaron; seat left empty as every forerunner seat on this sheet (forerunner, not a gap); Name2 cell empty as on main, not changed here",
+   "event_log": "forerunner Event C2 from next race block C2M_SF_1 (first start 09:20:00); source prints no class"
+  },
+  {
    "row": 379,
    "seat": "ICF_ID1",
    "printed_name": "BAYN Nele",
@@ -3986,6 +4061,17 @@
    "event_log": "forerunner Event C2 from next race block C2M_SF_1 (first start 09:20:00); source prints no class"
   },
   {
+   "row": 379,
+   "seat": "ICF_ID2",
+   "printed_name": "",
+   "source": "123result FR_SF_1@Start List.pdf (CS_2017/201201/994/)",
+   "published_id": "",
+   "action": "forerunner",
+   "new_id": "",
+   "detail": "forerunner seat: the source prints one name only for this forerunner boat (no second crew member); Event C2 comes from the next race block, as logged on ICF_ID1; seat empty (forerunner, not a gap)",
+   "event_log": "forerunner Event C2 from next race block C2M_SF_1 (first start 09:20:00); source prints no class"
+  },
+  {
    "row": 380,
    "seat": "ICF_ID1",
    "printed_name": "APEL Elena",
@@ -3993,6 +4079,17 @@
    "published_id": "",
    "action": "forerunner",
    "detail": "forerunner_unbound: no ICF profile for 'APEL Elena' 'GER'; Gender empty, logged (maintainer 2026-10-13)",
+   "event_log": "forerunner Event C2 from next race block C2M_SF_1 (first start 09:20:00); source prints no class"
+  },
+  {
+   "row": 380,
+   "seat": "ICF_ID2",
+   "printed_name": "",
+   "source": "123result FR_SF_1@Start List.pdf (CS_2017/201201/994/)",
+   "published_id": "",
+   "action": "forerunner",
+   "new_id": "",
+   "detail": "forerunner seat: the source prints one name only for this forerunner boat (no second crew member); Event C2 comes from the next race block, as logged on ICF_ID1; seat empty (forerunner, not a gap)",
    "event_log": "forerunner Event C2 from next race block C2M_SF_1 (first start 09:20:00); source prints no class"
   },
   {
@@ -4007,6 +4104,17 @@
    "event_log": "forerunner Event C2 from next race block C2M_SF_1 (first start 09:20:00); source prints no class"
   },
   {
+   "row": 381,
+   "seat": "ICF_ID2",
+   "printed_name": "",
+   "source": "123result FR_SF_1@Start List.pdf (CS_2017/201201/994/)",
+   "published_id": "",
+   "action": "forerunner",
+   "new_id": "",
+   "detail": "forerunner seat: the source prints one name only for this forerunner boat (no second crew member); Event C2 comes from the next race block, as logged on ICF_ID1; seat empty (forerunner, not a gap)",
+   "event_log": "forerunner Event C2 from next race block C2M_SF_1 (first start 09:20:00); source prints no class"
+  },
+  {
    "row": 382,
    "seat": "ICF_ID1",
    "printed_name": "STRAUSS Thomas",
@@ -4015,6 +4123,17 @@
    "action": "forerunner",
    "new_id": "",
    "detail": "forerunner bound by name+nation to 55113; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "event_log": "forerunner Event C2 from next race block C2M_SF_1 (first start 09:20:00); source prints no class"
+  },
+  {
+   "row": 382,
+   "seat": "ICF_ID2",
+   "printed_name": "",
+   "source": "123result FR_SF_1@Start List.pdf (CS_2017/201201/994/)",
+   "published_id": "",
+   "action": "forerunner",
+   "new_id": "",
+   "detail": "forerunner seat: the source prints one name only for this forerunner boat (no second crew member); Event C2 comes from the next race block, as logged on ICF_ID1; seat empty (forerunner, not a gap)",
    "event_log": "forerunner Event C2 from next race block C2M_SF_1 (first start 09:20:00); source prints no class"
   },
   {
@@ -5373,7 +5492,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35112; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Men"
   },
   {
-   "row": 496,
+   "row": 594,
    "seat": "ICF_ID1",
    "printed_name": "JONES Selina",
    "source": "SIWIDATA session CS_2017/201201/994/ Code + paddleworldwide.com/athlete/<id>",
@@ -5384,7 +5503,7 @@
    "event_log": "forerunner Event K1 from next race block K1W_SF_2 (first start 10:25:00); source prints no class"
   },
   {
-   "row": 497,
+   "row": 595,
    "seat": "ICF_ID1",
    "printed_name": "POHLEN Eva",
    "source": "SIWIDATA session CS_2017/201201/994/ Code + paddleworldwide.com/athlete/<id>",
@@ -5395,7 +5514,7 @@
    "event_log": "forerunner Event K1 from next race block K1W_SF_2 (first start 10:25:00); source prints no class"
   },
   {
-   "row": 498,
+   "row": 596,
    "seat": "ICF_ID1",
    "printed_name": "HANIKA Leon",
    "source": "SIWIDATA session CS_2017/201201/994/ Code + paddleworldwide.com/athlete/<id>",
@@ -5406,7 +5525,7 @@
    "event_log": "forerunner Event K1 from next race block K1W_SF_2 (first start 10:25:00); source prints no class"
   },
   {
-   "row": 499,
+   "row": 597,
    "seat": "ICF_ID1",
    "printed_name": "LEHRACH Fritz",
    "source": "SIWIDATA session CS_2017/201201/994/ Code + paddleworldwide.com/athlete/<id>",
@@ -5417,7 +5536,7 @@
    "event_log": "forerunner Event K1 from next race block K1W_SF_2 (first start 10:25:00); source prints no class"
   },
   {
-   "row": 500,
+   "row": 598,
    "seat": "ICF_ID1",
    "printed_name": "PEROVA Aleksandra",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5427,7 +5546,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35256; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 501,
+   "row": 599,
    "seat": "ICF_ID1",
    "printed_name": "TROMPETER Caroline",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5437,7 +5556,7 @@
    "detail": "no archive id: bound by name+nation+gender to 39167; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 502,
+   "row": 600,
    "seat": "ICF_ID1",
    "printed_name": "YAZAWA Aki",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5447,7 +5566,7 @@
    "detail": "no archive id: bound by name+nation+gender to 36486; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 503,
+   "row": 601,
    "seat": "ICF_ID1",
    "printed_name": "REN Ye",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5457,7 +5576,7 @@
    "detail": "no archive id: bound by name+nation+gender to 68810; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 504,
+   "row": 602,
    "seat": "ICF_ID1",
    "printed_name": "ZWOLINSKA Klaudia",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5467,7 +5586,7 @@
    "detail": "no archive id: bound by name+nation+gender to 42027; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 505,
+   "row": 603,
    "seat": "ICF_ID1",
    "printed_name": "GOIKOETXEA Irati",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5477,7 +5596,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35761; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 506,
+   "row": 604,
    "seat": "ICF_ID1",
    "printed_name": "KALISKA Elena",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5487,7 +5606,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35366; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 507,
+   "row": 605,
    "seat": "ICF_ID1",
    "printed_name": "BAUDU Lucie",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5497,7 +5616,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35669; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 508,
+   "row": 606,
    "seat": "ICF_ID1",
    "printed_name": "KHARITONOVA Marta",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5507,7 +5626,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35257; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 509,
+   "row": 607,
    "seat": "ICF_ID1",
    "printed_name": "TERCELJ Eva",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5517,7 +5636,7 @@
    "detail": "no archive id: bound by name+nation+gender to 36263; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 510,
+   "row": 608,
    "seat": "ICF_ID1",
    "printed_name": "MARTINEZ Marta",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5527,7 +5646,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35760; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 511,
+   "row": 609,
    "seat": "ICF_ID1",
    "printed_name": "WOLFFHARDT Viktoria",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5537,7 +5656,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35303; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 512,
+   "row": 610,
    "seat": "ICF_ID1",
    "printed_name": "US Viktoriia",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5547,7 +5666,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35528; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 513,
+   "row": 611,
    "seat": "ICF_ID1",
    "printed_name": "CHOURRAUT Maialen",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5557,7 +5676,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35787; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 514,
+   "row": 612,
    "seat": "ICF_ID1",
    "printed_name": "DUKATOVA Jana",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5567,7 +5686,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35354; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 515,
+   "row": 613,
    "seat": "ICF_ID1",
    "printed_name": "KUDEJOVA Katerina",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5577,7 +5696,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35034; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 516,
+   "row": 614,
    "seat": "ICF_ID1",
    "printed_name": "HILGERTOVA Stepanka",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5587,7 +5706,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35035; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 517,
+   "row": 615,
    "seat": "ICF_ID1",
    "printed_name": "WOODS Kimberley",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5597,7 +5716,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35650; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 518,
+   "row": 616,
    "seat": "ICF_ID1",
    "printed_name": "PACIERPNIK Natalia",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5607,7 +5726,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35077; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 519,
+   "row": 617,
    "seat": "ICF_ID1",
    "printed_name": "KRAGELJ Ursa",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5617,7 +5736,7 @@
    "detail": "no archive id: bound by name+nation+gender to 36264; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 520,
+   "row": 618,
    "seat": "ICF_ID1",
    "printed_name": "LAWRENCE Rosalyn",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5627,7 +5746,7 @@
    "detail": "no archive id: bound by name+nation+gender to 36531; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 521,
+   "row": 619,
    "seat": "ICF_ID1",
    "printed_name": "PENNIE Fiona",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5637,7 +5756,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35638; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 522,
+   "row": 620,
    "seat": "ICF_ID1",
    "printed_name": "SATILA Ana",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5647,7 +5766,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35327; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 523,
+   "row": 621,
    "seat": "ICF_ID1",
    "printed_name": "SCHORNBERG Jasmin",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5657,7 +5776,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35206; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 524,
+   "row": 622,
    "seat": "ICF_ID1",
    "printed_name": "FRITSCHE Lisa",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5667,7 +5786,7 @@
    "detail": "no archive id: bound by name+nation+gender to 39883; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 525,
+   "row": 623,
    "seat": "ICF_ID1",
    "printed_name": "FOX Jessica",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5677,7 +5796,7 @@
    "detail": "no archive id: bound by name+nation+gender to 36526; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 526,
+   "row": 624,
    "seat": "ICF_ID1",
    "printed_name": "KUHNLE Corinna",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5687,7 +5806,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35282; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 527,
+   "row": 625,
    "seat": "ICF_ID1",
    "printed_name": "HORN Stefanie",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5697,7 +5816,7 @@
    "detail": "no archive id: bound by name+nation+gender to 38417; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 528,
+   "row": 626,
    "seat": "ICF_ID1",
    "printed_name": "FUNK Ricarda",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5707,7 +5826,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35122; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 529,
+   "row": 627,
    "seat": "ICF_ID1",
    "printed_name": "FRANKLIN Mallory",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5717,7 +5836,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35615; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 530,
+   "row": 628,
    "seat": "ICF_ID1",
    "printed_name": "LOKKEN Zachary",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5727,7 +5846,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35069; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 531,
+   "row": 629,
    "seat": "ICF_ID1",
    "printed_name": "SASAKI Shota",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5737,7 +5856,7 @@
    "detail": "no archive id: bound by name+nation+gender to 41610; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 532,
+   "row": 630,
    "seat": "ICF_ID1",
    "printed_name": "BORROWS Ian",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5747,7 +5866,7 @@
    "detail": "no archive id: bound by name+nation+gender to 36534; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 533,
+   "row": 631,
    "seat": "ICF_ID1",
    "printed_name": "SZTUBA Kacper",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5757,7 +5876,7 @@
    "detail": "no archive id: bound by name+nation+gender to 53636; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 534,
+   "row": 632,
    "seat": "ICF_ID1",
    "printed_name": "MARC Jonathan",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5767,7 +5886,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35388; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 535,
+   "row": 633,
    "seat": "ICF_ID1",
    "printed_name": "WESTLEY Ryan",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5777,7 +5896,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35651; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 536,
+   "row": 634,
    "seat": "ICF_ID1",
    "printed_name": "SETKIN Kirill",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5787,7 +5906,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35457; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 537,
+   "row": 635,
    "seat": "ICF_ID1",
    "printed_name": "SMEDLEY Cameron",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5797,7 +5916,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35543; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 538,
+   "row": 636,
    "seat": "ICF_ID1",
    "printed_name": "BETTGE Nico",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5807,7 +5926,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35133; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 539,
+   "row": 637,
    "seat": "ICF_ID1",
    "printed_name": "ANTON Franz",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5817,7 +5936,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35137; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 540,
+   "row": 638,
    "seat": "ICF_ID1",
    "printed_name": "BERCIC Anze",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5827,7 +5946,7 @@
    "detail": "no archive id: bound by name+nation+gender to 36253; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 541,
+   "row": 639,
    "seat": "ICF_ID1",
    "printed_name": "WATKINS Daniel",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5837,7 +5956,7 @@
    "detail": "no archive id: bound by name+nation+gender to 38430; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 542,
+   "row": 640,
    "seat": "ICF_ID1",
    "printed_name": "MARTIKAN Michal",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5847,7 +5966,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35365; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 543,
+   "row": 641,
    "seat": "ICF_ID1",
    "printed_name": "BADURA Jergus",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5857,7 +5976,7 @@
    "detail": "no archive id: bound by name+nation+gender to 68767; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 544,
+   "row": 642,
    "seat": "ICF_ID1",
    "printed_name": "JANE Michal",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5867,7 +5986,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35059; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 545,
+   "row": 643,
    "seat": "ICF_ID1",
    "printed_name": "HANEDA Takuya",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5877,7 +5996,7 @@
    "detail": "no archive id: bound by name+nation+gender to 36481; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 546,
+   "row": 644,
    "seat": "ICF_ID1",
    "printed_name": "COLAZINGARI Roberto",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5887,7 +6006,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35223; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 547,
+   "row": 645,
    "seat": "ICF_ID1",
    "printed_name": "ELOSEGI Ander",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5897,7 +6016,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35785; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 548,
+   "row": 646,
    "seat": "ICF_ID1",
    "printed_name": "THOMAS Martin",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5907,7 +6026,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35412; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 549,
+   "row": 647,
    "seat": "ICF_ID1",
    "printed_name": "BOZIC Luka",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5917,7 +6036,7 @@
    "detail": "no archive id: bound by name+nation+gender to 36269; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 550,
+   "row": 648,
    "seat": "ICF_ID1",
    "printed_name": "ROHAN Lukas",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5927,7 +6046,7 @@
    "detail": "no archive id: bound by name+nation+gender to 36114; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 551,
+   "row": 649,
    "seat": "ICF_ID1",
    "printed_name": "BENUS Matej",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5937,7 +6056,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35353; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 552,
+   "row": 650,
    "seat": "ICF_ID1",
    "printed_name": "HEDWIG Grzegorz",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5947,7 +6066,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35465; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 553,
+   "row": 651,
    "seat": "ICF_ID1",
    "printed_name": "EICHFELD Casey",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5957,7 +6076,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35067; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 554,
+   "row": 652,
    "seat": "ICF_ID1",
    "printed_name": "SLAFKOVSKY Alexander",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5967,7 +6086,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35129; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 555,
+   "row": 653,
    "seat": "ICF_ID1",
    "printed_name": "TASIADIS Sideris",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5977,7 +6096,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35135; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 556,
+   "row": 654,
    "seat": "ICF_ID1",
    "printed_name": "FLORENCE David",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5987,7 +6106,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35634; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 557,
+   "row": 655,
    "seat": "ICF_ID1",
    "printed_name": "BURGESS Adam",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -5997,7 +6116,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35647; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 558,
+   "row": 656,
    "seat": "ICF_ID1",
    "printed_name": "SAVSEK Benjamin",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -6007,7 +6126,7 @@
    "detail": "no archive id: bound by name+nation+gender to 36218; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 559,
+   "row": 657,
    "seat": "ICF_ID1",
    "printed_name": "GARGAUD CHANUT Denis",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -6017,7 +6136,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35177; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 560,
+   "row": 658,
    "seat": "ICF_ID1",
    "printed_name": "FRITSCHE Lisa",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -6027,7 +6146,7 @@
    "detail": "no archive id: bound by name+nation+gender to 39883; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 561,
+   "row": 659,
    "seat": "ICF_ID1",
    "printed_name": "KUHNLE Corinna",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -6037,7 +6156,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35282; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 562,
+   "row": 660,
    "seat": "ICF_ID1",
    "printed_name": "DUKATOVA Jana",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -6047,7 +6166,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35354; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 563,
+   "row": 661,
    "seat": "ICF_ID1",
    "printed_name": "WOLFFHARDT Viktoria",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -6057,7 +6176,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35303; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 564,
+   "row": 662,
    "seat": "ICF_ID1",
    "printed_name": "FOX Jessica",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -6067,7 +6186,7 @@
    "detail": "no archive id: bound by name+nation+gender to 36526; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 565,
+   "row": 663,
    "seat": "ICF_ID1",
    "printed_name": "TERCELJ Eva",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -6077,7 +6196,7 @@
    "detail": "no archive id: bound by name+nation+gender to 36263; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 566,
+   "row": 664,
    "seat": "ICF_ID1",
    "printed_name": "PENNIE Fiona",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -6087,7 +6206,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35638; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 567,
+   "row": 665,
    "seat": "ICF_ID1",
    "printed_name": "SCHORNBERG Jasmin",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -6097,7 +6216,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35206; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 568,
+   "row": 666,
    "seat": "ICF_ID1",
    "printed_name": "HORN Stefanie",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -6107,7 +6226,7 @@
    "detail": "no archive id: bound by name+nation+gender to 38417; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 569,
+   "row": 667,
    "seat": "ICF_ID1",
    "printed_name": "FUNK Ricarda",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -6117,7 +6236,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35122; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / K1 Women"
   },
   {
-   "row": 570,
+   "row": 668,
    "seat": "ICF_ID1",
    "printed_name": "THOMAS Martin",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -6127,7 +6246,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35412; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 571,
+   "row": 669,
    "seat": "ICF_ID1",
    "printed_name": "BADURA Jergus",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -6137,7 +6256,7 @@
    "detail": "no archive id: bound by name+nation+gender to 68767; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 572,
+   "row": 670,
    "seat": "ICF_ID1",
    "printed_name": "WESTLEY Ryan",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -6147,7 +6266,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35651; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 573,
+   "row": 671,
    "seat": "ICF_ID1",
    "printed_name": "GARGAUD CHANUT Denis",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -6157,7 +6276,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35177; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 574,
+   "row": 672,
    "seat": "ICF_ID1",
    "printed_name": "SAVSEK Benjamin",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -6167,7 +6286,7 @@
    "detail": "no archive id: bound by name+nation+gender to 36218; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 575,
+   "row": 673,
    "seat": "ICF_ID1",
    "printed_name": "TASIADIS Sideris",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -6177,7 +6296,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35135; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 576,
+   "row": 674,
    "seat": "ICF_ID1",
    "printed_name": "ROHAN Lukas",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -6187,7 +6306,7 @@
    "detail": "no archive id: bound by name+nation+gender to 36114; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 577,
+   "row": 675,
    "seat": "ICF_ID1",
    "printed_name": "BURGESS Adam",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -6197,7 +6316,7 @@
    "detail": "no archive id: bound by name+nation+gender to 35647; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 578,
+   "row": 676,
    "seat": "ICF_ID1",
    "printed_name": "BERCIC Anze",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -6207,7 +6326,7 @@
    "detail": "no archive id: bound by name+nation+gender to 36253; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
   },
   {
-   "row": 579,
+   "row": 677,
    "seat": "ICF_ID1",
    "printed_name": "MARTIKAN Michal",
    "source": "123result Start List PDF (CS_2017/201201/994/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
@@ -6215,17 +6334,1134 @@
    "action": "kept",
    "new_id": "35365",
    "detail": "no archive id: bound by name+nation+gender to 35365; profile lists 2017 ICF CANOE SLALOM WORLD CUP 3 / C1 Men"
+  },
+  {
+   "row": 496,
+   "seat": "ICF_ID1",
+   "printed_name": "MAXEINER Fee",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+  },
+  {
+   "row": 497,
+   "seat": "ICF_ID1",
+   "printed_name": "MUKHGALEEVA Polina",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35768",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 498,
+   "seat": "ICF_ID1",
+   "printed_name": "BENZIEN Mandy",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+  },
+  {
+   "row": 499,
+   "seat": "ICF_ID1",
+   "printed_name": "LAFONT Marie-Zelia",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35374",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 500,
+   "seat": "ICF_ID1",
+   "printed_name": "DANIELS Haley",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "36260",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 501,
+   "seat": "ICF_ID1",
+   "printed_name": "DHURWE Ganeshvri",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "68934",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 502,
+   "seat": "ICF_ID1",
+   "printed_name": "PANDEY Aarti",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "68936",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 503,
+   "seat": "ICF_ID1",
+   "printed_name": "ESTACIA NETA Omira",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "60494",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 504,
+   "seat": "ICF_ID1",
+   "printed_name": "HINES Tracy",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+  },
+  {
+   "row": 505,
+   "seat": "ICF_ID1",
+   "printed_name": "JONES Selina",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+  },
+  {
+   "row": 506,
+   "seat": "ICF_ID1",
+   "printed_name": "MAHEU Florence",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "36416",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 507,
+   "seat": "ICF_ID1",
+   "printed_name": "FISEROVA Tereza",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+  },
+  {
+   "row": 508,
+   "seat": "ICF_ID1",
+   "printed_name": "PRIGENT Camille",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "41566",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 509,
+   "seat": "ICF_ID1",
+   "printed_name": "HILGERTOVA Amalie",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "36113",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 510,
+   "seat": "ICF_ID1",
+   "printed_name": "FRITSCHE Lisa",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "39883",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 511,
+   "seat": "ICF_ID1",
+   "printed_name": "SATILA Ana",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35327",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 512,
+   "seat": "ICF_ID1",
+   "printed_name": "LEWIS Alexander",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+  },
+  {
+   "row": 513,
+   "seat": "ICF_ID1",
+   "printed_name": "KUEHNE Yan-Lorenz",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+  },
+  {
+   "row": 514,
+   "seat": "ICF_ID1",
+   "printed_name": "MCCREERY Alistair",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "60125",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 515,
+   "seat": "ICF_ID1",
+   "printed_name": "SMEDLEY Cameron",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35543",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 516,
+   "seat": "ICF_ID1",
+   "printed_name": "OTTEN Joris",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "41698",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 517,
+   "seat": "ICF_ID1",
+   "printed_name": "CAPSTICK Finley",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "76710",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 518,
+   "seat": "ICF_ID1",
+   "printed_name": "KEER Kuldeep Singh",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "68932",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 519,
+   "seat": "ICF_ID1",
+   "printed_name": "KEER Dheeraj",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "68963",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 520,
+   "seat": "ICF_ID1",
+   "printed_name": "PRIGENT Yves",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35671",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 521,
+   "seat": "ICF_ID1",
+   "printed_name": "FARRELL Oisin",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "37916",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 522,
+   "seat": "ICF_ID1",
+   "printed_name": "MAPELLI Guilherme Marcello",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "38015",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 523,
+   "seat": "ICF_ID1",
+   "printed_name": "WAHLEN Fredrik",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35102",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 524,
+   "seat": "ICF_ID1",
+   "printed_name": "WERRO Lukas",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35347",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 525,
+   "seat": "ICF_ID1",
+   "printed_name": "POWELL Richard",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "36444",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 526,
+   "seat": "ICF_ID1",
+   "printed_name": "BUTCHER Finn",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "36663",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 527,
+   "seat": "ICF_ID1",
+   "printed_name": "DOUGOUD Martin",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35426",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 528,
+   "seat": "ICF_ID1",
+   "printed_name": "GILBERT Callum",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "42090",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 529,
+   "seat": "ICF_ID1",
+   "printed_name": "DA SILVA Pedro",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+  },
+  {
+   "row": 530,
+   "seat": "ICF_ID1",
+   "printed_name": "LAUNAY Antoine",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "68776",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 531,
+   "seat": "ICF_ID1",
+   "printed_name": "BOECKELMANN Paul",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+  },
+  {
+   "row": 532,
+   "seat": "ICF_ID1",
+   "printed_name": "EIGEL Pavel",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35458",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 533,
+   "seat": "ICF_ID1",
+   "printed_name": "SMOLEN Michal",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "36397",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 534,
+   "seat": "ICF_ID1",
+   "printed_name": "SCHUBERT Sebastian",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35114",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 535,
+   "seat": "ICF_ID1",
+   "printed_name": "PRINDIS Vit",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35065",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 536,
+   "seat": "ICF_ID1",
+   "printed_name": "TUNKA Ondrej",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35947",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 537,
+   "seat": "ICF_ID1",
+   "printed_name": "NEVEU Boris",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35396",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 538,
+   "seat": "ICF_ID1",
+   "printed_name": "AIGNER Hannes",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35115",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 539,
+   "seat": "ICF_ID1",
+   "printed_name": "MUKHGALEEVA Polina",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35768",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 540,
+   "seat": "ICF_ID1",
+   "printed_name": "FISEROVA Tereza",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+  },
+  {
+   "row": 541,
+   "seat": "ICF_ID1",
+   "printed_name": "BENZIEN Mandy",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+  },
+  {
+   "row": 542,
+   "seat": "ICF_ID1",
+   "printed_name": "MAHEU Florence",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "36416",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 543,
+   "seat": "ICF_ID1",
+   "printed_name": "FRITSCHE Lisa",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "39883",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 544,
+   "seat": "ICF_ID1",
+   "printed_name": "HILGERTOVA Amalie",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "36113",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 545,
+   "seat": "ICF_ID1",
+   "printed_name": "PANDEY Aarti",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "68936",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 546,
+   "seat": "ICF_ID1",
+   "printed_name": "ESTACIA NETA Omira",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "60494",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 547,
+   "seat": "ICF_ID1",
+   "printed_name": "PRIGENT Camille",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "41566",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 548,
+   "seat": "ICF_ID1",
+   "printed_name": "LAFONT Marie-Zelia",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35374",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 549,
+   "seat": "ICF_ID1",
+   "printed_name": "HINES Tracy",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+  },
+  {
+   "row": 550,
+   "seat": "ICF_ID1",
+   "printed_name": "DANIELS Haley",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "36260",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 551,
+   "seat": "ICF_ID1",
+   "printed_name": "MAXEINER Fee",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+  },
+  {
+   "row": 552,
+   "seat": "ICF_ID1",
+   "printed_name": "JONES Selina",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+  },
+  {
+   "row": 553,
+   "seat": "ICF_ID1",
+   "printed_name": "DHURWE Ganeshvri",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "68934",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 554,
+   "seat": "ICF_ID1",
+   "printed_name": "SMEDLEY Cameron",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35543",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 555,
+   "seat": "ICF_ID1",
+   "printed_name": "BUTCHER Finn",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "36663",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 556,
+   "seat": "ICF_ID1",
+   "printed_name": "PRINDIS Vit",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35065",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 557,
+   "seat": "ICF_ID1",
+   "printed_name": "OTTEN Joris",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "41698",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 558,
+   "seat": "ICF_ID1",
+   "printed_name": "WAHLEN Fredrik",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35102",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 559,
+   "seat": "ICF_ID1",
+   "printed_name": "LAUNAY Antoine",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "68776",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 560,
+   "seat": "ICF_ID1",
+   "printed_name": "DA SILVA Pedro",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+  },
+  {
+   "row": 561,
+   "seat": "ICF_ID1",
+   "printed_name": "KUEHNE Yan-Lorenz",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+  },
+  {
+   "row": 562,
+   "seat": "ICF_ID1",
+   "printed_name": "WERRO Lukas",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35347",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 563,
+   "seat": "ICF_ID1",
+   "printed_name": "BOECKELMANN Paul",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+  },
+  {
+   "row": 564,
+   "seat": "ICF_ID1",
+   "printed_name": "LEWIS Alexander",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+  },
+  {
+   "row": 565,
+   "seat": "ICF_ID1",
+   "printed_name": "EIGEL Pavel",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35458",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 566,
+   "seat": "ICF_ID1",
+   "printed_name": "SMOLEN Michal",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "36397",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 567,
+   "seat": "ICF_ID1",
+   "printed_name": "NEVEU Boris",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35396",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 568,
+   "seat": "ICF_ID1",
+   "printed_name": "AIGNER Hannes",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35115",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 569,
+   "seat": "ICF_ID1",
+   "printed_name": "MCCREERY Alistair",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "60125",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 570,
+   "seat": "ICF_ID1",
+   "printed_name": "FRITSCHE Lisa",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "39883",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 571,
+   "seat": "ICF_ID1",
+   "printed_name": "HILGERTOVA Amalie",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "36113",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 572,
+   "seat": "ICF_ID1",
+   "printed_name": "FISEROVA Tereza",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+  },
+  {
+   "row": 573,
+   "seat": "ICF_ID1",
+   "printed_name": "MUKHGALEEVA Polina",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35768",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 574,
+   "seat": "ICF_ID1",
+   "printed_name": "PRIGENT Camille",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "41566",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 575,
+   "seat": "ICF_ID1",
+   "printed_name": "LAFONT Marie-Zelia",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35374",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 576,
+   "seat": "ICF_ID1",
+   "printed_name": "JONES Selina",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+  },
+  {
+   "row": 577,
+   "seat": "ICF_ID1",
+   "printed_name": "DANIELS Haley",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "36260",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 578,
+   "seat": "ICF_ID1",
+   "printed_name": "LAUNAY Antoine",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "68776",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 579,
+   "seat": "ICF_ID1",
+   "printed_name": "DA SILVA Pedro",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+  },
+  {
+   "row": 580,
+   "seat": "ICF_ID1",
+   "printed_name": "PRINDIS Vit",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35065",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 581,
+   "seat": "ICF_ID1",
+   "printed_name": "BUTCHER Finn",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "36663",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 582,
+   "seat": "ICF_ID1",
+   "printed_name": "NEVEU Boris",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35396",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 583,
+   "seat": "ICF_ID1",
+   "printed_name": "BOECKELMANN Paul",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+  },
+  {
+   "row": 584,
+   "seat": "ICF_ID1",
+   "printed_name": "AIGNER Hannes",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35115",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 585,
+   "seat": "ICF_ID1",
+   "printed_name": "WERRO Lukas",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35347",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 586,
+   "seat": "ICF_ID1",
+   "printed_name": "LAFONT Marie-Zelia",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35374",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 587,
+   "seat": "ICF_ID1",
+   "printed_name": "JONES Selina",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+  },
+  {
+   "row": 588,
+   "seat": "ICF_ID1",
+   "printed_name": "FISEROVA Tereza",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+  },
+  {
+   "row": 589,
+   "seat": "ICF_ID1",
+   "printed_name": "HILGERTOVA Amalie",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "36113",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 590,
+   "seat": "ICF_ID1",
+   "printed_name": "LAUNAY Antoine",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "68776",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 591,
+   "seat": "ICF_ID1",
+   "printed_name": "PRINDIS Vit",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35065",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 592,
+   "seat": "ICF_ID1",
+   "printed_name": "NEVEU Boris",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35396",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
+  },
+  {
+   "row": 593,
+   "seat": "ICF_ID1",
+   "printed_name": "AIGNER Hannes",
+   "source": "same meeting (this sheet: Name + Team)",
+   "published_id": "",
+   "action": "same_meeting",
+   "new_id": "35115",
+   "detail": "bound to the id this sheet already carries for the same Name + Team"
   }
  ],
  "id_summary": {
   "kept": 568,
-  "no_icf_id": 15,
+  "no_icf_id": 39,
   "emptied": 4,
-  "forerunner": 27,
-  "forerunner_unbound": 3
+  "forerunner": 37,
+  "forerunner_unbound": 3,
+  "same_meeting": 74
  },
  "pending_maintainer": [],
  "issues": [],
  "shared_start_clash": [],
- "shared_clock_log": []
+ "shared_clock_log": [
+  {
+   "date": "2017-07-01",
+   "time": "17:15:00",
+   "races": [
+    538,
+    539,
+    540,
+    541
+   ],
+   "note": "Kayak Cross bracket prints one start time per round ('… heats at HH:MM'); every heat of the round carries that time (maintainer t157u 2026-11-04)",
+   "phases": [
+    "W Quarterfinal"
+   ]
+  },
+  {
+   "date": "2017-07-01",
+   "time": "17:28:00",
+   "races": [
+    542,
+    543,
+    544,
+    545
+   ],
+   "note": "Kayak Cross bracket prints one start time per round ('… heats at HH:MM'); every heat of the round carries that time (maintainer t157u 2026-11-04)",
+   "phases": [
+    "M Quarterfinal"
+   ]
+  },
+  {
+   "date": "2017-07-01",
+   "time": "17:41:00",
+   "races": [
+    546,
+    547
+   ],
+   "note": "Kayak Cross bracket prints one start time per round ('… heats at HH:MM'); every heat of the round carries that time (maintainer t157u 2026-11-04)",
+   "phases": [
+    "W Semifinal"
+   ]
+  },
+  {
+   "date": "2017-07-01",
+   "time": "17:48:00",
+   "races": [
+    548,
+    549
+   ],
+   "note": "Kayak Cross bracket prints one start time per round ('… heats at HH:MM'); every heat of the round carries that time (maintainer t157u 2026-11-04)",
+   "phases": [
+    "M Semifinal"
+   ]
+  }
+ ],
+ "renumber_log": {
+  "approved_by": "maintainer (Ernő Radafuk) 2026-11-04 21:15 Europe/Budapest, t157u: \"Inserting extreme races in start order may change the published race numbers of later races: approved, as in my Q81 answer of 2026-10-27, logged per manifest.\"",
+  "method": "in-place insert of the Kayak Cross rows (time trials + knockout heats) into the published sheet in start order; only Race number cells of later races changed; every other published cell unchanged (diff-proved by the build)",
+  "cross_races": [
+   "495-551"
+  ],
+  "renumbered": [
+   {
+    "old": "495-578",
+    "new": "552-635",
+    "shift": 57
+   }
+  ],
+  "races_renumbered": 84,
+  "rows_added": 98,
+  "races_added": 57,
+  "manifest_refs_remapped": [
+   "id_checks"
+  ]
+ },
+ "kayak_cross_patch": {
+  "request": "maintainer t157u 2026-11-04: add the extreme slalom races (time trials and heats, bib colours as lanes, ranks) to every published 2016-2017 sheet that lacks them",
+  "root_cause": "catalog_builds/tools/pdf123.py left every pre-2018 XT/X8/X4/XS/XF unit out (\"class code unverified\"); the units are K1MC/K1WC = Kayak Cross (K1 Men/Women Cross), as the 2018-2021 sheets write them",
+  "rows_added": 98,
+  "races_added": 57,
+  "phases": {
+   "Time Trials": 43,
+   "Quarterfinal": 31,
+   "Semifinal": 16,
+   "Final": 8
+  },
+  "time_trials": "one race per printed run; per-boat clock from the XT Start List (scheduled, as the rest of this sheet); printed label logged in notes; no Rank (time-trial ranks only from 2022 on, maintainer 2026-10-27 C2)",
+  "knockout": "one race per printed heat; Unit = heat number; every heat of a round carries the round's printed \"… heats at HH:MM\" start time (maintainer t157u), date from that round's own bracket file header; Bib boat = number printed in the bracket",
+  "lanes": "Starting lane = printed colour letter R/G/B/Y; boats printed with no colour (DNS/DNF/DSQ-R with no lane) left empty",
+  "lanes_printed": {
+   "R": 14,
+   "G": 12,
+   "B": 13,
+   "Y": 10
+  },
+  "bib_source": {
+   "M": {
+    "kind": "other",
+    "agree_bib": 0,
+    "agree_seed": 6,
+    "entries": 28,
+    "note": "Bib boat = number printed in the bracket"
+   },
+   "W": {
+    "kind": "seed",
+    "agree_bib": 0,
+    "agree_seed": 25,
+    "entries": 27,
+    "note": "Bib boat = number printed in the bracket"
+   }
+  },
+  "ranks": "Final ranks 1-4 and Small Final ranks 5-8 from the K1xC_XER event classification (official); Quarterfinal/Semifinal/1/8 rows unranked (as Augsburg_2023_WC)",
+  "names": "bracket names printed abbreviated or run into the NOC are written as the same meeting prints them in full (time-trial start list / this sheet); each completion logged",
+  "completions": [],
+  "notes": [
+   "K1MC_XT_1@Start List.pdf: printed label 'TRIALS RUN' -> Phase \"Time Trials\" (as the 2018-2021 sheets write the XT unit)",
+   "K1WC_XT_1@Start List.pdf: printed label 'TRIALS RUN' -> Phase \"Time Trials\" (as the 2018-2021 sheets write the XT unit)"
+  ],
+  "issues": [],
+  "sources": [
+   "https://123result.blob.core.windows.net/canoe/CS_2017/201201/994/K1MC_X4_1%40Cross%20Finals%20Bracket.pdf",
+   "https://123result.blob.core.windows.net/canoe/CS_2017/201201/994/K1MC_XER_1%40Other.pdf",
+   "https://123result.blob.core.windows.net/canoe/CS_2017/201201/994/K1MC_XF_1%40Cross%20Finals%20Bracket.pdf",
+   "https://123result.blob.core.windows.net/canoe/CS_2017/201201/994/K1MC_XS_1%40Cross%20Finals%20Bracket.pdf",
+   "https://123result.blob.core.windows.net/canoe/CS_2017/201201/994/K1MC_XT_1%40Results.pdf",
+   "https://123result.blob.core.windows.net/canoe/CS_2017/201201/994/K1MC_XT_1%40Start%20List.pdf",
+   "https://123result.blob.core.windows.net/canoe/CS_2017/201201/994/K1WC_X4_1%40Cross%20Finals%20Bracket.pdf",
+   "https://123result.blob.core.windows.net/canoe/CS_2017/201201/994/K1WC_XER_1%40Other.pdf",
+   "https://123result.blob.core.windows.net/canoe/CS_2017/201201/994/K1WC_XF_1%40Cross%20Finals%20Bracket.pdf",
+   "https://123result.blob.core.windows.net/canoe/CS_2017/201201/994/K1WC_XS_1%40Cross%20Finals%20Bracket.pdf",
+   "https://123result.blob.core.windows.net/canoe/CS_2017/201201/994/K1WC_XT_1%40Results.pdf",
+   "https://123result.blob.core.windows.net/canoe/CS_2017/201201/994/K1WC_XT_1%40Start%20List.pdf"
+  ],
+  "dropped_entries_cleared": [
+   "K1MC_XT_1: cross/trials unit in a pre-2018 123result meeting; class code unverified, left out (logged)",
+   "K1WC_XT_1: cross/trials unit in a pre-2018 123result meeting; class code unverified, left out (logged)"
+  ]
+ }
 }
