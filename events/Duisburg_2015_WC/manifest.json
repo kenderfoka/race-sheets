@@ -11,7 +11,7 @@
   "dates": "2015-05-21/2015-05-24",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-27T20:21:39Z",
+  "generated_at_utc": "2026-11-04T20:27:42Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "IMAS race pages print the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule).",
@@ -9894,63 +9894,63 @@
     {
       "race_number": "195",
       "starting_lane": 7,
-      "rank": null,
+      "rank": 1,
       "obs": "",
       "team": "BLR"
     },
     {
       "race_number": "195",
       "starting_lane": 9,
-      "rank": null,
+      "rank": 2,
       "obs": "",
       "team": "RSA"
     },
     {
       "race_number": "195",
       "starting_lane": 6,
-      "rank": 1,
+      "rank": 3,
       "obs": "",
       "team": "CAN"
     },
     {
       "race_number": "195",
       "starting_lane": 8,
-      "rank": 2,
+      "rank": 4,
       "obs": "",
       "team": "GBR"
     },
     {
       "race_number": "195",
       "starting_lane": 2,
-      "rank": null,
+      "rank": 5,
       "obs": "",
       "team": "HUN"
     },
     {
       "race_number": "195",
       "starting_lane": 3,
-      "rank": null,
+      "rank": 6,
       "obs": "",
       "team": "SVK"
     },
     {
       "race_number": "195",
       "starting_lane": 4,
-      "rank": null,
+      "rank": 7,
       "obs": "",
       "team": "SVK"
     },
     {
       "race_number": "195",
       "starting_lane": 1,
-      "rank": null,
+      "rank": 8,
       "obs": "",
       "team": "SLO"
     },
     {
       "race_number": "195",
       "starting_lane": 5,
-      "rank": null,
+      "rank": 9,
       "obs": "",
       "team": "UZB"
     },
@@ -36961,6 +36961,13 @@
     {
       "path": "imas-sources/Duisburg_2015_WC/race_99.html",
       "sha256": "c0b76be269e913f8c10f3f409554a97c60b895117d89af81a67191d192982898"
+    },
+    {
+      "path": "github-release:kenderfoka/race-desk@startlists-2026-11-04/startlists_2026-11-04.zip:sprint/World_Cups/2015_duisburg_world_cup_results/result_englisch_sundy.pdf",
+      "sha256": "40fe44ddcbb465d22ad27fb0710f6a22881463351ae06e9ab9ff9504ecfa05b2",
+      "bytes": 1453150,
+      "host": "github release (not in VENDOR_MAP; RU221 new source)",
+      "ruling": "t122u"
     }
   ],
   "sheets": {
@@ -36991,12 +36998,12 @@
     {
       "kind": "xlsx",
       "name": "Duisburg_2015_WC_Results.xlsx",
-      "sha256": "34891011a6c17b07a108a7273afdebd2bc851a777a202d270336d06fbfbfcf4a",
-      "bytes": 130264
+      "sha256": "2a455712cd63df0ddeea44faa21a660c5212371093d2e639105ff09aef2cf267",
+      "bytes": 130300
     }
   ],
   "output_xlsx": "Duisburg_2015_WC_Results.xlsx",
-  "output_xlsx_sha256": "34891011a6c17b07a108a7273afdebd2bc851a777a202d270336d06fbfbfcf4a",
+  "output_xlsx_sha256": "2a455712cd63df0ddeea44faa21a660c5212371093d2e639105ff09aef2cf267",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -37038,7 +37045,7 @@
     "no_icf_id_t59": 150,
     "same_meeting_unified_t59": 0
   },
-  "updated_at": "2026-10-27T20:21:39Z",
+  "updated_at": "2026-11-04T20:27:42Z",
   "name_change_log": [
     {
       "results_row": 162,
@@ -38006,6 +38013,168 @@
         "nationality": "SRB",
         "federation": "SRB",
         "gender": "W"
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:42Z",
+      "kind": "cell_patch",
+      "results_row": 1410,
+      "race": "195",
+      "lane": 7,
+      "team": "BLR",
+      "field": "RANK",
+      "previous": null,
+      "new": 1,
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2015_duisburg_world_cup_results/result_englisch_sundy.pdf (sha256 40fe44ddcbb465d22ad27fb0710f6a22881463351ae06e9ab9ff9504ecfa05b2)",
+      "evidence": "sprint/World_Cups/2015_duisburg_world_cup_results/result_englisch_sundy.pdf: result_englisch_sundy: 14:40 - Race 195 K1 W 200 Final B prints Place 1, Lane 7, BLR",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:42Z",
+      "kind": "cell_patch",
+      "results_row": 1411,
+      "race": "195",
+      "lane": 9,
+      "team": "RSA",
+      "field": "RANK",
+      "previous": null,
+      "new": 2,
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2015_duisburg_world_cup_results/result_englisch_sundy.pdf (sha256 40fe44ddcbb465d22ad27fb0710f6a22881463351ae06e9ab9ff9504ecfa05b2)",
+      "evidence": "sprint/World_Cups/2015_duisburg_world_cup_results/result_englisch_sundy.pdf: result_englisch_sundy: 14:40 - Race 195 K1 W 200 Final B prints Place 2, Lane 9, RSA",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:42Z",
+      "kind": "cell_patch",
+      "results_row": 1412,
+      "race": "195",
+      "lane": 6,
+      "team": "CAN",
+      "field": "RANK",
+      "previous": 1,
+      "new": 3,
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2015_duisburg_world_cup_results/result_englisch_sundy.pdf (sha256 40fe44ddcbb465d22ad27fb0710f6a22881463351ae06e9ab9ff9504ecfa05b2)",
+      "evidence": "sprint/World_Cups/2015_duisburg_world_cup_results/result_englisch_sundy.pdf: result_englisch_sundy: 14:40 - Race 195 K1 W 200 Final B prints Place 3, Lane 6, CAN",
+      "rank_oracle_previous": {
+        "rank": 1,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:42Z",
+      "kind": "cell_patch",
+      "results_row": 1413,
+      "race": "195",
+      "lane": 8,
+      "team": "GBR",
+      "field": "RANK",
+      "previous": 2,
+      "new": 4,
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2015_duisburg_world_cup_results/result_englisch_sundy.pdf (sha256 40fe44ddcbb465d22ad27fb0710f6a22881463351ae06e9ab9ff9504ecfa05b2)",
+      "evidence": "sprint/World_Cups/2015_duisburg_world_cup_results/result_englisch_sundy.pdf: result_englisch_sundy: 14:40 - Race 195 K1 W 200 Final B prints Place 4, Lane 8, GBR",
+      "rank_oracle_previous": {
+        "rank": 2,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:42Z",
+      "kind": "cell_patch",
+      "results_row": 1414,
+      "race": "195",
+      "lane": 2,
+      "team": "HUN",
+      "field": "RANK",
+      "previous": null,
+      "new": 5,
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2015_duisburg_world_cup_results/result_englisch_sundy.pdf (sha256 40fe44ddcbb465d22ad27fb0710f6a22881463351ae06e9ab9ff9504ecfa05b2)",
+      "evidence": "sprint/World_Cups/2015_duisburg_world_cup_results/result_englisch_sundy.pdf: result_englisch_sundy: 14:40 - Race 195 K1 W 200 Final B prints Place 5, Lane 2, HUN",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:42Z",
+      "kind": "cell_patch",
+      "results_row": 1415,
+      "race": "195",
+      "lane": 3,
+      "team": "SVK",
+      "field": "RANK",
+      "previous": null,
+      "new": 6,
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2015_duisburg_world_cup_results/result_englisch_sundy.pdf (sha256 40fe44ddcbb465d22ad27fb0710f6a22881463351ae06e9ab9ff9504ecfa05b2)",
+      "evidence": "sprint/World_Cups/2015_duisburg_world_cup_results/result_englisch_sundy.pdf: result_englisch_sundy: 14:40 - Race 195 K1 W 200 Final B prints Place 6, Lane 3, SVK",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:42Z",
+      "kind": "cell_patch",
+      "results_row": 1416,
+      "race": "195",
+      "lane": 4,
+      "team": "SVK",
+      "field": "RANK",
+      "previous": null,
+      "new": 7,
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2015_duisburg_world_cup_results/result_englisch_sundy.pdf (sha256 40fe44ddcbb465d22ad27fb0710f6a22881463351ae06e9ab9ff9504ecfa05b2)",
+      "evidence": "sprint/World_Cups/2015_duisburg_world_cup_results/result_englisch_sundy.pdf: result_englisch_sundy: 14:40 - Race 195 K1 W 200 Final B prints Place 7, Lane 4, SVK",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:42Z",
+      "kind": "cell_patch",
+      "results_row": 1417,
+      "race": "195",
+      "lane": 1,
+      "team": "SLO",
+      "field": "RANK",
+      "previous": null,
+      "new": 8,
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2015_duisburg_world_cup_results/result_englisch_sundy.pdf (sha256 40fe44ddcbb465d22ad27fb0710f6a22881463351ae06e9ab9ff9504ecfa05b2)",
+      "evidence": "sprint/World_Cups/2015_duisburg_world_cup_results/result_englisch_sundy.pdf: result_englisch_sundy: 14:40 - Race 195 K1 W 200 Final B prints Place 8, Lane 1, SLO",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:42Z",
+      "kind": "cell_patch",
+      "results_row": 1418,
+      "race": "195",
+      "lane": 5,
+      "team": "UZB",
+      "field": "RANK",
+      "previous": null,
+      "new": 9,
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Cups/2015_duisburg_world_cup_results/result_englisch_sundy.pdf (sha256 40fe44ddcbb465d22ad27fb0710f6a22881463351ae06e9ab9ff9504ecfa05b2)",
+      "evidence": "sprint/World_Cups/2015_duisburg_world_cup_results/result_englisch_sundy.pdf: result_englisch_sundy: 14:40 - Race 195 K1 W 200 Final B prints Place 9, Lane 5, UZB",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
       }
     }
   ],
