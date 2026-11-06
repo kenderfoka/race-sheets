@@ -11,7 +11,7 @@
   "dates": "2013-08-28/2013-09-01",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-31T10:42:15Z",
+  "generated_at_utc": "2026-11-04T20:27:41Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "IMAS race pages print the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule).",
@@ -127,7 +127,7 @@
       "race_number": "3",
       "starting_lane": 7,
       "rank": null,
-      "obs": "",
+      "obs": "DNF",
       "team": "JPN"
     },
     {
@@ -1489,14 +1489,14 @@
       "race_number": "32",
       "starting_lane": 4,
       "rank": null,
-      "obs": "",
+      "obs": "DNS",
       "team": "POL"
     },
     {
       "race_number": "32",
       "starting_lane": 8,
       "rank": null,
-      "obs": "",
+      "obs": "DNF",
       "team": "CHI"
     },
     {
@@ -2301,7 +2301,7 @@
       "race_number": "47",
       "starting_lane": 2,
       "rank": null,
-      "obs": "",
+      "obs": "DNS",
       "team": "SRB"
     },
     {
@@ -4604,7 +4604,7 @@
       "race_number": "87",
       "starting_lane": 1,
       "rank": null,
-      "obs": "",
+      "obs": "DNF",
       "team": "MEX"
     },
     {
@@ -5346,7 +5346,7 @@
       "race_number": "102",
       "starting_lane": 9,
       "rank": null,
-      "obs": "",
+      "obs": "DNS",
       "team": "GEO"
     },
     {
@@ -5976,7 +5976,7 @@
       "race_number": "115",
       "starting_lane": 8,
       "rank": null,
-      "obs": "",
+      "obs": "DNS",
       "team": "IND"
     },
     {
@@ -6039,7 +6039,7 @@
       "race_number": "116",
       "starting_lane": 9,
       "rank": null,
-      "obs": "",
+      "obs": "DNF",
       "team": "USA"
     },
     {
@@ -7586,7 +7586,7 @@
       "race_number": "143",
       "starting_lane": 2,
       "rank": null,
-      "obs": "",
+      "obs": "DNF",
       "team": "COK"
     },
     {
@@ -11156,7 +11156,7 @@
       "race_number": "202",
       "starting_lane": 24,
       "rank": null,
-      "obs": "",
+      "obs": "DNF",
       "team": "BRA"
     },
     {
@@ -11324,14 +11324,14 @@
       "race_number": "203",
       "starting_lane": 40,
       "rank": null,
-      "obs": "",
+      "obs": "DNS",
       "team": "POL"
     },
     {
       "race_number": "203",
       "starting_lane": 61,
       "rank": null,
-      "obs": "",
+      "obs": "DNF",
       "team": "ITA"
     },
     {
@@ -11555,35 +11555,35 @@
       "race_number": "204",
       "starting_lane": 300,
       "rank": null,
-      "obs": "",
+      "obs": "DNS",
       "team": "GEO"
     },
     {
       "race_number": "204",
       "starting_lane": 302,
       "rank": null,
-      "obs": "",
+      "obs": "DNF",
       "team": "SRB"
     },
     {
       "race_number": "204",
       "starting_lane": 318,
       "rank": null,
-      "obs": "",
+      "obs": "DNF",
       "team": "ITA"
     },
     {
       "race_number": "204",
       "starting_lane": 328,
       "rank": null,
-      "obs": "",
+      "obs": "DNF",
       "team": "BUL"
     },
     {
       "race_number": "204",
       "starting_lane": 335,
       "rank": null,
-      "obs": "",
+      "obs": "DNS",
       "team": "SEN"
     },
     {
@@ -47449,6 +47449,13 @@
     {
       "path": "imas-sources/Duisburg_2013_WCH/race_99.html",
       "sha256": "19725bc52b6389ad44e02edf7cfd2b3d7c57deffc7ae2ef5d6b6bcc59b5ec07a"
+    },
+    {
+      "path": "github-release:kenderfoka/race-desk@startlists-2026-11-04/startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf",
+      "sha256": "7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d",
+      "bytes": 2259664,
+      "host": "github release (not in VENDOR_MAP; RU221 new source)",
+      "ruling": "t122u"
     }
   ],
   "sheets": {
@@ -47533,119 +47540,221 @@
       "lane": "4",
       "team": "POL",
       "printed": "---",
-      "note": "status empty, logged as '---' (maintainer 2026-10-16)"
+      "note": "status empty, logged as '---' (maintainer 2026-10-16)",
+      "superseded": {
+        "by": "OBS DNS",
+        "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+        "at_utc": "2026-11-04T20:27:41Z",
+        "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")"
+      }
     },
     {
       "race": 32,
       "lane": "8",
       "team": "CHI",
       "printed": "---",
-      "note": "status empty, logged as '---' (maintainer 2026-10-16)"
+      "note": "status empty, logged as '---' (maintainer 2026-10-16)",
+      "superseded": {
+        "by": "OBS DNF",
+        "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+        "at_utc": "2026-11-04T20:27:41Z",
+        "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")"
+      }
     },
     {
       "race": 47,
       "lane": "2",
       "team": "SRB",
       "printed": "---",
-      "note": "status empty, logged as '---' (maintainer 2026-10-16)"
+      "note": "status empty, logged as '---' (maintainer 2026-10-16)",
+      "superseded": {
+        "by": "OBS DNS",
+        "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+        "at_utc": "2026-11-04T20:27:41Z",
+        "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")"
+      }
     },
     {
       "race": 87,
       "lane": "1",
       "team": "MEX",
       "printed": "---",
-      "note": "status empty, logged as '---' (maintainer 2026-10-16)"
+      "note": "status empty, logged as '---' (maintainer 2026-10-16)",
+      "superseded": {
+        "by": "OBS DNF",
+        "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+        "at_utc": "2026-11-04T20:27:41Z",
+        "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")"
+      }
     },
     {
       "race": 102,
       "lane": "9",
       "team": "GEO",
       "printed": "---",
-      "note": "status empty, logged as '---' (maintainer 2026-10-16)"
+      "note": "status empty, logged as '---' (maintainer 2026-10-16)",
+      "superseded": {
+        "by": "OBS DNS",
+        "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+        "at_utc": "2026-11-04T20:27:41Z",
+        "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")"
+      }
     },
     {
       "race": 116,
       "lane": "9",
       "team": "USA",
       "printed": "---",
-      "note": "status empty, logged as '---' (maintainer 2026-10-16)"
+      "note": "status empty, logged as '---' (maintainer 2026-10-16)",
+      "superseded": {
+        "by": "OBS DNF",
+        "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+        "at_utc": "2026-11-04T20:27:41Z",
+        "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")"
+      }
     },
     {
       "race": 143,
       "lane": "2",
       "team": "COK",
       "printed": "---",
-      "note": "status empty, logged as '---' (maintainer 2026-10-16)"
+      "note": "status empty, logged as '---' (maintainer 2026-10-16)",
+      "superseded": {
+        "by": "OBS DNF",
+        "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+        "at_utc": "2026-11-04T20:27:41Z",
+        "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")"
+      }
     },
     {
       "race": 202,
       "lane": "24",
       "team": "BRA",
       "printed": "---",
-      "note": "status empty, logged as '---' (maintainer 2026-10-16)"
+      "note": "status empty, logged as '---' (maintainer 2026-10-16)",
+      "superseded": {
+        "by": "OBS DNF",
+        "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+        "at_utc": "2026-11-04T20:27:41Z",
+        "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")"
+      }
     },
     {
       "race": 203,
       "lane": "40",
       "team": "POL",
       "printed": "---",
-      "note": "status empty, logged as '---' (maintainer 2026-10-16)"
+      "note": "status empty, logged as '---' (maintainer 2026-10-16)",
+      "superseded": {
+        "by": "OBS DNS",
+        "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+        "at_utc": "2026-11-04T20:27:41Z",
+        "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")"
+      }
     },
     {
       "race": 203,
       "lane": "61",
       "team": "ITA",
       "printed": "---",
-      "note": "status empty, logged as '---' (maintainer 2026-10-16)"
+      "note": "status empty, logged as '---' (maintainer 2026-10-16)",
+      "superseded": {
+        "by": "OBS DNF",
+        "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+        "at_utc": "2026-11-04T20:27:41Z",
+        "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")"
+      }
     },
     {
       "race": 204,
       "lane": "300",
       "team": "GEO",
       "printed": "---",
-      "note": "status empty, logged as '---' (maintainer 2026-10-16)"
+      "note": "status empty, logged as '---' (maintainer 2026-10-16)",
+      "superseded": {
+        "by": "OBS DNS",
+        "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+        "at_utc": "2026-11-04T20:27:41Z",
+        "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")"
+      }
     },
     {
       "race": 204,
       "lane": "302",
       "team": "SRB",
       "printed": "---",
-      "note": "status empty, logged as '---' (maintainer 2026-10-16)"
+      "note": "status empty, logged as '---' (maintainer 2026-10-16)",
+      "superseded": {
+        "by": "OBS DNF",
+        "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+        "at_utc": "2026-11-04T20:27:41Z",
+        "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")"
+      }
     },
     {
       "race": 204,
       "lane": "318",
       "team": "ITA",
       "printed": "---",
-      "note": "status empty, logged as '---' (maintainer 2026-10-16)"
+      "note": "status empty, logged as '---' (maintainer 2026-10-16)",
+      "superseded": {
+        "by": "OBS DNF",
+        "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+        "at_utc": "2026-11-04T20:27:41Z",
+        "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")"
+      }
     },
     {
       "race": 204,
       "lane": "328",
       "team": "BUL",
       "printed": "---",
-      "note": "status empty, logged as '---' (maintainer 2026-10-16)"
+      "note": "status empty, logged as '---' (maintainer 2026-10-16)",
+      "superseded": {
+        "by": "OBS DNF",
+        "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+        "at_utc": "2026-11-04T20:27:41Z",
+        "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")"
+      }
     },
     {
       "race": 204,
       "lane": "335",
       "team": "SEN",
       "printed": "---",
-      "note": "status empty, logged as '---' (maintainer 2026-10-16)"
+      "note": "status empty, logged as '---' (maintainer 2026-10-16)",
+      "superseded": {
+        "by": "OBS DNS",
+        "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+        "at_utc": "2026-11-04T20:27:41Z",
+        "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")"
+      }
     },
     {
       "race": 3,
       "lane": "7",
       "team": "JPN",
       "printed": "---",
-      "note": "status empty, logged as '---' (maintainer 2026-10-16)"
+      "note": "status empty, logged as '---' (maintainer 2026-10-16)",
+      "superseded": {
+        "by": "OBS DNF",
+        "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+        "at_utc": "2026-11-04T20:27:41Z",
+        "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")"
+      }
     },
     {
       "race": 115,
       "lane": "8",
       "team": "IND",
       "printed": "---",
-      "note": "status empty, logged as '---' (maintainer 2026-10-16)"
+      "note": "status empty, logged as '---' (maintainer 2026-10-16)",
+      "superseded": {
+        "by": "OBS DNS",
+        "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+        "at_utc": "2026-11-04T20:27:41Z",
+        "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")"
+      }
     }
   ],
   "noc_map_log": [
@@ -47703,7 +47812,6 @@
     "V1 W 200m (Paracanoe LTA) -> V1 (LTA)",
     "V1 W 200m (Paracanoe TA) -> V1 (TA)"
   ],
-  "reason_code": "AUDITOR_FAIL",
   "domain": "flatwater_sprint",
   "sheet": "Duisburg_2013_WCH_Results.xlsx",
   "format": "sprint_RESULTS_PERSONS",
@@ -47711,23 +47819,17 @@
     {
       "kind": "xlsx",
       "name": "Duisburg_2013_WCH_Results.xlsx",
-      "sha256": "845460352093a4945e97a9986f8eed23483718f00e0e98ccbd9a6ff80ba1ac11",
-      "bytes": 154831
+      "sha256": "c51bf3aefb5c557854844d94e21df94ad172ac67724bcaa98fe5596fd267a919",
+      "bytes": 154940
     }
   ],
   "output_xlsx": "Duisburg_2013_WCH_Results.xlsx",
-  "output_xlsx_sha256": "845460352093a4945e97a9986f8eed23483718f00e0e98ccbd9a6ff80ba1ac11",
+  "output_xlsx_sha256": "c51bf3aefb5c557854844d94e21df94ad172ac67724bcaa98fe5596fd267a919",
   "checks": {
-    "start-times": {
-      "status": "pass",
-      "note": "shared clock 2013-08-30 17:03 races 147/148 logged in shared_clock_log (maintainer 2026-10-16 10:39)"
-    },
+    "start-times": "pass",
     "phases": "pass",
     "crews": "pass",
-    "OBS": {
-      "status": "pass",
-      "note": "race 7 '01:08:101' written 00:01:08.101, logged in malformed_result_log"
-    },
+    "OBS": "pass",
     "RANK vs official results": "pass",
     "PERSONS vs ICF": "pass",
     "repairs": "pass",
@@ -47743,9 +47845,9 @@
   },
   "check_diff_summaries": {
     "phases": "sheet_audit C: phase order vs race number/clock per event, one race per event/phase/unit label, on IMAS hub https://results.imas-sport.com/kanuduisburg/regatta.php?competition=wettkampf_99 race result pages (vendor published results) + ICF results book (lapped notes)",
-    "start-times": "START_TIME = scheduled start printed on each race page of IMAS hub https://results.imas-sport.com/kanuduisburg/regatta.php?competition=wettkampf_99 race result pages (vendor published results) + ICF results book (lapped notes); sheet_audit A/B/D: one clock per race, no clock shared by races, coverage >=90%, dates inside meeting",
+    "start-times": "START_TIME = scheduled start printed on each race page of IMAS hub https://results.imas-sport.com/kanuduisburg/regatta.php?competition=wettkampf_99 race result pages (vendor published results) + ICF results book (lapped notes); sheet_audit A/B/D: one clock per race, no clock shared by races, coverage >=90%, dates inside meeting; shared clock 2013-08-30 17:03 races 147/148 logged in shared_clock_log (maintainer 2026-10-16 10:39)",
     "crews": "crew size vs class on IMAS hub https://results.imas-sport.com/kanuduisburg/regatta.php?competition=wettkampf_99 race result pages (vendor published results) + ICF results book (lapped notes)",
-    "OBS": "DNS/DNF/DSQ verbatim from IMAS hub https://results.imas-sport.com/kanuduisburg/regatta.php?competition=wettkampf_99 race result pages (vendor published results) + ICF results book (lapped notes); LAP only where the results book prints \"Lane N was Lapped\"",
+    "OBS": "DNS/DNF/DSQ verbatim from IMAS hub https://results.imas-sport.com/kanuduisburg/regatta.php?competition=wettkampf_99 race result pages (vendor published results) + ICF results book (lapped notes); LAP only where the results book prints \"Lane N was Lapped\"; race 7 '01:08:101' written 00:01:08.101, logged in malformed_result_log",
     "RANK vs official results": "RANK = Rank column of IMAS hub https://results.imas-sport.com/kanuduisburg/regatta.php?competition=wettkampf_99 race result pages (vendor published results) + ICF results book (lapped notes) (rank_oracle)",
     "PERSONS vs ICF": "PERSONS from bind_seat-accepted seats, printed names from IMAS hub https://results.imas-sport.com/kanuduisburg/regatta.php?competition=wettkampf_99 race result pages (vendor published results) + ICF results book (lapped notes)",
     "repairs": "name-bound seats vs printed names on IMAS hub https://results.imas-sport.com/kanuduisburg/regatta.php?competition=wettkampf_99 race result pages (vendor published results) + ICF results book (lapped notes)",
@@ -47851,7 +47953,7 @@
       }
     }
   },
-  "updated_at": "2026-10-31T10:42:15Z",
+  "updated_at": "2026-11-04T20:27:41Z",
   "rank_source_log": [
     {
       "race": 7,
@@ -48430,6 +48532,312 @@
       "rule": "MAINTAINER_ANSWERS_2026-10-31.md t87s516 (2026-10-31 11:36 CET): \"Bind all 66 Nivalter seats on the 16 sheets to 36633 and republish them.\"; maintainer-ruled bind (supersedes MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id))",
       "evidence": "MAINTAINER_ANSWERS_2026-10-31.md t87s516 (2026-10-31 11:36 CET): \"Bind all 66 Nivalter seats on the 16 sheets to 36633 and republish them.\" research /workspace/scratch/t89/36633_findings.md and /workspace/scratch/t90/nivalter_name_research.md: ICF/PWW 36633 (SANTOS DE JESUS, givenName \"Alvaro Acco Koslowski\", BRA, M, b. 1987-09-19, 1.72 m/75 kg) carries Nivalter Santos de Jesus's results row for row (2013 WC3 Poznan C1 500 heat 1; 2013 WCH C1 200 heat/SF 1, final 5; 2014 WC1 Milan C1 200 heat 1, final 5; 2014 WCH C1 200 5/5/5; 2015 WCH C1 1000 heat 7, SF 8); the given name is a record error carrying the CBCa official Alvaro Acco Koslowski's name (Olympedia 9165, b. 1971, a different person listed beside Nivalter by CBCa 2022-2025); Nivalter (Olympedia 116515, b. 1987-09-17, 173 cm/77 kg, BRA C1; legal name NIVALTER SANTOS DE JESUS in Bolsa Atleta 2007/2010) has no other ICF id",
       "logged_at_utc": "2026-10-31T10:39:06Z"
+    },
+    {
+      "at_utc": "2026-11-04T20:27:41Z",
+      "kind": "cell_patch",
+      "results_row": 211,
+      "race": "32",
+      "lane": 4,
+      "team": "POL",
+      "field": "OBS",
+      "previous": null,
+      "new": "DNS",
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+      "evidence": "sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf: 16:20 - Race 32 prints 'Lane 4 POL POLAND Did not start' (vendor page printed '---')",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:41Z",
+      "kind": "cell_patch",
+      "results_row": 212,
+      "race": "32",
+      "lane": 8,
+      "team": "CHI",
+      "field": "OBS",
+      "previous": null,
+      "new": "DNF",
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+      "evidence": "sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf: 16:20 - Race 32 prints 'Lane 8 CHI CHILE Did not finish' (vendor page printed '---')",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:41Z",
+      "kind": "cell_patch",
+      "results_row": 327,
+      "race": "47",
+      "lane": 2,
+      "team": "SRB",
+      "field": "OBS",
+      "previous": null,
+      "new": "DNS",
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+      "evidence": "sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf: 09:50 - Race 47 prints 'Lane 2 SRB SERBIA Did not start' (vendor page printed '---')",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:41Z",
+      "kind": "cell_patch",
+      "results_row": 656,
+      "race": "87",
+      "lane": 1,
+      "team": "MEX",
+      "field": "OBS",
+      "previous": null,
+      "new": "DNF",
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+      "evidence": "sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf: 18:10 - Race 87 prints 'Lane 1 MEX MEXICO Did not finish' (vendor page printed '---')",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:41Z",
+      "kind": "cell_patch",
+      "results_row": 762,
+      "race": "102",
+      "lane": 9,
+      "team": "GEO",
+      "field": "OBS",
+      "previous": null,
+      "new": "DNS",
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+      "evidence": "sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf: 08:55 - Race 102 prints 'Lane 9 GEO GEORGIA Did not start' (vendor page printed '---')",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:41Z",
+      "kind": "cell_patch",
+      "results_row": 861,
+      "race": "116",
+      "lane": 9,
+      "team": "USA",
+      "field": "OBS",
+      "previous": null,
+      "new": "DNF",
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+      "evidence": "sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf: 10:40 - Race 116 prints 'Lane 9 USA UNITED STATES OF AMERICA Did not finish' (vendor page printed '---')",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:41Z",
+      "kind": "cell_patch",
+      "results_row": 1082,
+      "race": "143",
+      "lane": 2,
+      "team": "COK",
+      "field": "OBS",
+      "previous": null,
+      "new": "DNF",
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+      "evidence": "sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf: 16:43 - Race 143 prints 'Lane 2 COK COOK ISLANDS Did not finish' (vendor page printed '---')",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:41Z",
+      "kind": "cell_patch",
+      "results_row": 1592,
+      "race": "202",
+      "lane": 24,
+      "team": "BRA",
+      "field": "OBS",
+      "previous": null,
+      "new": "DNF",
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+      "evidence": "sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf: 09:00 - Race 202 prints 'Lane 24 BRA BRAZIL Did not finish' (vendor page printed '---')",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:41Z",
+      "kind": "cell_patch",
+      "results_row": 1616,
+      "race": "203",
+      "lane": 40,
+      "team": "POL",
+      "field": "OBS",
+      "previous": null,
+      "new": "DNS",
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+      "evidence": "sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf: 09:30 - Race 203 prints 'Lane 40 POL POLAND Did not start' (vendor page printed '---')",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:41Z",
+      "kind": "cell_patch",
+      "results_row": 1617,
+      "race": "203",
+      "lane": 61,
+      "team": "ITA",
+      "field": "OBS",
+      "previous": null,
+      "new": "DNF",
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+      "evidence": "sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf: 09:30 - Race 203 prints 'Lane 61 ITA ITALY Did not finish' (vendor page printed '---')",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:41Z",
+      "kind": "cell_patch",
+      "results_row": 1649,
+      "race": "204",
+      "lane": 300,
+      "team": "GEO",
+      "field": "OBS",
+      "previous": null,
+      "new": "DNS",
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+      "evidence": "sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf: 10:10 - Race 204 prints 'Lane 300 GEO GEORGIA Did not start' (vendor page printed '---')",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:41Z",
+      "kind": "cell_patch",
+      "results_row": 1650,
+      "race": "204",
+      "lane": 302,
+      "team": "SRB",
+      "field": "OBS",
+      "previous": null,
+      "new": "DNF",
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+      "evidence": "sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf: 10:10 - Race 204 prints 'Lane 302 SRB SERBIA Did not finish' (vendor page printed '---')",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:41Z",
+      "kind": "cell_patch",
+      "results_row": 1651,
+      "race": "204",
+      "lane": 318,
+      "team": "ITA",
+      "field": "OBS",
+      "previous": null,
+      "new": "DNF",
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+      "evidence": "sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf: 10:10 - Race 204 prints 'Lane 318 ITA ITALY Did not finish' (vendor page printed '---')",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:41Z",
+      "kind": "cell_patch",
+      "results_row": 1652,
+      "race": "204",
+      "lane": 328,
+      "team": "BUL",
+      "field": "OBS",
+      "previous": null,
+      "new": "DNF",
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+      "evidence": "sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf: 10:10 - Race 204 prints 'Lane 328 BUL BULGARIA Did not finish' (vendor page printed '---')",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:41Z",
+      "kind": "cell_patch",
+      "results_row": 1653,
+      "race": "204",
+      "lane": 335,
+      "team": "SEN",
+      "field": "OBS",
+      "previous": null,
+      "new": "DNS",
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+      "evidence": "sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf: 10:10 - Race 204 prints 'Lane 335 SEN SENEGAL Did not start' (vendor page printed '---')",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:41Z",
+      "kind": "cell_patch",
+      "results_row": 17,
+      "race": "3",
+      "lane": 7,
+      "team": "JPN",
+      "field": "OBS",
+      "previous": null,
+      "new": "DNF",
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+      "evidence": "sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf: 09:50 - Race 3 prints 'Lane 7 JPN JAPAN Did not finish' (vendor page printed '---')",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
+    },
+    {
+      "at_utc": "2026-11-04T20:27:41Z",
+      "kind": "cell_patch",
+      "results_row": 852,
+      "race": "115",
+      "lane": 8,
+      "team": "IND",
+      "field": "OBS",
+      "previous": null,
+      "new": "DNS",
+      "rule": "t122u (2026-11-04 21:15 CET), Ernő: \"Yes, these files can be used, they are official, contemporary event files, so very authentic.\" (MAINTAINER_ANSWERS_2026-11-04.md); results book outranks the vendor page (flatwater-results-pack \"When sources disagree\")",
+      "source": "github release kenderfoka/race-desk startlists-2026-11-04, startlists_2026-11-04.zip:sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf (sha256 7c68f9dab95ebe9c0170cad7cfdd1a38e7bb5846a0ef66b807ce0ab3a01ea52d)",
+      "evidence": "sprint/World_Championships/2013-results_2013_icf_canoe_sprint_world_championships_duisburg_germany.pdf: 10:30 - Race 115 prints 'Lane 8 IND INDIA Did not start' (vendor page printed '---')",
+      "rank_oracle_previous": {
+        "rank": null,
+        "obs": ""
+      }
     }
   ],
   "log_corrections": [
