@@ -10,13 +10,13 @@
  "sheet": "LiptovskyMikulas_2018_WC_start.xlsx",
  "grade": "PERFECT",
  "gaps": [],
- "generated_at_utc": "2026-10-15T09:27:16Z",
- "updated_at": "2026-10-15T09:32:16Z",
+ "generated_at_utc": "2026-11-16T21:36:20Z",
+ "updated_at": "2026-11-16T21:36:20Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "LiptovskyMikulas_2018_WC_start.xlsx",
-   "sha256": "865534657010356d7100d936ebc6737827ae5347bf3e6b3c8b079ab1dcd4af40"
+   "sha256": "36f4ab9995d4a7e1809a6e6920b8ced299303a2ef19bb94b8f4307f3e5d9ec72"
   }
  ],
  "row_count": 717,
@@ -4773,11 +4773,16 @@
    "row": 547,
    "seat": "ICF_ID1",
    "printed_name": "DIESKOVA Eva",
-   "source": "SIWIDATA session 1302 Code + paddleworldwide.com/athlete/<id>",
+   "source": "ICF list (fetchApi/bence, refreshed 2026-11-16, sha256 203d2f547b04…) + paddleworldwide.com/athlete/71639 (fetched 2026-11-16)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 71639; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)"
+   "new_id": "71639",
+   "detail": "empty crew seat bound under the maintainer's name-file rule of 2026-11-16 (t161u): printed 'DIESKOVA Eva' (SVK) has the same words, accents and case ignored, as 71639 Eva DIESKOVA (SVK, born 1998-10-05, W), the only athlete of SVK with that name in the name file and the ICF list; profile does not list 2018 ICF CANOE SLALOM WORLD CUP 1 (forerunner, not a gap)",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 71639; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session 1302 Code + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 548,
@@ -6338,13 +6343,23 @@
    "source": "SIWIDATA session 1302 Code + paddleworldwide.com/athlete/<id>",
    "published_id": "60326",
    "action": "kept"
+  },
+  {
+   "row": 547,
+   "seat": "ICF_ID2",
+   "printed_name": "",
+   "source": "this sheet",
+   "published_id": "",
+   "action": "forerunner",
+   "new_id": "",
+   "detail": "no crew name printed for this seat; seat empty and logged (forerunner, not a gap)"
   }
  ],
  "id_summary": {
   "kept": 697,
   "no_icf_id": 10,
   "emptied": 0,
-  "forerunner": 26,
+  "forerunner": 27,
   "forerunner_unbound": 3,
   "name_change": 13,
   "corrected": 6,
@@ -6493,5 +6508,17 @@
  "bracket_sources": [
   "https://123result.blob.core.windows.net/canoe/CS_2018/201201/1302/K1MX_X4_24%40Cross%20Finals%20Bracket.pdf",
   "https://123result.blob.core.windows.net/canoe/CS_2018/201201/1302/K1WX_X4_24%40Cross%20Finals%20Bracket.pdf"
- ]
+ ],
+ "name_file_bind": {
+  "rule": "maintainer message t161u, 2026-11-16 22:26 Europe/Budapest (empty crew seats bound from race-desk legacy/paddletagger/names.json and the ICF list)",
+  "names_json": "race-desk 75edb65 (built_from 58ae13d), read from main 24ca403",
+  "icf_list": "fetchApi/bence refreshed 2026-11-16T21:36:20Z, 28908 records, sha256 203d2f547b04…",
+  "seats_filled": 1,
+  "from_names_json": 0,
+  "from_icf_list": 1,
+  "rejected": 0,
+  "entries_added_for_unnamed_seats": 1,
+  "forerunner_gender_set": [],
+  "name_cells_written": []
+ }
 }
