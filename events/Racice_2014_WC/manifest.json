@@ -10,7 +10,7 @@
   "dates": "2014-05-16/2014-05-18",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-11-16T14:37:59Z",
+  "generated_at_utc": "2026-11-16T21:51:24Z",
   "grade": "FAIL",
   "gaps": [
     "icf_ids_incomplete"
@@ -9617,7 +9617,8 @@
       "evidence": "printed_name='Anja OSTERMAN'; noc=SLO; no profile for given+family",
       "team": "SLO",
       "new_id": "42444",
-      "detail": "name_change rule (maintainer 2026-10-17 Fix 1): printed 'Anja OSTERMAN', profile Anja APOLLONIO 42444; profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 1000m; was no_icf_id"
+      "detail": "name_change rule (maintainer 2026-10-17 Fix 1): printed 'Anja OSTERMAN', profile Anja APOLLONIO 42444; profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 500m; was no_icf_id",
+      "other_name": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330): printed 'Anja OSTERMAN' is another name of the same athlete 42444 (APOLLONIO, her current ICF name (OSTERMAN is her former name in the ICF database)); the PWW profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 500m, matching this seat (K1 W 500 heat 1, race 1, rank 7, 2:15.531); the seat stays bound and PERSONS keeps the printed name"
     },
     {
       "results_row": 9,
@@ -9961,10 +9962,19 @@
       "results_row": 38,
       "seat": "ICF_ID2",
       "source_printed_name": "Esti VAN TONDER",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "printed_name='Esti VAN TONDER'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "action": "corrected",
+      "source": "names.json",
+      "team": "RSA",
+      "new_id": "42517",
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Esti VAN TONDER' (RSA) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42517 OLIVIER Esti (RSA, W, born 1992-12-10); source race-desk legacy/paddletagger/names.json @ 24ca4034cdab (keywords (RU155))",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K2 Women 500m",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "printed_name='Esti VAN TONDER'; noc=RSA; no profile for given+family",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-16T21:51:24Z"
+      }
     },
     {
       "results_row": 39,
@@ -10063,7 +10073,8 @@
       "source": "pww_search",
       "new_id": "42456",
       "team": "CAN",
-      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K2 Women 500m"
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K2 Women 500m",
+      "other_name": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330): printed 'Kathleen Carol FRASER' is another name of the same athlete 42456 (DALTON, her current ICF name (FRASER the printed one)); the PWW profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K2 Women 500m, matching this seat (K2 W 500 heat 2, race 6, rank 3, 1:54.695); the seat stays bound and PERSONS keeps the printed name"
     },
     {
       "results_row": 44,
@@ -10170,7 +10181,8 @@
       "source": "given_family_unique",
       "new_id": "52150",
       "team": "AUS",
-      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K2 Women 500m"
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K2 Women 500m",
+      "other_name": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330): printed 'Joanne BRIGDEN-JONES' is another name of the same athlete 52150 (Jo BRIGDEN-JONES, her ICF name (Joanne the printed given name)); the PWW profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K2 Women 500m, matching this seat (K2 W 500 heat 3, race 7, rank 2, 1:57.098); the seat stays bound and PERSONS keeps the printed name"
     },
     {
       "results_row": 49,
@@ -11265,10 +11277,19 @@
       "results_row": 138,
       "seat": "ICF_ID2",
       "source_printed_name": "Saeid FAZLOULA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "printed_name='Saeid FAZLOULA'; noc=IRI; no profile for given+family",
-      "team": "IRI"
+      "action": "corrected",
+      "source": "bence",
+      "team": "IRI",
+      "new_id": "106349",
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Saeid FAZLOULA' (IRI) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 106349 FAZLOULA Saeid (ICF/IRI, M, born 1992-08-09); source ICF athlete list (bence, fetched 2026-11-16)",
+      "name_bound_profile": "bound: MAINTAINER_ANSWERS_2026-11-16_t129u / MAINTAINER_ANSWERS_2026-10-23 Rule 2 (single candidate; profile https://paddleworldwide.com/athlete/106349 fetched 2026-11-16 does not list this meeting)",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "printed_name='Saeid FAZLOULA'; noc=IRI; no profile for given+family",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-16T21:51:24Z"
+      }
     },
     {
       "results_row": 139,
@@ -11978,7 +11999,8 @@
       "evidence": "printed_name='Anja OSTERMAN'; noc=SLO; no profile for given+family",
       "team": "SLO",
       "new_id": "42444",
-      "detail": "name_change rule (maintainer 2026-10-17 Fix 1): printed 'Anja OSTERMAN', profile Anja APOLLONIO 42444; profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 1000m; was no_icf_id"
+      "detail": "name_change rule (maintainer 2026-10-17 Fix 1): printed 'Anja OSTERMAN', profile Anja APOLLONIO 42444; profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 1000m; was no_icf_id",
+      "other_name": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330): printed 'Anja OSTERMAN' is another name of the same athlete 42444 (APOLLONIO, her current ICF name (OSTERMAN is her former name in the ICF database)); the PWW profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 1000m, matching this seat (K1 W 1000 heat 2, race 25, rank 5, 4:32.025); the seat stays bound and PERSONS keeps the printed name"
     },
     {
       "results_row": 181,
@@ -12634,9 +12656,18 @@
       "results_row": 204,
       "seat": "ICF_ID2",
       "source_printed_name": "Martin SCHUBERT",
-      "action": "emptied",
-      "source": "none",
-      "team": "GER"
+      "action": "corrected",
+      "source": "bence",
+      "team": "GER",
+      "new_id": "42511",
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Martin SCHUBERT' (GER) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42511 SCHUBERT Martin (GER, M, born 1986-10-18); source ICF athlete list (bence, fetched 2026-11-16)",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K4 Men 1000m",
+      "superseded": {
+        "action": "emptied",
+        "source": "none",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-16T21:51:24Z"
+      }
     },
     {
       "results_row": 204,
@@ -13015,7 +13046,8 @@
       "evidence": "printed_name='Anja OSTERMAN'; noc=SLO; no profile for given+family",
       "team": "SLO",
       "new_id": "42444",
-      "detail": "name_change rule (maintainer 2026-10-17 Fix 1): printed 'Anja OSTERMAN', profile Anja APOLLONIO 42444; profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 1000m; was no_icf_id"
+      "detail": "name_change rule (maintainer 2026-10-17 Fix 1): printed 'Anja OSTERMAN', profile Anja APOLLONIO 42444; profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 500m; was no_icf_id",
+      "other_name": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330): printed 'Anja OSTERMAN' is another name of the same athlete 42444 (APOLLONIO, her current ICF name (OSTERMAN is her former name in the ICF database)); the PWW profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 500m, matching this seat (K1 W 500 semifinal 3, race 32, rank 7, 2:03.924); the seat stays bound and PERSONS keeps the printed name"
     },
     {
       "results_row": 233,
@@ -13063,7 +13095,8 @@
       "source": "given_family_unique",
       "new_id": "52150",
       "team": "AUS",
-      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K2 Women 500m"
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K2 Women 500m",
+      "other_name": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330): printed 'Joanne BRIGDEN-JONES' is another name of the same athlete 52150 (Jo BRIGDEN-JONES, her ICF name (Joanne the printed given name)); the PWW profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K2 Women 500m, matching this seat (K2 W 500 semifinal 1, race 33, rank 2, 1:48.906); the seat stays bound and PERSONS keeps the printed name"
     },
     {
       "results_row": 236,
@@ -13461,7 +13494,8 @@
       "source": "pww_search",
       "new_id": "42456",
       "team": "CAN",
-      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K2 Women 500m"
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K2 Women 500m",
+      "other_name": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330): printed 'Kathleen Carol FRASER' is another name of the same athlete 42456 (DALTON, her current ICF name (FRASER the printed one)); the PWW profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K2 Women 500m, matching this seat (K2 W 500 semifinal 3, race 35, rank 4, 1:51.110); the seat stays bound and PERSONS keeps the printed name"
     },
     {
       "results_row": 257,
@@ -13516,10 +13550,19 @@
       "results_row": 259,
       "seat": "ICF_ID2",
       "source_printed_name": "Esti VAN TONDER",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "printed_name='Esti VAN TONDER'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "action": "corrected",
+      "source": "names.json",
+      "team": "RSA",
+      "new_id": "42517",
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Esti VAN TONDER' (RSA) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42517 OLIVIER Esti (RSA, W, born 1992-12-10); source race-desk legacy/paddletagger/names.json @ 24ca4034cdab (keywords (RU155))",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K2 Women 500m",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "printed_name='Esti VAN TONDER'; noc=RSA; no profile for given+family",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-16T21:51:24Z"
+      }
     },
     {
       "results_row": 260,
@@ -14186,10 +14229,19 @@
       "results_row": 320,
       "seat": "ICF_ID2",
       "source_printed_name": "Saeid FAZLOULA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "printed_name='Saeid FAZLOULA'; noc=IRI; no profile for given+family",
-      "team": "IRI"
+      "action": "corrected",
+      "source": "bence",
+      "team": "IRI",
+      "new_id": "106349",
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Saeid FAZLOULA' (IRI) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 106349 FAZLOULA Saeid (ICF/IRI, M, born 1992-08-09); source ICF athlete list (bence, fetched 2026-11-16)",
+      "name_bound_profile": "bound: MAINTAINER_ANSWERS_2026-11-16_t129u / MAINTAINER_ANSWERS_2026-10-23 Rule 2 (single candidate; profile https://paddleworldwide.com/athlete/106349 fetched 2026-11-16 does not list this meeting)",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "printed_name='Saeid FAZLOULA'; noc=IRI; no profile for given+family",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-16T21:51:24Z"
+      }
     },
     {
       "results_row": 321,
@@ -14781,7 +14833,8 @@
       "evidence": "printed_name='Anja OSTERMAN'; noc=SLO; no profile for given+family",
       "team": "SLO",
       "new_id": "42444",
-      "detail": "name_change rule (maintainer 2026-10-17 Fix 1): printed 'Anja OSTERMAN', profile Anja APOLLONIO 42444; profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 1000m; was no_icf_id"
+      "detail": "name_change rule (maintainer 2026-10-17 Fix 1): printed 'Anja OSTERMAN', profile Anja APOLLONIO 42444; profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 1000m; was no_icf_id",
+      "other_name": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330): printed 'Anja OSTERMAN' is another name of the same athlete 42444 (APOLLONIO, her current ICF name (OSTERMAN is her former name in the ICF database)); the PWW profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 1000m, matching this seat (K1 W 1000 semifinal 1, race 46, rank 8, 4:38.005); the seat stays bound and PERSONS keeps the printed name"
     },
     {
       "results_row": 355,
@@ -14886,9 +14939,18 @@
       "results_row": 364,
       "seat": "ICF_ID2",
       "source_printed_name": "Martin SCHUBERT",
-      "action": "emptied",
-      "source": "none",
-      "team": "GER"
+      "action": "corrected",
+      "source": "bence",
+      "team": "GER",
+      "new_id": "42511",
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Martin SCHUBERT' (GER) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42511 SCHUBERT Martin (GER, M, born 1986-10-18); source ICF athlete list (bence, fetched 2026-11-16)",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K4 Men 1000m",
+      "superseded": {
+        "action": "emptied",
+        "source": "none",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-16T21:51:24Z"
+      }
     },
     {
       "results_row": 364,
@@ -15991,10 +16053,19 @@
       "results_row": 443,
       "seat": "ICF_ID2",
       "source_printed_name": "Saeid FAZLOULA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "printed_name='Saeid FAZLOULA'; noc=IRI; no profile for given+family",
-      "team": "IRI"
+      "action": "corrected",
+      "source": "bence",
+      "team": "IRI",
+      "new_id": "106349",
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Saeid FAZLOULA' (IRI) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 106349 FAZLOULA Saeid (ICF/IRI, M, born 1992-08-09); source ICF athlete list (bence, fetched 2026-11-16)",
+      "name_bound_profile": "bound: MAINTAINER_ANSWERS_2026-11-16_t129u / MAINTAINER_ANSWERS_2026-10-23 Rule 2 (single candidate; profile https://paddleworldwide.com/athlete/106349 fetched 2026-11-16 does not list this meeting)",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "printed_name='Saeid FAZLOULA'; noc=IRI; no profile for given+family",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-16T21:51:24Z"
+      }
     },
     {
       "results_row": 444,
@@ -17878,7 +17949,8 @@
       "source": "pww_search",
       "new_id": "42456",
       "team": "CAN",
-      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K2 Women 500m"
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K2 Women 500m",
+      "other_name": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330): printed 'Kathleen Carol FRASER' is another name of the same athlete 42456 (DALTON, her current ICF name (FRASER the printed one)); the PWW profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K2 Women 500m, matching this seat (K2 W 500 final B, race 73, rank 3, 1:51.313); the seat stays bound and PERSONS keeps the printed name"
     },
     {
       "results_row": 571,
@@ -18399,10 +18471,19 @@
       "results_row": 610,
       "seat": "ICF_ID2",
       "source_printed_name": "Saeid FAZLOULA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "printed_name='Saeid FAZLOULA'; noc=IRI; no profile for given+family",
-      "team": "IRI"
+      "action": "corrected",
+      "source": "bence",
+      "team": "IRI",
+      "new_id": "106349",
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Saeid FAZLOULA' (IRI) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 106349 FAZLOULA Saeid (ICF/IRI, M, born 1992-08-09); source ICF athlete list (bence, fetched 2026-11-16)",
+      "name_bound_profile": "bound: MAINTAINER_ANSWERS_2026-11-16_t129u / MAINTAINER_ANSWERS_2026-10-23 Rule 2 (single candidate; profile https://paddleworldwide.com/athlete/106349 fetched 2026-11-16 does not list this meeting)",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "printed_name='Saeid FAZLOULA'; noc=IRI; no profile for given+family",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-16T21:51:24Z"
+      }
     },
     {
       "results_row": 611,
@@ -18628,7 +18709,8 @@
       "evidence": "printed_name='Anja OSTERMAN'; noc=SLO; no profile for given+family",
       "team": "SLO",
       "new_id": "42444",
-      "detail": "name_change rule (maintainer 2026-10-17 Fix 1): printed 'Anja OSTERMAN', profile Anja APOLLONIO 42444; profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 1000m; was no_icf_id"
+      "detail": "name_change rule (maintainer 2026-10-17 Fix 1): printed 'Anja OSTERMAN', profile Anja APOLLONIO 42444; profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 1000m; was no_icf_id",
+      "other_name": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330): printed 'Anja OSTERMAN' is another name of the same athlete 42444 (APOLLONIO, her current ICF name (OSTERMAN is her former name in the ICF database)); the PWW profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 1000m, matching this seat (K1 W 1000 final B, race 79, rank 3, 4:20.405); the seat stays bound and PERSONS keeps the printed name"
     },
     {
       "results_row": 624,
@@ -18941,7 +19023,8 @@
       "source": "given_family_unique",
       "new_id": "52150",
       "team": "AUS",
-      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K2 Women 500m"
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K2 Women 500m",
+      "other_name": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330): printed 'Joanne BRIGDEN-JONES' is another name of the same athlete 52150 (Jo BRIGDEN-JONES, her ICF name (Joanne the printed given name)); the PWW profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K2 Women 500m, matching this seat (K2 W 500 final A, race 82, rank 9, 1:51.389); the seat stays bound and PERSONS keeps the printed name"
     },
     {
       "results_row": 647,
@@ -19616,7 +19699,8 @@
       "source": "pww_search",
       "new_id": "42456",
       "team": "CAN",
-      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K2 Women 1000m"
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K2 Women 1000m",
+      "other_name": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330): printed 'Kathleen Carol FRASER' is another name of the same athlete 42456 (DALTON, her current ICF name (FRASER the printed one)); the PWW profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K2 Women 1000m, matching this seat (K2 W 1000 final A, race 88, rank 2, 3:54.249); the seat stays bound and PERSONS keeps the printed name"
     },
     {
       "results_row": 695,
@@ -20065,9 +20149,18 @@
       "results_row": 710,
       "seat": "ICF_ID2",
       "source_printed_name": "Martin SCHUBERT",
-      "action": "emptied",
-      "source": "none",
-      "team": "GER"
+      "action": "corrected",
+      "source": "bence",
+      "team": "GER",
+      "new_id": "42511",
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Martin SCHUBERT' (GER) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42511 SCHUBERT Martin (GER, M, born 1986-10-18); source ICF athlete list (bence, fetched 2026-11-16)",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K4 Men 1000m",
+      "superseded": {
+        "action": "emptied",
+        "source": "none",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-16T21:51:24Z"
+      }
     },
     {
       "results_row": 710,
@@ -20624,7 +20717,8 @@
       "source": "pww_search",
       "new_id": "42456",
       "team": "CAN",
-      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K4 Women 500m"
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K4 Women 500m",
+      "other_name": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330): printed 'Kathleen Carol FRASER' is another name of the same athlete 42456 (DALTON, her current ICF name (FRASER the printed one)); the PWW profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K4 Women 500m, matching this seat (K4 W 500 heat 1, race 91, rank 8, 1:40.086); the seat stays bound and PERSONS keeps the printed name"
     },
     {
       "results_row": 724,
@@ -20899,10 +20993,19 @@
       "results_row": 731,
       "seat": "ICF_ID4",
       "source_printed_name": "Esti VAN TONDER",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "printed_name='Esti VAN TONDER'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "action": "corrected",
+      "source": "names.json",
+      "team": "RSA",
+      "new_id": "42517",
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Esti VAN TONDER' (RSA) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42517 OLIVIER Esti (RSA, W, born 1992-12-10); source race-desk legacy/paddletagger/names.json @ 24ca4034cdab (keywords (RU155))",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K4 Women 500m",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "printed_name='Esti VAN TONDER'; noc=RSA; no profile for given+family",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-16T21:51:24Z"
+      }
     },
     {
       "results_row": 732,
@@ -21741,7 +21844,8 @@
       "evidence": "printed_name='Anja OSTERMAN'; noc=SLO; no profile for given+family",
       "team": "SLO",
       "new_id": "42444",
-      "detail": "name_change rule (maintainer 2026-10-17 Fix 1): printed 'Anja OSTERMAN', profile Anja APOLLONIO 42444; profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 1000m; was no_icf_id"
+      "detail": "name_change rule (maintainer 2026-10-17 Fix 1): printed 'Anja OSTERMAN', profile Anja APOLLONIO 42444; profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 200m; was no_icf_id",
+      "other_name": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330): printed 'Anja OSTERMAN' is another name of the same athlete 42444 (APOLLONIO, her current ICF name (OSTERMAN is her former name in the ICF database)); the PWW profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 200m, matching this seat (K1 W 200 heat 1, race 102, rank 7, 0:45.988); the seat stays bound and PERSONS keeps the printed name"
     },
     {
       "results_row": 812,
@@ -21937,7 +22041,8 @@
       "source": "given_family_unique",
       "new_id": "52150",
       "team": "AUS",
-      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 200m"
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 200m",
+      "other_name": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330): printed 'Joanne BRIGDEN-JONES' is another name of the same athlete 52150 (Jo BRIGDEN-JONES, her ICF name (Joanne the printed given name)); the PWW profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 200m, matching this seat (K1 W 200 heat 4, race 105, rank 4, 0:42.539); the seat stays bound and PERSONS keeps the printed name"
     },
     {
       "results_row": 832,
@@ -21982,10 +22087,22 @@
       "results_row": 836,
       "seat": "ICF_ID1",
       "source_printed_name": "Natalia PODOLSKAYA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "printed_name='Natalia PODOLSKAYA'; noc=RUS; no profile for given+family",
-      "team": "RUS"
+      "action": "corrected",
+      "source": "names.json",
+      "team": "RUS",
+      "new_id": "36164",
+      "also_ids": [
+        "154254"
+      ],
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json keywords (RU155) lists 'Natalia PODOLSKAYA' for 154254 (PODOLSKAIA Natalia, RUS/AIN, W, born 1993-10-14); 36164 is the same athlete (same name, birth date and gender, RUS) and the id her 2014 results sit on (PWW profile 36164 lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 200m; 154254 lists 2026 results only), so the seat carries 36164",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 200m",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "printed_name='Natalia PODOLSKAYA'; noc=RUS; no profile for given+family",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-16T21:51:24Z"
+      }
     },
     {
       "results_row": 837,
@@ -23473,7 +23590,8 @@
       "source": "pww_search",
       "new_id": "42456",
       "team": "CAN",
-      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K4 Women 500m"
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K4 Women 500m",
+      "other_name": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330): printed 'Kathleen Carol FRASER' is another name of the same athlete 42456 (DALTON, her current ICF name (FRASER the printed one)); the PWW profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K4 Women 500m, matching this seat (K4 W 500 semifinal 1, race 118, rank 4, 1:36.877); the seat stays bound and PERSONS keeps the printed name"
     },
     {
       "results_row": 916,
@@ -23673,10 +23791,19 @@
       "results_row": 921,
       "seat": "ICF_ID4",
       "source_printed_name": "Esti VAN TONDER",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "printed_name='Esti VAN TONDER'; noc=RSA; no profile for given+family",
-      "team": "RSA"
+      "action": "corrected",
+      "source": "names.json",
+      "team": "RSA",
+      "new_id": "42517",
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Esti VAN TONDER' (RSA) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42517 OLIVIER Esti (RSA, W, born 1992-12-10); source race-desk legacy/paddletagger/names.json @ 24ca4034cdab (keywords (RU155))",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K4 Women 500m",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "printed_name='Esti VAN TONDER'; noc=RSA; no profile for given+family",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-16T21:51:24Z"
+      }
     },
     {
       "results_row": 922,
@@ -24315,10 +24442,22 @@
       "results_row": 987,
       "seat": "ICF_ID1",
       "source_printed_name": "Natalia PODOLSKAYA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "printed_name='Natalia PODOLSKAYA'; noc=RUS; no profile for given+family",
-      "team": "RUS"
+      "action": "corrected",
+      "source": "names.json",
+      "team": "RUS",
+      "new_id": "36164",
+      "also_ids": [
+        "154254"
+      ],
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json keywords (RU155) lists 'Natalia PODOLSKAYA' for 154254 (PODOLSKAIA Natalia, RUS/AIN, W, born 1993-10-14); 36164 is the same athlete (same name, birth date and gender, RUS) and the id her 2014 results sit on (PWW profile 36164 lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 200m; 154254 lists 2026 results only), so the seat carries 36164",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 200m",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "printed_name='Natalia PODOLSKAYA'; noc=RUS; no profile for given+family",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-16T21:51:24Z"
+      }
     },
     {
       "results_row": 988,
@@ -24328,7 +24467,8 @@
       "source": "given_family_unique",
       "new_id": "52150",
       "team": "AUS",
-      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 200m"
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 200m",
+      "other_name": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330): printed 'Joanne BRIGDEN-JONES' is another name of the same athlete 52150 (Jo BRIGDEN-JONES, her ICF name (Joanne the printed given name)); the PWW profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 200m, matching this seat (K1 W 200 semifinal 1, race 126, rank 4, 0:42.079); the seat stays bound and PERSONS keeps the printed name"
     },
     {
       "results_row": 989,
@@ -24515,7 +24655,8 @@
       "evidence": "printed_name='Anja OSTERMAN'; noc=SLO; no profile for given+family",
       "team": "SLO",
       "new_id": "42444",
-      "detail": "name_change rule (maintainer 2026-10-17 Fix 1): printed 'Anja OSTERMAN', profile Anja APOLLONIO 42444; profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 1000m; was no_icf_id"
+      "detail": "name_change rule (maintainer 2026-10-17 Fix 1): printed 'Anja OSTERMAN', profile Anja APOLLONIO 42444; profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 200m; was no_icf_id",
+      "other_name": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330): printed 'Anja OSTERMAN' is another name of the same athlete 42444 (APOLLONIO, her current ICF name (OSTERMAN is her former name in the ICF database)); the PWW profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 200m, matching this seat (K1 W 200 semifinal 3, race 128, rank 6, 0:44.205); the seat stays bound and PERSONS keeps the printed name"
     },
     {
       "results_row": 1008,
@@ -26335,7 +26476,8 @@
       "evidence": "printed_name='Anja OSTERMAN'; noc=SLO; no profile for given+family",
       "team": "SLO",
       "new_id": "42444",
-      "detail": "name_change rule (maintainer 2026-10-17 Fix 1): printed 'Anja OSTERMAN', profile Anja APOLLONIO 42444; profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 1000m; was no_icf_id"
+      "detail": "name_change rule (maintainer 2026-10-17 Fix 1): printed 'Anja OSTERMAN', profile Anja APOLLONIO 42444; profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 200m; was no_icf_id",
+      "other_name": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330): printed 'Anja OSTERMAN' is another name of the same athlete 42444 (APOLLONIO, her current ICF name (OSTERMAN is her former name in the ICF database)); the PWW profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 200m, matching this seat (K1 W 200 final C, race 144, rank 4, 0:44.276); the seat stays bound and PERSONS keeps the printed name"
     },
     {
       "results_row": 1136,
@@ -26393,7 +26535,8 @@
       "source": "given_family_unique",
       "new_id": "52150",
       "team": "AUS",
-      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 200m"
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 200m",
+      "other_name": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330): printed 'Joanne BRIGDEN-JONES' is another name of the same athlete 52150 (Jo BRIGDEN-JONES, her ICF name (Joanne the printed given name)); the PWW profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 200m, matching this seat (K1 W 200 final B, race 145, rank 1, 0:42.178); the seat stays bound and PERSONS keeps the printed name"
     },
     {
       "results_row": 1142,
@@ -27390,10 +27533,22 @@
       "results_row": 1207,
       "seat": "ICF_ID1",
       "source_printed_name": "Natalia PODOLSKAYA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "printed_name='Natalia PODOLSKAYA'; noc=RUS; no profile for given+family",
-      "team": "RUS"
+      "action": "corrected",
+      "source": "names.json",
+      "team": "RUS",
+      "new_id": "36164",
+      "also_ids": [
+        "154254"
+      ],
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json keywords (RU155) lists 'Natalia PODOLSKAYA' for 154254 (PODOLSKAIA Natalia, RUS/AIN, W, born 1993-10-14); 36164 is the same athlete (same name, birth date and gender, RUS) and the id her 2014 results sit on (PWW profile 36164 lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 200m; 154254 lists 2026 results only), so the seat carries 36164",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 200m",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "printed_name='Natalia PODOLSKAYA'; noc=RUS; no profile for given+family",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-16T21:51:24Z"
+      }
     },
     {
       "results_row": 1208,
@@ -29524,7 +29679,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 372
+      "rows": 377
     }
   },
   "printed_field_counts": {
@@ -29951,12 +30106,12 @@
     {
       "kind": "xlsx",
       "name": "Racice_2014_WC_Results.xlsx",
-      "sha256": "4bb5499c071f31916f9ae981b0acdbf2f84e527c22ace6d2e362faac02cfd7fd",
-      "bytes": 104981
+      "sha256": "99eb58d3bec580a08acab365ff6c7e14362580bc5205aaafa161396bf3ccb36c",
+      "bytes": 105184
     }
   ],
   "output_xlsx": "Racice_2014_WC_Results.xlsx",
-  "output_xlsx_sha256": "4bb5499c071f31916f9ae981b0acdbf2f84e527c22ace6d2e362faac02cfd7fd",
+  "output_xlsx_sha256": "99eb58d3bec580a08acab365ff6c7e14362580bc5205aaafa161396bf3ccb36c",
   "checks": {
     "start-times": "fail: A 82 rows without START_DATE/START_TIME",
     "phases": "pass",
@@ -29996,7 +30151,7 @@
     "persons_dropped": 0,
     "olympic": false
   },
-  "updated_at": "2026-11-16T14:37:59Z",
+  "updated_at": "2026-11-16T21:51:24Z",
   "races_not_built": [
     {
       "race": 80,
@@ -30017,8 +30172,14 @@
       "icf_id": "42444",
       "profile_name": "Anja APOLLONIO",
       "rule": "name_change",
-      "evidence": "profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 1000m",
-      "was": "no_icf_id"
+      "evidence": "profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 500m",
+      "was": "no_icf_id",
+      "evidence_corrected": {
+        "was": "profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 1000m",
+        "at_utc": "2026-11-16T21:41:27Z",
+        "note": "evidence named K1 Women 1000m on every seat; corrected to this seat's own event"
+      },
+      "ruling": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330)"
     },
     {
       "results_row": 180,
@@ -30028,7 +30189,8 @@
       "profile_name": "Anja APOLLONIO",
       "rule": "name_change",
       "evidence": "profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 1000m",
-      "was": "no_icf_id"
+      "was": "no_icf_id",
+      "ruling": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330)"
     },
     {
       "results_row": 232,
@@ -30037,8 +30199,14 @@
       "icf_id": "42444",
       "profile_name": "Anja APOLLONIO",
       "rule": "name_change",
-      "evidence": "profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 1000m",
-      "was": "no_icf_id"
+      "evidence": "profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 500m",
+      "was": "no_icf_id",
+      "evidence_corrected": {
+        "was": "profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 1000m",
+        "at_utc": "2026-11-16T21:41:27Z",
+        "note": "evidence named K1 Women 1000m on every seat; corrected to this seat's own event"
+      },
+      "ruling": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330)"
     },
     {
       "results_row": 354,
@@ -30048,7 +30216,8 @@
       "profile_name": "Anja APOLLONIO",
       "rule": "name_change",
       "evidence": "profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 1000m",
-      "was": "no_icf_id"
+      "was": "no_icf_id",
+      "ruling": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330)"
     },
     {
       "results_row": 623,
@@ -30058,7 +30227,8 @@
       "profile_name": "Anja APOLLONIO",
       "rule": "name_change",
       "evidence": "profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 1000m",
-      "was": "no_icf_id"
+      "was": "no_icf_id",
+      "ruling": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330)"
     },
     {
       "results_row": 811,
@@ -30067,8 +30237,14 @@
       "icf_id": "42444",
       "profile_name": "Anja APOLLONIO",
       "rule": "name_change",
-      "evidence": "profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 1000m",
-      "was": "no_icf_id"
+      "evidence": "profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 200m",
+      "was": "no_icf_id",
+      "evidence_corrected": {
+        "was": "profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 1000m",
+        "at_utc": "2026-11-16T21:41:27Z",
+        "note": "evidence named K1 Women 1000m on every seat; corrected to this seat's own event"
+      },
+      "ruling": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330)"
     },
     {
       "results_row": 1007,
@@ -30077,8 +30253,14 @@
       "icf_id": "42444",
       "profile_name": "Anja APOLLONIO",
       "rule": "name_change",
-      "evidence": "profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 1000m",
-      "was": "no_icf_id"
+      "evidence": "profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 200m",
+      "was": "no_icf_id",
+      "evidence_corrected": {
+        "was": "profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 1000m",
+        "at_utc": "2026-11-16T21:41:27Z",
+        "note": "evidence named K1 Women 1000m on every seat; corrected to this seat's own event"
+      },
+      "ruling": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330)"
     },
     {
       "results_row": 1135,
@@ -30087,7 +30269,215 @@
       "icf_id": "42444",
       "profile_name": "Anja APOLLONIO",
       "rule": "name_change",
-      "evidence": "profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 1000m",
+      "evidence": "profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 200m",
+      "was": "no_icf_id",
+      "evidence_corrected": {
+        "was": "profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 1000m",
+        "at_utc": "2026-11-16T21:41:27Z",
+        "note": "evidence named K1 Women 1000m on every seat; corrected to this seat's own event"
+      },
+      "ruling": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330)"
+    },
+    {
+      "results_row": 43,
+      "seat": "ICF_ID2",
+      "printed": "Kathleen Carol FRASER",
+      "icf_id": "42456",
+      "profile_name": "Kathleen Carol DALTON",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330): printed 'Kathleen Carol FRASER' is another name of 42456 (DALTON, her current ICF name (FRASER the printed one)); profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K2 Women 500m",
+      "was": "corrected",
+      "ruling": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330)"
+    },
+    {
+      "results_row": 49,
+      "seat": "ICF_ID1",
+      "printed": "Joanne BRIGDEN-JONES",
+      "icf_id": "52150",
+      "profile_name": "Jo BRIGDEN-JONES",
+      "rule": "other_name",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330): printed 'Joanne BRIGDEN-JONES' is another name of 52150 (Jo BRIGDEN-JONES, her ICF name (Joanne the printed given name)); profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K2 Women 500m",
+      "was": "corrected",
+      "ruling": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330)"
+    },
+    {
+      "results_row": 236,
+      "seat": "ICF_ID1",
+      "printed": "Joanne BRIGDEN-JONES",
+      "icf_id": "52150",
+      "profile_name": "Jo BRIGDEN-JONES",
+      "rule": "other_name",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330): printed 'Joanne BRIGDEN-JONES' is another name of 52150 (Jo BRIGDEN-JONES, her ICF name (Joanne the printed given name)); profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K2 Women 500m",
+      "was": "corrected",
+      "ruling": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330)"
+    },
+    {
+      "results_row": 256,
+      "seat": "ICF_ID2",
+      "printed": "Kathleen Carol FRASER",
+      "icf_id": "42456",
+      "profile_name": "Kathleen Carol DALTON",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330): printed 'Kathleen Carol FRASER' is another name of 42456 (DALTON, her current ICF name (FRASER the printed one)); profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K2 Women 500m",
+      "was": "corrected",
+      "ruling": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330)"
+    },
+    {
+      "results_row": 570,
+      "seat": "ICF_ID2",
+      "printed": "Kathleen Carol FRASER",
+      "icf_id": "42456",
+      "profile_name": "Kathleen Carol DALTON",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330): printed 'Kathleen Carol FRASER' is another name of 42456 (DALTON, her current ICF name (FRASER the printed one)); profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K2 Women 500m",
+      "was": "corrected",
+      "ruling": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330)"
+    },
+    {
+      "results_row": 647,
+      "seat": "ICF_ID1",
+      "printed": "Joanne BRIGDEN-JONES",
+      "icf_id": "52150",
+      "profile_name": "Jo BRIGDEN-JONES",
+      "rule": "other_name",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330): printed 'Joanne BRIGDEN-JONES' is another name of 52150 (Jo BRIGDEN-JONES, her ICF name (Joanne the printed given name)); profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K2 Women 500m",
+      "was": "corrected",
+      "ruling": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330)"
+    },
+    {
+      "results_row": 694,
+      "seat": "ICF_ID2",
+      "printed": "Kathleen Carol FRASER",
+      "icf_id": "42456",
+      "profile_name": "Kathleen Carol DALTON",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330): printed 'Kathleen Carol FRASER' is another name of 42456 (DALTON, her current ICF name (FRASER the printed one)); profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K2 Women 1000m",
+      "was": "corrected",
+      "ruling": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330)"
+    },
+    {
+      "results_row": 724,
+      "seat": "ICF_ID3",
+      "printed": "Kathleen Carol FRASER",
+      "icf_id": "42456",
+      "profile_name": "Kathleen Carol DALTON",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330): printed 'Kathleen Carol FRASER' is another name of 42456 (DALTON, her current ICF name (FRASER the printed one)); profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K4 Women 500m",
+      "was": "corrected",
+      "ruling": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330)"
+    },
+    {
+      "results_row": 831,
+      "seat": "ICF_ID1",
+      "printed": "Joanne BRIGDEN-JONES",
+      "icf_id": "52150",
+      "profile_name": "Jo BRIGDEN-JONES",
+      "rule": "other_name",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330): printed 'Joanne BRIGDEN-JONES' is another name of 52150 (Jo BRIGDEN-JONES, her ICF name (Joanne the printed given name)); profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 200m",
+      "was": "corrected",
+      "ruling": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330)"
+    },
+    {
+      "results_row": 916,
+      "seat": "ICF_ID3",
+      "printed": "Kathleen Carol FRASER",
+      "icf_id": "42456",
+      "profile_name": "Kathleen Carol DALTON",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330): printed 'Kathleen Carol FRASER' is another name of 42456 (DALTON, her current ICF name (FRASER the printed one)); profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K4 Women 500m",
+      "was": "corrected",
+      "ruling": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330)"
+    },
+    {
+      "results_row": 988,
+      "seat": "ICF_ID1",
+      "printed": "Joanne BRIGDEN-JONES",
+      "icf_id": "52150",
+      "profile_name": "Jo BRIGDEN-JONES",
+      "rule": "other_name",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330): printed 'Joanne BRIGDEN-JONES' is another name of 52150 (Jo BRIGDEN-JONES, her ICF name (Joanne the printed given name)); profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 200m",
+      "was": "corrected",
+      "ruling": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330)"
+    },
+    {
+      "results_row": 1141,
+      "seat": "ICF_ID1",
+      "printed": "Joanne BRIGDEN-JONES",
+      "icf_id": "52150",
+      "profile_name": "Jo BRIGDEN-JONES",
+      "rule": "other_name",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330): printed 'Joanne BRIGDEN-JONES' is another name of 52150 (Jo BRIGDEN-JONES, her ICF name (Joanne the printed given name)); profile lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 200m",
+      "was": "corrected",
+      "ruling": "MAINTAINER_ANSWERS_2026-11-16_t129u item 1 (RU330)"
+    },
+    {
+      "results_row": 38,
+      "seat": "ICF_ID2",
+      "printed": "Esti VAN TONDER",
+      "icf_id": "42517",
+      "profile_name": "Esti OLIVIER",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json keywords (RU155) lists 'Esti VAN TONDER' as a name of 42517; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 259,
+      "seat": "ICF_ID2",
+      "printed": "Esti VAN TONDER",
+      "icf_id": "42517",
+      "profile_name": "Esti OLIVIER",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json keywords (RU155) lists 'Esti VAN TONDER' as a name of 42517; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 731,
+      "seat": "ICF_ID4",
+      "printed": "Esti VAN TONDER",
+      "icf_id": "42517",
+      "profile_name": "Esti OLIVIER",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json keywords (RU155) lists 'Esti VAN TONDER' as a name of 42517; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 836,
+      "seat": "ICF_ID1",
+      "printed": "Natalia PODOLSKAYA",
+      "icf_id": "36164",
+      "profile_name": "Natalia PODOLSKAIA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json keywords (RU155) lists 'Natalia PODOLSKAYA' for 154254 (PODOLSKAIA Natalia, RUS/AIN, W, born 1993-10-14); 36164 is the same athlete (same name, birth date and gender, RUS) and the id her 2014 results sit on (PWW profile 36164 lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 200m; 154254 lists 2026 results only), so the seat carries 36164",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 921,
+      "seat": "ICF_ID4",
+      "printed": "Esti VAN TONDER",
+      "icf_id": "42517",
+      "profile_name": "Esti OLIVIER",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json keywords (RU155) lists 'Esti VAN TONDER' as a name of 42517; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 987,
+      "seat": "ICF_ID1",
+      "printed": "Natalia PODOLSKAYA",
+      "icf_id": "36164",
+      "profile_name": "Natalia PODOLSKAIA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json keywords (RU155) lists 'Natalia PODOLSKAYA' for 154254 (PODOLSKAIA Natalia, RUS/AIN, W, born 1993-10-14); 36164 is the same athlete (same name, birth date and gender, RUS) and the id her 2014 results sit on (PWW profile 36164 lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 200m; 154254 lists 2026 results only), so the seat carries 36164",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 1207,
+      "seat": "ICF_ID1",
+      "printed": "Natalia PODOLSKAYA",
+      "icf_id": "36164",
+      "profile_name": "Natalia PODOLSKAIA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json keywords (RU155) lists 'Natalia PODOLSKAYA' for 154254 (PODOLSKAIA Natalia, RUS/AIN, W, born 1993-10-14); 36164 is the same athlete (same name, birth date and gender, RUS) and the id her 2014 results sit on (PWW profile 36164 lists 2014 ICF CANOE SPRINT WORLD CUP 2 / K1 Women 200m; 154254 lists 2026 results only), so the seat carries 36164",
       "was": "no_icf_id"
     }
   ],
@@ -30982,5 +31372,15 @@
         ]
       }
     ]
+  },
+  "names_file_binds": {
+    "rule": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+    "source": "kenderfoka/race-desk main legacy/paddletagger/names.json @ 24ca4034cdab775633c862dd19786a9d4e4f7907",
+    "icf_list": "2026-11-16T14:05:50Z",
+    "match": "printed name has the words of one name (current, former_names, keywords, links) of exactly one athlete of the boat's country, accents/case/hyphens ignored, any order; same name+birth+gender counted as one",
+    "bound_from_names_json": 7,
+    "bound_from_icf_list": 7,
+    "rejected": 0,
+    "at_utc": "2026-11-16T21:51:24Z"
   }
 }
