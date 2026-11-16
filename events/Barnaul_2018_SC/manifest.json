@@ -5244,12 +5244,12 @@
     {
       "kind": "xlsx",
       "name": "Barnaul_2018_SC_Results.xlsx",
-      "sha256": "f0a68f75ba4cb9d5b30cad470a03d1b8eebabf410b504596d7bde011eaa27a69",
-      "bytes": 20199
+      "sha256": "8082d2d54d8b2cff02457f093f7d9ea84688743c9f81427917374fb82fd8d58e",
+      "bytes": 20200
     }
   ],
   "output_xlsx": "Barnaul_2018_SC_Results.xlsx",
-  "output_xlsx_sha256": "f0a68f75ba4cb9d5b30cad470a03d1b8eebabf410b504596d7bde011eaa27a69",
+  "output_xlsx_sha256": "8082d2d54d8b2cff02457f093f7d9ea84688743c9f81427917374fb82fd8d58e",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -5286,5 +5286,54 @@
     "persons_dropped": 0,
     "olympic": false
   },
-  "updated_at": "2026-11-16T15:16:35+0100"
+  "updated_at": "2026-11-16T15:16:35+0100",
+  "persons_spelling_log": {
+    "rule": "PERSONS NAME/SURNAME = the official results spelling (contract); profile spelling only where the meeting prints one athlete two ways",
+    "changes": [
+      {
+        "id": "45128",
+        "was": [
+          "Jonatan Daniel",
+          "HAJDU"
+        ],
+        "now": [
+          "Jonatan",
+          "HAJDU"
+        ]
+      },
+      {
+        "id": "35720",
+        "was": [
+          "Tom",
+          "LIEBSCHER-LUCZ"
+        ],
+        "now": [
+          "Tom",
+          "LIEBSCHER"
+        ]
+      },
+      {
+        "id": "46062",
+        "was": [
+          "Staniliya",
+          "STAMENOVA"
+        ],
+        "now": [
+          "Stanilia",
+          "STAMENOVA"
+        ]
+      },
+      {
+        "id": "45235",
+        "was": [
+          "Kincso",
+          "TAKACS"
+        ],
+        "now": [
+          "Kincsö",
+          "TAKACS"
+        ]
+      }
+    ]
+  }
 }
