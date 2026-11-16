@@ -10,7 +10,7 @@
   "dates": "2021-09-03/2021-09-06",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-25T15:25:49Z",
+  "generated_at_utc": "2026-11-16T21:38:59Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "MemoSoft results book (Spotfokus hub dead) prints the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule). OQ/para races in the same book are kept (one key).",
@@ -28175,21 +28175,39 @@
       "results_row": 1016,
       "seat": "ICF_ID1",
       "source_printed_name": "Kenneth KAGIRWA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kenneth KAGIRWA (UGA, M)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "UGA",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kenneth KAGIRWA (UGA, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Kenneth KAGIRWA' (UGA) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 112481 KAGIRWA Carlos (UGA, M, born 1998-02-09); source race-desk legacy/paddletagger/names.json @ 24ca4034cdab (former_names)",
+      "new_id": "112481",
+      "name_bound_profile": "kept: profile lists 2021 ICF JUNIOR \\u0026 U23 CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 500m",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kenneth KAGIRWA (UGA, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Kenneth KAGIRWA (UGA, M)",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-16T21:38:59Z"
+      }
     },
     {
       "results_row": 1016,
       "seat": "ICF_ID2",
       "source_printed_name": "Musa LUBEGA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Musa LUBEGA (UGA, M)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "UGA",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Musa LUBEGA (UGA, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Musa LUBEGA' (UGA) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 112820 KASOZI Peter (UGA, M, born 2000-06-25); source race-desk legacy/paddletagger/names.json @ 24ca4034cdab (former_names)",
+      "new_id": "112820",
+      "name_bound_profile": "kept: profile lists 2021 ICF JUNIOR \\u0026 U23 CANOE SPRINT WORLD CHAMPIONSHIPS / C2 Men 500m",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Musa LUBEGA (UGA, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Musa LUBEGA (UGA, M)",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-16T21:38:59Z"
+      }
     },
     {
       "results_row": 1017,
@@ -46836,7 +46854,10 @@
         "previous_id": "75560",
         "new_id": "",
         "rule": "MAINTAINER_ANSWERS_2026-10-24c RU168 ruling 4 as amended (2026-10-24c) -> ruling 8"
-      }
+      },
+      "rejected_icf_id": "75560",
+      "rejected_reason": "RU168 rulings 4 and 8 (MAINTAINER_ANSWERS_2026-10-24b/c): the only athlete the ICF list names for 'Liu JIALIN' (CHN) is 75560 LIU Jialin, ICF birth date 2022-03-24 (ICF athlete list, fetched 2026-11-16), after the meeting's first day 2021-09-03. Her PWW profile (https://paddleworldwide.com/athlete/75560, fetched 2026-11-16) lists one result only, 2017 ICF Canoe Sprint World Cup 3, C1 Women 5000m, so the birth date is likely an ICF error; under RU168 ruling 4 as amended an impossible birth date counts as missing only when the profile lists this meeting, and it does not list Montemor 2021, so ruling 8 keeps the seat empty with the candidate logged. Question on the pull request.",
+      "rejected_by": "MAINTAINER_ANSWERS_2026-11-16_t129u"
     },
     {
       "results_row": 2033,
@@ -48607,7 +48628,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 735
+      "rows": 786
     }
   },
   "relays": [],
@@ -48619,12 +48640,12 @@
     {
       "kind": "xlsx",
       "name": "Montemor_2021_JWCH_Results.xlsx",
-      "sha256": "9ade36796cff39a005de8f6d4c044d88d3eb223e9348c09c8599247646480de0",
-      "bytes": 186553
+      "sha256": "ca38198361ffdb3d893d2d82d5d63d539aea5f052b8c472f69eb183b812c9951",
+      "bytes": 186622
     }
   ],
   "output_xlsx": "Montemor_2021_JWCH_Results.xlsx",
-  "output_xlsx_sha256": "9ade36796cff39a005de8f6d4c044d88d3eb223e9348c09c8599247646480de0",
+  "output_xlsx_sha256": "ca38198361ffdb3d893d2d82d5d63d539aea5f052b8c472f69eb183b812c9951",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -48686,7 +48707,7 @@
       }
     }
   },
-  "updated_at": "2026-10-25T15:25:49Z",
+  "updated_at": "2026-11-16T21:38:59Z",
   "name_change_log": [
     {
       "results_row": 38,
@@ -48793,6 +48814,26 @@
       "printed": "Maria MORENO",
       "icf_name": "Angels MORENO",
       "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 3 (compound given name Maria dels Angels): bound 112684 (Angels MORENO) lists Montemor_2021_JWCH"
+    },
+    {
+      "results_row": 1016,
+      "seat": "ICF_ID1",
+      "printed": "Kenneth KAGIRWA",
+      "icf_id": "112481",
+      "profile_name": "Carlos KAGIRWA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json former_names lists 'Kenneth KAGIRWA' as a name of 112481; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 1016,
+      "seat": "ICF_ID2",
+      "printed": "Musa LUBEGA",
+      "icf_id": "112820",
+      "profile_name": "Peter KASOZI",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json former_names lists 'Musa LUBEGA' as a name of 112820; seat bound from the name file",
+      "was": "no_icf_id"
     }
   ],
   "persons_split_log": [
@@ -49113,5 +49154,15 @@
       },
       "rule": "MAINTAINER_ANSWERS_2026-10-25c item 1: the run's rule note cited the superseded under-14 rule as replaced; re-pointed to the governing contract text; the run's counts unchanged; MAINTAINER_ANSWERS_2026-10-25c: correction of the log, not of a seat (no id change)"
     }
-  ]
+  ],
+  "names_file_binds": {
+    "rule": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+    "source": "kenderfoka/race-desk main legacy/paddletagger/names.json @ 24ca4034cdab775633c862dd19786a9d4e4f7907",
+    "icf_list": "2026-11-16T14:05:50Z",
+    "match": "printed name has the words of one name (current, former_names, keywords, links) of exactly one athlete of the boat's country, accents/case/hyphens ignored, any order; same name+birth+gender counted as one",
+    "bound_from_names_json": 2,
+    "bound_from_icf_list": 0,
+    "rejected": 1,
+    "at_utc": "2026-11-16T21:38:59Z"
+  }
 }
