@@ -10,7 +10,7 @@
   "dates": "2018-09-06/2018-09-09",
   "discipline": "marathon",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-11-03T10:24:12Z",
+  "generated_at_utc": "2026-11-16T21:39:29Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "MemoSoft marathon results book prints each race start to the minute (scheduled; written HH:MM:00). RESULT = printed final time; DIFFERENCE not written (marathon precedent). STARTING_LANE = printed boat number (Gyor_2025_MAR precedent); Bib(s) are event bibs, BIB_BOAT empty. No ICF ids printed: seats bound by bind_seat + name_bound_check.",
@@ -6341,11 +6341,20 @@
       "results_row": 316,
       "seat": "ICF_ID2",
       "source_printed_name": "Søren MARRETI",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Søren MARRETI (DEN, M)",
+      "action": "corrected",
+      "source": "bence",
       "team": "DEN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Søren MARRETI (DEN, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Søren MARRETI' (DEN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 54660 MARRETI Soren (DEN, M, born 1997-09-29); source ICF athlete list (bence, fetched 2026-11-16)",
+      "new_id": "54660",
+      "name_bound_profile": "kept: profile lists 2018 ICF CANOE MARATHON WORLD CHAMPIONSHIPS / K2 Men 29800m",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Søren MARRETI (DEN, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Søren MARRETI (DEN, M)",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-16T21:39:29Z"
+      }
     },
     {
       "results_row": 317,
@@ -6534,7 +6543,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 318
+      "rows": 319
     }
   },
   "no_time_log": [
@@ -6562,12 +6571,12 @@
     {
       "kind": "xlsx",
       "name": "VilaVerde_2018_MAR_Results.xlsx",
-      "sha256": "106b8851a8912bcf7c018291bfce4f1f27e07b8911a9f82a8b874ebfd69f194a",
-      "bytes": 36794
+      "sha256": "7df410a88d4c0f80b1c4bbd5113aad937c8fb686e6411398ef21518a85f0f628",
+      "bytes": 36836
     }
   ],
   "output_xlsx": "VilaVerde_2018_MAR_Results.xlsx",
-  "output_xlsx_sha256": "106b8851a8912bcf7c018291bfce4f1f27e07b8911a9f82a8b874ebfd69f194a",
+  "output_xlsx_sha256": "7df410a88d4c0f80b1c4bbd5113aad937c8fb686e6411398ef21518a85f0f628",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -6607,7 +6616,7 @@
     "no_icf_id_t59": 10,
     "same_meeting_unified_t59": 0
   },
-  "updated_at": "2026-11-03T10:24:12Z",
+  "updated_at": "2026-11-16T21:39:29Z",
   "persons_split_log": [
     {
       "id": "80854",
@@ -6654,6 +6663,16 @@
       "rule": "maintainer_ruled_bind",
       "unconfirmed": false,
       "evidence": "MAINTAINER_ANSWERS_2026-11-03 t115u (2026-11-03 11:11 CET): \"\\\"Amelie KESSLER\\\" (FRA, W) is LE SCLOTOUR Amelie, ICF 71280, born 1985-02-20, club Strasbourg Eaux Vives. [...] Please confirm each from the ICF's own records before binding.\" ICF/PWW record 71280 LE SCLOTOUR Amelie, FRA, W, born 1985-02-20 (ICF athlete list bence fetched 2026-11-03, 28899 records; PWW profile fetched 2026-11-03). Family-name change: printed \"Amelie KESSLER\" -> ICF \"Amelie LE SCLOTOUR\"; given name AMELIE passes the token rule, the surname does not. The only other KESSLER in the ICF list is 128056 Pamela KESSLER (BRA). PWW profile 71280 lists 2018 ICF CANOE MARATHON WORLD CHAMPIONSHIPS / K1 Women 26200m Final rank 14 02:13:35.13 = this row (K1 W 26200 final, rank 14, 02:13:35.130). No same-id conflict in the boat or race.",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 316,
+      "seat": "ICF_ID2",
+      "printed": "Søren MARRETI",
+      "icf_id": "54660",
+      "profile_name": "Soren MARRETI",
+      "rule": "spelling",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Søren MARRETI' and ICF 'Soren MARRETI' are the same words with accents/ligatures ignored (Æ=AE, Ø=O); the only athlete of DEN with that name in the ICF list",
       "was": "no_icf_id"
     }
   ],
@@ -6757,5 +6776,15 @@
       "rule": "MAINTAINER_ANSWERS_2026-11-03 t115u/t116u binds: 1 PERSONS row(s) added (71280 Amelie / KESSLER (printed spelling))",
       "logged_at_utc": "2026-11-03T10:24:12Z"
     }
-  ]
+  ],
+  "names_file_binds": {
+    "rule": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+    "source": "kenderfoka/race-desk main legacy/paddletagger/names.json @ 24ca4034cdab775633c862dd19786a9d4e4f7907",
+    "icf_list": "2026-11-16T14:05:50Z",
+    "match": "printed name has the words of one name (current, former_names, keywords, links) of exactly one athlete of the boat's country, accents/case/hyphens ignored, any order; same name+birth+gender counted as one",
+    "bound_from_names_json": 0,
+    "bound_from_icf_list": 1,
+    "rejected": 0,
+    "at_utc": "2026-11-16T21:39:29Z"
+  }
 }
