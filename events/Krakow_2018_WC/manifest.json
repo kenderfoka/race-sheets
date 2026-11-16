@@ -10,13 +10,13 @@
  "sheet": "Krakow_2018_WC_start.xlsx",
  "grade": "PERFECT",
  "gaps": [],
- "generated_at_utc": "2026-10-15T09:26:30Z",
- "updated_at": "2026-10-15T09:31:45Z",
+ "generated_at_utc": "2026-11-16T21:36:20Z",
+ "updated_at": "2026-11-16T21:36:20Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "Krakow_2018_WC_start.xlsx",
-   "sha256": "f319b45d53894e4077b68fa4ab1a81b9ed19eb7fce393a4cdba25d8acd878851"
+   "sha256": "8bae325aa3d060e77394ee8bb287acf268cff377c428122ca7ef32c83ff9ba55"
   }
  ],
  "row_count": 712,
@@ -4726,11 +4726,16 @@
    "row": 712,
    "seat": "ICF_ID1",
    "printed_name": "MAJERCZAK Grzegorz",
-   "source": "SIWIDATA session 1301 Code + paddleworldwide.com/athlete/<id>",
+   "source": "ICF list (fetchApi/bence, refreshed 2026-11-16, sha256 203d2f547b04…) + paddleworldwide.com/athlete/35086 (fetched 2026-11-16)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 35086; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)"
+   "new_id": "35086",
+   "detail": "empty crew seat bound under the maintainer's name-file rule of 2026-11-16 (t161u): printed 'MAJERCZAK Grzegorz' (POL) has the same words, accents and case ignored, as 35086 Grzegorz MAJERCZAK (POL, born 1993-11-04, M), the only athlete of POL with that name in the name file and the ICF list; profile does not list 2018 ICF CANOE SLALOM WORLD CUP 2 (forerunner, not a gap)",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 35086; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session 1301 Code + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 543,
@@ -6280,12 +6285,22 @@
    "source": "SIWIDATA session 1301 Code + paddleworldwide.com/athlete/<id>",
    "published_id": "39130",
    "action": "kept"
+  },
+  {
+   "row": 712,
+   "seat": "ICF_ID2",
+   "printed_name": "",
+   "source": "this sheet",
+   "published_id": "",
+   "action": "forerunner",
+   "new_id": "",
+   "detail": "no crew name printed for this seat; seat empty and logged (forerunner, not a gap)"
   }
  ],
  "id_summary": {
   "kept": 701,
   "no_icf_id": 3,
-  "forerunner": 26,
+  "forerunner": 27,
   "name_change": 8,
   "corrected": 4,
   "same_meeting": 4
@@ -6451,5 +6466,17 @@
  "bracket_sources": [
   "https://123result.blob.core.windows.net/canoe/CS_2018/201201/1301/K1MX_X4_1%40Cross%20Finals%20Bracket.pdf",
   "https://123result.blob.core.windows.net/canoe/CS_2018/201201/1301/K1WX_X4_1%40Cross%20Finals%20Bracket.pdf"
- ]
+ ],
+ "name_file_bind": {
+  "rule": "maintainer message t161u, 2026-11-16 22:26 Europe/Budapest (empty crew seats bound from race-desk legacy/paddletagger/names.json and the ICF list)",
+  "names_json": "race-desk 75edb65 (built_from 58ae13d), read from main 24ca403",
+  "icf_list": "fetchApi/bence refreshed 2026-11-16T21:36:20Z, 28908 records, sha256 203d2f547b04…",
+  "seats_filled": 1,
+  "from_names_json": 0,
+  "from_icf_list": 1,
+  "rejected": 0,
+  "entries_added_for_unnamed_seats": 1,
+  "forerunner_gender_set": [],
+  "name_cells_written": []
+ }
 }
