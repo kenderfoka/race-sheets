@@ -10,13 +10,13 @@
  "sheet": "LaSeu_2019_WCH_start.xlsx",
  "grade": "PERFECT",
  "gaps": [],
- "generated_at_utc": "2026-10-15T09:26:52Z",
- "updated_at": "2026-10-15T09:31:56Z",
+ "generated_at_utc": "2026-11-16T21:36:20Z",
+ "updated_at": "2026-11-16T21:36:20Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "LaSeu_2019_WCH_start.xlsx",
-   "sha256": "19dd4295276a68bf83e12e07b519b787f259af6824b113f3c35e2a547013f636"
+   "sha256": "3a27806916af3832369dac1c9eebb945d1578ab073efc2c0b411faf42b997541"
   }
  ],
  "row_count": 926,
@@ -8692,11 +8692,16 @@
    "row": 902,
    "seat": "ICF_ID1",
    "printed_name": "GONZALEZ Clara",
-   "source": "SIWIDATA session 949 Code + paddleworldwide.com/athlete/<id>",
+   "source": "ICF list (fetchApi/bence, refreshed 2026-11-16, sha256 203d2f547b04…) + paddleworldwide.com/athlete/77338 (fetched 2026-11-16)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 77338; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)"
+   "new_id": "77338",
+   "detail": "empty crew seat bound under the maintainer's name-file rule of 2026-11-16 (t161u): printed 'GONZALEZ Clara' (ESP) has the same words, accents and case ignored, as 77338 Clara GONZALEZ (ESP, born 2002-11-29, W), the only athlete of ESP with that name in the name file and the ICF list; profile does not list 2019 ICF CANOE SLALOM WORLD CHAMPIONSHIPS (forerunner, not a gap)",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 77338; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session 949 Code + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 903,
@@ -9107,11 +9112,21 @@
    "source": "SIWIDATA session 949 Code + paddleworldwide.com/athlete/<id>",
    "published_id": "35945",
    "action": "kept"
+  },
+  {
+   "row": 902,
+   "seat": "ICF_ID2",
+   "printed_name": "",
+   "source": "this sheet",
+   "published_id": "",
+   "action": "forerunner",
+   "new_id": "",
+   "detail": "no crew name printed for this seat; seat empty and logged (forerunner, not a gap)"
   }
  ],
  "id_summary": {
   "forerunner_unbound": 8,
-  "forerunner": 41,
+  "forerunner": 42,
   "kept": 1057,
   "onsite_bound": 2,
   "no_icf_id": 1,
@@ -9121,5 +9136,17 @@
  },
  "pending_maintainer": [],
  "issues": [],
- "shared_start_clash": []
+ "shared_start_clash": [],
+ "name_file_bind": {
+  "rule": "maintainer message t161u, 2026-11-16 22:26 Europe/Budapest (empty crew seats bound from race-desk legacy/paddletagger/names.json and the ICF list)",
+  "names_json": "race-desk 75edb65 (built_from 58ae13d), read from main 24ca403",
+  "icf_list": "fetchApi/bence refreshed 2026-11-16T21:36:20Z, 28908 records, sha256 203d2f547b04…",
+  "seats_filled": 1,
+  "from_names_json": 0,
+  "from_icf_list": 1,
+  "rejected": 0,
+  "entries_added_for_unnamed_seats": 1,
+  "forerunner_gender_set": [],
+  "name_cells_written": []
+ }
 }
