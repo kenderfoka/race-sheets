@@ -11,7 +11,7 @@
   "dates": "2025-08-20/2025-08-24",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-23T18:29:44Z",
+  "generated_at_utc": "2026-11-16T21:38:53Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "Microplus results book prints each race clock to the minute (ICF results archive per-race clocks are scheduled per VENDOR_MAP; written HH:MM:00); Microplus hub not approved/dead. COD column prints ICF ids: claimed ids checked per seat by bind_seat. Para book merged (one key).",
@@ -13599,11 +13599,20 @@
       "seat": "ICF_ID1",
       "published_id": "157922",
       "source_printed_name": "Douglas KIYIMBA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Douglas KIYIMBA (UGA, M)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "UGA",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Douglas KIYIMBA (UGA, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Douglas KIYIMBA' (UGA) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 157922 KIYIMBA Sharif (UGA, M, born 1997-07-21); source race-desk legacy/paddletagger/names.json @ 24ca4034cdab (former_names)",
+      "new_id": "157922",
+      "name_bound_profile": "kept: profile lists 2025 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K2 Men 500m",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Douglas KIYIMBA (UGA, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Douglas KIYIMBA (UGA, M)",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-16T21:38:53Z"
+      }
     },
     {
       "results_row": 672,
@@ -13956,7 +13965,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 799
+      "rows": 803
     }
   },
   "domain": "flatwater_sprint",
@@ -13966,12 +13975,12 @@
     {
       "kind": "xlsx",
       "name": "Milan_2025_WCH_Results.xlsx",
-      "sha256": "f57c44dc9c21a4c9f4805c7af2cc7725baf6b8285fa1e55ade04a1ea304283d4",
-      "bytes": 170031
+      "sha256": "73e9ca030e8c02af0cd38dbb1a8de2df39f6b7086f11ee3b07574487d45a1d5a",
+      "bytes": 170071
     }
   ],
   "output_xlsx": "Milan_2025_WCH_Results.xlsx",
-  "output_xlsx_sha256": "f57c44dc9c21a4c9f4805c7af2cc7725baf6b8285fa1e55ade04a1ea304283d4",
+  "output_xlsx_sha256": "73e9ca030e8c02af0cd38dbb1a8de2df39f6b7086f11ee3b07574487d45a1d5a",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -14004,7 +14013,7 @@
     "race 119: not printed in either approved book; no rows (maintainer 2026-10-17 Q2)",
     "race 182: not printed in either approved book; no rows (maintainer 2026-10-17 Q2)"
   ],
-  "updated_at": "2026-10-23T18:29:44Z",
+  "updated_at": "2026-11-16T21:38:53Z",
   "name_bound_check": {
     "completed": true,
     "profiles_checked": 0,
@@ -14145,6 +14154,16 @@
       "printed": "Anastasiia IVANOVA",
       "icf_name": "Anastasiia SKRIABINA",
       "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 5 (kept_surname_change): printed Anastasiia IVANOVA -> ICF Anastasiia SKRIABINA (156872) lists Milan_2025_WCH"
+    },
+    {
+      "results_row": 627,
+      "seat": "ICF_ID1",
+      "printed": "Douglas KIYIMBA",
+      "icf_id": "157922",
+      "profile_name": "Sharif KIYIMBA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json former_names lists 'Douglas KIYIMBA' as a name of 157922; seat bound from the name file",
+      "was": "no_icf_id"
     }
   ],
   "printed_field_counts": {
@@ -14375,5 +14394,15 @@
     },
     "backfilled": "2026-10-19"
   },
-  "nation_change_log": []
+  "nation_change_log": [],
+  "names_file_binds": {
+    "rule": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+    "source": "kenderfoka/race-desk main legacy/paddletagger/names.json @ 24ca4034cdab775633c862dd19786a9d4e4f7907",
+    "icf_list": "2026-11-16T14:05:50Z",
+    "match": "printed name has the words of one name (current, former_names, keywords, links) of exactly one athlete of the boat's country, accents/case/hyphens ignored, any order; same name+birth+gender counted as one",
+    "bound_from_names_json": 1,
+    "bound_from_icf_list": 0,
+    "rejected": 0,
+    "at_utc": "2026-11-16T21:38:53Z"
+  }
 }
