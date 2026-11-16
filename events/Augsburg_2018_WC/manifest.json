@@ -10,13 +10,13 @@
  "sheet": "Augsburg_2018_WC_start.xlsx",
  "grade": "PERFECT",
  "gaps": [],
- "generated_at_utc": "2026-10-15T09:26:33Z",
- "updated_at": "2026-10-15T09:31:45Z",
+ "generated_at_utc": "2026-11-16T21:36:20Z",
+ "updated_at": "2026-11-16T21:36:20Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "Augsburg_2018_WC_start.xlsx",
-   "sha256": "dd7d3f45d3261847638fa823e5a4a662e1265ccd662855be9a5826789028cb56"
+   "sha256": "1adf7d0d30ed9b2a4e414f521bfdbaba2cc1b599fda96ff1af0bd4c2bdb90581"
   }
  ],
  "row_count": 713,
@@ -4745,11 +4745,16 @@
    "row": 541,
    "seat": "ICF_ID1",
    "printed_name": "HOLL Lena",
-   "source": "SIWIDATA session 1300 Code + paddleworldwide.com/athlete/<id>",
+   "source": "ICF list (fetchApi/bence, refreshed 2026-11-16, sha256 203d2f547b04…) + paddleworldwide.com/athlete/77245 (fetched 2026-11-16)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 77245; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)"
+   "new_id": "77245",
+   "detail": "empty crew seat bound under the maintainer's name-file rule of 2026-11-16 (t161u): printed 'HOLL Lena' (GER) has the same words, accents and case ignored, as 77245 Lena HOLL (GER, born 1999-01-04, W), the only athlete of GER with that name in the name file and the ICF list; profile does not list 2018 ICF CANOE SLALOM WORLD CUP 3 (forerunner, not a gap)",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 77245; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session 1300 Code + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 542,
@@ -6316,12 +6321,22 @@
    "source": "SIWIDATA session 1300 Code + paddleworldwide.com/athlete/<id>",
    "published_id": "35083",
    "action": "kept"
+  },
+  {
+   "row": 541,
+   "seat": "ICF_ID2",
+   "printed_name": "",
+   "source": "this sheet",
+   "published_id": "",
+   "action": "forerunner",
+   "new_id": "",
+   "detail": "no crew name printed for this seat; seat empty and logged (forerunner, not a gap)"
   }
  ],
  "id_summary": {
   "kept": 696,
   "no_icf_id": 5,
-  "forerunner": 26,
+  "forerunner": 27,
   "corrected": 8,
   "name_change": 12,
   "same_meeting": 6
@@ -6487,5 +6502,17 @@
  "bracket_sources": [
   "https://123result.blob.core.windows.net/canoe/CS_2018/201201/1300/K1MX_X4_8%40Cross%20Finals%20Bracket.pdf",
   "https://123result.blob.core.windows.net/canoe/CS_2018/201201/1300/K1WX_X4_8%40Cross%20Finals%20Bracket.pdf"
- ]
+ ],
+ "name_file_bind": {
+  "rule": "maintainer message t161u, 2026-11-16 22:26 Europe/Budapest (empty crew seats bound from race-desk legacy/paddletagger/names.json and the ICF list)",
+  "names_json": "race-desk 75edb65 (built_from 58ae13d), read from main 24ca403",
+  "icf_list": "fetchApi/bence refreshed 2026-11-16T21:36:20Z, 28908 records, sha256 203d2f547b04…",
+  "seats_filled": 1,
+  "from_names_json": 0,
+  "from_icf_list": 1,
+  "rejected": 0,
+  "entries_added_for_unnamed_seats": 1,
+  "forerunner_gender_set": [],
+  "name_cells_written": []
+ }
 }
