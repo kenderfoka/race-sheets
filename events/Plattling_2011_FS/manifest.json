@@ -13,13 +13,13 @@
  ],
  "start_times": "scheduled",
  "start_times_kind": "block",
- "generated_at_utc": "2026-11-11T13:49:37Z",
- "updated_at": "2026-11-11T13:49:37Z",
+ "generated_at_utc": "2026-11-17T01:17:37Z",
+ "updated_at": "2026-11-17T01:17:37Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "Plattling_2011_FS_start.xlsx",
-   "sha256": "91094973d54e6ad417fc41d1e317ece71d5ca2c4a7f39fe50d4dacc6912dbacb"
+   "sha256": "6a8b4db81ddf259972e91db4f31bf2211153fc6933c2f147d6a97e7667dec690"
   }
  ],
  "row_count": 781,
@@ -1488,9 +1488,13 @@
    "printed_name": "WEGMAN Martina",
    "team": "NED",
    "event": "K1W",
-   "action": "ambiguous",
-   "new_id": "",
-   "detail": "35345,165253"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "165253",
+   "detail": "exact name+NOC: 35345 and 165253 are both WEGMAN Martina, born 1989-06-13, nationality NED, gender W - one athlete (contract rule 1); neither profile lists this meeting, so the record with the more recent results (165253: 2026; 35345: to 2024) is bound",
+   "correction": "empty -> 165253 (wake 2 findings, 2026-11-17T01:17:37Z)",
+   "also_ids": [
+    "35345"
+   ]
   },
   {
    "row": 18,
@@ -1918,9 +1922,12 @@
    "printed_name": "LISKA Jan",
    "team": "CZE",
    "event": "C1",
-   "action": "bound_by_name_unconfirmed",
-   "new_id": "36112",
-   "detail": ""
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "",
+   "rejected_icf_id": "36112",
+   "rejected_reason": "database names 36112 RASKA Jan, born 1995-06-30; printed surname LISKA is not his (contract: a candidate whose family name does not contain the printed surname is rejected); PWW profile lists no result",
+   "correction": "36112 -> empty (wake 2 findings, 2026-11-17T01:17:37Z)"
   },
   {
    "row": 61,
@@ -2008,9 +2015,10 @@
    "printed_name": "CSONKA Peter",
    "team": "SVK",
    "event": "K1SM",
-   "action": "ambiguous",
-   "new_id": "",
-   "detail": "42899,37078"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "42899",
+   "detail": "exact name+NOC: CSONKA Peter (born 1985-01-29, SVK) is the only athlete of SVK carrying both printed names; earlier candidate 37078 is SOSKA Peter (printed surname not his); PWW profile lists freestyle Worlds/World Cups (2024-2025), not 2011",
+   "correction": "empty -> 42899 (wake 2 findings, 2026-11-17T01:17:37Z)"
   },
   {
    "row": 70,
@@ -2080,7 +2088,8 @@
    "event": "K1SM",
    "action": "bound_by_name_unconfirmed",
    "new_id": "83293",
-   "detail": ""
+   "detail": "",
+   "nation_check": "83293 ASHWORTH Seth: database nationality GBR, federation CAN (country empty); the contract's country test accepts nationality, so the bind stands for the boat GBR as printed (START-LIST-TUESDAY.pdf, 11.Startlist_Semi_K1SM.pdf, All-Results-WCS-2011.pdf); his PWW profile lists the 2017 ICF Canoe Freestyle World Championships; RU235 nation finding answered by this log"
   },
   {
    "row": 77,
@@ -2323,6 +2332,28 @@
    "detail": ""
   },
   {
+   "row": 102,
+   "seat": "ICF_ID1",
+   "printed_name": "KRPIC Andraz",
+   "team": "SLO",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 97
+  },
+  {
+   "row": 103,
+   "seat": "ICF_ID1",
+   "printed_name": "LOPEZ Matias",
+   "team": "ARG",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 98
+  },
+  {
    "row": 106,
    "seat": "ICF_ID1",
    "printed_name": "SCHNECK Moritz",
@@ -2348,9 +2379,12 @@
    "printed_name": "SANDBERG David",
    "team": "SWE",
    "event": "K1M",
-   "action": "bound_by_name_unconfirmed",
-   "new_id": "93932",
-   "detail": ""
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "",
+   "rejected_icf_id": "93932",
+   "rejected_reason": "database names 93932 LINDBERG Arvid, born 2002-03-01 (aged 9); neither printed name is his; PWW profile lists only 2019",
+   "correction": "93932 -> empty (wake 2 findings, 2026-11-17T01:17:37Z)"
   },
   {
    "row": 109,
@@ -2368,9 +2402,71 @@
    "printed_name": "O´BRAONAIN Ronan",
    "team": "IRL",
    "event": "K1M",
-   "action": "bound_by_name_unconfirmed",
-   "new_id": "83338",
-   "detail": ""
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "",
+   "rejected_icf_id": "83338",
+   "rejected_reason": "database names 83338 O'REGAN Stewart; neither printed name is his; PWW profile lists no result",
+   "correction": "83338 -> empty (wake 2 findings, 2026-11-17T01:17:37Z)"
+  },
+  {
+   "row": 111,
+   "seat": "ICF_ID1",
+   "printed_name": "SCHNECK Moritz",
+   "team": "AUT",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 106
+  },
+  {
+   "row": 112,
+   "seat": "ICF_ID1",
+   "printed_name": "ANDRASSY Tomaš",
+   "team": "SVK",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 107
+  },
+  {
+   "row": 113,
+   "seat": "ICF_ID1",
+   "printed_name": "SANDBERG David",
+   "team": "SWE",
+   "event": "K1M",
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "",
+   "rejected_icf_id": "93932",
+   "rejected_reason": "database names 93932 LINDBERG Arvid, born 2002-03-01 (aged 9); neither printed name is his; PWW profile lists only 2019",
+   "boat_entry_row": 108
+  },
+  {
+   "row": 114,
+   "seat": "ICF_ID1",
+   "printed_name": "STROHMEIER Seppi",
+   "team": "GER",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 109
+  },
+  {
+   "row": 115,
+   "seat": "ICF_ID1",
+   "printed_name": "O´BRAONAIN Ronan",
+   "team": "IRL",
+   "event": "K1M",
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "",
+   "rejected_icf_id": "83338",
+   "rejected_reason": "database names 83338 O'REGAN Stewart; neither printed name is his; PWW profile lists no result",
+   "boat_entry_row": 110
   },
   {
    "row": 116,
@@ -2398,9 +2494,10 @@
    "printed_name": "VASIN Konstantin",
    "team": "RUS",
    "event": "K1M",
-   "action": "ambiguous",
-   "new_id": "",
-   "detail": "53220,75457"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "53220",
+   "detail": "exact name+NOC: VASIN Konstantin (born 1973-04-20, RUS) is the only athlete of RUS carrying both printed names; earlier candidate 75457 is VANIN Konstantin, born 2000 (printed surname not his); PWW profile lists 2014 freestyle World Cups 1-3, not 2011",
+   "correction": "empty -> 53220 (wake 2 findings, 2026-11-17T01:17:37Z)"
   },
   {
    "row": 119,
@@ -2421,6 +2518,39 @@
    "action": "no_candidate",
    "new_id": "",
    "detail": ""
+  },
+  {
+   "row": 121,
+   "seat": "ICF_ID1",
+   "printed_name": "BLOKHIN Alexandr",
+   "team": "RUS",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 116
+  },
+  {
+   "row": 124,
+   "seat": "ICF_ID1",
+   "printed_name": "SERRASOLSES Gerd",
+   "team": "ESP",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 119
+  },
+  {
+   "row": 125,
+   "seat": "ICF_ID1",
+   "printed_name": "HESSE Christoph",
+   "team": "AUT",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 120
   },
   {
    "row": 126,
@@ -2473,6 +2603,50 @@
    "detail": ""
   },
   {
+   "row": 132,
+   "seat": "ICF_ID1",
+   "printed_name": "URBAN Dustin",
+   "team": "USA",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 127
+  },
+  {
+   "row": 133,
+   "seat": "ICF_ID1",
+   "printed_name": "BOLES Zack",
+   "team": "CAN",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 128
+  },
+  {
+   "row": 134,
+   "seat": "ICF_ID1",
+   "printed_name": "WRZAL Michal",
+   "team": "POL",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 129
+  },
+  {
+   "row": 135,
+   "seat": "ICF_ID1",
+   "printed_name": "HAMMARAENG Robin",
+   "team": "SWE",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 130
+  },
+  {
    "row": 136,
    "seat": "ICF_ID1",
    "printed_name": "KOMORI Shintaro",
@@ -2523,6 +2697,17 @@
    "detail": ""
   },
   {
+   "row": 144,
+   "seat": "ICF_ID1",
+   "printed_name": "LANGER Jiri",
+   "team": "CZE",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 139
+  },
+  {
    "row": 146,
    "seat": "ICF_ID1",
    "printed_name": "CURTIS Tyler",
@@ -2568,9 +2753,21 @@
    "printed_name": "CSONKA Peter",
    "team": "SVK",
    "event": "K1M",
-   "action": "ambiguous",
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "42899",
+   "detail": "exact name+NOC: CSONKA Peter (born 1985-01-29, SVK) is the only athlete of SVK carrying both printed names; earlier candidate 37078 is SOSKA Peter (printed surname not his); PWW profile lists freestyle Worlds/World Cups (2024-2025), not 2011",
+   "correction": "empty -> 42899 (wake 2 findings, 2026-11-17T01:17:37Z)"
+  },
+  {
+   "row": 151,
+   "seat": "ICF_ID1",
+   "printed_name": "CURTIS Tyler",
+   "team": "NOR",
+   "event": "K1M",
+   "action": "no_candidate",
    "new_id": "",
-   "detail": "42899,37078"
+   "detail": "",
+   "boat_entry_row": 146
   },
   {
    "row": 156,
@@ -2623,6 +2820,28 @@
    "detail": ""
   },
   {
+   "row": 161,
+   "seat": "ICF_ID1",
+   "printed_name": "STROHMEIER Simon",
+   "team": "GER",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 156
+  },
+  {
+   "row": 165,
+   "seat": "ICF_ID1",
+   "printed_name": "VOHRADSKY Stepan",
+   "team": "CZE",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 160
+  },
+  {
    "row": 166,
    "seat": "ICF_ID1",
    "printed_name": "CAKO Vladimir",
@@ -2671,6 +2890,39 @@
    "action": "bound_by_name_unconfirmed",
    "new_id": "47133",
    "detail": ""
+  },
+  {
+   "row": 171,
+   "seat": "ICF_ID1",
+   "printed_name": "CAKO Vladimir",
+   "team": "SVK",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 166
+  },
+  {
+   "row": 172,
+   "seat": "ICF_ID1",
+   "printed_name": "MAZIMANN Thomas",
+   "team": "FRA",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 167
+  },
+  {
+   "row": 174,
+   "seat": "ICF_ID1",
+   "printed_name": "CHAPPELL Adam",
+   "team": "CAN",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 169
   },
   {
    "row": 176,
@@ -2723,6 +2975,39 @@
    "detail": ""
   },
   {
+   "row": 181,
+   "seat": "ICF_ID1",
+   "printed_name": "BREYTENBACH Deon Johann",
+   "team": "RSA",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 176
+  },
+  {
+   "row": 183,
+   "seat": "ICF_ID1",
+   "printed_name": "MATECKI Marcin",
+   "team": "POL",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 178
+  },
+  {
+   "row": 184,
+   "seat": "ICF_ID1",
+   "printed_name": "ANDERSON Sam",
+   "team": "GBR",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 179
+  },
+  {
    "row": 186,
    "seat": "ICF_ID1",
    "printed_name": "BUBNIK Jan",
@@ -2771,6 +3056,39 @@
    "action": "bound_by_name_unconfirmed",
    "new_id": "46839",
    "detail": ""
+  },
+  {
+   "row": 191,
+   "seat": "ICF_ID1",
+   "printed_name": "BUBNIK Jan",
+   "team": "CZE",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 186
+  },
+  {
+   "row": 192,
+   "seat": "ICF_ID1",
+   "printed_name": "VAN DEN BURG Johan",
+   "team": "NED",
+   "event": "K1M",
+   "action": "ambiguous",
+   "new_id": "",
+   "detail": "147869,64795,153729",
+   "boat_entry_row": 187
+  },
+  {
+   "row": 193,
+   "seat": "ICF_ID1",
+   "printed_name": "PRASAD Ayodhya",
+   "team": "IND",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 188
   },
   {
    "row": 196,
@@ -2823,6 +3141,39 @@
    "detail": ""
   },
   {
+   "row": 201,
+   "seat": "ICF_ID1",
+   "printed_name": "GRADY Keegan",
+   "team": "CAN",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 196
+  },
+  {
+   "row": 203,
+   "seat": "ICF_ID1",
+   "printed_name": "HAUGEN Jonny",
+   "team": "NOR",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 198
+  },
+  {
+   "row": 205,
+   "seat": "ICF_ID1",
+   "printed_name": "WEIGHT James",
+   "team": "GBR",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 200
+  },
+  {
    "row": 206,
    "seat": "ICF_ID1",
    "printed_name": "INGELSTEN Simon",
@@ -2871,6 +3222,50 @@
    "action": "no_candidate",
    "new_id": "",
    "detail": ""
+  },
+  {
+   "row": 211,
+   "seat": "ICF_ID1",
+   "printed_name": "INGELSTEN Simon",
+   "team": "SWE",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 206
+  },
+  {
+   "row": 213,
+   "seat": "ICF_ID1",
+   "printed_name": "CAILLEUX Quentin",
+   "team": "FRA",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 208
+  },
+  {
+   "row": 214,
+   "seat": "ICF_ID1",
+   "printed_name": "CAHILL Brian",
+   "team": "IRL",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 209
+  },
+  {
+   "row": 215,
+   "seat": "ICF_ID1",
+   "printed_name": "MURKO Tomaz",
+   "team": "SLO",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 210
   },
   {
    "row": 216,
@@ -2923,6 +3318,39 @@
    "detail": ""
   },
   {
+   "row": 221,
+   "seat": "ICF_ID1",
+   "printed_name": "KLEEMANN Christoph",
+   "team": "GER",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 216
+  },
+  {
+   "row": 223,
+   "seat": "ICF_ID1",
+   "printed_name": "PEDERSEN Eirik",
+   "team": "NOR",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 218
+  },
+  {
+   "row": 224,
+   "seat": "ICF_ID1",
+   "printed_name": "HIRSCH Oliver",
+   "team": "AUT",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 219
+  },
+  {
    "row": 226,
    "seat": "ICF_ID1",
    "printed_name": "CHOTAK Tsering",
@@ -2938,9 +3366,12 @@
    "printed_name": "BUROV Mikhail",
    "team": "RUS",
    "event": "K1M",
-   "action": "bound_by_name_unconfirmed",
-   "new_id": "130128",
-   "detail": ""
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "",
+   "rejected_icf_id": "130128",
+   "rejected_reason": "database names 130128 BURKOV Mikhail, born 2004-06-27 (aged 6 on 2011-06-21), federation UAE; printed surname BUROV (K1M22-06-2011.pdf, Startliste_K1M.pdf, All-Results-WCS-2011.pdf) is not his; PWW profile lists only 2023 sprint; no athlete named BUROV Mikhail in the database",
+   "correction": "130128 -> empty (wake 2 findings, 2026-11-17T01:17:37Z)"
   },
   {
    "row": 228,
@@ -2971,6 +3402,41 @@
    "action": "bound_by_name_unconfirmed",
    "new_id": "53492",
    "detail": ""
+  },
+  {
+   "row": 231,
+   "seat": "ICF_ID1",
+   "printed_name": "CHOTAK Tsering",
+   "team": "IND",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 226
+  },
+  {
+   "row": 232,
+   "seat": "ICF_ID1",
+   "printed_name": "BUROV Mikhail",
+   "team": "RUS",
+   "event": "K1M",
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "",
+   "rejected_icf_id": "130128",
+   "rejected_reason": "database names 130128 BURKOV Mikhail, born 2004-06-27 (aged 6 on 2011-06-21), federation UAE; printed surname BUROV (K1M22-06-2011.pdf, Startliste_K1M.pdf, All-Results-WCS-2011.pdf) is not his; PWW profile lists only 2023 sprint; no athlete named BUROV Mikhail in the database",
+   "boat_entry_row": 227
+  },
+  {
+   "row": 234,
+   "seat": "ICF_ID1",
+   "printed_name": "BRADLEY Joe",
+   "team": "GBR",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 229
   },
   {
    "row": 236,
@@ -3018,9 +3484,58 @@
    "printed_name": "VAN KALMTHOUT Casper",
    "team": "NED",
    "event": "K1M",
-   "action": "bound_by_name_unconfirmed",
-   "new_id": "145490",
-   "detail": ""
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "",
+   "rejected_icf_id": "145490",
+   "rejected_reason": "database names 145490 VAN LAER Cas, born 2006-12-03 (aged 4); printed surname is not his; PWW profile lists no result",
+   "correction": "145490 -> empty (wake 2 findings, 2026-11-17T01:17:37Z)"
+  },
+  {
+   "row": 241,
+   "seat": "ICF_ID1",
+   "printed_name": "TROUTMAN Nick",
+   "team": "CAN",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 236
+  },
+  {
+   "row": 242,
+   "seat": "ICF_ID1",
+   "printed_name": "GOIKOETXEA Gorka",
+   "team": "ESP",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 237
+  },
+  {
+   "row": 243,
+   "seat": "ICF_ID1",
+   "printed_name": "RIAL Pablo",
+   "team": "ARG",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 238
+  },
+  {
+   "row": 245,
+   "seat": "ICF_ID1",
+   "printed_name": "VAN KALMTHOUT Casper",
+   "team": "NED",
+   "event": "K1M",
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "",
+   "rejected_icf_id": "145490",
+   "rejected_reason": "database names 145490 VAN LAER Cas, born 2006-12-03 (aged 4); printed surname is not his; PWW profile lists no result",
+   "boat_entry_row": 240
   },
   {
    "row": 246,
@@ -3083,6 +3598,61 @@
    "detail": ""
   },
   {
+   "row": 252,
+   "seat": "ICF_ID1",
+   "printed_name": "NISKANEN Juho",
+   "team": "FIN",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 246
+  },
+  {
+   "row": 253,
+   "seat": "ICF_ID1",
+   "printed_name": "RAGIMOV Sergey",
+   "team": "RUS",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 247
+  },
+  {
+   "row": 255,
+   "seat": "ICF_ID1",
+   "printed_name": "SPINDLER Jan",
+   "team": "CZE",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 249
+  },
+  {
+   "row": 256,
+   "seat": "ICF_ID1",
+   "printed_name": "LANTTO Mikael",
+   "team": "FIN",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 250
+  },
+  {
+   "row": 257,
+   "seat": "ICF_ID1",
+   "printed_name": "COTO ROBLES Audrei",
+   "team": "CRC",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 251
+  },
+  {
    "row": 258,
    "seat": "ICF_ID1",
    "printed_name": "LAUCKS Jeremy",
@@ -3141,6 +3711,50 @@
    "action": "bound_by_name_unconfirmed",
    "new_id": "46163",
    "detail": ""
+  },
+  {
+   "row": 265,
+   "seat": "ICF_ID1",
+   "printed_name": "KING Paul",
+   "team": "GBR",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 259
+  },
+  {
+   "row": 266,
+   "seat": "ICF_ID1",
+   "printed_name": "HELBERT Eli",
+   "team": "USA",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 260
+  },
+  {
+   "row": 267,
+   "seat": "ICF_ID1",
+   "printed_name": "HUETHER Tobias",
+   "team": "GER",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 261
+  },
+  {
+   "row": 268,
+   "seat": "ICF_ID1",
+   "printed_name": "MCKEE Bob",
+   "team": "GBR",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 262
   },
   {
    "row": 270,
@@ -3203,6 +3817,50 @@
    "detail": ""
   },
   {
+   "row": 276,
+   "seat": "ICF_ID1",
+   "printed_name": "ARETA Odei",
+   "team": "ESP",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 270
+  },
+  {
+   "row": 277,
+   "seat": "ICF_ID1",
+   "printed_name": "TANABE Kazuhiro",
+   "team": "JPN",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 271
+  },
+  {
+   "row": 278,
+   "seat": "ICF_ID1",
+   "printed_name": "MATSUI Jun",
+   "team": "JPN",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 272
+  },
+  {
+   "row": 281,
+   "seat": "ICF_ID1",
+   "printed_name": "BREU Martin",
+   "team": "CAN",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 275
+  },
+  {
    "row": 282,
    "seat": "ICF_ID1",
    "printed_name": "KERIN Courtney",
@@ -3251,6 +3909,28 @@
    "action": "no_candidate",
    "new_id": "",
    "detail": ""
+  },
+  {
+   "row": 290,
+   "seat": "ICF_ID1",
+   "printed_name": "CLEARY Niamh",
+   "team": "IRL",
+   "event": "K1JW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 285
+  },
+  {
+   "row": 291,
+   "seat": "ICF_ID1",
+   "printed_name": "CARRANZA Teresa",
+   "team": "ESP",
+   "event": "K1JW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 286
   },
   {
    "row": 292,
@@ -3313,6 +3993,61 @@
    "detail": ""
   },
   {
+   "row": 298,
+   "seat": "ICF_ID1",
+   "printed_name": "RIST Anne",
+   "team": "GER",
+   "event": "K1JW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 292
+  },
+  {
+   "row": 300,
+   "seat": "ICF_ID1",
+   "printed_name": "OLNES Kari",
+   "team": "NOR",
+   "event": "K1JW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 294
+  },
+  {
+   "row": 301,
+   "seat": "ICF_ID1",
+   "printed_name": "SOKOLOVA Anastasija",
+   "team": "LAT",
+   "event": "K1JW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 295
+  },
+  {
+   "row": 302,
+   "seat": "ICF_ID1",
+   "printed_name": "HERVO Jeronime",
+   "team": "FRA",
+   "event": "K1JW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 296
+  },
+  {
+   "row": 303,
+   "seat": "ICF_ID1",
+   "printed_name": "BATES Gabby",
+   "team": "GBR",
+   "event": "K1JW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 297
+  },
+  {
    "row": 304,
    "seat": "ICF_ID1",
    "printed_name": "DROUJKO Jessica",
@@ -3348,9 +4083,12 @@
    "printed_name": "DAUB Sara-Jane",
    "team": "CAN",
    "event": "K1JW",
-   "action": "bound_by_name_unconfirmed",
-   "new_id": "42884",
-   "detail": ""
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "",
+   "rejected_icf_id": "42884",
+   "rejected_reason": "database names 42884 CAUMARTIN Sara-Jane; printed surname DAUB is not hers, no former name DAUB in names.json, and her PWW profile (2013-2014 only) does not list this meeting (contract rule 5 keeps a name change only when it does)",
+   "correction": "42884 -> empty (wake 2 findings, 2026-11-17T01:17:37Z)"
   },
   {
    "row": 308,
@@ -3358,9 +4096,12 @@
    "printed_name": "FARRELL Caoimhe",
    "team": "IRL",
    "event": "K1JW",
-   "action": "bound_by_name_unconfirmed",
-   "new_id": "61007",
-   "detail": ""
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "",
+   "rejected_icf_id": "61007",
+   "rejected_reason": "database names 61007 O'FERRALL Caoimhe, born 1997-12-04 (aged 13 on 2011-06-21, under 14) and printed surname FARRELL is not hers; PWW profile (2015-2019) does not list this meeting (contract RU168 ruling 8)",
+   "correction": "61007 -> empty (wake 2 findings, 2026-11-17T01:17:37Z)"
   },
   {
    "row": 309,
@@ -3371,6 +4112,76 @@
    "action": "no_candidate",
    "new_id": "",
    "detail": ""
+  },
+  {
+   "row": 310,
+   "seat": "ICF_ID1",
+   "printed_name": "DROUJKO Jessica",
+   "team": "CAN",
+   "event": "K1JW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 304
+  },
+  {
+   "row": 311,
+   "seat": "ICF_ID1",
+   "printed_name": "SPAAIJ Julia",
+   "team": "GER",
+   "event": "K1JW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 305
+  },
+  {
+   "row": 312,
+   "seat": "ICF_ID1",
+   "printed_name": "KERTESZ Hannah",
+   "team": "USA",
+   "event": "K1JW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 306
+  },
+  {
+   "row": 313,
+   "seat": "ICF_ID1",
+   "printed_name": "DAUB Sara-Jane",
+   "team": "CAN",
+   "event": "K1JW",
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "",
+   "rejected_icf_id": "42884",
+   "rejected_reason": "database names 42884 CAUMARTIN Sara-Jane; printed surname DAUB is not hers, no former name DAUB in names.json, and her PWW profile (2013-2014 only) does not list this meeting (contract rule 5 keeps a name change only when it does)",
+   "boat_entry_row": 307
+  },
+  {
+   "row": 314,
+   "seat": "ICF_ID1",
+   "printed_name": "FARRELL Caoimhe",
+   "team": "IRL",
+   "event": "K1JW",
+   "action": "no_icf_id",
+   "new_id": "",
+   "detail": "",
+   "rejected_icf_id": "61007",
+   "rejected_reason": "database names 61007 O'FERRALL Caoimhe, born 1997-12-04 (aged 13 on 2011-06-21, under 14) and printed surname FARRELL is not hers; PWW profile (2015-2019) does not list this meeting (contract RU168 ruling 8)",
+   "boat_entry_row": 308
+  },
+  {
+   "row": 315,
+   "seat": "ICF_ID1",
+   "printed_name": "BURRESS Lauren",
+   "team": "USA",
+   "event": "K1JW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 309
   },
   {
    "row": 316,
@@ -3423,6 +4234,50 @@
    "detail": ""
   },
   {
+   "row": 321,
+   "seat": "ICF_ID1",
+   "printed_name": "ORTON Bren",
+   "team": "GBR",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 316
+  },
+  {
+   "row": 322,
+   "seat": "ICF_ID1",
+   "printed_name": "STEBLAJ Jure Petak",
+   "team": "SLO",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 317
+  },
+  {
+   "row": 323,
+   "seat": "ICF_ID1",
+   "printed_name": "KLAUS Jan",
+   "team": "CZE",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 318
+  },
+  {
+   "row": 325,
+   "seat": "ICF_ID1",
+   "printed_name": "GAUGLITZ Marvin",
+   "team": "GER",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 320
+  },
+  {
    "row": 326,
    "seat": "ICF_ID1",
    "printed_name": "TEN SELDAM Stijn",
@@ -3471,6 +4326,50 @@
    "action": "no_candidate",
    "new_id": "",
    "detail": ""
+  },
+  {
+   "row": 331,
+   "seat": "ICF_ID1",
+   "printed_name": "TEN SELDAM Stijn",
+   "team": "NED",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 326
+  },
+  {
+   "row": 333,
+   "seat": "ICF_ID1",
+   "printed_name": "SALVAT Aleix",
+   "team": "ESP",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 328
+  },
+  {
+   "row": 334,
+   "seat": "ICF_ID1",
+   "printed_name": "SOMMER Nils",
+   "team": "GER",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 329
+  },
+  {
+   "row": 335,
+   "seat": "ICF_ID1",
+   "printed_name": "VAN NIMWEGEN Teus",
+   "team": "NED",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 330
   },
   {
    "row": 336,
@@ -3523,6 +4422,39 @@
    "detail": ""
   },
   {
+   "row": 342,
+   "seat": "ICF_ID1",
+   "printed_name": "HASSELWANDER Michel",
+   "team": "GER",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 337
+  },
+  {
+   "row": 343,
+   "seat": "ICF_ID1",
+   "printed_name": "TONOZZI Dominic",
+   "team": "USA",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 338
+  },
+  {
+   "row": 344,
+   "seat": "ICF_ID1",
+   "printed_name": "RODGERS Matt",
+   "team": "GBR",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 339
+  },
+  {
    "row": 346,
    "seat": "ICF_ID1",
    "printed_name": "ZMAVC Jurij",
@@ -3571,6 +4503,39 @@
    "action": "no_candidate",
    "new_id": "",
    "detail": ""
+  },
+  {
+   "row": 352,
+   "seat": "ICF_ID1",
+   "printed_name": "SLALIEN Sindre",
+   "team": "NOR",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 347
+  },
+  {
+   "row": 353,
+   "seat": "ICF_ID1",
+   "printed_name": "BENNS James",
+   "team": "GBR",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 348
+  },
+  {
+   "row": 355,
+   "seat": "ICF_ID1",
+   "printed_name": "GALLEGO Daniel",
+   "team": "ESP",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 350
   },
   {
    "row": 356,
@@ -3623,6 +4588,39 @@
    "detail": ""
   },
   {
+   "row": 361,
+   "seat": "ICF_ID1",
+   "printed_name": "HERRANEN Aleksi",
+   "team": "FIN",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 356
+  },
+  {
+   "row": 362,
+   "seat": "ICF_ID1",
+   "printed_name": "LEMKAY Cooper",
+   "team": "CAN",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 357
+  },
+  {
+   "row": 363,
+   "seat": "ICF_ID1",
+   "printed_name": "BRENNAN Joel",
+   "team": "CAN",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 358
+  },
+  {
    "row": 366,
    "seat": "ICF_ID1",
    "printed_name": "DEMEULENAERE Lane",
@@ -3673,6 +4671,39 @@
    "detail": ""
   },
   {
+   "row": 373,
+   "seat": "ICF_ID1",
+   "printed_name": "MACKEN Conor",
+   "team": "IRL",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 368
+  },
+  {
+   "row": 374,
+   "seat": "ICF_ID1",
+   "printed_name": "DE GRAEVE Jasper",
+   "team": "BEL",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 369
+  },
+  {
+   "row": 375,
+   "seat": "ICF_ID1",
+   "printed_name": "FLAA Oddbjorn",
+   "team": "NOR",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 370
+  },
+  {
    "row": 376,
    "seat": "ICF_ID1",
    "printed_name": "VAELIAHDET Teemu",
@@ -3711,12 +4742,2356 @@
    "action": "no_candidate",
    "new_id": "",
    "detail": ""
+  },
+  {
+   "row": 380,
+   "seat": "ICF_ID1",
+   "printed_name": "VAELIAHDET Teemu",
+   "team": "FIN",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 376
+  },
+  {
+   "row": 381,
+   "seat": "ICF_ID1",
+   "printed_name": "O´SHEA Robbie",
+   "team": "IRL",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 377
+  },
+  {
+   "row": 382,
+   "seat": "ICF_ID1",
+   "printed_name": "HEGGEM Halvor",
+   "team": "NOR",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 378
+  },
+  {
+   "row": 383,
+   "seat": "ICF_ID1",
+   "printed_name": "BRETT William",
+   "team": "IRL",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 379
+  },
+  {
+   "row": 384,
+   "seat": "ICF_ID1",
+   "printed_name": "HUEBNER Anne",
+   "team": "GER",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 6
+  },
+  {
+   "row": 385,
+   "seat": "ICF_ID1",
+   "printed_name": "CLANCEY Erin",
+   "team": "USA",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 19
+  },
+  {
+   "row": 386,
+   "seat": "ICF_ID1",
+   "printed_name": "LUSSIN Emily",
+   "team": "CAN",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 3
+  },
+  {
+   "row": 389,
+   "seat": "ICF_ID1",
+   "printed_name": "HUEBNER Anne",
+   "team": "GER",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 6
+  },
+  {
+   "row": 390,
+   "seat": "ICF_ID1",
+   "printed_name": "CLANCEY Erin",
+   "team": "USA",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 19
+  },
+  {
+   "row": 391,
+   "seat": "ICF_ID1",
+   "printed_name": "LUSSIN Emily",
+   "team": "CAN",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 3
+  },
+  {
+   "row": 394,
+   "seat": "ICF_ID1",
+   "printed_name": "HUEBNER Anne",
+   "team": "GER",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 6
+  },
+  {
+   "row": 395,
+   "seat": "ICF_ID1",
+   "printed_name": "CLANCEY Erin",
+   "team": "USA",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 19
+  },
+  {
+   "row": 396,
+   "seat": "ICF_ID1",
+   "printed_name": "LUSSIN Emily",
+   "team": "CAN",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 3
+  },
+  {
+   "row": 399,
+   "seat": "ICF_ID1",
+   "printed_name": "WALL Emily",
+   "team": "GBR",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 20
+  },
+  {
+   "row": 400,
+   "seat": "ICF_ID1",
+   "printed_name": "MILLS Haley",
+   "team": "USA",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 28
+  },
+  {
+   "row": 403,
+   "seat": "ICF_ID1",
+   "printed_name": "CHRIMES Jenny",
+   "team": "GBR",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 42
+  },
+  {
+   "row": 404,
+   "seat": "ICF_ID1",
+   "printed_name": "WALL Emily",
+   "team": "GBR",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 20
+  },
+  {
+   "row": 405,
+   "seat": "ICF_ID1",
+   "printed_name": "MILLS Haley",
+   "team": "USA",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 28
+  },
+  {
+   "row": 408,
+   "seat": "ICF_ID1",
+   "printed_name": "CHRIMES Jenny",
+   "team": "GBR",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 42
+  },
+  {
+   "row": 409,
+   "seat": "ICF_ID1",
+   "printed_name": "WALL Emily",
+   "team": "GBR",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 20
+  },
+  {
+   "row": 410,
+   "seat": "ICF_ID1",
+   "printed_name": "MILLS Haley",
+   "team": "USA",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 28
+  },
+  {
+   "row": 413,
+   "seat": "ICF_ID1",
+   "printed_name": "CHRIMES Jenny",
+   "team": "GBR",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 42
+  },
+  {
+   "row": 418,
+   "seat": "ICF_ID1",
+   "printed_name": "WEGMAN Querine",
+   "team": "NED",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 35
+  },
+  {
+   "row": 423,
+   "seat": "ICF_ID1",
+   "printed_name": "WEGMAN Querine",
+   "team": "NED",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 35
+  },
+  {
+   "row": 428,
+   "seat": "ICF_ID1",
+   "printed_name": "WEGMAN Querine",
+   "team": "NED",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 35
+  },
+  {
+   "row": 429,
+   "seat": "ICF_ID1",
+   "printed_name": "EBENS Ruth Gordon",
+   "team": "CAN",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 30
+  },
+  {
+   "row": 430,
+   "seat": "ICF_ID1",
+   "printed_name": "O´HARA Claire",
+   "team": "GBR",
+   "event": "K1SW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 86
+  },
+  {
+   "row": 432,
+   "seat": "ICF_ID1",
+   "printed_name": "HALAŠOVÁ Nina",
+   "team": "SVK",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 46
+  },
+  {
+   "row": 433,
+   "seat": "ICF_ID1",
+   "printed_name": "SUURSEPPAE Paula",
+   "team": "FIN",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 32
+  },
+  {
+   "row": 434,
+   "seat": "ICF_ID1",
+   "printed_name": "EBENS Ruth Gordon",
+   "team": "CAN",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 30
+  },
+  {
+   "row": 435,
+   "seat": "ICF_ID1",
+   "printed_name": "O´HARA Claire",
+   "team": "GBR",
+   "event": "K1SW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 86
+  },
+  {
+   "row": 437,
+   "seat": "ICF_ID1",
+   "printed_name": "HALAŠOVÁ Nina",
+   "team": "SVK",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 46
+  },
+  {
+   "row": 438,
+   "seat": "ICF_ID1",
+   "printed_name": "SUURSEPPAE Paula",
+   "team": "FIN",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 32
+  },
+  {
+   "row": 439,
+   "seat": "ICF_ID1",
+   "printed_name": "EBENS Ruth Gordon",
+   "team": "CAN",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 30
+  },
+  {
+   "row": 440,
+   "seat": "ICF_ID1",
+   "printed_name": "O´HARA Claire",
+   "team": "GBR",
+   "event": "K1SW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 86
+  },
+  {
+   "row": 442,
+   "seat": "ICF_ID1",
+   "printed_name": "HALAŠOVÁ Nina",
+   "team": "SVK",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 46
+  },
+  {
+   "row": 443,
+   "seat": "ICF_ID1",
+   "printed_name": "SUURSEPPAE Paula",
+   "team": "FIN",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 32
+  },
+  {
+   "row": 445,
+   "seat": "ICF_ID1",
+   "printed_name": "ANDERSON Sam",
+   "team": "GBR",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 179
+  },
+  {
+   "row": 446,
+   "seat": "ICF_ID1",
+   "printed_name": "CHAPPELL Adam",
+   "team": "CAN",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 169
+  },
+  {
+   "row": 448,
+   "seat": "ICF_ID1",
+   "printed_name": "VOHRADSKY Stepan",
+   "team": "CZE",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 160
+  },
+  {
+   "row": 450,
+   "seat": "ICF_ID1",
+   "printed_name": "ANDERSON Sam",
+   "team": "GBR",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 179
+  },
+  {
+   "row": 451,
+   "seat": "ICF_ID1",
+   "printed_name": "CHAPPELL Adam",
+   "team": "CAN",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 169
+  },
+  {
+   "row": 453,
+   "seat": "ICF_ID1",
+   "printed_name": "VOHRADSKY Stepan",
+   "team": "CZE",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 160
+  },
+  {
+   "row": 455,
+   "seat": "ICF_ID1",
+   "printed_name": "ANDERSON Sam",
+   "team": "GBR",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 179
+  },
+  {
+   "row": 456,
+   "seat": "ICF_ID1",
+   "printed_name": "CHAPPELL Adam",
+   "team": "CAN",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 169
+  },
+  {
+   "row": 458,
+   "seat": "ICF_ID1",
+   "printed_name": "VOHRADSKY Stepan",
+   "team": "CZE",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 160
+  },
+  {
+   "row": 460,
+   "seat": "ICF_ID1",
+   "printed_name": "WEIGHT James",
+   "team": "GBR",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 200
+  },
+  {
+   "row": 462,
+   "seat": "ICF_ID1",
+   "printed_name": "BRADLEY Joe",
+   "team": "GBR",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 229
+  },
+  {
+   "row": 463,
+   "seat": "ICF_ID1",
+   "printed_name": "STROHMEIER Seppi",
+   "team": "GER",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 109
+  },
+  {
+   "row": 465,
+   "seat": "ICF_ID1",
+   "printed_name": "WEIGHT James",
+   "team": "GBR",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 200
+  },
+  {
+   "row": 467,
+   "seat": "ICF_ID1",
+   "printed_name": "BRADLEY Joe",
+   "team": "GBR",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 229
+  },
+  {
+   "row": 468,
+   "seat": "ICF_ID1",
+   "printed_name": "STROHMEIER Seppi",
+   "team": "GER",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 109
+  },
+  {
+   "row": 470,
+   "seat": "ICF_ID1",
+   "printed_name": "WEIGHT James",
+   "team": "GBR",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 200
+  },
+  {
+   "row": 472,
+   "seat": "ICF_ID1",
+   "printed_name": "BRADLEY Joe",
+   "team": "GBR",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 229
+  },
+  {
+   "row": 473,
+   "seat": "ICF_ID1",
+   "printed_name": "STROHMEIER Seppi",
+   "team": "GER",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 109
+  },
+  {
+   "row": 474,
+   "seat": "ICF_ID1",
+   "printed_name": "SERRASOLSES Gerd",
+   "team": "ESP",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 119
+  },
+  {
+   "row": 477,
+   "seat": "ICF_ID1",
+   "printed_name": "GOIKOETXEA Gorka",
+   "team": "ESP",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 237
+  },
+  {
+   "row": 478,
+   "seat": "ICF_ID1",
+   "printed_name": "SPINDLER Jan",
+   "team": "CZE",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 249
+  },
+  {
+   "row": 479,
+   "seat": "ICF_ID1",
+   "printed_name": "SERRASOLSES Gerd",
+   "team": "ESP",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 119
+  },
+  {
+   "row": 482,
+   "seat": "ICF_ID1",
+   "printed_name": "GOIKOETXEA Gorka",
+   "team": "ESP",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 237
+  },
+  {
+   "row": 483,
+   "seat": "ICF_ID1",
+   "printed_name": "SPINDLER Jan",
+   "team": "CZE",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 249
+  },
+  {
+   "row": 484,
+   "seat": "ICF_ID1",
+   "printed_name": "SERRASOLSES Gerd",
+   "team": "ESP",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 119
+  },
+  {
+   "row": 487,
+   "seat": "ICF_ID1",
+   "printed_name": "GOIKOETXEA Gorka",
+   "team": "ESP",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 237
+  },
+  {
+   "row": 488,
+   "seat": "ICF_ID1",
+   "printed_name": "SPINDLER Jan",
+   "team": "CZE",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 249
+  },
+  {
+   "row": 489,
+   "seat": "ICF_ID1",
+   "printed_name": "URBAN Dustin",
+   "team": "USA",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 127
+  },
+  {
+   "row": 490,
+   "seat": "ICF_ID1",
+   "printed_name": "STROHMEIER Simon",
+   "team": "GER",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 156
+  },
+  {
+   "row": 492,
+   "seat": "ICF_ID1",
+   "printed_name": "CAILLEUX Quentin",
+   "team": "FRA",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 208
+  },
+  {
+   "row": 494,
+   "seat": "ICF_ID1",
+   "printed_name": "URBAN Dustin",
+   "team": "USA",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 127
+  },
+  {
+   "row": 495,
+   "seat": "ICF_ID1",
+   "printed_name": "STROHMEIER Simon",
+   "team": "GER",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 156
+  },
+  {
+   "row": 497,
+   "seat": "ICF_ID1",
+   "printed_name": "CAILLEUX Quentin",
+   "team": "FRA",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 208
+  },
+  {
+   "row": 499,
+   "seat": "ICF_ID1",
+   "printed_name": "URBAN Dustin",
+   "team": "USA",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 127
+  },
+  {
+   "row": 500,
+   "seat": "ICF_ID1",
+   "printed_name": "STROHMEIER Simon",
+   "team": "GER",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 156
+  },
+  {
+   "row": 502,
+   "seat": "ICF_ID1",
+   "printed_name": "CAILLEUX Quentin",
+   "team": "FRA",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 208
+  },
+  {
+   "row": 505,
+   "seat": "ICF_ID1",
+   "printed_name": "TROUTMAN Nick",
+   "team": "CAN",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 236
+  },
+  {
+   "row": 510,
+   "seat": "ICF_ID1",
+   "printed_name": "TROUTMAN Nick",
+   "team": "CAN",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 236
+  },
+  {
+   "row": 515,
+   "seat": "ICF_ID1",
+   "printed_name": "TROUTMAN Nick",
+   "team": "CAN",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 236
+  },
+  {
+   "row": 520,
+   "seat": "ICF_ID1",
+   "printed_name": "MCKEE Bob",
+   "team": "GBR",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 262
+  },
+  {
+   "row": 521,
+   "seat": "ICF_ID1",
+   "printed_name": "KING Paul",
+   "team": "GBR",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 259
+  },
+  {
+   "row": 522,
+   "seat": "ICF_ID1",
+   "printed_name": "TANABE Kazuhiro",
+   "team": "JPN",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 271
+  },
+  {
+   "row": 523,
+   "seat": "ICF_ID1",
+   "printed_name": "MATSUI Jun",
+   "team": "JPN",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 272
+  },
+  {
+   "row": 524,
+   "seat": "ICF_ID1",
+   "printed_name": "BREU Martin",
+   "team": "CAN",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 275
+  },
+  {
+   "row": 526,
+   "seat": "ICF_ID1",
+   "printed_name": "MCKEE Bob",
+   "team": "GBR",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 262
+  },
+  {
+   "row": 527,
+   "seat": "ICF_ID1",
+   "printed_name": "KING Paul",
+   "team": "GBR",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 259
+  },
+  {
+   "row": 528,
+   "seat": "ICF_ID1",
+   "printed_name": "TANABE Kazuhiro",
+   "team": "JPN",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 271
+  },
+  {
+   "row": 529,
+   "seat": "ICF_ID1",
+   "printed_name": "MATSUI Jun",
+   "team": "JPN",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 272
+  },
+  {
+   "row": 530,
+   "seat": "ICF_ID1",
+   "printed_name": "BREU Martin",
+   "team": "CAN",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 275
+  },
+  {
+   "row": 531,
+   "seat": "ICF_ID1",
+   "printed_name": "ARETA Odei",
+   "team": "ESP",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 270
+  },
+  {
+   "row": 532,
+   "seat": "ICF_ID1",
+   "printed_name": "HUETHER Tobias",
+   "team": "GER",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 261
+  },
+  {
+   "row": 534,
+   "seat": "ICF_ID1",
+   "printed_name": "HELBERT Eli",
+   "team": "USA",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 260
+  },
+  {
+   "row": 537,
+   "seat": "ICF_ID1",
+   "printed_name": "ARETA Odei",
+   "team": "ESP",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 270
+  },
+  {
+   "row": 538,
+   "seat": "ICF_ID1",
+   "printed_name": "HUETHER Tobias",
+   "team": "GER",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 261
+  },
+  {
+   "row": 540,
+   "seat": "ICF_ID1",
+   "printed_name": "HELBERT Eli",
+   "team": "USA",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 260
+  },
+  {
+   "row": 544,
+   "seat": "ICF_ID1",
+   "printed_name": "HUMMEL Markus",
+   "team": "GER",
+   "event": "C1",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 57
+  },
+  {
+   "row": 547,
+   "seat": "ICF_ID1",
+   "printed_name": "SUC Jonathan",
+   "team": "FRA",
+   "event": "C1",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 62
+  },
+  {
+   "row": 549,
+   "seat": "ICF_ID1",
+   "printed_name": "HUMMEL Markus",
+   "team": "GER",
+   "event": "C1",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 57
+  },
+  {
+   "row": 552,
+   "seat": "ICF_ID1",
+   "printed_name": "SUC Jonathan",
+   "team": "FRA",
+   "event": "C1",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 62
+  },
+  {
+   "row": 553,
+   "seat": "ICF_ID1",
+   "printed_name": "JUANIKORENA Igor",
+   "team": "ESP",
+   "event": "C1",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 48
+  },
+  {
+   "row": 558,
+   "seat": "ICF_ID1",
+   "printed_name": "JUANIKORENA Igor",
+   "team": "ESP",
+   "event": "C1",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 48
+  },
+  {
+   "row": 565,
+   "seat": "ICF_ID1",
+   "printed_name": "OLNES Kari",
+   "team": "NOR",
+   "event": "K1JW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 294
+  },
+  {
+   "row": 566,
+   "seat": "ICF_ID1",
+   "printed_name": "CARRANZA Teresa",
+   "team": "ESP",
+   "event": "K1JW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 286
+  },
+  {
+   "row": 567,
+   "seat": "ICF_ID1",
+   "printed_name": "RIST Anne",
+   "team": "GER",
+   "event": "K1JW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 292
+  },
+  {
+   "row": 570,
+   "seat": "ICF_ID1",
+   "printed_name": "OLNES Kari",
+   "team": "NOR",
+   "event": "K1JW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 294
+  },
+  {
+   "row": 571,
+   "seat": "ICF_ID1",
+   "printed_name": "CARRANZA Teresa",
+   "team": "ESP",
+   "event": "K1JW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 286
+  },
+  {
+   "row": 572,
+   "seat": "ICF_ID1",
+   "printed_name": "RIST Anne",
+   "team": "GER",
+   "event": "K1JW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 292
+  },
+  {
+   "row": 573,
+   "seat": "ICF_ID1",
+   "printed_name": "BURRESS Lauren",
+   "team": "USA",
+   "event": "K1JW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 309
+  },
+  {
+   "row": 575,
+   "seat": "ICF_ID1",
+   "printed_name": "BATES Gabby",
+   "team": "GBR",
+   "event": "K1JW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 297
+  },
+  {
+   "row": 577,
+   "seat": "ICF_ID1",
+   "printed_name": "KERTESZ Hannah",
+   "team": "USA",
+   "event": "K1JW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 306
+  },
+  {
+   "row": 578,
+   "seat": "ICF_ID1",
+   "printed_name": "BURRESS Lauren",
+   "team": "USA",
+   "event": "K1JW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 309
+  },
+  {
+   "row": 580,
+   "seat": "ICF_ID1",
+   "printed_name": "BATES Gabby",
+   "team": "GBR",
+   "event": "K1JW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 297
+  },
+  {
+   "row": 582,
+   "seat": "ICF_ID1",
+   "printed_name": "KERTESZ Hannah",
+   "team": "USA",
+   "event": "K1JW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 306
+  },
+  {
+   "row": 583,
+   "seat": "ICF_ID1",
+   "printed_name": "BENNS James",
+   "team": "GBR",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 348
+  },
+  {
+   "row": 584,
+   "seat": "ICF_ID1",
+   "printed_name": "ORTON Bren",
+   "team": "GBR",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 316
+  },
+  {
+   "row": 585,
+   "seat": "ICF_ID1",
+   "printed_name": "HASSELWANDER Michel",
+   "team": "GER",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 337
+  },
+  {
+   "row": 586,
+   "seat": "ICF_ID1",
+   "printed_name": "BRETT William",
+   "team": "IRL",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 379
+  },
+  {
+   "row": 587,
+   "seat": "ICF_ID1",
+   "printed_name": "TONOZZI Dominic",
+   "team": "USA",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 338
+  },
+  {
+   "row": 588,
+   "seat": "ICF_ID1",
+   "printed_name": "BENNS James",
+   "team": "GBR",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 348
+  },
+  {
+   "row": 589,
+   "seat": "ICF_ID1",
+   "printed_name": "ORTON Bren",
+   "team": "GBR",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 316
+  },
+  {
+   "row": 590,
+   "seat": "ICF_ID1",
+   "printed_name": "HASSELWANDER Michel",
+   "team": "GER",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 337
+  },
+  {
+   "row": 591,
+   "seat": "ICF_ID1",
+   "printed_name": "BRETT William",
+   "team": "IRL",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 379
+  },
+  {
+   "row": 592,
+   "seat": "ICF_ID1",
+   "printed_name": "TONOZZI Dominic",
+   "team": "USA",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 338
+  },
+  {
+   "row": 595,
+   "seat": "ICF_ID1",
+   "printed_name": "VAELIAHDET Teemu",
+   "team": "FIN",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 376
+  },
+  {
+   "row": 597,
+   "seat": "ICF_ID1",
+   "printed_name": "SALVAT Aleix",
+   "team": "ESP",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 328
+  },
+  {
+   "row": 600,
+   "seat": "ICF_ID1",
+   "printed_name": "VAELIAHDET Teemu",
+   "team": "FIN",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 376
+  },
+  {
+   "row": 602,
+   "seat": "ICF_ID1",
+   "printed_name": "SALVAT Aleix",
+   "team": "ESP",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 328
+  },
+  {
+   "row": 603,
+   "seat": "ICF_ID1",
+   "printed_name": "HALAŠOVÁ Nina",
+   "team": "SVK",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 46
+  },
+  {
+   "row": 604,
+   "seat": "ICF_ID1",
+   "printed_name": "MILLS Haley",
+   "team": "USA",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 28
+  },
+  {
+   "row": 607,
+   "seat": "ICF_ID1",
+   "printed_name": "HUEBNER Anne",
+   "team": "GER",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 6
+  },
+  {
+   "row": 608,
+   "seat": "ICF_ID1",
+   "printed_name": "HALAŠOVÁ Nina",
+   "team": "SVK",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 46
+  },
+  {
+   "row": 609,
+   "seat": "ICF_ID1",
+   "printed_name": "MILLS Haley",
+   "team": "USA",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 28
+  },
+  {
+   "row": 612,
+   "seat": "ICF_ID1",
+   "printed_name": "HUEBNER Anne",
+   "team": "GER",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 6
+  },
+  {
+   "row": 614,
+   "seat": "ICF_ID1",
+   "printed_name": "O´HARA Claire",
+   "team": "GBR",
+   "event": "K1SW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 86
+  },
+  {
+   "row": 615,
+   "seat": "ICF_ID1",
+   "printed_name": "EBENS Ruth Gordon",
+   "team": "CAN",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 30
+  },
+  {
+   "row": 616,
+   "seat": "ICF_ID1",
+   "printed_name": "WALL Emily",
+   "team": "GBR",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 20
+  },
+  {
+   "row": 619,
+   "seat": "ICF_ID1",
+   "printed_name": "O´HARA Claire",
+   "team": "GBR",
+   "event": "K1SW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 86
+  },
+  {
+   "row": 620,
+   "seat": "ICF_ID1",
+   "printed_name": "EBENS Ruth Gordon",
+   "team": "CAN",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 30
+  },
+  {
+   "row": 621,
+   "seat": "ICF_ID1",
+   "printed_name": "WALL Emily",
+   "team": "GBR",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 20
+  },
+  {
+   "row": 624,
+   "seat": "ICF_ID1",
+   "printed_name": "WEIGHT James",
+   "team": "GBR",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 200
+  },
+  {
+   "row": 625,
+   "seat": "ICF_ID1",
+   "printed_name": "SERRASOLSES Gerd",
+   "team": "ESP",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 119
+  },
+  {
+   "row": 629,
+   "seat": "ICF_ID1",
+   "printed_name": "WEIGHT James",
+   "team": "GBR",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 200
+  },
+  {
+   "row": 630,
+   "seat": "ICF_ID1",
+   "printed_name": "SERRASOLSES Gerd",
+   "team": "ESP",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 119
+  },
+  {
+   "row": 633,
+   "seat": "ICF_ID1",
+   "printed_name": "STROHMEIER Simon",
+   "team": "GER",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 156
+  },
+  {
+   "row": 634,
+   "seat": "ICF_ID1",
+   "printed_name": "TROUTMAN Nick",
+   "team": "CAN",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 236
+  },
+  {
+   "row": 635,
+   "seat": "ICF_ID1",
+   "printed_name": "URBAN Dustin",
+   "team": "USA",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 127
+  },
+  {
+   "row": 638,
+   "seat": "ICF_ID1",
+   "printed_name": "STROHMEIER Simon",
+   "team": "GER",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 156
+  },
+  {
+   "row": 639,
+   "seat": "ICF_ID1",
+   "printed_name": "TROUTMAN Nick",
+   "team": "CAN",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 236
+  },
+  {
+   "row": 640,
+   "seat": "ICF_ID1",
+   "printed_name": "URBAN Dustin",
+   "team": "USA",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 127
+  },
+  {
+   "row": 645,
+   "seat": "ICF_ID1",
+   "printed_name": "ISHIHARA Toru",
+   "team": "JPN",
+   "event": "K1SM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 68
+  },
+  {
+   "row": 650,
+   "seat": "ICF_ID1",
+   "printed_name": "ISHIHARA Toru",
+   "team": "JPN",
+   "event": "K1SM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 68
+  },
+  {
+   "row": 655,
+   "seat": "ICF_ID1",
+   "printed_name": "KEMP Colin",
+   "team": "USA",
+   "event": "K1SM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 75
+  },
+  {
+   "row": 660,
+   "seat": "ICF_ID1",
+   "printed_name": "KEMP Colin",
+   "team": "USA",
+   "event": "K1SM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 75
+  },
+  {
+   "row": 663,
+   "seat": "ICF_ID1",
+   "printed_name": "TURNER Lou",
+   "team": "GBR",
+   "event": "K1SW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 91
+  },
+  {
+   "row": 664,
+   "seat": "ICF_ID1",
+   "printed_name": "BARKER Devon",
+   "team": "USA",
+   "event": "K1SW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 92
+  },
+  {
+   "row": 665,
+   "seat": "ICF_ID1",
+   "printed_name": "CROSBIE Islay",
+   "team": "GBR",
+   "event": "K1SW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 94
+  },
+  {
+   "row": 667,
+   "seat": "ICF_ID1",
+   "printed_name": "O´HARA Claire",
+   "team": "GBR",
+   "event": "K1SW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 86
+  },
+  {
+   "row": 668,
+   "seat": "ICF_ID1",
+   "printed_name": "TURNER Lou",
+   "team": "GBR",
+   "event": "K1SW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 91
+  },
+  {
+   "row": 669,
+   "seat": "ICF_ID1",
+   "printed_name": "BARKER Devon",
+   "team": "USA",
+   "event": "K1SW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 92
+  },
+  {
+   "row": 670,
+   "seat": "ICF_ID1",
+   "printed_name": "CROSBIE Islay",
+   "team": "GBR",
+   "event": "K1SW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 94
+  },
+  {
+   "row": 672,
+   "seat": "ICF_ID1",
+   "printed_name": "O´HARA Claire",
+   "team": "GBR",
+   "event": "K1SW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 86
+  },
+  {
+   "row": 673,
+   "seat": "ICF_ID1",
+   "printed_name": "TURNER Lou",
+   "team": "GBR",
+   "event": "K1SW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 91
+  },
+  {
+   "row": 674,
+   "seat": "ICF_ID1",
+   "printed_name": "BARKER Devon",
+   "team": "USA",
+   "event": "K1SW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 92
+  },
+  {
+   "row": 675,
+   "seat": "ICF_ID1",
+   "printed_name": "CROSBIE Islay",
+   "team": "GBR",
+   "event": "K1SW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 94
+  },
+  {
+   "row": 677,
+   "seat": "ICF_ID1",
+   "printed_name": "O´HARA Claire",
+   "team": "GBR",
+   "event": "K1SW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 86
+  },
+  {
+   "row": 679,
+   "seat": "ICF_ID1",
+   "printed_name": "KEMP Colin",
+   "team": "USA",
+   "event": "K1SM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 75
+  },
+  {
+   "row": 680,
+   "seat": "ICF_ID1",
+   "printed_name": "ISHIHARA Toru",
+   "team": "JPN",
+   "event": "K1SM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 68
+  },
+  {
+   "row": 684,
+   "seat": "ICF_ID1",
+   "printed_name": "KEMP Colin",
+   "team": "USA",
+   "event": "K1SM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 75
+  },
+  {
+   "row": 685,
+   "seat": "ICF_ID1",
+   "printed_name": "ISHIHARA Toru",
+   "team": "JPN",
+   "event": "K1SM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 68
+  },
+  {
+   "row": 689,
+   "seat": "ICF_ID1",
+   "printed_name": "KEMP Colin",
+   "team": "USA",
+   "event": "K1SM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 75
+  },
+  {
+   "row": 690,
+   "seat": "ICF_ID1",
+   "printed_name": "ISHIHARA Toru",
+   "team": "JPN",
+   "event": "K1SM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 68
+  },
+  {
+   "row": 693,
+   "seat": "ICF_ID1",
+   "printed_name": "HELBERT Eli",
+   "team": "USA",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 260
+  },
+  {
+   "row": 696,
+   "seat": "ICF_ID1",
+   "printed_name": "HUETHER Tobias",
+   "team": "GER",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 261
+  },
+  {
+   "row": 697,
+   "seat": "ICF_ID1",
+   "printed_name": "ARETA Odei",
+   "team": "ESP",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 270
+  },
+  {
+   "row": 698,
+   "seat": "ICF_ID1",
+   "printed_name": "HELBERT Eli",
+   "team": "USA",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 260
+  },
+  {
+   "row": 701,
+   "seat": "ICF_ID1",
+   "printed_name": "HUETHER Tobias",
+   "team": "GER",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 261
+  },
+  {
+   "row": 702,
+   "seat": "ICF_ID1",
+   "printed_name": "ARETA Odei",
+   "team": "ESP",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 270
+  },
+  {
+   "row": 703,
+   "seat": "ICF_ID1",
+   "printed_name": "HELBERT Eli",
+   "team": "USA",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 260
+  },
+  {
+   "row": 706,
+   "seat": "ICF_ID1",
+   "printed_name": "HUETHER Tobias",
+   "team": "GER",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 261
+  },
+  {
+   "row": 707,
+   "seat": "ICF_ID1",
+   "printed_name": "ARETA Odei",
+   "team": "ESP",
+   "event": "OC",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 270
+  },
+  {
+   "row": 708,
+   "seat": "ICF_ID1",
+   "printed_name": "BATES Gabby",
+   "team": "GBR",
+   "event": "K1JW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 297
+  },
+  {
+   "row": 711,
+   "seat": "ICF_ID1",
+   "printed_name": "BURRESS Lauren",
+   "team": "USA",
+   "event": "K1JW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 309
+  },
+  {
+   "row": 713,
+   "seat": "ICF_ID1",
+   "printed_name": "BATES Gabby",
+   "team": "GBR",
+   "event": "K1JW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 297
+  },
+  {
+   "row": 716,
+   "seat": "ICF_ID1",
+   "printed_name": "BURRESS Lauren",
+   "team": "USA",
+   "event": "K1JW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 309
+  },
+  {
+   "row": 718,
+   "seat": "ICF_ID1",
+   "printed_name": "BATES Gabby",
+   "team": "GBR",
+   "event": "K1JW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 297
+  },
+  {
+   "row": 721,
+   "seat": "ICF_ID1",
+   "printed_name": "BURRESS Lauren",
+   "team": "USA",
+   "event": "K1JW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 309
+  },
+  {
+   "row": 726,
+   "seat": "ICF_ID1",
+   "printed_name": "JUANIKORENA Igor",
+   "team": "ESP",
+   "event": "C1",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 48
+  },
+  {
+   "row": 731,
+   "seat": "ICF_ID1",
+   "printed_name": "JUANIKORENA Igor",
+   "team": "ESP",
+   "event": "C1",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 48
+  },
+  {
+   "row": 736,
+   "seat": "ICF_ID1",
+   "printed_name": "JUANIKORENA Igor",
+   "team": "ESP",
+   "event": "C1",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 48
+  },
+  {
+   "row": 738,
+   "seat": "ICF_ID1",
+   "printed_name": "ORTON Bren",
+   "team": "GBR",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 316
+  },
+  {
+   "row": 739,
+   "seat": "ICF_ID1",
+   "printed_name": "VAELIAHDET Teemu",
+   "team": "FIN",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 376
+  },
+  {
+   "row": 740,
+   "seat": "ICF_ID1",
+   "printed_name": "BENNS James",
+   "team": "GBR",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 348
+  },
+  {
+   "row": 743,
+   "seat": "ICF_ID1",
+   "printed_name": "ORTON Bren",
+   "team": "GBR",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 316
+  },
+  {
+   "row": 744,
+   "seat": "ICF_ID1",
+   "printed_name": "VAELIAHDET Teemu",
+   "team": "FIN",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 376
+  },
+  {
+   "row": 745,
+   "seat": "ICF_ID1",
+   "printed_name": "BENNS James",
+   "team": "GBR",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 348
+  },
+  {
+   "row": 748,
+   "seat": "ICF_ID1",
+   "printed_name": "ORTON Bren",
+   "team": "GBR",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 316
+  },
+  {
+   "row": 749,
+   "seat": "ICF_ID1",
+   "printed_name": "VAELIAHDET Teemu",
+   "team": "FIN",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 376
+  },
+  {
+   "row": 750,
+   "seat": "ICF_ID1",
+   "printed_name": "BENNS James",
+   "team": "GBR",
+   "event": "K1JM",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 348
+  },
+  {
+   "row": 753,
+   "seat": "ICF_ID1",
+   "printed_name": "MILLS Haley",
+   "team": "USA",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 28
+  },
+  {
+   "row": 754,
+   "seat": "ICF_ID1",
+   "printed_name": "HALAŠOVÁ Nina",
+   "team": "SVK",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 46
+  },
+  {
+   "row": 755,
+   "seat": "ICF_ID1",
+   "printed_name": "EBENS Ruth Gordon",
+   "team": "CAN",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 30
+  },
+  {
+   "row": 756,
+   "seat": "ICF_ID1",
+   "printed_name": "O´HARA Claire",
+   "team": "GBR",
+   "event": "K1SW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 86
+  },
+  {
+   "row": 758,
+   "seat": "ICF_ID1",
+   "printed_name": "MILLS Haley",
+   "team": "USA",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 28
+  },
+  {
+   "row": 759,
+   "seat": "ICF_ID1",
+   "printed_name": "HALAŠOVÁ Nina",
+   "team": "SVK",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 46
+  },
+  {
+   "row": 760,
+   "seat": "ICF_ID1",
+   "printed_name": "EBENS Ruth Gordon",
+   "team": "CAN",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 30
+  },
+  {
+   "row": 761,
+   "seat": "ICF_ID1",
+   "printed_name": "O´HARA Claire",
+   "team": "GBR",
+   "event": "K1SW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 86
+  },
+  {
+   "row": 763,
+   "seat": "ICF_ID1",
+   "printed_name": "MILLS Haley",
+   "team": "USA",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 28
+  },
+  {
+   "row": 764,
+   "seat": "ICF_ID1",
+   "printed_name": "HALAŠOVÁ Nina",
+   "team": "SVK",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 46
+  },
+  {
+   "row": 765,
+   "seat": "ICF_ID1",
+   "printed_name": "EBENS Ruth Gordon",
+   "team": "CAN",
+   "event": "K1W",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 30
+  },
+  {
+   "row": 766,
+   "seat": "ICF_ID1",
+   "printed_name": "O´HARA Claire",
+   "team": "GBR",
+   "event": "K1SW",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 86
+  },
+  {
+   "row": 769,
+   "seat": "ICF_ID1",
+   "printed_name": "SERRASOLSES Gerd",
+   "team": "ESP",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 119
+  },
+  {
+   "row": 771,
+   "seat": "ICF_ID1",
+   "printed_name": "TROUTMAN Nick",
+   "team": "CAN",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 236
+  },
+  {
+   "row": 774,
+   "seat": "ICF_ID1",
+   "printed_name": "SERRASOLSES Gerd",
+   "team": "ESP",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 119
+  },
+  {
+   "row": 776,
+   "seat": "ICF_ID1",
+   "printed_name": "TROUTMAN Nick",
+   "team": "CAN",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 236
+  },
+  {
+   "row": 779,
+   "seat": "ICF_ID1",
+   "printed_name": "SERRASOLSES Gerd",
+   "team": "ESP",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 119
+  },
+  {
+   "row": 781,
+   "seat": "ICF_ID1",
+   "printed_name": "TROUTMAN Nick",
+   "team": "CAN",
+   "event": "K1M",
+   "action": "no_candidate",
+   "new_id": "",
+   "detail": "",
+   "boat_entry_row": 236
   }
  ],
  "id_summary": {
-  "no_candidate": 142,
-  "bound_by_name_unconfirmed": 91,
-  "ambiguous": 5
+  "no_candidate": 438,
+  "bound_by_name_unconfirmed": 88,
+  "no_icf_id": 13,
+  "ambiguous": 2
  },
  "pending_maintainer": [
   "FAIL SCHEDULE_MISSING: most prelim/quarter/semi heats carry only a programme block start (logged in block_times); contract says hold heat block times and ask - ship as FAIL or hold?",
@@ -3741,5 +7116,98 @@
   "heat": 145,
   "block": 631,
   "boat": 5
- }
+ },
+ "corrections_log": [
+  {
+   "printed_name": "BUROV Mikhail",
+   "team": "RUS",
+   "seat": "ICF_ID1",
+   "old_id": "130128",
+   "new_id": "",
+   "reason": "database names 130128 BURKOV Mikhail, born 2004-06-27 (aged 6 on 2011-06-21), federation UAE; printed surname BUROV (K1M22-06-2011.pdf, Startliste_K1M.pdf, All-Results-WCS-2011.pdf) is not his; PWW profile lists only 2023 sprint; no athlete named BUROV Mikhail in the database",
+   "at": "2026-11-17T01:17:37Z"
+  },
+  {
+   "printed_name": "SANDBERG David",
+   "team": "SWE",
+   "seat": "ICF_ID1",
+   "old_id": "93932",
+   "new_id": "",
+   "reason": "database names 93932 LINDBERG Arvid, born 2002-03-01 (aged 9); neither printed name is his; PWW profile lists only 2019",
+   "at": "2026-11-17T01:17:37Z"
+  },
+  {
+   "printed_name": "O´BRAONAIN Ronan",
+   "team": "IRL",
+   "seat": "ICF_ID1",
+   "old_id": "83338",
+   "new_id": "",
+   "reason": "database names 83338 O'REGAN Stewart; neither printed name is his; PWW profile lists no result",
+   "at": "2026-11-17T01:17:37Z"
+  },
+  {
+   "printed_name": "VAN KALMTHOUT Casper",
+   "team": "NED",
+   "seat": "ICF_ID1",
+   "old_id": "145490",
+   "new_id": "",
+   "reason": "database names 145490 VAN LAER Cas, born 2006-12-03 (aged 4); printed surname is not his; PWW profile lists no result",
+   "at": "2026-11-17T01:17:37Z"
+  },
+  {
+   "printed_name": "LISKA Jan",
+   "team": "CZE",
+   "seat": "ICF_ID1",
+   "old_id": "36112",
+   "new_id": "",
+   "reason": "database names 36112 RASKA Jan, born 1995-06-30; printed surname LISKA is not his (contract: a candidate whose family name does not contain the printed surname is rejected); PWW profile lists no result",
+   "at": "2026-11-17T01:17:37Z"
+  },
+  {
+   "printed_name": "DAUB Sara-Jane",
+   "team": "CAN",
+   "seat": "ICF_ID1",
+   "old_id": "42884",
+   "new_id": "",
+   "reason": "database names 42884 CAUMARTIN Sara-Jane; printed surname DAUB is not hers, no former name DAUB in names.json, and her PWW profile (2013-2014 only) does not list this meeting (contract rule 5 keeps a name change only when it does)",
+   "at": "2026-11-17T01:17:37Z"
+  },
+  {
+   "printed_name": "FARRELL Caoimhe",
+   "team": "IRL",
+   "seat": "ICF_ID1",
+   "old_id": "61007",
+   "new_id": "",
+   "reason": "database names 61007 O'FERRALL Caoimhe, born 1997-12-04 (aged 13 on 2011-06-21, under 14) and printed surname FARRELL is not hers; PWW profile (2015-2019) does not list this meeting (contract RU168 ruling 8)",
+   "at": "2026-11-17T01:17:37Z"
+  },
+  {
+   "printed_name": "CSONKA Peter",
+   "team": "SVK",
+   "seat": "ICF_ID1",
+   "old_id": "",
+   "new_id": "42899",
+   "reason": "exact name+NOC: CSONKA Peter (born 1985-01-29, SVK) is the only athlete of SVK carrying both printed names; earlier candidate 37078 is SOSKA Peter (printed surname not his); PWW profile lists freestyle Worlds/World Cups (2024-2025), not 2011",
+   "at": "2026-11-17T01:17:37Z"
+  },
+  {
+   "printed_name": "VASIN Konstantin",
+   "team": "RUS",
+   "seat": "ICF_ID1",
+   "old_id": "",
+   "new_id": "53220",
+   "reason": "exact name+NOC: VASIN Konstantin (born 1973-04-20, RUS) is the only athlete of RUS carrying both printed names; earlier candidate 75457 is VANIN Konstantin, born 2000 (printed surname not his); PWW profile lists 2014 freestyle World Cups 1-3, not 2011",
+   "at": "2026-11-17T01:17:37Z"
+  },
+  {
+   "printed_name": "WEGMAN Martina",
+   "team": "NED",
+   "seat": "ICF_ID1",
+   "old_id": "",
+   "new_id": "165253",
+   "reason": "exact name+NOC: 35345 and 165253 are both WEGMAN Martina, born 1989-06-13, nationality NED, gender W - one athlete (contract rule 1); neither profile lists this meeting, so the record with the more recent results (165253: 2026; 35345: to 2024) is bound",
+   "at": "2026-11-17T01:17:37Z"
+  }
+ ],
+ "id_checks_note": "One id_checks entry per row whose ICF_ID1 is empty (gate 6); entries added on 2026-11-17 copy their boat's first entry and name it in boat_entry_row."
 }
