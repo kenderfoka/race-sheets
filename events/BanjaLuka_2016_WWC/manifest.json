@@ -12,13 +12,13 @@
  "gaps": [
   "icf_ids_incomplete"
  ],
- "generated_at_utc": "2026-11-16T14:25:26Z",
- "updated_at": "2026-11-16T14:25:26Z",
+ "generated_at_utc": "2026-11-18T00:14:12Z",
+ "updated_at": "2026-11-18T00:14:12Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "BanjaLuka_2016_WWC_start.xlsx",
-   "sha256": "2a02d587d7cda2af1cdc72f4e070ec20af1370c1f0056b46f7e71f9d57ba1bf2"
+   "sha256": "2ea6a750272b45a525a081b6e5459a19e58790cdf80ebd126ada356b3b1549d5"
   }
  ],
  "row_count": 559,
@@ -628,6 +628,13 @@
     150
    ],
    "atos_only": []
+  },
+  {
+   "ctx": "Men's C2 SPRINT SENIOR Heats 1",
+   "bib": 150,
+   "atos": [],
+   "pdf": "SAVIC Darko / PASIC Goran",
+   "note": "crew printed only by the results PDF (DNS block, p.4); the ICF results system start list (ZZR151A) and results (ZZR173A) of this heat carry no bib 150 (order 21 absent); results PDF wins (contract); SAVIC Darko is printed in bib 148 (row 446) and bib 150 (row 448) of this heat, both DNS; both rows kept as printed"
   }
  ],
  "id_checks": [
@@ -5727,6 +5734,26 @@
    "detail": "name+nation+gender match; profile lists 2016 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT Men"
   },
   {
+   "row": 448,
+   "seat": "ICF_ID1",
+   "printed_name": "SAVIC Darko",
+   "published_id": "41404",
+   "source": "official results PDF sprint_ind_Results_Q1.pdf p.4 (DNS block: \"150 Darko SAVIC PASIC Goran BIH\"; release copy sha256 d862d3ab…) + same-meeting bind (contract rule 7) + athlete database fetchApi/bence + paddleworldwide.com/athlete/<id>",
+   "action": "kept",
+   "detail": "crew printed by the results PDF, which outranks the ICF results system for crew (contract line 95); ICF results system start list and results for this heat carry no bib 150; same-meeting bind: SAVIC Darko BIH kept as 41404 on rows 117, 143, 190, 198, 319, 421, 446, 529; athlete database has exactly one SAVIC Darko (41404, M, BIH, born 1991-11-10); PWW profile 41404 HTTP 200 lists 2016 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C2 SPRINT Men; same athlete also printed in bib 148 (row 446) of this heat, both DNS, logged in issues",
+   "same_meeting_bind": true
+  },
+  {
+   "row": 448,
+   "seat": "ICF_ID2",
+   "printed_name": "PASIC Goran",
+   "published_id": "70611",
+   "source": "official results PDF sprint_ind_Results_Q1.pdf p.4 (DNS block: \"150 Darko SAVIC PASIC Goran BIH\"; release copy sha256 d862d3ab…) + same-meeting bind (contract rule 7) + athlete database fetchApi/bence + paddleworldwide.com/athlete/<id>",
+   "action": "kept",
+   "detail": "crew printed by the results PDF, which outranks the ICF results system for crew (contract line 95); ICF results system start list and results for this heat carry no bib 150; same-meeting bind: PASIC Goran BIH kept as 70611 on rows 4, 145, 198, 206, 328; athlete database has exactly one PASIC Goran (70611, M, federation BIH, born 1990-05-01); PWW profile 70611 HTTP 200 lists 2016 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS (C1 SPRINT Men, C2 CLASSIC Men) but not C2 SPRINT Men; same id across a meeting wins over the profile check (contract rule 7)",
+   "same_meeting_bind": true
+  },
+  {
    "row": 449,
    "seat": "ICF_ID1",
    "printed_name": "MILIHRAM Emil",
@@ -7204,7 +7231,7 @@
   }
  ],
  "id_summary": {
-  "kept": 699,
+  "kept": 701,
   "emptied": 26,
   "no_icf_id": 3
  },
