@@ -10,7 +10,7 @@
   "dates": "2016-09-16/2016-09-18",
   "discipline": "marathon",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-27T20:21:19Z",
+  "generated_at_utc": "2026-11-18T11:13:17Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "Organiser results workbook (single sheet, one row per paddler: Rank / Boat / ID / SURNAME, Given (YOB) / Nation / Diff / Time). STARTING_LANE = printed boat number (Gyor_2025_MAR precedent); ID is the event bib, not an ICF id. Prints the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule). OQ/para races in the same book are kept (one key).",
@@ -3906,11 +3906,20 @@
       "results_row": 136,
       "seat": "ICF_ID1",
       "source_printed_name": "Rasmus ALSBÆK",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Rasmus ALSBÆK (DEN, M)",
       "team": "DEN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Rasmus ALSBÆK (DEN, M)"
+      "action": "corrected",
+      "source": "ruling t132u (RU351, RU346); ICF athlete list (bence)",
+      "detail": "MAINTAINER_ANSWERS_2026-11-18_t132u (RU351: keyword 'alsbek rasmus' is 69307; RU346: a seat bound from the name file needs no further ruling): printed 'Rasmus ALSBÆK' (DEN) is 69307 ALSBAEK Rasmus (DEN, M, born 1999-02-19; ICF athlete list fetched 2026-11-18T11:09:57Z); official results (canoe_marathon_world_championships_2016_results_brandenburg.xlsx, sha256 ee8f0ce4e4d2804c465bad60c9dfdec4ea23da5459d119141e77a13a321635b2) print Race 8 K1 MEN JUNIOR 22,6 km F, Sat 17.09.2016 09:00: rank 13, start 1, bib 113, 'ALSBÆK, Rasmus (1999)', DEN, 01:47:49.930, +04:34.060 = RESULTS row 136; age 17 in 2016 fits JUNIOR (<=18)",
+      "new_id": "69307",
+      "name_bound_profile": "kept: profile lists 2016 ICF CANOE MARATHON WORLD CHAMPIONSHIPS / K1 Men 22600m Final 13",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Rasmus ALSBÆK (DEN, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Rasmus ALSBÆK (DEN, M)",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-18_t132u",
+        "superseded_at_utc": "2026-11-18T11:13:17Z"
+      }
     },
     {
       "results_row": 137,
@@ -7284,7 +7293,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 364
+      "rows": 365
     }
   },
   "no_race_printed": [],
@@ -7295,12 +7304,12 @@
     {
       "kind": "xlsx",
       "name": "Brandenburg_2016_MAR_Results.xlsx",
-      "sha256": "9fcc36f7b683677be1536efa0dd68bef69e50a7ddf97f56a609af2046c1b7731",
-      "bytes": 42761
+      "sha256": "c3e3c134fc9ad2923c6861c169b4c59de6848e47e5c63109d77746899e4dbaac",
+      "bytes": 42799
     }
   ],
   "output_xlsx": "Brandenburg_2016_MAR_Results.xlsx",
-  "output_xlsx_sha256": "9fcc36f7b683677be1536efa0dd68bef69e50a7ddf97f56a609af2046c1b7731",
+  "output_xlsx_sha256": "c3e3c134fc9ad2923c6861c169b4c59de6848e47e5c63109d77746899e4dbaac",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -7340,7 +7349,7 @@
     "no_icf_id_t59": 18,
     "same_meeting_unified_t59": 0
   },
-  "updated_at": "2026-10-27T20:21:19Z",
+  "updated_at": "2026-11-18T11:13:17Z",
   "printed_field_counts": {
     "source": "boats per race as parsed from the published source (https://cdn.paddleworldwide.com/media/canoe_marathon_world_championships_2016_results_brandenburg.xlsx); back-filled 2026-10-19 from the published RESULTS (the builder parse), race coverage cross-checked independently by GATE10b",
     "rule": "MAINTAINER_ANSWERS_2026-10-18c Fix 1: printed count decides",
@@ -7365,7 +7374,23 @@
     },
     "backfilled": "2026-10-19"
   },
-  "name_change_log": [],
+  "name_change_log": [
+    {
+      "results_row": 136,
+      "seat": "ICF_ID1",
+      "printed": "Rasmus ALSBÆK",
+      "icf_id": "69307",
+      "profile_name": "Rasmus ALSBAEK",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-18_t132u: RU351 (keyword 'alsbek rasmus' is 69307) and RU346; printed family name ALSBÆK (Æ) is the ICF database's ALSBAEK (AE), the database's name written with Æ; kept: profile lists 2016 ICF CANOE MARATHON WORLD CHAMPIONSHIPS / K1 Men 22600m Final 13",
+      "was": "no_icf_id",
+      "ruling": [
+        "t132u",
+        "RU351",
+        "RU346"
+      ]
+    }
+  ],
   "nation_change_log": [],
   "corrections_log": [
     {
