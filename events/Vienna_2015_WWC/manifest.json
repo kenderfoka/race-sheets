@@ -12,13 +12,13 @@
  "gaps": [
   "icf_ids_incomplete"
  ],
- "generated_at_utc": "2026-11-16T14:25:38Z",
- "updated_at": "2026-11-16T14:25:38Z",
+ "generated_at_utc": "2026-11-18T02:19:12Z",
+ "updated_at": "2026-11-18T02:19:12Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "Vienna_2015_WWC_start.xlsx",
-   "sha256": "780875060943af96cf8976f55910d2b3e9d037855f228a16d160d22019345e13"
+   "sha256": "e6c7bb8958da13a69848f7e1cd92096554a7c88fac77d77441792c3b569838c9"
   }
  ],
  "row_count": 265,
@@ -419,20 +419,13 @@
   {
    "ctx": "Men's C2 SPRINT SENIOR Heats 1",
    "bib": 181,
+   "start_list": "BRÜCKER Rene / WEBER Normen",
+   "pdf": "HEILINGER Tim / WEBER Normen",
    "atos": [
     "HEILINGER Tim",
     "WEBER Normen"
    ],
-   "pdf": "BRÜCKER Rene",
-   "note": "crew differs between the results PDF and the ICF results system; results PDF wins (contract)"
-  },
-  {
-   "ctx": "Men's C2 SPRINT SENIOR Heats 1",
-   "bib": 181,
-   "pdf": "BRÜCKER Rene",
-   "atos": "Rene BRUECKER",
-   "atos_number": "36680",
-   "note": "printed name differs by at most two letters per token from one athlete of the same nation in the ICF results system for this meeting; that number claimed, checked against the PWW profile"
+   "note": "crew differs between the start list and the results PDF / ICF results system; results PDF wins (contract): HEILINGER Tim (corrected on wake 2; the build had read the start-list crew as the results crew)"
   },
   {
    "ctx": "Men's C2 SPRINT SENIOR Heats 1",
@@ -444,20 +437,13 @@
   {
    "ctx": "Men's C2 SPRINT SENIOR Heats 2",
    "bib": 181,
+   "start_list": "BRÜCKER Rene / WEBER Normen",
+   "pdf": "HEILINGER Tim / WEBER Normen",
    "atos": [
     "HEILINGER Tim",
     "WEBER Normen"
    ],
-   "pdf": "BRÜCKER Rene",
-   "note": "crew differs between the results PDF and the ICF results system; results PDF wins (contract)"
-  },
-  {
-   "ctx": "Men's C2 SPRINT SENIOR Heats 2",
-   "bib": 181,
-   "pdf": "BRÜCKER Rene",
-   "atos": "Rene BRUECKER",
-   "atos_number": "36680",
-   "note": "printed name differs by at most two letters per token from one athlete of the same nation in the ICF results system for this meeting; that number claimed, checked against the PWW profile"
+   "note": "crew differs between the start list and the results PDF / ICF results system; results PDF wins (contract): HEILINGER Tim (corrected on wake 2; the build had read the start-list crew as the results crew)"
   },
   {
    "ctx": "Men's C2 SPRINT SENIOR Heats 2",
@@ -2775,12 +2761,12 @@
   {
    "row": 240,
    "seat": "ICF_ID1",
-   "printed_name": "BRUECKER Rene",
-   "published_id": "36680",
-   "source": "ICF results system athlete number (infoicf.mev.atos.net, competition 0000000817WC) + paddleworldwide.com/athlete/<id>",
-   "pdf_print": "BRÜCKER Rene",
-   "action": "emptied",
-   "detail": "36680 matches name+nation+gender, but the profile does not list the competition (^2015 ICF WILD WATER SPRINT WORLD CHAMPIONSHIPS) and class (2013+ rule)"
+   "printed_name": "HEILINGER Tim",
+   "published_id": "37668",
+   "source": "Resultlist 1st HeatWM15.pdf (results PDF, bib 181 HEILINGER Tim / WEBER Normen) + ICF results system athlete number (infoicf.mev.atos.net, competition 0000000817WC) + paddleworldwide.com/athlete/37668",
+   "start_list_print": "BRÜCKER Rene",
+   "action": "kept",
+   "detail": "crew corrected (wake 2, finding RU314): the start list prints BRÜCKER Rene / WEBER Normen, but both results PDFs and the ICF results system print HEILINGER Tim / WEBER Normen; the results PDF outranks the start list for crew (contract). 37668 name+nation+gender match; profile lists 2015 ICF WILD WATER SPRINT WORLD CHAMPIONSHIPS; ICF RANKING / C2 SPRINT Men. 36680 BRUECKER Rene lists only C2 SPRINT TEAM Men for 2015."
   },
   {
    "row": 240,
@@ -3129,12 +3115,12 @@
   {
    "row": 262,
    "seat": "ICF_ID1",
-   "printed_name": "BRUECKER Rene",
-   "published_id": "36680",
-   "source": "ICF results system athlete number (infoicf.mev.atos.net, competition 0000000817WC) + paddleworldwide.com/athlete/<id>",
-   "pdf_print": "BRÜCKER Rene",
-   "action": "emptied",
-   "detail": "36680 matches name+nation+gender, but the profile does not list the competition (^2015 ICF WILD WATER SPRINT WORLD CHAMPIONSHIPS) and class (2013+ rule)"
+   "printed_name": "HEILINGER Tim",
+   "published_id": "37668",
+   "source": "Resultlist 2nd HeatWM15.pdf (results PDF, bib 181 HEILINGER Tim / WEBER Normen) + ICF results system athlete number (infoicf.mev.atos.net, competition 0000000817WC) + paddleworldwide.com/athlete/37668",
+   "start_list_print": "BRÜCKER Rene",
+   "action": "kept",
+   "detail": "crew corrected (wake 2, finding RU314): the start list prints BRÜCKER Rene / WEBER Normen, but both results PDFs and the ICF results system print HEILINGER Tim / WEBER Normen; the results PDF outranks the start list for crew (contract). 37668 name+nation+gender match; profile lists 2015 ICF WILD WATER SPRINT WORLD CHAMPIONSHIPS; ICF RANKING / C2 SPRINT Men. 36680 BRUECKER Rene lists only C2 SPRINT TEAM Men for 2015."
   },
   {
    "row": 262,
@@ -3221,8 +3207,8 @@
  "id_summary": {
   "forerunner": 3,
   "forerunner_unbound": 1,
-  "kept": 289,
-  "emptied": 11
+  "kept": 291,
+  "emptied": 9
  },
  "fr_event_log": [
   {
@@ -3252,7 +3238,7 @@
  "pending_maintainer": [
   "Scope: your date is 27 Jun (heats). The finals and sprint teams (28 Jun) are in the release (Gesamtliste Original.pdf, ViennaWMTeams.pdf) and the ICF results system. Not built, so the sheet has no ranked phase. Add 28 Jun?",
   "Run-1 clocks: the start list prints K1M run 1 from 11:15 to 12:08, while the ICF schedule puts the C1M heat 2 at 12:00 (the windows overlap, though no clock is shared). Both kept as printed. OK?",
-  "C2M bib 181: the results PDFs print BRÜCKER Rene / WEBER Normen, the ICF results system prints HEILINGER Tim / WEBER Normen. The PDF crew is used (contract). BRUECKER's profile (36680) does not list a 2015 C2 class, so that seat is emptied. OK?",
+  "C2M bib 181: the start list prints BRÜCKER Rene / WEBER Normen; both results PDFs and the ICF results system print HEILINGER Tim / WEBER Normen. The results PDF crew is used (contract): seat 1 is HEILINGER Tim 37668, whose profile lists 2015 C2 SPRINT Men (BRUECKER 36680 lists only C2 SPRINT TEAM Men). Corrected on wake 2; the first build had wrongly read the start-list crew as the results crew. OK?",
   "Forerunner THISSE Alexis (BEL, bib 200, 09:52) has no PWW profile: Gender empty, logged.",
   "RU221 new host: infoicf.mev.atos.net (ICF results system, official ICF results pages). Used for unit start times (heat times), given/family splits, athlete numbers as claimed ids (checked against PWW profiles) and entries where the release PDF is unreadable. Approve for this event?",
   "Ids: seats whose ICF results system athlete number has no PWW profile (paddleworldwide.com/athlete/<id> returns HTTP 404) are emptied (gap icf_ids_incomplete). Should that number be written without a PWW profile?"
