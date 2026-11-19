@@ -10,7 +10,7 @@
   "dates": "2015-05-15/2015-05-17",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-27T20:21:39Z",
+  "generated_at_utc": "2026-11-19T09:01:08Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "Race headers, ranks and gaps are drawn in subset fonts without a text map and were read by OCR (maintainer 2026-10-18b Q36). Times, lanes, NOCs and plain names are text layer. Race numbers confirmed by the text-layer page footer; every gap checked against time minus winner; ranks written from printed time order and compared with the OCR rank; unconfirmed values in ocr_unconfirmed. Start clocks to the minute (HH:MM:00).",
@@ -6234,11 +6234,23 @@
       "results_row": 93,
       "seat": "ICF_ID1",
       "source_printed_name": "Qiang LI",
-      "action": "no_icf_id",
-      "source": "none",
+      "action": "corrected",
+      "source": "icf_list",
       "team": "CHN",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Montemor_2015_WC",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Montemor_2015_WC"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Qiang LI' (CHN) has the words of 2 athletes of the boat's country; MAINTAINER_ANSWERS_2026-10-23 Rule 4: exactly one profile lists the meeting: 41740 (1989-01-04) lists 2015 ICF CANOE SPRINT WORLD CUP 1 / C1 Men 200m; the other profile(s) do not; the earlier 'neither profile lists' log was wrong (profiles re-read 2026-11-19)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Qiang LI' (CHN) has the words of 2 athletes of the boat's country; MAINTAINER_ANSWERS_2026-10-23 Rule 4: exactly one profile lists the meeting: 41740 (1989-01-04) lists 2015 ICF CANOE SPRINT WORLD CUP 1 / C1 Men 200m; the other profile(s) do not; the earlier 'neither profile lists' log was wrong (profiles re-read 2026-11-19)",
+      "new_id": "41740",
+      "name_bound_profile": "kept: profile lists 2015 ICF CANOE SPRINT WORLD CUP 1 / C1 Men 200m",
+      "printed_check": "montemor2015wc-sources/book.pdf p.30 line 6: '113                    Qiang LI                                                                                         ' (garbled header: race identified by its 8 printed lane+team pairs, equal to the sheet's race; boat on lane 1, printed in place 2; race 12, rank 2, team CHN, time 0:00:40.772, partners [])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "none",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Montemor_2015_WC",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Montemor_2015_WC",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T09:01:08Z"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-23 Rule 4"
     },
     {
       "results_row": 94,
@@ -6546,11 +6558,22 @@
       "results_row": 112,
       "seat": "ICF_ID1",
       "source_printed_name": "Marcus WALZ",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "ESP",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Marcus WALZ' (ESP) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 47618 COOPER Marcus (ESP, M, born 1994-10-03); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU155)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Marcus WALZ' (ESP) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 47618 COOPER Marcus (ESP, M, born 1994-10-03); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU155)",
+      "new_id": "47618",
+      "name_bound_profile": "kept: profile lists 2015 ICF CANOE SPRINT WORLD CUP 1 / K2 Men 1000m",
+      "printed_check": "montemor2015wc-sources/book.pdf p.33 line 6: '167                    Marcus WALZ                                                                         \u0003\u0002\u0004\b \u0007\u0006\u0006    \u0003' (garbled header: race identified by its 8 printed lane+team pairs, equal to the sheet's race; boat on lane 4, printed in place 2; race 15, rank 2, team ESP, time 0:03:12.680, partners ['Diego NORIEGA'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T09:01:08Z"
+      }
     },
     {
       "results_row": 112,
@@ -6928,11 +6951,22 @@
       "results_row": 131,
       "seat": "ICF_ID1",
       "source_printed_name": "Esti VAN TONDER",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "RSA",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Esti VAN TONDER' (RSA) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42517 OLIVIER Esti (RSA, W, born 1992-12-10); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU155)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Esti VAN TONDER' (RSA) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42517 OLIVIER Esti (RSA, W, born 1992-12-10); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU155)",
+      "new_id": "42517",
+      "name_bound_profile": "kept: profile lists 2015 ICF CANOE SPRINT WORLD CUP 1 / K2 Women 500m",
+      "printed_check": "montemor2015wc-sources/book.pdf p.35 line 12: '309                    Esti VAN TONDER                                                                   \u0003\u0003\u0004\u0005\b\u0007\u000f\u0003      0' (garbled header: race identified by its 7 printed lane+team pairs, equal to the sheet's race; boat on lane 2, printed in place 5; race 17, rank 5, team RSA, time 0:01:49.816, partners ['Tiffany KRUGER'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T09:01:08Z"
+      }
     },
     {
       "results_row": 131,
@@ -7081,11 +7115,22 @@
       "results_row": 138,
       "seat": "ICF_ID2",
       "source_printed_name": "Alyce BURNETT",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "AUS",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Alyce BURNETT' (AUS) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 45842 WOOD Alyce (AUS, W, born 1992-08-11); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Alyce BURNETT' (AUS) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 45842 WOOD Alyce (AUS, W, born 1992-08-11); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "new_id": "45842",
+      "name_bound_profile": "kept: profile lists 2015 ICF CANOE SPRINT WORLD CUP 1 / K2 Women 500m",
+      "printed_check": "montemor2015wc-sources/book.pdf p.36 line 13: '\u0005      8          21      AUS           Alyce BURNETT                                                                   ' (garbled header: race identified by its 7 printed lane+team pairs, equal to the sheet's race; boat on lane 8, printed in place 5; race 18, rank 5, team AUS, time 0:01:52.996, partners ['Alyssa BULL'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T09:01:08Z"
+      }
     },
     {
       "results_row": 139,
@@ -7131,11 +7176,22 @@
       "results_row": 141,
       "seat": "ICF_ID1",
       "source_printed_name": "Caitlin RYAN",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "NZL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Caitlin RYAN' (NZL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 51824 REGAL Caitlin (NZL, W, born 1992-02-09); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Caitlin RYAN' (NZL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 51824 REGAL Caitlin (NZL, W, born 1992-02-09); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "new_id": "51824",
+      "name_bound_profile": "kept: profile lists 2015 ICF CANOE SPRINT WORLD CUP 1 / K2 Women 500m",
+      "printed_check": "montemor2015wc-sources/book.pdf p.37 line 4: '245                    Caitlin RYAN                                                                      \u0003\u0003\u0004\u0005 \u0007\u0002\u000e      0' (garbled header: race identified by its 7 printed lane+team pairs, equal to the sheet's race; boat on lane 7, printed in place 1; race 19, rank 1, team NZL, time 0:01:47.976, partners ['Aimee FISHER'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T09:01:08Z"
+      }
     },
     {
       "results_row": 141,
@@ -8336,11 +8392,22 @@
       "results_row": 227,
       "seat": "ICF_ID2",
       "source_printed_name": "Alyce BURNETT",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "AUS",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Alyce BURNETT' (AUS) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 45842 WOOD Alyce (AUS, W, born 1992-08-11); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Alyce BURNETT' (AUS) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 45842 WOOD Alyce (AUS, W, born 1992-08-11); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "new_id": "45842",
+      "name_bound_profile": "kept: profile lists 2015 ICF CANOE SPRINT WORLD CUP 1 / K2 Women 500m",
+      "printed_check": "montemor2015wc-sources/book.pdf p.47 line 13: '\u0005      2          21       AUS          Alyce BURNETT                                                                   ' (garbled header: race identified by its 9 printed lane+team pairs, equal to the sheet's race; boat on lane 2, printed in place 5; race 29, rank 5, team AUS, time 0:01:51.952, partners ['Alyssa BULL'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T09:01:08Z"
+      }
     },
     {
       "results_row": 228,
@@ -8526,11 +8593,22 @@
       "results_row": 237,
       "seat": "ICF_ID1",
       "source_printed_name": "Esti VAN TONDER",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "RSA",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Esti VAN TONDER' (RSA) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42517 OLIVIER Esti (RSA, W, born 1992-12-10); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU155)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Esti VAN TONDER' (RSA) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42517 OLIVIER Esti (RSA, W, born 1992-12-10); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU155)",
+      "new_id": "42517",
+      "name_bound_profile": "kept: profile lists 2015 ICF CANOE SPRINT WORLD CUP 1 / K2 Women 500m",
+      "printed_check": "montemor2015wc-sources/book.pdf p.48 line 14: '309                    Esti VAN TONDER                                                                        \u0003\u0003\u0004\u0005\u0005\u0007\u0002\u0003  ' (garbled header: race identified by its 8 printed lane+team pairs, equal to the sheet's race; boat on lane 7, printed in place 6; race 30, rank 6, team RSA, time 0:01:56.096, partners ['Tiffany KRUGER'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T09:01:08Z"
+      }
     },
     {
       "results_row": 237,
@@ -9241,11 +9319,23 @@
       "results_row": 296,
       "seat": "ICF_ID1",
       "source_printed_name": "Qiang LI",
-      "action": "no_icf_id",
-      "source": "none",
+      "action": "corrected",
+      "source": "icf_list",
       "team": "CHN",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Montemor_2015_WC",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Montemor_2015_WC"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Qiang LI' (CHN) has the words of 2 athletes of the boat's country; MAINTAINER_ANSWERS_2026-10-23 Rule 4: exactly one profile lists the meeting: 41740 (1989-01-04) lists 2015 ICF CANOE SPRINT WORLD CUP 1 / C1 Men 200m; the other profile(s) do not; the earlier 'neither profile lists' log was wrong (profiles re-read 2026-11-19)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Qiang LI' (CHN) has the words of 2 athletes of the boat's country; MAINTAINER_ANSWERS_2026-10-23 Rule 4: exactly one profile lists the meeting: 41740 (1989-01-04) lists 2015 ICF CANOE SPRINT WORLD CUP 1 / C1 Men 200m; the other profile(s) do not; the earlier 'neither profile lists' log was wrong (profiles re-read 2026-11-19)",
+      "new_id": "41740",
+      "name_bound_profile": "kept: profile lists 2015 ICF CANOE SPRINT WORLD CUP 1 / C1 Men 200m",
+      "printed_check": "montemor2015wc-sources/book.pdf p.55 line 8: '113                     Qiang LI                                                                             00:39.084' (garbled header: race identified by its 9 printed lane+team pairs, equal to the sheet's race; boat on lane 6, printed in place 3; race 37, rank 3, team CHN, time 0:00:39.084, partners [])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "none",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Montemor_2015_WC",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Montemor_2015_WC",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T09:01:08Z"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-23 Rule 4"
     },
     {
       "results_row": 297,
@@ -9592,11 +9682,22 @@
       "results_row": 317,
       "seat": "ICF_ID1",
       "source_printed_name": "Marcus WALZ",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "ESP",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Marcus WALZ' (ESP) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 47618 COOPER Marcus (ESP, M, born 1994-10-03); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU155)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Marcus WALZ' (ESP) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 47618 COOPER Marcus (ESP, M, born 1994-10-03); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU155)",
+      "new_id": "47618",
+      "name_bound_profile": "kept: profile lists 2015 ICF CANOE SPRINT WORLD CUP 1 / K2 Men 1000m",
+      "printed_check": "montemor2015wc-sources/book.pdf p.57 line 14: '167                    Marcus WALZ                                              \u0003\u0003\u0004   \u0007       \u0003\u0002\u0004\b \u0007\u000f\b    \u0003 \u0004   \u0007\u0002\u0005     ' (garbled header: race identified by its 9 printed lane+team pairs, equal to the sheet's race; boat on lane 3, printed in place 6; race 39, rank 6, team ESP, time 0:03:12.104, partners ['Diego NORIEGA'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Marcus WALZ (ESP, M)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T09:01:08Z"
+      }
     },
     {
       "results_row": 317,
@@ -9693,11 +9794,22 @@
       "results_row": 322,
       "seat": "ICF_ID1",
       "source_printed_name": "Caitlin RYAN",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "NZL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Caitlin RYAN' (NZL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 51824 REGAL Caitlin (NZL, W, born 1992-02-09); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Caitlin RYAN' (NZL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 51824 REGAL Caitlin (NZL, W, born 1992-02-09); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "new_id": "51824",
+      "name_bound_profile": "kept: profile lists 2015 ICF CANOE SPRINT WORLD CUP 1 / K2 Women 500m",
+      "printed_check": "montemor2015wc-sources/book.pdf p.58 line 6: '245                    Caitlin RYAN                                                               \u0003\u0003\u0004 \u000e\u0007        01:40.46' (garbled header: race identified by its 9 printed lane+team pairs, equal to the sheet's race; boat on lane 6, printed in place 2; race 40, rank 2, team NZL, time 0:01:40.464, partners ['Aimee FISHER'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T09:01:08Z"
+      }
     },
     {
       "results_row": 322,
@@ -9884,11 +9996,22 @@
       "results_row": 331,
       "seat": "ICF_ID2",
       "source_printed_name": "Alyce BURNETT",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "AUS",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Alyce BURNETT' (AUS) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 45842 WOOD Alyce (AUS, W, born 1992-08-11); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Alyce BURNETT' (AUS) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 45842 WOOD Alyce (AUS, W, born 1992-08-11); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "new_id": "45842",
+      "name_bound_profile": "kept: profile lists 2015 ICF CANOE SPRINT WORLD CUP 1 / K2 Women 500m",
+      "printed_check": "montemor2015wc-sources/book.pdf p.59 line 7: '\u0002\u0002      3          21       AUS          Alyce BURNETT                                                                  ' (garbled header: race identified by its 8 printed lane+team pairs, equal to the sheet's race; boat on lane 3, printed in place 2; race 41, rank 11, team AUS, time 0:01:43.424, partners ['Alyssa BULL'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T09:01:08Z"
+      }
     },
     {
       "results_row": 332,
@@ -9994,11 +10117,22 @@
       "results_row": 337,
       "seat": "ICF_ID1",
       "source_printed_name": "Esti VAN TONDER",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "RSA",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Esti VAN TONDER' (RSA) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42517 OLIVIER Esti (RSA, W, born 1992-12-10); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU155)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Esti VAN TONDER' (RSA) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42517 OLIVIER Esti (RSA, W, born 1992-12-10); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU155)",
+      "new_id": "42517",
+      "name_bound_profile": "kept: profile lists 2015 ICF CANOE SPRINT WORLD CUP 1 / K2 Women 500m",
+      "printed_check": "montemor2015wc-sources/book.pdf p.59 line 18: '309                    Esti VAN TONDER                                                            \u0003\u0003\u0004\u0005 \u0007\u000f\u0003   01:46.916' (garbled header: race identified by its 8 printed lane+team pairs, equal to the sheet's race; boat on lane 2, printed in place 8; race 41, rank 17, team RSA, time 0:01:46.916, partners ['Tiffany KRUGER'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T09:01:08Z"
+      }
     },
     {
       "results_row": 337,
@@ -10709,11 +10843,22 @@
       "results_row": 400,
       "seat": "ICF_ID1",
       "source_printed_name": "Esti VAN TONDER",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "RSA",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Esti VAN TONDER' (RSA) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42517 OLIVIER Esti (RSA, W, born 1992-12-10); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU155)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Esti VAN TONDER' (RSA) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42517 OLIVIER Esti (RSA, W, born 1992-12-10); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU155)",
+      "new_id": "42517",
+      "name_bound_profile": "kept: profile lists 2015 ICF CANOE SPRINT WORLD CUP 1 / K1 Women 1000m",
+      "printed_check": "montemor2015wc-sources/book.pdf p.68 line 6: '309                    Esti VAN TONDER                                                          \u0003\u0003\u0004\u0005\u000e\u0007                  ' (garbled header: race identified by its 5 printed lane+team pairs, equal to the sheet's race; boat on lane 6, printed in place 2; race 50, rank 2, team RSA, time 0:04:05.024, partners [])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T09:01:08Z"
+      }
     },
     {
       "results_row": 401,
@@ -11465,11 +11610,23 @@
       "results_row": 429,
       "seat": "ICF_ID2",
       "source_printed_name": "Cristian BAIES",
-      "action": "no_icf_id",
-      "source": "none",
+      "action": "corrected",
+      "source": "icf_list",
       "team": "POR",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 61279 (Cristian BAIES, dob=1990-04-15), 64780 (Baies CRISTIAN, dob=1995-05-07); neither profile lists Montemor_2015_WC",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 61279 (Cristian BAIES, dob=1990-04-15), 64780 (Baies CRISTIAN, dob=1995-05-07); neither profile lists Montemor_2015_WC"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Cristian BAIES' (POR) has the words of 2 athletes of the boat's country; MAINTAINER_ANSWERS_2026-10-23 Rule 4: exactly one profile lists the meeting: 61279 (1990-04-15) lists 2015 ICF CANOE SPRINT WORLD CUP 1 / K4 Men 1000m; the other profile(s) do not; the earlier 'neither profile lists' log was wrong (profiles re-read 2026-11-19)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Cristian BAIES' (POR) has the words of 2 athletes of the boat's country; MAINTAINER_ANSWERS_2026-10-23 Rule 4: exactly one profile lists the meeting: 61279 (1990-04-15) lists 2015 ICF CANOE SPRINT WORLD CUP 1 / K4 Men 1000m; the other profile(s) do not; the earlier 'neither profile lists' log was wrong (profiles re-read 2026-11-19)",
+      "new_id": "61279",
+      "name_bound_profile": "kept: profile lists 2015 ICF CANOE SPRINT WORLD CUP 1 / K4 Men 1000m",
+      "printed_check": "montemor2015wc-sources/book.pdf p.72 line 10: '288   279              Fabio CAMEIRA / Cristian BAIES                                           \u0003\u0003\u0004   \u0007 \u000e     \u0003\u0002\u0004\b \u0007\u0005\b  ' (garbled header: race identified by its 6 printed lane+team pairs, equal to the sheet's race; boat on lane 3, printed in place 4; race 54, rank 4, team POR, time 0:03:13.516, partners ['Fabio CAMEIRA', 'David VARELA', 'Artur PEREIRA'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "none",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 61279 (Cristian BAIES, dob=1990-04-15), 64780 (Baies CRISTIAN, dob=1995-05-07); neither profile lists Montemor_2015_WC",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 61279 (Cristian BAIES, dob=1990-04-15), 64780 (Baies CRISTIAN, dob=1995-05-07); neither profile lists Montemor_2015_WC",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T09:01:08Z"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-23 Rule 4"
     },
     {
       "results_row": 429,
@@ -11595,11 +11752,23 @@
       "results_row": 434,
       "seat": "ICF_ID1",
       "source_printed_name": "Qiang LI",
-      "action": "no_icf_id",
-      "source": "none",
+      "action": "corrected",
+      "source": "icf_list",
       "team": "CHN",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Montemor_2015_WC",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Montemor_2015_WC"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Qiang LI' (CHN) has the words of 2 athletes of the boat's country; MAINTAINER_ANSWERS_2026-10-23 Rule 4: exactly one profile lists the meeting: 41740 (1989-01-04) lists 2015 ICF CANOE SPRINT WORLD CUP 1 / C1 Men 500m; the other profile(s) do not; the earlier 'neither profile lists' log was wrong (profiles re-read 2026-11-19)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Qiang LI' (CHN) has the words of 2 athletes of the boat's country; MAINTAINER_ANSWERS_2026-10-23 Rule 4: exactly one profile lists the meeting: 41740 (1989-01-04) lists 2015 ICF CANOE SPRINT WORLD CUP 1 / C1 Men 500m; the other profile(s) do not; the earlier 'neither profile lists' log was wrong (profiles re-read 2026-11-19)",
+      "new_id": "41740",
+      "name_bound_profile": "kept: profile lists 2015 ICF CANOE SPRINT WORLD CUP 1 / C1 Men 500m",
+      "printed_check": "montemor2015wc-sources/book.pdf p.73 line 8: '113                    Qiang LI                                                                                   \u0003\u0003\u0004\u0005\u000f\u0007' (garbled header: race identified by its 7 printed lane+team pairs, equal to the sheet's race; boat on lane 2, printed in place 3; race 55, rank 3, team CHN, time 0:02:00.612, partners [])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "none",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Montemor_2015_WC",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Montemor_2015_WC",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T09:01:08Z"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-23 Rule 4"
     },
     {
       "results_row": 435,
@@ -12139,11 +12308,22 @@
       "results_row": 465,
       "seat": "ICF_ID3",
       "source_printed_name": "Caitlin RYAN",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "NZL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Caitlin RYAN' (NZL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 51824 REGAL Caitlin (NZL, W, born 1992-02-09); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Caitlin RYAN' (NZL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 51824 REGAL Caitlin (NZL, W, born 1992-02-09); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "new_id": "51824",
+      "name_bound_profile": "kept: profile lists 2015 ICF CANOE SPRINT WORLD CUP 1 / K4 Women 500m",
+      "printed_check": "montemor2015wc-sources/book.pdf p.78 line 5: '\u0002      5         245    247 NZL         Caitlin RYAN / Kayla IMRIE' (garbled header: race identified by its 7 printed lane+team pairs, equal to the sheet's race; boat on lane 5, printed in place 1; race 60, rank 1, team NZL, time 0:01:39.560, partners ['Jaimee LOVETT', 'Aimee FISHER', 'Kayla IMRIE'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T09:01:08Z"
+      }
     },
     {
       "results_row": 465,
@@ -12209,11 +12389,22 @@
       "results_row": 467,
       "seat": "ICF_ID2",
       "source_printed_name": "Alyce BURNETT",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "AUS",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Alyce BURNETT' (AUS) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 45842 WOOD Alyce (AUS, W, born 1992-08-11); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Alyce BURNETT' (AUS) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 45842 WOOD Alyce (AUS, W, born 1992-08-11); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "new_id": "45842",
+      "name_bound_profile": "kept: profile lists 2015 ICF CANOE SPRINT WORLD CUP 1 / K4 Women 500m",
+      "printed_check": "montemor2015wc-sources/book.pdf p.78 line 8: '24      21            Catherine MCARTHUR / Alyce BURNETT                                                         \u0003\u0003\u0004\u0005\u0003\u0007\u0002' (garbled header: race identified by its 7 printed lane+team pairs, equal to the sheet's race; boat on lane 8, printed in place 3; race 60, rank 3, team AUS, time 0:01:41.732, partners ['Catherine MCARTHUR', 'Jaime ROBERTS', 'Alyssa BULL'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T09:01:08Z"
+      }
     },
     {
       "results_row": 467,
@@ -13466,11 +13657,23 @@
       "results_row": 529,
       "seat": "ICF_ID2",
       "source_printed_name": "Cristian BAIES",
-      "action": "no_icf_id",
-      "source": "none",
+      "action": "corrected",
+      "source": "icf_list",
       "team": "POR",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 61279 (Cristian BAIES, dob=1990-04-15), 64780 (Baies CRISTIAN, dob=1995-05-07); neither profile lists Montemor_2015_WC",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 61279 (Cristian BAIES, dob=1990-04-15), 64780 (Baies CRISTIAN, dob=1995-05-07); neither profile lists Montemor_2015_WC"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Cristian BAIES' (POR) has the words of 2 athletes of the boat's country; MAINTAINER_ANSWERS_2026-10-23 Rule 4: exactly one profile lists the meeting: 61279 (1990-04-15) lists 2015 ICF CANOE SPRINT WORLD CUP 1 / K4 Men 1000m; the other profile(s) do not; the earlier 'neither profile lists' log was wrong (profiles re-read 2026-11-19)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Cristian BAIES' (POR) has the words of 2 athletes of the boat's country; MAINTAINER_ANSWERS_2026-10-23 Rule 4: exactly one profile lists the meeting: 61279 (1990-04-15) lists 2015 ICF CANOE SPRINT WORLD CUP 1 / K4 Men 1000m; the other profile(s) do not; the earlier 'neither profile lists' log was wrong (profiles re-read 2026-11-19)",
+      "new_id": "61279",
+      "name_bound_profile": "kept: profile lists 2015 ICF CANOE SPRINT WORLD CUP 1 / K4 Men 1000m",
+      "printed_check": "montemor2015wc-sources/book.pdf p.85 line 12: '288   279              Fabio CAMEIRA / Cristian BAIES                           \u0003\u0003\u0004   \u0007\u0002\u0006   \u0003\u0002\u0004 \u000f\u0007\u000e\u000e      \u0003 \u0004\u0002\b\u0007\u0003    02:' (garbled header: race identified by its 7 printed lane+team pairs, equal to the sheet's race; boat on lane 5, printed in place 5; race 67, rank 5, team POR, time 0:02:58.912, partners ['Fabio CAMEIRA', 'David VARELA', 'Artur PEREIRA'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "none",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 61279 (Cristian BAIES, dob=1990-04-15), 64780 (Baies CRISTIAN, dob=1995-05-07); neither profile lists Montemor_2015_WC",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 61279 (Cristian BAIES, dob=1990-04-15), 64780 (Baies CRISTIAN, dob=1995-05-07); neither profile lists Montemor_2015_WC",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T09:01:08Z"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-23 Rule 4"
     },
     {
       "results_row": 529,
@@ -14142,11 +14345,22 @@
       "results_row": 583,
       "seat": "ICF_ID1",
       "source_printed_name": "Esti VAN TONDER",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "RSA",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Esti VAN TONDER' (RSA) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42517 OLIVIER Esti (RSA, W, born 1992-12-10); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU155)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Esti VAN TONDER' (RSA) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42517 OLIVIER Esti (RSA, W, born 1992-12-10); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU155)",
+      "new_id": "42517",
+      "name_bound_profile": "kept: profile lists 2015 ICF CANOE SPRINT WORLD CUP 1 / K1 Women 1000m",
+      "printed_check": "montemor2015wc-sources/book.pdf p.93 line 12: '309                    Esti VAN TONDER                                            \u0003\u0003\u0004\u0005\u000e\u0007 \u0002   \u0003\u0002\u0004\u0005\u0006\u0007 \u000f             04:01.' (garbled header: race identified by its 9 printed lane+team pairs, equal to the sheet's race; boat on lane 6, printed in place 5; race 75, rank 5, team RSA, time 0:04:01.112, partners [])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Esti VAN TONDER (RSA, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T09:01:08Z"
+      }
     },
     {
       "results_row": 584,
@@ -14744,11 +14958,23 @@
       "results_row": 607,
       "seat": "ICF_ID1",
       "source_printed_name": "Qiang LI",
-      "action": "no_icf_id",
-      "source": "none",
+      "action": "corrected",
+      "source": "icf_list",
       "team": "CHN",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Montemor_2015_WC",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Montemor_2015_WC"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Qiang LI' (CHN) has the words of 2 athletes of the boat's country; MAINTAINER_ANSWERS_2026-10-23 Rule 4: exactly one profile lists the meeting: 41740 (1989-01-04) lists 2015 ICF CANOE SPRINT WORLD CUP 1 / C1 Men 500m; the other profile(s) do not; the earlier 'neither profile lists' log was wrong (profiles re-read 2026-11-19)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Qiang LI' (CHN) has the words of 2 athletes of the boat's country; MAINTAINER_ANSWERS_2026-10-23 Rule 4: exactly one profile lists the meeting: 41740 (1989-01-04) lists 2015 ICF CANOE SPRINT WORLD CUP 1 / C1 Men 500m; the other profile(s) do not; the earlier 'neither profile lists' log was wrong (profiles re-read 2026-11-19)",
+      "new_id": "41740",
+      "name_bound_profile": "kept: profile lists 2015 ICF CANOE SPRINT WORLD CUP 1 / C1 Men 500m",
+      "printed_check": "montemor2015wc-sources/book.pdf p.96 line 6: '113                    Qiang LI                                                                           01:47.268' (garbled header: race identified by its 9 printed lane+team pairs, equal to the sheet's race; boat on lane 7, printed in place 2; race 78, rank 2, team CHN, time 0:01:47.268, partners [])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "none",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Montemor_2015_WC",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Montemor_2015_WC",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T09:01:08Z"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-23 Rule 4"
     },
     {
       "results_row": 608,
@@ -14938,11 +15164,22 @@
       "results_row": 624,
       "seat": "ICF_ID3",
       "source_printed_name": "Caitlin RYAN",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "NZL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Caitlin RYAN' (NZL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 51824 REGAL Caitlin (NZL, W, born 1992-02-09); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Caitlin RYAN' (NZL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 51824 REGAL Caitlin (NZL, W, born 1992-02-09); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "new_id": "51824",
+      "name_bound_profile": "kept: profile lists 2015 ICF CANOE SPRINT WORLD CUP 1 / K4 Women 500m",
+      "printed_check": "montemor2015wc-sources/book.pdf p.98 line 5: '\u0002      4         245   247 NZL          Caitlin RYAN / Kayla IMRIE' (garbled header: race identified by its 8 printed lane+team pairs, equal to the sheet's race; boat on lane 4, printed in place 1; race 80, rank 1, team NZL, time 0:01:31.540, partners ['Jaimee LOVETT', 'Aimee FISHER', 'Kayla IMRIE'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T09:01:08Z"
+      }
     },
     {
       "results_row": 624,
@@ -15248,11 +15485,22 @@
       "results_row": 632,
       "seat": "ICF_ID2",
       "source_printed_name": "Alyce BURNETT",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "AUS",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Alyce BURNETT' (AUS) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 45842 WOOD Alyce (AUS, W, born 1992-08-11); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Alyce BURNETT' (AUS) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 45842 WOOD Alyce (AUS, W, born 1992-08-11); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "new_id": "45842",
+      "name_bound_profile": "kept: profile lists 2015 ICF CANOE SPRINT WORLD CUP 1 / K4 Women 500m",
+      "printed_check": "montemor2015wc-sources/book.pdf p.98 (read by eye; garbled-font header): race 80's page of 9 boats, lane+team list equal to the sheet's race 80; the 9th and last boat, lane 2, bibs 24/21 + 25/22, team AUS printed on the line below: 'Catherine MCARTHUR / Alyce BURNETT' / 'Jaime ROBERTS / Alyssa BULL', time 01:35.580 (sheet rank 9, 0:01:35.580)",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T09:01:08Z"
+      }
     },
     {
       "results_row": 632,
@@ -15673,11 +15921,22 @@
       "results_row": 655,
       "seat": "ICF_ID3",
       "source_printed_name": "Caitlin RYAN",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "NZL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Caitlin RYAN' (NZL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 51824 REGAL Caitlin (NZL, W, born 1992-02-09); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Caitlin RYAN' (NZL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 51824 REGAL Caitlin (NZL, W, born 1992-02-09); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "new_id": "51824",
+      "name_bound_profile": "kept: profile lists 2015 ICF CANOE SPRINT WORLD CUP 1 / K4 Women 200m",
+      "printed_check": "montemor2015wc-sources/book.pdf p.101 line 13: '\u0005      4         245   247 NZL          Caitlin RYAN / Kayla IMRIE                                                      ' (garbled header: race identified by its 9 printed lane+team pairs, equal to the sheet's race; boat on lane 4, printed in place 5; race 83, rank 5, team NZL, time 0:00:35.656, partners ['Jaimee LOVETT', 'Aimee FISHER', 'Kayla IMRIE'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T09:01:08Z"
+      }
     },
     {
       "results_row": 655,
@@ -15783,11 +16042,22 @@
       "results_row": 658,
       "seat": "ICF_ID2",
       "source_printed_name": "Alyce BURNETT",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "AUS",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Alyce BURNETT' (AUS) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 45842 WOOD Alyce (AUS, W, born 1992-08-11); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Alyce BURNETT' (AUS) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 45842 WOOD Alyce (AUS, W, born 1992-08-11); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "new_id": "45842",
+      "name_bound_profile": "kept: profile lists 2015 ICF CANOE SPRINT WORLD CUP 1 / K4 Women 200m",
+      "printed_check": "montemor2015wc-sources/book.pdf p.101 line 18: '24      21            Catherine MCARTHUR / Alyce BURNETT                                                  00:36.076' (garbled header: race identified by its 9 printed lane+team pairs, equal to the sheet's race; boat on lane 1, printed in place 8; race 83, rank 8, team AUS, time 0:00:36.076, partners ['Catherine MCARTHUR', 'Jaime ROBERTS', 'Alyssa BULL'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T09:01:08Z"
+      }
     },
     {
       "results_row": 658,
@@ -17582,7 +17852,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 275
+      "rows": 281
     }
   },
   "domain": "flatwater_sprint",
@@ -17592,12 +17862,12 @@
     {
       "kind": "xlsx",
       "name": "Montemor_2015_WC_Results.xlsx",
-      "sha256": "4f351b8d83fae8c9aa8251cde3d6345b9aa8bc8c06d3f87bf5d71dbdc1ae65ee",
-      "bytes": 61879
+      "sha256": "2e58fd021df762624320966b9c4d8e46a80afb47f221da2b68637264c2be48af",
+      "bytes": 62169
     }
   ],
   "output_xlsx": "Montemor_2015_WC_Results.xlsx",
-  "output_xlsx_sha256": "4f351b8d83fae8c9aa8251cde3d6345b9aa8bc8c06d3f87bf5d71dbdc1ae65ee",
+  "output_xlsx_sha256": "2e58fd021df762624320966b9c4d8e46a80afb47f221da2b68637264c2be48af",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -17637,7 +17907,7 @@
     "no_icf_id_t59": 79,
     "same_meeting_unified_t59": 0
   },
-  "updated_at": "2026-10-27T20:21:39Z",
+  "updated_at": "2026-11-19T09:01:08Z",
   "name_change_log": [
     {
       "results_row": 138,
@@ -17697,6 +17967,186 @@
       "profile_name": "Alyssa BUCK",
       "rule": "name_change",
       "evidence": "profile lists 2015 ICF CANOE SPRINT WORLD CUP 1 / K4 Women 500m",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 112,
+      "seat": "ICF_ID1",
+      "printed": "Marcus WALZ",
+      "icf_id": "47618",
+      "profile_name": "Marcus COOPER",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU155 lists 'Marcus WALZ' as a name of 47618; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 317,
+      "seat": "ICF_ID1",
+      "printed": "Marcus WALZ",
+      "icf_id": "47618",
+      "profile_name": "Marcus COOPER",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU155 lists 'Marcus WALZ' as a name of 47618; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 131,
+      "seat": "ICF_ID1",
+      "printed": "Esti VAN TONDER",
+      "icf_id": "42517",
+      "profile_name": "Esti OLIVIER",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU155 lists 'Esti VAN TONDER' as a name of 42517; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 237,
+      "seat": "ICF_ID1",
+      "printed": "Esti VAN TONDER",
+      "icf_id": "42517",
+      "profile_name": "Esti OLIVIER",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU155 lists 'Esti VAN TONDER' as a name of 42517; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 337,
+      "seat": "ICF_ID1",
+      "printed": "Esti VAN TONDER",
+      "icf_id": "42517",
+      "profile_name": "Esti OLIVIER",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU155 lists 'Esti VAN TONDER' as a name of 42517; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 400,
+      "seat": "ICF_ID1",
+      "printed": "Esti VAN TONDER",
+      "icf_id": "42517",
+      "profile_name": "Esti OLIVIER",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU155 lists 'Esti VAN TONDER' as a name of 42517; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 583,
+      "seat": "ICF_ID1",
+      "printed": "Esti VAN TONDER",
+      "icf_id": "42517",
+      "profile_name": "Esti OLIVIER",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU155 lists 'Esti VAN TONDER' as a name of 42517; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 138,
+      "seat": "ICF_ID2",
+      "printed": "Alyce BURNETT",
+      "icf_id": "45842",
+      "profile_name": "Alyce WOOD",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU312 lists 'Alyce BURNETT' as a name of 45842; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 227,
+      "seat": "ICF_ID2",
+      "printed": "Alyce BURNETT",
+      "icf_id": "45842",
+      "profile_name": "Alyce WOOD",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU312 lists 'Alyce BURNETT' as a name of 45842; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 331,
+      "seat": "ICF_ID2",
+      "printed": "Alyce BURNETT",
+      "icf_id": "45842",
+      "profile_name": "Alyce WOOD",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU312 lists 'Alyce BURNETT' as a name of 45842; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 467,
+      "seat": "ICF_ID2",
+      "printed": "Alyce BURNETT",
+      "icf_id": "45842",
+      "profile_name": "Alyce WOOD",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU312 lists 'Alyce BURNETT' as a name of 45842; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 632,
+      "seat": "ICF_ID2",
+      "printed": "Alyce BURNETT",
+      "icf_id": "45842",
+      "profile_name": "Alyce WOOD",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU312 lists 'Alyce BURNETT' as a name of 45842; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 658,
+      "seat": "ICF_ID2",
+      "printed": "Alyce BURNETT",
+      "icf_id": "45842",
+      "profile_name": "Alyce WOOD",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU312 lists 'Alyce BURNETT' as a name of 45842; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 141,
+      "seat": "ICF_ID1",
+      "printed": "Caitlin RYAN",
+      "icf_id": "51824",
+      "profile_name": "Caitlin REGAL",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU312 lists 'Caitlin RYAN' as a name of 51824; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 322,
+      "seat": "ICF_ID1",
+      "printed": "Caitlin RYAN",
+      "icf_id": "51824",
+      "profile_name": "Caitlin REGAL",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU312 lists 'Caitlin RYAN' as a name of 51824; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 465,
+      "seat": "ICF_ID3",
+      "printed": "Caitlin RYAN",
+      "icf_id": "51824",
+      "profile_name": "Caitlin REGAL",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU312 lists 'Caitlin RYAN' as a name of 51824; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 624,
+      "seat": "ICF_ID3",
+      "printed": "Caitlin RYAN",
+      "icf_id": "51824",
+      "profile_name": "Caitlin REGAL",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU312 lists 'Caitlin RYAN' as a name of 51824; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 655,
+      "seat": "ICF_ID3",
+      "printed": "Caitlin RYAN",
+      "icf_id": "51824",
+      "profile_name": "Caitlin REGAL",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU312 lists 'Caitlin RYAN' as a name of 51824; seat bound from the name file",
       "was": "no_icf_id"
     }
   ],
@@ -17928,6 +18378,22 @@
       "previous_label": "sheets.PERSONS.rows",
       "new_label": "sheets.PERSONS.rows",
       "rule": "t71 (MAINTAINER_ANSWERS_2026-10-27): the manifest PERSONS row count was stale (266 vs 274 PERSONS data rows in the published xlsx); now the actual count 275 after 1 PERSONS rows added for the approved C3 binds; correction of the log, no seat change"
+    }
+  ],
+  "names_file_binds": [
+    {
+      "rule": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+      "source": "kenderfoka/race-desk main legacy/paddletagger/names.json @ ae2c09168a69af23c13ddaaa0ac0842227fb7447",
+      "names_json_sha256": "7277afa8270b75b916c74b0952041968a2f0c02092a13a489442aaf393f78591",
+      "icf_list": "2026-11-19T08:44:16Z",
+      "icf_list_sha256": "7bb56ef289a7677f81c46b21a8820d05637dec1704f639723cc467b82aad9c4a",
+      "match": "printed name has the words of one name (current, former_names, keywords, links) of exactly one athlete of the boat's country (nationality or federation; AIN/RUS/BLR/ROC agree), accents/case/hyphens ignored, any order; same name+birth+gender counted as one; letter folding only RU351 (ALSBÆK = ALSBAEK)",
+      "scope": "every empty seat (crew boats and single boats)",
+      "bound_from_names_json": 18,
+      "bound_from_icf_list": 6,
+      "rejected": 0,
+      "rule4_resolved": 6,
+      "at_utc": "2026-11-19T09:01:08Z"
     }
   ]
 }
