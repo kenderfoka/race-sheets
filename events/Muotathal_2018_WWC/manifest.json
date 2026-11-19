@@ -13,13 +13,13 @@
  ],
  "reason_code": null,
  "start_times": "scheduled",
- "generated_at_utc": "2026-10-15T10:15:05Z",
- "updated_at": "2026-10-15T10:15:19Z",
+ "generated_at_utc": "2026-11-16T21:36:20Z",
+ "updated_at": "2026-11-16T21:36:20Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "Muotathal_2018_WWC_start.xlsx",
-   "sha256": "7fbc0be2c2f4ff6db910a6a68557b58abea727625dc148fd20c875e8190b1224"
+   "sha256": "5bb99611273fd2edebb2599604b16486b2c291edff10bc539a0cc97341bd153f"
   }
  ],
  "row_count": 655,
@@ -289,6 +289,15 @@
     "SÜLZER VERENA"
    ],
    "used": "SUELZER VERENA",
+   "note": "one athlete printed two ways in this event: ICF profile spelling used (maintainer 2026-10-15)"
+  },
+  {
+   "icf_id": "36551",
+   "printed": [
+    "DELL'AGOSTINO GIORGIO",
+    "DELLÀGOSTINO GIORGIO"
+   ],
+   "used": "DELL'AGOSTINO GIORGIO",
    "note": "one athlete printed two ways in this event: ICF profile spelling used (maintainer 2026-10-15)"
   }
  ],
@@ -2196,10 +2205,16 @@
    "row": 198,
    "seat": "ICF_ID1",
    "printed_name": "CHLOUBA LUBOS",
-   "source": "name+nation+gender bind (paddleworldwide.com profile check; heat-2 start list ICF no as claimed id)",
-   "action": "emptied",
+   "source": "ICF list (fetchApi/bence, refreshed 2026-11-16, sha256 203d2f547b04…) + paddleworldwide.com/athlete/119486 (fetched 2026-11-16)",
+   "action": "corrected",
    "published_id": "",
-   "detail": "candidate 119486: repaired empty seat via unique ICF/PWW search; profile does not list the competition and class"
+   "detail": "empty crew seat bound under the maintainer's name-file rule of 2026-11-16 (t161u): printed 'CHLOUBA LUBOS' (CZE) has the same words, accents and case ignored, as 119486 Lubos CHLOUBA (CZE, born 1959-05-18, M), the only athlete of CZE with that name in the name file and the ICF list; profile does not list 2018 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS",
+   "previous": {
+    "action": "emptied",
+    "detail": "candidate 119486: repaired empty seat via unique ICF/PWW search; profile does not list the competition and class",
+    "source": "name+nation+gender bind (paddleworldwide.com profile check; heat-2 start list ICF no as claimed id)"
+   },
+   "new_id": "119486"
   },
   {
    "row": 198,
@@ -2213,10 +2228,16 @@
    "row": 199,
    "seat": "ICF_ID1",
    "printed_name": "VALA VLADIMIR",
-   "source": "name+nation+gender bind (paddleworldwide.com profile check; heat-2 start list ICF no as claimed id)",
-   "action": "emptied",
+   "source": "ICF list (fetchApi/bence, refreshed 2026-11-16, sha256 203d2f547b04…) + paddleworldwide.com/athlete/36990 (fetched 2026-11-16)",
+   "action": "corrected",
    "published_id": "",
-   "detail": "candidate 36990: repaired empty seat via unique ICF/PWW search; profile does not list the competition and class"
+   "detail": "empty crew seat bound under the maintainer's name-file rule of 2026-11-16 (t161u): printed 'VALA VLADIMIR' (SVK) has the same words, accents and case ignored, as 36990 Vladimir VALA (CZE, born 1963-04-12, M), the only athlete of SVK with that name in the name file and the ICF list; profile does not list 2018 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS",
+   "previous": {
+    "action": "emptied",
+    "detail": "candidate 36990: repaired empty seat via unique ICF/PWW search; profile does not list the competition and class",
+    "source": "name+nation+gender bind (paddleworldwide.com profile check; heat-2 start list ICF no as claimed id)"
+   },
+   "new_id": "36990"
   },
   {
    "row": 199,
@@ -2230,19 +2251,31 @@
    "row": 200,
    "seat": "ICF_ID1",
    "printed_name": "REZNAK LADISLAV",
-   "source": "name+nation+gender bind (paddleworldwide.com profile check; heat-2 start list ICF no as claimed id)",
-   "action": "emptied",
+   "source": "ICF list (fetchApi/bence, refreshed 2026-11-16, sha256 203d2f547b04…) + paddleworldwide.com/athlete/63230 (fetched 2026-11-16)",
+   "action": "corrected",
    "published_id": "",
-   "detail": "candidate 63230: repaired empty seat via unique ICF/PWW search; profile does not list the competition and class"
+   "detail": "empty crew seat bound under the maintainer's name-file rule of 2026-11-16 (t161u): printed 'REZNAK LADISLAV' (CZE) has the same words, accents and case ignored, as 63230 Ladislav REZNAK (CZE, born 1966-05-17, M), the only athlete of CZE with that name in the name file and the ICF list; profile does not list 2018 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS",
+   "previous": {
+    "action": "emptied",
+    "detail": "candidate 63230: repaired empty seat via unique ICF/PWW search; profile does not list the competition and class",
+    "source": "name+nation+gender bind (paddleworldwide.com profile check; heat-2 start list ICF no as claimed id)"
+   },
+   "new_id": "63230"
   },
   {
    "row": 200,
    "seat": "ICF_ID2",
    "printed_name": "HORINEK JAROSLAV",
-   "source": "name+nation+gender bind (paddleworldwide.com profile check; heat-2 start list ICF no as claimed id)",
-   "action": "emptied",
+   "source": "ICF list (fetchApi/bence, refreshed 2026-11-16, sha256 203d2f547b04…) + paddleworldwide.com/athlete/63228 (fetched 2026-11-16)",
+   "action": "corrected",
    "published_id": "",
-   "detail": "candidate 63228: repaired empty seat via unique ICF/PWW search; profile does not list the competition and class"
+   "detail": "empty crew seat bound under the maintainer's name-file rule of 2026-11-16 (t161u): printed 'HORINEK JAROSLAV' (CZE) has the same words, accents and case ignored, as 63228 Jaroslav HORINEK (CZE, born 1963-10-22, M), the only athlete of CZE with that name in the name file and the ICF list; profile does not list 2018 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS",
+   "previous": {
+    "action": "emptied",
+    "detail": "candidate 63228: repaired empty seat via unique ICF/PWW search; profile does not list the competition and class",
+    "source": "name+nation+gender bind (paddleworldwide.com profile check; heat-2 start list ICF no as claimed id)"
+   },
+   "new_id": "63228"
   },
   {
    "row": 201,
@@ -2265,19 +2298,31 @@
    "row": 202,
    "seat": "ICF_ID1",
    "printed_name": "LANCHAIS EMMANUEL",
-   "source": "name+nation+gender bind (paddleworldwide.com profile check; heat-2 start list ICF no as claimed id)",
-   "action": "emptied",
+   "source": "ICF list (fetchApi/bence, refreshed 2026-11-16, sha256 203d2f547b04…) + paddleworldwide.com/athlete/119674 (fetched 2026-11-16)",
+   "action": "corrected",
    "published_id": "",
-   "detail": "candidate 119674: repaired empty seat via unique ICF/PWW search; profile does not list the competition and class"
+   "detail": "empty crew seat bound under the maintainer's name-file rule of 2026-11-16 (t161u): printed 'LANCHAIS EMMANUEL' (FRA) has the same words, accents and case ignored, as 119674 Emmanuel LANCHAIS (FRA, born 1971-02-26, M), the only athlete of FRA with that name in the name file and the ICF list; profile does not list 2018 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS",
+   "previous": {
+    "action": "emptied",
+    "detail": "candidate 119674: repaired empty seat via unique ICF/PWW search; profile does not list the competition and class",
+    "source": "name+nation+gender bind (paddleworldwide.com profile check; heat-2 start list ICF no as claimed id)"
+   },
+   "new_id": "119674"
   },
   {
    "row": 202,
    "seat": "ICF_ID2",
    "printed_name": "BRUNET SYLVAIN",
-   "source": "name+nation+gender bind (paddleworldwide.com profile check; heat-2 start list ICF no as claimed id)",
-   "action": "emptied",
+   "source": "ICF list (fetchApi/bence, refreshed 2026-11-16, sha256 203d2f547b04…) + paddleworldwide.com/athlete/119658 (fetched 2026-11-16)",
+   "action": "corrected",
    "published_id": "",
-   "detail": "candidate 119658: repaired empty seat via unique ICF/PWW search; profile does not list the competition and class"
+   "detail": "empty crew seat bound under the maintainer's name-file rule of 2026-11-16 (t161u): printed 'BRUNET SYLVAIN' (FRA) has the same words, accents and case ignored, as 119658 Sylvain BRUNET (FRA, born 1970-12-30, M), the only athlete of FRA with that name in the name file and the ICF list; profile does not list 2018 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS",
+   "previous": {
+    "action": "emptied",
+    "detail": "candidate 119658: repaired empty seat via unique ICF/PWW search; profile does not list the competition and class",
+    "source": "name+nation+gender bind (paddleworldwide.com profile check; heat-2 start list ICF no as claimed id)"
+   },
+   "new_id": "119658"
   },
   {
    "row": 203,
@@ -2299,10 +2344,16 @@
    "row": 204,
    "seat": "ICF_ID1",
    "printed_name": "DUCHET GWENDAL",
-   "source": "name+nation+gender bind (paddleworldwide.com profile check; heat-2 start list ICF no as claimed id)",
-   "action": "emptied",
+   "source": "ICF list (fetchApi/bence, refreshed 2026-11-16, sha256 203d2f547b04…) + paddleworldwide.com/athlete/119662 (fetched 2026-11-16)",
+   "action": "corrected",
    "published_id": "",
-   "detail": "candidate 119662: repaired empty seat via unique ICF/PWW search; profile does not list the competition and class"
+   "detail": "empty crew seat bound under the maintainer's name-file rule of 2026-11-16 (t161u): printed 'DUCHET GWENDAL' (FRA) has the same words, accents and case ignored, as 119662 Gwendal DUCHET (FRA, born 1979-08-06, M), the only athlete of FRA with that name in the name file and the ICF list; profile does not list 2018 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS",
+   "previous": {
+    "action": "emptied",
+    "detail": "candidate 119662: repaired empty seat via unique ICF/PWW search; profile does not list the competition and class",
+    "source": "name+nation+gender bind (paddleworldwide.com profile check; heat-2 start list ICF no as claimed id)"
+   },
+   "new_id": "119662"
   },
   {
    "row": 204,
@@ -3943,9 +3994,16 @@
    "row": 265,
    "seat": "ICF_ID5",
    "printed_name": "DELLÀGOSTINO GIORGIO",
-   "source": "name+nation+gender bind (paddleworldwide.com profile check; heat-2 start list ICF no as claimed id)",
-   "action": "no_icf_id",
-   "detail": "no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+   "source": "ICF list (fetchApi/bence, refreshed 2026-11-16, sha256 203d2f547b04…) + paddleworldwide.com/athlete/36551 (fetched 2026-11-16)",
+   "action": "corrected",
+   "detail": "empty crew seat bound under the maintainer's name-file rule of 2026-11-16 (t161u): printed 'DELLÀGOSTINO GIORGIO' (ITA) has the same words, accents and case ignored, as 36551 Giorgio DELL'AGOSTINO (ITA, born 1995-02-04, M), the only athlete of ITA with that name in the name file and the ICF list; profile lists 2018 ICF WILDWATER CANOEING WORLD CHAMPIONSHIPS / C1 CLASSIC Men, C1 CLASSIC TEAM Men, C1 SPRINT Men, C1 SPRINT TEAM Men, C2 CLASSIC Men, C2 CLASSIC TEAM Men, C2 SPRINT Men; this event's sources print him two ways (DELL'AGOSTINO GIORGIO on rows 60, 214, 239, 330, 418, 473, 548, 628; DELLÀGOSTINO GIORGIO here): Name5 written in the ICF profile spelling, logged in spellings",
+   "previous": {
+    "action": "no_icf_id",
+    "detail": "no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family",
+    "source": "name+nation+gender bind (paddleworldwide.com profile check; heat-2 start list ICF no as claimed id)"
+   },
+   "new_id": "36551",
+   "spelling": "DELLÀGOSTINO GIORGIO -> DELL'AGOSTINO GIORGIO"
   },
   {
    "row": 265,
@@ -9305,10 +9363,10 @@
   "forerunner": 22,
   "kept": 739,
   "name_change": 3,
-  "no_icf_id": 52,
-  "emptied": 32,
+  "no_icf_id": 51,
+  "emptied": 25,
   "placeholder": 5,
-  "corrected": 68,
+  "corrected": 76,
   "same_meeting": 68
  },
  "issues": [
@@ -9384,5 +9442,25 @@
    "phase": "Forerunner",
    "time": "2018-06-03 14:48:00"
   }
- ]
+ ],
+ "name_file_bind": {
+  "rule": "maintainer message t161u, 2026-11-16 22:26 Europe/Budapest (empty crew seats bound from race-desk legacy/paddletagger/names.json and the ICF list)",
+  "names_json": "race-desk 75edb65 (built_from 58ae13d), read from main 24ca403",
+  "icf_list": "fetchApi/bence refreshed 2026-11-16T21:36:20Z, 28908 records, sha256 203d2f547b04…",
+  "seats_filled": 8,
+  "from_names_json": 0,
+  "from_icf_list": 8,
+  "rejected": 0,
+  "entries_added_for_unnamed_seats": 0,
+  "forerunner_gender_set": [],
+  "name_cells_written": [
+   {
+    "row": 265,
+    "seat": "Name5",
+    "name": "DELL'AGOSTINO GIORGIO",
+    "was": "DELLÀGOSTINO GIORGIO",
+    "why": "spellings (one athlete printed two ways)"
+   }
+  ]
+ }
 }
