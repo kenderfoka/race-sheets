@@ -11,13 +11,13 @@
  "gaps": [
   "icf_ids_incomplete"
  ],
- "generated_at_utc": "2026-11-05T06:14:11Z",
- "updated_at": "2026-11-05T06:14:11Z",
+ "generated_at_utc": "2026-11-16T21:36:20Z",
+ "updated_at": "2026-11-16T21:36:20Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "Pau_2017_WCH_start.xlsx",
-   "sha256": "3d805f51f766fe67c243c18aafa289530ccd0e3c7582d35b3aec3a5b1441af27"
+   "sha256": "69628180d7363f969e0d0126bb62a8f6b6083b9dc908b100d06bf464b1d4ea9e"
   }
  ],
  "row_count": 1050,
@@ -5057,10 +5057,19 @@
    "row": 635,
    "seat": "ICF_ID1",
    "printed_name": "MINAZOVA Alsu",
-   "source": "123result Start List PDF (CS_2017/201201/997/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source": "ICF list (fetchApi/bence, refreshed 2026-11-16, sha256 203d2f547b04…) + paddleworldwide.com/athlete/53314 (fetched 2026-11-16)",
    "published_id": "",
-   "action": "no_icf_id",
-   "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['153573', '53314']"
+   "action": "corrected",
+   "detail": "empty crew seat bound under the maintainer's name-file rule of 2026-11-16 (t161u): printed 'MINAZOVA Alsu' (RUS) has the same words, accents and case ignored, as 53314 Alsu MINAZOVA (RUS, born 1998-07-04, W), the only athlete of RUS with that name in the name file and the ICF list; profile lists 2017 ICF CANOE SLALOM WORLD CHAMPIONSHIPS / C1 Women, C1x3 Women, C2 Mixed; same name, birth date and gender as 153573 (one athlete, contract Rule 1): profile of 53314 lists the competition, the other record(s) do not",
+   "previous": {
+    "action": "no_icf_id",
+    "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['153573', '53314']",
+    "source": "123result Start List PDF (CS_2017/201201/997/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   },
+   "new_id": "53314",
+   "also_ids": [
+    "153573"
+   ]
   },
   {
    "row": 635,
@@ -5116,10 +5125,17 @@
    "row": 638,
    "seat": "ICF_ID1",
    "printed_name": "STACH Aleksandra",
-   "source": "123result Start List PDF (CS_2017/201201/997/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source": "names.json former_names (race-desk legacy/paddletagger/names.json @75edb65) + paddleworldwide.com/athlete/61261 (fetched 2026-11-16)",
    "published_id": "",
-   "action": "no_icf_id",
-   "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+   "action": "corrected",
+   "detail": "empty crew seat bound under the maintainer's name-file rule of 2026-11-16 (t161u): printed 'STACH Aleksandra' (POL) has the same words, accents and case ignored, as former name of 61261 Aleksandra GORA (POL, born 2000-01-06, W), the only athlete of POL with that name in the name file and the ICF list; profile lists 2017 ICF CANOE SLALOM WORLD CHAMPIONSHIPS / C1 Women, C2 Mixed",
+   "previous": {
+    "action": "no_icf_id",
+    "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family",
+    "source": "123result Start List PDF (CS_2017/201201/997/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   },
+   "new_id": "61261",
+   "name_change": "STACH Aleksandra -> Aleksandra GORA"
   },
   {
    "row": 638,
@@ -5155,10 +5171,17 @@
    "row": 640,
    "seat": "ICF_ID1",
    "printed_name": "FISEROVA Tereza",
-   "source": "123result Start List PDF (CS_2017/201201/997/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source": "names.json former_names (race-desk legacy/paddletagger/names.json @75edb65) + paddleworldwide.com/athlete/42016 (fetched 2026-11-16)",
    "published_id": "",
-   "action": "no_icf_id",
-   "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+   "action": "corrected",
+   "detail": "empty crew seat bound under the maintainer's name-file rule of 2026-11-16 (t161u): printed 'FISEROVA Tereza' (CZE) has the same words, accents and case ignored, as former name of 42016 Tereza MICHALOVA (CZE, born 1998-02-23, W), the only athlete of CZE with that name in the name file and the ICF list; profile lists 2017 ICF CANOE SLALOM WORLD CHAMPIONSHIPS / C1 Women, C1x3 Women, C2 Mixed",
+   "previous": {
+    "action": "no_icf_id",
+    "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family",
+    "source": "123result Start List PDF (CS_2017/201201/997/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   },
+   "new_id": "42016",
+   "name_change": "FISEROVA Tereza -> Tereza MICHALOVA"
   },
   {
    "row": 640,
@@ -5194,10 +5217,17 @@
    "row": 514,
    "seat": "ICF_ID1",
    "printed_name": "STACH Aleksandra",
-   "source": "123result Start List PDF (CS_2017/201201/997/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source": "names.json former_names (race-desk legacy/paddletagger/names.json @75edb65) + paddleworldwide.com/athlete/61261 (fetched 2026-11-16)",
    "published_id": "",
-   "action": "no_icf_id",
-   "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+   "action": "corrected",
+   "detail": "empty crew seat bound under the maintainer's name-file rule of 2026-11-16 (t161u): printed 'STACH Aleksandra' (POL) has the same words, accents and case ignored, as former name of 61261 Aleksandra GORA (POL, born 2000-01-06, W), the only athlete of POL with that name in the name file and the ICF list; profile lists 2017 ICF CANOE SLALOM WORLD CHAMPIONSHIPS / C1 Women, C2 Mixed",
+   "previous": {
+    "action": "no_icf_id",
+    "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family",
+    "source": "123result Start List PDF (CS_2017/201201/997/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   },
+   "new_id": "61261",
+   "name_change": "STACH Aleksandra -> Aleksandra GORA"
   },
   {
    "row": 514,
@@ -5253,10 +5283,19 @@
    "row": 517,
    "seat": "ICF_ID1",
    "printed_name": "MINAZOVA Alsu",
-   "source": "123result Start List PDF (CS_2017/201201/997/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source": "ICF list (fetchApi/bence, refreshed 2026-11-16, sha256 203d2f547b04…) + paddleworldwide.com/athlete/53314 (fetched 2026-11-16)",
    "published_id": "",
-   "action": "no_icf_id",
-   "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['153573', '53314']"
+   "action": "corrected",
+   "detail": "empty crew seat bound under the maintainer's name-file rule of 2026-11-16 (t161u): printed 'MINAZOVA Alsu' (RUS) has the same words, accents and case ignored, as 53314 Alsu MINAZOVA (RUS, born 1998-07-04, W), the only athlete of RUS with that name in the name file and the ICF list; profile lists 2017 ICF CANOE SLALOM WORLD CHAMPIONSHIPS / C1 Women, C1x3 Women, C2 Mixed; same name, birth date and gender as 153573 (one athlete, contract Rule 1): profile of 53314 lists the competition, the other record(s) do not",
+   "previous": {
+    "action": "no_icf_id",
+    "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['153573', '53314']",
+    "source": "123result Start List PDF (CS_2017/201201/997/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   },
+   "new_id": "53314",
+   "also_ids": [
+    "153573"
+   ]
   },
   {
    "row": 517,
@@ -5392,10 +5431,17 @@
    "row": 524,
    "seat": "ICF_ID1",
    "printed_name": "FISEROVA Tereza",
-   "source": "123result Start List PDF (CS_2017/201201/997/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source": "names.json former_names (race-desk legacy/paddletagger/names.json @75edb65) + paddleworldwide.com/athlete/42016 (fetched 2026-11-16)",
    "published_id": "",
-   "action": "no_icf_id",
-   "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+   "action": "corrected",
+   "detail": "empty crew seat bound under the maintainer's name-file rule of 2026-11-16 (t161u): printed 'FISEROVA Tereza' (CZE) has the same words, accents and case ignored, as former name of 42016 Tereza MICHALOVA (CZE, born 1998-02-23, W), the only athlete of CZE with that name in the name file and the ICF list; profile lists 2017 ICF CANOE SLALOM WORLD CHAMPIONSHIPS / C1 Women, C1x3 Women, C2 Mixed",
+   "previous": {
+    "action": "no_icf_id",
+    "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family",
+    "source": "123result Start List PDF (CS_2017/201201/997/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   },
+   "new_id": "42016",
+   "name_change": "FISEROVA Tereza -> Tereza MICHALOVA"
   },
   {
    "row": 524,
@@ -5481,22 +5527,32 @@
    "row": 82,
    "seat": "ICF_ID2",
    "printed_name": "MARC Jonathan",
-   "source": "123result FR_NHT1_27@Start List.pdf (CS_2017/201201/997/)",
+   "source": "ICF list (fetchApi/bence, refreshed 2026-11-16, sha256 203d2f547b04…) + paddleworldwide.com/athlete/35388 (fetched 2026-11-16)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner seat: bib 105 prints a second crew name, MARC Jonathan (FRA), under LEFRIEC Simon (also 91C LEFRIEC Simon/MARC Jonathan in FRT_TFI_25/26); seat left empty as every forerunner seat on this sheet (forerunner, not a gap); Name2 cell empty as on main, not changed here"
+   "new_id": "35388",
+   "detail": "empty crew seat bound under the maintainer's name-file rule of 2026-11-16 (t161u): printed 'MARC Jonathan' (FRA) has the same words, accents and case ignored, as 35388 Jonathan MARC (FRA, born 1988-01-12, M), the only athlete of FRA with that name in the name file and the ICF list; profile does not list 2017 ICF CANOE SLALOM WORLD CHAMPIONSHIPS (forerunner, not a gap); Name2 written as the start list prints it (it was empty on main)",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner seat: bib 105 prints a second crew name, MARC Jonathan (FRA), under LEFRIEC Simon (also 91C LEFRIEC Simon/MARC Jonathan in FRT_TFI_25/26); seat left empty as every forerunner seat on this sheet (forerunner, not a gap); Name2 cell empty as on main, not changed here",
+    "source": "123result FR_NHT1_27@Start List.pdf (CS_2017/201201/997/)"
+   }
   },
   {
    "row": 83,
    "seat": "ICF_ID1",
    "printed_name": "BREGAZZI Ella",
-   "source": "SIWIDATA session CS_2017/201201/997/ Code + paddleworldwide.com/athlete/<id>",
+   "source": "ICF list (fetchApi/bence, refreshed 2026-11-16, sha256 203d2f547b04…) + paddleworldwide.com/athlete/41598 (fetched 2026-11-16)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 41598; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
-   "event_log": "forerunner Event C2 from next race block C2M_NHT1_27 (first start 09:15:00); source prints no class"
+   "new_id": "41598",
+   "detail": "empty crew seat bound under the maintainer's name-file rule of 2026-11-16 (t161u): printed 'BREGAZZI Ella' (FRA) has the same words, accents and case ignored, as 41598 Ella BREGAZZI (GBR, born 1996-07-18, W), the only athlete of FRA with that name in the name file and the ICF list; profile does not list 2017 ICF CANOE SLALOM WORLD CHAMPIONSHIPS (forerunner, not a gap)",
+   "event_log": "forerunner Event C2 from next race block C2M_NHT1_27 (first start 09:15:00); source prints no class",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 41598; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2017/201201/997/ Code + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 83,
@@ -5512,12 +5568,17 @@
    "row": 84,
    "seat": "ICF_ID1",
    "printed_name": "DELASSUS Marjorie",
-   "source": "SIWIDATA session CS_2017/201201/997/ Code + paddleworldwide.com/athlete/<id>",
+   "source": "ICF list (fetchApi/bence, refreshed 2026-11-16, sha256 203d2f547b04…) + paddleworldwide.com/athlete/71964 (fetched 2026-11-16)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 71964; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
-   "event_log": "forerunner Event C2 from next race block C2M_NHT1_27 (first start 09:15:00); source prints no class"
+   "new_id": "71964",
+   "detail": "empty crew seat bound under the maintainer's name-file rule of 2026-11-16 (t161u): printed 'DELASSUS Marjorie' (FRA) has the same words, accents and case ignored, as 71964 Marjorie DELASSUS (FRA, born 1998-03-26, W), the only athlete of FRA with that name in the name file and the ICF list; profile does not list 2017 ICF CANOE SLALOM WORLD CHAMPIONSHIPS (forerunner, not a gap)",
+   "event_log": "forerunner Event C2 from next race block C2M_NHT1_27 (first start 09:15:00); source prints no class",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 71964; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2017/201201/997/ Code + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 84,
@@ -5533,12 +5594,17 @@
    "row": 85,
    "seat": "ICF_ID1",
    "printed_name": "DESNOS Mathieu",
-   "source": "SIWIDATA session CS_2017/201201/997/ Code + paddleworldwide.com/athlete/<id>",
+   "source": "ICF list (fetchApi/bence, refreshed 2026-11-16, sha256 203d2f547b04…) + paddleworldwide.com/athlete/93791 (fetched 2026-11-16)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 93791; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
-   "event_log": "forerunner Event C2 from next race block C2M_NHT1_27 (first start 09:15:00); source prints no class"
+   "new_id": "93791",
+   "detail": "empty crew seat bound under the maintainer's name-file rule of 2026-11-16 (t161u): printed 'DESNOS Mathieu' (FRA) has the same words, accents and case ignored, as 93791 Mathieu DESNOS (FRA, born 1994-04-26, M), the only athlete of FRA with that name in the name file and the ICF list; profile does not list 2017 ICF CANOE SLALOM WORLD CHAMPIONSHIPS (forerunner, not a gap)",
+   "event_log": "forerunner Event C2 from next race block C2M_NHT1_27 (first start 09:15:00); source prints no class",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 93791; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2017/201201/997/ Code + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 85,
@@ -5554,12 +5620,17 @@
    "row": 86,
    "seat": "ICF_ID1",
    "printed_name": "MADORE Mathurin",
-   "source": "SIWIDATA session CS_2017/201201/997/ Code + paddleworldwide.com/athlete/<id>",
+   "source": "ICF list (fetchApi/bence, refreshed 2026-11-16, sha256 203d2f547b04…) + paddleworldwide.com/athlete/51994 (fetched 2026-11-16)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 51994; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
-   "event_log": "forerunner Event C2 from next race block C2M_NHT1_27 (first start 09:15:00); source prints no class"
+   "new_id": "51994",
+   "detail": "empty crew seat bound under the maintainer's name-file rule of 2026-11-16 (t161u): printed 'MADORE Mathurin' (FRA) has the same words, accents and case ignored, as 51994 Mathurin MADORE (FRA, born 1996-06-12, M), the only athlete of FRA with that name in the name file and the ICF list; profile does not list 2017 ICF CANOE SLALOM WORLD CHAMPIONSHIPS (forerunner, not a gap)",
+   "event_log": "forerunner Event C2 from next race block C2M_NHT1_27 (first start 09:15:00); source prints no class",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 51994; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2017/201201/997/ Code + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 86,
@@ -5639,22 +5710,32 @@
    "row": 642,
    "seat": "ICF_ID2",
    "printed_name": "MARC Jonathan",
-   "source": "123result FR_SF_29@Start List.pdf (CS_2017/201201/997/)",
+   "source": "ICF list (fetchApi/bence, refreshed 2026-11-16, sha256 203d2f547b04…) + paddleworldwide.com/athlete/35388 (fetched 2026-11-16)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner seat: bib 105 prints a second crew name, MARC Jonathan (FRA), under LEFRIEC Simon (also 91C LEFRIEC Simon/MARC Jonathan in FRT_TFI_25/26); seat left empty as every forerunner seat on this sheet (forerunner, not a gap); Name2 cell empty as on main, not changed here"
+   "new_id": "35388",
+   "detail": "empty crew seat bound under the maintainer's name-file rule of 2026-11-16 (t161u): printed 'MARC Jonathan' (FRA) has the same words, accents and case ignored, as 35388 Jonathan MARC (FRA, born 1988-01-12, M), the only athlete of FRA with that name in the name file and the ICF list; profile does not list 2017 ICF CANOE SLALOM WORLD CHAMPIONSHIPS (forerunner, not a gap); Name2 written as the start list prints it (it was empty on main)",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner seat: bib 105 prints a second crew name, MARC Jonathan (FRA), under LEFRIEC Simon (also 91C LEFRIEC Simon/MARC Jonathan in FRT_TFI_25/26); seat left empty as every forerunner seat on this sheet (forerunner, not a gap); Name2 cell empty as on main, not changed here",
+    "source": "123result FR_SF_29@Start List.pdf (CS_2017/201201/997/)"
+   }
   },
   {
    "row": 643,
    "seat": "ICF_ID1",
    "printed_name": "BREGAZZI Ella",
-   "source": "SIWIDATA session CS_2017/201201/997/ Code + paddleworldwide.com/athlete/<id>",
+   "source": "ICF list (fetchApi/bence, refreshed 2026-11-16, sha256 203d2f547b04…) + paddleworldwide.com/athlete/41598 (fetched 2026-11-16)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 41598; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
-   "event_log": "forerunner Event C2 from next race block C2M_SF_29 (first start 12:07:00); source prints no class"
+   "new_id": "41598",
+   "detail": "empty crew seat bound under the maintainer's name-file rule of 2026-11-16 (t161u): printed 'BREGAZZI Ella' (FRA) has the same words, accents and case ignored, as 41598 Ella BREGAZZI (GBR, born 1996-07-18, W), the only athlete of FRA with that name in the name file and the ICF list; profile does not list 2017 ICF CANOE SLALOM WORLD CHAMPIONSHIPS (forerunner, not a gap)",
+   "event_log": "forerunner Event C2 from next race block C2M_SF_29 (first start 12:07:00); source prints no class",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 41598; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2017/201201/997/ Code + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 643,
@@ -5670,12 +5751,17 @@
    "row": 644,
    "seat": "ICF_ID1",
    "printed_name": "DELASSUS Marjorie",
-   "source": "SIWIDATA session CS_2017/201201/997/ Code + paddleworldwide.com/athlete/<id>",
+   "source": "ICF list (fetchApi/bence, refreshed 2026-11-16, sha256 203d2f547b04…) + paddleworldwide.com/athlete/71964 (fetched 2026-11-16)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 71964; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
-   "event_log": "forerunner Event C2 from next race block C2M_SF_29 (first start 12:07:00); source prints no class"
+   "new_id": "71964",
+   "detail": "empty crew seat bound under the maintainer's name-file rule of 2026-11-16 (t161u): printed 'DELASSUS Marjorie' (FRA) has the same words, accents and case ignored, as 71964 Marjorie DELASSUS (FRA, born 1998-03-26, W), the only athlete of FRA with that name in the name file and the ICF list; profile does not list 2017 ICF CANOE SLALOM WORLD CHAMPIONSHIPS (forerunner, not a gap)",
+   "event_log": "forerunner Event C2 from next race block C2M_SF_29 (first start 12:07:00); source prints no class",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 71964; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2017/201201/997/ Code + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 644,
@@ -5691,12 +5777,17 @@
    "row": 645,
    "seat": "ICF_ID1",
    "printed_name": "DESNOS Mathieu",
-   "source": "SIWIDATA session CS_2017/201201/997/ Code + paddleworldwide.com/athlete/<id>",
+   "source": "ICF list (fetchApi/bence, refreshed 2026-11-16, sha256 203d2f547b04…) + paddleworldwide.com/athlete/93791 (fetched 2026-11-16)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 93791; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
-   "event_log": "forerunner Event C2 from next race block C2M_SF_29 (first start 12:07:00); source prints no class"
+   "new_id": "93791",
+   "detail": "empty crew seat bound under the maintainer's name-file rule of 2026-11-16 (t161u): printed 'DESNOS Mathieu' (FRA) has the same words, accents and case ignored, as 93791 Mathieu DESNOS (FRA, born 1994-04-26, M), the only athlete of FRA with that name in the name file and the ICF list; profile does not list 2017 ICF CANOE SLALOM WORLD CHAMPIONSHIPS (forerunner, not a gap)",
+   "event_log": "forerunner Event C2 from next race block C2M_SF_29 (first start 12:07:00); source prints no class",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 93791; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2017/201201/997/ Code + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 645,
@@ -5712,12 +5803,17 @@
    "row": 646,
    "seat": "ICF_ID1",
    "printed_name": "MADORE Mathurin",
-   "source": "SIWIDATA session CS_2017/201201/997/ Code + paddleworldwide.com/athlete/<id>",
+   "source": "ICF list (fetchApi/bence, refreshed 2026-11-16, sha256 203d2f547b04…) + paddleworldwide.com/athlete/51994 (fetched 2026-11-16)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 51994; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
-   "event_log": "forerunner Event C2 from next race block C2M_SF_29 (first start 12:07:00); source prints no class"
+   "new_id": "51994",
+   "detail": "empty crew seat bound under the maintainer's name-file rule of 2026-11-16 (t161u): printed 'MADORE Mathurin' (FRA) has the same words, accents and case ignored, as 51994 Mathurin MADORE (FRA, born 1996-06-12, M), the only athlete of FRA with that name in the name file and the ICF list; profile does not list 2017 ICF CANOE SLALOM WORLD CHAMPIONSHIPS (forerunner, not a gap)",
+   "event_log": "forerunner Event C2 from next race block C2M_SF_29 (first start 12:07:00); source prints no class",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 51994; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2017/201201/997/ Code + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 646,
@@ -12958,11 +13054,11 @@
  ],
  "id_summary": {
   "kept": 993,
-  "no_icf_id": 111,
-  "forerunner_unbound": 9,
+  "no_icf_id": 105,
+  "forerunner_unbound": 7,
   "forerunner": 35,
   "emptied": 3,
-  "corrected": 2,
+  "corrected": 8,
   "same_meeting": 147,
   "nation_change": 1
  },
@@ -13680,5 +13776,28 @@
    ],
    "action": "kept id and printed team (nation change after the event)"
   }
- ]
+ ],
+ "name_file_bind": {
+  "rule": "maintainer message t161u, 2026-11-16 22:26 Europe/Budapest (empty crew seats bound from race-desk legacy/paddletagger/names.json and the ICF list)",
+  "names_json": "race-desk 75edb65 (built_from 58ae13d), read from main 24ca403",
+  "icf_list": "fetchApi/bence refreshed 2026-11-16T21:36:20Z, 28908 records, sha256 203d2f547b04…",
+  "seats_filled": 16,
+  "from_names_json": 4,
+  "from_icf_list": 12,
+  "rejected": 0,
+  "entries_added_for_unnamed_seats": 0,
+  "forerunner_gender_set": [],
+  "name_cells_written": [
+   {
+    "row": 82,
+    "seat": "Name2",
+    "name": "MARC Jonathan"
+   },
+   {
+    "row": 642,
+    "seat": "Name2",
+    "name": "MARC Jonathan"
+   }
+  ]
+ }
 }
