@@ -180,7 +180,7 @@
   "dates": "2020-09-25/2020-09-27",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-27T20:20:16Z",
+  "generated_at_utc": "2026-11-20T13:12:37Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "Digicorp (Prawn) results book prints the scheduled race start to the minute (written HH:MM:00); Digicorp hub dead, no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule). OQ/para races in the same book are kept (one key).",
@@ -8788,11 +8788,20 @@
       "results_row": 60,
       "seat": "ICF_ID1",
       "source_printed_name": "Anastasiia CHETVERIKOVA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "UKR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Anastasiia CHETVERIKOVA' (UKR) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 72815 RYBACHOK Anastasiia (UKR, W, born 1998-04-13); source race-desk legacy/paddletagger/names.json @ 24ca4034cdab (keywords (RU294))",
+      "new_id": "72815",
+      "name_bound_profile": "kept: profile lists 2020 ICF CANOE SPRINT WORLD CUP / C1 Women 200m",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-16T21:39:24Z"
+      }
     },
     {
       "results_row": 61,
@@ -8828,11 +8837,20 @@
       "results_row": 64,
       "seat": "ICF_ID1",
       "source_printed_name": "Jana JEZOVA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)",
       "team": "CZE",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)"
+      "action": "corrected",
+      "source": "names.json",
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Jana JEZOVA' (CZE) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42362 ZETEK Jana (CZE, W, born 1991-01-22); source race-desk legacy/paddletagger/names.json @ 0583316 (former_names JEZOVA Jana; keywords 'jezova jana' (RU355)); ICF list 2026-11-20T13:10:33Z (sha256 14f85203); book.pdf (cdn.paddleworldwide.com, sha256 651e1481) race 10 (C1 Women 200m – Heat III, p. 5) prints 'Jana JEZOVA' in seat 1 of the CZE boat, rank 7, 54.84; single seat bound under the user's order 2026-11-19 (t133u: bind every single boat without an id from names.json or the ICF list) with this athlete's crew seats, so one printed name+NOC gets one bind at this meeting (publish gate 4); raised in the check's review on comment 7040343259",
+      "new_id": "42362",
+      "name_bound_profile": "kept: profile lists 2020 ICF CANOE SPRINT WORLD CUP / C1 Women 200m Heats rank 7 00:00:54.844",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-20T13:12:37Z"
+      }
     },
     {
       "results_row": 65,
@@ -10944,11 +10962,20 @@
       "results_row": 225,
       "seat": "ICF_ID2",
       "source_printed_name": "Dora BODONYI",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)",
       "team": "HUN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)"
+      "action": "corrected",
+      "source": "names.json",
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Dora BODONYI' (HUN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 131978 HADVINA Dora (HUN, W, born 1993-11-07); source race-desk legacy/paddletagger/names.json @ 0583316 (former_names BODONYI Dora; keywords 'bodonyi dora' (RU353)); ICF list 2026-11-20T13:10:33Z (sha256 14f85203); book.pdf (cdn.paddleworldwide.com, sha256 651e1481) race 34 (K2 Women 500m – Heat III, p. 16) prints 'Dora BODONYI' in seat 2 of the HUN boat, rank 2, 1:57.89; RU314 empty crew seat, check finding finding-38081e5c3e",
+      "new_id": "131978",
+      "name_bound_profile": "kept: profile lists 2020 ICF CANOE SPRINT WORLD CUP / K2 Women 500m Heats rank 2 00:01:57.896",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-20T13:12:37Z"
+      }
     },
     {
       "results_row": 226,
@@ -11545,11 +11572,20 @@
       "results_row": 275,
       "seat": "ICF_ID2",
       "source_printed_name": "Dora BODONYI",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)",
       "team": "HUN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)"
+      "action": "corrected",
+      "source": "names.json",
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Dora BODONYI' (HUN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 131978 HADVINA Dora (HUN, W, born 1993-11-07); source race-desk legacy/paddletagger/names.json @ 0583316 (former_names BODONYI Dora; keywords 'bodonyi dora' (RU353)); ICF list 2026-11-20T13:10:33Z (sha256 14f85203); book.pdf (cdn.paddleworldwide.com, sha256 651e1481) race 41 (K2 Women 500m – Semi-final I, p. 20) prints 'Dora BODONYI' in seat 2 of the HUN boat, rank 2, 1:56.34; RU314 empty crew seat, check finding finding-78223a79c6",
+      "new_id": "131978",
+      "name_bound_profile": "kept: profile lists 2020 ICF CANOE SPRINT WORLD CUP / K2 Women 500m Semifinal rank 2 00:01:56.347",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-20T13:12:37Z"
+      }
     },
     {
       "results_row": 276,
@@ -12514,11 +12550,20 @@
       "results_row": 345,
       "seat": "ICF_ID2",
       "source_printed_name": "Anastasiia CHETVERIKOVA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "UKR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Anastasiia CHETVERIKOVA' (UKR) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 72815 RYBACHOK Anastasiia (UKR, W, born 1998-04-13); source race-desk legacy/paddletagger/names.json @ 24ca4034cdab (keywords (RU294))",
+      "new_id": "72815",
+      "name_bound_profile": "kept: profile lists 2020 ICF CANOE SPRINT WORLD CUP / C2 Women 500m",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-16T21:39:24Z"
+      }
     },
     {
       "results_row": 346,
@@ -12614,11 +12659,20 @@
       "results_row": 350,
       "seat": "ICF_ID2",
       "source_printed_name": "Jana JEZOVA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)",
       "team": "CZE",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)"
+      "action": "corrected",
+      "source": "names.json",
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Jana JEZOVA' (CZE) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42362 ZETEK Jana (CZE, W, born 1991-01-22); source race-desk legacy/paddletagger/names.json @ 0583316 (former_names JEZOVA Jana; keywords 'jezova jana' (RU355)); ICF list 2026-11-20T13:10:33Z (sha256 14f85203); book.pdf (cdn.paddleworldwide.com, sha256 651e1481) race 52 (C2 Women 500m – Heat II, p. 25) prints 'Jana JEZOVA' in seat 2 of the CZE boat, rank 6, 2:19.74; RU314 empty crew seat, check finding finding-a0fa46fbe9",
+      "new_id": "42362",
+      "name_bound_profile": "kept: profile lists 2020 ICF CANOE SPRINT WORLD CUP / C2 Women 500m Heats rank 6 00:02:19.742",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-20T13:12:37Z"
+      }
     },
     {
       "results_row": 351,
@@ -12878,11 +12932,20 @@
       "results_row": 376,
       "seat": "ICF_ID1",
       "source_printed_name": "Dora BODONYI",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)",
       "team": "HUN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)"
+      "action": "corrected",
+      "source": "names.json",
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Dora BODONYI' (HUN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 131978 HADVINA Dora (HUN, W, born 1993-11-07); source race-desk legacy/paddletagger/names.json @ 0583316 (former_names BODONYI Dora; keywords 'bodonyi dora' (RU353)); ICF list 2026-11-20T13:10:33Z (sha256 14f85203); book.pdf (cdn.paddleworldwide.com, sha256 651e1481) race 56 (K1 Women 500m – Heat IV, p. 27) prints 'Dora BODONYI' in seat 1 of the HUN boat, rank 1, 2:04.13; single seat bound under the user's order 2026-11-19 (t133u: bind every single boat without an id from names.json or the ICF list) with this athlete's crew seats, so one printed name+NOC gets one bind at this meeting (publish gate 4); raised in the check's review on comment 7040343259",
+      "new_id": "131978",
+      "name_bound_profile": "kept: PWW profile 131978 lists no K1 race at this meeting (only K2 W 500 and K4 W 500); other finishers' profiles do list the race (42146 K1 Women 500m Heats rank 2 00:02:04.488); same person by MTI/origo.hu 2020-09-11 'Világbajnokok és fiatal tehetségek a magyar kajak-kenu válogatott vk-keretében' (HUN team for the Szeged World Cup: Bodonyi Dóra, the 2019 WCH K4 500 and K1 5000 world champion, enters K-1 500 m, K-1 5000 m, K-2 500 m with Kőhalmi Emese (79034, her K2 partner on rows 225/275/747) and K-4 500 m) and MTI/origo.hu 2020-09-27 'Két arany 5000 méteren, 15 éremmel zártak a magyarok a szegedi kajak-kenu világkupán' (the 26-year-old Bodonyi Dóra of Szolnok won K-1 5000 m in 22:21.89; 131978 born 1993-11-07)",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-20T13:12:37Z"
+      }
     },
     {
       "results_row": 377,
@@ -13903,11 +13966,20 @@
       "results_row": 445,
       "seat": "ICF_ID2",
       "source_printed_name": "Anastasiia CHETVERIKOVA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, X)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "UKR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, X)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Anastasiia CHETVERIKOVA' (UKR) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 72815 RYBACHOK Anastasiia (UKR, W, born 1998-04-13); source race-desk legacy/paddletagger/names.json @ 24ca4034cdab (keywords (RU294))",
+      "new_id": "72815",
+      "name_bound_profile": "kept: profile lists 2020 ICF CANOE SPRINT WORLD CUP / C2 Mixed 200m",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, X)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, X)",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-16T21:39:24Z"
+      }
     },
     {
       "results_row": 446,
@@ -15183,11 +15255,20 @@
       "results_row": 543,
       "seat": "ICF_ID1",
       "source_printed_name": "Jana JEZOVA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)",
       "team": "CZE",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)"
+      "action": "corrected",
+      "source": "names.json",
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Jana JEZOVA' (CZE) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42362 ZETEK Jana (CZE, W, born 1991-01-22); source race-desk legacy/paddletagger/names.json @ 0583316 (former_names JEZOVA Jana; keywords 'jezova jana' (RU355)); ICF list 2026-11-20T13:10:33Z (sha256 14f85203); book.pdf (cdn.paddleworldwide.com, sha256 651e1481) race 77 (C1 Women 200m – Semi-final I, p. 38) prints 'Jana JEZOVA' in seat 1 of the CZE boat, rank 6, 52.76; single seat bound under the user's order 2026-11-19 (t133u: bind every single boat without an id from names.json or the ICF list) with this athlete's crew seats, so one printed name+NOC gets one bind at this meeting (publish gate 4); raised in the check's review on comment 7040343259",
+      "new_id": "42362",
+      "name_bound_profile": "kept: profile lists 2020 ICF CANOE SPRINT WORLD CUP / C1 Women 200m Semifinal rank 6 00:00:52.768",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-20T13:12:37Z"
+      }
     },
     {
       "results_row": 544,
@@ -15273,11 +15354,20 @@
       "results_row": 552,
       "seat": "ICF_ID1",
       "source_printed_name": "Anastasiia CHETVERIKOVA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "UKR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Anastasiia CHETVERIKOVA' (UKR) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 72815 RYBACHOK Anastasiia (UKR, W, born 1998-04-13); source race-desk legacy/paddletagger/names.json @ 24ca4034cdab (keywords (RU294))",
+      "new_id": "72815",
+      "name_bound_profile": "kept: profile lists 2020 ICF CANOE SPRINT WORLD CUP / C1 Women 200m",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-16T21:39:24Z"
+      }
     },
     {
       "results_row": 553,
@@ -16615,21 +16705,39 @@
       "results_row": 653,
       "seat": "ICF_ID1",
       "source_printed_name": "Jana JEZOVA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)",
       "team": "CZE",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)"
+      "action": "corrected",
+      "source": "names.json",
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Jana JEZOVA' (CZE) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42362 ZETEK Jana (CZE, W, born 1991-01-22); source race-desk legacy/paddletagger/names.json @ 0583316 (former_names JEZOVA Jana; keywords 'jezova jana' (RU355)); ICF list 2026-11-20T13:10:33Z (sha256 14f85203); book.pdf (cdn.paddleworldwide.com, sha256 651e1481) race 93 (C1 Women 200m – Final B, p. 45) prints 'Jana JEZOVA' in seat 1 of the CZE boat, rank 1, 50.55; single seat bound under the user's order 2026-11-19 (t133u: bind every single boat without an id from names.json or the ICF list) with this athlete's crew seats, so one printed name+NOC gets one bind at this meeting (publish gate 4); raised in the check's review on comment 7040343259",
+      "new_id": "42362",
+      "name_bound_profile": "kept: profile lists 2020 ICF CANOE SPRINT WORLD CUP / C1 Women 200m Final rank 1 00:00:50.555",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-20T13:12:37Z"
+      }
     },
     {
       "results_row": 654,
       "seat": "ICF_ID1",
       "source_printed_name": "Anastasiia CHETVERIKOVA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "UKR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Anastasiia CHETVERIKOVA' (UKR) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 72815 RYBACHOK Anastasiia (UKR, W, born 1998-04-13); source race-desk legacy/paddletagger/names.json @ 24ca4034cdab (keywords (RU294))",
+      "new_id": "72815",
+      "name_bound_profile": "kept: profile lists 2020 ICF CANOE SPRINT WORLD CUP / C1 Women 200m",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-16T21:39:24Z"
+      }
     },
     {
       "results_row": 655,
@@ -17824,11 +17932,20 @@
       "results_row": 747,
       "seat": "ICF_ID2",
       "source_printed_name": "Dora BODONYI",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)",
       "team": "HUN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)"
+      "action": "corrected",
+      "source": "names.json",
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Dora BODONYI' (HUN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 131978 HADVINA Dora (HUN, W, born 1993-11-07); source race-desk legacy/paddletagger/names.json @ 0583316 (former_names BODONYI Dora; keywords 'bodonyi dora' (RU353)); ICF list 2026-11-20T13:10:33Z (sha256 14f85203); book.pdf (cdn.paddleworldwide.com, sha256 651e1481) race 103 (K2 Women 500m – Final A, p. 51) prints 'Dora BODONYI' in seat 2 of the HUN boat, rank 5, 1:43.39; RU314 empty crew seat, check finding finding-0b83b6382d",
+      "new_id": "131978",
+      "name_bound_profile": "kept: profile lists 2020 ICF CANOE SPRINT WORLD CUP / K2 Women 500m Final rank 5 00:01:43.392",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-20T13:12:37Z"
+      }
     },
     {
       "results_row": 748,
@@ -18074,11 +18191,20 @@
       "results_row": 764,
       "seat": "ICF_ID2",
       "source_printed_name": "Jana JEZOVA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)",
       "team": "CZE",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)"
+      "action": "corrected",
+      "source": "names.json",
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Jana JEZOVA' (CZE) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42362 ZETEK Jana (CZE, W, born 1991-01-22); source race-desk legacy/paddletagger/names.json @ 0583316 (former_names JEZOVA Jana; keywords 'jezova jana' (RU355)); ICF list 2026-11-20T13:10:33Z (sha256 14f85203); book.pdf (cdn.paddleworldwide.com, sha256 651e1481) race 105 (C2 Women 500m – Semi-final I, p. 52) prints 'Jana JEZOVA' in seat 2 of the CZE boat, rank 4, 2:03.69; RU314 empty crew seat, check finding finding-754e4b8e76",
+      "new_id": "42362",
+      "name_bound_profile": "kept: profile lists 2020 ICF CANOE SPRINT WORLD CUP / C2 Women 500m Semifinal rank 4 00:02:03.693",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-20T13:12:37Z"
+      }
     },
     {
       "results_row": 765,
@@ -18134,11 +18260,20 @@
       "results_row": 768,
       "seat": "ICF_ID1",
       "source_printed_name": "Dora BODONYI",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)",
       "team": "HUN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)"
+      "action": "corrected",
+      "source": "names.json",
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Dora BODONYI' (HUN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 131978 HADVINA Dora (HUN, W, born 1993-11-07); source race-desk legacy/paddletagger/names.json @ 0583316 (former_names BODONYI Dora; keywords 'bodonyi dora' (RU353)); ICF list 2026-11-20T13:10:33Z (sha256 14f85203); book.pdf (cdn.paddleworldwide.com, sha256 651e1481) race 106 (K1 Women 500m – Semi-final I, p. 52) prints 'Dora BODONYI' in seat 1 of the HUN boat, rank 2, 1:52.69; single seat bound under the user's order 2026-11-19 (t133u: bind every single boat without an id from names.json or the ICF list) with this athlete's crew seats, so one printed name+NOC gets one bind at this meeting (publish gate 4); raised in the check's review on comment 7040343259",
+      "new_id": "131978",
+      "name_bound_profile": "kept: PWW profile 131978 lists no K1 race at this meeting (only K2 W 500 and K4 W 500); other finishers' profiles do list the race (54772 K1 Women 500m Semifinal rank 4 00:01:54.046); same person by MTI/origo.hu 2020-09-11 'Világbajnokok és fiatal tehetségek a magyar kajak-kenu válogatott vk-keretében' (HUN team for the Szeged World Cup: Bodonyi Dóra, the 2019 WCH K4 500 and K1 5000 world champion, enters K-1 500 m, K-1 5000 m, K-2 500 m with Kőhalmi Emese (79034, her K2 partner on rows 225/275/747) and K-4 500 m) and MTI/origo.hu 2020-09-27 'Két arany 5000 méteren, 15 éremmel zártak a magyarok a szegedi kajak-kenu világkupán' (the 26-year-old Bodonyi Dóra of Szolnok won K-1 5000 m in 22:21.89; 131978 born 1993-11-07)",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-20T13:12:37Z"
+      }
     },
     {
       "results_row": 769,
@@ -20038,11 +20173,20 @@
       "results_row": 882,
       "seat": "ICF_ID3",
       "source_printed_name": "Dora BODONYI",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)",
       "team": "HUN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)"
+      "action": "corrected",
+      "source": "names.json",
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Dora BODONYI' (HUN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 131978 HADVINA Dora (HUN, W, born 1993-11-07); source race-desk legacy/paddletagger/names.json @ 0583316 (former_names BODONYI Dora; keywords 'bodonyi dora' (RU353)); ICF list 2026-11-20T13:10:33Z (sha256 14f85203); book.pdf (cdn.paddleworldwide.com, sha256 651e1481) race 124 (K4 Women 500m – Heat I, p. 61) prints 'Dora BODONYI' in seat 3 of the HUN boat, rank 3, 1:36.93; RU314 empty crew seat, check finding finding-0237569ffa",
+      "new_id": "131978",
+      "name_bound_profile": "kept: profile lists 2020 ICF CANOE SPRINT WORLD CUP / K4 Women 500m Heats rank 3 00:01:36.930",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-20T13:12:37Z"
+      }
     },
     {
       "results_row": 882,
@@ -21632,11 +21776,20 @@
       "results_row": 963,
       "seat": "ICF_ID2",
       "source_printed_name": "Anastasiia CHETVERIKOVA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "UKR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Anastasiia CHETVERIKOVA' (UKR) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 72815 RYBACHOK Anastasiia (UKR, W, born 1998-04-13); source race-desk legacy/paddletagger/names.json @ 24ca4034cdab (keywords (RU294))",
+      "new_id": "72815",
+      "name_bound_profile": "kept: profile lists 2020 ICF CANOE SPRINT WORLD CUP / C2 Women 500m",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-16T21:39:24Z"
+      }
     },
     {
       "results_row": 964,
@@ -21891,11 +22044,20 @@
       "results_row": 980,
       "seat": "ICF_ID1",
       "source_printed_name": "Dora BODONYI",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)",
       "team": "HUN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)"
+      "action": "corrected",
+      "source": "names.json",
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Dora BODONYI' (HUN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 131978 HADVINA Dora (HUN, W, born 1993-11-07); source race-desk legacy/paddletagger/names.json @ 0583316 (former_names BODONYI Dora; keywords 'bodonyi dora' (RU353)); ICF list 2026-11-20T13:10:33Z (sha256 14f85203); book.pdf (cdn.paddleworldwide.com, sha256 651e1481) race 138 (K1 Women 500m – Final A, p. 68) prints 'Dora BODONYI' in seat 1 of the HUN boat, rank 9, 1:58.23; single seat bound under the user's order 2026-11-19 (t133u: bind every single boat without an id from names.json or the ICF list) with this athlete's crew seats, so one printed name+NOC gets one bind at this meeting (publish gate 4); raised in the check's review on comment 7040343259",
+      "new_id": "131978",
+      "name_bound_profile": "kept: PWW profile 131978 lists no K1 race at this meeting (only K2 W 500 and K4 W 500); other finishers' profiles do list the race (79034 K1 Women 500m Final rank 6 00:01:55.421, 42146 Final rank 7 00:01:55.486); same person by MTI/origo.hu 2020-09-11 'Világbajnokok és fiatal tehetségek a magyar kajak-kenu válogatott vk-keretében' (HUN team for the Szeged World Cup: Bodonyi Dóra, the 2019 WCH K4 500 and K1 5000 world champion, enters K-1 500 m, K-1 5000 m, K-2 500 m with Kőhalmi Emese (79034, her K2 partner on rows 225/275/747) and K-4 500 m) and MTI/origo.hu 2020-09-27 'Két arany 5000 méteren, 15 éremmel zártak a magyarok a szegedi kajak-kenu világkupán' (the 26-year-old Bodonyi Dóra of Szolnok won K-1 5000 m in 22:21.89; 131978 born 1993-11-07)",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-20T13:12:37Z"
+      }
     },
     {
       "results_row": 981,
@@ -22627,11 +22789,20 @@
       "results_row": 1020,
       "seat": "ICF_ID2",
       "source_printed_name": "Anastasiia CHETVERIKOVA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "UKR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Anastasiia CHETVERIKOVA' (UKR) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 72815 RYBACHOK Anastasiia (UKR, W, born 1998-04-13); source race-desk legacy/paddletagger/names.json @ 24ca4034cdab (keywords (RU294))",
+      "new_id": "72815",
+      "name_bound_profile": "kept: profile lists 2020 ICF CANOE SPRINT WORLD CUP / C2 Women 500m",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, W)",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-16T21:39:24Z"
+      }
     },
     {
       "results_row": 1021,
@@ -22687,11 +22858,20 @@
       "results_row": 1023,
       "seat": "ICF_ID2",
       "source_printed_name": "Jana JEZOVA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)",
       "team": "CZE",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)"
+      "action": "corrected",
+      "source": "names.json",
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Jana JEZOVA' (CZE) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42362 ZETEK Jana (CZE, W, born 1991-01-22); source race-desk legacy/paddletagger/names.json @ 0583316 (former_names JEZOVA Jana; keywords 'jezova jana' (RU355)); ICF list 2026-11-20T13:10:33Z (sha256 14f85203); book.pdf (cdn.paddleworldwide.com, sha256 651e1481) race 143 (C2 Women 200m – Final A, p. 70) prints 'Jana JEZOVA' in seat 2 of the CZE boat, rank 7, 47.24; RU314 empty crew seat, check finding finding-db678a4d6d",
+      "new_id": "42362",
+      "name_bound_profile": "kept: profile lists 2020 ICF CANOE SPRINT WORLD CUP / C2 Women 200m Final rank 7 00:00:47.247",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEZOVA (CZE, W)",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-20T13:12:37Z"
+      }
     },
     {
       "results_row": 1024,
@@ -23021,11 +23201,20 @@
       "results_row": 1039,
       "seat": "ICF_ID3",
       "source_printed_name": "Dora BODONYI",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)",
       "team": "HUN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)"
+      "action": "corrected",
+      "source": "names.json",
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Dora BODONYI' (HUN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 131978 HADVINA Dora (HUN, W, born 1993-11-07); source race-desk legacy/paddletagger/names.json @ 0583316 (former_names BODONYI Dora; keywords 'bodonyi dora' (RU353)); ICF list 2026-11-20T13:10:33Z (sha256 14f85203); book.pdf (cdn.paddleworldwide.com, sha256 651e1481) race 145 (K4 Women 500m – Final A, p. 71) prints 'Dora BODONYI' in seat 3 of the HUN boat, rank 5, 1:37.85; RU314 empty crew seat, check finding finding-a1cad710ce",
+      "new_id": "131978",
+      "name_bound_profile": "kept: profile lists 2020 ICF CANOE SPRINT WORLD CUP / K4 Women 500m Final rank 5 00:01:37.855",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-20T13:12:37Z"
+      }
     },
     {
       "results_row": 1039,
@@ -23713,11 +23902,20 @@
       "results_row": 1064,
       "seat": "ICF_ID2",
       "source_printed_name": "Anastasiia CHETVERIKOVA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, X)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "UKR",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, X)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Anastasiia CHETVERIKOVA' (UKR) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 72815 RYBACHOK Anastasiia (UKR, W, born 1998-04-13); source race-desk legacy/paddletagger/names.json @ 24ca4034cdab (keywords (RU294))",
+      "new_id": "72815",
+      "name_bound_profile": "kept: profile lists 2020 ICF CANOE SPRINT WORLD CUP / C2 Mixed 200m",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, X)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Anastasiia CHETVERIKOVA (UKR, X)",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-16T21:39:24Z"
+      }
     },
     {
       "results_row": 1065,
@@ -24319,11 +24517,20 @@
       "results_row": 1109,
       "seat": "ICF_ID1",
       "source_printed_name": "Dora BODONYI",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)",
       "team": "HUN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)"
+      "action": "corrected",
+      "source": "names.json",
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Dora BODONYI' (HUN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 131978 HADVINA Dora (HUN, W, born 1993-11-07); source race-desk legacy/paddletagger/names.json @ 0583316 (former_names BODONYI Dora; keywords 'bodonyi dora' (RU353)); ICF list 2026-11-20T13:10:33Z (sha256 14f85203); book.pdf (cdn.paddleworldwide.com, sha256 651e1481) race 152 (K1 Women 5000m – Final A, p. 76) prints 'Dora BODONYI' in seat 1 of the HUN boat, rank 1, 22:21.89; single seat bound under the user's order 2026-11-19 (t133u: bind every single boat without an id from names.json or the ICF list) with this athlete's crew seats, so one printed name+NOC gets one bind at this meeting (publish gate 4); raised in the check's review on comment 7040343259",
+      "new_id": "131978",
+      "name_bound_profile": "kept: PWW profile 131978 lists no K1 race at this meeting (only K2 W 500 and K4 W 500); other finishers' profiles do list the race (54772 K1 Women 5000m Final rank 2 00:22:22.442); same person by MTI/origo.hu 2020-09-11 'Világbajnokok és fiatal tehetségek a magyar kajak-kenu válogatott vk-keretében' (HUN team for the Szeged World Cup: Bodonyi Dóra, the 2019 WCH K4 500 and K1 5000 world champion, enters K-1 500 m, K-1 5000 m, K-2 500 m with Kőhalmi Emese (79034, her K2 partner on rows 225/275/747) and K-4 500 m) and MTI/origo.hu 2020-09-27 'Két arany 5000 méteren, 15 éremmel zártak a magyarok a szegedi kajak-kenu világkupán' (the 26-year-old Bodonyi Dóra of Szolnok won K-1 5000 m in 22:21.89; 131978 born 1993-11-07)",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dora BODONYI (HUN, W)",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-20T13:12:37Z"
+      }
     },
     {
       "results_row": 1110,
@@ -24733,7 +24940,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 360
+      "rows": 363
     }
   },
   "domain": "flatwater_sprint",
@@ -24743,12 +24950,12 @@
     {
       "kind": "xlsx",
       "name": "Szeged_2020_WC_Results.xlsx",
-      "sha256": "10c92a2e8de19b99dabd6c31d1f55801fa9ec82a0bcb0cf0a0827a00e2a62807",
-      "bytes": 99177
+      "sha256": "4186aeca6fca21cb1ff4f4667172da5ad055cb6cbe417641d86f1fdd89cacd40",
+      "bytes": 99422
     }
   ],
   "output_xlsx": "Szeged_2020_WC_Results.xlsx",
-  "output_xlsx_sha256": "10c92a2e8de19b99dabd6c31d1f55801fa9ec82a0bcb0cf0a0827a00e2a62807",
+  "output_xlsx_sha256": "4186aeca6fca21cb1ff4f4667172da5ad055cb6cbe417641d86f1fdd89cacd40",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -24797,7 +25004,7 @@
     "no_icf_id_t59": 30,
     "same_meeting_unified_t59": 0
   },
-  "updated_at": "2026-10-27T20:20:16Z",
+  "updated_at": "2026-11-20T13:12:37Z",
   "printed_field_counts": {
     "source": "boats per race as parsed from the published source (https://cdn.paddleworldwide.com/media/2020_icf_canoe_sprint_and_paracanoe_world_cup_szeged_-_full_results_book.pdf); back-filled 2026-10-19 from the published RESULTS (the builder parse), race coverage cross-checked independently by GATE10b",
     "rule": "MAINTAINER_ANSWERS_2026-10-18c Fix 1: printed count decides",
@@ -24955,7 +25162,238 @@
     },
     "backfilled": "2026-10-19"
   },
-  "name_change_log": [],
+  "name_change_log": [
+    {
+      "results_row": 60,
+      "seat": "ICF_ID1",
+      "printed": "Anastasiia CHETVERIKOVA",
+      "icf_id": "72815",
+      "profile_name": "Anastasiia RYBACHOK",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json keywords (RU294) lists 'Anastasiia CHETVERIKOVA' as a name of 72815; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 345,
+      "seat": "ICF_ID2",
+      "printed": "Anastasiia CHETVERIKOVA",
+      "icf_id": "72815",
+      "profile_name": "Anastasiia RYBACHOK",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json keywords (RU294) lists 'Anastasiia CHETVERIKOVA' as a name of 72815; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 445,
+      "seat": "ICF_ID2",
+      "printed": "Anastasiia CHETVERIKOVA",
+      "icf_id": "72815",
+      "profile_name": "Anastasiia RYBACHOK",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json keywords (RU294) lists 'Anastasiia CHETVERIKOVA' as a name of 72815; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 552,
+      "seat": "ICF_ID1",
+      "printed": "Anastasiia CHETVERIKOVA",
+      "icf_id": "72815",
+      "profile_name": "Anastasiia RYBACHOK",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json keywords (RU294) lists 'Anastasiia CHETVERIKOVA' as a name of 72815; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 654,
+      "seat": "ICF_ID1",
+      "printed": "Anastasiia CHETVERIKOVA",
+      "icf_id": "72815",
+      "profile_name": "Anastasiia RYBACHOK",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json keywords (RU294) lists 'Anastasiia CHETVERIKOVA' as a name of 72815; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 963,
+      "seat": "ICF_ID2",
+      "printed": "Anastasiia CHETVERIKOVA",
+      "icf_id": "72815",
+      "profile_name": "Anastasiia RYBACHOK",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json keywords (RU294) lists 'Anastasiia CHETVERIKOVA' as a name of 72815; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 1020,
+      "seat": "ICF_ID2",
+      "printed": "Anastasiia CHETVERIKOVA",
+      "icf_id": "72815",
+      "profile_name": "Anastasiia RYBACHOK",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json keywords (RU294) lists 'Anastasiia CHETVERIKOVA' as a name of 72815; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 1064,
+      "seat": "ICF_ID2",
+      "printed": "Anastasiia CHETVERIKOVA",
+      "icf_id": "72815",
+      "profile_name": "Anastasiia RYBACHOK",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json keywords (RU294) lists 'Anastasiia CHETVERIKOVA' as a name of 72815; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 64,
+      "seat": "ICF_ID1",
+      "printed": "Jana JEZOVA",
+      "icf_id": "42362",
+      "profile_name": "Jana ZETEK",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json former_names/keywords (RU355) lists 'Jana JEZOVA' as a name of 42362; PWW profile lists 2020 ICF CANOE SPRINT WORLD CUP / C1 Women 200m Heats rank 7 00:00:54.844",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 225,
+      "seat": "ICF_ID2",
+      "printed": "Dora BODONYI",
+      "icf_id": "131978",
+      "profile_name": "Dora HADVINA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json former_names/keywords (RU353) lists 'Dora BODONYI' as a name of 131978; PWW profile lists 2020 ICF CANOE SPRINT WORLD CUP / K2 Women 500m Heats rank 2 00:01:57.896",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 275,
+      "seat": "ICF_ID2",
+      "printed": "Dora BODONYI",
+      "icf_id": "131978",
+      "profile_name": "Dora HADVINA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json former_names/keywords (RU353) lists 'Dora BODONYI' as a name of 131978; PWW profile lists 2020 ICF CANOE SPRINT WORLD CUP / K2 Women 500m Semifinal rank 2 00:01:56.347",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 350,
+      "seat": "ICF_ID2",
+      "printed": "Jana JEZOVA",
+      "icf_id": "42362",
+      "profile_name": "Jana ZETEK",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json former_names/keywords (RU355) lists 'Jana JEZOVA' as a name of 42362; PWW profile lists 2020 ICF CANOE SPRINT WORLD CUP / C2 Women 500m Heats rank 6 00:02:19.742",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 376,
+      "seat": "ICF_ID1",
+      "printed": "Dora BODONYI",
+      "icf_id": "131978",
+      "profile_name": "Dora HADVINA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json former_names/keywords (RU353) lists 'Dora BODONYI' as a name of 131978; PWW profile 131978 lists no K1 race at this meeting (only K2 W 500 and K4 W 500); other finishers' profiles do list the race (42146 K1 Women 500m Heats rank 2 00:02:04.488); same person by MTI/origo.hu 2020-09-11 'Világbajnokok és fiatal tehetségek a magyar kajak-kenu válogatott vk-keretében' (HUN team for the Szeged World Cup: Bodonyi Dóra, the 2019 WCH K4 500 and K1 5000 world champion, enters K-1 500 m, K-1 5000 m, K-2 500 m with Kőhalmi Emese (79034, her K2 partner on rows 225/275/747) and K-4 500 m) and MTI/origo.hu 2020-09-27 'Két arany 5000 méteren, 15 éremmel zártak a magyarok a szegedi kajak-kenu világkupán' (the 26-year-old Bodonyi Dóra of Szolnok won K-1 5000 m in 22:21.89; 131978 born 1993-11-07)",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 543,
+      "seat": "ICF_ID1",
+      "printed": "Jana JEZOVA",
+      "icf_id": "42362",
+      "profile_name": "Jana ZETEK",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json former_names/keywords (RU355) lists 'Jana JEZOVA' as a name of 42362; PWW profile lists 2020 ICF CANOE SPRINT WORLD CUP / C1 Women 200m Semifinal rank 6 00:00:52.768",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 653,
+      "seat": "ICF_ID1",
+      "printed": "Jana JEZOVA",
+      "icf_id": "42362",
+      "profile_name": "Jana ZETEK",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json former_names/keywords (RU355) lists 'Jana JEZOVA' as a name of 42362; PWW profile lists 2020 ICF CANOE SPRINT WORLD CUP / C1 Women 200m Final rank 1 00:00:50.555",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 747,
+      "seat": "ICF_ID2",
+      "printed": "Dora BODONYI",
+      "icf_id": "131978",
+      "profile_name": "Dora HADVINA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json former_names/keywords (RU353) lists 'Dora BODONYI' as a name of 131978; PWW profile lists 2020 ICF CANOE SPRINT WORLD CUP / K2 Women 500m Final rank 5 00:01:43.392",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 764,
+      "seat": "ICF_ID2",
+      "printed": "Jana JEZOVA",
+      "icf_id": "42362",
+      "profile_name": "Jana ZETEK",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json former_names/keywords (RU355) lists 'Jana JEZOVA' as a name of 42362; PWW profile lists 2020 ICF CANOE SPRINT WORLD CUP / C2 Women 500m Semifinal rank 4 00:02:03.693",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 768,
+      "seat": "ICF_ID1",
+      "printed": "Dora BODONYI",
+      "icf_id": "131978",
+      "profile_name": "Dora HADVINA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json former_names/keywords (RU353) lists 'Dora BODONYI' as a name of 131978; PWW profile 131978 lists no K1 race at this meeting (only K2 W 500 and K4 W 500); other finishers' profiles do list the race (54772 K1 Women 500m Semifinal rank 4 00:01:54.046); same person by MTI/origo.hu 2020-09-11 'Világbajnokok és fiatal tehetségek a magyar kajak-kenu válogatott vk-keretében' (HUN team for the Szeged World Cup: Bodonyi Dóra, the 2019 WCH K4 500 and K1 5000 world champion, enters K-1 500 m, K-1 5000 m, K-2 500 m with Kőhalmi Emese (79034, her K2 partner on rows 225/275/747) and K-4 500 m) and MTI/origo.hu 2020-09-27 'Két arany 5000 méteren, 15 éremmel zártak a magyarok a szegedi kajak-kenu világkupán' (the 26-year-old Bodonyi Dóra of Szolnok won K-1 5000 m in 22:21.89; 131978 born 1993-11-07)",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 882,
+      "seat": "ICF_ID3",
+      "printed": "Dora BODONYI",
+      "icf_id": "131978",
+      "profile_name": "Dora HADVINA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json former_names/keywords (RU353) lists 'Dora BODONYI' as a name of 131978; PWW profile lists 2020 ICF CANOE SPRINT WORLD CUP / K4 Women 500m Heats rank 3 00:01:36.930",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 980,
+      "seat": "ICF_ID1",
+      "printed": "Dora BODONYI",
+      "icf_id": "131978",
+      "profile_name": "Dora HADVINA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json former_names/keywords (RU353) lists 'Dora BODONYI' as a name of 131978; PWW profile 131978 lists no K1 race at this meeting (only K2 W 500 and K4 W 500); other finishers' profiles do list the race (79034 K1 Women 500m Final rank 6 00:01:55.421, 42146 Final rank 7 00:01:55.486); same person by MTI/origo.hu 2020-09-11 'Világbajnokok és fiatal tehetségek a magyar kajak-kenu válogatott vk-keretében' (HUN team for the Szeged World Cup: Bodonyi Dóra, the 2019 WCH K4 500 and K1 5000 world champion, enters K-1 500 m, K-1 5000 m, K-2 500 m with Kőhalmi Emese (79034, her K2 partner on rows 225/275/747) and K-4 500 m) and MTI/origo.hu 2020-09-27 'Két arany 5000 méteren, 15 éremmel zártak a magyarok a szegedi kajak-kenu világkupán' (the 26-year-old Bodonyi Dóra of Szolnok won K-1 5000 m in 22:21.89; 131978 born 1993-11-07)",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 1023,
+      "seat": "ICF_ID2",
+      "printed": "Jana JEZOVA",
+      "icf_id": "42362",
+      "profile_name": "Jana ZETEK",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json former_names/keywords (RU355) lists 'Jana JEZOVA' as a name of 42362; PWW profile lists 2020 ICF CANOE SPRINT WORLD CUP / C2 Women 200m Final rank 7 00:00:47.247",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 1039,
+      "seat": "ICF_ID3",
+      "printed": "Dora BODONYI",
+      "icf_id": "131978",
+      "profile_name": "Dora HADVINA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json former_names/keywords (RU353) lists 'Dora BODONYI' as a name of 131978; PWW profile lists 2020 ICF CANOE SPRINT WORLD CUP / K4 Women 500m Final rank 5 00:01:37.855",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 1109,
+      "seat": "ICF_ID1",
+      "printed": "Dora BODONYI",
+      "icf_id": "131978",
+      "profile_name": "Dora HADVINA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json former_names/keywords (RU353) lists 'Dora BODONYI' as a name of 131978; PWW profile 131978 lists no K1 race at this meeting (only K2 W 500 and K4 W 500); other finishers' profiles do list the race (54772 K1 Women 5000m Final rank 2 00:22:22.442); same person by MTI/origo.hu 2020-09-11 'Világbajnokok és fiatal tehetségek a magyar kajak-kenu válogatott vk-keretében' (HUN team for the Szeged World Cup: Bodonyi Dóra, the 2019 WCH K4 500 and K1 5000 world champion, enters K-1 500 m, K-1 5000 m, K-2 500 m with Kőhalmi Emese (79034, her K2 partner on rows 225/275/747) and K-4 500 m) and MTI/origo.hu 2020-09-27 'Két arany 5000 méteren, 15 éremmel zártak a magyarok a szegedi kajak-kenu világkupán' (the 26-year-old Bodonyi Dóra of Szolnok won K-1 5000 m in 22:21.89; 131978 born 1993-11-07)",
+      "was": "no_icf_id"
+    }
+  ],
   "nation_change_log": [],
   "corrections_log": [
     {
@@ -25133,5 +25571,197 @@
       "new_label": "sheets.PERSONS.rows",
       "rule": "t71 (MAINTAINER_ANSWERS_2026-10-27): the manifest PERSONS row count was stale (340 vs 359 PERSONS data rows in the published xlsx); now the actual count 360 after 1 PERSONS rows added for the approved C3 binds; correction of the log, no seat change"
     }
-  ]
+  ],
+  "names_file_binds": {
+    "rule": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+    "source": "kenderfoka/race-desk main legacy/paddletagger/names.json @ 24ca4034cdab775633c862dd19786a9d4e4f7907",
+    "icf_list": "2026-11-16T14:05:50Z",
+    "match": "printed name has the words of one name (current, former_names, keywords, links) of exactly one athlete of the boat's country, accents/case/hyphens ignored, any order; same name+birth+gender counted as one",
+    "bound_from_names_json": 23,
+    "bound_from_icf_list": 0,
+    "rejected": 0,
+    "at_utc": "2026-11-16T21:39:24Z",
+    "later_binds": [
+      {
+        "results_row": 64,
+        "seat": "ICF_ID1",
+        "icf_id": "42362",
+        "source_printed_name": "Jana JEZOVA",
+        "source": "kenderfoka/race-desk main legacy/paddletagger/names.json @ 058331606ef25a58f5ed9fd1a9efb00617ecf56c",
+        "keyword": "jezova jana",
+        "ruling": "RU355",
+        "icf_list": "2026-11-20T13:10:33Z (sha256 14f85203)",
+        "finding": null,
+        "at_utc": "2026-11-20T13:12:37Z"
+      },
+      {
+        "results_row": 225,
+        "seat": "ICF_ID2",
+        "icf_id": "131978",
+        "source_printed_name": "Dora BODONYI",
+        "source": "kenderfoka/race-desk main legacy/paddletagger/names.json @ 058331606ef25a58f5ed9fd1a9efb00617ecf56c",
+        "keyword": "bodonyi dora",
+        "ruling": "RU353",
+        "icf_list": "2026-11-20T13:10:33Z (sha256 14f85203)",
+        "finding": "finding-38081e5c3e",
+        "at_utc": "2026-11-20T13:12:37Z"
+      },
+      {
+        "results_row": 275,
+        "seat": "ICF_ID2",
+        "icf_id": "131978",
+        "source_printed_name": "Dora BODONYI",
+        "source": "kenderfoka/race-desk main legacy/paddletagger/names.json @ 058331606ef25a58f5ed9fd1a9efb00617ecf56c",
+        "keyword": "bodonyi dora",
+        "ruling": "RU353",
+        "icf_list": "2026-11-20T13:10:33Z (sha256 14f85203)",
+        "finding": "finding-78223a79c6",
+        "at_utc": "2026-11-20T13:12:37Z"
+      },
+      {
+        "results_row": 350,
+        "seat": "ICF_ID2",
+        "icf_id": "42362",
+        "source_printed_name": "Jana JEZOVA",
+        "source": "kenderfoka/race-desk main legacy/paddletagger/names.json @ 058331606ef25a58f5ed9fd1a9efb00617ecf56c",
+        "keyword": "jezova jana",
+        "ruling": "RU355",
+        "icf_list": "2026-11-20T13:10:33Z (sha256 14f85203)",
+        "finding": "finding-a0fa46fbe9",
+        "at_utc": "2026-11-20T13:12:37Z"
+      },
+      {
+        "results_row": 376,
+        "seat": "ICF_ID1",
+        "icf_id": "131978",
+        "source_printed_name": "Dora BODONYI",
+        "source": "kenderfoka/race-desk main legacy/paddletagger/names.json @ 058331606ef25a58f5ed9fd1a9efb00617ecf56c",
+        "keyword": "bodonyi dora",
+        "ruling": "RU353",
+        "icf_list": "2026-11-20T13:10:33Z (sha256 14f85203)",
+        "finding": null,
+        "at_utc": "2026-11-20T13:12:37Z"
+      },
+      {
+        "results_row": 543,
+        "seat": "ICF_ID1",
+        "icf_id": "42362",
+        "source_printed_name": "Jana JEZOVA",
+        "source": "kenderfoka/race-desk main legacy/paddletagger/names.json @ 058331606ef25a58f5ed9fd1a9efb00617ecf56c",
+        "keyword": "jezova jana",
+        "ruling": "RU355",
+        "icf_list": "2026-11-20T13:10:33Z (sha256 14f85203)",
+        "finding": null,
+        "at_utc": "2026-11-20T13:12:37Z"
+      },
+      {
+        "results_row": 653,
+        "seat": "ICF_ID1",
+        "icf_id": "42362",
+        "source_printed_name": "Jana JEZOVA",
+        "source": "kenderfoka/race-desk main legacy/paddletagger/names.json @ 058331606ef25a58f5ed9fd1a9efb00617ecf56c",
+        "keyword": "jezova jana",
+        "ruling": "RU355",
+        "icf_list": "2026-11-20T13:10:33Z (sha256 14f85203)",
+        "finding": null,
+        "at_utc": "2026-11-20T13:12:37Z"
+      },
+      {
+        "results_row": 747,
+        "seat": "ICF_ID2",
+        "icf_id": "131978",
+        "source_printed_name": "Dora BODONYI",
+        "source": "kenderfoka/race-desk main legacy/paddletagger/names.json @ 058331606ef25a58f5ed9fd1a9efb00617ecf56c",
+        "keyword": "bodonyi dora",
+        "ruling": "RU353",
+        "icf_list": "2026-11-20T13:10:33Z (sha256 14f85203)",
+        "finding": "finding-0b83b6382d",
+        "at_utc": "2026-11-20T13:12:37Z"
+      },
+      {
+        "results_row": 764,
+        "seat": "ICF_ID2",
+        "icf_id": "42362",
+        "source_printed_name": "Jana JEZOVA",
+        "source": "kenderfoka/race-desk main legacy/paddletagger/names.json @ 058331606ef25a58f5ed9fd1a9efb00617ecf56c",
+        "keyword": "jezova jana",
+        "ruling": "RU355",
+        "icf_list": "2026-11-20T13:10:33Z (sha256 14f85203)",
+        "finding": "finding-754e4b8e76",
+        "at_utc": "2026-11-20T13:12:37Z"
+      },
+      {
+        "results_row": 768,
+        "seat": "ICF_ID1",
+        "icf_id": "131978",
+        "source_printed_name": "Dora BODONYI",
+        "source": "kenderfoka/race-desk main legacy/paddletagger/names.json @ 058331606ef25a58f5ed9fd1a9efb00617ecf56c",
+        "keyword": "bodonyi dora",
+        "ruling": "RU353",
+        "icf_list": "2026-11-20T13:10:33Z (sha256 14f85203)",
+        "finding": null,
+        "at_utc": "2026-11-20T13:12:37Z"
+      },
+      {
+        "results_row": 882,
+        "seat": "ICF_ID3",
+        "icf_id": "131978",
+        "source_printed_name": "Dora BODONYI",
+        "source": "kenderfoka/race-desk main legacy/paddletagger/names.json @ 058331606ef25a58f5ed9fd1a9efb00617ecf56c",
+        "keyword": "bodonyi dora",
+        "ruling": "RU353",
+        "icf_list": "2026-11-20T13:10:33Z (sha256 14f85203)",
+        "finding": "finding-0237569ffa",
+        "at_utc": "2026-11-20T13:12:37Z"
+      },
+      {
+        "results_row": 980,
+        "seat": "ICF_ID1",
+        "icf_id": "131978",
+        "source_printed_name": "Dora BODONYI",
+        "source": "kenderfoka/race-desk main legacy/paddletagger/names.json @ 058331606ef25a58f5ed9fd1a9efb00617ecf56c",
+        "keyword": "bodonyi dora",
+        "ruling": "RU353",
+        "icf_list": "2026-11-20T13:10:33Z (sha256 14f85203)",
+        "finding": null,
+        "at_utc": "2026-11-20T13:12:37Z"
+      },
+      {
+        "results_row": 1023,
+        "seat": "ICF_ID2",
+        "icf_id": "42362",
+        "source_printed_name": "Jana JEZOVA",
+        "source": "kenderfoka/race-desk main legacy/paddletagger/names.json @ 058331606ef25a58f5ed9fd1a9efb00617ecf56c",
+        "keyword": "jezova jana",
+        "ruling": "RU355",
+        "icf_list": "2026-11-20T13:10:33Z (sha256 14f85203)",
+        "finding": "finding-db678a4d6d",
+        "at_utc": "2026-11-20T13:12:37Z"
+      },
+      {
+        "results_row": 1039,
+        "seat": "ICF_ID3",
+        "icf_id": "131978",
+        "source_printed_name": "Dora BODONYI",
+        "source": "kenderfoka/race-desk main legacy/paddletagger/names.json @ 058331606ef25a58f5ed9fd1a9efb00617ecf56c",
+        "keyword": "bodonyi dora",
+        "ruling": "RU353",
+        "icf_list": "2026-11-20T13:10:33Z (sha256 14f85203)",
+        "finding": "finding-a1cad710ce",
+        "at_utc": "2026-11-20T13:12:37Z"
+      },
+      {
+        "results_row": 1109,
+        "seat": "ICF_ID1",
+        "icf_id": "131978",
+        "source_printed_name": "Dora BODONYI",
+        "source": "kenderfoka/race-desk main legacy/paddletagger/names.json @ 058331606ef25a58f5ed9fd1a9efb00617ecf56c",
+        "keyword": "bodonyi dora",
+        "ruling": "RU353",
+        "icf_list": "2026-11-20T13:10:33Z (sha256 14f85203)",
+        "finding": null,
+        "at_utc": "2026-11-20T13:12:37Z"
+      }
+    ]
+  }
 }
