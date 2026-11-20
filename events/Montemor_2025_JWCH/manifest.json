@@ -10,7 +10,7 @@
   "dates": "2025-07-23/2025-07-27",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-10-25T15:25:49Z",
+  "generated_at_utc": "2026-11-16T21:39:02Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "MemoSoft results book (Spotfokus hub dead) prints the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule). OQ/para races in the same book are kept (one key).",
@@ -54196,11 +54196,20 @@
       "results_row": 2332,
       "seat": "ICF_ID1",
       "source_printed_name": "Polina PRIAKHINA",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Polina PRIAKHINA (AIN, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "AIN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Polina PRIAKHINA (AIN, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-16_t129u: printed 'Polina PRIAKHINA' (AIN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 152518 BELOVA Polina (AIN/RUS, W, born 2004-07-10); source race-desk legacy/paddletagger/names.json @ 24ca4034cdab (former_names)",
+      "new_id": "152518",
+      "name_bound_profile": "bound: MAINTAINER_ANSWERS_2026-11-16_t129u / MAINTAINER_ANSWERS_2026-10-23 Rule 2 (single candidate; profile https://paddleworldwide.com/athlete/152518 fetched 2026-11-16 does not list this meeting)",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Polina PRIAKHINA (AIN, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Polina PRIAKHINA (AIN, W)",
+        "source": "pww+bence",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+        "superseded_at_utc": "2026-11-16T21:39:02Z"
+      }
     },
     {
       "results_row": 2332,
@@ -56684,7 +56693,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 919
+      "rows": 972
     }
   },
   "relays": [
@@ -56704,12 +56713,12 @@
     {
       "kind": "xlsx",
       "name": "Montemor_2025_JWCH_Results.xlsx",
-      "sha256": "5a6af0effddc73e27d0a318e0b534b0442de03901173fa8920e0428229580a00",
-      "bytes": 215879
+      "sha256": "cb2833aeb5e40115b0ad55981da83fa7f5a50f1b0f74e5351a53537c4bd95a67",
+      "bytes": 215909
     }
   ],
   "output_xlsx": "Montemor_2025_JWCH_Results.xlsx",
-  "output_xlsx_sha256": "5a6af0effddc73e27d0a318e0b534b0442de03901173fa8920e0428229580a00",
+  "output_xlsx_sha256": "cb2833aeb5e40115b0ad55981da83fa7f5a50f1b0f74e5351a53537c4bd95a67",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -56761,7 +56770,7 @@
       }
     }
   },
-  "updated_at": "2026-10-25T15:25:49Z",
+  "updated_at": "2026-11-16T21:39:02Z",
   "name_change_log": [
     {
       "results_row": 43,
@@ -56791,6 +56800,16 @@
       "profile_name": "Mukhammadi RAJABOV",
       "rule": "spelling",
       "evidence": "profile lists 2025 ICF JUNIOR AND U23 CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 1000m",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 2332,
+      "seat": "ICF_ID1",
+      "printed": "Polina PRIAKHINA",
+      "icf_id": "152518",
+      "profile_name": "Polina BELOVA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-16_t129u: names.json former_names lists 'Polina PRIAKHINA' as a name of 152518; seat bound from the name file",
       "was": "no_icf_id"
     }
   ],
@@ -57548,5 +57567,15 @@
       },
       "rule": "MAINTAINER_ANSWERS_2026-10-25c item 1: the run's rule note cited the superseded under-14 rule as replaced; re-pointed to the governing contract text; the run's counts unchanged; MAINTAINER_ANSWERS_2026-10-25c: correction of the log, not of a seat (no id change)"
     }
-  ]
+  ],
+  "names_file_binds": {
+    "rule": "MAINTAINER_ANSWERS_2026-11-16_t129u",
+    "source": "kenderfoka/race-desk main legacy/paddletagger/names.json @ 24ca4034cdab775633c862dd19786a9d4e4f7907",
+    "icf_list": "2026-11-16T14:05:50Z",
+    "match": "printed name has the words of one name (current, former_names, keywords, links) of exactly one athlete of the boat's country, accents/case/hyphens ignored, any order; same name+birth+gender counted as one",
+    "bound_from_names_json": 1,
+    "bound_from_icf_list": 0,
+    "rejected": 0,
+    "at_utc": "2026-11-16T21:39:02Z"
+  }
 }
