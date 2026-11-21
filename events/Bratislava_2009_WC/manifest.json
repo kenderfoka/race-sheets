@@ -3590,10 +3590,11 @@
    "seat": "ICF_ID1",
    "printed_name": "AKINYEMI Jonathan",
    "published_id": "",
-   "action": "no_icf_id",
-   "new_id": "",
-   "detail": "no ICF athlete of NGR carries the printed given+family name in the ICF list (28908 records, sha256 203d2f547b04…) or names.json @c074ca3; PWW athlete search: 0 matching NGR athletes",
-   "source": "ICF list + names.json"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "36822",
+   "detail": "name+nation+gender bind via names.json: keyword 'akinyemi jonathan' (ruling RU353) -> 36822; former_names: AKINYEMI Jonathan is a former name of AKINYEMI Johnathan (NGR, born 1988-11-22, M), the only NGR athlete carrying the printed name; ICF list holds 36822 as AKINYEMI Johnathan (NGR, M, born 1988-11-22); seat filled from empty under RU314/RU322/RU233 (Lab wake 3 on #102, as on #100 and #101); 2008–2012: ICF profiles do not list results before 2013, unconfirmed (contract)",
+   "source": "race-desk legacy/paddletagger/names.json @ 0583316 + ICF list (fetchApi/bence, sha256 203d2f547b04…)",
+   "source_printed_name": "AKINYEMI Jonathan"
   },
   {
    "row": 195,
@@ -5950,10 +5951,11 @@
    "seat": "ICF_ID1",
    "printed_name": "AKINYEMI Jonathan",
    "published_id": "",
-   "action": "no_icf_id",
-   "new_id": "",
-   "detail": "no ICF athlete of NGR carries the printed given+family name in the ICF list (28908 records, sha256 203d2f547b04…) or names.json @c074ca3; PWW athlete search: 0 matching NGR athletes",
-   "source": "ICF list + names.json"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "36822",
+   "detail": "name+nation+gender bind via names.json: keyword 'akinyemi jonathan' (ruling RU353) -> 36822; former_names: AKINYEMI Jonathan is a former name of AKINYEMI Johnathan (NGR, born 1988-11-22, M), the only NGR athlete carrying the printed name; ICF list holds 36822 as AKINYEMI Johnathan (NGR, M, born 1988-11-22); seat filled from empty under RU314/RU322/RU233 (Lab wake 3 on #102, as on #100 and #101); 2008–2012: ICF profiles do not list results before 2013, unconfirmed (contract)",
+   "source": "race-desk legacy/paddletagger/names.json @ 0583316 + ICF list (fetchApi/bence, sha256 203d2f547b04…)",
+   "source_printed_name": "AKINYEMI Jonathan"
   },
   {
    "row": 404,
@@ -7757,19 +7759,19 @@
   }
  ],
  "id_summary": {
-  "bound_by_name_unconfirmed": 315,
-  "no_icf_id": 321
+  "bound_by_name_unconfirmed": 317,
+  "no_icf_id": 319
  },
- "names_json": "race-desk legacy/paddletagger/names.json @ c074ca3",
+ "names_json": "race-desk legacy/paddletagger/names.json @ 0583316",
  "icf_list": "fetchApi/bence, 28908 records, sha256 203d2f547b04d4a7692f885e7cfd2b1ac70c26c4054b7b697365dfe892746ba3",
  "id_rule": "2008–2012: bind by name+nation+gender (ICF list + race-desk names.json + PWW athlete search), log bound_by_name_unconfirmed (ICF profiles do not list results before 2013)",
  "generated_at_utc": "2026-11-17T11:50:03Z",
- "updated_at": "2026-11-17T11:50:03Z",
+ "updated_at": "2026-11-21T04:13:08Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "Bratislava_2009_WC_start.xlsx",
-   "sha256": "b359361db1fbdb4902085c60e630fc3bba5845347e9b50b2ea96836dd89eb092"
+   "sha256": "f1771b4bdfc820d6539abe7b0b1e0a46d27f0905b1b09c0cb6bf44dde05fc1a3"
   }
  ],
  "row_count": 552
