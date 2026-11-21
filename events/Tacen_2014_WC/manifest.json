@@ -11,16 +11,16 @@
  "gaps": [
   "icf_ids_incomplete"
  ],
- "generated_at_utc": "2026-10-15T12:44:21Z",
- "updated_at": "2026-10-15T12:48:05Z",
+ "generated_at_utc": "2026-11-21T20:10:43Z",
+ "updated_at": "2026-11-21T20:10:43Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "Tacen_2014_WC_start.xlsx",
-   "sha256": "b98495344f62dd17b2ac67d712c81bf103fd1ed9a504142bb242da31d1ea46ea"
+   "sha256": "eea7c8a8959540bb8d2ece448ccf16d7813d10aefb0f94e0f9b30b82bf2e8e18"
   }
  ],
- "row_count": 427,
+ "row_count": 618,
  "source": {
   "archive": "https://123result.blob.core.windows.net/canoe?restype=container&comp=list&prefix=CS_2014/siwidata/303/",
   "encoding": "123result Start List / Results PDFs",
@@ -60,7 +60,7 @@
    "https://123result.blob.core.windows.net/canoe/CS_2014/siwidata/303/K1W_HT1_13%40Start%20List.pdf",
    "https://123result.blob.core.windows.net/canoe/CS_2014/siwidata/303/K1W_SF_15%40Start%20List.pdf"
   ],
-  "note": "no SIWIDATA archive for this meeting; printed per-boat start clocks are scheduled; no listed source prints actual starts"
+  "note": "no SIWIDATA archive for this meeting; printed per-boat start clocks are scheduled; no listed source prints actual starts; run 2 of the heats (Unit 2) from the 'Start Time 2nd Run' column of the same HT1 start lists (printed per-boat clocks, scheduled)"
  },
  "actual_starts": {
   "started_or_unit_actual": 0,
@@ -206,10 +206,17 @@
    "row": 330,
    "seat": "ICF_ID2",
    "printed_name": "GONDEK Kacper",
-   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "GONDEK Kacper",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 35472, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "35472",
+   "detail": "seat printed without an id, bound under t163u: printed 'GONDEK Kacper' (POL) has the same words, accents and case ignored, as 35472 Kacper GONDEK (POL, born 1993-01-05, M) via ICF list, the only athlete of POL with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 35472, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class",
+    "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 330,
@@ -692,10 +699,17 @@
    "row": 36,
    "seat": "ICF_ID1",
    "printed_name": "GONDEK Kacper",
-   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "GONDEK Kacper",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 35472, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "35472",
+   "detail": "seat printed without an id, bound under t163u: printed 'GONDEK Kacper' (POL) has the same words, accents and case ignored, as 35472 Kacper GONDEK (POL, born 1993-01-05, M) via ICF list, the only athlete of POL with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 35472, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class",
+    "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 37,
@@ -1334,28 +1348,49 @@
    "row": 301,
    "seat": "ICF_ID1",
    "printed_name": "WOODS Kimberley",
-   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "WOODS Kimberley",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 35650, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "35650",
+   "detail": "seat printed without an id, bound under t163u: printed 'WOODS Kimberley' (GBR) has the same words, accents and case ignored, as 35650 Kimberley WOODS (GBR, born 1995-09-08, W) via ICF list, the only athlete of GBR with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 35650, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class",
+    "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 302,
    "seat": "ICF_ID1",
    "printed_name": "FRANKLIN Mallory",
-   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "FRANKLIN Mallory",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 35615, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "35615",
+   "detail": "seat printed without an id, bound under t163u: printed 'FRANKLIN Mallory' (GBR) has the same words, accents and case ignored, as 35615 Mallory FRANKLIN (GBR, born 1994-06-19, W) via ICF list, the only athlete of GBR with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 35615, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class",
+    "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 303,
    "seat": "ICF_ID1",
    "printed_name": "FOX Jessica",
-   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "FOX Jessica",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 36526, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "36526",
+   "detail": "seat printed without an id, bound under t163u: printed 'FOX Jessica' (AUS) has the same words, accents and case ignored, as 36526 Jessica FOX (AUS, born 1994-06-11, W) via ICF list, the only athlete of AUS with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 36526, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class",
+    "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 304,
@@ -1470,10 +1505,17 @@
    "row": 134,
    "seat": "ICF_ID1",
    "printed_name": "WOODS Kimberley",
-   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "WOODS Kimberley",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 35650, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "35650",
+   "detail": "seat printed without an id, bound under t163u: printed 'WOODS Kimberley' (GBR) has the same words, accents and case ignored, as 35650 Kimberley WOODS (GBR, born 1995-09-08, W) via ICF list, the only athlete of GBR with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 35650, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class",
+    "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 135,
@@ -1498,19 +1540,33 @@
    "row": 137,
    "seat": "ICF_ID1",
    "printed_name": "FRANKLIN Mallory",
-   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "FRANKLIN Mallory",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 35615, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "35615",
+   "detail": "seat printed without an id, bound under t163u: printed 'FRANKLIN Mallory' (GBR) has the same words, accents and case ignored, as 35615 Mallory FRANKLIN (GBR, born 1994-06-19, W) via ICF list, the only athlete of GBR with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 35615, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class",
+    "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 138,
    "seat": "ICF_ID1",
    "printed_name": "FOX Jessica",
-   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "FOX Jessica",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 36526, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "36526",
+   "detail": "seat printed without an id, bound under t163u: printed 'FOX Jessica' (AUS) has the same words, accents and case ignored, as 36526 Jessica FOX (AUS, born 1994-06-11, W) via ICF list, the only athlete of AUS with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 36526, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class",
+    "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 210,
@@ -1575,10 +1631,17 @@
    "row": 216,
    "seat": "ICF_ID1",
    "printed_name": "FRANKLIN Mallory",
-   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "FRANKLIN Mallory",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 35615, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "35615",
+   "detail": "seat printed without an id, bound under t163u: printed 'FRANKLIN Mallory' (GBR) has the same words, accents and case ignored, as 35615 Mallory FRANKLIN (GBR, born 1994-06-19, W) via ICF list, the only athlete of GBR with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 35615, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class",
+    "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 217,
@@ -1594,19 +1657,33 @@
    "row": 218,
    "seat": "ICF_ID1",
    "printed_name": "WOODS Kimberley",
-   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "WOODS Kimberley",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 35650, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "35650",
+   "detail": "seat printed without an id, bound under t163u: printed 'WOODS Kimberley' (GBR) has the same words, accents and case ignored, as 35650 Kimberley WOODS (GBR, born 1995-09-08, W) via ICF list, the only athlete of GBR with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 35650, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class",
+    "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 219,
    "seat": "ICF_ID1",
    "printed_name": "FOX Jessica",
-   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "FOX Jessica",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 36526, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "36526",
+   "detail": "seat printed without an id, bound under t163u: printed 'FOX Jessica' (AUS) has the same words, accents and case ignored, as 36526 Jessica FOX (AUS, born 1994-06-11, W) via ICF list, the only athlete of AUS with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 36526, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class",
+    "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 220,
@@ -2191,10 +2268,17 @@
    "row": 188,
    "seat": "ICF_ID2",
    "printed_name": "SASAKI Tsubasa",
-   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "SASAKI Tsubasa",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "no_icf_id",
-   "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['42256', '47085']"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "42256",
+   "detail": "seat printed without an id, bound under t163u: printed 'SASAKI Tsubasa' (JPN) has the same words, accents and case ignored, as 42256 Tsubasa SASAKI (JPN, born 1995-03-23, M) via ICF list, the only athlete of JPN with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "no_icf_id",
+    "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['42256', '47085']",
+    "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 189,
@@ -2550,10 +2634,17 @@
    "row": 381,
    "seat": "ICF_ID2",
    "printed_name": "SASAKI Tsubasa",
-   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "SASAKI Tsubasa",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "no_icf_id",
-   "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['42256', '47085']"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "42256",
+   "detail": "seat printed without an id, bound under t163u: printed 'SASAKI Tsubasa' (JPN) has the same words, accents and case ignored, as 42256 Tsubasa SASAKI (JPN, born 1995-03-23, M) via ICF list, the only athlete of JPN with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "no_icf_id",
+    "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['42256', '47085']",
+    "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 382,
@@ -2919,44 +3010,68 @@
    "row": 205,
    "seat": "ICF_ID1",
    "printed_name": "LENARCIC Jure",
-   "source": "SIWIDATA session CS_2014/siwidata/303/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "LENARCIC Jure",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 36259; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "36259",
+   "detail": "seat printed without an id, bound under t163u: printed 'LENARCIC Jure' (SLO) has the same words, accents and case ignored, as 36259 Jure LENARCIC (SLO, born 1990-04-04, M) via ICF list, the only athlete of SLO with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 36259; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2014/siwidata/303/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event C1 from next race block C1W_SF_14 (first start 09:00:00); source prints no class"
   },
   {
    "row": 206,
    "seat": "ICF_ID1",
    "printed_name": "BABUIN Marco",
-   "source": "SIWIDATA session CS_2014/siwidata/303/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "BABUIN Marco",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 35224; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "35224",
+   "detail": "seat printed without an id, bound under t163u: printed 'BABUIN Marco' (ITA) has the same words, accents and case ignored, as 35224 Marco BABUIN (ITA, born 1989-11-26, M) via ICF list, the only athlete of ITA with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 35224; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2014/siwidata/303/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event C1 from next race block C1W_SF_14 (first start 09:00:00); source prints no class"
   },
   {
    "row": 207,
    "seat": "ICF_ID1",
    "printed_name": "KUDER MARUSIC Vid",
-   "source": "SIWIDATA session CS_2014/siwidata/303/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "KUDER MARUSIC Vid",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 44342; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "44342",
+   "detail": "seat printed without an id, bound under t163u: printed 'KUDER MARUSIC Vid' (SLO) has the same words, accents and case ignored, as 44342 Vid KUDER MARUSIC (SLO, born 1996-06-07, M) via ICF list, the only athlete of SLO with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 44342; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2014/siwidata/303/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event C1 from next race block C1W_SF_14 (first start 09:00:00); source prints no class"
   },
   {
    "row": 208,
    "seat": "ICF_ID1",
    "printed_name": "MANFREDA VIDRIH Val",
-   "source": "SIWIDATA session CS_2014/siwidata/303/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "MANFREDA VIDRIH Val",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 44816; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "44816",
+   "detail": "seat printed without an id, bound under t163u: printed 'MANFREDA VIDRIH Val' (SLO) has the same words, accents and case ignored, as 44816 Val MANFREDA VIDRIH (SLO, born 1997-05-23, M) via ICF list, the only athlete of SLO with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 44816; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2014/siwidata/303/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event C1 from next race block C1W_SF_14 (first start 09:00:00); source prints no class"
   },
   {
@@ -2973,66 +3088,102 @@
    "row": 348,
    "seat": "ICF_ID1",
    "printed_name": "MANFREDA VIDRIH Val",
-   "source": "SIWIDATA session CS_2014/siwidata/303/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "MANFREDA VIDRIH Val",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 44816; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "44816",
+   "detail": "seat printed without an id, bound under t163u: printed 'MANFREDA VIDRIH Val' (SLO) has the same words, accents and case ignored, as 44816 Val MANFREDA VIDRIH (SLO, born 1997-05-23, M) via ICF list, the only athlete of SLO with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 44816; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2014/siwidata/303/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event K1 from next race block K1W_SF_15 (first start 09:30:00); source prints no class"
   },
   {
    "row": 349,
    "seat": "ICF_ID1",
    "printed_name": "VREVC Neza",
-   "source": "SIWIDATA session CS_2014/siwidata/303/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "VREVC Neza",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 39985; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "39985",
+   "detail": "seat printed without an id, bound under t163u: printed 'VREVC Neza' (SLO) has the same words, accents and case ignored, as 39985 Neza VREVC (SLO, born 1996-03-10, W) via ICF list, the only athlete of SLO with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 39985; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2014/siwidata/303/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event K1 from next race block K1W_SF_15 (first start 09:30:00); source prints no class"
   },
   {
    "row": 2,
    "seat": "ICF_ID1",
    "printed_name": "LENARCIC Jure",
-   "source": "SIWIDATA session CS_2014/siwidata/303/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "LENARCIC Jure",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 36259; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "36259",
+   "detail": "seat printed without an id, bound under t163u: printed 'LENARCIC Jure' (SLO) has the same words, accents and case ignored, as 36259 Jure LENARCIC (SLO, born 1990-04-04, M) via ICF list, the only athlete of SLO with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 36259; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2014/siwidata/303/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event empty: no class printed and no later race block that day (logged)"
   },
   {
    "row": 3,
    "seat": "ICF_ID1",
    "printed_name": "BABUIN Marco",
-   "source": "SIWIDATA session CS_2014/siwidata/303/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "BABUIN Marco",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 35224; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "35224",
+   "detail": "seat printed without an id, bound under t163u: printed 'BABUIN Marco' (ITA) has the same words, accents and case ignored, as 35224 Marco BABUIN (ITA, born 1989-11-26, M) via ICF list, the only athlete of ITA with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 35224; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2014/siwidata/303/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event empty: no class printed and no later race block that day (logged)"
   },
   {
    "row": 4,
    "seat": "ICF_ID1",
    "printed_name": "KUDER MARUSIC Vid",
-   "source": "SIWIDATA session CS_2014/siwidata/303/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "KUDER MARUSIC Vid",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 44342; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "44342",
+   "detail": "seat printed without an id, bound under t163u: printed 'KUDER MARUSIC Vid' (SLO) has the same words, accents and case ignored, as 44342 Vid KUDER MARUSIC (SLO, born 1996-06-07, M) via ICF list, the only athlete of SLO with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 44342; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2014/siwidata/303/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event empty: no class printed and no later race block that day (logged)"
   },
   {
    "row": 5,
    "seat": "ICF_ID1",
    "printed_name": "MANFREDA VIDRIH Val",
-   "source": "SIWIDATA session CS_2014/siwidata/303/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "MANFREDA VIDRIH Val",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 44816; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "44816",
+   "detail": "seat printed without an id, bound under t163u: printed 'MANFREDA VIDRIH Val' (SLO) has the same words, accents and case ignored, as 44816 Val MANFREDA VIDRIH (SLO, born 1997-05-23, M) via ICF list, the only athlete of SLO with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 44816; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2014/siwidata/303/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event empty: no class printed and no later race block that day (logged)"
   },
   {
@@ -3049,55 +3200,85 @@
    "row": 7,
    "seat": "ICF_ID1",
    "printed_name": "VREVC Neza",
-   "source": "SIWIDATA session CS_2014/siwidata/303/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "VREVC Neza",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 39985; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "39985",
+   "detail": "seat printed without an id, bound under t163u: printed 'VREVC Neza' (SLO) has the same words, accents and case ignored, as 39985 Neza VREVC (SLO, born 1996-03-10, W) via ICF list, the only athlete of SLO with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 39985; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2014/siwidata/303/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event empty: no class printed and no later race block that day (logged)"
   },
   {
    "row": 8,
    "seat": "ICF_ID1",
    "printed_name": "LENARCIC Jure",
-   "source": "SIWIDATA session CS_2014/siwidata/303/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "LENARCIC Jure",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 36259; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "36259",
+   "detail": "seat printed without an id, bound under t163u: printed 'LENARCIC Jure' (SLO) has the same words, accents and case ignored, as 36259 Jure LENARCIC (SLO, born 1990-04-04, M) via ICF list, the only athlete of SLO with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 36259; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2014/siwidata/303/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event C1 from next race block C1M_HT1_13 (first start 09:00:00); source prints no class"
   },
   {
    "row": 9,
    "seat": "ICF_ID1",
    "printed_name": "BABUIN Marco",
-   "source": "SIWIDATA session CS_2014/siwidata/303/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "BABUIN Marco",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 35224; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "35224",
+   "detail": "seat printed without an id, bound under t163u: printed 'BABUIN Marco' (ITA) has the same words, accents and case ignored, as 35224 Marco BABUIN (ITA, born 1989-11-26, M) via ICF list, the only athlete of ITA with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 35224; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2014/siwidata/303/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event C1 from next race block C1M_HT1_13 (first start 09:00:00); source prints no class"
   },
   {
    "row": 10,
    "seat": "ICF_ID1",
    "printed_name": "KUDER MARUSIC Vid",
-   "source": "SIWIDATA session CS_2014/siwidata/303/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "KUDER MARUSIC Vid",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 44342; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "44342",
+   "detail": "seat printed without an id, bound under t163u: printed 'KUDER MARUSIC Vid' (SLO) has the same words, accents and case ignored, as 44342 Vid KUDER MARUSIC (SLO, born 1996-06-07, M) via ICF list, the only athlete of SLO with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 44342; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2014/siwidata/303/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event C1 from next race block C1M_HT1_13 (first start 09:00:00); source prints no class"
   },
   {
    "row": 11,
    "seat": "ICF_ID1",
    "printed_name": "MANFREDA VIDRIH Val",
-   "source": "SIWIDATA session CS_2014/siwidata/303/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "MANFREDA VIDRIH Val",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 44816; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "44816",
+   "detail": "seat printed without an id, bound under t163u: printed 'MANFREDA VIDRIH Val' (SLO) has the same words, accents and case ignored, as 44816 Val MANFREDA VIDRIH (SLO, born 1997-05-23, M) via ICF list, the only athlete of SLO with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 44816; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2014/siwidata/303/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event C1 from next race block C1M_HT1_13 (first start 09:00:00); source prints no class"
   },
   {
@@ -3114,11 +3295,17 @@
    "row": 13,
    "seat": "ICF_ID1",
    "printed_name": "VREVC Neza",
-   "source": "SIWIDATA session CS_2014/siwidata/303/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "VREVC Neza",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 39985; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "39985",
+   "detail": "seat printed without an id, bound under t163u: printed 'VREVC Neza' (SLO) has the same words, accents and case ignored, as 39985 Neza VREVC (SLO, born 1996-03-10, W) via ICF list, the only athlete of SLO with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 39985; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2014/siwidata/303/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event C1 from next race block C1M_HT1_13 (first start 09:00:00); source prints no class"
   },
   {
@@ -3174,10 +3361,24 @@
    "row": 337,
    "seat": "ICF_ID3",
    "printed_name": "MAYMISTOV Sergey",
-   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "MAYMISTOV Sergey",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "no_icf_id",
-   "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "53267",
+   "detail": "seat printed without an id, bound under t163u: printed 'MAYMISTOV Sergey' (RUS) has the same words, accents and case ignored, as 53267 Sergei MAIMISTOV (RUS, born 1997-05-25, M) via names.json former_names, the only athlete of RUS with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "name_change": {
+    "printed": "MAYMISTOV Sergey",
+    "icf_name": "MAIMISTOV Sergei",
+    "via": [
+     "names.json former_names"
+    ]
+   },
+   "previous": {
+    "action": "no_icf_id",
+    "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family",
+    "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 338,
@@ -3586,10 +3787,24 @@
    "row": 63,
    "seat": "ICF_ID1",
    "printed_name": "MAYMISTOV Sergey",
-   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "MAYMISTOV Sergey",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "no_icf_id",
-   "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "53267",
+   "detail": "seat printed without an id, bound under t163u: printed 'MAYMISTOV Sergey' (RUS) has the same words, accents and case ignored, as 53267 Sergei MAIMISTOV (RUS, born 1997-05-25, M) via names.json former_names, the only athlete of RUS with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "name_change": {
+    "printed": "MAYMISTOV Sergey",
+    "icf_name": "MAIMISTOV Sergei",
+    "via": [
+     "names.json former_names"
+    ]
+   },
+   "previous": {
+    "action": "no_icf_id",
+    "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family",
+    "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 64,
@@ -3909,10 +4124,17 @@
    "row": 96,
    "seat": "ICF_ID1",
    "printed_name": "NATMESSNIG Herwig",
-   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "NATMESSNIG Herwig",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 112000, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "112000",
+   "detail": "seat printed without an id, bound under t163u: printed 'NATMESSNIG Herwig' (AUT) has the same words, accents and case ignored, as 112000 Herwig NATMESSNIG (AUT, born 1981-08-10, M) via ICF list, the only athlete of AUT with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 112000, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class",
+    "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 97,
@@ -4636,10 +4858,17 @@
    "row": 422,
    "seat": "ICF_ID1",
    "printed_name": "WOODS Kimberley",
-   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "WOODS Kimberley",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 35650, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "35650",
+   "detail": "seat printed without an id, bound under t163u: printed 'WOODS Kimberley' (GBR) has the same words, accents and case ignored, as 35650 Kimberley WOODS (GBR, born 1995-09-08, W) via ICF list, the only athlete of GBR with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 35650, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class",
+    "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 422,
@@ -4654,10 +4883,17 @@
    "row": 422,
    "seat": "ICF_ID3",
    "printed_name": "FRANKLIN Mallory",
-   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "FRANKLIN Mallory",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 35615, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "35615",
+   "detail": "seat printed without an id, bound under t163u: printed 'FRANKLIN Mallory' (GBR) has the same words, accents and case ignored, as 35615 Mallory FRANKLIN (GBR, born 1994-06-19, W) via ICF list, the only athlete of GBR with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 35615, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class",
+    "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 423,
@@ -4830,10 +5066,17 @@
    "row": 408,
    "seat": "ICF_ID1",
    "printed_name": "FOX Jessica",
-   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "FOX Jessica",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 36526, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "36526",
+   "detail": "seat printed without an id, bound under t163u: printed 'FOX Jessica' (AUS) has the same words, accents and case ignored, as 36526 Jessica FOX (AUS, born 1994-06-11, W) via ICF list, the only athlete of AUS with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 36526, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class",
+    "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 409,
@@ -4888,10 +5131,25 @@
    "row": 143,
    "seat": "ICF_ID1",
    "printed_name": "VALIKOVA Barbora",
-   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "VALIKOVA Barbora",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "no_icf_id",
-   "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "37267",
+   "detail": "seat printed without an id, bound under t163u: printed 'VALIKOVA Barbora' (CZE) has the same words, accents and case ignored, as 37267 Barbora HRUDKOVA (CZE, born 1994-11-02, W) via names.json former_names, names.json keywords (RU146), the only athlete of CZE with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "name_change": {
+    "printed": "VALIKOVA Barbora",
+    "icf_name": "HRUDKOVA Barbora",
+    "via": [
+     "names.json former_names",
+     "names.json keywords (RU146)"
+    ]
+   },
+   "previous": {
+    "action": "no_icf_id",
+    "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family",
+    "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 144,
@@ -4974,28 +5232,49 @@
    "row": 152,
    "seat": "ICF_ID1",
    "printed_name": "SATILA Ana",
-   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "SATILA Ana",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 35327, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "35327",
+   "detail": "seat printed without an id, bound under t163u: printed 'SATILA Ana' (BRA) has the same words, accents and case ignored, as 35327 Ana SATILA (BRA, born 1996-03-13, W) via ICF list, the only athlete of BRA with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 35327, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class",
+    "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 153,
    "seat": "ICF_ID1",
    "printed_name": "WOODS Kimberley",
-   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "WOODS Kimberley",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 35650, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "35650",
+   "detail": "seat printed without an id, bound under t163u: printed 'WOODS Kimberley' (GBR) has the same words, accents and case ignored, as 35650 Kimberley WOODS (GBR, born 1995-09-08, W) via ICF list, the only athlete of GBR with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 35650, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class",
+    "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 154,
    "seat": "ICF_ID1",
    "printed_name": "FRANKLIN Mallory",
-   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "FRANKLIN Mallory",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 35615, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "35615",
+   "detail": "seat printed without an id, bound under t163u: printed 'FRANKLIN Mallory' (GBR) has the same words, accents and case ignored, as 35615 Mallory FRANKLIN (GBR, born 1994-06-19, W) via ICF list, the only athlete of GBR with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 35615, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class",
+    "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 155,
@@ -5237,10 +5516,17 @@
    "row": 179,
    "seat": "ICF_ID1",
    "printed_name": "FOX Jessica",
-   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "FOX Jessica",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 36526, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "36526",
+   "detail": "seat printed without an id, bound under t163u: printed 'FOX Jessica' (AUS) has the same words, accents and case ignored, as 36526 Jessica FOX (AUS, born 1994-06-11, W) via ICF list, the only athlete of AUS with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 36526, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class",
+    "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 180,
@@ -5335,10 +5621,17 @@
    "row": 358,
    "seat": "ICF_ID1",
    "printed_name": "FRANKLIN Mallory",
-   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "FRANKLIN Mallory",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 35615, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "35615",
+   "detail": "seat printed without an id, bound under t163u: printed 'FRANKLIN Mallory' (GBR) has the same words, accents and case ignored, as 35615 Mallory FRANKLIN (GBR, born 1994-06-19, W) via ICF list, the only athlete of GBR with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 35615, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class",
+    "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 359,
@@ -5512,10 +5805,17 @@
    "row": 376,
    "seat": "ICF_ID1",
    "printed_name": "FOX Jessica",
-   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "FOX Jessica",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 36526, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "36526",
+   "detail": "seat printed without an id, bound under t163u: printed 'FOX Jessica' (AUS) has the same words, accents and case ignored, as 36526 Jessica FOX (AUS, born 1994-06-11, W) via ICF list, the only athlete of AUS with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 36526, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class",
+    "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 377,
@@ -5546,16 +5846,3739 @@
    "action": "kept",
    "new_id": "35122",
    "detail": "no archive id: bound by name+nation+gender to 35122; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1x3 Women"
+  },
+  {
+   "row": 429,
+   "seat": "ICF_ID1",
+   "printed_name": "DENNIS Tad",
+   "source_printed_name": "DENNIS Tad",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "42253",
+   "detail": "Unit 2 (second heat run) of the boat on row 14; seat as on row 14: no archive id: bound by name+nation+gender to 42253; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Men"
+  },
+  {
+   "row": 430,
+   "seat": "ICF_ID1",
+   "printed_name": "ZHANG Genyuan",
+   "source_printed_name": "ZHANG Genyuan",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "51818",
+   "detail": "Unit 2 (second heat run) of the boat on row 15; seat as on row 15: no archive id: bound by name+nation+gender to 51818; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Men"
+  },
+  {
+   "row": 431,
+   "seat": "ICF_ID1",
+   "printed_name": "TIMAKOV Dmitriy",
+   "source_printed_name": "TIMAKOV Dmitriy",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "53527",
+   "detail": "Unit 2 (second heat run) of the boat on row 16; seat as on row 16: no archive id: bound by name+nation+gender to 53527; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1x3 Men"
+  },
+  {
+   "row": 432,
+   "seat": "ICF_ID1",
+   "printed_name": "THOMAS Martin",
+   "source_printed_name": "THOMAS Martin",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35412",
+   "detail": "Unit 2 (second heat run) of the boat on row 17; seat as on row 17: no archive id: bound by name+nation+gender to 35412; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1x3 Men"
+  },
+  {
+   "row": 433,
+   "seat": "ICF_ID1",
+   "printed_name": "SMIRNOV Pavel",
+   "source_printed_name": "SMIRNOV Pavel",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "39135",
+   "detail": "Unit 2 (second heat run) of the boat on row 18; seat as on row 18: no archive id: bound by name+nation+gender to 39135; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1x3 Men"
+  },
+  {
+   "row": 434,
+   "seat": "ICF_ID1",
+   "printed_name": "CHEN Fangjia",
+   "source_printed_name": "CHEN Fangjia",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "42638",
+   "detail": "Unit 2 (second heat run) of the boat on row 19; seat as on row 19: no archive id: bound by name+nation+gender to 42638; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Men"
+  },
+  {
+   "row": 435,
+   "seat": "ICF_ID1",
+   "printed_name": "ROHAN Lukas",
+   "source_printed_name": "ROHAN Lukas",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "36114",
+   "detail": "Unit 2 (second heat run) of the boat on row 20; seat as on row 20: no archive id: bound by name+nation+gender to 36114; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1x3 Men"
+  },
+  {
+   "row": 436,
+   "seat": "ICF_ID1",
+   "printed_name": "WANG Xiaodong",
+   "source_printed_name": "WANG Xiaodong",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "42912",
+   "detail": "Unit 2 (second heat run) of the boat on row 21; seat as on row 21: no archive id: bound by name+nation+gender to 42912; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Men"
+  },
+  {
+   "row": 437,
+   "seat": "ICF_ID1",
+   "printed_name": "CECCON Paolo",
+   "source_printed_name": "CECCON Paolo",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "39903",
+   "detail": "Unit 2 (second heat run) of the boat on row 22; seat as on row 22: no archive id: bound by name+nation+gender to 39903; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1x3 Men"
+  },
+  {
+   "row": 438,
+   "seat": "ICF_ID1",
+   "printed_name": "TILLARD Pierre-Antoine",
+   "source_printed_name": "TILLARD Pierre-Antoine",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35413",
+   "detail": "Unit 2 (second heat run) of the boat on row 23; seat as on row 23: no archive id: bound by name+nation+gender to 35413; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1x3 Men"
+  },
+  {
+   "row": 439,
+   "seat": "ICF_ID1",
+   "printed_name": "TSAKMAKIS Christos",
+   "source_printed_name": "TSAKMAKIS Christos",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35433",
+   "detail": "Unit 2 (second heat run) of the boat on row 24; seat as on row 24: no archive id: bound by name+nation+gender to 35433; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Men"
+  },
+  {
+   "row": 440,
+   "seat": "ICF_ID1",
+   "printed_name": "DA SILVA Felipe",
+   "source_printed_name": "DA SILVA Felipe",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "no_icf_id",
+   "detail": "Unit 2 (second heat run) of the boat on row 25; seat as on row 25: archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+  },
+  {
+   "row": 441,
+   "seat": "ICF_ID1",
+   "printed_name": "SASAKI Shota",
+   "source_printed_name": "SASAKI Shota",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "41610",
+   "detail": "Unit 2 (second heat run) of the boat on row 26; seat as on row 26: no archive id: bound by name+nation+gender to 41610; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Men"
+  },
+  {
+   "row": 442,
+   "seat": "ICF_ID1",
+   "printed_name": "CURCEL Leonardo",
+   "source_printed_name": "CURCEL Leonardo",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "38014",
+   "detail": "Unit 2 (second heat run) of the boat on row 27; seat as on row 27: no archive id: bound by name+nation+gender to 38014; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1x3 Men"
+  },
+  {
+   "row": 443,
+   "seat": "ICF_ID1",
+   "printed_name": "CORREA Charles",
+   "source_printed_name": "CORREA Charles",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "38018",
+   "detail": "Unit 2 (second heat run) of the boat on row 28; seat as on row 28: no archive id: bound by name+nation+gender to 38018; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1x3 Men"
+  },
+  {
+   "row": 444,
+   "seat": "ICF_ID1",
+   "printed_name": "WERRO Simon",
+   "source_printed_name": "WERRO Simon",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35424",
+   "detail": "Unit 2 (second heat run) of the boat on row 29; seat as on row 29: no archive id: bound by name+nation+gender to 35424; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Men"
+  },
+  {
+   "row": 445,
+   "seat": "ICF_ID1",
+   "printed_name": "RUNET Antoine",
+   "source_printed_name": "RUNET Antoine",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "no_icf_id",
+   "detail": "Unit 2 (second heat run) of the boat on row 30; seat as on row 30: archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+  },
+  {
+   "row": 446,
+   "seat": "ICF_ID1",
+   "printed_name": "GIBB Benjamin",
+   "source_printed_name": "GIBB Benjamin",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "36711",
+   "detail": "Unit 2 (second heat run) of the boat on row 31; seat as on row 31: no archive id: bound by name+nation+gender to 36711; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Men"
+  },
+  {
+   "row": 447,
+   "seat": "ICF_ID1",
+   "printed_name": "HINTON Tyler",
+   "source_printed_name": "HINTON Tyler",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "no_icf_id",
+   "detail": "Unit 2 (second heat run) of the boat on row 32; seat as on row 32: archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+  },
+  {
+   "row": 448,
+   "seat": "ICF_ID1",
+   "printed_name": "NIEC Arkadiusz",
+   "source_printed_name": "NIEC Arkadiusz",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35470",
+   "detail": "Unit 2 (second heat run) of the boat on row 33; seat as on row 33: no archive id: bound by name+nation+gender to 35470; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1x3 Men"
+  },
+  {
+   "row": 449,
+   "seat": "ICF_ID1",
+   "printed_name": "FABRIS Christian",
+   "source_printed_name": "FABRIS Christian",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "39730",
+   "detail": "Unit 2 (second heat run) of the boat on row 34; seat as on row 34: no archive id: bound by name+nation+gender to 39730; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1x3 Men"
+  },
+  {
+   "row": 450,
+   "seat": "ICF_ID1",
+   "printed_name": "JOLY Cedric",
+   "source_printed_name": "JOLY Cedric",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35681",
+   "detail": "Unit 2 (second heat run) of the boat on row 35; seat as on row 35: no archive id: bound by name+nation+gender to 35681; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1x3 Men"
+  },
+  {
+   "row": 451,
+   "seat": "ICF_ID1",
+   "printed_name": "GONDEK Kacper",
+   "source_printed_name": "GONDEK Kacper",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
+   "published_id": "",
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "35472",
+   "detail": "Unit 2 (second heat run) of the boat on row 36; seat as on row 36: seat printed without an id, bound under t163u: printed 'GONDEK Kacper' (POL) has the same words, accents and case ignored, as 35472 Kacper GONDEK (POL, born 1993-01-05, M) via ICF list, the only athlete of POL with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')"
+  },
+  {
+   "row": 452,
+   "seat": "ICF_ID1",
+   "printed_name": "ROSSI Sebastian",
+   "source_printed_name": "ROSSI Sebastian",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "36915",
+   "detail": "Unit 2 (second heat run) of the boat on row 37; seat as on row 37: no archive id: bound by name+nation+gender to 36915; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Men"
+  },
+  {
+   "row": 453,
+   "seat": "ICF_ID1",
+   "printed_name": "SMEDLEY Cameron",
+   "source_printed_name": "SMEDLEY Cameron",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35543",
+   "detail": "Unit 2 (second heat run) of the boat on row 38; seat as on row 38: no archive id: bound by name+nation+gender to 35543; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Men"
+  },
+  {
+   "row": 454,
+   "seat": "ICF_ID1",
+   "printed_name": "JEFFERY Robin",
+   "source_printed_name": "JEFFERY Robin",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "36525",
+   "detail": "Unit 2 (second heat run) of the boat on row 39; seat as on row 39: no archive id: bound by name+nation+gender to 36525; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1x3 Men"
+  },
+  {
+   "row": 455,
+   "seat": "ICF_ID1",
+   "printed_name": "HEDWIG Grzegorz",
+   "source_printed_name": "HEDWIG Grzegorz",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35465",
+   "detail": "Unit 2 (second heat run) of the boat on row 40; seat as on row 40: no archive id: bound by name+nation+gender to 35465; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Men"
+  },
+  {
+   "row": 456,
+   "seat": "ICF_ID1",
+   "printed_name": "MASEK Jan",
+   "source_printed_name": "MASEK Jan",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "36013",
+   "detail": "Unit 2 (second heat run) of the boat on row 41; seat as on row 41: no archive id: bound by name+nation+gender to 36013; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1x3 Men"
+  },
+  {
+   "row": 457,
+   "seat": "ICF_ID1",
+   "printed_name": "BORROWS Ian",
+   "source_printed_name": "BORROWS Ian",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "36534",
+   "detail": "Unit 2 (second heat run) of the boat on row 42; seat as on row 42: no archive id: bound by name+nation+gender to 36534; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1x3 Men"
+  },
+  {
+   "row": 458,
+   "seat": "ICF_ID1",
+   "printed_name": "LEFEVRE Fabien",
+   "source_printed_name": "LEFEVRE Fabien",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "41622",
+   "detail": "Unit 2 (second heat run) of the boat on row 43; seat as on row 43: no archive id: bound by name+nation+gender to 41622; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Men"
+  },
+  {
+   "row": 459,
+   "seat": "ICF_ID1",
+   "printed_name": "CIPRESSI Stefano",
+   "source_printed_name": "CIPRESSI Stefano",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35495",
+   "detail": "Unit 2 (second heat run) of the boat on row 44; seat as on row 44: no archive id: bound by name+nation+gender to 35495; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Men"
+  },
+  {
+   "row": 460,
+   "seat": "ICF_ID1",
+   "printed_name": "ROZMUS Karol",
+   "source_printed_name": "ROZMUS Karol",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "no_icf_id",
+   "detail": "Unit 2 (second heat run) of the boat on row 45; seat as on row 45: archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+  },
+  {
+   "row": 461,
+   "seat": "ICF_ID1",
+   "printed_name": "COLAZINGARI Roberto",
+   "source_printed_name": "COLAZINGARI Roberto",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35223",
+   "detail": "Unit 2 (second heat run) of the boat on row 46; seat as on row 46: no archive id: bound by name+nation+gender to 35223; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Men"
+  },
+  {
+   "row": 462,
+   "seat": "ICF_ID1",
+   "printed_name": "LIPATOV Aleksandr",
+   "source_printed_name": "LIPATOV Aleksandr",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35451",
+   "detail": "Unit 2 (second heat run) of the boat on row 47; seat as on row 47: no archive id: bound by name+nation+gender to 35451; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Men"
+  },
+  {
+   "row": 463,
+   "seat": "ICF_ID1",
+   "printed_name": "PROCTOR Mark",
+   "source_printed_name": "PROCTOR Mark",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "no_icf_id",
+   "detail": "Unit 2 (second heat run) of the boat on row 48; seat as on row 48: archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+  },
+  {
+   "row": 464,
+   "seat": "ICF_ID1",
+   "printed_name": "BETTGE Nico",
+   "source_printed_name": "BETTGE Nico",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35133",
+   "detail": "Unit 2 (second heat run) of the boat on row 49; seat as on row 49: no archive id: bound by name+nation+gender to 35133; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Men"
+  },
+  {
+   "row": 465,
+   "seat": "ICF_ID1",
+   "printed_name": "HANEDA Takuya",
+   "source_printed_name": "HANEDA Takuya",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "36481",
+   "detail": "Unit 2 (second heat run) of the boat on row 50; seat as on row 50: no archive id: bound by name+nation+gender to 36481; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Men"
+  },
+  {
+   "row": 466,
+   "seat": "ICF_ID1",
+   "printed_name": "MARINIC Matija",
+   "source_printed_name": "MARINIC Matija",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35595",
+   "detail": "Unit 2 (second heat run) of the boat on row 51; seat as on row 51: no archive id: bound by name+nation+gender to 35595; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Men"
+  },
+  {
+   "row": 467,
+   "seat": "ICF_ID1",
+   "printed_name": "BOZIC Luka",
+   "source_printed_name": "BOZIC Luka",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "36269",
+   "detail": "Unit 2 (second heat run) of the boat on row 52; seat as on row 52: no archive id: bound by name+nation+gender to 36269; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Men"
+  },
+  {
+   "row": 468,
+   "seat": "ICF_ID1",
+   "printed_name": "GEBAS Vitezslav",
+   "source_printed_name": "GEBAS Vitezslav",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35038",
+   "detail": "Unit 2 (second heat run) of the boat on row 53; seat as on row 53: no archive id: bound by name+nation+gender to 35038; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1x3 Men"
+  },
+  {
+   "row": 469,
+   "seat": "ICF_ID1",
+   "printed_name": "MARTIKAN Michal",
+   "source_printed_name": "MARTIKAN Michal",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35365",
+   "detail": "Unit 2 (second heat run) of the boat on row 54; seat as on row 54: no archive id: bound by name+nation+gender to 35365; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Men"
+  },
+  {
+   "row": 470,
+   "seat": "ICF_ID1",
+   "printed_name": "ANTON Franz",
+   "source_printed_name": "ANTON Franz",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35137",
+   "detail": "Unit 2 (second heat run) of the boat on row 55; seat as on row 55: no archive id: bound by name+nation+gender to 35137; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Men"
+  },
+  {
+   "row": 471,
+   "seat": "ICF_ID1",
+   "printed_name": "BENZIEN Jan",
+   "source_printed_name": "BENZIEN Jan",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35134",
+   "detail": "Unit 2 (second heat run) of the boat on row 56; seat as on row 56: no archive id: bound by name+nation+gender to 35134; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Men"
+  },
+  {
+   "row": 472,
+   "seat": "ICF_ID1",
+   "printed_name": "SAVSEK Benjamin",
+   "source_printed_name": "SAVSEK Benjamin",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "36218",
+   "detail": "Unit 2 (second heat run) of the boat on row 57; seat as on row 57: no archive id: bound by name+nation+gender to 36218; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Men"
+  },
+  {
+   "row": 473,
+   "seat": "ICF_ID1",
+   "printed_name": "BENUS Matej",
+   "source_printed_name": "BENUS Matej",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35353",
+   "detail": "Unit 2 (second heat run) of the boat on row 58; seat as on row 58: no archive id: bound by name+nation+gender to 35353; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Men"
+  },
+  {
+   "row": 474,
+   "seat": "ICF_ID1",
+   "printed_name": "BERCIC Anze",
+   "source_printed_name": "BERCIC Anze",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "36253",
+   "detail": "Unit 2 (second heat run) of the boat on row 59; seat as on row 59: no archive id: bound by name+nation+gender to 36253; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Men"
+  },
+  {
+   "row": 475,
+   "seat": "ICF_ID1",
+   "printed_name": "TASIADIS Sideris",
+   "source_printed_name": "TASIADIS Sideris",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35135",
+   "detail": "Unit 2 (second heat run) of the boat on row 60; seat as on row 60: no archive id: bound by name+nation+gender to 35135; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Men"
+  },
+  {
+   "row": 476,
+   "seat": "ICF_ID1",
+   "printed_name": "SLAFKOVSKY Alexander",
+   "source_printed_name": "SLAFKOVSKY Alexander",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35129",
+   "detail": "Unit 2 (second heat run) of the boat on row 61; seat as on row 61: no archive id: bound by name+nation+gender to 35129; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Men"
+  },
+  {
+   "row": 477,
+   "seat": "ICF_ID1",
+   "printed_name": "TAN Ya",
+   "source_printed_name": "TAN Ya",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "52024",
+   "detail": "Unit 2 (second heat run) of the boat on row 62; seat as on row 62: no archive id: bound by name+nation+gender to 52024; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 478,
+   "seat": "ICF_ID1",
+   "printed_name": "MAYMISTOV Sergey",
+   "source_printed_name": "MAYMISTOV Sergey",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
+   "published_id": "",
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "53267",
+   "detail": "Unit 2 (second heat run) of the boat on row 63; seat as on row 63: seat printed without an id, bound under t163u: printed 'MAYMISTOV Sergey' (RUS) has the same words, accents and case ignored, as 53267 Sergei MAIMISTOV (RUS, born 1997-05-25, M) via names.json former_names, the only athlete of RUS with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')"
+  },
+  {
+   "row": 479,
+   "seat": "ICF_ID1",
+   "printed_name": "WEGER Matthias",
+   "source_printed_name": "WEGER Matthias",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "emptied",
+   "detail": "Unit 2 (second heat run) of the boat on row 64; seat as on row 64: no archive id: bind 68837, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class"
+  },
+  {
+   "row": 480,
+   "seat": "ICF_ID1",
+   "printed_name": "WALKER Steffan",
+   "source_printed_name": "WALKER Steffan",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "no_icf_id",
+   "detail": "Unit 2 (second heat run) of the boat on row 65; seat as on row 65: archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+  },
+  {
+   "row": 481,
+   "seat": "ICF_ID1",
+   "printed_name": "DORONIN Evgeny",
+   "source_printed_name": "DORONIN Evgeny",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35459",
+   "detail": "Unit 2 (second heat run) of the boat on row 66; seat as on row 66: no archive id: bound by name+nation+gender to 35459; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 482,
+   "seat": "ICF_ID1",
+   "printed_name": "URANO Shuhei",
+   "source_printed_name": "URANO Shuhei",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "44317",
+   "detail": "Unit 2 (second heat run) of the boat on row 67; seat as on row 67: no archive id: bound by name+nation+gender to 44317; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 483,
+   "seat": "ICF_ID1",
+   "printed_name": "VUILLE Nicolas",
+   "source_printed_name": "VUILLE Nicolas",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "43000",
+   "detail": "Unit 2 (second heat run) of the boat on row 68; seat as on row 68: no archive id: bound by name+nation+gender to 43000; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1x3 Men"
+  },
+  {
+   "row": 484,
+   "seat": "ICF_ID1",
+   "printed_name": "GUILLAUME Benoit",
+   "source_printed_name": "GUILLAUME Benoit",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35418",
+   "detail": "Unit 2 (second heat run) of the boat on row 69; seat as on row 69: no archive id: bound by name+nation+gender to 35418; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1x3 Men"
+  },
+  {
+   "row": 485,
+   "seat": "ICF_ID1",
+   "printed_name": "MEGLIC Jure",
+   "source_printed_name": "MEGLIC Jure",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35590",
+   "detail": "Unit 2 (second heat run) of the boat on row 70; seat as on row 70: no archive id: bound by name+nation+gender to 35590; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 486,
+   "seat": "ICF_ID1",
+   "printed_name": "ATMANAVICIUS Mantas",
+   "source_printed_name": "ATMANAVICIUS Mantas",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35619",
+   "detail": "Unit 2 (second heat run) of the boat on row 71; seat as on row 71: no archive id: bound by name+nation+gender to 35619; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 487,
+   "seat": "ICF_ID1",
+   "printed_name": "HYNES Patrick",
+   "source_printed_name": "HYNES Patrick",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35819",
+   "detail": "Unit 2 (second heat run) of the boat on row 72; seat as on row 72: no archive id: bound by name+nation+gender to 35819; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 488,
+   "seat": "ICF_ID1",
+   "printed_name": "SRABOTNIK Martin",
+   "source_printed_name": "SRABOTNIK Martin",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "39080",
+   "detail": "Unit 2 (second heat run) of the boat on row 73; seat as on row 73: no archive id: bound by name+nation+gender to 39080; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 489,
+   "seat": "ICF_ID1",
+   "printed_name": "HUJSA Matus",
+   "source_printed_name": "HUJSA Matus",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35503",
+   "detail": "Unit 2 (second heat run) of the boat on row 74; seat as on row 74: no archive id: bound by name+nation+gender to 35503; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 490,
+   "seat": "ICF_ID1",
+   "printed_name": "HUFF Spencer",
+   "source_printed_name": "HUFF Spencer",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "41992",
+   "detail": "Unit 2 (second heat run) of the boat on row 75; seat as on row 75: no archive id: bound by name+nation+gender to 41992; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 491,
+   "seat": "ICF_ID1",
+   "printed_name": "WILSON Michael",
+   "source_printed_name": "WILSON Michael",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "emptied",
+   "detail": "Unit 2 (second heat run) of the boat on row 76; seat as on row 76: no archive id: bind 154096, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class"
+  },
+  {
+   "row": 492,
+   "seat": "ICF_ID1",
+   "printed_name": "MANN Aaron",
+   "source_printed_name": "MANN Aaron",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "39898",
+   "detail": "Unit 2 (second heat run) of the boat on row 77; seat as on row 77: no archive id: bound by name+nation+gender to 39898; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 493,
+   "seat": "ICF_ID1",
+   "printed_name": "ROSSET Thomas",
+   "source_printed_name": "ROSSET Thomas",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35488",
+   "detail": "Unit 2 (second heat run) of the boat on row 78; seat as on row 78: no archive id: bound by name+nation+gender to 35488; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 494,
+   "seat": "ICF_ID1",
+   "printed_name": "GRIMM Alexander",
+   "source_printed_name": "GRIMM Alexander",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35112",
+   "detail": "Unit 2 (second heat run) of the boat on row 79; seat as on row 79: no archive id: bound by name+nation+gender to 35112; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1x3 Men"
+  },
+  {
+   "row": 495,
+   "seat": "ICF_ID1",
+   "printed_name": "GANCEDO Facundo",
+   "source_printed_name": "GANCEDO Facundo",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "36920",
+   "detail": "Unit 2 (second heat run) of the boat on row 80; seat as on row 80: no archive id: bound by name+nation+gender to 36920; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 496,
+   "seat": "ICF_ID1",
+   "printed_name": "SCHLAEFLI Jeremias",
+   "source_printed_name": "SCHLAEFLI Jeremias",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35430",
+   "detail": "Unit 2 (second heat run) of the boat on row 81; seat as on row 81: no archive id: bound by name+nation+gender to 35430; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1x3 Men"
+  },
+  {
+   "row": 497,
+   "seat": "ICF_ID1",
+   "printed_name": "WATKINS Daniel",
+   "source_printed_name": "WATKINS Daniel",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "38430",
+   "detail": "Unit 2 (second heat run) of the boat on row 82; seat as on row 82: no archive id: bound by name+nation+gender to 38430; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 498,
+   "seat": "ICF_ID1",
+   "printed_name": "KARAMARKO Filip",
+   "source_printed_name": "KARAMARKO Filip",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35596",
+   "detail": "Unit 2 (second heat run) of the boat on row 83; seat as on row 83: no archive id: bound by name+nation+gender to 35596; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1x3 Men"
+  },
+  {
+   "row": 499,
+   "seat": "ICF_ID1",
+   "printed_name": "TAYLER Michael",
+   "source_printed_name": "TAYLER Michael",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "36262",
+   "detail": "Unit 2 (second heat run) of the boat on row 84; seat as on row 84: no archive id: bound by name+nation+gender to 36262; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 500,
+   "seat": "ICF_ID1",
+   "printed_name": "MRKOCI Marko",
+   "source_printed_name": "MRKOCI Marko",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35592",
+   "detail": "Unit 2 (second heat run) of the boat on row 85; seat as on row 85: no archive id: bound by name+nation+gender to 35592; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1x3 Men"
+  },
+  {
+   "row": 501,
+   "seat": "ICF_ID1",
+   "printed_name": "YOSHIDA Taku",
+   "source_printed_name": "YOSHIDA Taku",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "41611",
+   "detail": "Unit 2 (second heat run) of the boat on row 86; seat as on row 86: no archive id: bound by name+nation+gender to 41611; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 502,
+   "seat": "ICF_ID1",
+   "printed_name": "LANGER Andreas",
+   "source_printed_name": "LANGER Andreas",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35295",
+   "detail": "Unit 2 (second heat run) of the boat on row 87; seat as on row 87: no archive id: bound by name+nation+gender to 35295; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 503,
+   "seat": "ICF_ID1",
+   "printed_name": "MULIC Dinko",
+   "source_printed_name": "MULIC Dinko",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "no_icf_id",
+   "detail": "Unit 2 (second heat run) of the boat on row 88; seat as on row 88: archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+  },
+  {
+   "row": 504,
+   "seat": "ICF_ID1",
+   "printed_name": "GRIGAR Jakub",
+   "source_printed_name": "GRIGAR Jakub",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "37284",
+   "detail": "Unit 2 (second heat run) of the boat on row 89; seat as on row 89: no archive id: bound by name+nation+gender to 37284; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 505,
+   "seat": "ICF_ID1",
+   "printed_name": "OHRSTROM Isak",
+   "source_printed_name": "OHRSTROM Isak",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35101",
+   "detail": "Unit 2 (second heat run) of the boat on row 90; seat as on row 90: no archive id: bound by name+nation+gender to 35101; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 506,
+   "seat": "ICF_ID1",
+   "printed_name": "HAYWARD Ben",
+   "source_printed_name": "HAYWARD Ben",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35539",
+   "detail": "Unit 2 (second heat run) of the boat on row 91; seat as on row 91: no archive id: bound by name+nation+gender to 35539; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 507,
+   "seat": "ICF_ID1",
+   "printed_name": "DA SILVA Pedro",
+   "source_printed_name": "DA SILVA Pedro",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "no_icf_id",
+   "detail": "Unit 2 (second heat run) of the boat on row 92; seat as on row 92: archive other code ; no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['66217', '148843', '85403', '71564', '90208', '123448', '127579', '128052', '128058', '149067', '178008', '68518', '112361', '36098', '46389', '47312', '56349', '64828', '69015', '122680', '162679', '60500', '93229', '93247', '93251', '94132', '94134', '94135', '130322', '130326', '153549', '153552']"
+  },
+  {
+   "row": 508,
+   "seat": "ICF_ID1",
+   "printed_name": "HERMANS Maarten",
+   "source_printed_name": "HERMANS Maarten",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "no_icf_id",
+   "detail": "Unit 2 (second heat run) of the boat on row 93; seat as on row 93: archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+  },
+  {
+   "row": 509,
+   "seat": "ICF_ID1",
+   "printed_name": "CLARKE Joseph",
+   "source_printed_name": "CLARKE Joseph",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35654",
+   "detail": "Unit 2 (second heat run) of the boat on row 94; seat as on row 94: no archive id: bound by name+nation+gender to 35654; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1x3 Men"
+  },
+  {
+   "row": 510,
+   "seat": "ICF_ID1",
+   "printed_name": "FORD David",
+   "source_printed_name": "FORD David",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35532",
+   "detail": "Unit 2 (second heat run) of the boat on row 95; seat as on row 95: no archive id: bound by name+nation+gender to 35532; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 511,
+   "seat": "ICF_ID1",
+   "printed_name": "NATMESSNIG Herwig",
+   "source_printed_name": "NATMESSNIG Herwig",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
+   "published_id": "",
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "112000",
+   "detail": "Unit 2 (second heat run) of the boat on row 96; seat as on row 96: seat printed without an id, bound under t163u: printed 'NATMESSNIG Herwig' (AUT) has the same words, accents and case ignored, as 112000 Herwig NATMESSNIG (AUT, born 1981-08-10, M) via ICF list, the only athlete of AUT with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')"
+  },
+  {
+   "row": 512,
+   "seat": "ICF_ID1",
+   "printed_name": "PESCHIER Benoit",
+   "source_printed_name": "PESCHIER Benoit",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "no_icf_id",
+   "detail": "Unit 2 (second heat run) of the boat on row 97; seat as on row 97: archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+  },
+  {
+   "row": 513,
+   "seat": "ICF_ID1",
+   "printed_name": "RENIA Benjamin",
+   "source_printed_name": "RENIA Benjamin",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35407",
+   "detail": "Unit 2 (second heat run) of the boat on row 98; seat as on row 98: no archive id: bound by name+nation+gender to 35407; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1x3 Men"
+  },
+  {
+   "row": 514,
+   "seat": "ICF_ID1",
+   "printed_name": "EIGEL Pavel",
+   "source_printed_name": "EIGEL Pavel",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35458",
+   "detail": "Unit 2 (second heat run) of the boat on row 99; seat as on row 99: no archive id: bound by name+nation+gender to 35458; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 515,
+   "seat": "ICF_ID1",
+   "printed_name": "DAWSON Michael",
+   "source_printed_name": "DAWSON Michael",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "no_icf_id",
+   "detail": "Unit 2 (second heat run) of the boat on row 100; seat as on row 100: archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+  },
+  {
+   "row": 516,
+   "seat": "ICF_ID1",
+   "printed_name": "ROMEO Andrea",
+   "source_printed_name": "ROMEO Andrea",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35502",
+   "detail": "Unit 2 (second heat run) of the boat on row 101; seat as on row 101: no archive id: bound by name+nation+gender to 35502; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 517,
+   "seat": "ICF_ID1",
+   "printed_name": "FORSYTHE William",
+   "source_printed_name": "FORSYTHE William",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "no_icf_id",
+   "detail": "Unit 2 (second heat run) of the boat on row 102; seat as on row 102: archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+  },
+  {
+   "row": 518,
+   "seat": "ICF_ID1",
+   "printed_name": "OBLINGER Helmut",
+   "source_printed_name": "OBLINGER Helmut",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35281",
+   "detail": "Unit 2 (second heat run) of the boat on row 103; seat as on row 103: no archive id: bound by name+nation+gender to 35281; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 519,
+   "seat": "ICF_ID1",
+   "printed_name": "TUNKA Ondrej",
+   "source_printed_name": "TUNKA Ondrej",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35947",
+   "detail": "Unit 2 (second heat run) of the boat on row 104; seat as on row 104: no archive id: bound by name+nation+gender to 35947; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 520,
+   "seat": "ICF_ID1",
+   "printed_name": "MERRITT Jaxon",
+   "source_printed_name": "MERRITT Jaxon",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "no_icf_id",
+   "detail": "Unit 2 (second heat run) of the boat on row 105; seat as on row 105: archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+  },
+  {
+   "row": 521,
+   "seat": "ICF_ID1",
+   "printed_name": "PETERLIN Janos",
+   "source_printed_name": "PETERLIN Janos",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "36268",
+   "detail": "Unit 2 (second heat run) of the boat on row 106; seat as on row 106: no archive id: bound by name+nation+gender to 36268; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 522,
+   "seat": "ICF_ID1",
+   "printed_name": "DOBY Mathieu",
+   "source_printed_name": "DOBY Mathieu",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35292",
+   "detail": "Unit 2 (second heat run) of the boat on row 107; seat as on row 107: no archive id: bound by name+nation+gender to 35292; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 523,
+   "seat": "ICF_ID1",
+   "printed_name": "BRUS Simon",
+   "source_printed_name": "BRUS Simon",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "39076",
+   "detail": "Unit 2 (second heat run) of the boat on row 108; seat as on row 108: no archive id: bound by name+nation+gender to 39076; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 524,
+   "seat": "ICF_ID1",
+   "printed_name": "BERSINGER Thomas",
+   "source_printed_name": "BERSINGER Thomas",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35228",
+   "detail": "Unit 2 (second heat run) of the boat on row 109; seat as on row 109: no archive id: bound by name+nation+gender to 35228; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 525,
+   "seat": "ICF_ID1",
+   "printed_name": "DE GENNARO Giovanni",
+   "source_printed_name": "DE GENNARO Giovanni",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35244",
+   "detail": "Unit 2 (second heat run) of the boat on row 110; seat as on row 110: no archive id: bound by name+nation+gender to 35244; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 526,
+   "seat": "ICF_ID1",
+   "printed_name": "PRINDIS Vit",
+   "source_printed_name": "PRINDIS Vit",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35065",
+   "detail": "Unit 2 (second heat run) of the boat on row 111; seat as on row 111: no archive id: bound by name+nation+gender to 35065; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 527,
+   "seat": "ICF_ID1",
+   "printed_name": "HALCIN Martin",
+   "source_printed_name": "HALCIN Martin",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35355",
+   "detail": "Unit 2 (second heat run) of the boat on row 112; seat as on row 112: no archive id: bound by name+nation+gender to 35355; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 528,
+   "seat": "ICF_ID1",
+   "printed_name": "ALBREHT Martin",
+   "source_printed_name": "ALBREHT Martin",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "36898",
+   "detail": "Unit 2 (second heat run) of the boat on row 113; seat as on row 113: no archive id: bound by name+nation+gender to 36898; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 529,
+   "seat": "ICF_ID1",
+   "printed_name": "HILGERT Lubos",
+   "source_printed_name": "HILGERT Lubos",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35032",
+   "detail": "Unit 2 (second heat run) of the boat on row 114; seat as on row 114: no archive id: bound by name+nation+gender to 35032; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 530,
+   "seat": "ICF_ID1",
+   "printed_name": "POPIELA Dariusz",
+   "source_printed_name": "POPIELA Dariusz",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35096",
+   "detail": "Unit 2 (second heat run) of the boat on row 115; seat as on row 115: no archive id: bound by name+nation+gender to 35096; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1x3 Men"
+  },
+  {
+   "row": 531,
+   "seat": "ICF_ID1",
+   "printed_name": "KURT Michael",
+   "source_printed_name": "KURT Michael",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35346",
+   "detail": "Unit 2 (second heat run) of the boat on row 116; seat as on row 116: no archive id: bound by name+nation+gender to 35346; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1x3 Men"
+  },
+  {
+   "row": 532,
+   "seat": "ICF_ID1",
+   "printed_name": "LEFEVRE Fabien",
+   "source_printed_name": "LEFEVRE Fabien",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "41622",
+   "detail": "Unit 2 (second heat run) of the boat on row 117; seat as on row 117: no archive id: bound by name+nation+gender to 41622; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 533,
+   "seat": "ICF_ID1",
+   "printed_name": "MOLMENTI Daniele",
+   "source_printed_name": "MOLMENTI Daniele",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "42017",
+   "detail": "Unit 2 (second heat run) of the boat on row 118; seat as on row 118: no archive id: bound by name+nation+gender to 42017; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1x3 Men"
+  },
+  {
+   "row": 534,
+   "seat": "ICF_ID1",
+   "printed_name": "PRSKAVEC Jiri",
+   "source_printed_name": "PRSKAVEC Jiri",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35033",
+   "detail": "Unit 2 (second heat run) of the boat on row 119; seat as on row 119: no archive id: bound by name+nation+gender to 35033; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1x3 Men"
+  },
+  {
+   "row": 535,
+   "seat": "ICF_ID1",
+   "printed_name": "POLACZYK Mateusz",
+   "source_printed_name": "POLACZYK Mateusz",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35072",
+   "detail": "Unit 2 (second heat run) of the boat on row 120; seat as on row 120: no archive id: bound by name+nation+gender to 35072; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1x3 Men"
+  },
+  {
+   "row": 536,
+   "seat": "ICF_ID1",
+   "printed_name": "AIGNER Hannes",
+   "source_printed_name": "AIGNER Hannes",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35115",
+   "detail": "Unit 2 (second heat run) of the boat on row 121; seat as on row 121: no archive id: bound by name+nation+gender to 35115; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Men"
+  },
+  {
+   "row": 537,
+   "seat": "ICF_ID1",
+   "printed_name": "DOERFLER Fabian",
+   "source_printed_name": "DOERFLER Fabian",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35116",
+   "detail": "Unit 2 (second heat run) of the boat on row 122; seat as on row 122: no archive id: bound by name+nation+gender to 35116; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1x3 Men"
+  },
+  {
+   "row": 538,
+   "seat": "ICF_ID1",
+   "printed_name": "SCHUBERT Sebastian",
+   "source_printed_name": "SCHUBERT Sebastian",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35114",
+   "detail": "Unit 2 (second heat run) of the boat on row 123; seat as on row 123: no archive id: bound by name+nation+gender to 35114; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1x3 Men"
+  },
+  {
+   "row": 539,
+   "seat": "ICF_ID1",
+   "printed_name": "NAVEAU Laurine",
+   "source_printed_name": "NAVEAU Laurine",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "53246",
+   "detail": "Unit 2 (second heat run) of the boat on row 124; seat as on row 124: no archive id: bound by name+nation+gender to 53246; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Women"
+  },
+  {
+   "row": 540,
+   "seat": "ICF_ID1",
+   "printed_name": "CHEN Shi",
+   "source_printed_name": "CHEN Shi",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "52027",
+   "detail": "Unit 2 (second heat run) of the boat on row 125; seat as on row 125: no archive id: bound by name+nation+gender to 52027; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1x3 Women"
+  },
+  {
+   "row": 541,
+   "seat": "ICF_ID1",
+   "printed_name": "TENG Qianqian",
+   "source_printed_name": "TENG Qianqian",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "94209",
+   "detail": "Unit 2 (second heat run) of the boat on row 126; seat as on row 126: no archive id: bound by name+nation+gender to 94209; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1x3 Women"
+  },
+  {
+   "row": 542,
+   "seat": "ICF_ID1",
+   "printed_name": "MEHEUT Annaelle",
+   "source_printed_name": "MEHEUT Annaelle",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "no_icf_id",
+   "detail": "Unit 2 (second heat run) of the boat on row 127; seat as on row 127: archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+  },
+  {
+   "row": 543,
+   "seat": "ICF_ID1",
+   "printed_name": "CEN Nanqin",
+   "source_printed_name": "CEN Nanqin",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "37095",
+   "detail": "Unit 2 (second heat run) of the boat on row 128; seat as on row 128: no archive id: bound by name+nation+gender to 37095; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1x3 Women"
+  },
+  {
+   "row": 544,
+   "seat": "ICF_ID1",
+   "printed_name": "KOZOROG Alja",
+   "source_printed_name": "KOZOROG Alja",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "39986",
+   "detail": "Unit 2 (second heat run) of the boat on row 129; seat as on row 129: no archive id: bound by name+nation+gender to 39986; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Women"
+  },
+  {
+   "row": 545,
+   "seat": "ICF_ID1",
+   "printed_name": "BIZJAK Nina",
+   "source_printed_name": "BIZJAK Nina",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "39984",
+   "detail": "Unit 2 (second heat run) of the boat on row 130; seat as on row 130: no archive id: bound by name+nation+gender to 39984; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Women"
+  },
+  {
+   "row": 546,
+   "seat": "ICF_ID1",
+   "printed_name": "SCHMID Julia",
+   "source_printed_name": "SCHMID Julia",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35309",
+   "detail": "Unit 2 (second heat run) of the boat on row 131; seat as on row 131: no archive id: bound by name+nation+gender to 35309; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Women"
+  },
+  {
+   "row": 547,
+   "seat": "ICF_ID1",
+   "printed_name": "BORROWS Alison",
+   "source_printed_name": "BORROWS Alison",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "38440",
+   "detail": "Unit 2 (second heat run) of the boat on row 132; seat as on row 132: no archive id: bound by name+nation+gender to 38440; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Women"
+  },
+  {
+   "row": 548,
+   "seat": "ICF_ID1",
+   "printed_name": "JANCOVA Monika",
+   "source_printed_name": "JANCOVA Monika",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "36015",
+   "detail": "Unit 2 (second heat run) of the boat on row 133; seat as on row 133: no archive id: bound by name+nation+gender to 36015; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Women"
+  },
+  {
+   "row": 549,
+   "seat": "ICF_ID1",
+   "printed_name": "WOODS Kimberley",
+   "source_printed_name": "WOODS Kimberley",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
+   "published_id": "",
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "35650",
+   "detail": "Unit 2 (second heat run) of the boat on row 134; seat as on row 134: seat printed without an id, bound under t163u: printed 'WOODS Kimberley' (GBR) has the same words, accents and case ignored, as 35650 Kimberley WOODS (GBR, born 1995-09-08, W) via ICF list, the only athlete of GBR with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')"
+  },
+  {
+   "row": 550,
+   "seat": "ICF_ID1",
+   "printed_name": "LAWRENCE Rosalyn",
+   "source_printed_name": "LAWRENCE Rosalyn",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "36531",
+   "detail": "Unit 2 (second heat run) of the boat on row 135; seat as on row 135: no archive id: bound by name+nation+gender to 36531; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C1 Women"
+  },
+  {
+   "row": 551,
+   "seat": "ICF_ID1",
+   "printed_name": "HOSKOVA Katerina",
+   "source_printed_name": "HOSKOVA Katerina",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "emptied",
+   "detail": "Unit 2 (second heat run) of the boat on row 136; seat as on row 136: no archive id: bind 51792, but profile does not list the competition (^2014 CANOE SLALOM WORLD CUP 2$) and class"
+  },
+  {
+   "row": 552,
+   "seat": "ICF_ID1",
+   "printed_name": "FRANKLIN Mallory",
+   "source_printed_name": "FRANKLIN Mallory",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
+   "published_id": "",
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "35615",
+   "detail": "Unit 2 (second heat run) of the boat on row 137; seat as on row 137: seat printed without an id, bound under t163u: printed 'FRANKLIN Mallory' (GBR) has the same words, accents and case ignored, as 35615 Mallory FRANKLIN (GBR, born 1994-06-19, W) via ICF list, the only athlete of GBR with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')"
+  },
+  {
+   "row": 553,
+   "seat": "ICF_ID1",
+   "printed_name": "FOX Jessica",
+   "source_printed_name": "FOX Jessica",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
+   "published_id": "",
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "36526",
+   "detail": "Unit 2 (second heat run) of the boat on row 138; seat as on row 138: seat printed without an id, bound under t163u: printed 'FOX Jessica' (AUS) has the same words, accents and case ignored, as 36526 Jessica FOX (AUS, born 1994-06-11, W) via ICF list, the only athlete of AUS with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')"
+  },
+  {
+   "row": 554,
+   "seat": "ICF_ID1",
+   "printed_name": "LI Tong",
+   "source_printed_name": "LI Tong",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "52023",
+   "detail": "Unit 2 (second heat run) of the boat on row 139; seat as on row 139: no archive id: bound by name+nation+gender to 52023; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Women"
+  },
+  {
+   "row": 555,
+   "seat": "ICF_ID1",
+   "printed_name": "RIQUELME Nadia",
+   "source_printed_name": "RIQUELME Nadia",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "41626",
+   "detail": "Unit 2 (second heat run) of the boat on row 140; seat as on row 140: no archive id: bound by name+nation+gender to 41626; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Women"
+  },
+  {
+   "row": 556,
+   "seat": "ICF_ID1",
+   "printed_name": "HAINING Alice",
+   "source_printed_name": "HAINING Alice",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "no_icf_id",
+   "detail": "Unit 2 (second heat run) of the boat on row 141; seat as on row 141: archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+  },
+  {
+   "row": 557,
+   "seat": "ICF_ID1",
+   "printed_name": "KOLENC Berenice",
+   "source_printed_name": "KOLENC Berenice",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "42003",
+   "detail": "Unit 2 (second heat run) of the boat on row 142; seat as on row 142: no archive id: bound by name+nation+gender to 42003; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1x3 Women"
+  },
+  {
+   "row": 558,
+   "seat": "ICF_ID1",
+   "printed_name": "VALIKOVA Barbora",
+   "source_printed_name": "VALIKOVA Barbora",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
+   "published_id": "",
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "37267",
+   "detail": "Unit 2 (second heat run) of the boat on row 143; seat as on row 143: seat printed without an id, bound under t163u: printed 'VALIKOVA Barbora' (CZE) has the same words, accents and case ignored, as 37267 Barbora HRUDKOVA (CZE, born 1994-11-02, W) via names.json former_names, names.json keywords (RU146), the only athlete of CZE with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')"
+  },
+  {
+   "row": 559,
+   "seat": "ICF_ID1",
+   "printed_name": "LI Lu",
+   "source_printed_name": "LI Lu",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "37086",
+   "detail": "Unit 2 (second heat run) of the boat on row 144; seat as on row 144: no archive id: bound by name+nation+gender to 37086; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Women"
+  },
+  {
+   "row": 560,
+   "seat": "ICF_ID1",
+   "printed_name": "LONGA Josepha",
+   "source_printed_name": "LONGA Josepha",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "no_icf_id",
+   "detail": "Unit 2 (second heat run) of the boat on row 145; seat as on row 145: archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+  },
+  {
+   "row": 561,
+   "seat": "ICF_ID1",
+   "printed_name": "SABATTINI Chiara",
+   "source_printed_name": "SABATTINI Chiara",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35219",
+   "detail": "Unit 2 (second heat run) of the boat on row 146; seat as on row 146: no archive id: bound by name+nation+gender to 35219; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Women"
+  },
+  {
+   "row": 562,
+   "seat": "ICF_ID1",
+   "printed_name": "ITO Yoshika",
+   "source_printed_name": "ITO Yoshika",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "36647",
+   "detail": "Unit 2 (second heat run) of the boat on row 147; seat as on row 147: no archive id: bound by name+nation+gender to 36647; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Women"
+  },
+  {
+   "row": 563,
+   "seat": "ICF_ID1",
+   "printed_name": "LUKICHEVA Yekaterina",
+   "source_printed_name": "LUKICHEVA Yekaterina",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "no_icf_id",
+   "detail": "Unit 2 (second heat run) of the boat on row 148; seat as on row 148: archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+  },
+  {
+   "row": 564,
+   "seat": "ICF_ID1",
+   "printed_name": "LEENDERS Claudia",
+   "source_printed_name": "LEENDERS Claudia",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35331",
+   "detail": "Unit 2 (second heat run) of the boat on row 149; seat as on row 149: no archive id: bound by name+nation+gender to 35331; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Women"
+  },
+  {
+   "row": 565,
+   "seat": "ICF_ID1",
+   "printed_name": "LIPTAK Monika",
+   "source_printed_name": "LIPTAK Monika",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "no_icf_id",
+   "detail": "Unit 2 (second heat run) of the boat on row 150; seat as on row 150: archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+  },
+  {
+   "row": 566,
+   "seat": "ICF_ID1",
+   "printed_name": "YAZAWA Aki",
+   "source_printed_name": "YAZAWA Aki",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "36486",
+   "detail": "Unit 2 (second heat run) of the boat on row 151; seat as on row 151: no archive id: bound by name+nation+gender to 36486; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Women"
+  },
+  {
+   "row": 567,
+   "seat": "ICF_ID1",
+   "printed_name": "SATILA Ana",
+   "source_printed_name": "SATILA Ana",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
+   "published_id": "",
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "35327",
+   "detail": "Unit 2 (second heat run) of the boat on row 152; seat as on row 152: seat printed without an id, bound under t163u: printed 'SATILA Ana' (BRA) has the same words, accents and case ignored, as 35327 Ana SATILA (BRA, born 1996-03-13, W) via ICF list, the only athlete of BRA with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')"
+  },
+  {
+   "row": 568,
+   "seat": "ICF_ID1",
+   "printed_name": "WOODS Kimberley",
+   "source_printed_name": "WOODS Kimberley",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
+   "published_id": "",
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "35650",
+   "detail": "Unit 2 (second heat run) of the boat on row 153; seat as on row 153: seat printed without an id, bound under t163u: printed 'WOODS Kimberley' (GBR) has the same words, accents and case ignored, as 35650 Kimberley WOODS (GBR, born 1995-09-08, W) via ICF list, the only athlete of GBR with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')"
+  },
+  {
+   "row": 569,
+   "seat": "ICF_ID1",
+   "printed_name": "FRANKLIN Mallory",
+   "source_printed_name": "FRANKLIN Mallory",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
+   "published_id": "",
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "35615",
+   "detail": "Unit 2 (second heat run) of the boat on row 154; seat as on row 154: seat printed without an id, bound under t163u: printed 'FRANKLIN Mallory' (GBR) has the same words, accents and case ignored, as 35615 Mallory FRANKLIN (GBR, born 1994-06-19, W) via ICF list, the only athlete of GBR with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')"
+  },
+  {
+   "row": 570,
+   "seat": "ICF_ID1",
+   "printed_name": "MEDON POLACZYK Joanna",
+   "source_printed_name": "MEDON POLACZYK Joanna",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "no_icf_id",
+   "detail": "Unit 2 (second heat run) of the boat on row 155; seat as on row 155: archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+  },
+  {
+   "row": 571,
+   "seat": "ICF_ID1",
+   "printed_name": "NOVAK Ajda",
+   "source_printed_name": "NOVAK Ajda",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "39079",
+   "detail": "Unit 2 (second heat run) of the boat on row 156; seat as on row 156: no archive id: bound by name+nation+gender to 39079; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1x3 Women"
+  },
+  {
+   "row": 572,
+   "seat": "ICF_ID1",
+   "printed_name": "GUIET Pauline",
+   "source_printed_name": "GUIET Pauline",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35493",
+   "detail": "Unit 2 (second heat run) of the boat on row 157; seat as on row 157: no archive id: bound by name+nation+gender to 35493; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1x3 Women"
+  },
+  {
+   "row": 573,
+   "seat": "ICF_ID1",
+   "printed_name": "PEROVA Ekaterina",
+   "source_printed_name": "PEROVA Ekaterina",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35131",
+   "detail": "Unit 2 (second heat run) of the boat on row 158; seat as on row 158: no archive id: bound by name+nation+gender to 35131; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Women"
+  },
+  {
+   "row": 574,
+   "seat": "ICF_ID1",
+   "printed_name": "TAKESHITA Yuriko",
+   "source_printed_name": "TAKESHITA Yuriko",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "36487",
+   "detail": "Unit 2 (second heat run) of the boat on row 159; seat as on row 159: no archive id: bound by name+nation+gender to 36487; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Women"
+  },
+  {
+   "row": 575,
+   "seat": "ICF_ID1",
+   "printed_name": "ORNSTOVA Eva",
+   "source_printed_name": "ORNSTOVA Eva",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35052",
+   "detail": "Unit 2 (second heat run) of the boat on row 160; seat as on row 160: no archive id: bound by name+nation+gender to 35052; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Women"
+  },
+  {
+   "row": 576,
+   "seat": "ICF_ID1",
+   "printed_name": "VOJTOVA Veronika",
+   "source_printed_name": "VOJTOVA Veronika",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35945",
+   "detail": "Unit 2 (second heat run) of the boat on row 161; seat as on row 161: no archive id: bound by name+nation+gender to 35945; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Women"
+  },
+  {
+   "row": 577,
+   "seat": "ICF_ID1",
+   "printed_name": "KHARITONOVA Marta",
+   "source_printed_name": "KHARITONOVA Marta",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35257",
+   "detail": "Unit 2 (second heat run) of the boat on row 162; seat as on row 162: no archive id: bound by name+nation+gender to 35257; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Women"
+  },
+  {
+   "row": 578,
+   "seat": "ICF_ID1",
+   "printed_name": "FRAUENRATH Katja",
+   "source_printed_name": "FRAUENRATH Katja",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "no_icf_id",
+   "detail": "Unit 2 (second heat run) of the boat on row 163; seat as on row 163: archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+  },
+  {
+   "row": 579,
+   "seat": "ICF_ID1",
+   "printed_name": "JONES Luuka",
+   "source_printed_name": "JONES Luuka",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "36657",
+   "detail": "Unit 2 (second heat run) of the boat on row 164; seat as on row 164: no archive id: bound by name+nation+gender to 36657; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Women"
+  },
+  {
+   "row": 580,
+   "seat": "ICF_ID1",
+   "printed_name": "PEROVA Aleksandra",
+   "source_printed_name": "PEROVA Aleksandra",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35256",
+   "detail": "Unit 2 (second heat run) of the boat on row 165; seat as on row 165: no archive id: bound by name+nation+gender to 35256; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Women"
+  },
+  {
+   "row": 581,
+   "seat": "ICF_ID1",
+   "printed_name": "WOLFFHARDT Viktoria",
+   "source_printed_name": "WOLFFHARDT Viktoria",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35303",
+   "detail": "Unit 2 (second heat run) of the boat on row 166; seat as on row 166: no archive id: bound by name+nation+gender to 35303; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Women"
+  },
+  {
+   "row": 582,
+   "seat": "ICF_ID1",
+   "printed_name": "OBLINGER-PETERS Violetta",
+   "source_printed_name": "OBLINGER-PETERS Violetta",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35289",
+   "detail": "Unit 2 (second heat run) of the boat on row 167; seat as on row 167: no archive id: bound by name+nation+gender to 35289; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Women"
+  },
+  {
+   "row": 583,
+   "seat": "ICF_ID1",
+   "printed_name": "LAFONT Marie-Zelia",
+   "source_printed_name": "LAFONT Marie-Zelia",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35374",
+   "detail": "Unit 2 (second heat run) of the boat on row 168; seat as on row 168: no archive id: bound by name+nation+gender to 35374; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1x3 Women"
+  },
+  {
+   "row": 584,
+   "seat": "ICF_ID1",
+   "printed_name": "GRANT Sarah",
+   "source_printed_name": "GRANT Sarah",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "no_icf_id",
+   "detail": "Unit 2 (second heat run) of the boat on row 169; seat as on row 169: archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+  },
+  {
+   "row": 585,
+   "seat": "ICF_ID1",
+   "printed_name": "HORN Stefanie",
+   "source_printed_name": "HORN Stefanie",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "38417",
+   "detail": "Unit 2 (second heat run) of the boat on row 170; seat as on row 170: no archive id: bound by name+nation+gender to 38417; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Women"
+  },
+  {
+   "row": 586,
+   "seat": "ICF_ID1",
+   "printed_name": "LAWRENCE Rosalyn",
+   "source_printed_name": "LAWRENCE Rosalyn",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "36531",
+   "detail": "Unit 2 (second heat run) of the boat on row 171; seat as on row 171: no archive id: bound by name+nation+gender to 36531; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Women"
+  },
+  {
+   "row": 587,
+   "seat": "ICF_ID1",
+   "printed_name": "PFEIFER Melanie",
+   "source_printed_name": "PFEIFER Melanie",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "no_icf_id",
+   "detail": "Unit 2 (second heat run) of the boat on row 172; seat as on row 172: archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+  },
+  {
+   "row": 588,
+   "seat": "ICF_ID1",
+   "printed_name": "TERCELJ Eva",
+   "source_printed_name": "TERCELJ Eva",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "36263",
+   "detail": "Unit 2 (second heat run) of the boat on row 173; seat as on row 173: no archive id: bound by name+nation+gender to 36263; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1x3 Women"
+  },
+  {
+   "row": 589,
+   "seat": "ICF_ID1",
+   "printed_name": "FUNK Ricarda",
+   "source_printed_name": "FUNK Ricarda",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35122",
+   "detail": "Unit 2 (second heat run) of the boat on row 174; seat as on row 174: no archive id: bound by name+nation+gender to 35122; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1x3 Women"
+  },
+  {
+   "row": 590,
+   "seat": "ICF_ID1",
+   "printed_name": "HILGERTOVA Stepanka",
+   "source_printed_name": "HILGERTOVA Stepanka",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35035",
+   "detail": "Unit 2 (second heat run) of the boat on row 175; seat as on row 175: no archive id: bound by name+nation+gender to 35035; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Women"
+  },
+  {
+   "row": 591,
+   "seat": "ICF_ID1",
+   "printed_name": "KRAGELJ Ursa",
+   "source_printed_name": "KRAGELJ Ursa",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "36264",
+   "detail": "Unit 2 (second heat run) of the boat on row 176; seat as on row 176: no archive id: bound by name+nation+gender to 36264; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Women"
+  },
+  {
+   "row": 592,
+   "seat": "ICF_ID1",
+   "printed_name": "KUHNLE Corinna",
+   "source_printed_name": "KUHNLE Corinna",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35282",
+   "detail": "Unit 2 (second heat run) of the boat on row 177; seat as on row 177: no archive id: bound by name+nation+gender to 35282; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Women"
+  },
+  {
+   "row": 593,
+   "seat": "ICF_ID1",
+   "printed_name": "SCHORNBERG Jasmin",
+   "source_printed_name": "SCHORNBERG Jasmin",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35206",
+   "detail": "Unit 2 (second heat run) of the boat on row 178; seat as on row 178: no archive id: bound by name+nation+gender to 35206; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1x3 Women"
+  },
+  {
+   "row": 594,
+   "seat": "ICF_ID1",
+   "printed_name": "FOX Jessica",
+   "source_printed_name": "FOX Jessica",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
+   "published_id": "",
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "36526",
+   "detail": "Unit 2 (second heat run) of the boat on row 179; seat as on row 179: seat printed without an id, bound under t163u: printed 'FOX Jessica' (AUS) has the same words, accents and case ignored, as 36526 Jessica FOX (AUS, born 1994-06-11, W) via ICF list, the only athlete of AUS with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')"
+  },
+  {
+   "row": 595,
+   "seat": "ICF_ID1",
+   "printed_name": "DUKATOVA Jana",
+   "source_printed_name": "DUKATOVA Jana",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35354",
+   "detail": "Unit 2 (second heat run) of the boat on row 180; seat as on row 180: no archive id: bound by name+nation+gender to 35354; profile lists 2014 CANOE SLALOM WORLD CUP 2 / K1 Women"
+  },
+  {
+   "row": 596,
+   "seat": "ICF_ID1",
+   "printed_name": "TILLARD Pierre-Antoine",
+   "source_printed_name": "TILLARD Pierre-Antoine",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35413",
+   "detail": "Unit 2 (second heat run) of the boat on row 181; seat as on row 181: no archive id: bound by name+nation+gender to 35413; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 596,
+   "seat": "ICF_ID2",
+   "printed_name": "LE RUYET Edern",
+   "source_printed_name": "LE RUYET Edern",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35379",
+   "detail": "Unit 2 (second heat run) of the boat on row 181; seat as on row 181: no archive id: bound by name+nation+gender to 35379; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 597,
+   "seat": "ICF_ID1",
+   "printed_name": "YE Yongtao",
+   "source_printed_name": "YE Yongtao",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "52028",
+   "detail": "Unit 2 (second heat run) of the boat on row 182; seat as on row 182: no archive id: bound by name+nation+gender to 52028; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 597,
+   "seat": "ICF_ID2",
+   "printed_name": "HUANG Yongze",
+   "source_printed_name": "HUANG Yongze",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "52029",
+   "detail": "Unit 2 (second heat run) of the boat on row 182; seat as on row 182: no archive id: bound by name+nation+gender to 52029; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 598,
+   "seat": "ICF_ID1",
+   "printed_name": "POFFENBERGER Jordan",
+   "source_printed_name": "POFFENBERGER Jordan",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "39271",
+   "detail": "Unit 2 (second heat run) of the boat on row 183; seat as on row 183: no archive id: bound by name+nation+gender to 39271; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 598,
+   "seat": "ICF_ID2",
+   "printed_name": "DENNIS Tad",
+   "source_printed_name": "DENNIS Tad",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "42253",
+   "detail": "Unit 2 (second heat run) of the boat on row 183; seat as on row 183: no archive id: bound by name+nation+gender to 42253; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 599,
+   "seat": "ICF_ID1",
+   "printed_name": "SCHROEDER David",
+   "source_printed_name": "SCHROEDER David",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35145",
+   "detail": "Unit 2 (second heat run) of the boat on row 184; seat as on row 184: no archive id: bound by name+nation+gender to 35145; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 599,
+   "seat": "ICF_ID2",
+   "printed_name": "BETTGE Nico",
+   "source_printed_name": "BETTGE Nico",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35133",
+   "detail": "Unit 2 (second heat run) of the boat on row 184; seat as on row 184: no archive id: bound by name+nation+gender to 35133; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 600,
+   "seat": "ICF_ID1",
+   "printed_name": "CAVO Francesco",
+   "source_printed_name": "CAVO Francesco",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "39904",
+   "detail": "Unit 2 (second heat run) of the boat on row 185; seat as on row 185: no archive id: bound by name+nation+gender to 39904; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 600,
+   "seat": "ICF_ID2",
+   "printed_name": "QUERCI Alberto",
+   "source_printed_name": "QUERCI Alberto",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "39906",
+   "detail": "Unit 2 (second heat run) of the boat on row 185; seat as on row 185: no archive id: bound by name+nation+gender to 39906; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 601,
+   "seat": "ICF_ID1",
+   "printed_name": "ROUX Antoine",
+   "source_printed_name": "ROUX Antoine",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "51899",
+   "detail": "Unit 2 (second heat run) of the boat on row 186; seat as on row 186: no archive id: bound by name+nation+gender to 51899; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 601,
+   "seat": "ICF_ID2",
+   "printed_name": "BRUN Gurgen",
+   "source_printed_name": "BRUN Gurgen",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "51900",
+   "detail": "Unit 2 (second heat run) of the boat on row 186; seat as on row 186: no archive id: bound by name+nation+gender to 51900; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 602,
+   "seat": "ICF_ID1",
+   "printed_name": "ZHANG Hang",
+   "source_printed_name": "ZHANG Hang",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "42239",
+   "detail": "Unit 2 (second heat run) of the boat on row 187; seat as on row 187: no archive id: bound by name+nation+gender to 42239; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 602,
+   "seat": "ICF_ID2",
+   "printed_name": "DENG Xiao",
+   "source_printed_name": "DENG Xiao",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "42240",
+   "detail": "Unit 2 (second heat run) of the boat on row 187; seat as on row 187: no archive id: bound by name+nation+gender to 42240; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 603,
+   "seat": "ICF_ID1",
+   "printed_name": "SASAKI Shota",
+   "source_printed_name": "SASAKI Shota",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "41610",
+   "detail": "Unit 2 (second heat run) of the boat on row 188; seat as on row 188: no archive id: bound by name+nation+gender to 41610; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 603,
+   "seat": "ICF_ID2",
+   "printed_name": "SASAKI Tsubasa",
+   "source_printed_name": "SASAKI Tsubasa",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
+   "published_id": "",
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "42256",
+   "detail": "Unit 2 (second heat run) of the boat on row 188; seat as on row 188: seat printed without an id, bound under t163u: printed 'SASAKI Tsubasa' (JPN) has the same words, accents and case ignored, as 42256 Tsubasa SASAKI (JPN, born 1995-03-23, M) via ICF list, the only athlete of JPN with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')"
+  },
+  {
+   "row": 604,
+   "seat": "ICF_ID1",
+   "printed_name": "HODSON Ethan",
+   "source_printed_name": "HODSON Ethan",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "38437",
+   "detail": "Unit 2 (second heat run) of the boat on row 189; seat as on row 189: no archive id: bound by name+nation+gender to 38437; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 604,
+   "seat": "ICF_ID2",
+   "printed_name": "JEFFERY Robin",
+   "source_printed_name": "JEFFERY Robin",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "36525",
+   "detail": "Unit 2 (second heat run) of the boat on row 189; seat as on row 189: no archive id: bound by name+nation+gender to 36525; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 605,
+   "seat": "ICF_ID1",
+   "printed_name": "USHAKOV Anton",
+   "source_printed_name": "USHAKOV Anton",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35454",
+   "detail": "Unit 2 (second heat run) of the boat on row 190; seat as on row 190: no archive id: bound by name+nation+gender to 35454; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 605,
+   "seat": "ICF_ID2",
+   "printed_name": "USHAKOV Artem",
+   "source_printed_name": "USHAKOV Artem",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35455",
+   "detail": "Unit 2 (second heat run) of the boat on row 190; seat as on row 190: no archive id: bound by name+nation+gender to 35455; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 606,
+   "seat": "ICF_ID1",
+   "printed_name": "CORREA Charles",
+   "source_printed_name": "CORREA Charles",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "38018",
+   "detail": "Unit 2 (second heat run) of the boat on row 191; seat as on row 191: no archive id: bound by name+nation+gender to 38018; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 606,
+   "seat": "ICF_ID2",
+   "printed_name": "OLIVEIRA Anderson",
+   "source_printed_name": "OLIVEIRA Anderson",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "38020",
+   "detail": "Unit 2 (second heat run) of the boat on row 191; seat as on row 191: no archive id: bound by name+nation+gender to 38020; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 607,
+   "seat": "ICF_ID1",
+   "printed_name": "KOPLIK Tomas",
+   "source_printed_name": "KOPLIK Tomas",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35042",
+   "detail": "Unit 2 (second heat run) of the boat on row 192; seat as on row 192: no archive id: bound by name+nation+gender to 35042; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 607,
+   "seat": "ICF_ID2",
+   "printed_name": "VRZAN Jakub",
+   "source_printed_name": "VRZAN Jakub",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35043",
+   "detail": "Unit 2 (second heat run) of the boat on row 192; seat as on row 192: no archive id: bound by name+nation+gender to 35043; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 608,
+   "seat": "ICF_ID1",
+   "printed_name": "WIERCIOCH Michal",
+   "source_printed_name": "WIERCIOCH Michal",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35085",
+   "detail": "Unit 2 (second heat run) of the boat on row 193; seat as on row 193: no archive id: bound by name+nation+gender to 35085; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 608,
+   "seat": "ICF_ID2",
+   "printed_name": "MAJERCZAK Grzegorz",
+   "source_printed_name": "MAJERCZAK Grzegorz",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35086",
+   "detail": "Unit 2 (second heat run) of the boat on row 193; seat as on row 193: no archive id: bound by name+nation+gender to 35086; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 609,
+   "seat": "ICF_ID1",
+   "printed_name": "LARIONOV Dmitry",
+   "source_printed_name": "LARIONOV Dmitry",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35450",
+   "detail": "Unit 2 (second heat run) of the boat on row 194; seat as on row 194: no archive id: bound by name+nation+gender to 35450; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 609,
+   "seat": "ICF_ID2",
+   "printed_name": "KUZNETSOV Mikhail",
+   "source_printed_name": "KUZNETSOV Mikhail",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35449",
+   "detail": "Unit 2 (second heat run) of the boat on row 194; seat as on row 194: no archive id: bound by name+nation+gender to 35449; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 610,
+   "seat": "ICF_ID1",
+   "printed_name": "MUELLER Kai",
+   "source_printed_name": "MUELLER Kai",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35148",
+   "detail": "Unit 2 (second heat run) of the boat on row 195; seat as on row 195: no archive id: bound by name+nation+gender to 35148; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2x3 Men"
+  },
+  {
+   "row": 610,
+   "seat": "ICF_ID2",
+   "printed_name": "MUELLER Kevin",
+   "source_printed_name": "MUELLER Kevin",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35149",
+   "detail": "Unit 2 (second heat run) of the boat on row 195; seat as on row 195: no archive id: bound by name+nation+gender to 35149; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2x3 Men"
+  },
+  {
+   "row": 611,
+   "seat": "ICF_ID1",
+   "printed_name": "BRZEZINSKI Filip",
+   "source_printed_name": "BRZEZINSKI Filip",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35082",
+   "detail": "Unit 2 (second heat run) of the boat on row 196; seat as on row 196: no archive id: bound by name+nation+gender to 35082; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 611,
+   "seat": "ICF_ID2",
+   "printed_name": "BRZEZINSKI Andrzej",
+   "source_printed_name": "BRZEZINSKI Andrzej",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35081",
+   "detail": "Unit 2 (second heat run) of the boat on row 196; seat as on row 196: no archive id: bound by name+nation+gender to 35081; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 612,
+   "seat": "ICF_ID1",
+   "printed_name": "CAMPORESI Pietro",
+   "source_printed_name": "CAMPORESI Pietro",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35497",
+   "detail": "Unit 2 (second heat run) of the boat on row 197; seat as on row 197: no archive id: bound by name+nation+gender to 35497; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 612,
+   "seat": "ICF_ID2",
+   "printed_name": "FERRARI Niccolo",
+   "source_printed_name": "FERRARI Niccolo",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35498",
+   "detail": "Unit 2 (second heat run) of the boat on row 197; seat as on row 197: no archive id: bound by name+nation+gender to 35498; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 613,
+   "seat": "ICF_ID1",
+   "printed_name": "BEHLING Robert",
+   "source_printed_name": "BEHLING Robert",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35139",
+   "detail": "Unit 2 (second heat run) of the boat on row 198; seat as on row 198: no archive id: bound by name+nation+gender to 35139; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2x3 Men"
+  },
+  {
+   "row": 613,
+   "seat": "ICF_ID2",
+   "printed_name": "BECKER Thomas",
+   "source_printed_name": "BECKER Thomas",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35143",
+   "detail": "Unit 2 (second heat run) of the boat on row 198; seat as on row 198: no archive id: bound by name+nation+gender to 35143; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2x3 Men"
+  },
+  {
+   "row": 614,
+   "seat": "ICF_ID1",
+   "printed_name": "KARLOVSKY Ondrej",
+   "source_printed_name": "KARLOVSKY Ondrej",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35060",
+   "detail": "Unit 2 (second heat run) of the boat on row 199; seat as on row 199: no archive id: bound by name+nation+gender to 35060; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 614,
+   "seat": "ICF_ID2",
+   "printed_name": "JANE Jakub",
+   "source_printed_name": "JANE Jakub",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35061",
+   "detail": "Unit 2 (second heat run) of the boat on row 199; seat as on row 199: no archive id: bound by name+nation+gender to 35061; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 615,
+   "seat": "ICF_ID1",
+   "printed_name": "ANTON Franz",
+   "source_printed_name": "ANTON Franz",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35137",
+   "detail": "Unit 2 (second heat run) of the boat on row 200; seat as on row 200: no archive id: bound by name+nation+gender to 35137; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2x3 Men"
+  },
+  {
+   "row": 615,
+   "seat": "ICF_ID2",
+   "printed_name": "BENZIEN Jan",
+   "source_printed_name": "BENZIEN Jan",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35134",
+   "detail": "Unit 2 (second heat run) of the boat on row 200; seat as on row 200: no archive id: bound by name+nation+gender to 35134; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2x3 Men"
+  },
+  {
+   "row": 616,
+   "seat": "ICF_ID1",
+   "printed_name": "SZCZEPANSKI Piotr",
+   "source_printed_name": "SZCZEPANSKI Piotr",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35080",
+   "detail": "Unit 2 (second heat run) of the boat on row 201; seat as on row 201: no archive id: bound by name+nation+gender to 35080; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 616,
+   "seat": "ICF_ID2",
+   "printed_name": "POCHWALA Marcin",
+   "source_printed_name": "POCHWALA Marcin",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35079",
+   "detail": "Unit 2 (second heat run) of the boat on row 201; seat as on row 201: no archive id: bound by name+nation+gender to 35079; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 617,
+   "seat": "ICF_ID1",
+   "printed_name": "KASPAR Jonas",
+   "source_printed_name": "KASPAR Jonas",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35062",
+   "detail": "Unit 2 (second heat run) of the boat on row 202; seat as on row 202: no archive id: bound by name+nation+gender to 35062; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 617,
+   "seat": "ICF_ID2",
+   "printed_name": "SINDLER Marek",
+   "source_printed_name": "SINDLER Marek",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35063",
+   "detail": "Unit 2 (second heat run) of the boat on row 202; seat as on row 202: no archive id: bound by name+nation+gender to 35063; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 618,
+   "seat": "ICF_ID1",
+   "printed_name": "SKANTAR Ladislav",
+   "source_printed_name": "SKANTAR Ladislav",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35360",
+   "detail": "Unit 2 (second heat run) of the boat on row 203; seat as on row 203: no archive id: bound by name+nation+gender to 35360; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 618,
+   "seat": "ICF_ID2",
+   "printed_name": "SKANTAR Peter",
+   "source_printed_name": "SKANTAR Peter",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "35361",
+   "detail": "Unit 2 (second heat run) of the boat on row 203; seat as on row 203: no archive id: bound by name+nation+gender to 35361; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 619,
+   "seat": "ICF_ID1",
+   "printed_name": "BOZIC Luka",
+   "source_printed_name": "BOZIC Luka",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "36269",
+   "detail": "Unit 2 (second heat run) of the boat on row 204; seat as on row 204: no archive id: bound by name+nation+gender to 36269; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
+  },
+  {
+   "row": 619,
+   "seat": "ICF_ID2",
+   "printed_name": "TALJAT Saso",
+   "source_printed_name": "TALJAT Saso",
+   "source": "123result Start List PDF (CS_2014/siwidata/303/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "published_id": "",
+   "action": "kept",
+   "new_id": "36270",
+   "detail": "Unit 2 (second heat run) of the boat on row 204; seat as on row 204: no archive id: bound by name+nation+gender to 36270; profile lists 2014 CANOE SLALOM WORLD CUP 2 / C2 Men"
   }
  ],
  "id_summary": {
-  "kept": 453,
-  "no_icf_id": 53,
-  "emptied": 29,
+  "bound_by_name_unconfirmed": 38,
+  "emptied": 11,
   "forerunner": 19,
-  "forerunner_unbound": 3
+  "kept": 631,
+  "no_icf_id": 70
  },
  "pending_maintainer": [],
  "issues": [],
- "shared_start_clash": []
+ "shared_start_clash": [],
+ "name_file_bind": {
+  "rule": "maintainer message t163u, 2026-11-19 09:41 Europe/Budapest, item 5 (seats printed without an id bound from the ICF list and race-desk legacy/paddletagger/names.json: same words in any order, accents and case ignored, the boat's country; source_printed_name logged; rejected_icf_id and rejected_reason where it is not the athlete)",
+  "names_json": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091",
+  "icf_list": "ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
+  "seats_filled": 42,
+  "from_names_json": 3,
+  "from_icf_list": 39,
+  "filled_by_previous_action": {
+   "forerunner": 16,
+   "emptied": 21,
+   "no_icf_id": 5
+  },
+  "rejected": 0,
+  "rejections": [],
+  "left_empty_no_match": 59,
+  "left_empty_ambiguous": 0,
+  "ambiguous": [],
+  "forerunner_gender_set": [],
+  "action_used": "bound_by_name_unconfirmed (athletes; no profile check under t163u) / forerunner (forerunner rows)",
+  "grade_before": "USABLE",
+  "gaps_before": [
+   "icf_ids_incomplete"
+  ],
+  "emptied_seats_remaining": 11,
+  "unlogged_empty_seats": 0
+ },
+ "run2_log": {
+  "order": "maintainer message t163u, 2026-11-19 09:41 Europe/Budapest, item 4: \"Rebuild the six 2014 slalom sheets with the second heat run ... Add the second run from the official results, with its start times.\"",
+  "source": "123result Start List PDFs (HT1), column 'Start Time 2nd Run', per boat; the HT2 'Results (Total)' lists print one header clock ('HEATS - 1ST AND 2ND RUN ... Start Time') and are not used for clocks",
+  "start_times_kind": "per-boat, scheduled (as run 1)",
+  "heat_rows_added": 191,
+  "forerunner_rows_added": 0,
+  "forerunner_second_runs": [],
+  "forerunner_second_runs_not_added": [],
+  "race_numbers": "published races 1-427 unchanged; the 191 new Unit 2 races are numbered 428-618 in start order and appended after the last published row (rows 429-619); a change to a published race number waits for the maintainer",
+  "rows": [
+   [
+    429,
+    428,
+    14,
+    "2014-06-13",
+    "11:40:00"
+   ],
+   [
+    430,
+    429,
+    15,
+    "2014-06-13",
+    "11:41:00"
+   ],
+   [
+    431,
+    430,
+    16,
+    "2014-06-13",
+    "11:42:00"
+   ],
+   [
+    432,
+    431,
+    17,
+    "2014-06-13",
+    "11:43:00"
+   ],
+   [
+    433,
+    432,
+    18,
+    "2014-06-13",
+    "11:44:00"
+   ],
+   [
+    434,
+    433,
+    19,
+    "2014-06-13",
+    "11:45:00"
+   ],
+   [
+    435,
+    434,
+    20,
+    "2014-06-13",
+    "11:46:00"
+   ],
+   [
+    436,
+    435,
+    21,
+    "2014-06-13",
+    "11:47:00"
+   ],
+   [
+    437,
+    436,
+    22,
+    "2014-06-13",
+    "11:48:00"
+   ],
+   [
+    438,
+    437,
+    23,
+    "2014-06-13",
+    "11:49:00"
+   ],
+   [
+    439,
+    438,
+    24,
+    "2014-06-13",
+    "11:50:00"
+   ],
+   [
+    440,
+    439,
+    25,
+    "2014-06-13",
+    "11:51:00"
+   ],
+   [
+    441,
+    440,
+    26,
+    "2014-06-13",
+    "11:52:00"
+   ],
+   [
+    442,
+    441,
+    27,
+    "2014-06-13",
+    "11:53:00"
+   ],
+   [
+    443,
+    442,
+    28,
+    "2014-06-13",
+    "11:54:00"
+   ],
+   [
+    444,
+    443,
+    29,
+    "2014-06-13",
+    "11:55:00"
+   ],
+   [
+    445,
+    444,
+    30,
+    "2014-06-13",
+    "11:56:00"
+   ],
+   [
+    446,
+    445,
+    31,
+    "2014-06-13",
+    "11:57:00"
+   ],
+   [
+    447,
+    446,
+    32,
+    "2014-06-13",
+    "11:58:00"
+   ],
+   [
+    448,
+    447,
+    33,
+    "2014-06-13",
+    "11:59:00"
+   ],
+   [
+    449,
+    448,
+    34,
+    "2014-06-13",
+    "12:00:00"
+   ],
+   [
+    450,
+    449,
+    35,
+    "2014-06-13",
+    "12:01:00"
+   ],
+   [
+    451,
+    450,
+    36,
+    "2014-06-13",
+    "12:02:00"
+   ],
+   [
+    452,
+    451,
+    37,
+    "2014-06-13",
+    "12:03:00"
+   ],
+   [
+    453,
+    452,
+    38,
+    "2014-06-13",
+    "12:04:00"
+   ],
+   [
+    454,
+    453,
+    39,
+    "2014-06-13",
+    "12:05:00"
+   ],
+   [
+    455,
+    454,
+    40,
+    "2014-06-13",
+    "12:06:00"
+   ],
+   [
+    456,
+    455,
+    41,
+    "2014-06-13",
+    "12:07:00"
+   ],
+   [
+    457,
+    456,
+    42,
+    "2014-06-13",
+    "12:08:00"
+   ],
+   [
+    458,
+    457,
+    43,
+    "2014-06-13",
+    "12:09:00"
+   ],
+   [
+    459,
+    458,
+    44,
+    "2014-06-13",
+    "12:10:00"
+   ],
+   [
+    460,
+    459,
+    45,
+    "2014-06-13",
+    "12:11:00"
+   ],
+   [
+    461,
+    460,
+    46,
+    "2014-06-13",
+    "12:12:00"
+   ],
+   [
+    462,
+    461,
+    47,
+    "2014-06-13",
+    "12:13:00"
+   ],
+   [
+    463,
+    462,
+    48,
+    "2014-06-13",
+    "12:14:00"
+   ],
+   [
+    464,
+    463,
+    49,
+    "2014-06-13",
+    "12:15:00"
+   ],
+   [
+    465,
+    464,
+    50,
+    "2014-06-13",
+    "12:16:00"
+   ],
+   [
+    466,
+    465,
+    51,
+    "2014-06-13",
+    "12:17:00"
+   ],
+   [
+    467,
+    466,
+    52,
+    "2014-06-13",
+    "12:18:00"
+   ],
+   [
+    468,
+    467,
+    53,
+    "2014-06-13",
+    "12:19:00"
+   ],
+   [
+    469,
+    468,
+    54,
+    "2014-06-13",
+    "12:20:00"
+   ],
+   [
+    470,
+    469,
+    55,
+    "2014-06-13",
+    "12:21:00"
+   ],
+   [
+    471,
+    470,
+    56,
+    "2014-06-13",
+    "12:22:00"
+   ],
+   [
+    472,
+    471,
+    57,
+    "2014-06-13",
+    "12:23:00"
+   ],
+   [
+    473,
+    472,
+    58,
+    "2014-06-13",
+    "12:24:00"
+   ],
+   [
+    474,
+    473,
+    59,
+    "2014-06-13",
+    "12:25:00"
+   ],
+   [
+    475,
+    474,
+    60,
+    "2014-06-13",
+    "12:26:00"
+   ],
+   [
+    476,
+    475,
+    61,
+    "2014-06-13",
+    "12:27:00"
+   ],
+   [
+    477,
+    476,
+    62,
+    "2014-06-13",
+    "12:33:00"
+   ],
+   [
+    478,
+    477,
+    63,
+    "2014-06-13",
+    "12:34:00"
+   ],
+   [
+    479,
+    478,
+    64,
+    "2014-06-13",
+    "12:35:00"
+   ],
+   [
+    480,
+    479,
+    65,
+    "2014-06-13",
+    "12:36:00"
+   ],
+   [
+    481,
+    480,
+    66,
+    "2014-06-13",
+    "12:37:00"
+   ],
+   [
+    482,
+    481,
+    67,
+    "2014-06-13",
+    "12:38:00"
+   ],
+   [
+    483,
+    482,
+    68,
+    "2014-06-13",
+    "12:39:00"
+   ],
+   [
+    484,
+    483,
+    69,
+    "2014-06-13",
+    "12:40:00"
+   ],
+   [
+    485,
+    484,
+    70,
+    "2014-06-13",
+    "12:41:00"
+   ],
+   [
+    486,
+    485,
+    71,
+    "2014-06-13",
+    "12:42:00"
+   ],
+   [
+    487,
+    486,
+    72,
+    "2014-06-13",
+    "12:43:00"
+   ],
+   [
+    488,
+    487,
+    73,
+    "2014-06-13",
+    "12:44:00"
+   ],
+   [
+    489,
+    488,
+    74,
+    "2014-06-13",
+    "12:45:00"
+   ],
+   [
+    490,
+    489,
+    75,
+    "2014-06-13",
+    "12:46:00"
+   ],
+   [
+    491,
+    490,
+    76,
+    "2014-06-13",
+    "12:47:00"
+   ],
+   [
+    492,
+    491,
+    77,
+    "2014-06-13",
+    "12:48:00"
+   ],
+   [
+    493,
+    492,
+    78,
+    "2014-06-13",
+    "12:49:00"
+   ],
+   [
+    494,
+    493,
+    79,
+    "2014-06-13",
+    "12:50:00"
+   ],
+   [
+    495,
+    494,
+    80,
+    "2014-06-13",
+    "12:51:00"
+   ],
+   [
+    496,
+    495,
+    81,
+    "2014-06-13",
+    "12:52:00"
+   ],
+   [
+    497,
+    496,
+    82,
+    "2014-06-13",
+    "12:53:00"
+   ],
+   [
+    498,
+    497,
+    83,
+    "2014-06-13",
+    "12:54:00"
+   ],
+   [
+    499,
+    498,
+    84,
+    "2014-06-13",
+    "12:55:00"
+   ],
+   [
+    500,
+    499,
+    85,
+    "2014-06-13",
+    "12:56:00"
+   ],
+   [
+    501,
+    500,
+    86,
+    "2014-06-13",
+    "12:57:00"
+   ],
+   [
+    502,
+    501,
+    87,
+    "2014-06-13",
+    "12:58:00"
+   ],
+   [
+    503,
+    502,
+    88,
+    "2014-06-13",
+    "12:59:00"
+   ],
+   [
+    504,
+    503,
+    89,
+    "2014-06-13",
+    "13:00:00"
+   ],
+   [
+    505,
+    504,
+    90,
+    "2014-06-13",
+    "13:01:00"
+   ],
+   [
+    506,
+    505,
+    91,
+    "2014-06-13",
+    "13:02:00"
+   ],
+   [
+    507,
+    506,
+    92,
+    "2014-06-13",
+    "13:03:00"
+   ],
+   [
+    508,
+    507,
+    93,
+    "2014-06-13",
+    "13:04:00"
+   ],
+   [
+    509,
+    508,
+    94,
+    "2014-06-13",
+    "13:05:00"
+   ],
+   [
+    510,
+    509,
+    95,
+    "2014-06-13",
+    "13:06:00"
+   ],
+   [
+    511,
+    510,
+    96,
+    "2014-06-13",
+    "13:07:00"
+   ],
+   [
+    512,
+    511,
+    97,
+    "2014-06-13",
+    "13:08:00"
+   ],
+   [
+    513,
+    512,
+    98,
+    "2014-06-13",
+    "13:09:00"
+   ],
+   [
+    514,
+    513,
+    99,
+    "2014-06-13",
+    "13:10:00"
+   ],
+   [
+    515,
+    514,
+    100,
+    "2014-06-13",
+    "13:11:00"
+   ],
+   [
+    516,
+    515,
+    101,
+    "2014-06-13",
+    "13:12:00"
+   ],
+   [
+    517,
+    516,
+    102,
+    "2014-06-13",
+    "13:13:00"
+   ],
+   [
+    518,
+    517,
+    103,
+    "2014-06-13",
+    "13:14:00"
+   ],
+   [
+    519,
+    518,
+    104,
+    "2014-06-13",
+    "13:15:00"
+   ],
+   [
+    520,
+    519,
+    105,
+    "2014-06-13",
+    "13:16:00"
+   ],
+   [
+    521,
+    520,
+    106,
+    "2014-06-13",
+    "13:17:00"
+   ],
+   [
+    522,
+    521,
+    107,
+    "2014-06-13",
+    "13:18:00"
+   ],
+   [
+    523,
+    522,
+    108,
+    "2014-06-13",
+    "13:19:00"
+   ],
+   [
+    524,
+    523,
+    109,
+    "2014-06-13",
+    "13:20:00"
+   ],
+   [
+    525,
+    524,
+    110,
+    "2014-06-13",
+    "13:22:00"
+   ],
+   [
+    526,
+    525,
+    111,
+    "2014-06-13",
+    "13:23:00"
+   ],
+   [
+    527,
+    526,
+    112,
+    "2014-06-13",
+    "13:24:00"
+   ],
+   [
+    528,
+    527,
+    113,
+    "2014-06-13",
+    "13:25:00"
+   ],
+   [
+    529,
+    528,
+    114,
+    "2014-06-13",
+    "13:26:00"
+   ],
+   [
+    530,
+    529,
+    115,
+    "2014-06-13",
+    "13:27:00"
+   ],
+   [
+    531,
+    530,
+    116,
+    "2014-06-13",
+    "13:28:00"
+   ],
+   [
+    532,
+    531,
+    117,
+    "2014-06-13",
+    "13:29:00"
+   ],
+   [
+    533,
+    532,
+    118,
+    "2014-06-13",
+    "13:30:00"
+   ],
+   [
+    534,
+    533,
+    119,
+    "2014-06-13",
+    "13:31:00"
+   ],
+   [
+    535,
+    534,
+    120,
+    "2014-06-13",
+    "13:32:00"
+   ],
+   [
+    536,
+    535,
+    121,
+    "2014-06-13",
+    "13:33:00"
+   ],
+   [
+    537,
+    536,
+    122,
+    "2014-06-13",
+    "13:34:00"
+   ],
+   [
+    538,
+    537,
+    123,
+    "2014-06-13",
+    "13:35:00"
+   ],
+   [
+    539,
+    538,
+    124,
+    "2014-06-13",
+    "13:40:00"
+   ],
+   [
+    540,
+    539,
+    125,
+    "2014-06-13",
+    "13:41:30"
+   ],
+   [
+    541,
+    540,
+    126,
+    "2014-06-13",
+    "13:43:00"
+   ],
+   [
+    542,
+    541,
+    127,
+    "2014-06-13",
+    "13:44:30"
+   ],
+   [
+    543,
+    542,
+    128,
+    "2014-06-13",
+    "13:46:00"
+   ],
+   [
+    544,
+    543,
+    129,
+    "2014-06-13",
+    "13:47:30"
+   ],
+   [
+    545,
+    544,
+    130,
+    "2014-06-13",
+    "13:49:00"
+   ],
+   [
+    546,
+    545,
+    131,
+    "2014-06-13",
+    "13:50:30"
+   ],
+   [
+    547,
+    546,
+    132,
+    "2014-06-13",
+    "13:52:00"
+   ],
+   [
+    548,
+    547,
+    133,
+    "2014-06-13",
+    "13:53:30"
+   ],
+   [
+    549,
+    548,
+    134,
+    "2014-06-13",
+    "13:55:00"
+   ],
+   [
+    550,
+    549,
+    135,
+    "2014-06-13",
+    "13:56:30"
+   ],
+   [
+    551,
+    550,
+    136,
+    "2014-06-13",
+    "13:58:00"
+   ],
+   [
+    552,
+    551,
+    137,
+    "2014-06-13",
+    "13:59:30"
+   ],
+   [
+    553,
+    552,
+    138,
+    "2014-06-13",
+    "14:01:00"
+   ],
+   [
+    554,
+    553,
+    139,
+    "2014-06-13",
+    "16:29:00"
+   ],
+   [
+    555,
+    554,
+    140,
+    "2014-06-13",
+    "16:30:00"
+   ],
+   [
+    556,
+    555,
+    141,
+    "2014-06-13",
+    "16:31:00"
+   ],
+   [
+    557,
+    556,
+    142,
+    "2014-06-13",
+    "16:32:00"
+   ],
+   [
+    558,
+    557,
+    143,
+    "2014-06-13",
+    "16:33:00"
+   ],
+   [
+    559,
+    558,
+    144,
+    "2014-06-13",
+    "16:34:00"
+   ],
+   [
+    560,
+    559,
+    145,
+    "2014-06-13",
+    "16:35:00"
+   ],
+   [
+    561,
+    560,
+    146,
+    "2014-06-13",
+    "16:36:00"
+   ],
+   [
+    562,
+    561,
+    147,
+    "2014-06-13",
+    "16:37:00"
+   ],
+   [
+    563,
+    562,
+    148,
+    "2014-06-13",
+    "16:38:00"
+   ],
+   [
+    564,
+    563,
+    149,
+    "2014-06-13",
+    "16:39:00"
+   ],
+   [
+    565,
+    564,
+    150,
+    "2014-06-13",
+    "16:40:00"
+   ],
+   [
+    566,
+    565,
+    151,
+    "2014-06-13",
+    "16:41:00"
+   ],
+   [
+    567,
+    566,
+    152,
+    "2014-06-13",
+    "16:42:00"
+   ],
+   [
+    568,
+    567,
+    153,
+    "2014-06-13",
+    "16:43:00"
+   ],
+   [
+    569,
+    568,
+    154,
+    "2014-06-13",
+    "16:44:00"
+   ],
+   [
+    570,
+    569,
+    155,
+    "2014-06-13",
+    "16:45:00"
+   ],
+   [
+    571,
+    570,
+    156,
+    "2014-06-13",
+    "16:46:00"
+   ],
+   [
+    572,
+    571,
+    157,
+    "2014-06-13",
+    "16:47:00"
+   ],
+   [
+    573,
+    572,
+    158,
+    "2014-06-13",
+    "16:48:00"
+   ],
+   [
+    574,
+    573,
+    159,
+    "2014-06-13",
+    "16:49:00"
+   ],
+   [
+    575,
+    574,
+    160,
+    "2014-06-13",
+    "16:50:00"
+   ],
+   [
+    576,
+    575,
+    161,
+    "2014-06-13",
+    "16:51:00"
+   ],
+   [
+    577,
+    576,
+    162,
+    "2014-06-13",
+    "16:52:00"
+   ],
+   [
+    578,
+    577,
+    163,
+    "2014-06-13",
+    "16:53:00"
+   ],
+   [
+    579,
+    578,
+    164,
+    "2014-06-13",
+    "16:54:00"
+   ],
+   [
+    580,
+    579,
+    165,
+    "2014-06-13",
+    "16:55:00"
+   ],
+   [
+    581,
+    580,
+    166,
+    "2014-06-13",
+    "16:56:00"
+   ],
+   [
+    582,
+    581,
+    167,
+    "2014-06-13",
+    "16:57:00"
+   ],
+   [
+    583,
+    582,
+    168,
+    "2014-06-13",
+    "16:58:00"
+   ],
+   [
+    584,
+    583,
+    169,
+    "2014-06-13",
+    "16:59:00"
+   ],
+   [
+    585,
+    584,
+    170,
+    "2014-06-13",
+    "17:00:00"
+   ],
+   [
+    586,
+    585,
+    171,
+    "2014-06-13",
+    "17:01:00"
+   ],
+   [
+    587,
+    586,
+    172,
+    "2014-06-13",
+    "17:02:00"
+   ],
+   [
+    588,
+    587,
+    173,
+    "2014-06-13",
+    "17:03:00"
+   ],
+   [
+    589,
+    588,
+    174,
+    "2014-06-13",
+    "17:04:00"
+   ],
+   [
+    590,
+    589,
+    175,
+    "2014-06-13",
+    "17:05:00"
+   ],
+   [
+    591,
+    590,
+    176,
+    "2014-06-13",
+    "17:06:00"
+   ],
+   [
+    592,
+    591,
+    177,
+    "2014-06-13",
+    "17:07:00"
+   ],
+   [
+    593,
+    592,
+    178,
+    "2014-06-13",
+    "17:08:00"
+   ],
+   [
+    594,
+    593,
+    179,
+    "2014-06-13",
+    "17:09:00"
+   ],
+   [
+    595,
+    594,
+    180,
+    "2014-06-13",
+    "17:10:00"
+   ],
+   [
+    596,
+    595,
+    181,
+    "2014-06-13",
+    "17:15:00"
+   ],
+   [
+    597,
+    596,
+    182,
+    "2014-06-13",
+    "17:16:00"
+   ],
+   [
+    598,
+    597,
+    183,
+    "2014-06-13",
+    "17:17:00"
+   ],
+   [
+    599,
+    598,
+    184,
+    "2014-06-13",
+    "17:18:00"
+   ],
+   [
+    600,
+    599,
+    185,
+    "2014-06-13",
+    "17:19:00"
+   ],
+   [
+    601,
+    600,
+    186,
+    "2014-06-13",
+    "17:20:00"
+   ],
+   [
+    602,
+    601,
+    187,
+    "2014-06-13",
+    "17:21:00"
+   ],
+   [
+    603,
+    602,
+    188,
+    "2014-06-13",
+    "17:22:00"
+   ],
+   [
+    604,
+    603,
+    189,
+    "2014-06-13",
+    "17:23:00"
+   ],
+   [
+    605,
+    604,
+    190,
+    "2014-06-13",
+    "17:24:00"
+   ],
+   [
+    606,
+    605,
+    191,
+    "2014-06-13",
+    "17:25:00"
+   ],
+   [
+    607,
+    606,
+    192,
+    "2014-06-13",
+    "17:26:00"
+   ],
+   [
+    608,
+    607,
+    193,
+    "2014-06-13",
+    "17:27:00"
+   ],
+   [
+    609,
+    608,
+    194,
+    "2014-06-13",
+    "17:28:00"
+   ],
+   [
+    610,
+    609,
+    195,
+    "2014-06-13",
+    "17:29:00"
+   ],
+   [
+    611,
+    610,
+    196,
+    "2014-06-13",
+    "17:30:00"
+   ],
+   [
+    612,
+    611,
+    197,
+    "2014-06-13",
+    "17:31:00"
+   ],
+   [
+    613,
+    612,
+    198,
+    "2014-06-13",
+    "17:32:00"
+   ],
+   [
+    614,
+    613,
+    199,
+    "2014-06-13",
+    "17:33:00"
+   ],
+   [
+    615,
+    614,
+    200,
+    "2014-06-13",
+    "17:34:00"
+   ],
+   [
+    616,
+    615,
+    201,
+    "2014-06-13",
+    "17:35:00"
+   ],
+   [
+    617,
+    616,
+    202,
+    "2014-06-13",
+    "17:36:00"
+   ],
+   [
+    618,
+    617,
+    203,
+    "2014-06-13",
+    "17:37:00"
+   ],
+   [
+    619,
+    618,
+    204,
+    "2014-06-13",
+    "17:38:00"
+   ]
+  ],
+  "rows_columns": [
+   "row",
+   "race",
+   "unit1_row",
+   "date",
+   "time"
+  ],
+  "clock_clashes_with_existing_rows": []
+ }
 }
