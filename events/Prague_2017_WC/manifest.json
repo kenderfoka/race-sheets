@@ -11,13 +11,13 @@
  "gaps": [
   "icf_ids_incomplete"
  ],
- "generated_at_utc": "2026-11-16T21:36:20Z",
- "updated_at": "2026-11-19T08:53:36Z",
+ "generated_at_utc": "2026-11-21T06:13:20Z",
+ "updated_at": "2026-11-21T06:13:20Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "Prague_2017_WC_start.xlsx",
-   "sha256": "2ae6350416afae5744514d4d25ebfaa843b32bfa1f03c3dcfa152a3924def48e"
+   "sha256": "65e83dd9d42357c3e70ca2cc3f23ea3769aa5912251cb1d0ba5205f40e1d8672"
   }
  ],
  "row_count": 794,
@@ -230,12 +230,18 @@
    "row": 48,
    "seat": "ICF_ID1",
    "printed_name": "HOSKOVA Katerina",
-   "source": "SIWIDATA session CS_2017/201201/991/ Code + paddleworldwide.com/athlete/<id>",
+   "source": "race-desk main 0583316 legacy/paddletagger/names.json (former_names + keyword hoskova katerina, RU353) + ICF list (fetchApi/bence, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 51792; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
-   "event_log": "forerunner Event C2 from next race block C2M_NHT1_16 (first start 09:00:00); source prints no class"
+   "new_id": "35048",
+   "detail": "empty crew seat bound under the maintainer's name-file rule of 2026-11-16 (t161u): printed 'HOSKOVA Katerina' (CZE) is the former name of 35048 Katerina HAVLICKOVA (CZE, born 1985-01-05, W) in names.json former_names and keyword 'hoskova katerina' (RU353); the ICF list has 35048 HAVLICKOVA Katerina CZE W 1985-01-05; the earlier log's 51792 is Katerina DUSKOVA, a different athlete (forerunner, not a gap)",
+   "event_log": "forerunner Event C2 from next race block C2M_NHT1_16 (first start 09:00:00); source prints no class",
+   "source_printed_name": "HOSKOVA Katerina",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 51792; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2017/201201/991/ Code + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 49,
@@ -5273,12 +5279,18 @@
    "row": 529,
    "seat": "ICF_ID1",
    "printed_name": "HOSKOVA Katerina",
-   "source": "SIWIDATA session CS_2017/201201/991/ Code + paddleworldwide.com/athlete/<id>",
+   "source": "race-desk main 0583316 legacy/paddletagger/names.json (former_names + keyword hoskova katerina, RU353) + ICF list (fetchApi/bence, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 51792; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
-   "event_log": "forerunner Event C2 from next race block C2M_SF_17 (first start 09:00:00); source prints no class"
+   "new_id": "35048",
+   "detail": "empty crew seat bound under the maintainer's name-file rule of 2026-11-16 (t161u): printed 'HOSKOVA Katerina' (CZE) is the former name of 35048 Katerina HAVLICKOVA (CZE, born 1985-01-05, W) in names.json former_names and keyword 'hoskova katerina' (RU353); the ICF list has 35048 HAVLICKOVA Katerina CZE W 1985-01-05; the earlier log's 51792 is Katerina DUSKOVA, a different athlete (forerunner, not a gap)",
+   "event_log": "forerunner Event C2 from next race block C2M_SF_17 (first start 09:00:00); source prints no class",
+   "source_printed_name": "HOSKOVA Katerina",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 51792; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2017/201201/991/ Code + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 530,
@@ -9398,6 +9410,33 @@
     "row": 691,
     "printed": "DA SILVA Pedro",
     "team": "BRA"
+   }
+  ],
+  "wake_fixes": [
+   {
+    "pr": 107,
+    "wake": "Wake 1 of 6: findings, round 1 of 3",
+    "at_utc": "2026-11-21T06:13:20Z",
+    "cells": [
+     {
+      "row": 48,
+      "seat": "ICF_ID1",
+      "printed": "HOSKOVA Katerina",
+      "team": "CZE",
+      "old": "",
+      "new": "35048",
+      "via": "names.json former name / RU353 keyword"
+     },
+     {
+      "row": 529,
+      "seat": "ICF_ID1",
+      "printed": "HOSKOVA Katerina",
+      "team": "CZE",
+      "old": "",
+      "new": "35048",
+      "via": "names.json former name / RU353 keyword"
+     }
+    ]
    }
   ]
  }
