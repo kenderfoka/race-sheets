@@ -10,13 +10,13 @@
  "sheet": "Bratislava_2021_WWC_start.xlsx",
  "grade": "PERFECT",
  "gaps": [],
- "generated_at_utc": "2026-10-15T09:08:49Z",
- "updated_at": "2026-10-15T09:15:49Z",
+ "generated_at_utc": "2026-11-21T22:10:32Z",
+ "updated_at": "2026-11-21T22:10:32Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "Bratislava_2021_WWC_start.xlsx",
-   "sha256": "45e90fa7087eff97fa2be8add43a08b6f1c843646eba7201dc066b2a94b1dd01"
+   "sha256": "6d824249bc5b7914de5e69b3fb5249cdfdbeb27d2fd48c3322e15e56cf805de5"
   }
  ],
  "row_count": 318,
@@ -739,21 +739,33 @@
    "row": 27,
    "seat": "ICF_ID1",
    "printed_name": "MRUZEK Kamil",
-   "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "MRUZEK Kamil",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 35521; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)"
+   "new_id": "35521",
+   "detail": "seat printed without an id, bound under t163u: printed 'MRUZEK Kamil' (CZE) has the same words, accents and case ignored, as 35521 Kamil MRUZEK (CZE, born 1977-08-11, M) via ICF list, the only athlete of CZE with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 35521; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 253,
    "seat": "ICF_ID1",
    "printed_name": "RASNER Karel",
-   "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "RASNER Karel",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 98298; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)"
+   "new_id": "98298",
+   "detail": "seat printed without an id, bound under t163u: printed 'RASNER Karel' (CZE) has the same words, accents and case ignored, as 98298 Karel RASNER (CZE, born 2004-04-02, M) via ICF list, the only athlete of CZE with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 98298; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 28,
@@ -1349,11 +1361,17 @@
    "row": 255,
    "seat": "ICF_ID1",
    "printed_name": "MRUZEK Kamil",
-   "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "MRUZEK Kamil",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 35521; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)"
+   "new_id": "35521",
+   "detail": "seat printed without an id, bound under t163u: printed 'MRUZEK Kamil' (CZE) has the same words, accents and case ignored, as 35521 Kamil MRUZEK (CZE, born 1977-08-11, M) via ICF list, the only athlete of CZE with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 35521; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session 1267 IFId + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 271,
@@ -3485,13 +3503,32 @@
   }
  ],
  "id_summary": {
-  "forerunner_unbound": 2,
   "forerunner": 5,
-  "kept": 400,
-  "onsite_bound": 78,
-  "name_change": 5
+  "kept": 400
  },
  "pending_maintainer": [],
  "issues": [],
- "shared_start_clash": []
+ "shared_start_clash": [],
+ "name_file_bind": {
+  "rule": "maintainer message t163u, 2026-11-19 09:41 Europe/Budapest, item 5 (seats printed without an id bound from the ICF list and race-desk legacy/paddletagger/names.json: same words in any order, accents and case ignored, the boat's country; source_printed_name logged; rejected_icf_id and rejected_reason where it is not the athlete)",
+  "names_json": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091",
+  "icf_list": "ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
+  "seats_filled": 3,
+  "from_names_json": 0,
+  "from_icf_list": 3,
+  "filled_by_previous_action": {
+   "forerunner": 3
+  },
+  "rejected": 0,
+  "rejections": [],
+  "left_empty_no_match": 0,
+  "left_empty_ambiguous": 0,
+  "ambiguous": [],
+  "forerunner_gender_set": [],
+  "action_used": "bound_by_name_unconfirmed (athletes; no profile check under t163u) / forerunner (forerunner rows)",
+  "grade_before": "PERFECT",
+  "gaps_before": [],
+  "emptied_seats_remaining": 0,
+  "unlogged_empty_seats": 0
+ }
 }
