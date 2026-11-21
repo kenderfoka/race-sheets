@@ -11,13 +11,13 @@
  "gaps": [
   "icf_ids_incomplete"
  ],
- "generated_at_utc": "2026-11-16T21:36:20Z",
- "updated_at": "2026-11-16T21:36:20Z",
+ "generated_at_utc": "2026-11-21T06:13:20Z",
+ "updated_at": "2026-11-21T06:13:20Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "Prague_2017_WC_start.xlsx",
-   "sha256": "c609afab499d6218f64ce8923f2cf324622e8e9ac610655012cd06ccd4d312dc"
+   "sha256": "65e83dd9d42357c3e70ca2cc3f23ea3769aa5912251cb1d0ba5205f40e1d8672"
   }
  ],
  "row_count": 794,
@@ -230,12 +230,18 @@
    "row": 48,
    "seat": "ICF_ID1",
    "printed_name": "HOSKOVA Katerina",
-   "source": "SIWIDATA session CS_2017/201201/991/ Code + paddleworldwide.com/athlete/<id>",
+   "source": "race-desk main 0583316 legacy/paddletagger/names.json (former_names + keyword hoskova katerina, RU353) + ICF list (fetchApi/bence, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 51792; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
-   "event_log": "forerunner Event C2 from next race block C2M_NHT1_16 (first start 09:00:00); source prints no class"
+   "new_id": "35048",
+   "detail": "empty crew seat bound under the maintainer's name-file rule of 2026-11-16 (t161u): printed 'HOSKOVA Katerina' (CZE) is the former name of 35048 Katerina HAVLICKOVA (CZE, born 1985-01-05, W) in names.json former_names and keyword 'hoskova katerina' (RU353); the ICF list has 35048 HAVLICKOVA Katerina CZE W 1985-01-05; the earlier log's 51792 is Katerina DUSKOVA, a different athlete (forerunner, not a gap)",
+   "event_log": "forerunner Event C2 from next race block C2M_NHT1_16 (first start 09:00:00); source prints no class",
+   "source_printed_name": "HOSKOVA Katerina",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 51792; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2017/201201/991/ Code + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 49,
@@ -5273,12 +5279,18 @@
    "row": 529,
    "seat": "ICF_ID1",
    "printed_name": "HOSKOVA Katerina",
-   "source": "SIWIDATA session CS_2017/201201/991/ Code + paddleworldwide.com/athlete/<id>",
+   "source": "race-desk main 0583316 legacy/paddletagger/names.json (former_names + keyword hoskova katerina, RU353) + ICF list (fetchApi/bence, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 51792; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
-   "event_log": "forerunner Event C2 from next race block C2M_SF_17 (first start 09:00:00); source prints no class"
+   "new_id": "35048",
+   "detail": "empty crew seat bound under the maintainer's name-file rule of 2026-11-16 (t161u): printed 'HOSKOVA Katerina' (CZE) is the former name of 35048 Katerina HAVLICKOVA (CZE, born 1985-01-05, W) in names.json former_names and keyword 'hoskova katerina' (RU353); the ICF list has 35048 HAVLICKOVA Katerina CZE W 1985-01-05; the earlier log's 51792 is Katerina DUSKOVA, a different athlete (forerunner, not a gap)",
+   "event_log": "forerunner Event C2 from next race block C2M_SF_17 (first start 09:00:00); source prints no class",
+   "source_printed_name": "HOSKOVA Katerina",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 51792; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2017/201201/991/ Code + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 530,
@@ -7869,21 +7881,35 @@
    "row": 7,
    "seat": "ICF_ID1",
    "printed_name": "MATEJKA Michael",
-   "source": "same meeting (this sheet: Name + Team)",
+   "source": "ICF list (fetchApi/bence, 28908 records) + race-desk main ae2c091 legacy/paddletagger/names.json",
    "published_id": "",
-   "action": "no_icf_id",
-   "new_id": "",
-   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+   "action": "corrected",
+   "new_id": "36118",
+   "detail": "maintainer t163u 2026-11-19 item 6 (rules of item 5 / t161u): printed 'MATEJKA Michael' (CZE) has the same words, accents and case ignored, as 36118 Michael MATEJKA (CZE, born 1997-09-29, M), the only athlete of CZE with that name in the ICF list and the name file; Kayak Cross Time Trials 2017-06-15",
+   "source_printed_name": "MATEJKA Michael",
+   "previous": {
+    "action": "no_icf_id",
+    "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty",
+    "source": "same meeting (this sheet: Name + Team)",
+    "new_id": ""
+   }
   },
   {
    "row": 8,
    "seat": "ICF_ID1",
    "printed_name": "THOMPSON Angus",
-   "source": "same meeting (this sheet: Name + Team)",
+   "source": "ICF list (fetchApi/bence, 28908 records) + race-desk main ae2c091 legacy/paddletagger/names.json",
    "published_id": "",
-   "action": "no_icf_id",
-   "new_id": "",
-   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+   "action": "corrected",
+   "new_id": "44814",
+   "detail": "maintainer t163u 2026-11-19 item 6 (rules of item 5 / t161u): printed 'THOMPSON Angus' (AUS) has the same words, accents and case ignored, as 44814 Angus THOMPSON (AUS, born 1997-01-10, M), the only athlete of AUS with that name in the ICF list and the name file; Kayak Cross Time Trials 2017-06-15",
+   "source_printed_name": "THOMPSON Angus",
+   "previous": {
+    "action": "no_icf_id",
+    "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty",
+    "source": "same meeting (this sheet: Name + Team)",
+    "new_id": ""
+   }
   },
   {
    "row": 9,
@@ -7909,21 +7935,35 @@
    "row": 11,
    "seat": "ICF_ID1",
    "printed_name": "MUTTON Zack",
-   "source": "same meeting (this sheet: Name + Team)",
+   "source": "ICF list (fetchApi/bence, 28908 records) + race-desk main ae2c091 legacy/paddletagger/names.json",
    "published_id": "",
-   "action": "no_icf_id",
-   "new_id": "",
-   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+   "action": "corrected",
+   "new_id": "51827",
+   "detail": "maintainer t163u 2026-11-19 item 6 (rules of item 5 / t161u): printed 'MUTTON Zack' (NZL) has the same words, accents and case ignored, as 51827 Zack MUTTON (NZL, born 2000-03-20, M), the only athlete of NZL with that name in the ICF list and the name file; Kayak Cross Time Trials 2017-06-15",
+   "source_printed_name": "MUTTON Zack",
+   "previous": {
+    "action": "no_icf_id",
+    "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty",
+    "source": "same meeting (this sheet: Name + Team)",
+    "new_id": ""
+   }
   },
   {
    "row": 12,
    "seat": "ICF_ID1",
    "printed_name": "POPE Benjamin",
-   "source": "same meeting (this sheet: Name + Team)",
+   "source": "ICF list (fetchApi/bence, 28908 records) + race-desk main ae2c091 legacy/paddletagger/names.json",
    "published_id": "",
-   "action": "no_icf_id",
-   "new_id": "",
-   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+   "action": "corrected",
+   "new_id": "51753",
+   "detail": "maintainer t163u 2026-11-19 item 6 (rules of item 5 / t161u): printed 'POPE Benjamin' (AUS) has the same words, accents and case ignored, as 51753 Benjamin POPE (AUS, born 1994-02-17, M), the only athlete of AUS with that name in the ICF list and the name file; Kayak Cross Time Trials 2017-06-15",
+   "source_printed_name": "POPE Benjamin",
+   "previous": {
+    "action": "no_icf_id",
+    "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty",
+    "source": "same meeting (this sheet: Name + Team)",
+    "new_id": ""
+   }
   },
   {
    "row": 13,
@@ -7959,11 +7999,18 @@
    "row": 16,
    "seat": "ICF_ID1",
    "printed_name": "DESNOS Mathieu",
-   "source": "same meeting (this sheet: Name + Team)",
+   "source": "ICF list (fetchApi/bence, 28908 records) + race-desk main ae2c091 legacy/paddletagger/names.json",
    "published_id": "",
-   "action": "no_icf_id",
-   "new_id": "",
-   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+   "action": "corrected",
+   "new_id": "93791",
+   "detail": "maintainer t163u 2026-11-19 item 6 (rules of item 5 / t161u): printed 'DESNOS Mathieu' (FRA) has the same words, accents and case ignored, as 93791 Mathieu DESNOS (FRA, born 1994-04-26, M), the only athlete of FRA with that name in the ICF list and the name file; Kayak Cross Time Trials 2017-06-15",
+   "source_printed_name": "DESNOS Mathieu",
+   "previous": {
+    "action": "no_icf_id",
+    "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty",
+    "source": "same meeting (this sheet: Name + Team)",
+    "new_id": ""
+   }
   },
   {
    "row": 17,
@@ -7973,7 +8020,9 @@
    "published_id": "",
    "action": "no_icf_id",
    "new_id": "",
-   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty",
+   "source_printed_name": "DA SILVA Pedro",
+   "t163u_check": "2026-11-19T08:53:36Z: no athlete of BRA (M) in the ICF list or race-desk main ae2c091 legacy/paddletagger/names.json has the words of 'DA SILVA Pedro', accents and case ignored; seat stays no_icf_id"
   },
   {
    "row": 18,
@@ -8093,7 +8142,9 @@
    "published_id": "",
    "action": "no_icf_id",
    "new_id": "",
-   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty",
+   "source_printed_name": "HINES Tracy",
+   "t163u_check": "2026-11-19T08:53:36Z: no athlete of USA (W) in the ICF list or race-desk main ae2c091 legacy/paddletagger/names.json has the words of 'HINES Tracy', accents and case ignored; seat stays no_icf_id"
   },
   {
    "row": 30,
@@ -8109,11 +8160,18 @@
    "row": 31,
    "seat": "ICF_ID1",
    "printed_name": "FISEROVA Tereza",
-   "source": "same meeting (this sheet: Name + Team)",
+   "source": "ICF list (fetchApi/bence, 28908 records) + race-desk main ae2c091 legacy/paddletagger/names.json",
    "published_id": "",
-   "action": "no_icf_id",
-   "new_id": "",
-   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+   "action": "corrected",
+   "new_id": "42016",
+   "detail": "maintainer t163u 2026-11-19 item 6 (rules of item 5 / t161u): printed 'FISEROVA Tereza' (CZE) has the same words, accents and case ignored, as 42016 Tereza MICHALOVA (CZE, born 1998-02-23, W) (former name, names.json former_names), the only athlete of CZE with that name in the ICF list and the name file; Kayak Cross Time Trials 2017-06-15",
+   "source_printed_name": "FISEROVA Tereza",
+   "previous": {
+    "action": "no_icf_id",
+    "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty",
+    "source": "same meeting (this sheet: Name + Team)",
+    "new_id": ""
+   }
   },
   {
    "row": 32,
@@ -8193,7 +8251,9 @@
    "published_id": "",
    "action": "no_icf_id",
    "new_id": "",
-   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty",
+   "source_printed_name": "HINES Tracy",
+   "t163u_check": "2026-11-19T08:53:36Z: no athlete of USA (W) in the ICF list or race-desk main ae2c091 legacy/paddletagger/names.json has the words of 'HINES Tracy', accents and case ignored; seat stays no_icf_id"
   },
   {
    "row": 653,
@@ -8259,11 +8319,18 @@
    "row": 659,
    "seat": "ICF_ID1",
    "printed_name": "FISEROVA Tereza",
-   "source": "same meeting (this sheet: Name + Team)",
+   "source": "ICF list (fetchApi/bence, 28908 records) + race-desk main ae2c091 legacy/paddletagger/names.json",
    "published_id": "",
-   "action": "no_icf_id",
-   "new_id": "",
-   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+   "action": "corrected",
+   "new_id": "42016",
+   "detail": "maintainer t163u 2026-11-19 item 6 (rules of item 5 / t161u): printed 'FISEROVA Tereza' (CZE) has the same words, accents and case ignored, as 42016 Tereza MICHALOVA (CZE, born 1998-02-23, W) (former name, names.json former_names), the only athlete of CZE with that name in the ICF list and the name file; Kayak Cross Quarterfinal 2017-06-17",
+   "source_printed_name": "FISEROVA Tereza",
+   "previous": {
+    "action": "no_icf_id",
+    "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty",
+    "source": "same meeting (this sheet: Name + Team)",
+    "new_id": ""
+   }
   },
   {
    "row": 660,
@@ -8279,11 +8346,18 @@
    "row": 661,
    "seat": "ICF_ID1",
    "printed_name": "POPE Benjamin",
-   "source": "same meeting (this sheet: Name + Team)",
+   "source": "ICF list (fetchApi/bence, 28908 records) + race-desk main ae2c091 legacy/paddletagger/names.json",
    "published_id": "",
-   "action": "no_icf_id",
-   "new_id": "",
-   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+   "action": "corrected",
+   "new_id": "51753",
+   "detail": "maintainer t163u 2026-11-19 item 6 (rules of item 5 / t161u): printed 'POPE Benjamin' (AUS) has the same words, accents and case ignored, as 51753 Benjamin POPE (AUS, born 1994-02-17, M), the only athlete of AUS with that name in the ICF list and the name file; Kayak Cross Quarterfinal 2017-06-17",
+   "source_printed_name": "POPE Benjamin",
+   "previous": {
+    "action": "no_icf_id",
+    "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty",
+    "source": "same meeting (this sheet: Name + Team)",
+    "new_id": ""
+   }
   },
   {
    "row": 662,
@@ -8319,11 +8393,18 @@
    "row": 665,
    "seat": "ICF_ID1",
    "printed_name": "MATEJKA Michael",
-   "source": "same meeting (this sheet: Name + Team)",
+   "source": "ICF list (fetchApi/bence, 28908 records) + race-desk main ae2c091 legacy/paddletagger/names.json",
    "published_id": "",
-   "action": "no_icf_id",
-   "new_id": "",
-   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+   "action": "corrected",
+   "new_id": "36118",
+   "detail": "maintainer t163u 2026-11-19 item 6 (rules of item 5 / t161u): printed 'MATEJKA Michael' (CZE) has the same words, accents and case ignored, as 36118 Michael MATEJKA (CZE, born 1997-09-29, M), the only athlete of CZE with that name in the ICF list and the name file; Kayak Cross Quarterfinal 2017-06-17",
+   "source_printed_name": "MATEJKA Michael",
+   "previous": {
+    "action": "no_icf_id",
+    "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty",
+    "source": "same meeting (this sheet: Name + Team)",
+    "new_id": ""
+   }
   },
   {
    "row": 666,
@@ -8363,7 +8444,9 @@
    "published_id": "",
    "action": "no_icf_id",
    "new_id": "",
-   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty",
+   "source_printed_name": "DA SILVA Pedro",
+   "t163u_check": "2026-11-19T08:53:36Z: no athlete of BRA (M) in the ICF list or race-desk main ae2c091 legacy/paddletagger/names.json has the words of 'DA SILVA Pedro', accents and case ignored; seat stays no_icf_id"
   },
   {
    "row": 670,
@@ -8399,11 +8482,18 @@
    "row": 673,
    "seat": "ICF_ID1",
    "printed_name": "MUTTON Zack",
-   "source": "same meeting (this sheet: Name + Team)",
+   "source": "ICF list (fetchApi/bence, 28908 records) + race-desk main ae2c091 legacy/paddletagger/names.json",
    "published_id": "",
-   "action": "no_icf_id",
-   "new_id": "",
-   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+   "action": "corrected",
+   "new_id": "51827",
+   "detail": "maintainer t163u 2026-11-19 item 6 (rules of item 5 / t161u): printed 'MUTTON Zack' (NZL) has the same words, accents and case ignored, as 51827 Zack MUTTON (NZL, born 2000-03-20, M), the only athlete of NZL with that name in the ICF list and the name file; Kayak Cross Quarterfinal 2017-06-17",
+   "source_printed_name": "MUTTON Zack",
+   "previous": {
+    "action": "no_icf_id",
+    "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty",
+    "source": "same meeting (this sheet: Name + Team)",
+    "new_id": ""
+   }
   },
   {
    "row": 674,
@@ -8499,11 +8589,18 @@
    "row": 683,
    "seat": "ICF_ID1",
    "printed_name": "FISEROVA Tereza",
-   "source": "same meeting (this sheet: Name + Team)",
+   "source": "ICF list (fetchApi/bence, 28908 records) + race-desk main ae2c091 legacy/paddletagger/names.json",
    "published_id": "",
-   "action": "no_icf_id",
-   "new_id": "",
-   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+   "action": "corrected",
+   "new_id": "42016",
+   "detail": "maintainer t163u 2026-11-19 item 6 (rules of item 5 / t161u): printed 'FISEROVA Tereza' (CZE) has the same words, accents and case ignored, as 42016 Tereza MICHALOVA (CZE, born 1998-02-23, W) (former name, names.json former_names), the only athlete of CZE with that name in the ICF list and the name file; Kayak Cross Semifinal 2017-06-17",
+   "source_printed_name": "FISEROVA Tereza",
+   "previous": {
+    "action": "no_icf_id",
+    "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty",
+    "source": "same meeting (this sheet: Name + Team)",
+    "new_id": ""
+   }
   },
   {
    "row": 684,
@@ -8583,27 +8680,43 @@
    "published_id": "",
    "action": "no_icf_id",
    "new_id": "",
-   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty",
+   "source_printed_name": "DA SILVA Pedro",
+   "t163u_check": "2026-11-19T08:53:36Z: no athlete of BRA (M) in the ICF list or race-desk main ae2c091 legacy/paddletagger/names.json has the words of 'DA SILVA Pedro', accents and case ignored; seat stays no_icf_id"
   },
   {
    "row": 692,
    "seat": "ICF_ID1",
    "printed_name": "MUTTON Zack",
-   "source": "same meeting (this sheet: Name + Team)",
+   "source": "ICF list (fetchApi/bence, 28908 records) + race-desk main ae2c091 legacy/paddletagger/names.json",
    "published_id": "",
-   "action": "no_icf_id",
-   "new_id": "",
-   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+   "action": "corrected",
+   "new_id": "51827",
+   "detail": "maintainer t163u 2026-11-19 item 6 (rules of item 5 / t161u): printed 'MUTTON Zack' (NZL) has the same words, accents and case ignored, as 51827 Zack MUTTON (NZL, born 2000-03-20, M), the only athlete of NZL with that name in the ICF list and the name file; Kayak Cross Semifinal 2017-06-17",
+   "source_printed_name": "MUTTON Zack",
+   "previous": {
+    "action": "no_icf_id",
+    "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty",
+    "source": "same meeting (this sheet: Name + Team)",
+    "new_id": ""
+   }
   },
   {
    "row": 693,
    "seat": "ICF_ID1",
    "printed_name": "FISEROVA Tereza",
-   "source": "same meeting (this sheet: Name + Team)",
+   "source": "ICF list (fetchApi/bence, 28908 records) + race-desk main ae2c091 legacy/paddletagger/names.json",
    "published_id": "",
-   "action": "no_icf_id",
-   "new_id": "",
-   "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty"
+   "action": "corrected",
+   "new_id": "42016",
+   "detail": "maintainer t163u 2026-11-19 item 6 (rules of item 5 / t161u): printed 'FISEROVA Tereza' (CZE) has the same words, accents and case ignored, as 42016 Tereza MICHALOVA (CZE, born 1998-02-23, W) (former name, names.json former_names), the only athlete of CZE with that name in the ICF list and the name file; Kayak Cross Final 2017-06-17",
+   "source_printed_name": "FISEROVA Tereza",
+   "previous": {
+    "action": "no_icf_id",
+    "detail": "no id in this meeting for this Name + Team; PWW profiles list no 2016-2017 Kayak Cross event, so the profile check cannot keep one; seat empty",
+    "source": "same meeting (this sheet: Name + Team)",
+    "new_id": ""
+   }
   },
   {
    "row": 694,
@@ -8917,13 +9030,12 @@
   }
  ],
  "id_summary": {
-  "kept": 679,
-  "emptied": 9,
-  "no_icf_id": 43,
   "forerunner": 68,
-  "forerunner_unbound": 3,
-  "same_meeting": 68,
-  "corrected": 3
+  "kept": 679,
+  "no_icf_id": 30,
+  "emptied": 9,
+  "corrected": 16,
+  "same_meeting": 68
  },
  "pending_maintainer": [],
  "issues": [],
@@ -9084,5 +9196,248 @@
   "entries_added_for_unnamed_seats": 24,
   "forerunner_gender_set": [],
   "name_cells_written": []
+ },
+ "name_change_log": [
+  {
+   "row": 31,
+   "seat": "ICF_ID1",
+   "printed": "FISEROVA Tereza",
+   "icf_id": "42016",
+   "profile_name": "MICHALOVA Tereza",
+   "rule": "name_change",
+   "evidence": "race-desk main ae2c091 legacy/paddletagger/names.json: former_names FISEROVA Tereza"
+  },
+  {
+   "row": 659,
+   "seat": "ICF_ID1",
+   "printed": "FISEROVA Tereza",
+   "icf_id": "42016",
+   "profile_name": "MICHALOVA Tereza",
+   "rule": "name_change",
+   "evidence": "race-desk main ae2c091 legacy/paddletagger/names.json: former_names FISEROVA Tereza"
+  },
+  {
+   "row": 683,
+   "seat": "ICF_ID1",
+   "printed": "FISEROVA Tereza",
+   "icf_id": "42016",
+   "profile_name": "MICHALOVA Tereza",
+   "rule": "name_change",
+   "evidence": "race-desk main ae2c091 legacy/paddletagger/names.json: former_names FISEROVA Tereza"
+  },
+  {
+   "row": 693,
+   "seat": "ICF_ID1",
+   "printed": "FISEROVA Tereza",
+   "icf_id": "42016",
+   "profile_name": "MICHALOVA Tereza",
+   "rule": "name_change",
+   "evidence": "race-desk main ae2c091 legacy/paddletagger/names.json: former_names FISEROVA Tereza"
+  }
+ ],
+ "cross_id_bind_t163u": {
+  "rule": "maintainer message t163u, 2026-11-19 09:41 Europe/Budapest, item 6: 'Prague_2017_WC holds the cross races of 17 June (semifinals 15:56 and 16:02, finals 16:15 and 16:18) with names but no ids: bind their ids by the same rules as item 5.' Applied to every Kayak Cross row (15 and 17 June) so the same printed name + Team binds the same across the meeting.",
+  "names_json": "race-desk main ae2c091 legacy/paddletagger/names.json",
+  "icf_list": "fetchApi/bence list on the box, 28908 records",
+  "at_utc": "2026-11-19T08:53:36Z",
+  "cells": [
+   {
+    "row": 7,
+    "seat": "ICF_ID1",
+    "printed": "MATEJKA Michael",
+    "team": "CZE",
+    "phase": "Time Trials",
+    "date": "2017-06-15",
+    "old": "",
+    "new": "36118",
+    "via": "ICF list"
+   },
+   {
+    "row": 8,
+    "seat": "ICF_ID1",
+    "printed": "THOMPSON Angus",
+    "team": "AUS",
+    "phase": "Time Trials",
+    "date": "2017-06-15",
+    "old": "",
+    "new": "44814",
+    "via": "ICF list"
+   },
+   {
+    "row": 11,
+    "seat": "ICF_ID1",
+    "printed": "MUTTON Zack",
+    "team": "NZL",
+    "phase": "Time Trials",
+    "date": "2017-06-15",
+    "old": "",
+    "new": "51827",
+    "via": "ICF list"
+   },
+   {
+    "row": 12,
+    "seat": "ICF_ID1",
+    "printed": "POPE Benjamin",
+    "team": "AUS",
+    "phase": "Time Trials",
+    "date": "2017-06-15",
+    "old": "",
+    "new": "51753",
+    "via": "ICF list"
+   },
+   {
+    "row": 16,
+    "seat": "ICF_ID1",
+    "printed": "DESNOS Mathieu",
+    "team": "FRA",
+    "phase": "Time Trials",
+    "date": "2017-06-15",
+    "old": "",
+    "new": "93791",
+    "via": "ICF list"
+   },
+   {
+    "row": 31,
+    "seat": "ICF_ID1",
+    "printed": "FISEROVA Tereza",
+    "team": "CZE",
+    "phase": "Time Trials",
+    "date": "2017-06-15",
+    "old": "",
+    "new": "42016",
+    "via": "names.json former_names"
+   },
+   {
+    "row": 659,
+    "seat": "ICF_ID1",
+    "printed": "FISEROVA Tereza",
+    "team": "CZE",
+    "phase": "Quarterfinal",
+    "date": "2017-06-17",
+    "old": "",
+    "new": "42016",
+    "via": "names.json former_names"
+   },
+   {
+    "row": 661,
+    "seat": "ICF_ID1",
+    "printed": "POPE Benjamin",
+    "team": "AUS",
+    "phase": "Quarterfinal",
+    "date": "2017-06-17",
+    "old": "",
+    "new": "51753",
+    "via": "ICF list"
+   },
+   {
+    "row": 665,
+    "seat": "ICF_ID1",
+    "printed": "MATEJKA Michael",
+    "team": "CZE",
+    "phase": "Quarterfinal",
+    "date": "2017-06-17",
+    "old": "",
+    "new": "36118",
+    "via": "ICF list"
+   },
+   {
+    "row": 673,
+    "seat": "ICF_ID1",
+    "printed": "MUTTON Zack",
+    "team": "NZL",
+    "phase": "Quarterfinal",
+    "date": "2017-06-17",
+    "old": "",
+    "new": "51827",
+    "via": "ICF list"
+   },
+   {
+    "row": 683,
+    "seat": "ICF_ID1",
+    "printed": "FISEROVA Tereza",
+    "team": "CZE",
+    "phase": "Semifinal",
+    "date": "2017-06-17",
+    "old": "",
+    "new": "42016",
+    "via": "names.json former_names"
+   },
+   {
+    "row": 692,
+    "seat": "ICF_ID1",
+    "printed": "MUTTON Zack",
+    "team": "NZL",
+    "phase": "Semifinal",
+    "date": "2017-06-17",
+    "old": "",
+    "new": "51827",
+    "via": "ICF list"
+   },
+   {
+    "row": 693,
+    "seat": "ICF_ID1",
+    "printed": "FISEROVA Tereza",
+    "team": "CZE",
+    "phase": "Final",
+    "date": "2017-06-17",
+    "old": "",
+    "new": "42016",
+    "via": "names.json former_names"
+   }
+  ],
+  "left_empty": [
+   {
+    "row": 17,
+    "printed": "DA SILVA Pedro",
+    "team": "BRA"
+   },
+   {
+    "row": 29,
+    "printed": "HINES Tracy",
+    "team": "USA"
+   },
+   {
+    "row": 652,
+    "printed": "HINES Tracy",
+    "team": "USA"
+   },
+   {
+    "row": 669,
+    "printed": "DA SILVA Pedro",
+    "team": "BRA"
+   },
+   {
+    "row": 691,
+    "printed": "DA SILVA Pedro",
+    "team": "BRA"
+   }
+  ],
+  "wake_fixes": [
+   {
+    "pr": 107,
+    "wake": "Wake 1 of 6: findings, round 1 of 3",
+    "at_utc": "2026-11-21T06:13:20Z",
+    "cells": [
+     {
+      "row": 48,
+      "seat": "ICF_ID1",
+      "printed": "HOSKOVA Katerina",
+      "team": "CZE",
+      "old": "",
+      "new": "35048",
+      "via": "names.json former name / RU353 keyword"
+     },
+     {
+      "row": 529,
+      "seat": "ICF_ID1",
+      "printed": "HOSKOVA Katerina",
+      "team": "CZE",
+      "old": "",
+      "new": "35048",
+      "via": "names.json former name / RU353 keyword"
+     }
+    ]
+   }
+  ]
  }
 }
