@@ -10,7 +10,7 @@
   "dates": "2016-09-16/2016-09-18",
   "discipline": "marathon",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-11-18T11:13:17Z",
+  "generated_at_utc": "2026-11-21T07:12:51Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "Organiser results workbook (single sheet, one row per paddler: Rank / Boat / ID / SURNAME, Given (YOB) / Nation / Diff / Time). STARTING_LANE = printed boat number (Gyor_2025_MAR precedent); ID is the event bib, not an ICF id. Prints the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule). OQ/para races in the same book are kept (one key).",
@@ -3050,11 +3050,20 @@
       "results_row": 55,
       "seat": "ICF_ID1",
       "source_printed_name": "Jenna WARD",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jenna WARD (RSA, W)",
       "team": "RSA",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jenna WARD (RSA, W)"
+      "action": "corrected",
+      "source": "names.json former name + keyword (RU353, RU346); ICF athlete list (bence); PWW profile 48413",
+      "detail": "history wake PR #105 finding-c6924f57a7 (re-derived, RU218); RU353, RU346: printed 'Jenna WARD' (RSA, W) is 48413 NISBET Jenna by the former name WARD Jenna. race-desk legacy/paddletagger/names.json at main 0583316 (built_from 4f8d494): former_names 48413 NISBET Jenna (RSA, W, born 1993-01-07), former WARD Jenna; keywords 'ward jenna' -> 48413 (RU353). ICF athlete list (bence) refreshed 2026-11-21T07:12:12Z (28909 records, sha256 14f85203...): 48413 NISBET Jenna W 1993-01-07 nat=RSA fed=RSA; no RSA W athlete named WARD Jenna, so the former name is the only candidate. official results (canoe_marathon_world_championships_2016_results_brandenburg.xlsx, sha256 ee8f0ce4e4d2804c465bad60c9dfdec4ea23da5459d119141e77a13a321635b2, re-fetched 2026-11-21) print Race 4 K1 WOMEN U23 22,6 km F, Fri 16.09.2016 11:30: rank 4, start 161, bib 386, 'WARD, Jenna (1993)', RSA, 01:52:41.150, +02:10.520; born 1993 = age 23 in 2016 fits U23 = RESULTS row 55. PWW https://paddleworldwide.com/athlete/48413 ('Jenna NISBET', South Africa, fetched 2026-11-21) lists 2016 ICF CANOE MARATHON WORLD CHAMPIONSHIPS / K1 Women 22600m Final 4 01:52:41.150.",
+      "new_id": "48413",
+      "name_bound_profile": "kept: profile lists 2016 ICF CANOE MARATHON WORLD CHAMPIONSHIPS / K1 Women 22600m Final 4 01:52:41.150",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jenna WARD (RSA, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jenna WARD (RSA, W)",
+        "source": "pww+bence",
+        "superseded_by": "names.json 0583316 former name WARD Jenna -> 48413 (RU353)",
+        "superseded_at_utc": "2026-11-21T07:12:51Z"
+      }
     },
     {
       "results_row": 56,
@@ -6140,11 +6149,20 @@
       "results_row": 292,
       "seat": "ICF_ID1",
       "source_printed_name": "Jenna WARD",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jenna WARD (RSA, W)",
       "team": "RSA",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jenna WARD (RSA, W)"
+      "action": "corrected",
+      "source": "names.json former name + keyword (RU353, RU346); ICF athlete list (bence); PWW profile 48413",
+      "detail": "history wake PR #105 finding-c6924f57a7 (re-derived, RU218); RU353, RU346: printed 'Jenna WARD' (RSA, W) is 48413 NISBET Jenna by the former name WARD Jenna. race-desk legacy/paddletagger/names.json at main 0583316 (built_from 4f8d494): former_names 48413 NISBET Jenna (RSA, W, born 1993-01-07), former WARD Jenna; keywords 'ward jenna' -> 48413 (RU353). ICF athlete list (bence) refreshed 2026-11-21T07:12:12Z (28909 records, sha256 14f85203...): 48413 NISBET Jenna W 1993-01-07 nat=RSA fed=RSA; no RSA W athlete named WARD Jenna, so the former name is the only candidate. official results (canoe_marathon_world_championships_2016_results_brandenburg.xlsx, sha256 ee8f0ce4e4d2804c465bad60c9dfdec4ea23da5459d119141e77a13a321635b2, re-fetched 2026-11-21) print Race 15 K2 WOMEN 26,2 km F, Sun 18.09.2016 11:30: rank 2, start 603, bib 386 'WARD, Jenna (1993)' printed first with bib 383 'PURCHASE, Kyeta (1998)' (= ICF_ID2 66617), RSA, 02:02:11.600, +01.950 = RESULTS row 292. PWW https://paddleworldwide.com/athlete/48413 ('Jenna NISBET', South Africa, fetched 2026-11-21) lists 2016 ICF CANOE MARATHON WORLD CHAMPIONSHIPS / K2 Women 26200m Final 2 02:02:11.600.",
+      "new_id": "48413",
+      "name_bound_profile": "kept: profile lists 2016 ICF CANOE MARATHON WORLD CHAMPIONSHIPS / K2 Women 26200m Final 2 02:02:11.600",
+      "superseded": {
+        "action": "no_icf_id",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jenna WARD (RSA, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jenna WARD (RSA, W)",
+        "source": "pww+bence",
+        "superseded_by": "names.json 0583316 former name WARD Jenna -> 48413 (RU353)",
+        "superseded_at_utc": "2026-11-21T07:12:51Z"
+      }
     },
     {
       "results_row": 292,
@@ -7293,7 +7311,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 365
+      "rows": 366
     }
   },
   "no_race_printed": [],
@@ -7304,12 +7322,12 @@
     {
       "kind": "xlsx",
       "name": "Brandenburg_2016_MAR_Results.xlsx",
-      "sha256": "c3e3c134fc9ad2923c6861c169b4c59de6848e47e5c63109d77746899e4dbaac",
-      "bytes": 42799
+      "sha256": "315ef3855e49ddfe49a58f79aeebc2466a6c89aa0ed7a74608e7194a8d1adaf7",
+      "bytes": 42840
     }
   ],
   "output_xlsx": "Brandenburg_2016_MAR_Results.xlsx",
-  "output_xlsx_sha256": "c3e3c134fc9ad2923c6861c169b4c59de6848e47e5c63109d77746899e4dbaac",
+  "output_xlsx_sha256": "315ef3855e49ddfe49a58f79aeebc2466a6c89aa0ed7a74608e7194a8d1adaf7",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -7349,7 +7367,7 @@
     "no_icf_id_t59": 18,
     "same_meeting_unified_t59": 0
   },
-  "updated_at": "2026-11-18T11:13:17Z",
+  "updated_at": "2026-11-21T07:12:51Z",
   "printed_field_counts": {
     "source": "boats per race as parsed from the published source (https://cdn.paddleworldwide.com/media/canoe_marathon_world_championships_2016_results_brandenburg.xlsx); back-filled 2026-10-19 from the published RESULTS (the builder parse), race coverage cross-checked independently by GATE10b",
     "rule": "MAINTAINER_ANSWERS_2026-10-18c Fix 1: printed count decides",
@@ -7387,6 +7405,34 @@
       "ruling": [
         "t132u",
         "RU351",
+        "RU346"
+      ]
+    },
+    {
+      "results_row": 55,
+      "seat": "ICF_ID1",
+      "printed": "Jenna WARD",
+      "icf_id": "48413",
+      "profile_name": "Jenna NISBET",
+      "rule": "name_change",
+      "evidence": "race-desk legacy/paddletagger/names.json at main 0583316 (built_from 4f8d494): former_names 48413 NISBET Jenna (RSA, W, born 1993-01-07), former WARD Jenna; keywords 'ward jenna' -> 48413 (RU353); contract Rule 5 (married/maiden surname): given name Jenna, NOC RSA and gender W match, and the PWW profile lists 2016 ICF CANOE MARATHON WORLD CHAMPIONSHIPS / K1 Women 22600m Final 4 01:52:41.150; printed YOB 1993 = ICF birth 1993-01-07",
+      "was": "no_icf_id",
+      "ruling": [
+        "RU353",
+        "RU346"
+      ]
+    },
+    {
+      "results_row": 292,
+      "seat": "ICF_ID1",
+      "printed": "Jenna WARD",
+      "icf_id": "48413",
+      "profile_name": "Jenna NISBET",
+      "rule": "name_change",
+      "evidence": "race-desk legacy/paddletagger/names.json at main 0583316 (built_from 4f8d494): former_names 48413 NISBET Jenna (RSA, W, born 1993-01-07), former WARD Jenna; keywords 'ward jenna' -> 48413 (RU353); contract Rule 5 (married/maiden surname): given name Jenna, NOC RSA and gender W match, and the PWW profile lists 2016 ICF CANOE MARATHON WORLD CHAMPIONSHIPS / K2 Women 26200m Final 2 02:02:11.600; printed YOB 1993 = ICF birth 1993-01-07",
+      "was": "no_icf_id",
+      "ruling": [
+        "RU353",
         "RU346"
       ]
     }
