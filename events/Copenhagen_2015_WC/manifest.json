@@ -10,7 +10,7 @@
   "dates": "2015-05-29/2015-05-31",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-11-19T08:55:53Z",
+  "generated_at_utc": "2026-11-22T17:13:29Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "MemoSoft results book (Spotfokus hub dead) prints the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule). OQ/para races in the same book are kept (one key).",
@@ -6700,11 +6700,22 @@
       "results_row": 100,
       "seat": "ICF_ID1",
       "source_printed_name": "Dóra BODONYI",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "HUN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Dóra BODONYI' (HUN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 131978 HADVINA Dora (HUN, W, born 1993-11-07); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU353); race-sheets#124 Wake 2 findings",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Dóra BODONYI' (HUN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 131978 HADVINA Dora (HUN, W, born 1993-11-07); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU353); race-sheets#124 Wake 2 findings",
+      "new_id": "131978",
+      "name_bound_profile": "kept: PWW /athlete/131978 does not list the 2015 World Cup 3 K1 Women 1000m/5000m; same person by bib 175, the bib of Dóra BODONYI in the HUN K4 W 500 crew whose heat/semifinal/final A results profile 131978 lists with the book's times, and hu.wikipedia.org/wiki/Hadvina_Dóra (born Bodonyi, 1993-11-07): 'a koppenhágai világkupán szintén aranyérmet szerzett 1000 méteren és 5000 méteren' (gold over 1000 m and 5000 m at the 2015 Copenhagen World Cup) / K1 Women 1000m heat 2",
+      "printed_check": "copenhagen2015-sources/book.pdf p.24 line 8: '175                    Dóra BODONYI                                                                                     04:15.876' (race 14, rank 1, team HUN, time 04:15.876, partners [])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-22T17:13:29Z"
+      }
     },
     {
       "results_row": 101,
@@ -11047,11 +11058,22 @@
       "results_row": 342,
       "seat": "ICF_ID1",
       "source_printed_name": "John SPENCE",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for John SPENCE (CAN, M)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "CAN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for John SPENCE (CAN, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'John SPENCE' (CAN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 61250 SPENCE Craig (CAN, M, born 1995-08-16); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU353); race-sheets#124 Wake 2 findings",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'John SPENCE' (CAN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 61250 SPENCE Craig (CAN, M, born 1995-08-16); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU353); race-sheets#124 Wake 2 findings",
+      "new_id": "61250",
+      "name_bound_profile": "kept: profile lists 2015 ICF CANOE SPRINT WORLD CUP 3 / C2 Men 1000m; same person (name-mismatch rule t84u): PWW /athlete/61250 (Craig SPENCE, CANADA, Men; read 2026-11-22) lists 2015 ICF CANOE SPRINT WORLD CUP 3 C2 Men 1000m Final rank 4 00:04:10.932 and C2 Men 200m Final rank 6 00:00:41.968, the book's times for bib 41 John SPENCE with 45 Paul BRYANT, and partner 42447 BRYANT's profile lists the same results; full name John Craig Spence, born 1995-08-16 (= ICF birth date) per es.wikipedia.org/wiki/Craig_Spence and intersportstats.com/athletes/3000493065 / C2 Men 1000m final A",
+      "printed_check": "copenhagen2015-sources/book.pdf p.56 line 14: '41                    John SPENCE                                                                   04:10.932' (race 46, rank 4, team CAN, time 04:10.932, partners ['Paul BRYANT'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for John SPENCE (CAN, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for John SPENCE (CAN, M)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-22T17:13:29Z"
+      }
     },
     {
       "results_row": 342,
@@ -11168,11 +11190,22 @@
       "results_row": 348,
       "seat": "ICF_ID1",
       "source_printed_name": "Dóra BODONYI",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "HUN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Dóra BODONYI' (HUN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 131978 HADVINA Dora (HUN, W, born 1993-11-07); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU353); race-sheets#124 Wake 2 findings",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Dóra BODONYI' (HUN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 131978 HADVINA Dora (HUN, W, born 1993-11-07); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU353); race-sheets#124 Wake 2 findings",
+      "new_id": "131978",
+      "name_bound_profile": "kept: PWW /athlete/131978 does not list the 2015 World Cup 3 K1 Women 1000m/5000m; same person by bib 175, the bib of Dóra BODONYI in the HUN K4 W 500 crew whose heat/semifinal/final A results profile 131978 lists with the book's times, and hu.wikipedia.org/wiki/Hadvina_Dóra (born Bodonyi, 1993-11-07): 'a koppenhágai világkupán szintén aranyérmet szerzett 1000 méteren és 5000 méteren' (gold over 1000 m and 5000 m at the 2015 Copenhagen World Cup) / K1 Women 1000m final A",
+      "printed_check": "copenhagen2015-sources/book.pdf p.57 line 8: '175                    Dóra BODONYI                                                                  04:27.004' (race 47, rank 1, team HUN, time 04:27.004, partners [])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-22T17:13:29Z"
+      }
     },
     {
       "results_row": 349,
@@ -11847,11 +11880,22 @@
       "results_row": 370,
       "seat": "ICF_ID2",
       "source_printed_name": "Dóra BODONYI",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "HUN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Dóra BODONYI' (HUN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 131978 HADVINA Dora (HUN, W, born 1993-11-07); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU353); race-sheets#124 Wake 2 findings",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Dóra BODONYI' (HUN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 131978 HADVINA Dora (HUN, W, born 1993-11-07); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU353); race-sheets#124 Wake 2 findings",
+      "new_id": "131978",
+      "name_bound_profile": "kept: profile lists 2015 ICF CANOE SPRINT WORLD CUP 3 / K4 Women 500m; PWW /athlete/131978 (Dora HADVINA, HUNGARY, Women; read 2026-11-22) lists 2015 ICF CANOE SPRINT WORLD CUP 3 K4 Women 500m Heats rank 5 00:01:43.788, Semifinal rank 2 00:01:49.064 and Final rank 8 00:01:41.168, the book's times for bib 175 Dóra BODONYI's HUN crew; born Bodonyi, 1993-11-07 (= ICF birth date), married name Hadvina since 2020 per hu.wikipedia.org/wiki/Hadvina_Dóra / K4 Women 500m heat 1",
+      "printed_check": "copenhagen2015-sources/book.pdf p.59 line 16: '172   175              Anett SZILÁGYI / Dóra BODONYI                                                        01:43.788' (race 49, rank 5, team HUN, time 01:43.788, partners ['Anett SZILÁGYI', 'Fanni SIMÁN', 'Cintia PAPP'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-22T17:13:29Z"
+      }
     },
     {
       "results_row": 370,
@@ -13607,11 +13651,22 @@
       "results_row": 470,
       "seat": "ICF_ID2",
       "source_printed_name": "Dóra BODONYI",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "HUN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Dóra BODONYI' (HUN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 131978 HADVINA Dora (HUN, W, born 1993-11-07); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU353); race-sheets#124 Wake 2 findings",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Dóra BODONYI' (HUN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 131978 HADVINA Dora (HUN, W, born 1993-11-07); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU353); race-sheets#124 Wake 2 findings",
+      "new_id": "131978",
+      "name_bound_profile": "kept: profile lists 2015 ICF CANOE SPRINT WORLD CUP 3 / K4 Women 500m; PWW /athlete/131978 (Dora HADVINA, HUNGARY, Women; read 2026-11-22) lists 2015 ICF CANOE SPRINT WORLD CUP 3 K4 Women 500m Heats rank 5 00:01:43.788, Semifinal rank 2 00:01:49.064 and Final rank 8 00:01:41.168, the book's times for bib 175 Dóra BODONYI's HUN crew; born Bodonyi, 1993-11-07 (= ICF birth date), married name Hadvina since 2020 per hu.wikipedia.org/wiki/Hadvina_Dóra / K4 Women 500m semifinal 1",
+      "printed_check": "copenhagen2015-sources/book.pdf p.76 line 10: '172   175              Anett SZILÁGYI / Dóra BODONYI                                                 01:49.064' (race 66, rank 2, team HUN, time 01:49.064, partners ['Anett SZILÁGYI', 'Fanni SIMÁN', 'Cintia PAPP'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-22T17:13:29Z"
+      }
     },
     {
       "results_row": 470,
@@ -15756,11 +15811,22 @@
       "results_row": 597,
       "seat": "ICF_ID2",
       "source_printed_name": "Dóra BODONYI",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "HUN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Dóra BODONYI' (HUN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 131978 HADVINA Dora (HUN, W, born 1993-11-07); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU353); race-sheets#124 Wake 2 findings",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Dóra BODONYI' (HUN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 131978 HADVINA Dora (HUN, W, born 1993-11-07); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU353); race-sheets#124 Wake 2 findings",
+      "new_id": "131978",
+      "name_bound_profile": "kept: profile lists 2015 ICF CANOE SPRINT WORLD CUP 3 / K4 Women 500m; PWW /athlete/131978 (Dora HADVINA, HUNGARY, Women; read 2026-11-22) lists 2015 ICF CANOE SPRINT WORLD CUP 3 K4 Women 500m Heats rank 5 00:01:43.788, Semifinal rank 2 00:01:49.064 and Final rank 8 00:01:41.168, the book's times for bib 175 Dóra BODONYI's HUN crew; born Bodonyi, 1993-11-07 (= ICF birth date), married name Hadvina since 2020 per hu.wikipedia.org/wiki/Hadvina_Dóra / K4 Women 500m final A",
+      "printed_check": "copenhagen2015-sources/book.pdf p.92 line 22: '172   175              Anett SZILÁGYI / Dóra BODONYI                                                  01:41.168' (race 82, rank 8, team HUN, time 01:41.168, partners ['Anett SZILÁGYI', 'Fanni SIMÁN', 'Cintia PAPP'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-22T17:13:29Z"
+      }
     },
     {
       "results_row": 597,
@@ -16491,11 +16557,22 @@
       "results_row": 649,
       "seat": "ICF_ID1",
       "source_printed_name": "John SPENCE",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for John SPENCE (CAN, M)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "CAN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for John SPENCE (CAN, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'John SPENCE' (CAN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 61250 SPENCE Craig (CAN, M, born 1995-08-16); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU353); race-sheets#124 Wake 2 findings",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'John SPENCE' (CAN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 61250 SPENCE Craig (CAN, M, born 1995-08-16); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU353); race-sheets#124 Wake 2 findings",
+      "new_id": "61250",
+      "name_bound_profile": "kept: profile lists 2015 ICF CANOE SPRINT WORLD CUP 3 / C2 Men 200m; same person (name-mismatch rule t84u): PWW /athlete/61250 (Craig SPENCE, CANADA, Men; read 2026-11-22) lists 2015 ICF CANOE SPRINT WORLD CUP 3 C2 Men 1000m Final rank 4 00:04:10.932 and C2 Men 200m Final rank 6 00:00:41.968, the book's times for bib 41 John SPENCE with 45 Paul BRYANT, and partner 42447 BRYANT's profile lists the same results; full name John Craig Spence, born 1995-08-16 (= ICF birth date) per es.wikipedia.org/wiki/Craig_Spence and intersportstats.com/athletes/3000493065 / C2 Men 200m final A",
+      "printed_check": "copenhagen2015-sources/book.pdf p.98 line 18: '41                    John SPENCE                                                                 00:41.968' (race 88, rank 6, team CAN, time 00:41.968, partners ['Paul BRYANT'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for John SPENCE (CAN, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for John SPENCE (CAN, M)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-22T17:13:29Z"
+      }
     },
     {
       "results_row": 649,
@@ -17758,11 +17835,22 @@
       "results_row": 695,
       "seat": "ICF_ID1",
       "source_printed_name": "Dóra BODONYI",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "HUN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Dóra BODONYI' (HUN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 131978 HADVINA Dora (HUN, W, born 1993-11-07); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU353); race-sheets#124 Wake 2 findings",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Dóra BODONYI' (HUN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 131978 HADVINA Dora (HUN, W, born 1993-11-07); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU353); race-sheets#124 Wake 2 findings",
+      "new_id": "131978",
+      "name_bound_profile": "kept: PWW /athlete/131978 does not list the 2015 World Cup 3 K1 Women 1000m/5000m; same person by bib 175, the bib of Dóra BODONYI in the HUN K4 W 500 crew whose heat/semifinal/final A results profile 131978 lists with the book's times, and hu.wikipedia.org/wiki/Hadvina_Dóra (born Bodonyi, 1993-11-07): 'a koppenhágai világkupán szintén aranyérmet szerzett 1000 méteren és 5000 méteren' (gold over 1000 m and 5000 m at the 2015 Copenhagen World Cup) / K1 Women 5000m final A",
+      "printed_check": "copenhagen2015-sources/book.pdf p.104 line 8: '175                    Dóra BODONYI                                                                   21:45.720' (race 94, rank 1, team HUN, time 21:45.720, partners [])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra BODONYI (HUN, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-22T17:13:29Z"
+      }
     },
     {
       "results_row": 696,
@@ -18736,7 +18824,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 298
+      "rows": 300
     }
   },
   "no_race_printed": [
@@ -18756,12 +18844,12 @@
     {
       "kind": "xlsx",
       "name": "Copenhagen_2015_WC_Results.xlsx",
-      "sha256": "fc17e8ad6c8a502670759d2af1c31abcddb122e3bfbc36a0ee44d5561eee294b",
-      "bytes": 70562
+      "sha256": "cc9b77a7a133193274aaa50a6241f7bde028bb2d51df3b99e42c8a8cc99aa2f3",
+      "bytes": 70683
     }
   ],
   "output_xlsx": "Copenhagen_2015_WC_Results.xlsx",
-  "output_xlsx_sha256": "fc17e8ad6c8a502670759d2af1c31abcddb122e3bfbc36a0ee44d5561eee294b",
+  "output_xlsx_sha256": "cc9b77a7a133193274aaa50a6241f7bde028bb2d51df3b99e42c8a8cc99aa2f3",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -18801,7 +18889,7 @@
       "note": "race number printed in the book (9xx block after race 95), kept as printed (maintainer 2026-10-17 Q13)"
     }
   ],
-  "updated_at": "2026-11-19T08:55:53Z",
+  "updated_at": "2026-11-22T17:13:29Z",
   "name_bound_check": {
     "completed": true,
     "profiles_checked": 276,
@@ -19259,6 +19347,86 @@
       "profile_name": "Aleksei VOSTRIKOV",
       "rule": "name_change",
       "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU312 lists 'Alexey VOSTRIKOV' as a name of 42119; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 342,
+      "seat": "ICF_ID1",
+      "printed": "John SPENCE",
+      "icf_id": "61250",
+      "profile_name": "Craig SPENCE",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU353 lists 'John SPENCE' as a name of 61250; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 649,
+      "seat": "ICF_ID1",
+      "printed": "John SPENCE",
+      "icf_id": "61250",
+      "profile_name": "Craig SPENCE",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU353 lists 'John SPENCE' as a name of 61250; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 370,
+      "seat": "ICF_ID2",
+      "printed": "Dóra BODONYI",
+      "icf_id": "131978",
+      "profile_name": "Dora HADVINA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU353 lists 'Dóra BODONYI' as a name of 131978; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 470,
+      "seat": "ICF_ID2",
+      "printed": "Dóra BODONYI",
+      "icf_id": "131978",
+      "profile_name": "Dora HADVINA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU353 lists 'Dóra BODONYI' as a name of 131978; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 597,
+      "seat": "ICF_ID2",
+      "printed": "Dóra BODONYI",
+      "icf_id": "131978",
+      "profile_name": "Dora HADVINA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU353 lists 'Dóra BODONYI' as a name of 131978; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 100,
+      "seat": "ICF_ID1",
+      "printed": "Dóra BODONYI",
+      "icf_id": "131978",
+      "profile_name": "Dora HADVINA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU353 lists 'Dóra BODONYI' as a name of 131978; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 348,
+      "seat": "ICF_ID1",
+      "printed": "Dóra BODONYI",
+      "icf_id": "131978",
+      "profile_name": "Dora HADVINA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU353 lists 'Dóra BODONYI' as a name of 131978; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 695,
+      "seat": "ICF_ID1",
+      "printed": "Dóra BODONYI",
+      "icf_id": "131978",
+      "profile_name": "Dora HADVINA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU353 lists 'Dóra BODONYI' as a name of 131978; seat bound from the name file",
       "was": "no_icf_id"
     }
   ],
@@ -19901,6 +20069,20 @@
       "rejected": 0,
       "rule4_resolved": 2,
       "at_utc": "2026-11-19T08:55:53Z"
+    },
+    {
+      "rule": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+      "source": "kenderfoka/race-desk main legacy/paddletagger/names.json @ e6cc75c4ed17911d9a414fedd57943b4bcdf678e",
+      "names_json_sha256": "bce81aa70b1717b72ff063f1d688e89bda7144d9ece932108c4b16e6483fa3e4",
+      "icf_list": "2026-11-22T17:10:55Z",
+      "icf_list_sha256": "6e9495c587d66f141ba7616f7c28d954ca477938baf33f4ec04f708c60563ec7",
+      "match": "printed name has the words of one name (current, former_names, keywords, links) of exactly one athlete of the boat's country (nationality or federation; AIN/RUS/BLR/ROC agree), accents/case/hyphens ignored, any order; same name+birth+gender counted as one; letter folding only RU351 (ALSBÆK = ALSBAEK)",
+      "scope": "every empty seat (crew boats and single boats); second pass after names.json grew to 0583316 (race-sheets#124 Wake 2 findings a545eefee0, 27a3b608ce, 2863ed149e, 47f5b77c46, 6ba28411ee; single-boat seats rows 100, 348, 695 under the same order)",
+      "bound_from_names_json": 8,
+      "bound_from_icf_list": 0,
+      "rejected": 0,
+      "rule4_resolved": 0,
+      "at_utc": "2026-11-22T17:13:29Z"
     }
   ]
 }
