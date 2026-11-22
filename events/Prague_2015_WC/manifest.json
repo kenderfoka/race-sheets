@@ -11,13 +11,13 @@
  "gaps": [
   "icf_ids_incomplete"
  ],
- "generated_at_utc": "2026-10-15T09:10:05Z",
- "updated_at": "2026-10-15T09:16:34Z",
+ "generated_at_utc": "2026-11-22T12:10:00Z",
+ "updated_at": "2026-11-22T12:10:00Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "Prague_2015_WC_start.xlsx",
-   "sha256": "d7b71fe6b1171febe30ca0f7c2ac65faa37ad330c6269f42084ec1d87f50c1a0"
+   "sha256": "0fa34415b752cc79f8c44c449143473b29547842a98a5731683a699a47359f3c"
   }
  ],
  "row_count": 718,
@@ -751,10 +751,17 @@
    "row": 46,
    "seat": "ICF_ID1",
    "printed_name": "SASAKI Tsubasa",
-   "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "SASAKI Tsubasa",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "no_icf_id",
-   "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['42256', '47085']"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "42256",
+   "detail": "seat printed without an id, bound under t163u: printed 'SASAKI Tsubasa' (JPN) has the same words, accents and case ignored, as 42256 Tsubasa SASAKI (JPN, born 1995-03-23, M) via ICF list, the only athlete of JPN with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "no_icf_id",
+    "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['42256', '47085']",
+    "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 47,
@@ -1357,10 +1364,17 @@
    "row": 223,
    "seat": "ICF_ID1",
    "printed_name": "SASAKI Tsubasa",
-   "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "SASAKI Tsubasa",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "no_icf_id",
-   "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['42256', '47085']"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "42256",
+   "detail": "seat printed without an id, bound under t163u: printed 'SASAKI Tsubasa' (JPN) has the same words, accents and case ignored, as 42256 Tsubasa SASAKI (JPN, born 1995-03-23, M) via ICF list, the only athlete of JPN with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "no_icf_id",
+    "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['42256', '47085']",
+    "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 224,
@@ -1903,19 +1917,41 @@
    "row": 610,
    "seat": "ICF_ID3",
    "printed_name": "FISEROVA Tereza",
-   "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "FISEROVA Tereza",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "no_icf_id",
-   "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "42016",
+   "detail": "seat printed without an id, bound under t163u: printed 'FISEROVA Tereza' (CZE) has the same words, accents and case ignored, as 42016 Tereza MICHALOVA (CZE, born 1998-02-23, W) via names.json former_names, names.json keywords (RU294), the only athlete of CZE with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "name_change": {
+    "printed": "FISEROVA Tereza",
+    "icf_name": "MICHALOVA Tereza",
+    "via": [
+     "names.json former_names",
+     "names.json keywords (RU294)"
+    ]
+   },
+   "previous": {
+    "action": "no_icf_id",
+    "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family",
+    "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 611,
    "seat": "ICF_ID1",
    "printed_name": "FOX Jessica",
-   "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "FOX Jessica",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 36526, but profile does not list the competition (^2015 ICF CANOE SLALOM WORLD CUP 1$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "36526",
+   "detail": "seat printed without an id, bound under t163u: printed 'FOX Jessica' (AUS) has the same words, accents and case ignored, as 36526 Jessica FOX (AUS, born 1994-06-11, W) via ICF list, the only athlete of AUS with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 36526, but profile does not list the competition (^2015 ICF CANOE SLALOM WORLD CUP 1$) and class",
+    "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 611,
@@ -2040,19 +2076,33 @@
    "row": 582,
    "seat": "ICF_ID1",
    "printed_name": "FOX Jessica",
-   "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "FOX Jessica",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 36526, but profile does not list the competition (^2015 ICF CANOE SLALOM WORLD CUP 1$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "36526",
+   "detail": "seat printed without an id, bound under t163u: printed 'FOX Jessica' (AUS) has the same words, accents and case ignored, as 36526 Jessica FOX (AUS, born 1994-06-11, W) via ICF list, the only athlete of AUS with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 36526, but profile does not list the competition (^2015 ICF CANOE SLALOM WORLD CUP 1$) and class",
+    "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 583,
    "seat": "ICF_ID1",
    "printed_name": "SATILA Ana",
-   "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "SATILA Ana",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 35327, but profile does not list the competition (^2015 ICF CANOE SLALOM WORLD CUP 1$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "35327",
+   "detail": "seat printed without an id, bound under t163u: printed 'SATILA Ana' (BRA) has the same words, accents and case ignored, as 35327 Ana SATILA (BRA, born 1996-03-13, W) via ICF list, the only athlete of BRA with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 35327, but profile does not list the competition (^2015 ICF CANOE SLALOM WORLD CUP 1$) and class",
+    "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 584,
@@ -2137,10 +2187,25 @@
    "row": 88,
    "seat": "ICF_ID1",
    "printed_name": "FISEROVA Tereza",
-   "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "FISEROVA Tereza",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "no_icf_id",
-   "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "42016",
+   "detail": "seat printed without an id, bound under t163u: printed 'FISEROVA Tereza' (CZE) has the same words, accents and case ignored, as 42016 Tereza MICHALOVA (CZE, born 1998-02-23, W) via names.json former_names, names.json keywords (RU294), the only athlete of CZE with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "name_change": {
+    "printed": "FISEROVA Tereza",
+    "icf_name": "MICHALOVA Tereza",
+    "via": [
+     "names.json former_names",
+     "names.json keywords (RU294)"
+    ]
+   },
+   "previous": {
+    "action": "no_icf_id",
+    "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family",
+    "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 89,
@@ -2285,10 +2350,17 @@
    "row": 103,
    "seat": "ICF_ID1",
    "printed_name": "SATILA Ana",
-   "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "SATILA Ana",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 35327, but profile does not list the competition (^2015 ICF CANOE SLALOM WORLD CUP 1$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "35327",
+   "detail": "seat printed without an id, bound under t163u: printed 'SATILA Ana' (BRA) has the same words, accents and case ignored, as 35327 Ana SATILA (BRA, born 1996-03-13, W) via ICF list, the only athlete of BRA with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 35327, but profile does not list the competition (^2015 ICF CANOE SLALOM WORLD CUP 1$) and class",
+    "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 104,
@@ -2362,10 +2434,17 @@
    "row": 111,
    "seat": "ICF_ID1",
    "printed_name": "FOX Jessica",
-   "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "FOX Jessica",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 36526, but profile does not list the competition (^2015 ICF CANOE SLALOM WORLD CUP 1$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "36526",
+   "detail": "seat printed without an id, bound under t163u: printed 'FOX Jessica' (AUS) has the same words, accents and case ignored, as 36526 Jessica FOX (AUS, born 1994-06-11, W) via ICF list, the only athlete of AUS with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 36526, but profile does not list the competition (^2015 ICF CANOE SLALOM WORLD CUP 1$) and class",
+    "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 243,
@@ -2579,10 +2658,25 @@
    "row": 516,
    "seat": "ICF_ID1",
    "printed_name": "FISEROVA Tereza",
-   "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "FISEROVA Tereza",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "no_icf_id",
-   "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "42016",
+   "detail": "seat printed without an id, bound under t163u: printed 'FISEROVA Tereza' (CZE) has the same words, accents and case ignored, as 42016 Tereza MICHALOVA (CZE, born 1998-02-23, W) via names.json former_names, names.json keywords (RU294), the only athlete of CZE with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "name_change": {
+    "printed": "FISEROVA Tereza",
+    "icf_name": "MICHALOVA Tereza",
+    "via": [
+     "names.json former_names",
+     "names.json keywords (RU294)"
+    ]
+   },
+   "previous": {
+    "action": "no_icf_id",
+    "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family",
+    "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 517,
@@ -2598,10 +2692,17 @@
    "row": 518,
    "seat": "ICF_ID1",
    "printed_name": "SATILA Ana",
-   "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "SATILA Ana",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 35327, but profile does not list the competition (^2015 ICF CANOE SLALOM WORLD CUP 1$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "35327",
+   "detail": "seat printed without an id, bound under t163u: printed 'SATILA Ana' (BRA) has the same words, accents and case ignored, as 35327 Ana SATILA (BRA, born 1996-03-13, W) via ICF list, the only athlete of BRA with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 35327, but profile does not list the competition (^2015 ICF CANOE SLALOM WORLD CUP 1$) and class",
+    "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 519,
@@ -2686,10 +2787,17 @@
    "row": 527,
    "seat": "ICF_ID1",
    "printed_name": "FOX Jessica",
-   "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "FOX Jessica",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 36526, but profile does not list the competition (^2015 ICF CANOE SLALOM WORLD CUP 1$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "36526",
+   "detail": "seat printed without an id, bound under t163u: printed 'FOX Jessica' (AUS) has the same words, accents and case ignored, as 36526 Jessica FOX (AUS, born 1994-06-11, W) via ICF list, the only athlete of AUS with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 36526, but profile does not list the competition (^2015 ICF CANOE SLALOM WORLD CUP 1$) and class",
+    "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 715,
@@ -3379,10 +3487,17 @@
    "row": 385,
    "seat": "ICF_ID2",
    "printed_name": "SASAKI Tsubasa",
-   "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "SASAKI Tsubasa",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "no_icf_id",
-   "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['42256', '47085']"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "42256",
+   "detail": "seat printed without an id, bound under t163u: printed 'SASAKI Tsubasa' (JPN) has the same words, accents and case ignored, as 42256 Tsubasa SASAKI (JPN, born 1995-03-23, M) via ICF list, the only athlete of JPN with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "no_icf_id",
+    "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['42256', '47085']",
+    "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 386,
@@ -4036,10 +4151,17 @@
    "row": 461,
    "seat": "ICF_ID2",
    "printed_name": "SASAKI Tsubasa",
-   "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "SASAKI Tsubasa",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "no_icf_id",
-   "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['42256', '47085']"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "42256",
+   "detail": "seat printed without an id, bound under t163u: printed 'SASAKI Tsubasa' (JPN) has the same words, accents and case ignored, as 42256 Tsubasa SASAKI (JPN, born 1995-03-23, M) via ICF list, the only athlete of JPN with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "no_icf_id",
+    "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['42256', '47085']",
+    "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 462,
@@ -4641,209 +4763,323 @@
    "row": 2,
    "seat": "ICF_ID1",
    "printed_name": "RIHA Martin",
-   "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "RIHA Martin",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 36778; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "36778",
+   "detail": "seat printed without an id, bound under t163u: printed 'RIHA Martin' (CZE) has the same words, accents and case ignored, as 36778 Martin RIHA (CZE, born 1992-08-07, M) via ICF list, the only athlete of CZE with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 36778; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event empty: no class printed and no later race block that day (logged)"
   },
   {
    "row": 3,
    "seat": "ICF_ID1",
    "printed_name": "GEBAS Vitezslav",
-   "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "GEBAS Vitezslav",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 35038; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "35038",
+   "detail": "seat printed without an id, bound under t163u: printed 'GEBAS Vitezslav' (CZE) has the same words, accents and case ignored, as 35038 Vitezslav GEBAS (CZE, born 1984-03-24, M) via ICF list, the only athlete of CZE with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 35038; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event empty: no class printed and no later race block that day (logged)"
   },
   {
    "row": 4,
    "seat": "ICF_ID1",
    "printed_name": "CVIKL Ondrej",
-   "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "CVIKL Ondrej",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 35946; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "35946",
+   "detail": "seat printed without an id, bound under t163u: printed 'CVIKL Ondrej' (CZE) has the same words, accents and case ignored, as 35946 Ondrej CVIKL (CZE, born 1992-09-18, M) via ICF list, the only athlete of CZE with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 35946; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event empty: no class printed and no later race block that day (logged)"
   },
   {
    "row": 5,
    "seat": "ICF_ID1",
    "printed_name": "PRINDIS Vit",
-   "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "PRINDIS Vit",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 35065; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "35065",
+   "detail": "seat printed without an id, bound under t163u: printed 'PRINDIS Vit' (CZE) has the same words, accents and case ignored, as 35065 Vit PRINDIS (CZE, born 1989-04-14, M) via ICF list, the only athlete of CZE with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 35065; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event empty: no class printed and no later race block that day (logged)"
   },
   {
    "row": 6,
    "seat": "ICF_ID1",
    "printed_name": "FOX Noemie",
-   "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "FOX Noemie",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 44812; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "44812",
+   "detail": "seat printed without an id, bound under t163u: printed 'FOX Noemie' (AUS) has the same words, accents and case ignored, as 44812 Noemie FOX (AUS, born 1997-03-19, W) via ICF list, the only athlete of AUS with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 44812; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event empty: no class printed and no later race block that day (logged)"
   },
   {
    "row": 7,
    "seat": "ICF_ID1",
    "printed_name": "MATULKOVA Jana",
-   "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "MATULKOVA Jana",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 37274; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "37274",
+   "detail": "seat printed without an id, bound under t163u: printed 'MATULKOVA Jana' (CZE) has the same words, accents and case ignored, as 37274 Jana MATULKOVA (CZE, born 1996-06-08, W) via ICF list, the only athlete of CZE with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 37274; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event empty: no class printed and no later race block that day (logged)"
   },
   {
    "row": 8,
    "seat": "ICF_ID1",
    "printed_name": "HILGERTOVA Amalie",
-   "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "HILGERTOVA Amalie",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 36113; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "36113",
+   "detail": "seat printed without an id, bound under t163u: printed 'HILGERTOVA Amalie' (CZE) has the same words, accents and case ignored, as 36113 Amalie HILGERTOVA (CZE, born 1997-09-04, W) via ICF list, the only athlete of CZE with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 36113; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event empty: no class printed and no later race block that day (logged)"
   },
   {
    "row": 9,
    "seat": "ICF_ID1",
    "printed_name": "DUSKOVA Katerina",
-   "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "DUSKOVA Katerina",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 51792; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "51792",
+   "detail": "seat printed without an id, bound under t163u: printed 'DUSKOVA Katerina' (CZE) has the same words, accents and case ignored, as 51792 Katerina DUSKOVA (CZE, born 1998-04-04, W) via ICF list, the only athlete of CZE with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 51792; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event empty: no class printed and no later race block that day (logged)"
   },
   {
    "row": 10,
    "seat": "ICF_ID1",
    "printed_name": "MATEJKA Michael",
-   "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "MATEJKA Michael",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 36118; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "36118",
+   "detail": "seat printed without an id, bound under t163u: printed 'MATEJKA Michael' (CZE) has the same words, accents and case ignored, as 36118 Michael MATEJKA (CZE, born 1997-09-29, M) via ICF list, the only athlete of CZE with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 36118; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event empty: no class printed and no later race block that day (logged)"
   },
   {
    "row": 11,
    "seat": "ICF_ID1",
    "printed_name": "MEDRICKY Ludvik",
-   "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "MEDRICKY Ludvik",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 36116; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "36116",
+   "detail": "seat printed without an id, bound under t163u: printed 'MEDRICKY Ludvik' (CZE) has the same words, accents and case ignored, as 36116 Ludvik MEDRICKY (CZE, born 1992-07-06, M) via ICF list, the only athlete of CZE with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 36116; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event empty: no class printed and no later race block that day (logged)"
   },
   {
    "row": 12,
    "seat": "ICF_ID1",
    "printed_name": "GEBAS Vitezslav",
-   "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "GEBAS Vitezslav",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 35038; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "35038",
+   "detail": "seat printed without an id, bound under t163u: printed 'GEBAS Vitezslav' (CZE) has the same words, accents and case ignored, as 35038 Vitezslav GEBAS (CZE, born 1984-03-24, M) via ICF list, the only athlete of CZE with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 35038; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event C1 from next race block C1M_NHT1_19 (first start 09:00:00); source prints no class"
   },
   {
    "row": 13,
    "seat": "ICF_ID1",
    "printed_name": "RIHA Martin",
-   "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "RIHA Martin",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 36778; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "36778",
+   "detail": "seat printed without an id, bound under t163u: printed 'RIHA Martin' (CZE) has the same words, accents and case ignored, as 36778 Martin RIHA (CZE, born 1992-08-07, M) via ICF list, the only athlete of CZE with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 36778; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event C1 from next race block C1M_NHT1_19 (first start 09:00:00); source prints no class"
   },
   {
    "row": 14,
    "seat": "ICF_ID1",
    "printed_name": "RIHOVA Eva",
-   "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "RIHOVA Eva",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 51791; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "51791",
+   "detail": "seat printed without an id, bound under t163u: printed 'RIHOVA Eva' (CZE) has the same words, accents and case ignored, as 51791 Eva RIHOVA (CZE, born 2000-01-05, W) via ICF list, the only athlete of CZE with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 51791; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event C1 from next race block C1M_NHT1_19 (first start 09:00:00); source prints no class"
   },
   {
    "row": 15,
    "seat": "ICF_ID1",
    "printed_name": "PRIHODA Matous",
-   "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "PRIHODA Matous",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 60106; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "60106",
+   "detail": "seat printed without an id, bound under t163u: printed 'PRIHODA Matous' (CZE) has the same words, accents and case ignored, as 60106 Matous PRIHODA (CZE, born 1998-07-14, M) via ICF list, the only athlete of CZE with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 60106; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event C1 from next race block C1M_NHT1_19 (first start 09:00:00); source prints no class"
   },
   {
    "row": 16,
    "seat": "ICF_ID1",
    "printed_name": "CVIKL Ondrej",
-   "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "CVIKL Ondrej",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 35946; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "35946",
+   "detail": "seat printed without an id, bound under t163u: printed 'CVIKL Ondrej' (CZE) has the same words, accents and case ignored, as 35946 Ondrej CVIKL (CZE, born 1992-09-18, M) via ICF list, the only athlete of CZE with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 35946; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event C1 from next race block C1M_NHT1_19 (first start 09:00:00); source prints no class"
   },
   {
    "row": 17,
    "seat": "ICF_ID1",
    "printed_name": "PRINDIS Vit",
-   "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "PRINDIS Vit",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 35065; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "35065",
+   "detail": "seat printed without an id, bound under t163u: printed 'PRINDIS Vit' (CZE) has the same words, accents and case ignored, as 35065 Vit PRINDIS (CZE, born 1989-04-14, M) via ICF list, the only athlete of CZE with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 35065; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event C1 from next race block C1M_NHT1_19 (first start 09:00:00); source prints no class"
   },
   {
    "row": 18,
    "seat": "ICF_ID1",
    "printed_name": "HILGERTOVA Amalie",
-   "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "HILGERTOVA Amalie",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 36113; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "36113",
+   "detail": "seat printed without an id, bound under t163u: printed 'HILGERTOVA Amalie' (CZE) has the same words, accents and case ignored, as 36113 Amalie HILGERTOVA (CZE, born 1997-09-04, W) via ICF list, the only athlete of CZE with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 36113; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event C1 from next race block C1M_NHT1_19 (first start 09:00:00); source prints no class"
   },
   {
    "row": 19,
    "seat": "ICF_ID1",
    "printed_name": "ZASTEROVA Pavlina",
-   "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "ZASTEROVA Pavlina",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 35051; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "35051",
+   "detail": "seat printed without an id, bound under t163u: printed 'ZASTEROVA Pavlina' (CZE) has the same words, accents and case ignored, as 35051 Pavlina ZASTEROVA (CZE, born 1993-05-29, W) via ICF list, the only athlete of CZE with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 35051; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event C1 from next race block C1M_NHT1_19 (first start 09:00:00); source prints no class"
   },
   {
    "row": 20,
    "seat": "ICF_ID1",
    "printed_name": "MATEJKA Michael",
-   "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "MATEJKA Michael",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 36118; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "36118",
+   "detail": "seat printed without an id, bound under t163u: printed 'MATEJKA Michael' (CZE) has the same words, accents and case ignored, as 36118 Michael MATEJKA (CZE, born 1997-09-29, M) via ICF list, the only athlete of CZE with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 36118; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event C1 from next race block C1M_NHT1_19 (first start 09:00:00); source prints no class"
   },
   {
@@ -4860,110 +5096,170 @@
    "row": 472,
    "seat": "ICF_ID1",
    "printed_name": "ROHAN Lukas",
-   "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "ROHAN Lukas",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 36114; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "36114",
+   "detail": "seat printed without an id, bound under t163u: printed 'ROHAN Lukas' (CZE) has the same words, accents and case ignored, as 36114 Lukas ROHAN (CZE, born 1995-05-30, M) via ICF list, the only athlete of CZE with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 36114; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event C1 from next race block C1M_SF_20 (first start 09:00:00); source prints no class"
   },
   {
    "row": 473,
    "seat": "ICF_ID1",
    "printed_name": "LHOTA Matyas",
-   "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "LHOTA Matyas",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 51872; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "51872",
+   "detail": "seat printed without an id, bound under t163u: printed 'LHOTA Matyas' (CZE) has the same words, accents and case ignored, as 51872 Matyas LHOTA (CZE, born 1999-05-25, M) via ICF list, the only athlete of CZE with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 51872; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event C1 from next race block C1M_SF_20 (first start 09:00:00); source prints no class"
   },
   {
    "row": 474,
    "seat": "ICF_ID1",
    "printed_name": "RIHOVA Eva",
-   "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "RIHOVA Eva",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 51791; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "51791",
+   "detail": "seat printed without an id, bound under t163u: printed 'RIHOVA Eva' (CZE) has the same words, accents and case ignored, as 51791 Eva RIHOVA (CZE, born 2000-01-05, W) via ICF list, the only athlete of CZE with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 51791; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event C1 from next race block C1M_SF_20 (first start 09:00:00); source prints no class"
   },
   {
    "row": 475,
    "seat": "ICF_ID1",
    "printed_name": "GEBAS Vitezslav",
-   "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "GEBAS Vitezslav",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 35038; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "35038",
+   "detail": "seat printed without an id, bound under t163u: printed 'GEBAS Vitezslav' (CZE) has the same words, accents and case ignored, as 35038 Vitezslav GEBAS (CZE, born 1984-03-24, M) via ICF list, the only athlete of CZE with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 35038; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event C1 from next race block C1M_SF_20 (first start 09:00:00); source prints no class"
   },
   {
    "row": 476,
    "seat": "ICF_ID1",
    "printed_name": "PRINDIS Vit",
-   "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "PRINDIS Vit",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 35065; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "35065",
+   "detail": "seat printed without an id, bound under t163u: printed 'PRINDIS Vit' (CZE) has the same words, accents and case ignored, as 35065 Vit PRINDIS (CZE, born 1989-04-14, M) via ICF list, the only athlete of CZE with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 35065; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event C1 from next race block C1M_SF_20 (first start 09:00:00); source prints no class"
   },
   {
    "row": 477,
    "seat": "ICF_ID1",
    "printed_name": "ZIMA Tomas",
-   "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "ZIMA Tomas",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 60019; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "60019",
+   "detail": "seat printed without an id, bound under t163u: printed 'ZIMA Tomas' (CZE) has the same words, accents and case ignored, as 60019 Tomas ZIMA (CZE, born 2000-05-30, M) via ICF list, the only athlete of CZE with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 60019; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event C1 from next race block C1M_SF_20 (first start 09:00:00); source prints no class"
   },
   {
    "row": 630,
    "seat": "ICF_ID1",
    "printed_name": "SODEK Petr",
-   "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "SODEK Petr",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 36108; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "36108",
+   "detail": "seat printed without an id, bound under t163u: printed 'SODEK Petr' (CZE) has the same words, accents and case ignored, as 36108 Petr SODEK (CZE, born 1998-05-01, M) via ICF list, the only athlete of CZE with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 36108; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event K1 from next race block K1W_SF_21 (first start 09:30:00); source prints no class"
   },
   {
    "row": 631,
    "seat": "ICF_ID1",
    "printed_name": "ZIZALA Josef",
-   "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "ZIZALA Josef",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 51795; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "51795",
+   "detail": "seat printed without an id, bound under t163u: printed 'ZIZALA Josef' (CZE) has the same words, accents and case ignored, as 51795 Josef ZIZALA (CZE, born 1999-02-06, M) via ICF list, the only athlete of CZE with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 51795; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event K1 from next race block K1W_SF_21 (first start 09:30:00); source prints no class"
   },
   {
    "row": 632,
    "seat": "ICF_ID1",
    "printed_name": "MATEJKA Michael",
-   "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "MATEJKA Michael",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 36118; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "36118",
+   "detail": "seat printed without an id, bound under t163u: printed 'MATEJKA Michael' (CZE) has the same words, accents and case ignored, as 36118 Michael MATEJKA (CZE, born 1997-09-29, M) via ICF list, the only athlete of CZE with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 36118; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event K1 from next race block K1W_SF_21 (first start 09:30:00); source prints no class"
   },
   {
    "row": 633,
    "seat": "ICF_ID1",
    "printed_name": "MEDRICKY Ludvik",
-   "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "MEDRICKY Ludvik",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 36116; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "36116",
+   "detail": "seat printed without an id, bound under t163u: printed 'MEDRICKY Ludvik' (CZE) has the same words, accents and case ignored, as 36116 Ludvik MEDRICKY (CZE, born 1992-07-06, M) via ICF list, the only athlete of CZE with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 36116; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "SIWIDATA session CS_2015/icf/702/ Code + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "forerunner Event K1 from next race block K1W_SF_21 (first start 09:30:00); source prints no class"
   },
   {
@@ -7492,10 +7788,17 @@
    "row": 707,
    "seat": "ICF_ID2",
    "printed_name": "ZWOLINSKA Klaudia",
-   "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "ZWOLINSKA Klaudia",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 42027, but profile does not list the competition (^2015 ICF CANOE SLALOM WORLD CUP 1$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "42027",
+   "detail": "seat printed without an id, bound under t163u: printed 'ZWOLINSKA Klaudia' (POL) has the same words, accents and case ignored, as 42027 Klaudia ZWOLINSKA (POL, born 1998-12-18, W) via ICF list, the only athlete of POL with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 42027, but profile does not list the competition (^2015 ICF CANOE SLALOM WORLD CUP 1$) and class",
+    "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 707,
@@ -7601,10 +7904,17 @@
    "row": 711,
    "seat": "ICF_ID1",
    "printed_name": "FOX Jessica",
-   "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "FOX Jessica",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 36526, but profile does not list the competition (^2015 ICF CANOE SLALOM WORLD CUP 1$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "36526",
+   "detail": "seat printed without an id, bound under t163u: printed 'FOX Jessica' (AUS) has the same words, accents and case ignored, as 36526 Jessica FOX (AUS, born 1994-06-11, W) via ICF list, the only athlete of AUS with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 36526, but profile does not list the competition (^2015 ICF CANOE SLALOM WORLD CUP 1$) and class",
+    "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 711,
@@ -7739,10 +8049,17 @@
    "row": 686,
    "seat": "ICF_ID1",
    "printed_name": "FOX Jessica",
-   "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "FOX Jessica",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 36526, but profile does not list the competition (^2015 ICF CANOE SLALOM WORLD CUP 1$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "36526",
+   "detail": "seat printed without an id, bound under t163u: printed 'FOX Jessica' (AUS) has the same words, accents and case ignored, as 36526 Jessica FOX (AUS, born 1994-06-11, W) via ICF list, the only athlete of AUS with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 36526, but profile does not list the competition (^2015 ICF CANOE SLALOM WORLD CUP 1$) and class",
+    "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 687,
@@ -7978,10 +8295,17 @@
    "row": 330,
    "seat": "ICF_ID1",
    "printed_name": "ZWOLINSKA Klaudia",
-   "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "ZWOLINSKA Klaudia",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 42027, but profile does not list the competition (^2015 ICF CANOE SLALOM WORLD CUP 1$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "42027",
+   "detail": "seat printed without an id, bound under t163u: printed 'ZWOLINSKA Klaudia' (POL) has the same words, accents and case ignored, as 42027 Klaudia ZWOLINSKA (POL, born 1998-12-18, W) via ICF list, the only athlete of POL with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 42027, but profile does not list the competition (^2015 ICF CANOE SLALOM WORLD CUP 1$) and class",
+    "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 331,
@@ -8216,10 +8540,17 @@
    "row": 354,
    "seat": "ICF_ID1",
    "printed_name": "SATILA Ana",
-   "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "SATILA Ana",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 35327, but profile does not list the competition (^2015 ICF CANOE SLALOM WORLD CUP 1$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "35327",
+   "detail": "seat printed without an id, bound under t163u: printed 'SATILA Ana' (BRA) has the same words, accents and case ignored, as 35327 Ana SATILA (BRA, born 1996-03-13, W) via ICF list, the only athlete of BRA with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 35327, but profile does not list the competition (^2015 ICF CANOE SLALOM WORLD CUP 1$) and class",
+    "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 355,
@@ -8413,10 +8744,17 @@
    "row": 374,
    "seat": "ICF_ID1",
    "printed_name": "FOX Jessica",
-   "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "FOX Jessica",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 36526, but profile does not list the competition (^2015 ICF CANOE SLALOM WORLD CUP 1$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "36526",
+   "detail": "seat printed without an id, bound under t163u: printed 'FOX Jessica' (AUS) has the same words, accents and case ignored, as 36526 Jessica FOX (AUS, born 1994-06-11, W) via ICF list, the only athlete of AUS with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 36526, but profile does not list the competition (^2015 ICF CANOE SLALOM WORLD CUP 1$) and class",
+    "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 375,
@@ -8592,10 +8930,17 @@
    "row": 426,
    "seat": "ICF_ID1",
    "printed_name": "ZWOLINSKA Klaudia",
-   "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "ZWOLINSKA Klaudia",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 42027, but profile does not list the competition (^2015 ICF CANOE SLALOM WORLD CUP 1$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "42027",
+   "detail": "seat printed without an id, bound under t163u: printed 'ZWOLINSKA Klaudia' (POL) has the same words, accents and case ignored, as 42027 Klaudia ZWOLINSKA (POL, born 1998-12-18, W) via ICF list, the only athlete of POL with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 42027, but profile does not list the competition (^2015 ICF CANOE SLALOM WORLD CUP 1$) and class",
+    "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 427,
@@ -8968,10 +9313,17 @@
    "row": 645,
    "seat": "ICF_ID1",
    "printed_name": "SATILA Ana",
-   "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "SATILA Ana",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 35327, but profile does not list the competition (^2015 ICF CANOE SLALOM WORLD CUP 1$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "35327",
+   "detail": "seat printed without an id, bound under t163u: printed 'SATILA Ana' (BRA) has the same words, accents and case ignored, as 35327 Ana SATILA (BRA, born 1996-03-13, W) via ICF list, the only athlete of BRA with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 35327, but profile does not list the competition (^2015 ICF CANOE SLALOM WORLD CUP 1$) and class",
+    "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 646,
@@ -9086,10 +9438,17 @@
    "row": 657,
    "seat": "ICF_ID1",
    "printed_name": "FOX Jessica",
-   "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "FOX Jessica",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
    "published_id": "",
-   "action": "emptied",
-   "detail": "no archive id: bind 36526, but profile does not list the competition (^2015 ICF CANOE SLALOM WORLD CUP 1$) and class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "36526",
+   "detail": "seat printed without an id, bound under t163u: printed 'FOX Jessica' (AUS) has the same words, accents and case ignored, as 36526 Jessica FOX (AUS, born 1994-06-11, W) via ICF list, the only athlete of AUS with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no archive id: bind 36526, but profile does not list the competition (^2015 ICF CANOE SLALOM WORLD CUP 1$) and class",
+    "source": "123result Start List PDF (CS_2015/icf/702/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 658,
@@ -9153,13 +9512,39 @@
   }
  ],
  "id_summary": {
-  "kept": 804,
-  "no_icf_id": 56,
-  "emptied": 22,
+  "bound_by_name_unconfirmed": 23,
+  "emptied": 6,
   "forerunner": 30,
-  "forerunner_unbound": 1
+  "kept": 804,
+  "no_icf_id": 49
  },
  "pending_maintainer": [],
  "issues": [],
- "shared_start_clash": []
+ "shared_start_clash": [],
+ "name_file_bind": {
+  "rule": "maintainer message t163u, 2026-11-19 09:41 Europe/Budapest, item 5 (seats printed without an id bound from the ICF list and race-desk legacy/paddletagger/names.json: same words in any order, accents and case ignored, the boat's country; source_printed_name logged; rejected_icf_id and rejected_reason where it is not the athlete)",
+  "names_json": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091",
+  "icf_list": "ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
+  "seats_filled": 52,
+  "from_names_json": 3,
+  "from_icf_list": 49,
+  "filled_by_previous_action": {
+   "forerunner": 29,
+   "no_icf_id": 7,
+   "emptied": 16
+  },
+  "rejected": 0,
+  "rejections": [],
+  "left_empty_no_match": 56,
+  "left_empty_ambiguous": 0,
+  "ambiguous": [],
+  "forerunner_gender_set": [],
+  "action_used": "bound_by_name_unconfirmed (athletes; no profile check under t163u) / forerunner (forerunner rows)",
+  "grade_before": "USABLE",
+  "gaps_before": [
+   "icf_ids_incomplete"
+  ],
+  "emptied_seats_remaining": 6,
+  "unlogged_empty_seats": 0
+ }
 }
