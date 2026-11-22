@@ -12,13 +12,13 @@
  "gaps": [
   "icf_ids_incomplete"
  ],
- "generated_at_utc": "2026-11-18T02:19:12Z",
- "updated_at": "2026-11-18T02:19:12Z",
+ "generated_at_utc": "2026-11-22T16:10:44Z",
+ "updated_at": "2026-11-22T16:10:44Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "Vienna_2015_WWC_start.xlsx",
-   "sha256": "e6c7bb8958da13a69848f7e1cd92096554a7c88fac77d77441792c3b569838c9"
+   "sha256": "f156e1ca46ba997dd4ede1b402c7a735f0466ebceb9d2e1fe4900f01332b3938"
   }
  ],
  "row_count": 265,
@@ -458,18 +458,34 @@
    "row": 2,
    "seat": "ICF_ID1",
    "printed_name": "RAZZAUTI Paolo",
-   "source": "no id printed; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "RAZZAUTI Paolo",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
+   "published_id": "",
    "action": "forerunner",
-   "detail": "forerunner bound by name+nation to 39773; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "39773",
+   "detail": "seat printed without an id, bound under t163u: printed 'RAZZAUTI Paolo' (ITA) has the same words, accents and case ignored, as 39773 Paolo RAZZAUTI (ITA, born 1994-07-07, M) via ICF list, the only athlete of ITA with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 39773; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "no id printed; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "Event from the next race block (C1 men, 10:01), rule (2) of the forerunner rule; the start list prints the class as \"Forerunner\""
   },
   {
    "row": 3,
    "seat": "ICF_ID1",
    "printed_name": "LE CORVAISIER Charlene",
-   "source": "no id printed; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "source_printed_name": "LE CORVAISIER Charlene",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
+   "published_id": "",
    "action": "forerunner",
-   "detail": "forerunner bound by name+nation to 36773; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+   "new_id": "36773",
+   "detail": "seat printed without an id, bound under t163u: printed 'LE CORVAISIER Charlene' (FRA) has the same words, accents and case ignored, as 36773 Charlene LE CORVAISIER (FRA, born 1990-06-10, W) via ICF list, the only athlete of FRA with that name in the name file and the ICF list; forerunner, not a gap",
+   "previous": {
+    "action": "forerunner",
+    "detail": "forerunner bound by name+nation to 36773; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
+    "source": "no id printed; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   },
    "event_log": "Event from the next race block (C1 men, 10:01), rule (2) of the forerunner rule; the start list prints the class as \"Forerunner\""
   },
   {
@@ -504,9 +520,17 @@
    "row": 7,
    "seat": "ICF_ID1",
    "printed_name": "ASEFI RAD Alireza",
-   "source": "no id printed; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
-   "action": "emptied",
-   "detail": "no id printed: bind 63076, but the profile does not list the competition (^2015 ICF WILD WATER SPRINT WORLD CHAMPIONSHIPS) and class"
+   "source_printed_name": "ASEFI RAD Alireza",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
+   "published_id": "",
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "63076",
+   "detail": "seat printed without an id, bound under t163u: printed 'ASEFI RAD Alireza' (IRI) has the same words, accents and case ignored, as 63076 Alireza ASEFI RAD (IRI, born 1983-09-11, M) via ICF list, the only athlete of IRI with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no id printed: bind 63076, but the profile does not list the competition (^2015 ICF WILD WATER SPRINT WORLD CHAMPIONSHIPS) and class",
+    "source": "no id printed; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 8,
@@ -838,9 +862,17 @@
    "row": 44,
    "seat": "ICF_ID1",
    "printed_name": "WERATSCHNIG Nina",
-   "source": "no id printed; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
-   "action": "emptied",
-   "detail": "no id printed: bind 41614, but the profile does not list the competition (^2015 ICF WILD WATER SPRINT WORLD CHAMPIONSHIPS) and class"
+   "source_printed_name": "WERATSCHNIG Nina",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
+   "published_id": "",
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "41614",
+   "detail": "seat printed without an id, bound under t163u: printed 'WERATSCHNIG Nina' (AUT) has the same words, accents and case ignored, as 41614 Nina WERATSCHNIG (AUT, born 1998-04-18, W) via ICF list, the only athlete of AUT with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no id printed: bind 41614, but the profile does not list the competition (^2015 ICF WILD WATER SPRINT WORLD CHAMPIONSHIPS) and class",
+    "source": "no id printed; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 45,
@@ -1801,9 +1833,17 @@
    "row": 150,
    "seat": "ICF_ID1",
    "printed_name": "WERATSCHNIG Nina",
-   "source": "no id printed; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
-   "action": "emptied",
-   "detail": "no id printed: bind 41614, but the profile does not list the competition (^2015 ICF WILD WATER SPRINT WORLD CHAMPIONSHIPS) and class"
+   "source_printed_name": "WERATSCHNIG Nina",
+   "source": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091 + ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
+   "published_id": "",
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "41614",
+   "detail": "seat printed without an id, bound under t163u: printed 'WERATSCHNIG Nina' (AUT) has the same words, accents and case ignored, as 41614 Nina WERATSCHNIG (AUT, born 1998-04-18, W) via ICF list, the only athlete of AUT with that name in the name file and the ICF list; no profile check under t163u (the earlier build's profile check is in 'previous')",
+   "previous": {
+    "action": "emptied",
+    "detail": "no id printed: bind 41614, but the profile does not list the competition (^2015 ICF WILD WATER SPRINT WORLD CHAMPIONSHIPS) and class",
+    "source": "no id printed; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 151,
@@ -3205,10 +3245,10 @@
   }
  ],
  "id_summary": {
+  "bound_by_name_unconfirmed": 3,
+  "emptied": 6,
   "forerunner": 3,
-  "forerunner_unbound": 1,
-  "kept": 291,
-  "emptied": 9
+  "kept": 291
  },
  "fr_event_log": [
   {
@@ -3242,5 +3282,30 @@
   "Forerunner THISSE Alexis (BEL, bib 200, 09:52) has no PWW profile: Gender empty, logged.",
   "RU221 new host: infoicf.mev.atos.net (ICF results system, official ICF results pages). Used for unit start times (heat times), given/family splits, athlete numbers as claimed ids (checked against PWW profiles) and entries where the release PDF is unreadable. Approve for this event?",
   "Ids: seats whose ICF results system athlete number has no PWW profile (paddleworldwide.com/athlete/<id> returns HTTP 404) are emptied (gap icf_ids_incomplete). Should that number be written without a PWW profile?"
- ]
+ ],
+ "name_file_bind": {
+  "rule": "maintainer message t163u, 2026-11-19 09:41 Europe/Budapest, item 5 (seats printed without an id bound from the ICF list and race-desk legacy/paddletagger/names.json: same words in any order, accents and case ignored, the boat's country; source_printed_name logged; rejected_icf_id and rejected_reason where it is not the athlete)",
+  "names_json": "race-desk legacy/paddletagger/names.json ae2c091 (built_from 9db49ee), read from main ae2c091",
+  "icf_list": "ICF list (fetchApi/bence fetched 2026-11-19T08:48:17Z, 28908 records, sha256 203d2f547b04…)",
+  "seats_filled": 5,
+  "from_names_json": 0,
+  "from_icf_list": 5,
+  "filled_by_previous_action": {
+   "forerunner": 2,
+   "emptied": 3
+  },
+  "rejected": 0,
+  "rejections": [],
+  "left_empty_no_match": 7,
+  "left_empty_ambiguous": 0,
+  "ambiguous": [],
+  "forerunner_gender_set": [],
+  "action_used": "bound_by_name_unconfirmed (athletes; no profile check under t163u) / forerunner (forerunner rows)",
+  "grade_before": "USABLE",
+  "gaps_before": [
+   "icf_ids_incomplete"
+  ],
+  "emptied_seats_remaining": 6,
+  "unlogged_empty_seats": 0
+ }
 }
