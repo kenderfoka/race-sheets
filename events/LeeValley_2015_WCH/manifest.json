@@ -11,13 +11,13 @@
  "gaps": [
   "icf_ids_incomplete"
  ],
- "generated_at_utc": "2026-10-15T09:09:38Z",
- "updated_at": "2026-11-19T08:54:44Z",
+ "generated_at_utc": "2026-11-22T02:14:28Z",
+ "updated_at": "2026-11-22T02:14:28Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "LeeValley_2015_WCH_start.xlsx",
-   "sha256": "1450b967524658bf51bc9a7771eda3d09188c10122c6316e91ef47cae762783c"
+   "sha256": "668dd075342a26e614869262c485cb0998908ec3c5cd955728458ef2d1b9ec41"
   }
  ],
  "row_count": 844,
@@ -4875,11 +4875,19 @@
   {
    "row": 41,
    "seat": "ICF_ID2",
-   "printed_name": "Lee Valley, London",
-   "source": "123result Start List PDF (CS_2015/icf/308/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
+   "printed_name": "HOCHSCHORNER Peter",
+   "source_printed_name": "HOCHSCHORNER Peter",
+   "source": "123result https://123result.blob.core.windows.net/canoe/CS_2015/icf/308/C2M_NHT1_16@Start%20List.pdf (bib 15 SVK, HOCHSCHORNER Pavol / HOCHSCHORNER Peter; the second name runs onto the page footer line) + ICF list (fetchApi/bence, 28909 records, sha256 14f85203…)",
    "published_id": "",
-   "action": "no_icf_id",
-   "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+   "action": "kept",
+   "new_id": "35357",
+   "detail": "Name2 had been read as the page header text 'Lee Valley, London' (page-break parse error); the start list prints HOCHSCHORNER Peter for bib 15; bound to 35357 Peter HOCHSCHORNER (SVK, born 1979-09-07, M), the only SVK athlete of that name, the same bind as this crew's rows 588 and 655 (gate 4: same meeting, same printed name and NOC, same bind)",
+   "previous": {
+    "printed_name": "Lee Valley, London",
+    "action": "no_icf_id",
+    "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family",
+    "source": "123result Start List PDF (CS_2015/icf/308/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>"
+   }
   },
   {
    "row": 42,
@@ -6084,6 +6092,17 @@
    "event_log": "forerunner Event empty: no class printed and no later race block that day (logged)"
   },
   {
+   "row": 2,
+   "seat": "ICF_ID2",
+   "printed_name": "LISTER Matthew",
+   "source_printed_name": "LISTER Matthew",
+   "source": "123result https://123result.blob.core.windows.net/canoe/CS_2015/icf/308/FR_NHT1_15@Start%20List.pdf (prints the crew as bib 96 DAVIES Rhys / LISTER Matthew, GBR) + ICF list (fetchApi/bence, /workspace/race-desk/flatwater/.cache/athlete_search/bence_all.json, 28909 records, sha256 14f85203864317273a864c609c7112ce5ea3bed9bc3e30d6c466c79fa7e098c7) + race-desk legacy/paddletagger/names.json at main 0583316 (built_from 4f8d494)",
+   "published_id": "",
+   "action": "forerunner",
+   "new_id": "",
+   "detail": "forerunner_unbound: no ICF profile for 'LISTER Matthew' 'GBR' (0 ICF records with family name LISTER; not in names.json); second crew name restored from the forerunner start list (the sheet had printed Name1 only); Gender empty, logged (maintainer 2026-10-13)"
+  },
+  {
    "row": 3,
    "seat": "ICF_ID1",
    "printed_name": "HOUSTON Andy",
@@ -6092,6 +6111,17 @@
    "action": "forerunner",
    "detail": "forerunner_unbound: no ICF profile for 'HOUSTON Andy' 'GBR'; Gender empty, logged (maintainer 2026-10-13)",
    "event_log": "forerunner Event empty: no class printed and no later race block that day (logged)"
+  },
+  {
+   "row": 3,
+   "seat": "ICF_ID2",
+   "printed_name": "BROWN Michael",
+   "source_printed_name": "BROWN Michael",
+   "source": "123result https://123result.blob.core.windows.net/canoe/CS_2015/icf/308/FR_NHT1_15@Start%20List.pdf (prints the crew as bib 98 HOUSTON Andy / BROWN Michael, GBR) + ICF list (fetchApi/bence, /workspace/race-desk/flatwater/.cache/athlete_search/bence_all.json, 28909 records, sha256 14f85203864317273a864c609c7112ce5ea3bed9bc3e30d6c466c79fa7e098c7) + race-desk legacy/paddletagger/names.json at main 0583316 (built_from 4f8d494)",
+   "published_id": "",
+   "action": "forerunner",
+   "new_id": "36649",
+   "detail": "second crew name restored from the forerunner start list (the sheet had printed Name1 only); seat bound under t163u/t161u: printed 'BROWN Michael' (GBR) has the same words, accents and case ignored, as 36649 Michael BROWN (GBR, born 1996-05-25, M) via ICF list, the only athlete of GBR with that name in the name file and the ICF list; paddleworldwide.com/athlete/36649 is a GBR slalom canoeist (2013 Junior & U23 WCH C1) and does not list this meeting; forerunner, not a gap; row Gender left empty (partner unbound)"
   },
   {
    "row": 4,
@@ -6191,6 +6221,17 @@
    "event_log": "forerunner Event C2 from next race block C2M_NHT1_16 (first start 10:30:00); source prints no class"
   },
   {
+   "row": 12,
+   "seat": "ICF_ID2",
+   "printed_name": "LISTER Matthew",
+   "source_printed_name": "LISTER Matthew",
+   "source": "123result https://123result.blob.core.windows.net/canoe/CS_2015/icf/308/FR_NHT1_16@Start%20List.pdf (prints the crew as bib 96 DAVIES Rhys / LISTER Matthew, GBR) + ICF list (fetchApi/bence, /workspace/race-desk/flatwater/.cache/athlete_search/bence_all.json, 28909 records, sha256 14f85203864317273a864c609c7112ce5ea3bed9bc3e30d6c466c79fa7e098c7) + race-desk legacy/paddletagger/names.json at main 0583316 (built_from 4f8d494)",
+   "published_id": "",
+   "action": "forerunner",
+   "new_id": "",
+   "detail": "forerunner_unbound: no ICF profile for 'LISTER Matthew' 'GBR' (0 ICF records with family name LISTER; not in names.json); second crew name restored from the forerunner start list (the sheet had printed Name1 only); Gender empty, logged (maintainer 2026-10-13)"
+  },
+  {
    "row": 13,
    "seat": "ICF_ID1",
    "printed_name": "HOUSTON Andy",
@@ -6199,6 +6240,17 @@
    "action": "forerunner",
    "detail": "forerunner_unbound: no ICF profile for 'HOUSTON Andy' 'GBR'; Gender empty, logged (maintainer 2026-10-13)",
    "event_log": "forerunner Event C2 from next race block C2M_NHT1_16 (first start 10:30:00); source prints no class"
+  },
+  {
+   "row": 13,
+   "seat": "ICF_ID2",
+   "printed_name": "BROWN Michael",
+   "source_printed_name": "BROWN Michael",
+   "source": "123result https://123result.blob.core.windows.net/canoe/CS_2015/icf/308/FR_NHT1_16@Start%20List.pdf (prints the crew as bib 98 HOUSTON Andy / BROWN Michael, GBR) + ICF list (fetchApi/bence, /workspace/race-desk/flatwater/.cache/athlete_search/bence_all.json, 28909 records, sha256 14f85203864317273a864c609c7112ce5ea3bed9bc3e30d6c466c79fa7e098c7) + race-desk legacy/paddletagger/names.json at main 0583316 (built_from 4f8d494)",
+   "published_id": "",
+   "action": "forerunner",
+   "new_id": "36649",
+   "detail": "second crew name restored from the forerunner start list (the sheet had printed Name1 only); seat bound under t163u/t161u: printed 'BROWN Michael' (GBR) has the same words, accents and case ignored, as 36649 Michael BROWN (GBR, born 1996-05-25, M) via ICF list, the only athlete of GBR with that name in the name file and the ICF list; paddleworldwide.com/athlete/36649 is a GBR slalom canoeist (2013 Junior & U23 WCH C1) and does not list this meeting; forerunner, not a gap; row Gender left empty (partner unbound)"
   },
   {
    "row": 14,
@@ -6211,6 +6263,16 @@
    "event_log": "forerunner Event C2 from next race block C2M_NHT1_16 (first start 10:30:00); source prints no class"
   },
   {
+   "row": 14,
+   "seat": "ICF_ID2",
+   "printed_name": "",
+   "source": "123result https://123result.blob.core.windows.net/canoe/CS_2015/icf/308/FR_NHT1_16@Start%20List.pdf (prints bib 119 HOLLICK Amy alone, no second crew name)",
+   "published_id": "",
+   "action": "forerunner",
+   "new_id": "",
+   "detail": "no crew name printed for this seat; seat empty and logged (forerunner, not a gap)"
+  },
+  {
    "row": 15,
    "seat": "ICF_ID1",
    "printed_name": "MASLEM Amber",
@@ -6219,6 +6281,16 @@
    "action": "forerunner",
    "detail": "forerunner_unbound: no ICF profile for 'MASLEM Amber' 'GBR'; Gender empty, logged (maintainer 2026-10-13)",
    "event_log": "forerunner Event C2 from next race block C2M_NHT1_16 (first start 10:30:00); source prints no class"
+  },
+  {
+   "row": 15,
+   "seat": "ICF_ID2",
+   "printed_name": "",
+   "source": "123result https://123result.blob.core.windows.net/canoe/CS_2015/icf/308/FR_NHT1_16@Start%20List.pdf (prints bib 120 MASLEM Amber alone, no second crew name)",
+   "published_id": "",
+   "action": "forerunner",
+   "new_id": "",
+   "detail": "no crew name printed for this seat; seat empty and logged (forerunner, not a gap)"
   },
   {
    "row": 198,
@@ -6291,6 +6363,17 @@
    "event_log": "forerunner Event C2 from next race block C2M_NHT2_16 (first start 14:30:00); source prints no class"
   },
   {
+   "row": 122,
+   "seat": "ICF_ID2",
+   "printed_name": "LISTER Matthew",
+   "source_printed_name": "LISTER Matthew",
+   "source": "123result https://123result.blob.core.windows.net/canoe/CS_2015/icf/308/FR_NHT2_16@Start%20List.pdf (prints the crew as bib 96 DAVIES Rhys / LISTER Matthew, GBR) + ICF list (fetchApi/bence, /workspace/race-desk/flatwater/.cache/athlete_search/bence_all.json, 28909 records, sha256 14f85203864317273a864c609c7112ce5ea3bed9bc3e30d6c466c79fa7e098c7) + race-desk legacy/paddletagger/names.json at main 0583316 (built_from 4f8d494)",
+   "published_id": "",
+   "action": "forerunner",
+   "new_id": "",
+   "detail": "forerunner_unbound: no ICF profile for 'LISTER Matthew' 'GBR' (0 ICF records with family name LISTER; not in names.json); second crew name restored from the forerunner start list (the sheet had printed Name1 only); Gender empty, logged (maintainer 2026-10-13)"
+  },
+  {
    "row": 123,
    "seat": "ICF_ID1",
    "printed_name": "HOUSTON Andy",
@@ -6299,6 +6382,17 @@
    "action": "forerunner",
    "detail": "forerunner_unbound: no ICF profile for 'HOUSTON Andy' 'GBR'; Gender empty, logged (maintainer 2026-10-13)",
    "event_log": "forerunner Event C2 from next race block C2M_NHT2_16 (first start 14:30:00); source prints no class"
+  },
+  {
+   "row": 123,
+   "seat": "ICF_ID2",
+   "printed_name": "BROWN Michael",
+   "source_printed_name": "BROWN Michael",
+   "source": "123result https://123result.blob.core.windows.net/canoe/CS_2015/icf/308/FR_NHT2_16@Start%20List.pdf (prints the crew as bib 98 HOUSTON Andy / BROWN Michael, GBR) + ICF list (fetchApi/bence, /workspace/race-desk/flatwater/.cache/athlete_search/bence_all.json, 28909 records, sha256 14f85203864317273a864c609c7112ce5ea3bed9bc3e30d6c466c79fa7e098c7) + race-desk legacy/paddletagger/names.json at main 0583316 (built_from 4f8d494)",
+   "published_id": "",
+   "action": "forerunner",
+   "new_id": "36649",
+   "detail": "second crew name restored from the forerunner start list (the sheet had printed Name1 only); seat bound under t163u/t161u: printed 'BROWN Michael' (GBR) has the same words, accents and case ignored, as 36649 Michael BROWN (GBR, born 1996-05-25, M) via ICF list, the only athlete of GBR with that name in the name file and the ICF list; paddleworldwide.com/athlete/36649 is a GBR slalom canoeist (2013 Junior & U23 WCH C1) and does not list this meeting; forerunner, not a gap; row Gender left empty (partner unbound)"
   },
   {
    "row": 124,
@@ -6311,6 +6405,16 @@
    "event_log": "forerunner Event C2 from next race block C2M_NHT2_16 (first start 14:30:00); source prints no class"
   },
   {
+   "row": 124,
+   "seat": "ICF_ID2",
+   "printed_name": "",
+   "source": "123result https://123result.blob.core.windows.net/canoe/CS_2015/icf/308/FR_NHT2_16@Start%20List.pdf (prints bib 119 HOLLICK Amy alone, no second crew name)",
+   "published_id": "",
+   "action": "forerunner",
+   "new_id": "",
+   "detail": "no crew name printed for this seat; seat empty and logged (forerunner, not a gap)"
+  },
+  {
    "row": 125,
    "seat": "ICF_ID1",
    "printed_name": "MASLEM Amber",
@@ -6319,6 +6423,16 @@
    "action": "forerunner",
    "detail": "forerunner_unbound: no ICF profile for 'MASLEM Amber' 'GBR'; Gender empty, logged (maintainer 2026-10-13)",
    "event_log": "forerunner Event C2 from next race block C2M_NHT2_16 (first start 14:30:00); source prints no class"
+  },
+  {
+   "row": 125,
+   "seat": "ICF_ID2",
+   "printed_name": "",
+   "source": "123result https://123result.blob.core.windows.net/canoe/CS_2015/icf/308/FR_NHT2_16@Start%20List.pdf (prints bib 120 MASLEM Amber alone, no second crew name)",
+   "published_id": "",
+   "action": "forerunner",
+   "new_id": "",
+   "detail": "no crew name printed for this seat; seat empty and logged (forerunner, not a gap)"
   },
   {
    "row": 313,
@@ -6371,6 +6485,17 @@
    "event_log": "forerunner Event C2 from next race block C2M_SF_19 (first start 10:03:00); source prints no class"
   },
   {
+   "row": 573,
+   "seat": "ICF_ID2",
+   "printed_name": "LISTER Matthew",
+   "source_printed_name": "LISTER Matthew",
+   "source": "123result https://123result.blob.core.windows.net/canoe/CS_2015/icf/308/FR_SF_19@Start%20List.pdf (prints the crew as bib 96 DAVIES Rhys / LISTER Matthew, GBR) + ICF list (fetchApi/bence, /workspace/race-desk/flatwater/.cache/athlete_search/bence_all.json, 28909 records, sha256 14f85203864317273a864c609c7112ce5ea3bed9bc3e30d6c466c79fa7e098c7) + race-desk legacy/paddletagger/names.json at main 0583316 (built_from 4f8d494)",
+   "published_id": "",
+   "action": "forerunner",
+   "new_id": "",
+   "detail": "forerunner_unbound: no ICF profile for 'LISTER Matthew' 'GBR' (0 ICF records with family name LISTER; not in names.json); second crew name restored from the forerunner start list (the sheet had printed Name1 only); Gender empty, logged (maintainer 2026-10-13)"
+  },
+  {
    "row": 574,
    "seat": "ICF_ID1",
    "printed_name": "HOUSTON Andy",
@@ -6379,6 +6504,17 @@
    "action": "forerunner",
    "detail": "forerunner_unbound: no ICF profile for 'HOUSTON Andy' 'GBR'; Gender empty, logged (maintainer 2026-10-13)",
    "event_log": "forerunner Event C2 from next race block C2M_SF_19 (first start 10:03:00); source prints no class"
+  },
+  {
+   "row": 574,
+   "seat": "ICF_ID2",
+   "printed_name": "BROWN Michael",
+   "source_printed_name": "BROWN Michael",
+   "source": "123result https://123result.blob.core.windows.net/canoe/CS_2015/icf/308/FR_SF_19@Start%20List.pdf (prints the crew as bib 98 HOUSTON Andy / BROWN Michael, GBR) + ICF list (fetchApi/bence, /workspace/race-desk/flatwater/.cache/athlete_search/bence_all.json, 28909 records, sha256 14f85203864317273a864c609c7112ce5ea3bed9bc3e30d6c466c79fa7e098c7) + race-desk legacy/paddletagger/names.json at main 0583316 (built_from 4f8d494)",
+   "published_id": "",
+   "action": "forerunner",
+   "new_id": "36649",
+   "detail": "second crew name restored from the forerunner start list (the sheet had printed Name1 only); seat bound under t163u/t161u: printed 'BROWN Michael' (GBR) has the same words, accents and case ignored, as 36649 Michael BROWN (GBR, born 1996-05-25, M) via ICF list, the only athlete of GBR with that name in the name file and the ICF list; paddleworldwide.com/athlete/36649 is a GBR slalom canoeist (2013 Junior & U23 WCH C1) and does not list this meeting; forerunner, not a gap; row Gender left empty (partner unbound)"
   },
   {
    "row": 575,
@@ -6391,6 +6527,16 @@
    "event_log": "forerunner Event C2 from next race block C2M_SF_19 (first start 10:03:00); source prints no class"
   },
   {
+   "row": 575,
+   "seat": "ICF_ID2",
+   "printed_name": "",
+   "source": "123result https://123result.blob.core.windows.net/canoe/CS_2015/icf/308/FR_SF_19@Start%20List.pdf (prints bib 119 HOLLICK Amy alone, no second crew name)",
+   "published_id": "",
+   "action": "forerunner",
+   "new_id": "",
+   "detail": "no crew name printed for this seat; seat empty and logged (forerunner, not a gap)"
+  },
+  {
    "row": 576,
    "seat": "ICF_ID1",
    "printed_name": "MASLEM Amber",
@@ -6399,6 +6545,16 @@
    "action": "forerunner",
    "detail": "forerunner_unbound: no ICF profile for 'MASLEM Amber' 'GBR'; Gender empty, logged (maintainer 2026-10-13)",
    "event_log": "forerunner Event C2 from next race block C2M_SF_19 (first start 10:03:00); source prints no class"
+  },
+  {
+   "row": 576,
+   "seat": "ICF_ID2",
+   "printed_name": "",
+   "source": "123result https://123result.blob.core.windows.net/canoe/CS_2015/icf/308/FR_SF_19@Start%20List.pdf (prints bib 120 MASLEM Amber alone, no second crew name)",
+   "published_id": "",
+   "action": "forerunner",
+   "new_id": "",
+   "detail": "no crew name printed for this seat; seat empty and logged (forerunner, not a gap)"
   },
   {
    "row": 672,
@@ -11565,9 +11721,9 @@
   "bound_by_name_unconfirmed": 49,
   "corrected": 2,
   "emptied": 4,
-  "forerunner": 38,
-  "kept": 962,
-  "no_icf_id": 58
+  "forerunner": 52,
+  "kept": 963,
+  "no_icf_id": 57
  },
  "pending_maintainer": [],
  "issues": [],
@@ -11624,6 +11780,32 @@
    "icf_ids_incomplete"
   ],
   "emptied_seats_remaining": 4,
-  "unlogged_empty_seats": 0
+  "unlogged_empty_seats": 0,
+  "wake_pr117_w1": {
+   "at_utc": "2026-11-22T02:14:28Z",
+   "rule": "RU218 re-derivation of history check findings on race-sheets #117 (comment 7072712260)",
+   "second_names_restored_from_source": {
+    "2": "LISTER Matthew",
+    "3": "BROWN Michael",
+    "12": "LISTER Matthew",
+    "13": "BROWN Michael",
+    "122": "LISTER Matthew",
+    "123": "BROWN Michael",
+    "573": "LISTER Matthew",
+    "574": "BROWN Michael"
+   },
+   "seats_filled": 4,
+   "from_icf_list": 4,
+   "filled_ids": {
+    "ICF_ID2": "36649 on rows 3,13,123,574"
+   },
+   "forerunner_unbound_logged": "ICF_ID2 on rows 2,12,122,573 (LISTER Matthew)",
+   "no_crew_name_logged": "ICF_ID2 on rows 14,15,124,125,575,576 (bibs 119, 120 print one paddler)",
+   "rejected": 0,
+   "names_json": "race-desk legacy/paddletagger/names.json at main 0583316 (built_from 4f8d494)",
+   "page_break_name_repaired": {
+    "41": "Name2 Lee Valley, London -> HOCHSCHORNER Peter, ICF_ID2 -> 35357 (was no_icf_id)"
+   }
+  }
  }
 }
