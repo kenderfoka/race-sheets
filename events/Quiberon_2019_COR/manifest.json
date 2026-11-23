@@ -10,9 +10,9 @@
   "kind": "WCH",
   "dates": "2019-09-11/2019-09-12",
   "discipline": "ocean racing",
-  "domain": "flatwater_sprint",
+  "domain": "flatwater_ocean",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-11-23T10:14:16Z",
+  "generated_at_utc": "2026-11-23T10:14:37Z",
   "grade": "USABLE",
   "gaps": [
     "icf_ids_incomplete"
@@ -11970,7 +11970,7 @@
       "rows": 267
     }
   },
-  "format": "sprint_RESULTS_PERSONS",
+  "format": "marathon_RESULTS_PERSONS",
   "sheet": "Quiberon_2019_COR_Results.xlsx",
   "files": [
     {
@@ -12430,7 +12430,7 @@
     "persons_dropped": 0,
     "olympic": false
   },
-  "updated_at": "2026-11-23T10:14:16Z",
+  "updated_at": "2026-11-23T10:14:37Z",
   "printed_name_repair_log": [
     {
       "results_row": 247,
@@ -12447,6 +12447,22 @@
       "repaired": "HEGEDŰS Robert",
       "why": "competFFCK prints the character as '?' in the book and in the masters entries PDF (encoding loss); repaired spelling, as RU417 (maintainer 2026-11-22) records for HEGEDŰS and SALOMÃO",
       "at_utc": "2026-11-23T10:14:16Z"
+    }
+  ],
+  "format_correction_log": [
+    {
+      "field": "domain",
+      "was": "flatwater_sprint",
+      "now": "flatwater_ocean",
+      "at_utc": "2026-11-23T10:14:37Z",
+      "why": "PADDLETAGGER_CONTRACT.md (maintainer 2026-10-30, canoe ocean racing): domain flatwater_ocean; ocean sheets use the flatwater marathon RESULTS+PERSONS schema; the manifest's own notes[0] already say domain flatwater_ocean; Madeira_2024_COR and Porto_2013_COR on main carry flatwater_ocean / marathon_RESULTS_PERSONS. Manifest-only format correction, no seat or cell changed (race-sheets#137 Wake 2 own check)"
+    },
+    {
+      "field": "format",
+      "was": "sprint_RESULTS_PERSONS",
+      "now": "marathon_RESULTS_PERSONS",
+      "at_utc": "2026-11-23T10:14:37Z",
+      "why": "PADDLETAGGER_CONTRACT.md (maintainer 2026-10-30, canoe ocean racing): domain flatwater_ocean; ocean sheets use the flatwater marathon RESULTS+PERSONS schema; the manifest's own notes[0] already say domain flatwater_ocean; Madeira_2024_COR and Porto_2013_COR on main carry flatwater_ocean / marathon_RESULTS_PERSONS. Manifest-only format correction, no seat or cell changed (race-sheets#137 Wake 2 own check)"
     }
   ]
 }
