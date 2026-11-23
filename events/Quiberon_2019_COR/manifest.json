@@ -11,8 +11,8 @@
   "dates": "2019-09-11/2019-09-12",
   "discipline": "ocean racing",
   "domain": "flatwater_ocean",
-  "start_times": "scheduled",
-  "generated_at_utc": "2026-11-23T10:14:37Z",
+  "start_times": "mixed",
+  "generated_at_utc": "2026-11-23T21:28:32Z",
   "grade": "USABLE",
   "gaps": [
     "icf_ids_incomplete"
@@ -28,7 +28,9 @@
     "ICF ids: rule 1, the ICF personCode printed on the ICF ATOS start list for the bib (equal on the ATOS results), bound through bind_seat after the name, nation and gender check. Bib 58 Danielle McKENZIE (NZL, Women Senior winner in the book) is on neither ATOS page; rule 3 name search finds no ICF athlete: no_icf_id.",
     "PERSONS NAME/SURNAME: the ICF ATOS start-list split (Given FAMILY) of the same printed names; the book prints FAMILY GIVEN in capitals only.",
     "Bib 37 Samalulu CLIFTON (NZL, Women U23 rank 5): ATOS personCode 72032 is not in the ICF list; same-DOB ICF athlete 142039 (SAM). Seat emptied, gap icf_ids_incomplete, question on the PR.",
-    "MAINTAINER_ANSWERS_2026-11-19_t133u item 3: masters races 7-18 (SS1 Men Master 1-7, Women Master 1-5) of Thursday 12 Sep 2019 appended from the official results book's 'course Master' pages (RESULTS rows 239-441); main's 237 RESULTS rows and 235 PERSONS rows unchanged. See masters_t133u and category_exception."
+    "MAINTAINER_ANSWERS_2026-11-19_t133u item 3: masters races 7-18 (SS1 Men Master 1-7, Women Master 1-5) of Thursday 12 Sep 2019 appended from the official results book's 'course Master' pages (RESULTS rows 239-441); main's 237 RESULTS rows and 235 PERSONS rows unchanged. See masters_t133u and category_exception.",
+    "RU428 (MAINTAINER_ANSWERS_2026-11-23_t134u): masters races 7-18 START_TIME 14:32:00 on all 203 rows (was 15:00:00 from the DKV report); the maintainer's word, not a printed clock (ruled_start_times). start_times is now \"mixed\": scheduled_races lists races 1-6, 19, 20.",
+    "RU429 (MAINTAINER_ANSWERS_2026-11-23_t134u): para KL3 finals of 12 Sep 2019 added as race 19 (SS1MPara, 7 boats) and race 20 (SS1WPara, 1 boat), START_TIME 14:30:00 as ICF ATOS prints (CO008/CO009), RESULTS rows 442-449; see para_t134u."
   ],
   "rank_oracle": [
     {
@@ -3110,6 +3112,62 @@
       "rank": 7,
       "obs": null,
       "team": "AUS"
+    },
+    {
+      "race_number": "19",
+      "starting_lane": 490,
+      "rank": 1,
+      "obs": null,
+      "team": "ESP"
+    },
+    {
+      "race_number": "19",
+      "starting_lane": 491,
+      "rank": 2,
+      "obs": null,
+      "team": "FRA"
+    },
+    {
+      "race_number": "19",
+      "starting_lane": 495,
+      "rank": 3,
+      "obs": null,
+      "team": "FRA"
+    },
+    {
+      "race_number": "19",
+      "starting_lane": 496,
+      "rank": 4,
+      "obs": null,
+      "team": "BRA"
+    },
+    {
+      "race_number": "19",
+      "starting_lane": 492,
+      "rank": 5,
+      "obs": null,
+      "team": "FRA"
+    },
+    {
+      "race_number": "19",
+      "starting_lane": 493,
+      "rank": 6,
+      "obs": null,
+      "team": "BRA"
+    },
+    {
+      "race_number": "19",
+      "starting_lane": 494,
+      "rank": 7,
+      "obs": null,
+      "team": "GBR"
+    },
+    {
+      "race_number": "20",
+      "starting_lane": 497,
+      "rank": 1,
+      "obs": null,
+      "team": "FRA"
     }
   ],
   "rank_oracle_source": "https://cdn.paddleworldwide.com/media/2019_icf_canoe_ocean_racing_world_championships_-_full_results.pdf",
@@ -8848,6 +8906,164 @@
       "action": "no_icf_id",
       "source": "names.json+icf_list",
       "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 3: no athlete of AUS has the words of 'DI TOMMASO Jannion' (accents/case ignored, any order) in race-desk names.json @ ae2c091 or the ICF list fetched 2026-11-19T08:44:16Z; the book prints no id"
+    },
+    {
+      "results_row": 442,
+      "seat": "ICF_ID1",
+      "source_printed_name": "DIAZ VARA Pablo",
+      "atos_printed_name": "Pablo DIAZ VARA",
+      "printed_number": "103040",
+      "team": "ESP",
+      "bib": "490",
+      "printed_check": "book line 343: '1      490    DIAZ VARA Pablo                                             ESP      2h04:32.82           00.00' (heading 'SS1MPara - Surf Ski Men Paracanoë')",
+      "action": "printed_id_confirmed",
+      "source": "icf_atos_start_list",
+      "source_url": "https://infoicf.mev.atos.net/webICF/searcherOneSport?page=ZZR151A_0000001292CO00810000AENG",
+      "new_id": "103040",
+      "icf_list_name": "Pablo DIAZ VARA",
+      "icf_list_record": "103040 DIAZ VARA Pablo (ESP, M, born 1983-06-09)",
+      "rule": "ocean ICF ids rule 1: printed id in the ICF athlete list, bind_seat name/nation/gender check passed (keep); t129u token rule: printed words equal the ICF record's words, any order, accents/case ignored, boat's country; sex rule; adult on 2019-09-12 (RU168)",
+      "pww_profile": "https://paddleworldwide.com/athlete/103040 lists 2019 ICF CANOE OCEAN RACING WORLD CHAMPIONSHIPS (fetched 2026-11-23)",
+      "ruling": "MAINTAINER_ANSWERS_2026-11-23_t134u RU429"
+    },
+    {
+      "results_row": 443,
+      "seat": "ICF_ID1",
+      "source_printed_name": "BAZIN THIERRY",
+      "atos_printed_name": "Thierry BAZIN",
+      "printed_number": "84717",
+      "team": "FRA",
+      "bib": "491",
+      "printed_check": "book line 344: '2      491    BAZIN THIERRY                                               FRA      2h08:19.74       +3:46.92' (heading 'SS1MPara - Surf Ski Men Paracanoë')",
+      "action": "printed_id_confirmed",
+      "source": "icf_atos_start_list",
+      "source_url": "https://infoicf.mev.atos.net/webICF/searcherOneSport?page=ZZR151A_0000001292CO00810000AENG",
+      "new_id": "84717",
+      "icf_list_name": "Thierry BAZIN",
+      "icf_list_record": "84717 BAZIN Thierry (FRA, M, born 1971-11-27)",
+      "rule": "ocean ICF ids rule 1: printed id in the ICF athlete list, bind_seat name/nation/gender check passed (keep); t129u token rule: printed words equal the ICF record's words, any order, accents/case ignored, boat's country; sex rule; adult on 2019-09-12 (RU168)",
+      "pww_profile": "https://paddleworldwide.com/athlete/84717 lists 2019 ICF CANOE OCEAN RACING WORLD CHAMPIONSHIPS (fetched 2026-11-23)",
+      "ruling": "MAINTAINER_ANSWERS_2026-11-23_t134u RU429"
+    },
+    {
+      "results_row": 444,
+      "seat": "ICF_ID1",
+      "source_printed_name": "LE BELLOUR DOMINIQUE",
+      "atos_printed_name": "Dominique LE BELLOUR",
+      "printed_number": "102776",
+      "team": "FRA",
+      "bib": "495",
+      "printed_check": "book line 345: '3      495    LE BELLOUR DOMINIQUE                                        FRA      2h12:40.84       +8:08.02' (heading 'SS1MPara - Surf Ski Men Paracanoë')",
+      "action": "printed_id_confirmed",
+      "source": "icf_atos_start_list",
+      "source_url": "https://infoicf.mev.atos.net/webICF/searcherOneSport?page=ZZR151A_0000001292CO00810000AENG",
+      "new_id": "102776",
+      "icf_list_name": "Dominique LE BELLOUR",
+      "icf_list_record": "102776 LE BELLOUR Dominique (FRA, M, born 1952-10-16)",
+      "rule": "ocean ICF ids rule 1: printed id in the ICF athlete list, bind_seat name/nation/gender check passed (keep); t129u token rule: printed words equal the ICF record's words, any order, accents/case ignored, boat's country; sex rule; adult on 2019-09-12 (RU168)",
+      "pww_profile": "https://paddleworldwide.com/athlete/102776 lists 2019 ICF CANOE OCEAN RACING WORLD CHAMPIONSHIPS (fetched 2026-11-23)",
+      "ruling": "MAINTAINER_ANSWERS_2026-11-23_t134u RU429"
+    },
+    {
+      "results_row": 445,
+      "seat": "ICF_ID1",
+      "source_printed_name": "CURY FILHO CALIFA ABUD",
+      "atos_printed_name": "Califa Abud CURY FILHO",
+      "printed_number": "96346",
+      "team": "BRA",
+      "bib": "496",
+      "printed_check": "book line 346: '4      496    CURY FILHO CALIFA ABUD                                      BRA      2h13:58.75       +9:25.93' (heading 'SS1MPara - Surf Ski Men Paracanoë')",
+      "action": "printed_id_confirmed",
+      "source": "icf_atos_start_list",
+      "source_url": "https://infoicf.mev.atos.net/webICF/searcherOneSport?page=ZZR151A_0000001292CO00810000AENG",
+      "new_id": "96346",
+      "icf_list_name": "Califa Abud CURY FILHO",
+      "icf_list_record": "96346 CURY FILHO Califa Abud (BRA, M, born 1979-05-05)",
+      "rule": "ocean ICF ids rule 1: printed id in the ICF athlete list, bind_seat name/nation/gender check passed (keep); t129u token rule: printed words equal the ICF record's words, any order, accents/case ignored, boat's country; sex rule; adult on 2019-09-12 (RU168)",
+      "pww_profile": "https://paddleworldwide.com/athlete/96346 lists 2019 ICF CANOE OCEAN RACING WORLD CHAMPIONSHIPS (fetched 2026-11-23)",
+      "ruling": "MAINTAINER_ANSWERS_2026-11-23_t134u RU429"
+    },
+    {
+      "results_row": 446,
+      "seat": "ICF_ID1",
+      "source_printed_name": "DELANNOY GAUTIER",
+      "atos_printed_name": "Gautier DELANNOY",
+      "printed_number": "42924",
+      "team": "FRA",
+      "bib": "492",
+      "printed_check": "book line 347: '5      492    DELANNOY GAUTIER                                            FRA      2h21:01.72      +16:28.90' (heading 'SS1MPara - Surf Ski Men Paracanoë')",
+      "action": "printed_id_confirmed",
+      "source": "icf_atos_start_list",
+      "source_url": "https://infoicf.mev.atos.net/webICF/searcherOneSport?page=ZZR151A_0000001292CO00810000AENG",
+      "new_id": "42924",
+      "icf_list_name": "Gautier DELANNOY",
+      "icf_list_record": "42924 DELANNOY Gautier (FRA, M, born 1991-01-26)",
+      "rule": "ocean ICF ids rule 1: printed id in the ICF athlete list, bind_seat name/nation/gender check passed (keep); t129u token rule: printed words equal the ICF record's words, any order, accents/case ignored, boat's country; sex rule; adult on 2019-09-12 (RU168)",
+      "pww_profile": "https://paddleworldwide.com/athlete/42924 lists 2019 ICF CANOE OCEAN RACING WORLD CHAMPIONSHIPS (fetched 2026-11-23)",
+      "ruling": "MAINTAINER_ANSWERS_2026-11-23_t134u RU429"
+    },
+    {
+      "results_row": 447,
+      "seat": "ICF_ID1",
+      "source_printed_name": "QUEIROZ MARIO FERREIRA DE",
+      "atos_printed_name": "Mario Ferreira De QUEIROZ",
+      "printed_number": "100213",
+      "team": "BRA",
+      "bib": "493",
+      "printed_check": "book line 348: '6      493    QUEIROZ MARIO FERREIRA DE                                   BRA      2h29:55.63      +25:22.81' (heading 'SS1MPara - Surf Ski Men Paracanoë')",
+      "action": "printed_id_confirmed",
+      "source": "icf_atos_start_list",
+      "source_url": "https://infoicf.mev.atos.net/webICF/searcherOneSport?page=ZZR151A_0000001292CO00810000AENG",
+      "new_id": "100213",
+      "icf_list_name": "Mario Ferreira De QUEIROZ",
+      "icf_list_record": "100213 QUEIROZ Mario Ferreira De (BRA, M, born 1975-12-06)",
+      "rule": "ocean ICF ids rule 1: printed id in the ICF athlete list, bind_seat name/nation/gender check passed (keep); t129u token rule: printed words equal the ICF record's words, any order, accents/case ignored, boat's country; sex rule; adult on 2019-09-12 (RU168)",
+      "pww_profile": "https://paddleworldwide.com/athlete/100213 lists 2019 ICF CANOE OCEAN RACING WORLD CHAMPIONSHIPS (fetched 2026-11-23)",
+      "ruling": "MAINTAINER_ANSWERS_2026-11-23_t134u RU429",
+      "token_rule_candidates": [
+        "100213",
+        "129661"
+      ],
+      "rejected_icf_id": "129661",
+      "rejected_reason": "129661 FERREIRA DE QUEIROZ Mario (BRA, M, born 1975-12-06) carries the same words: a second ICF-list record of the same athlete, not a different person. Settled, not guessed: ICF ATOS prints personCode 100213 for bib 493 (ocean ids rule 1), and only 100213's PWW profile lists this meeting (Rule 4, 2026-10-23); 129661's profile does not"
+    },
+    {
+      "results_row": 448,
+      "seat": "ICF_ID1",
+      "source_printed_name": "WHITE JONATHAN",
+      "atos_printed_name": "Jonathan WHITE",
+      "printed_number": "102100",
+      "team": "GBR",
+      "bib": "494",
+      "printed_check": "book line 349: '7      494    WHITE JONATHAN                                              GBR      2h38:43.46      +34:10.64' (heading 'SS1MPara - Surf Ski Men Paracanoë')",
+      "action": "printed_id_confirmed",
+      "source": "icf_atos_start_list",
+      "source_url": "https://infoicf.mev.atos.net/webICF/searcherOneSport?page=ZZR151A_0000001292CO00810000AENG",
+      "new_id": "102100",
+      "icf_list_name": "Jonathan WHITE",
+      "icf_list_record": "102100 WHITE Jonathan (GBR, M, born 1983-06-02)",
+      "rule": "ocean ICF ids rule 1: printed id in the ICF athlete list, bind_seat name/nation/gender check passed (keep); t129u token rule: printed words equal the ICF record's words, any order, accents/case ignored, boat's country; sex rule; adult on 2019-09-12 (RU168)",
+      "pww_profile": "https://paddleworldwide.com/athlete/102100 lists 2019 ICF CANOE OCEAN RACING WORLD CHAMPIONSHIPS (fetched 2026-11-23)",
+      "ruling": "MAINTAINER_ANSWERS_2026-11-23_t134u RU429"
+    },
+    {
+      "results_row": 449,
+      "seat": "ICF_ID1",
+      "source_printed_name": "DOYELLE MANON",
+      "atos_printed_name": "Manon DOYELLE",
+      "printed_number": "84912",
+      "team": "FRA",
+      "bib": "497",
+      "printed_check": "book line 352: '1      497    DOYELLE MANON                                               FRA      2h27:40.26           00.00' (heading 'SS1WPara - Surf Ski Women Paracanoë')",
+      "action": "printed_id_confirmed",
+      "source": "icf_atos_start_list",
+      "source_url": "https://infoicf.mev.atos.net/webICF/searcherOneSport?page=ZZR151A_0000001292CO00910000AENG",
+      "new_id": "84912",
+      "icf_list_name": "Manon DOYELLE",
+      "icf_list_record": "84912 DOYELLE Manon (FRA, W, born 1989-07-15)",
+      "rule": "ocean ICF ids rule 1: printed id in the ICF athlete list, bind_seat name/nation/gender check passed (keep); t129u token rule: printed words equal the ICF record's words, any order, accents/case ignored, boat's country; sex rule; adult on 2019-09-12 (RU168)",
+      "pww_profile": "https://paddleworldwide.com/athlete/84912 lists 2019 ICF CANOE OCEAN RACING WORLD CHAMPIONSHIPS (fetched 2026-11-23)",
+      "ruling": "MAINTAINER_ANSWERS_2026-11-23_t134u RU429"
     }
   ],
   "emptied_log": [],
@@ -10392,6 +10608,54 @@
       "bib": "62",
       "book": "GRAS LISA",
       "atos": "Lisa GRAS"
+    },
+    {
+      "race_number": "19",
+      "bib": "490",
+      "book": "DIAZ VARA Pablo",
+      "atos": "Pablo DIAZ VARA"
+    },
+    {
+      "race_number": "19",
+      "bib": "491",
+      "book": "BAZIN THIERRY",
+      "atos": "Thierry BAZIN"
+    },
+    {
+      "race_number": "19",
+      "bib": "495",
+      "book": "LE BELLOUR DOMINIQUE",
+      "atos": "Dominique LE BELLOUR"
+    },
+    {
+      "race_number": "19",
+      "bib": "496",
+      "book": "CURY FILHO CALIFA ABUD",
+      "atos": "Califa Abud CURY FILHO"
+    },
+    {
+      "race_number": "19",
+      "bib": "492",
+      "book": "DELANNOY GAUTIER",
+      "atos": "Gautier DELANNOY"
+    },
+    {
+      "race_number": "19",
+      "bib": "493",
+      "book": "QUEIROZ MARIO FERREIRA DE",
+      "atos": "Mario Ferreira De QUEIROZ"
+    },
+    {
+      "race_number": "19",
+      "bib": "494",
+      "book": "WHITE JONATHAN",
+      "atos": "Jonathan WHITE"
+    },
+    {
+      "race_number": "20",
+      "bib": "497",
+      "book": "DOYELLE MANON",
+      "atos": "Manon DOYELLE"
     }
   ],
   "claimed_ids": [
@@ -11816,10 +12080,58 @@
       "bib": "62",
       "atos_personCode": "83377",
       "source": "https://infoicf.mev.atos.net/webICF/searcherOneSport?page=ZZR151A_0000001292CO00610000AENG"
+    },
+    {
+      "race_number": "19",
+      "bib": "490",
+      "atos_personCode": "103040",
+      "source": "https://infoicf.mev.atos.net/webICF/searcherOneSport?page=ZZR151A_0000001292CO00810000AENG"
+    },
+    {
+      "race_number": "19",
+      "bib": "491",
+      "atos_personCode": "84717",
+      "source": "https://infoicf.mev.atos.net/webICF/searcherOneSport?page=ZZR151A_0000001292CO00810000AENG"
+    },
+    {
+      "race_number": "19",
+      "bib": "495",
+      "atos_personCode": "102776",
+      "source": "https://infoicf.mev.atos.net/webICF/searcherOneSport?page=ZZR151A_0000001292CO00810000AENG"
+    },
+    {
+      "race_number": "19",
+      "bib": "496",
+      "atos_personCode": "96346",
+      "source": "https://infoicf.mev.atos.net/webICF/searcherOneSport?page=ZZR151A_0000001292CO00810000AENG"
+    },
+    {
+      "race_number": "19",
+      "bib": "492",
+      "atos_personCode": "42924",
+      "source": "https://infoicf.mev.atos.net/webICF/searcherOneSport?page=ZZR151A_0000001292CO00810000AENG"
+    },
+    {
+      "race_number": "19",
+      "bib": "493",
+      "atos_personCode": "100213",
+      "source": "https://infoicf.mev.atos.net/webICF/searcherOneSport?page=ZZR151A_0000001292CO00810000AENG"
+    },
+    {
+      "race_number": "19",
+      "bib": "494",
+      "atos_personCode": "102100",
+      "source": "https://infoicf.mev.atos.net/webICF/searcherOneSport?page=ZZR151A_0000001292CO00810000AENG"
+    },
+    {
+      "race_number": "20",
+      "bib": "497",
+      "atos_personCode": "84912",
+      "source": "https://infoicf.mev.atos.net/webICF/searcherOneSport?page=ZZR151A_0000001292CO00910000AENG"
     }
   ],
   "printed_field_counts": {
-    "source": "results book lines per class heading (SS1-MJ 33, SS1-MU23 51, SS1-MS 76, SS1-WJ 20, SS1-WU23 21, SS1-WS 36 including bib 62 GRAS LISA printed with no rank or time), counted from the PDF text independently of the ATOS pages; masters (t133u): book \"course Master\" pages, lines per class heading MM1 12, MM2 26, MM3 26, MM4 33, MM5 40, MM6 22, MM7 14, WM1 3, WM2 9, WM3 4, WM4 7, WM5 7 = races 7-18",
+    "source": "results book lines per class heading (SS1-MJ 33, SS1-MU23 51, SS1-MS 76, SS1-WJ 20, SS1-WU23 21, SS1-WS 36 including bib 62 GRAS LISA printed with no rank or time), counted from the PDF text independently of the ATOS pages; masters (t133u): book \"course Master\" pages, lines per class heading MM1 12, MM2 26, MM3 26, MM4 33, MM5 40, MM6 22, MM7 14, WM1 3, WM2 9, WM3 4, WM4 7, WM5 7 = races 7-18; para (RU429): book \"Paracanoë\" page, lines per class heading SS1MPara 7, SS1WPara 1 = races 19-20 (equal to ICF ATOS CO008/CO009 start lists and results)",
     "rule": "MAINTAINER_ANSWERS_2026-10-18c Fix 1: printed count decides",
     "counts": {
       "1": 33,
@@ -11839,15 +12151,13 @@
       "15": 9,
       "16": 4,
       "17": 7,
-      "18": 7
+      "18": 7,
+      "19": 7,
+      "20": 1
     }
   },
   "out_of_scope": {
-    "para": {
-      "SS1 Men Paracanoë": 7,
-      "SS1 Women Paracanoë": 1
-    },
-    "note": "masters MM1-MM7 / WM1-WM5 added as races 7-18 under t133u (2026-11-19); paracanoe (12 Sep 14:30, ATOS CO008/CO009) still not built, question on the PR"
+    "note": "para SS1MPara (7) and SS1WPara (1) added as races 19-20 under RU429 (2026-11-23); nothing of the meeting is left out"
   },
   "sources": [
     {
@@ -11957,17 +12267,62 @@
       "url": "https://infoicf.mev.atos.net/webICF/searcherOneSport?page=ZZS058B_0000001292CO@@@@@@@@@ENG_date=2019-12-09",
       "sha256": "d198f4431dd9355158a1152ebf5fadd5ad434c328ce37a82dcbea18132d87d71",
       "role": "ICF ATOS schedule 12 Sep 2019: only the paracanoe KL3 finals (14:30); no masters units (t133u)"
+    },
+    {
+      "path": "q2019p/ZZR151A_008.html",
+      "url": "https://infoicf.mev.atos.net/webICF/searcherOneSport?page=ZZR151A_0000001292CO00810000AENG",
+      "sha256": "f2e4ece77fc629630ff5f48930065b262dca4ad3419c796eeca1ceb03aa1bc1a",
+      "role": "ICF ATOS start list Men's KL3 SENIOR Final A, 12 Sep 2019 14:30 (personCode, date of birth) (RU429)",
+      "fetched_at_utc": "2026-11-23T21:28:32Z"
+    },
+    {
+      "path": "q2019p/ZZR173A_008.html",
+      "url": "https://infoicf.mev.atos.net/webICF/searcherOneSport?page=ZZR173A_0000001292CO00810000AENG",
+      "sha256": "680ddce334535cf178200288baf5f716c669b5bb6a3ab3e4fa32239e5b708595",
+      "role": "ICF ATOS results Men's KL3 SENIOR Final A (RU429)",
+      "fetched_at_utc": "2026-11-23T21:28:32Z"
+    },
+    {
+      "path": "q2019p/ZZR151A_009.html",
+      "url": "https://infoicf.mev.atos.net/webICF/searcherOneSport?page=ZZR151A_0000001292CO00910000AENG",
+      "sha256": "1eeae21f188c620702e97e7464ea71f5f6041b37fc3489df85cbb4112424d1fb",
+      "role": "ICF ATOS start list Women's KL3 SENIOR Final A, 12 Sep 2019 14:30 (personCode) (RU429)",
+      "fetched_at_utc": "2026-11-23T21:28:32Z"
+    },
+    {
+      "path": "q2019p/ZZR173A_009.html",
+      "url": "https://infoicf.mev.atos.net/webICF/searcherOneSport?page=ZZR173A_0000001292CO00910000AENG",
+      "sha256": "2d5f69ba2e6beb30428c2fd74b3142e9e934fdf80e06d55f1c108b5a537356b0",
+      "role": "ICF ATOS results Women's KL3 SENIOR Final A (RU429)",
+      "fetched_at_utc": "2026-11-23T21:28:32Z"
+    },
+    {
+      "path": "q2019p/pww_profiles",
+      "url": "https://paddleworldwide.com/athlete/<id>",
+      "ids": [
+        "100213",
+        "102100",
+        "102776",
+        "103040",
+        "129661",
+        "42924",
+        "84717",
+        "84912",
+        "96346"
+      ],
+      "role": "PWW profiles read for RU429 seats (meeting listed on all 8 bound ids; not on 129661)",
+      "fetched_at_utc": "2026-11-23T21:28:32Z"
     }
   ],
   "bib_boat": "printed bib",
   "sheets": {
     "RESULTS": {
       "name": "RESULTS 1292",
-      "rows": 440
+      "rows": 448
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 267
+      "rows": 275
     }
   },
   "format": "marathon_RESULTS_PERSONS",
@@ -11976,17 +12331,17 @@
     {
       "kind": "xlsx",
       "name": "Quiberon_2019_COR_Results.xlsx",
-      "sha256": "ebf74cb1a245f645710eadad7a4a58dee52ff933961a6d62dcbc2fd9a7005c53",
-      "bytes": 42985
+      "sha256": "6870b93f576f85b9679d38b010f5a59ce739ea50cf75b329cee9907e8bea3e58",
+      "bytes": 43828
     }
   ],
   "output_xlsx": "Quiberon_2019_COR_Results.xlsx",
-  "output_xlsx_sha256": "ebf74cb1a245f645710eadad7a4a58dee52ff933961a6d62dcbc2fd9a7005c53",
+  "output_xlsx_sha256": "6870b93f576f85b9679d38b010f5a59ce739ea50cf75b329cee9907e8bea3e58",
   "audit": {
     "fails": [],
     "nfails": 0,
     "warns": [
-      "B 2 shared clocks (marathon mass starts tolerated)"
+      "B 4 shared clocks (marathon mass starts tolerated)"
     ]
   },
   "checks": {
@@ -12001,7 +12356,7 @@
   },
   "check_diff_summaries": {
     "phases": "PHASE final UNIT A (one race per class, ATOS \"Final - A\") on official results book https://cdn.paddleworldwide.com/media/2019_icf_canoe_ocean_racing_world_championships_-_full_results.pdf and ICF ATOS results https://infoicf.mev.atos.net/webICF/ (competition 1292)",
-    "start-times": "START_TIME = scheduled mass-start clock of the ICF ATOS schedule 11 Sep 2019 (https://infoicf.mev.atos.net/webICF/searcherOneSport?page=ZZS058B_0000001292CO@@@@@@@@@ENG_date=2019-11-09); sheet_audit A/B/D",
+    "start-times": "START_TIME = ICF ATOS scheduled mass-start clocks: 11 Sep 2019 (races 1-6, https://infoicf.mev.atos.net/webICF/searcherOneSport?page=ZZS058B_0000001292CO@@@@@@@@@ENG_date=2019-11-09) and 12 Sep 2019 14:30 (races 19-20, ZZS058B ..._date=2019-12-09; CO008/CO009 start lists); races 7-18 14:32:00 by the maintainer's ruling RU428 (ruled_start_times); sheet_audit A/B/D",
     "crews": "SS1 = one seat per row on official results book https://cdn.paddleworldwide.com/media/2019_icf_canoe_ocean_racing_world_championships_-_full_results.pdf and ICF ATOS results https://infoicf.mev.atos.net/webICF/ (competition 1292)",
     "OBS": "DNS/DNF from the book Abs/Abd and ICF ATOS DNS/DNF (obs_log) on official results book https://cdn.paddleworldwide.com/media/2019_icf_canoe_ocean_racing_world_championships_-_full_results.pdf and ICF ATOS results https://infoicf.mev.atos.net/webICF/ (competition 1292)",
     "RANK vs official results": "RANK = Rank column of the results book https://cdn.paddleworldwide.com/media/2019_icf_canoe_ocean_racing_world_championships_-_full_results.pdf (rank_oracle), equal to ICF ATOS results https://infoicf.mev.atos.net/webICF/ (competition 1292)",
@@ -12372,7 +12727,7 @@
       }
     },
     "race_numbers": "nothing prints a race number for the masters classes and ICF ATOS has no masters units; numbered 7-18 after the six ATOS units, in book order (MM1-MM7, WM1-WM5)",
-    "start": "START_DATE 2019-09-12, START_TIME 15:00:00 for all 12 classes (one gun): Deutscher Kanu-Verband report \"Donnerstags um 15:00 Uhr ... in der Masterklasse (ab Ü35) ... mit 210 Athleten an der Startlinie\"; surfski.info briefing of 9 Sep and mer-ocean.com: the masters race on Thursday. A scheduled/reported clock, start_times stays \"scheduled\". The book pages are printed 13/09/2019 11:27; no race was held on 13 Sep in any source read.",
+    "start": "START_DATE 2019-09-12, START_TIME 15:00:00 for all 12 classes (one gun): Deutscher Kanu-Verband report \"Donnerstags um 15:00 Uhr ... in der Masterklasse (ab Ü35) ... mit 210 Athleten an der Startlinie\"; surfski.info briefing of 9 Sep and mer-ocean.com: the masters race on Thursday. A scheduled/reported clock, start_times stays \"scheduled\". The book pages are printed 13/09/2019 11:27; no race was held on 13 Sep in any source read. SUPERSEDED 2026-11-23 by RU412/RU428: START_TIME 14:32:00 on all 12 classes (ruled_start_times).",
     "distance": "left empty as on the 11 Sep rows (Q2 of #46 open); the DKV report gives \"ziemlich genau 22 km\", not an official length",
     "ids": {
       "reused_main": 24,
@@ -12430,7 +12785,7 @@
     "persons_dropped": 0,
     "olympic": false
   },
-  "updated_at": "2026-11-23T10:14:37Z",
+  "updated_at": "2026-11-23T21:28:32Z",
   "printed_name_repair_log": [
     {
       "results_row": 247,
@@ -12464,5 +12819,178 @@
       "at_utc": "2026-11-23T10:14:37Z",
       "why": "PADDLETAGGER_CONTRACT.md (maintainer 2026-10-30, canoe ocean racing): domain flatwater_ocean; ocean sheets use the flatwater marathon RESULTS+PERSONS schema; the manifest's own notes[0] already say domain flatwater_ocean; Madeira_2024_COR and Porto_2013_COR on main carry flatwater_ocean / marathon_RESULTS_PERSONS. Manifest-only format correction, no seat or cell changed (race-sheets#137 Wake 2 own check)"
     }
-  ]
+  ],
+  "scheduled_races": [
+    {
+      "START_DATE": "2019-09-11",
+      "START_TIME": "15:00:00",
+      "EVENT": "SS1",
+      "PHASE": "final",
+      "UNIT": "A",
+      "RACE_NUMBER": "1",
+      "GENDER": "M",
+      "CATEGORY": "JUNIOR"
+    },
+    {
+      "START_DATE": "2019-09-11",
+      "START_TIME": "15:00:00",
+      "EVENT": "SS1",
+      "PHASE": "final",
+      "UNIT": "A",
+      "RACE_NUMBER": "2",
+      "GENDER": "M",
+      "CATEGORY": "U23"
+    },
+    {
+      "START_DATE": "2019-09-11",
+      "START_TIME": "15:00:00",
+      "EVENT": "SS1",
+      "PHASE": "final",
+      "UNIT": "A",
+      "RACE_NUMBER": "3",
+      "GENDER": "M",
+      "CATEGORY": "SENIOR"
+    },
+    {
+      "START_DATE": "2019-09-11",
+      "START_TIME": "14:30:00",
+      "EVENT": "SS1",
+      "PHASE": "final",
+      "UNIT": "A",
+      "RACE_NUMBER": "4",
+      "GENDER": "W",
+      "CATEGORY": "JUNIOR"
+    },
+    {
+      "START_DATE": "2019-09-11",
+      "START_TIME": "14:30:00",
+      "EVENT": "SS1",
+      "PHASE": "final",
+      "UNIT": "A",
+      "RACE_NUMBER": "5",
+      "GENDER": "W",
+      "CATEGORY": "U23"
+    },
+    {
+      "START_DATE": "2019-09-11",
+      "START_TIME": "14:30:00",
+      "EVENT": "SS1",
+      "PHASE": "final",
+      "UNIT": "A",
+      "RACE_NUMBER": "6",
+      "GENDER": "W",
+      "CATEGORY": "SENIOR"
+    },
+    {
+      "START_DATE": "2019-09-12",
+      "START_TIME": "14:30:00",
+      "EVENT": "KL3",
+      "PHASE": "final",
+      "UNIT": "A",
+      "RACE_NUMBER": "19",
+      "GENDER": "M",
+      "CATEGORY": "SENIOR"
+    },
+    {
+      "START_DATE": "2019-09-12",
+      "START_TIME": "14:30:00",
+      "EVENT": "KL3",
+      "PHASE": "final",
+      "UNIT": "A",
+      "RACE_NUMBER": "20",
+      "GENDER": "W",
+      "CATEGORY": "SENIOR"
+    }
+  ],
+  "ruled_start_times": {
+    "rule": "MAINTAINER_ANSWERS_2026-11-23_t134u RU428 (maintainer, 2026-11-23): \"Races 7–18 (the masters) start at 14:32:00, the latest time RU412 allows. You found no printed masters clock, so this is his word, not an invented one.\"",
+    "races": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "START_DATE": "2019-09-12",
+    "START_TIME": "14:32:00",
+    "rows": "RESULTS 239-441",
+    "rows_retimed": 203,
+    "was": "15:00:00",
+    "kind": "maintainer ruling, not a printed time: no source read prints a masters clock (ICF ATOS 12 Sep lists only the KL3 finals; the DKV report's 15:00 is a race report). RU412 (2026-11-22): start no later than his first `start` photo (14:32); RU428 sets 14:32:00.",
+    "start_times_note": "manifest start_times is \"mixed\": races 1-6, 19, 20 carry ICF ATOS scheduled clocks (scheduled_races); races 7-18 carry the ruled start of RU428, which is neither a printed schedule nor a printed actual clock (question on the PR)",
+    "at_utc": "2026-11-23T21:28:32Z"
+  },
+  "para_t134u": {
+    "rule": "MAINTAINER_ANSWERS_2026-11-23_t134u RU429 (maintainer, 2026-11-23): \"Add the two para KL3 finals of 12 September as race 19 (SS1MPara, 7 boats) and race 20 (SS1WPara, 1 boat), at 14:30 as ATOS prints them (CO008/CO009).\"",
+    "races": {
+      "19": {
+        "heading_book": "SS1MPara - Surf Ski Men Paracanoë",
+        "heading_atos": "Men's KL3 SENIOR Final A",
+        "atos_unit": "CO008",
+        "event": "KL3",
+        "boat": "SS1 (book heading)",
+        "gender": "M",
+        "category": "SENIOR",
+        "phase": "final",
+        "unit": "A",
+        "boats": 7,
+        "START_DATE": "2019-09-12",
+        "START_TIME": "14:30:00",
+        "start_list": "https://infoicf.mev.atos.net/webICF/searcherOneSport?page=ZZR151A_0000001292CO00810000AENG",
+        "results": "https://infoicf.mev.atos.net/webICF/searcherOneSport?page=ZZR173A_0000001292CO00810000AENG",
+        "rows": [
+          442,
+          443,
+          444,
+          445,
+          446,
+          447,
+          448
+        ]
+      },
+      "20": {
+        "heading_book": "SS1WPara - Surf Ski Women Paracanoë",
+        "heading_atos": "Women's KL3 SENIOR Final A",
+        "atos_unit": "CO009",
+        "event": "KL3",
+        "boat": "SS1 (book heading)",
+        "gender": "W",
+        "category": "SENIOR",
+        "phase": "final",
+        "unit": "A",
+        "boats": 1,
+        "START_DATE": "2019-09-12",
+        "START_TIME": "14:30:00",
+        "start_list": "https://infoicf.mev.atos.net/webICF/searcherOneSport?page=ZZR151A_0000001292CO00910000AENG",
+        "results": "https://infoicf.mev.atos.net/webICF/searcherOneSport?page=ZZR173A_0000001292CO00910000AENG",
+        "rows": [
+          449
+        ]
+      }
+    },
+    "conventions": "EVENT KL3, CATEGORY SENIOR = the ICF ATOS event as printed (\"Men's KL3 SENIOR\" / \"Women's KL3 SENIOR\"), the convention of every flatwater para race on main (e.g. Szeged_2019_WCH, Poznan_2019_WC: EVENT KL3, CATEGORY SENIOR); the ocean contract scopes para out and so sets no para EVENT; EVENT SS1 with CATEGORY SENIOR would give races 19/20 the labels of races 3/6 (M|W SENIOR SS1 final A), which sheet_audit check C fails; the book heading's boat SS1 (SS1MPara/SS1WPara) is kept in the manifest (question on the PR); PHASE final UNIT A (ATOS \"Final A\"); DISTANCE empty as every row of the sheet; BIB_BOAT = STARTING_LANE = printed bib; RESULT normalised from the book \"2h04:32.82\" to 02:04:32.820; DIFFERENCE not written; OBS none printed",
+    "book_page": "results book page \"Epreuves Championnat du Monde Océan Racing Paracanoë\" (competFFCK \"Resultat Unofficial\", printed 12/09/2019 17:08); ranks and times equal ICF ATOS results CO008/CO009 for every bib",
+    "ids": "ICF personCode printed on the ICF ATOS start list for each bib (ocean ICF ids rule 1); every one is in the ICF list, passes bind_seat (keep, token/NOC/gender) and the t129u token rule (printed words, any order, accents/case ignored, boat's country); sex rule; adults on race day (RU168); every PWW profile lists 2019 ICF Canoe Ocean Racing World Championships KL3",
+    "bound": 8,
+    "no_icf_id": 0,
+    "emptied": 0,
+    "ties": 1,
+    "persons_added": 8,
+    "at_utc": "2026-11-23T21:28:32Z"
+  },
+  "icf_list_t134u": {
+    "fetched_at_utc": "2026-11-23T21:23:57Z",
+    "count": 28909,
+    "sha256": "14f85203864317273a864c609c7112ce5ea3bed9bc3e30d6c466c79fa7e098c7",
+    "source": "https://icf-bsfqe8esgecmb5fc.northeurope-01.azurewebsites.net/fetchApi/bence",
+    "race_desk_main": "e6cc75c4ed17911d9a414fedd57943b4bcdf678e",
+    "names_json_sha256": "bce81aa70b1717b72ff063f1d688e89bda7144d9ece932108c4b16e6483fa3e4"
+  }
 }
