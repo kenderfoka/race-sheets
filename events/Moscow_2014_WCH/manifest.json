@@ -11,7 +11,7 @@
   "dates": "2014-08-06/2014-08-10",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-11-04T20:27:44Z",
+  "generated_at_utc": "2026-11-23T02:12:19Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "IMAS race pages print the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule).",
@@ -15303,11 +15303,22 @@
       "results_row": 75,
       "seat": "ICF_ID1",
       "source_printed_name": "Amanda REYNOLDS",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Amanda REYNOLDS (AUS, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "AUS",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Amanda REYNOLDS (AUS, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Amanda REYNOLDS' (AUS) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 56680 JENNINGS Amanda (AUS, W, born 1971-10-07); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU353); ICF list fetched 2026-11-23T02:10:13Z (sha256 6e9495c587d6) has no other match",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Amanda REYNOLDS' (AUS) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 56680 JENNINGS Amanda (AUS, W, born 1971-10-07); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU353); ICF list fetched 2026-11-23T02:10:13Z (sha256 6e9495c587d6) has no other match",
+      "new_id": "56680",
+      "name_bound_profile": "kept: profile lists 2014 ICF PARACANOE WORLD CHAMPIONSHIPS / K1 (LTA) Women 200m (Heats, rank 2, 00:53.191; PWW /athlete/56680 re-read 2026-11-23)",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_13.html line 97: 'AUS 037 - REYNOLDS, Amanda (1971)' (race 15, lane 7, rank 2, team AUS, time 53.191, other seats [])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Amanda REYNOLDS (AUS, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Amanda REYNOLDS (AUS, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-23T02:12:19Z"
+      }
     },
     {
       "results_row": 76,
@@ -17206,11 +17217,22 @@
       "results_row": 232,
       "seat": "ICF_ID2",
       "source_printed_name": "Alyce BURNETT",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "AUS",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Alyce BURNETT' (AUS) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 45842 WOOD Alyce (AUS, W, born 1992-08-11); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Alyce BURNETT' (AUS) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 45842 WOOD Alyce (AUS, W, born 1992-08-11); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "new_id": "45842",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K4 Women 500m",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_29.html line 38: '035 - MCARTHUR, Catherine (1992) 032 - BURNETT, Alyce (1992) 038 - ROBERTS, Jaime (1990) 040 - WALLACE, Bernadette (1989' (race 38, rank 4, team AUS, time 00:01:36.971, partners ['Catherine MCARTHUR', 'Jaime ROBERTS', 'Bernadette WALLACE'], birth year 1992,1992,1990,1989)",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T08:58:00Z"
+      }
     },
     {
       "results_row": 232,
@@ -17446,11 +17468,22 @@
       "results_row": 238,
       "seat": "ICF_ID2",
       "source_printed_name": "Franziska WEBER",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Franziska WEBER (GER, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "GER",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Franziska WEBER (GER, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Franziska WEBER' (GER) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35734 JOHN Franziska (GER, W, born 1989-05-24); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Franziska WEBER' (GER) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35734 JOHN Franziska (GER, W, born 1989-05-24); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "new_id": "35734",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K4 Women 500m",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_30.html line 20: '268 - HANTL, Verena (1989) 275 - WEBER, Franziska (1989) 264 - DIETZE, Tina (1988) 274 - WASSMUTH, Conny (1983)' (race 39, rank 1, team GER, time 00:01:31.005, partners ['Verena HANTL', 'Tina DIETZE', 'Conny WASSMUTH'], birth year 1989,1989,1988,1983)",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Franziska WEBER (GER, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Franziska WEBER (GER, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T08:58:00Z"
+      }
     },
     {
       "results_row": 238,
@@ -17877,11 +17910,22 @@
       "results_row": 248,
       "seat": "ICF_ID4",
       "source_printed_name": "Beata MIKOLAJCZYK",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata MIKOLAJCZYK (POL, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "POL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata MIKOLAJCZYK (POL, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Beata MIKOLAJCZYK' (POL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35856 ROSOLSKA Beata (POL, W, born 1985-10-15); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU353); ICF list fetched 2026-11-23T02:10:13Z (sha256 6e9495c587d6) has no other match",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Beata MIKOLAJCZYK' (POL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35856 ROSOLSKA Beata (POL, W, born 1985-10-15); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU353); ICF list fetched 2026-11-23T02:10:13Z (sha256 6e9495c587d6) has no other match",
+      "new_id": "35856",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K4 Women 500m (Heats, rank 2, 01:30.394; PWW /athlete/35856 re-read 2026-11-23)",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_31.html line 99: 'POL 596 - WALCZYKIEWICZ, Marta (1987) 588 - DZIENISZEWSKA, Edyta (1986) 594 - NAJA, Karolina (1990) 593 - MIKOLAJCZYK, Beata (1985)' (race 40, lane 4, rank 2, team POL, time 01:30.394, other seats ['35855', '36002', '35557'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata MIKOLAJCZYK (POL, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata MIKOLAJCZYK (POL, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-23T02:12:19Z"
+      }
     },
     {
       "results_row": 249,
@@ -17947,11 +17991,22 @@
       "results_row": 250,
       "seat": "ICF_ID3",
       "source_printed_name": "Caitlin RYAN",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "NZL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Caitlin RYAN' (NZL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 51824 REGAL Caitlin (NZL, W, born 1992-02-09); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Caitlin RYAN' (NZL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 51824 REGAL Caitlin (NZL, W, born 1992-02-09); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "new_id": "51824",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K4 Women 500m",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_31.html line 38: '524 - LOVETT, Jaimee (1998) 523 - HATTON, Teneale (1990) 525 - RYAN, Caitlin (1992) 522 - FISHER, Aimee (1995)' (race 40, rank 4, team NZL, time 00:01:34.053, partners ['Jaimee LOVETT', 'Teneale HATTON', 'Aimee FISHER'], birth year 1998,1990,1992,1995)",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T08:58:00Z"
+      }
     },
     {
       "results_row": 250,
@@ -20401,11 +20456,22 @@
       "results_row": 426,
       "seat": "ICF_ID1",
       "source_printed_name": "Amanda REYNOLDS",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Amanda REYNOLDS (AUS, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "AUS",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Amanda REYNOLDS (AUS, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Amanda REYNOLDS' (AUS) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 56680 JENNINGS Amanda (AUS, W, born 1971-10-07); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU353); ICF list fetched 2026-11-23T02:10:13Z (sha256 6e9495c587d6) has no other match",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Amanda REYNOLDS' (AUS) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 56680 JENNINGS Amanda (AUS, W, born 1971-10-07); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU353); ICF list fetched 2026-11-23T02:10:13Z (sha256 6e9495c587d6) has no other match",
+      "new_id": "56680",
+      "name_bound_profile": "kept: profile lists 2014 ICF PARACANOE WORLD CHAMPIONSHIPS / K1 (LTA) Women 200m (Final, rank 3, 00:51.247; PWW /athlete/56680 re-read 2026-11-23)",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_50.html line 104: 'AUS 037 - REYNOLDS, Amanda (1971)' (race 62, lane 6, rank 3, team AUS, time 51.247, other seats [])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Amanda REYNOLDS (AUS, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Amanda REYNOLDS (AUS, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-23T02:12:19Z"
+      }
     },
     {
       "results_row": 427,
@@ -20862,11 +20928,22 @@
       "results_row": 451,
       "seat": "ICF_ID4",
       "source_printed_name": "Beata MIKOLAJCZYK",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata MIKOLAJCZYK (POL, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "POL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata MIKOLAJCZYK (POL, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Beata MIKOLAJCZYK' (POL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35856 ROSOLSKA Beata (POL, W, born 1985-10-15); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU353); ICF list fetched 2026-11-23T02:10:13Z (sha256 6e9495c587d6) has no other match",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Beata MIKOLAJCZYK' (POL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35856 ROSOLSKA Beata (POL, W, born 1985-10-15); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU353); ICF list fetched 2026-11-23T02:10:13Z (sha256 6e9495c587d6) has no other match",
+      "new_id": "35856",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K4 Women 500m (Semifinal, rank 1, 01:30.136; PWW /athlete/35856 re-read 2026-11-23)",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_53.html line 91: 'POL 596 - WALCZYKIEWICZ, Marta (1987) 588 - DZIENISZEWSKA, Edyta (1986) 594 - NAJA, Karolina (1990) 593 - MIKOLAJCZYK, Beata (1985)' (race 65, lane 5, rank 1, team POL, time 01:30.136, other seats ['35855', '36002', '35557'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata MIKOLAJCZYK (POL, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata MIKOLAJCZYK (POL, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-23T02:12:19Z"
+      }
     },
     {
       "results_row": 452,
@@ -21012,11 +21089,22 @@
       "results_row": 455,
       "seat": "ICF_ID3",
       "source_printed_name": "Caitlin RYAN",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "NZL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Caitlin RYAN' (NZL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 51824 REGAL Caitlin (NZL, W, born 1992-02-09); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Caitlin RYAN' (NZL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 51824 REGAL Caitlin (NZL, W, born 1992-02-09); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "new_id": "51824",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K4 Women 500m",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_53.html line 44: '524 - LOVETT, Jaimee (1998) 523 - HATTON, Teneale (1990) 525 - RYAN, Caitlin (1992) 522 - FISHER, Aimee (1995)' (race 65, rank 5, team NZL, time 00:01:33.853, partners ['Jaimee LOVETT', 'Teneale HATTON', 'Aimee FISHER'], birth year 1998,1990,1992,1995)",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T08:58:00Z"
+      }
     },
     {
       "results_row": 455,
@@ -21404,11 +21492,22 @@
       "results_row": 465,
       "seat": "ICF_ID2",
       "source_printed_name": "Alyce BURNETT",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "AUS",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Alyce BURNETT' (AUS) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 45842 WOOD Alyce (AUS, W, born 1992-08-11); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Alyce BURNETT' (AUS) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 45842 WOOD Alyce (AUS, W, born 1992-08-11); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "new_id": "45842",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K4 Women 500m",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_54.html line 50: '035 - MCARTHUR, Catherine (1992) 032 - BURNETT, Alyce (1992) 038 - ROBERTS, Jaime (1990) 040 - WALLACE, Bernadette (1989' (race 66, rank 6, team AUS, time 00:01:34.846, partners ['Catherine MCARTHUR', 'Jaime ROBERTS', 'Bernadette WALLACE'], birth year 1992,1992,1990,1989)",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T08:58:00Z"
+      }
     },
     {
       "results_row": 465,
@@ -23566,11 +23665,22 @@
       "results_row": 612,
       "seat": "ICF_ID1",
       "source_printed_name": "Franziska WEBER",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Franziska WEBER (GER, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "GER",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Franziska WEBER (GER, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Franziska WEBER' (GER) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35734 JOHN Franziska (GER, W, born 1989-05-24); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Franziska WEBER' (GER) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35734 JOHN Franziska (GER, W, born 1989-05-24); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "new_id": "35734",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K1 Women 500m",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_71.html line 19: '275 - WEBER, Franziska (1989)' (race 84, rank 1, team GER, time 00:01:49.453, partners [], birth year 1989)",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Franziska WEBER (GER, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Franziska WEBER (GER, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T08:58:00Z"
+      }
     },
     {
       "results_row": 613,
@@ -25112,11 +25222,22 @@
       "results_row": 743,
       "seat": "ICF_ID2",
       "source_printed_name": "Alexey VOSTRIKOV",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alexey VOSTRIKOV (RUS, M)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "RUS",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alexey VOSTRIKOV (RUS, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Alexey VOSTRIKOV' (RUS) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42119 VOSTRIKOV Aleksei (RUS, M, born 1992-01-04); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Alexey VOSTRIKOV' (RUS) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42119 VOSTRIKOV Aleksei (RUS, M, born 1992-01-04); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "new_id": "42119",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K2 Men 500m",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_87.html line 38: '671 - SERGEEV, Aleksandr (1994) 677 - VOSTRIKOV, Alexey (1992)' (race 100, rank 4, team RUS, time 00:01:35.833, partners ['Aleksandr SERGEEV'], birth year 1994,1992)",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alexey VOSTRIKOV (RUS, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alexey VOSTRIKOV (RUS, M)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T08:58:00Z"
+      }
     },
     {
       "results_row": 744,
@@ -25541,11 +25662,22 @@
       "results_row": 764,
       "seat": "ICF_ID2",
       "source_printed_name": "Beata MIKOLAJCZYK",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata MIKOLAJCZYK (POL, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "POL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata MIKOLAJCZYK (POL, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Beata MIKOLAJCZYK' (POL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35856 ROSOLSKA Beata (POL, W, born 1985-10-15); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU353); ICF list fetched 2026-11-23T02:10:13Z (sha256 6e9495c587d6) has no other match",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Beata MIKOLAJCZYK' (POL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35856 ROSOLSKA Beata (POL, W, born 1985-10-15); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU353); ICF list fetched 2026-11-23T02:10:13Z (sha256 6e9495c587d6) has no other match",
+      "new_id": "35856",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K2 Women 500m (Heats, rank 1, 01:42.466; PWW /athlete/35856 re-read 2026-11-23)",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_90.html line 91: 'POL 594 - NAJA, Karolina (1990) 593 - MIKOLAJCZYK, Beata (1985)' (race 103, lane 5, rank 1, team POL, time 01:42.466, other seats ['35557'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata MIKOLAJCZYK (POL, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata MIKOLAJCZYK (POL, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-23T02:12:19Z"
+      }
     },
     {
       "results_row": 765,
@@ -27774,11 +27906,22 @@
       "results_row": 867,
       "seat": "ICF_ID1",
       "source_printed_name": "Franziska WEBER",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Franziska WEBER (GER, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "GER",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Franziska WEBER (GER, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Franziska WEBER' (GER) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35734 JOHN Franziska (GER, W, born 1989-05-24); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Franziska WEBER' (GER) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35734 JOHN Franziska (GER, W, born 1989-05-24); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "new_id": "35734",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K1 Women 500m",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_103.html line 20: '275 - WEBER, Franziska (1989)' (race 116, rank 1, team GER, time 00:01:46.709, partners [], birth year 1989)",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Franziska WEBER (GER, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Franziska WEBER (GER, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T08:58:00Z"
+      }
     },
     {
       "results_row": 868,
@@ -28695,11 +28838,22 @@
       "results_row": 956,
       "seat": "ICF_ID2",
       "source_printed_name": "Alexey VOSTRIKOV",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alexey VOSTRIKOV (RUS, M)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "RUS",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alexey VOSTRIKOV (RUS, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Alexey VOSTRIKOV' (RUS) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42119 VOSTRIKOV Aleksei (RUS, M, born 1992-01-04); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Alexey VOSTRIKOV' (RUS) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42119 VOSTRIKOV Aleksei (RUS, M, born 1992-01-04); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "new_id": "42119",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K2 Men 500m",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_113.html line 20: '671 - SERGEEV, Aleksandr (1994) 677 - VOSTRIKOV, Alexey (1992)' (race 126, rank 1, team RUS, time 00:01:28.804, partners ['Aleksandr SERGEEV'], birth year 1994,1992)",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alexey VOSTRIKOV (RUS, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alexey VOSTRIKOV (RUS, M)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T08:58:00Z"
+      }
     },
     {
       "results_row": 957,
@@ -31503,11 +31657,23 @@
       "results_row": 1116,
       "seat": "ICF_ID1",
       "source_printed_name": "Qiang LI",
-      "action": "no_icf_id",
-      "source": "none",
+      "action": "corrected",
+      "source": "icf_list",
       "team": "CHN",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Moscow_2014_WCH",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Moscow_2014_WCH"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Qiang LI' (CHN) has the words of 2 athletes of the boat's country; MAINTAINER_ANSWERS_2026-10-23 Rule 4: exactly one profile lists the meeting: 41740 (1989-01-04) lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 200m; the other profile(s) do not; the earlier 'neither profile lists' log was wrong (profiles re-read 2026-11-19)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Qiang LI' (CHN) has the words of 2 athletes of the boat's country; MAINTAINER_ANSWERS_2026-10-23 Rule 4: exactly one profile lists the meeting: 41740 (1989-01-04) lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 200m; the other profile(s) do not; the earlier 'neither profile lists' log was wrong (profiles re-read 2026-11-19)",
+      "new_id": "41740",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 200m",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_131.html line 29: '536 - LI, Qiang (1989)' (race 144, rank 3, team CHN, time 00:00:40.159, partners [], birth year 1989)",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "none",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Moscow_2014_WCH",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Moscow_2014_WCH",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T08:58:00Z"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-23 Rule 4"
     },
     {
       "results_row": 1117,
@@ -32035,11 +32201,22 @@
       "results_row": 1169,
       "seat": "ICF_ID1",
       "source_printed_name": "Jana JEŽOVÁ",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEŽOVÁ (CZE, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "CZE",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEŽOVÁ (CZE, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Jana JEŽOVÁ' (CZE) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42362 ZETEK Jana (CZE, W, born 1991-01-22); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU355); ICF list fetched 2026-11-23T02:10:13Z (sha256 6e9495c587d6) has no other match",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Jana JEŽOVÁ' (CZE) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42362 ZETEK Jana (CZE, W, born 1991-01-22); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU355); ICF list fetched 2026-11-23T02:10:13Z (sha256 6e9495c587d6) has no other match",
+      "new_id": "42362",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Women 200m (Heats, rank 2, 00:50.817; PWW /athlete/42362 re-read 2026-11-23)",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_137.html line 97: 'CZE 173 - JEŽOVÁ, Jana (1991)' (race 150, lane 4, rank 2, team CZE, time 50.817, other seats [])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEŽOVÁ (CZE, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEŽOVÁ (CZE, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-23T02:12:19Z"
+      }
     },
     {
       "results_row": 1170,
@@ -33516,11 +33693,22 @@
       "results_row": 1250,
       "seat": "ICF_ID1",
       "source_printed_name": "Franziska WEBER",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Franziska WEBER (GER, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "GER",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Franziska WEBER (GER, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Franziska WEBER' (GER) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35734 JOHN Franziska (GER, W, born 1989-05-24); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Franziska WEBER' (GER) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35734 JOHN Franziska (GER, W, born 1989-05-24); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "new_id": "35734",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K2 Women 200m",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_148.html line 19: '275 - WEBER, Franziska (1989) 264 - DIETZE, Tina (1988)' (race 161, rank 1, team GER, time 00:00:36.719, partners ['Tina DIETZE'], birth year 1989,1988)",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Franziska WEBER (GER, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Franziska WEBER (GER, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T08:58:00Z"
+      }
     },
     {
       "results_row": 1250,
@@ -34214,11 +34402,22 @@
       "results_row": 1281,
       "seat": "ICF_ID2",
       "source_printed_name": "Alyce BURNETT",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "AUS",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Alyce BURNETT' (AUS) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 45842 WOOD Alyce (AUS, W, born 1992-08-11); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Alyce BURNETT' (AUS) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 45842 WOOD Alyce (AUS, W, born 1992-08-11); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "new_id": "45842",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K4 Women 500m",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_152.html line 38: '035 - MCARTHUR, Catherine (1992) 032 - BURNETT, Alyce (1992) 038 - ROBERTS, Jaime (1990) 040 - WALLACE, Bernadette (1989' (race 165, rank 4, team AUS, time 00:01:34.075, partners ['Catherine MCARTHUR', 'Jaime ROBERTS', 'Bernadette WALLACE'], birth year 1992,1992,1990,1989)",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T08:58:00Z"
+      }
     },
     {
       "results_row": 1281,
@@ -34264,11 +34463,22 @@
       "results_row": 1282,
       "seat": "ICF_ID3",
       "source_printed_name": "Caitlin RYAN",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "NZL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Caitlin RYAN' (NZL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 51824 REGAL Caitlin (NZL, W, born 1992-02-09); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Caitlin RYAN' (NZL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 51824 REGAL Caitlin (NZL, W, born 1992-02-09); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "new_id": "51824",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K4 Women 500m",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_152.html line 44: '524 - LOVETT, Jaimee (1998) 523 - HATTON, Teneale (1990) 525 - RYAN, Caitlin (1992) 522 - FISHER, Aimee (1995)' (race 165, rank 5, team NZL, time 00:01:35.063, partners ['Jaimee LOVETT', 'Teneale HATTON', 'Aimee FISHER'], birth year 1998,1990,1992,1995)",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Caitlin RYAN (NZL, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T08:58:00Z"
+      }
     },
     {
       "results_row": 1282,
@@ -35437,11 +35647,22 @@
       "results_row": 1351,
       "seat": "ICF_ID4",
       "source_printed_name": "Beata MIKOLAJCZYK",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata MIKOLAJCZYK (POL, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "POL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata MIKOLAJCZYK (POL, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Beata MIKOLAJCZYK' (POL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35856 ROSOLSKA Beata (POL, W, born 1985-10-15); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU353); ICF list fetched 2026-11-23T02:10:13Z (sha256 6e9495c587d6) has no other match",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Beata MIKOLAJCZYK' (POL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35856 ROSOLSKA Beata (POL, W, born 1985-10-15); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU353); ICF list fetched 2026-11-23T02:10:13Z (sha256 6e9495c587d6) has no other match",
+      "new_id": "35856",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K4 Women 500m (Final, rank 2, 01:28.942; PWW /athlete/35856 re-read 2026-11-23)",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_160.html line 99: 'POL 596 - WALCZYKIEWICZ, Marta (1987) 588 - DZIENISZEWSKA, Edyta (1986) 594 - NAJA, Karolina (1990) 593 - MIKOLAJCZYK, Beata (1985)' (race 173, lane 3, rank 2, team POL, time 01:28.942, other seats ['35855', '36002', '35557'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata MIKOLAJCZYK (POL, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata MIKOLAJCZYK (POL, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-23T02:12:19Z"
+      }
     },
     {
       "results_row": 1352,
@@ -35505,11 +35726,22 @@
       "results_row": 1353,
       "seat": "ICF_ID2",
       "source_printed_name": "Franziska WEBER",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Franziska WEBER (GER, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "GER",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Franziska WEBER (GER, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Franziska WEBER' (GER) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35734 JOHN Franziska (GER, W, born 1989-05-24); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Franziska WEBER' (GER) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35734 JOHN Franziska (GER, W, born 1989-05-24); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "new_id": "35734",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K4 Women 500m",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_160.html line 38: '268 - HANTL, Verena (1989) 275 - WEBER, Franziska (1989) 264 - DIETZE, Tina (1988) 274 - WASSMUTH, Conny (1983)' (race 173, rank 4, team GER, time 00:01:30.980, partners ['Verena HANTL', 'Tina DIETZE', 'Conny WASSMUTH'], birth year 1989,1989,1988,1983)",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Franziska WEBER (GER, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Franziska WEBER (GER, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T08:58:00Z"
+      }
     },
     {
       "results_row": 1353,
@@ -37124,11 +37356,23 @@
       "results_row": 1451,
       "seat": "ICF_ID1",
       "source_printed_name": "Qiang LI",
-      "action": "no_icf_id",
-      "source": "none",
+      "action": "corrected",
+      "source": "icf_list",
       "team": "CHN",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Moscow_2014_WCH",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Moscow_2014_WCH"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Qiang LI' (CHN) has the words of 2 athletes of the boat's country; MAINTAINER_ANSWERS_2026-10-23 Rule 4: exactly one profile lists the meeting: 41740 (1989-01-04) lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 200m; the other profile(s) do not; the earlier 'neither profile lists' log was wrong (profiles re-read 2026-11-19)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Qiang LI' (CHN) has the words of 2 athletes of the boat's country; MAINTAINER_ANSWERS_2026-10-23 Rule 4: exactly one profile lists the meeting: 41740 (1989-01-04) lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 200m; the other profile(s) do not; the earlier 'neither profile lists' log was wrong (profiles re-read 2026-11-19)",
+      "new_id": "41740",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 200m",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_171.html line 24: '536 - LI, Qiang (1989)' (race 184, rank 2, team CHN, time 00:00:38.365, partners [], birth year 1989)",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "none",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Moscow_2014_WCH",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Moscow_2014_WCH",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T08:58:00Z"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-23 Rule 4"
     },
     {
       "results_row": 1452,
@@ -37786,11 +38030,22 @@
       "results_row": 1515,
       "seat": "ICF_ID1",
       "source_printed_name": "Jana JEŽOVÁ",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEŽOVÁ (CZE, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "CZE",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEŽOVÁ (CZE, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Jana JEŽOVÁ' (CZE) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42362 ZETEK Jana (CZE, W, born 1991-01-22); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU355); ICF list fetched 2026-11-23T02:10:13Z (sha256 6e9495c587d6) has no other match",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Jana JEŽOVÁ' (CZE) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42362 ZETEK Jana (CZE, W, born 1991-01-22); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU355); ICF list fetched 2026-11-23T02:10:13Z (sha256 6e9495c587d6) has no other match",
+      "new_id": "42362",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Women 200m (Semifinal, rank 3, 00:48.364; PWW /athlete/42362 re-read 2026-11-23)",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_178.html line 104: 'CZE 173 - JEŽOVÁ, Jana (1991)' (race 191, lane 5, rank 3, team CZE, time 48.364, other seats [])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEŽOVÁ (CZE, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEŽOVÁ (CZE, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-23T02:12:19Z"
+      }
     },
     {
       "results_row": 1516,
@@ -41769,11 +42024,22 @@
       "results_row": 1776,
       "seat": "ICF_ID1",
       "source_printed_name": "Franziska WEBER",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Franziska WEBER (GER, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "GER",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Franziska WEBER (GER, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Franziska WEBER' (GER) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35734 JOHN Franziska (GER, W, born 1989-05-24); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Franziska WEBER' (GER) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35734 JOHN Franziska (GER, W, born 1989-05-24); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "new_id": "35734",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K1 Women 500m",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_201.html line 38: '275 - WEBER, Franziska (1989)' (race 214, rank 4, team GER, time 00:01:50.622, partners [], birth year 1989)",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Franziska WEBER (GER, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Franziska WEBER (GER, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T08:58:00Z"
+      }
     },
     {
       "results_row": 1777,
@@ -42147,11 +42413,22 @@
       "results_row": 1806,
       "seat": "ICF_ID2",
       "source_printed_name": "Alexey VOSTRIKOV",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alexey VOSTRIKOV (RUS, M)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "RUS",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alexey VOSTRIKOV (RUS, M)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Alexey VOSTRIKOV' (RUS) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42119 VOSTRIKOV Aleksei (RUS, M, born 1992-01-04); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Alexey VOSTRIKOV' (RUS) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42119 VOSTRIKOV Aleksei (RUS, M, born 1992-01-04); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "new_id": "42119",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K2 Men 500m",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_204.html line 56: '671 - SERGEEV, Aleksandr (1994) 677 - VOSTRIKOV, Alexey (1992)' (race 217, rank 7, team RUS, time 00:01:31.833, partners ['Aleksandr SERGEEV'], birth year 1994,1992)",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alexey VOSTRIKOV (RUS, M)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alexey VOSTRIKOV (RUS, M)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T08:58:00Z"
+      }
     },
     {
       "results_row": 1807,
@@ -42247,11 +42524,22 @@
       "results_row": 1811,
       "seat": "ICF_ID2",
       "source_printed_name": "Beata MIKOLAJCZYK",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata MIKOLAJCZYK (POL, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "POL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata MIKOLAJCZYK (POL, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Beata MIKOLAJCZYK' (POL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35856 ROSOLSKA Beata (POL, W, born 1985-10-15); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU353); ICF list fetched 2026-11-23T02:10:13Z (sha256 6e9495c587d6) has no other match",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Beata MIKOLAJCZYK' (POL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35856 ROSOLSKA Beata (POL, W, born 1985-10-15); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU353); ICF list fetched 2026-11-23T02:10:13Z (sha256 6e9495c587d6) has no other match",
+      "new_id": "35856",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K2 Women 500m (Final, rank 3, 01:41.337; PWW /athlete/35856 re-read 2026-11-23)",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_205.html line 107: 'POL 594 - NAJA, Karolina (1990) 593 - MIKOLAJCZYK, Beata (1985)' (race 218, lane 6, rank 3, team POL, time 01:41.337, other seats ['35557'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata MIKOLAJCZYK (POL, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata MIKOLAJCZYK (POL, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-23T02:12:19Z"
+      }
     },
     {
       "results_row": 1812,
@@ -43088,11 +43376,23 @@
       "results_row": 1851,
       "seat": "ICF_ID1",
       "source_printed_name": "Qiang LI",
-      "action": "no_icf_id",
-      "source": "none",
+      "action": "corrected",
+      "source": "icf_list",
       "team": "CHN",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Moscow_2014_WCH",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Moscow_2014_WCH"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Qiang LI' (CHN) has the words of 2 athletes of the boat's country; MAINTAINER_ANSWERS_2026-10-23 Rule 4: exactly one profile lists the meeting: 41740 (1989-01-04) lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 200m; the other profile(s) do not; the earlier 'neither profile lists' log was wrong (profiles re-read 2026-11-19)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Qiang LI' (CHN) has the words of 2 athletes of the boat's country; MAINTAINER_ANSWERS_2026-10-23 Rule 4: exactly one profile lists the meeting: 41740 (1989-01-04) lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 200m; the other profile(s) do not; the earlier 'neither profile lists' log was wrong (profiles re-read 2026-11-19)",
+      "new_id": "41740",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 200m",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_209.html line 49: '536 - LI, Qiang (1989)' (race 222, rank 7, team CHN, time 00:00:39.380, partners [], birth year 1989)",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "none",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Moscow_2014_WCH",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Moscow_2014_WCH",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T08:58:00Z"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-23 Rule 4"
     },
     {
       "results_row": 1852,
@@ -43252,11 +43552,22 @@
       "results_row": 1867,
       "seat": "ICF_ID1",
       "source_printed_name": "Jana JEŽOVÁ",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEŽOVÁ (CZE, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "CZE",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEŽOVÁ (CZE, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Jana JEŽOVÁ' (CZE) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42362 ZETEK Jana (CZE, W, born 1991-01-22); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU355); ICF list fetched 2026-11-23T02:10:13Z (sha256 6e9495c587d6) has no other match",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Jana JEŽOVÁ' (CZE) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 42362 ZETEK Jana (CZE, W, born 1991-01-22); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names, names.json keywords RU355); ICF list fetched 2026-11-23T02:10:13Z (sha256 6e9495c587d6) has no other match",
+      "new_id": "42362",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Women 200m (Final, rank 5, 00:48.047; PWW /athlete/42362 re-read 2026-11-23)",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_211.html line 118: 'CZE 173 - JEŽOVÁ, Jana (1991)' (race 224, lane 1, rank 5, team CZE, time 48.047, other seats [])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEŽOVÁ (CZE, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Jana JEŽOVÁ (CZE, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-23T02:12:19Z"
+      }
     },
     {
       "results_row": 1868,
@@ -43694,11 +44005,22 @@
       "results_row": 1891,
       "seat": "ICF_ID1",
       "source_printed_name": "Franziska WEBER",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Franziska WEBER (GER, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "GER",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Franziska WEBER (GER, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Franziska WEBER' (GER) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35734 JOHN Franziska (GER, W, born 1989-05-24); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Franziska WEBER' (GER) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35734 JOHN Franziska (GER, W, born 1989-05-24); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "new_id": "35734",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K2 Women 200m",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_214.html line 24: '275 - WEBER, Franziska (1989) 264 - DIETZE, Tina (1988)' (race 227, rank 2, team GER, time 00:00:35.986, partners ['Tina DIETZE'], birth year 1989,1988)",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Franziska WEBER (GER, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Franziska WEBER (GER, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T08:58:00Z"
+      }
     },
     {
       "results_row": 1891,
@@ -45998,11 +46320,23 @@
       "results_row": 2010,
       "seat": "ICF_ID1",
       "source_printed_name": "Qiang LI",
-      "action": "no_icf_id",
-      "source": "none",
+      "action": "corrected",
+      "source": "icf_list",
       "team": "CHN",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Moscow_2014_WCH",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Moscow_2014_WCH"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Qiang LI' (CHN) has the words of 2 athletes of the boat's country; MAINTAINER_ANSWERS_2026-10-23 Rule 4: exactly one profile lists the meeting: 41740 (1989-01-04) lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 4x200m; the other profile(s) do not; the earlier 'neither profile lists' log was wrong (profiles re-read 2026-11-19)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Qiang LI' (CHN) has the words of 2 athletes of the boat's country; MAINTAINER_ANSWERS_2026-10-23 Rule 4: exactly one profile lists the meeting: 41740 (1989-01-04) lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 4x200m; the other profile(s) do not; the earlier 'neither profile lists' log was wrong (profiles re-read 2026-11-19)",
+      "new_id": "41740",
+      "name_bound_profile": "profile does not list 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 4x200m; single candidate bound under MAINTAINER_ANSWERS_2026-10-23 Rule 2 as for t129u",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_227.html line 39: '536 - LI, Qiang (1989) 542 - WANG, Riwei (1993) 539 - LIU, Hao (1993) 544 - WANG, Longkui (1990)' (race 240, rank 5, team CHN, time 00:02:54.796, partners ['Riwei WANG', 'Hao LIU', 'Longkui WANG'], birth year 1989,1993,1993,1990)",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "none",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Moscow_2014_WCH",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Moscow_2014_WCH",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T08:58:00Z"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-23 Rule 4"
     },
     {
       "results_row": 2010,
@@ -46512,11 +46846,22 @@
       "results_row": 2022,
       "seat": "ICF_ID3",
       "source_printed_name": "Alyce BURNETT",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "AUS",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Alyce BURNETT' (AUS) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 45842 WOOD Alyce (AUS, W, born 1992-08-11); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Alyce BURNETT' (AUS) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 45842 WOOD Alyce (AUS, W, born 1992-08-11); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "new_id": "45842",
+      "name_bound_profile": "profile does not list 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K1 Women 4x200m; single candidate bound under MAINTAINER_ANSWERS_2026-10-23 Rule 2 as for t129u",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_229.html line 44: '031 - BRIGDEN-JONES, Jo (1988) 036 - NICHOLLS, Alana (1986) 032 - BURNETT, Alyce (1992) 038 - ROBERTS, Jaime (1990)' (race 242, rank 6, team AUS, time 00:02:53.999, partners ['Jo BRIGDEN-JONES', 'Alana NICHOLLS', 'Jaime ROBERTS'], birth year 1988,1986,1992,1990)",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T08:58:00Z"
+      }
     },
     {
       "results_row": 2022,
@@ -47681,11 +48026,23 @@
       "results_row": 2051,
       "seat": "ICF_ID1",
       "source_printed_name": "Qiang LI",
-      "action": "no_icf_id",
-      "source": "none",
+      "action": "corrected",
+      "source": "icf_list",
       "team": "CHN",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Moscow_2014_WCH",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Moscow_2014_WCH"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Qiang LI' (CHN) has the words of 2 athletes of the boat's country; MAINTAINER_ANSWERS_2026-10-23 Rule 4: exactly one profile lists the meeting: 41740 (1989-01-04) lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 4x200m; the other profile(s) do not; the earlier 'neither profile lists' log was wrong (profiles re-read 2026-11-19)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Qiang LI' (CHN) has the words of 2 athletes of the boat's country; MAINTAINER_ANSWERS_2026-10-23 Rule 4: exactly one profile lists the meeting: 41740 (1989-01-04) lists 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 4x200m; the other profile(s) do not; the earlier 'neither profile lists' log was wrong (profiles re-read 2026-11-19)",
+      "new_id": "41740",
+      "name_bound_profile": "profile does not list 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / C1 Men 4x200m; single candidate bound under MAINTAINER_ANSWERS_2026-10-23 Rule 2 as for t129u",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_232.html line 58: '536 - LI, Qiang (1989) 542 - WANG, Riwei (1993) 539 - LIU, Hao (1993) 544 - WANG, Longkui (1990)' (race 245, rank None, team CHN, time None, partners ['Riwei WANG', 'Hao LIU', 'Longkui WANG'], birth year 1989,1993,1993,1990)",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "none",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Moscow_2014_WCH",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Rule 4 (unresolved namesake tie -> no_icf_id with evidence): tied_namesakes: 41740 (Qiang LI, dob=1989-01-04), 63866 (Qiang LI, dob=1992-08-27); neither profile lists Moscow_2014_WCH",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T08:58:00Z"
+      },
+      "rule": "MAINTAINER_ANSWERS_2026-10-23 Rule 4"
     },
     {
       "results_row": 2051,
@@ -48076,11 +48433,22 @@
       "results_row": 2060,
       "seat": "ICF_ID3",
       "source_printed_name": "Alyce BURNETT",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "AUS",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Alyce BURNETT' (AUS) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 45842 WOOD Alyce (AUS, W, born 1992-08-11); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Alyce BURNETT' (AUS) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 45842 WOOD Alyce (AUS, W, born 1992-08-11); source race-desk legacy/paddletagger/names.json @ ae2c09168a69 sha256 7277afa8270b (names.json former_names, names.json keywords RU312)",
+      "new_id": "45842",
+      "name_bound_profile": "profile does not list 2014 ICF CANOE SPRINT WORLD CHAMPIONSHIPS / K1 Women 4x200m; single candidate bound under MAINTAINER_ANSWERS_2026-10-23 Rule 2 as for t129u",
+      "printed_check": "imas-sources/Moscow_2014_WCH/race_233.html line 58: '031 - BRIGDEN-JONES, Jo (1988) 036 - NICHOLLS, Alana (1986) 032 - BURNETT, Alyce (1992) 038 - ROBERTS, Jaime (1990)' (race 246, rank 9, team AUS, time 00:02:54.366, partners ['Jo BRIGDEN-JONES', 'Alana NICHOLLS', 'Jaime ROBERTS'], birth year 1988,1986,1992,1990)",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Alyce BURNETT (AUS, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-19T08:58:00Z"
+      }
     },
     {
       "results_row": 2060,
@@ -49288,7 +49656,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 721
+      "rows": 729
     }
   },
   "oq_races": [],
@@ -49715,12 +50083,12 @@
     {
       "kind": "xlsx",
       "name": "Moscow_2014_WCH_Results.xlsx",
-      "sha256": "c4078bf4804d6ab3ca2f4af0a5bada9a200f63cccfd7c3a1f86e0c59dbf5e6c6",
-      "bytes": 167868
+      "sha256": "61ca725004cd8bf96de4e741f4f4ee1a6e15ed56b43196f12a84aa70ed32e420",
+      "bytes": 168277
     }
   ],
   "output_xlsx": "Moscow_2014_WCH_Results.xlsx",
-  "output_xlsx_sha256": "c4078bf4804d6ab3ca2f4af0a5bada9a200f63cccfd7c3a1f86e0c59dbf5e6c6",
+  "output_xlsx_sha256": "61ca725004cd8bf96de4e741f4f4ee1a6e15ed56b43196f12a84aa70ed32e420",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -49762,7 +50130,7 @@
     "no_icf_id_t59": 469,
     "same_meeting_unified_t59": 0
   },
-  "updated_at": "2026-11-04T20:27:44Z",
+  "updated_at": "2026-11-23T02:12:19Z",
   "printed_field_counts": {
     "source": "boats per race as parsed from the published source ( +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  + ); back-filled 2026-10-19 from the published RESULTS (the builder parse), race coverage cross-checked independently by GATE10b",
     "rule": "MAINTAINER_ANSWERS_2026-10-18c Fix 1: printed count decides",
@@ -50083,6 +50451,286 @@
       "rule": "maintainer_ruled_bind",
       "unconfirmed": false,
       "evidence": "MAINTAINER_ANSWERS_2026-10-31.md t87s516 (2026-10-31 11:36 CET): \"Bind all 66 Nivalter seats on the 16 sheets to 36633 and republish them.\" Scoped to 36633 and this printed form only (GATE1/GATE3 MAINT_BIND; q27 FORMER). research /workspace/scratch/t89/36633_findings.md and /workspace/scratch/t90/nivalter_name_research.md: ICF/PWW 36633 (SANTOS DE JESUS, givenName \"Alvaro Acco Koslowski\", BRA, M, b. 1987-09-19, 1.72 m/75 kg) carries Nivalter Santos de Jesus's results row for row (2013 WC3 Poznan C1 500 heat 1; 2013 WCH C1 200 heat/SF 1, final 5; 2014 WC1 Milan C1 200 heat 1, final 5; 2014 WCH C1 200 5/5/5; 2015 WCH C1 1000 heat 7, SF 8); the given name is a record error carrying the CBCa official Alvaro Acco Koslowski's name (Olympedia 9165, b. 1971, a different person listed beside Nivalter by CBCa 2022-2025); Nivalter (Olympedia 116515, b. 1987-09-17, 173 cm/77 kg, BRA C1; legal name NIVALTER SANTOS DE JESUS in Bolsa Atleta 2007/2010) has no other ICF id"
+    },
+    {
+      "results_row": 232,
+      "seat": "ICF_ID2",
+      "printed": "Alyce BURNETT",
+      "icf_id": "45842",
+      "profile_name": "Alyce WOOD",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU312 lists 'Alyce BURNETT' as a name of 45842; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 465,
+      "seat": "ICF_ID2",
+      "printed": "Alyce BURNETT",
+      "icf_id": "45842",
+      "profile_name": "Alyce WOOD",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU312 lists 'Alyce BURNETT' as a name of 45842; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 1281,
+      "seat": "ICF_ID2",
+      "printed": "Alyce BURNETT",
+      "icf_id": "45842",
+      "profile_name": "Alyce WOOD",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU312 lists 'Alyce BURNETT' as a name of 45842; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 2022,
+      "seat": "ICF_ID3",
+      "printed": "Alyce BURNETT",
+      "icf_id": "45842",
+      "profile_name": "Alyce WOOD",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU312 lists 'Alyce BURNETT' as a name of 45842; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 2060,
+      "seat": "ICF_ID3",
+      "printed": "Alyce BURNETT",
+      "icf_id": "45842",
+      "profile_name": "Alyce WOOD",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU312 lists 'Alyce BURNETT' as a name of 45842; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 238,
+      "seat": "ICF_ID2",
+      "printed": "Franziska WEBER",
+      "icf_id": "35734",
+      "profile_name": "Franziska JOHN",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU312 lists 'Franziska WEBER' as a name of 35734; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 612,
+      "seat": "ICF_ID1",
+      "printed": "Franziska WEBER",
+      "icf_id": "35734",
+      "profile_name": "Franziska JOHN",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU312 lists 'Franziska WEBER' as a name of 35734; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 867,
+      "seat": "ICF_ID1",
+      "printed": "Franziska WEBER",
+      "icf_id": "35734",
+      "profile_name": "Franziska JOHN",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU312 lists 'Franziska WEBER' as a name of 35734; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 1250,
+      "seat": "ICF_ID1",
+      "printed": "Franziska WEBER",
+      "icf_id": "35734",
+      "profile_name": "Franziska JOHN",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU312 lists 'Franziska WEBER' as a name of 35734; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 1353,
+      "seat": "ICF_ID2",
+      "printed": "Franziska WEBER",
+      "icf_id": "35734",
+      "profile_name": "Franziska JOHN",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU312 lists 'Franziska WEBER' as a name of 35734; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 1776,
+      "seat": "ICF_ID1",
+      "printed": "Franziska WEBER",
+      "icf_id": "35734",
+      "profile_name": "Franziska JOHN",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU312 lists 'Franziska WEBER' as a name of 35734; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 1891,
+      "seat": "ICF_ID1",
+      "printed": "Franziska WEBER",
+      "icf_id": "35734",
+      "profile_name": "Franziska JOHN",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU312 lists 'Franziska WEBER' as a name of 35734; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 250,
+      "seat": "ICF_ID3",
+      "printed": "Caitlin RYAN",
+      "icf_id": "51824",
+      "profile_name": "Caitlin REGAL",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU312 lists 'Caitlin RYAN' as a name of 51824; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 455,
+      "seat": "ICF_ID3",
+      "printed": "Caitlin RYAN",
+      "icf_id": "51824",
+      "profile_name": "Caitlin REGAL",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU312 lists 'Caitlin RYAN' as a name of 51824; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 1282,
+      "seat": "ICF_ID3",
+      "printed": "Caitlin RYAN",
+      "icf_id": "51824",
+      "profile_name": "Caitlin REGAL",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU312 lists 'Caitlin RYAN' as a name of 51824; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 743,
+      "seat": "ICF_ID2",
+      "printed": "Alexey VOSTRIKOV",
+      "icf_id": "42119",
+      "profile_name": "Aleksei VOSTRIKOV",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU312 lists 'Alexey VOSTRIKOV' as a name of 42119; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 956,
+      "seat": "ICF_ID2",
+      "printed": "Alexey VOSTRIKOV",
+      "icf_id": "42119",
+      "profile_name": "Aleksei VOSTRIKOV",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU312 lists 'Alexey VOSTRIKOV' as a name of 42119; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 1806,
+      "seat": "ICF_ID2",
+      "printed": "Alexey VOSTRIKOV",
+      "icf_id": "42119",
+      "profile_name": "Aleksei VOSTRIKOV",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU312 lists 'Alexey VOSTRIKOV' as a name of 42119; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 248,
+      "seat": "ICF_ID4",
+      "printed": "Beata MIKOLAJCZYK",
+      "icf_id": "35856",
+      "profile_name": "Beata ROSOLSKA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU353 lists 'Beata MIKOLAJCZYK' as a name of 35856; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 451,
+      "seat": "ICF_ID4",
+      "printed": "Beata MIKOLAJCZYK",
+      "icf_id": "35856",
+      "profile_name": "Beata ROSOLSKA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU353 lists 'Beata MIKOLAJCZYK' as a name of 35856; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 764,
+      "seat": "ICF_ID2",
+      "printed": "Beata MIKOLAJCZYK",
+      "icf_id": "35856",
+      "profile_name": "Beata ROSOLSKA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU353 lists 'Beata MIKOLAJCZYK' as a name of 35856; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 1351,
+      "seat": "ICF_ID4",
+      "printed": "Beata MIKOLAJCZYK",
+      "icf_id": "35856",
+      "profile_name": "Beata ROSOLSKA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU353 lists 'Beata MIKOLAJCZYK' as a name of 35856; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 1811,
+      "seat": "ICF_ID2",
+      "printed": "Beata MIKOLAJCZYK",
+      "icf_id": "35856",
+      "profile_name": "Beata ROSOLSKA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU353 lists 'Beata MIKOLAJCZYK' as a name of 35856; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 1169,
+      "seat": "ICF_ID1",
+      "printed": "Jana JEŽOVÁ",
+      "icf_id": "42362",
+      "profile_name": "Jana ZETEK",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU355 lists 'Jana JEŽOVÁ' as a name of 42362; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 1515,
+      "seat": "ICF_ID1",
+      "printed": "Jana JEŽOVÁ",
+      "icf_id": "42362",
+      "profile_name": "Jana ZETEK",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU355 lists 'Jana JEŽOVÁ' as a name of 42362; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 1867,
+      "seat": "ICF_ID1",
+      "printed": "Jana JEŽOVÁ",
+      "icf_id": "42362",
+      "profile_name": "Jana ZETEK",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU355 lists 'Jana JEŽOVÁ' as a name of 42362; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 75,
+      "seat": "ICF_ID1",
+      "printed": "Amanda REYNOLDS",
+      "icf_id": "56680",
+      "profile_name": "Amanda JENNINGS",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU353 lists 'Amanda REYNOLDS' as a name of 56680; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 426,
+      "seat": "ICF_ID1",
+      "printed": "Amanda REYNOLDS",
+      "icf_id": "56680",
+      "profile_name": "Amanda JENNINGS",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU353 lists 'Amanda REYNOLDS' as a name of 56680; seat bound from the name file",
+      "was": "no_icf_id"
     }
   ],
   "nation_change_log": [],
@@ -50314,6 +50962,36 @@
       "new": 721,
       "rule": "MAINTAINER_ANSWERS_2026-10-31.md t87s516 bind: PERSONS row added (36633 Nivalter Santos Jesus); previous value matched the sheet; correction of the log, no other seat change",
       "logged_at_utc": "2026-10-31T10:39:06Z"
+    }
+  ],
+  "names_file_binds": [
+    {
+      "rule": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+      "source": "kenderfoka/race-desk main legacy/paddletagger/names.json @ ae2c09168a69af23c13ddaaa0ac0842227fb7447",
+      "names_json_sha256": "7277afa8270b75b916c74b0952041968a2f0c02092a13a489442aaf393f78591",
+      "icf_list": "2026-11-19T08:44:16Z",
+      "icf_list_sha256": "7bb56ef289a7677f81c46b21a8820d05637dec1704f639723cc467b82aad9c4a",
+      "match": "printed name has the words of one name (current, former_names, keywords, links) of exactly one athlete of the boat's country (nationality or federation; AIN/RUS/BLR/ROC agree), accents/case/hyphens ignored, any order; same name+birth+gender counted as one; letter folding only RU351 (ALSBÆK = ALSBAEK)",
+      "scope": "every empty seat (crew boats and single boats)",
+      "bound_from_names_json": 18,
+      "bound_from_icf_list": 5,
+      "rejected": 0,
+      "rule4_resolved": 5,
+      "at_utc": "2026-11-19T08:58:00Z"
+    },
+    {
+      "rule": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+      "source": "kenderfoka/race-desk main legacy/paddletagger/names.json @ e6cc75c4ed17911d9a414fedd57943b4bcdf678e",
+      "names_json_sha256": "bce81aa70b1717b72ff063f1d688e89bda7144d9ece932108c4b16e6483fa3e4",
+      "icf_list": "2026-11-23T02:10:13Z",
+      "icf_list_sha256": "6e9495c587d66f141ba7616f7c28d954ca477938baf33f4ec04f708c60563ec7",
+      "match": "printed name has the words of one name (current, former_names, keywords, links) of exactly one athlete of the boat's country (nationality or federation; AIN/RUS/BLR/ROC agree), accents/case/hyphens ignored, any order; same name+birth+gender counted as one; letter folding only RU351 (ALSBÆK = ALSBAEK)",
+      "scope": "every empty seat (crew boats and single boats); second pass on names.json @ e6cc75c (race-sheets#130 Wake 2 findings 0d5018d920, bf81e88feb, e177e6056d, 9fbf23f606, a5dd106055)",
+      "bound_from_names_json": 10,
+      "bound_from_icf_list": 0,
+      "rejected": 0,
+      "rule4_resolved": 0,
+      "at_utc": "2026-11-23T02:12:19Z"
     }
   ]
 }
