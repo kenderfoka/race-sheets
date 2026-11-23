@@ -12,7 +12,7 @@
   "discipline": "ocean racing",
   "domain": "flatwater_sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-11-19T09:24:05Z",
+  "generated_at_utc": "2026-11-23T10:14:16Z",
   "grade": "USABLE",
   "gaps": [
     "icf_ids_incomplete"
@@ -6527,12 +6527,23 @@
       "results_row": 247,
       "seat": "ICF_ID1",
       "source_printed_name": "RICARDO CAMPOS CABRAL SALOM€O Paulo",
+      "printed_name_repaired": "RICARDO CAMPOS CABRAL SALOMÃO Paulo",
       "team": "BRA",
       "bib": "300",
       "printed_check": "q2019m/full_results.pdf line 368: '9       300    RICARDO CAMPOS CABRAL SALOM€O Paulo                         BRA      2h02:09.34      +10:52.72' (heading 'SS1-MM1 - Surf Ski Men Master 1')",
-      "action": "no_icf_id",
-      "source": "names.json+icf_list",
-      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 3: no athlete of BRA has the words of 'RICARDO CAMPOS CABRAL SALOM€O Paulo' (accents/case ignored, any order) in race-desk names.json @ ae2c091 or the ICF list fetched 2026-11-19T08:44:16Z; the book prints no id"
+      "action": "corrected",
+      "source": "icf_list",
+      "new_id": "135748",
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 3 (token rule): printed SALOM€O is the competFFCK encoding of SALOMÃO (the entries PDF prints the same bytes); repaired, the printed words equal those of 135748 CAMPOS CABRAL SALOMAO Paulo Ricardo: printed 'RICARDO CAMPOS CABRAL SALOMÃO Paulo' (BRA) has the words, accents and case ignored, of the name of exactly one athlete of the boat's country: 135748 CAMPOS CABRAL SALOMAO Paulo Ricardo (BRA, M, born 1980-09-07); ICF list fetched 2026-11-23T10:09:39Z (sha256 6e9495c587d6) has no other match; names.json @ e6cc75c (sha256 bce81aa70b17) adds none; sex agrees, age 39 on 2019-09-12 (masters 35+, MASTER 1)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 3 (token rule): printed SALOM€O is the competFFCK encoding of SALOMÃO (the entries PDF prints the same bytes); repaired, the printed words equal those of 135748 CAMPOS CABRAL SALOMAO Paulo Ricardo: printed 'RICARDO CAMPOS CABRAL SALOMÃO Paulo' (BRA) has the words, accents and case ignored, of the name of exactly one athlete of the boat's country: 135748 CAMPOS CABRAL SALOMAO Paulo Ricardo (BRA, M, born 1980-09-07); ICF list fetched 2026-11-23T10:09:39Z (sha256 6e9495c587d6) has no other match; names.json @ e6cc75c (sha256 bce81aa70b17) adds none; sex agrees, age 39 on 2019-09-12 (masters 35+, MASTER 1)",
+      "name_bound_profile": "PWW /athlete/135748 ('Paulo Ricardo CAMPOS CABRAL SALOMAO', re-read 2026-11-23) lists no results; PWW profiles carry no 2019 ocean masters result; single candidate bound by the t129u token rule (MAINTAINER_ANSWERS_2026-10-23 Rule 2 as for t129u)",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "names.json+icf_list",
+        "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 3: no athlete of BRA has the words of 'RICARDO CAMPOS CABRAL SALOM€O Paulo' (accents/case ignored, any order) in race-desk names.json @ ae2c091 or the ICF list fetched 2026-11-19T08:44:16Z; the book prints no id",
+        "superseded_by": "race-sheets#137 Wake 2 (findings, round 1 of 3), Lab own check",
+        "superseded_at_utc": "2026-11-23T10:14:16Z"
+      }
     },
     {
       "results_row": 248,
@@ -6641,9 +6652,19 @@
       "team": "IRL",
       "bib": "304",
       "printed_check": "q2019m/full_results.pdf line 379: '6       304    O REGAN Stewart                                             IRL      1h48:44.33       +5:57.74' (heading 'SS1-MM2 - Surf Ski Men Master 2')",
-      "action": "no_icf_id",
-      "source": "names.json+icf_list",
-      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 3: no athlete of IRL has the words of 'O REGAN Stewart' (accents/case ignored, any order) in race-desk names.json @ ae2c091 or the ICF list fetched 2026-11-19T08:44:16Z; the book prints no id"
+      "action": "corrected",
+      "source": "icf_list",
+      "new_id": "83338",
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 3 (token rule): the book prints the apostrophe of O'REGAN as a space; split at the apostrophe, the printed words equal those of 83338 O'REGAN Stewart: printed 'O REGAN Stewart' (IRL) has the words, accents and case ignored, of the name of exactly one athlete of the boat's country: 83338 O'REGAN Stewart (IRL, M, born 1975-10-06); ICF list fetched 2026-11-23T10:09:39Z (sha256 6e9495c587d6) has no other match; names.json @ e6cc75c (sha256 bce81aa70b17) adds none; sex agrees, age 43 on 2019-09-12 (masters 35+, MASTER 2)",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 3 (token rule): the book prints the apostrophe of O'REGAN as a space; split at the apostrophe, the printed words equal those of 83338 O'REGAN Stewart: printed 'O REGAN Stewart' (IRL) has the words, accents and case ignored, of the name of exactly one athlete of the boat's country: 83338 O'REGAN Stewart (IRL, M, born 1975-10-06); ICF list fetched 2026-11-23T10:09:39Z (sha256 6e9495c587d6) has no other match; names.json @ e6cc75c (sha256 bce81aa70b17) adds none; sex agrees, age 43 on 2019-09-12 (masters 35+, MASTER 2)",
+      "name_bound_profile": "PWW /athlete/83338 ('Stewart O'REGAN', re-read 2026-11-23) lists no results; PWW profiles carry no 2019 ocean masters result; single candidate bound by the t129u token rule (MAINTAINER_ANSWERS_2026-10-23 Rule 2 as for t129u)",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "names.json+icf_list",
+        "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 3: no athlete of IRL has the words of 'O REGAN Stewart' (accents/case ignored, any order) in race-desk names.json @ ae2c091 or the ICF list fetched 2026-11-19T08:44:16Z; the book prints no id",
+        "superseded_by": "race-sheets#137 Wake 2 (findings, round 1 of 3), Lab own check",
+        "superseded_at_utc": "2026-11-23T10:14:16Z"
+      }
     },
     {
       "results_row": 257,
@@ -7022,7 +7043,8 @@
       "printed_check": "q2019m/full_results.pdf line 423: '12      333    HEGED?S Robert                                               HUN       1h55:03.06       +8:02.63' (heading 'SS1-MM3 - Surf Ski Men Master 3')",
       "action": "no_icf_id",
       "source": "names.json+icf_list",
-      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 3: no athlete of HUN has the words of 'HEGED?S Robert' (accents/case ignored, any order) in race-desk names.json @ ae2c091 or the ICF list fetched 2026-11-19T08:44:16Z; the book prints no id"
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 3: no athlete of HUN has the words of 'HEGED?S Robert' (accents/case ignored, any order) in race-desk names.json @ ae2c091 or the ICF list fetched 2026-11-19T08:44:16Z; the book prints no id; re-checked 2026-11-23T10:14:16Z (race-sheets#137 Wake 2 (findings, round 1 of 3), Lab own check) with the name repaired to HEGEDŰS Robert: no athlete of any country named HEGEDUS Robert in the ICF list fetched 2026-11-23T10:09:39Z or names.json @ e6cc75c; stays no_icf_id",
+      "printed_name_repaired": "HEGEDŰS Robert"
     },
     {
       "results_row": 289,
@@ -11945,7 +11967,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 265
+      "rows": 267
     }
   },
   "format": "sprint_RESULTS_PERSONS",
@@ -11954,12 +11976,12 @@
     {
       "kind": "xlsx",
       "name": "Quiberon_2019_COR_Results.xlsx",
-      "sha256": "3121f44a9dad3ec26031bfe525af8c38aaee82d838a2e1328e5489b4af4fc120",
-      "bytes": 42890
+      "sha256": "ebf74cb1a245f645710eadad7a4a58dee52ff933961a6d62dcbc2fd9a7005c53",
+      "bytes": 42985
     }
   ],
   "output_xlsx": "Quiberon_2019_COR_Results.xlsx",
-  "output_xlsx_sha256": "3121f44a9dad3ec26031bfe525af8c38aaee82d838a2e1328e5489b4af4fc120",
+  "output_xlsx_sha256": "ebf74cb1a245f645710eadad7a4a58dee52ff933961a6d62dcbc2fd9a7005c53",
   "audit": {
     "fails": [],
     "nfails": 0,
@@ -12354,14 +12376,14 @@
     "distance": "left empty as on the 11 Sep rows (Q2 of #46 open); the DKV report gives \"ziemlich genau 22 km\", not an official length",
     "ids": {
       "reused_main": 24,
-      "bound": 30,
+      "bound": 32,
       "rejected": 0,
       "ties": 0,
-      "no_icf_id": 149
+      "no_icf_id": 147
     },
     "rejected": [],
     "ties": [],
-    "persons_added": 30,
+    "persons_added": 32,
     "names_json": "kenderfoka/race-desk main ae2c09168a69 legacy/paddletagger/names.json sha256 7277afa8270b75b916c74b0952041968a2f0c02092a13a489442aaf393f78591",
     "icf_list": {
       "fetched": "2026-11-19T08:44:16Z",
@@ -12379,6 +12401,22 @@
       "bound": 30,
       "rejected": 0,
       "at_utc": "2026-11-19T09:14:56Z"
+    },
+    {
+      "rule": "MAINTAINER_ANSWERS_2026-11-19_t133u item 3",
+      "source": "kenderfoka/race-desk main legacy/paddletagger/names.json @ e6cc75c4ed17",
+      "names_json_sha256": "bce81aa70b1717b72ff063f1d688e89bda7144d9ece932108c4b16e6483fa3e4",
+      "icf_list": "2026-11-23T10:09:39Z",
+      "match": "printed name has the words of one name (current, former_names, keywords) of exactly one athlete of the boat's country, accents/case ignored, any order; sex rule; RU168 and masters age 35+; Gate 4",
+      "scope": "second pass over the 149 masters no_icf_id seats (race-sheets#137 Wake 2 (findings, round 1 of 3), Lab own check): apostrophe split as a word break, competFFCK encoding losses repaired (printed_name_repair_log)",
+      "bound": 2,
+      "rejected": 0,
+      "at_utc": "2026-11-23T10:14:16Z",
+      "icf_list_sha256": "6e9495c587d66f141ba7616f7c28d954ca477938baf33f4ec04f708c60563ec7",
+      "rows": [
+        247,
+        256
+      ]
     }
   ],
   "name_bound_check": {
@@ -12392,5 +12430,23 @@
     "persons_dropped": 0,
     "olympic": false
   },
-  "updated_at": "2026-11-19T10:24:05+0100"
+  "updated_at": "2026-11-23T10:14:16Z",
+  "printed_name_repair_log": [
+    {
+      "results_row": 247,
+      "bib": "300",
+      "printed": "RICARDO CAMPOS CABRAL SALOM€O Paulo",
+      "repaired": "RICARDO CAMPOS CABRAL SALOMÃO Paulo",
+      "why": "competFFCK prints the character as '€' in the book and in the masters entries PDF (encoding loss); repaired spelling, as RU417 (maintainer 2026-11-22) records for HEGEDŰS and SALOMÃO",
+      "at_utc": "2026-11-23T10:14:16Z"
+    },
+    {
+      "results_row": 288,
+      "bib": "333",
+      "printed": "HEGED?S Robert",
+      "repaired": "HEGEDŰS Robert",
+      "why": "competFFCK prints the character as '?' in the book and in the masters entries PDF (encoding loss); repaired spelling, as RU417 (maintainer 2026-11-22) records for HEGEDŰS and SALOMÃO",
+      "at_utc": "2026-11-23T10:14:16Z"
+    }
+  ]
 }
