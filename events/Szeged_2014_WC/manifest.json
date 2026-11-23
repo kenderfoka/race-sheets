@@ -10,7 +10,7 @@
   "dates": "2014-05-23/2014-05-25",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-11-19T08:58:07Z",
+  "generated_at_utc": "2026-11-23T08:24:09Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "Szeged organiser results book (ICF-hosted PDF; surname/given/country-name columns; country names mapped to NOC codes, map in country_name_map) prints the scheduled race start to the minute (written HH:MM:00); no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule). OQ/para races in the same book are kept (one key).",
@@ -11214,11 +11214,22 @@
       "results_row": 52,
       "seat": "ICF_ID2",
       "source_printed_name": "Beata Mikolajczyk",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata Mikolajczyk (POL, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "POL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata Mikolajczyk (POL, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Beata Mikolajczyk' (POL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35856 ROSOLSKA Beata (POL, W, born 1985-10-15); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names MIKOLAJCZYK Beata, names.json keywords 'mikolajczyk beata' RU353); ICF list fetched 2026-11-23T08:22:29Z (sha256 14f852038643) has no other match",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Beata Mikolajczyk' (POL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35856 ROSOLSKA Beata (POL, W, born 1985-10-15); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names MIKOLAJCZYK Beata, names.json keywords 'mikolajczyk beata' RU353); ICF list fetched 2026-11-23T08:22:29Z (sha256 14f852038643) has no other match",
+      "new_id": "35856",
+      "name_bound_profile": "kept: profile (PWW /athlete/35856 'Beata ROSOLSKA' re-read 2026-11-23) lists no 2014 World Cup 3 result; the book prints 420 Mikolajczyk Beata (POL) in this boat; partner 35557 'Karolina NAJA' profile lists this boat's 2014 ICF CANOE SPRINT WORLD CUP 3 result 0:01:51.245; 35856 and 35557 share their 2014 World Championships K2 W 500 results",
+      "printed_check": "szeged2014-sources/book.pdf p.5 line 40: '420      Mikolajczyk         Beata                    Poland' (race 7, rank 2, lane 5, team POL, time 0:01:51.245, partners ['421 Karolina Naja'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata Mikolajczyk (POL, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata Mikolajczyk (POL, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-23T08:24:09Z"
+      }
     },
     {
       "results_row": 53,
@@ -11583,11 +11594,22 @@
       "results_row": 70,
       "seat": "ICF_ID2",
       "source_printed_name": "Dóra Bodonyi",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra Bodonyi (HUN, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "HUN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra Bodonyi (HUN, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Dóra Bodonyi' (HUN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 131978 HADVINA Dora (HUN, W, born 1993-11-07); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names BODONYI Dora, names.json keywords 'bodonyi dora' RU353); ICF list fetched 2026-11-23T08:22:29Z (sha256 14f852038643) has no other match",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Dóra Bodonyi' (HUN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 131978 HADVINA Dora (HUN, W, born 1993-11-07); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names BODONYI Dora, names.json keywords 'bodonyi dora' RU353); ICF list fetched 2026-11-23T08:22:29Z (sha256 14f852038643) has no other match",
+      "new_id": "131978",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 3 / K2 Women 500m Heats rank 5 0:01:56.918 (PWW /athlete/131978 'Dora HADVINA' re-read 2026-11-23; equals this row)",
+      "printed_check": "szeged2014-sources/book.pdf p.6 line 49: '225      Bodonyi              Dóra                  Hungary' (race 9, rank 5, lane 7, team HUN, time 0:01:56.918, partners ['232 Noémi Horváth'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra Bodonyi (HUN, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra Bodonyi (HUN, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-23T08:24:09Z"
+      }
     },
     {
       "results_row": 71,
@@ -13342,11 +13364,22 @@
       "results_row": 188,
       "seat": "ICF_ID1",
       "source_printed_name": "Beata Mikolajczyk",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata Mikolajczyk (POL, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "POL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata Mikolajczyk (POL, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Beata Mikolajczyk' (POL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35856 ROSOLSKA Beata (POL, W, born 1985-10-15); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names MIKOLAJCZYK Beata, names.json keywords 'mikolajczyk beata' RU353); ICF list fetched 2026-11-23T08:22:29Z (sha256 14f852038643) has no other match",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Beata Mikolajczyk' (POL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35856 ROSOLSKA Beata (POL, W, born 1985-10-15); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names MIKOLAJCZYK Beata, names.json keywords 'mikolajczyk beata' RU353); ICF list fetched 2026-11-23T08:22:29Z (sha256 14f852038643) has no other match",
+      "new_id": "35856",
+      "name_bound_profile": "kept: profile (PWW /athlete/35856 'Beata ROSOLSKA' re-read 2026-11-23) lists no 2014 World Cup 3 result; the book prints 420 Mikolajczyk Beata (POL) as this single boat with this rank, lane and time; the same body number 420 is the partner of 35557 NAJA in the K2 W 500 boat whose results the 35557 profile lists",
+      "printed_check": "szeged2014-sources/book.pdf p.22 line 7: '1      1        420       Mikolajczyk          Beata            Poland                                   0:00:58.558   0:04:13.931' (race 25, rank 1, lane 1, team POL, time 0:04:13.931, partners [])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata Mikolajczyk (POL, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata Mikolajczyk (POL, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-23T08:24:09Z"
+      }
     },
     {
       "results_row": 189,
@@ -13609,11 +13642,22 @@
       "results_row": 211,
       "seat": "ICF_ID2",
       "source_printed_name": "Dóra Bodonyi",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra Bodonyi (HUN, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "HUN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra Bodonyi (HUN, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Dóra Bodonyi' (HUN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 131978 HADVINA Dora (HUN, W, born 1993-11-07); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names BODONYI Dora, names.json keywords 'bodonyi dora' RU353); ICF list fetched 2026-11-23T08:22:29Z (sha256 14f852038643) has no other match",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Dóra Bodonyi' (HUN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 131978 HADVINA Dora (HUN, W, born 1993-11-07); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names BODONYI Dora, names.json keywords 'bodonyi dora' RU353); ICF list fetched 2026-11-23T08:22:29Z (sha256 14f852038643) has no other match",
+      "new_id": "131978",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 3 / K2 Women 1000m Heats rank 2 0:04:01.617 (PWW /athlete/131978 'Dora HADVINA' re-read 2026-11-23; equals this row)",
+      "printed_check": "szeged2014-sources/book.pdf p.25 line 16: '225      Bodonyi                   Dóra           Hungary                                  0:02:01.192' (race 28, rank 2, lane 4, team HUN, time 0:04:01.617, partners ['245 Nóra Szilvásy'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra Bodonyi (HUN, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra Bodonyi (HUN, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-23T08:24:09Z"
+      }
     },
     {
       "results_row": 212,
@@ -15282,11 +15326,22 @@
       "results_row": 285,
       "seat": "ICF_ID2",
       "source_printed_name": "Dóra Bodonyi",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra Bodonyi (HUN, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "HUN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra Bodonyi (HUN, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Dóra Bodonyi' (HUN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 131978 HADVINA Dora (HUN, W, born 1993-11-07); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names BODONYI Dora, names.json keywords 'bodonyi dora' RU353); ICF list fetched 2026-11-23T08:22:29Z (sha256 14f852038643) has no other match",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Dóra Bodonyi' (HUN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 131978 HADVINA Dora (HUN, W, born 1993-11-07); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names BODONYI Dora, names.json keywords 'bodonyi dora' RU353); ICF list fetched 2026-11-23T08:22:29Z (sha256 14f852038643) has no other match",
+      "new_id": "131978",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 3 / K2 Women 500m Semifinal rank 7 0:01:51.827 (PWW /athlete/131978 'Dora HADVINA' re-read 2026-11-23; equals this row)",
+      "printed_check": "szeged2014-sources/book.pdf p.32 line 27: '225        Bodonyi             Dóra                 Hungary' (race 37, rank 7, lane 2, team HUN, time 0:01:51.827, partners ['232 Noémi Horváth'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra Bodonyi (HUN, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra Bodonyi (HUN, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-23T08:24:09Z"
+      }
     },
     {
       "results_row": 286,
@@ -15531,11 +15586,22 @@
       "results_row": 297,
       "seat": "ICF_ID2",
       "source_printed_name": "Beata Mikolajczyk",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata Mikolajczyk (POL, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "POL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata Mikolajczyk (POL, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Beata Mikolajczyk' (POL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35856 ROSOLSKA Beata (POL, W, born 1985-10-15); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names MIKOLAJCZYK Beata, names.json keywords 'mikolajczyk beata' RU353); ICF list fetched 2026-11-23T08:22:29Z (sha256 14f852038643) has no other match",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Beata Mikolajczyk' (POL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35856 ROSOLSKA Beata (POL, W, born 1985-10-15); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names MIKOLAJCZYK Beata, names.json keywords 'mikolajczyk beata' RU353); ICF list fetched 2026-11-23T08:22:29Z (sha256 14f852038643) has no other match",
+      "new_id": "35856",
+      "name_bound_profile": "kept: profile (PWW /athlete/35856 'Beata ROSOLSKA' re-read 2026-11-23) lists no 2014 World Cup 3 result; the book prints 420 Mikolajczyk Beata (POL) in this boat; partner 35557 'Karolina NAJA' profile lists this boat's 2014 ICF CANOE SPRINT WORLD CUP 3 result 0:01:47.917; 35856 and 35557 share their 2014 World Championships K2 W 500 results",
+      "printed_check": "szeged2014-sources/book.pdf p.34 line 9: '420        Mikolajczyk        Beata                 Poland' (race 39, rank 1, lane 6, team POL, time 0:01:47.917, partners ['421 Karolina Naja'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata Mikolajczyk (POL, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata Mikolajczyk (POL, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-23T08:24:09Z"
+      }
     },
     {
       "results_row": 298,
@@ -22608,11 +22674,22 @@
       "results_row": 734,
       "seat": "ICF_ID2",
       "source_printed_name": "Beata Mikolajczyk",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata Mikolajczyk (POL, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "POL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata Mikolajczyk (POL, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Beata Mikolajczyk' (POL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35856 ROSOLSKA Beata (POL, W, born 1985-10-15); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names MIKOLAJCZYK Beata, names.json keywords 'mikolajczyk beata' RU353); ICF list fetched 2026-11-23T08:22:29Z (sha256 14f852038643) has no other match",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Beata Mikolajczyk' (POL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35856 ROSOLSKA Beata (POL, W, born 1985-10-15); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names MIKOLAJCZYK Beata, names.json keywords 'mikolajczyk beata' RU353); ICF list fetched 2026-11-23T08:22:29Z (sha256 14f852038643) has no other match",
+      "new_id": "35856",
+      "name_bound_profile": "kept: profile (PWW /athlete/35856 'Beata ROSOLSKA' re-read 2026-11-23) lists no 2014 World Cup 3 result; the book prints 420 Mikolajczyk Beata (POL) in this boat; partner 35557 'Karolina NAJA' profile lists this boat's 2014 ICF CANOE SPRINT WORLD CUP 3 result 0:01:45.944; 35856 and 35557 share their 2014 World Championships K2 W 500 results",
+      "printed_check": "szeged2014-sources/book.pdf p.76 line 12: '420   Mikolajczyk          Beata             Poland' (race 91, rank 2, lane 6, team POL, time 0:01:45.944, partners ['421 Karolina Naja'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata Mikolajczyk (POL, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata Mikolajczyk (POL, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-23T08:24:09Z"
+      }
     },
     {
       "results_row": 735,
@@ -23335,11 +23412,22 @@
       "results_row": 778,
       "seat": "ICF_ID1",
       "source_printed_name": "Beata Mikolajczyk",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata Mikolajczyk (POL, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "POL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata Mikolajczyk (POL, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Beata Mikolajczyk' (POL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35856 ROSOLSKA Beata (POL, W, born 1985-10-15); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names MIKOLAJCZYK Beata, names.json keywords 'mikolajczyk beata' RU353); ICF list fetched 2026-11-23T08:22:29Z (sha256 14f852038643) has no other match",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Beata Mikolajczyk' (POL) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 35856 ROSOLSKA Beata (POL, W, born 1985-10-15); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names MIKOLAJCZYK Beata, names.json keywords 'mikolajczyk beata' RU353); ICF list fetched 2026-11-23T08:22:29Z (sha256 14f852038643) has no other match",
+      "new_id": "35856",
+      "name_bound_profile": "kept: profile (PWW /athlete/35856 'Beata ROSOLSKA' re-read 2026-11-23) lists no 2014 World Cup 3 result; the book prints 420 Mikolajczyk Beata (POL) as this single boat with this rank, lane and time; the same body number 420 is the partner of 35557 NAJA in the K2 W 500 boat whose results the 35557 profile lists",
+      "printed_check": "szeged2014-sources/book.pdf p.81 line 7: '1      5        420   Mikolajczyk           Beata           Poland                                0:01:01.405   0:04:15.982' (race 96, rank 1, lane 5, team POL, time 0:04:15.982, partners [])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata Mikolajczyk (POL, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Beata Mikolajczyk (POL, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-23T08:24:09Z"
+      }
     },
     {
       "results_row": 779,
@@ -23460,11 +23548,22 @@
       "results_row": 788,
       "seat": "ICF_ID2",
       "source_printed_name": "Dóra Bodonyi",
-      "action": "no_icf_id",
-      "source": "pww+bence",
-      "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra Bodonyi (HUN, W)",
+      "action": "corrected",
+      "source": "names.json",
       "team": "HUN",
-      "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra Bodonyi (HUN, W)"
+      "detail": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Dóra Bodonyi' (HUN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 131978 HADVINA Dora (HUN, W, born 1993-11-07); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names BODONYI Dora, names.json keywords 'bodonyi dora' RU353); ICF list fetched 2026-11-23T08:22:29Z (sha256 14f852038643) has no other match",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: printed 'Dóra Bodonyi' (HUN) has the words, accents and case ignored, of a name of exactly one athlete of the boat's country: 131978 HADVINA Dora (HUN, W, born 1993-11-07); source race-desk legacy/paddletagger/names.json @ e6cc75c4ed17 sha256 bce81aa70b17 (names.json former_names BODONYI Dora, names.json keywords 'bodonyi dora' RU353); ICF list fetched 2026-11-23T08:22:29Z (sha256 14f852038643) has no other match",
+      "new_id": "131978",
+      "name_bound_profile": "kept: profile lists 2014 ICF CANOE SPRINT WORLD CUP 3 / K2 Women 1000m Final rank 2 0:03:54.329 (PWW /athlete/131978 'Dora HADVINA' re-read 2026-11-23; equals this row)",
+      "printed_check": "szeged2014-sources/book.pdf p.82 line 16: '225   Bodonyi              Dóra                    Hungary                               0:01:55.358' (race 97, rank 2, lane 3, team HUN, time 0:03:54.329, partners ['245 Nóra Szilvásy'])",
+      "superseded": {
+        "action": "no_icf_id",
+        "source": "pww+bence",
+        "evidence": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra Bodonyi (HUN, W)",
+        "detail": "MAINTAINER_ANSWERS_2026-10-23 Kind F (no_icf_id): 0 matching records in ICF/PWW for Dóra Bodonyi (HUN, W)",
+        "superseded_by": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+        "superseded_at_utc": "2026-11-23T08:24:09Z"
+      }
     },
     {
       "results_row": 789,
@@ -34981,7 +35080,7 @@
     },
     "PERSONS": {
       "name": "PERSONS",
-      "rows": 446
+      "rows": 448
     }
   },
   "country_name_map": {
@@ -35085,12 +35184,12 @@
     {
       "kind": "xlsx",
       "name": "Szeged_2014_WC_Results.xlsx",
-      "sha256": "e4eccabb0fd94ce28fe63706ba55e23032ea3325ae2cafd70a255689fac74272",
-      "bytes": 130266
+      "sha256": "2c5aa3f4540c14abcb63695ec15ce509d99255384f1f5f47c5af9f3e67a9bf0a",
+      "bytes": 130389
     }
   ],
   "output_xlsx": "Szeged_2014_WC_Results.xlsx",
-  "output_xlsx_sha256": "e4eccabb0fd94ce28fe63706ba55e23032ea3325ae2cafd70a255689fac74272",
+  "output_xlsx_sha256": "2c5aa3f4540c14abcb63695ec15ce509d99255384f1f5f47c5af9f3e67a9bf0a",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -35125,7 +35224,7 @@
     "race 150: not printed in the approved source(s); no rows (maintainer 2026-10-17 Q14)",
     "race 161: not printed in the approved source(s); no rows (maintainer 2026-10-17 Q14)"
   ],
-  "updated_at": "2026-11-19T08:58:07Z",
+  "updated_at": "2026-11-23T08:24:09Z",
   "name_bound_check": {
     "completed": true,
     "profiles_checked": 371,
@@ -35958,6 +36057,96 @@
       "rule": "name_change",
       "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names, names.json keywords RU312 lists 'Alexey Vostrikov' as a name of 42119; seat bound from the name file",
       "was": "no_icf_id"
+    },
+    {
+      "results_row": 52,
+      "seat": "ICF_ID2",
+      "printed": "Beata Mikolajczyk",
+      "icf_id": "35856",
+      "profile_name": "Beata ROSOLSKA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names MIKOLAJCZYK Beata, names.json keywords 'mikolajczyk beata' RU353 lists 'Beata Mikolajczyk' as a name of 35856; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 297,
+      "seat": "ICF_ID2",
+      "printed": "Beata Mikolajczyk",
+      "icf_id": "35856",
+      "profile_name": "Beata ROSOLSKA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names MIKOLAJCZYK Beata, names.json keywords 'mikolajczyk beata' RU353 lists 'Beata Mikolajczyk' as a name of 35856; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 734,
+      "seat": "ICF_ID2",
+      "printed": "Beata Mikolajczyk",
+      "icf_id": "35856",
+      "profile_name": "Beata ROSOLSKA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names MIKOLAJCZYK Beata, names.json keywords 'mikolajczyk beata' RU353 lists 'Beata Mikolajczyk' as a name of 35856; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 70,
+      "seat": "ICF_ID2",
+      "printed": "Dóra Bodonyi",
+      "icf_id": "131978",
+      "profile_name": "Dora HADVINA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names BODONYI Dora, names.json keywords 'bodonyi dora' RU353 lists 'Dóra Bodonyi' as a name of 131978; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 211,
+      "seat": "ICF_ID2",
+      "printed": "Dóra Bodonyi",
+      "icf_id": "131978",
+      "profile_name": "Dora HADVINA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names BODONYI Dora, names.json keywords 'bodonyi dora' RU353 lists 'Dóra Bodonyi' as a name of 131978; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 285,
+      "seat": "ICF_ID2",
+      "printed": "Dóra Bodonyi",
+      "icf_id": "131978",
+      "profile_name": "Dora HADVINA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names BODONYI Dora, names.json keywords 'bodonyi dora' RU353 lists 'Dóra Bodonyi' as a name of 131978; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 788,
+      "seat": "ICF_ID2",
+      "printed": "Dóra Bodonyi",
+      "icf_id": "131978",
+      "profile_name": "Dora HADVINA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names BODONYI Dora, names.json keywords 'bodonyi dora' RU353 lists 'Dóra Bodonyi' as a name of 131978; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 188,
+      "seat": "ICF_ID1",
+      "printed": "Beata Mikolajczyk",
+      "icf_id": "35856",
+      "profile_name": "Beata ROSOLSKA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names MIKOLAJCZYK Beata, names.json keywords 'mikolajczyk beata' RU353 lists 'Beata Mikolajczyk' as a name of 35856; seat bound from the name file",
+      "was": "no_icf_id"
+    },
+    {
+      "results_row": 778,
+      "seat": "ICF_ID1",
+      "printed": "Beata Mikolajczyk",
+      "icf_id": "35856",
+      "profile_name": "Beata ROSOLSKA",
+      "rule": "name_change",
+      "evidence": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2: names.json names.json former_names MIKOLAJCZYK Beata, names.json keywords 'mikolajczyk beata' RU353 lists 'Beata Mikolajczyk' as a name of 35856; seat bound from the name file",
+      "was": "no_icf_id"
     }
   ],
   "nation_change_log": [],
@@ -36242,6 +36431,20 @@
       "rejected": 0,
       "rule4_resolved": 0,
       "at_utc": "2026-11-19T08:58:07Z"
+    },
+    {
+      "rule": "MAINTAINER_ANSWERS_2026-11-19_t133u item 2",
+      "source": "kenderfoka/race-desk main legacy/paddletagger/names.json @ e6cc75c4ed17911d9a414fedd57943b4bcdf678e",
+      "names_json_sha256": "bce81aa70b1717b72ff063f1d688e89bda7144d9ece932108c4b16e6483fa3e4",
+      "icf_list": "2026-11-23T08:22:29Z",
+      "icf_list_sha256": "14f85203864317273a864c609c7112ce5ea3bed9bc3e30d6c466c79fa7e098c7",
+      "match": "printed name has the words of one name (current, former_names, keywords, links) of exactly one athlete of the boat's country (nationality or federation; AIN/RUS/BLR/ROC agree), accents/case/hyphens ignored, any order; same name+birth+gender counted as one; letter folding only RU351 (ALSBÆK = ALSBAEK)",
+      "scope": "every empty seat (crew boats and single boats); second pass on names.json @ e6cc75c (race-sheets#135 Wake 2 findings b000689677, 4053c5a9db, 933863bacc, be59c1d2a2, bcc91df0cf, a738ff880d, fff4410955; review/Lab scan rows 188, 778)",
+      "bound_from_names_json": 9,
+      "bound_from_icf_list": 0,
+      "rejected": 0,
+      "rule4_resolved": 0,
+      "at_utc": "2026-11-23T08:24:09Z"
     }
   ]
 }
