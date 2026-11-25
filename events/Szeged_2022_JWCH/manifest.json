@@ -10,7 +10,7 @@
   "dates": "2022-08-31/2022-09-04",
   "discipline": "sprint",
   "start_times": "scheduled",
-  "generated_at_utc": "2026-11-03T11:38:47Z",
+  "generated_at_utc": "2026-11-25T21:37:25Z",
   "grade": "PERFECT",
   "gaps": [],
   "note": "Digicorp (Prawn) results book prints the scheduled race start to the minute (written HH:MM:00); Digicorp hub dead, no actual start clock on any finite source. No ICF ids printed: seats name-bound (bind_seat + PWW profile rule). OQ/para races in the same book are kept (one key).",
@@ -18258,23 +18258,36 @@
       "results_row": 53,
       "seat": "ICF_ID1",
       "source_printed_name": "Samalulu CLIFTON",
-      "action": "no_icf_id",
-      "source": "given_family_unique",
+      "action": "corrected",
+      "source": "ruling",
       "team": "NZL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 142039 Samalulu Fuatino Te Aho CLIFTON (ICF nationality SAM / federation SAM) differs from printed NZL and profile 142039 does not list Szeged_2022_JWCH; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)",
-      "candidate_logged": {
-        "id": "142039",
-        "name": "Samalulu Fuatino Te Aho CLIFTON",
-        "birth_date": "1999-03-25",
-        "nationality": "SAM",
-        "federation": "SAM"
+      "detail": "RU390 (maintainer, 2026-11-22; race-desk RULINGS.md @ 48668b8; t135u) with Gate 4 and the same-id-across-a-meeting rule (maintainer 2026-10-15: refill no_icf_id seats of that printed name + Team): the same printed 'Samalulu CLIFTON' (NZL) in the women's U23 K1 200 m (heat 3) takes the meeting's id 142039. Not named by RU390 itself; put on the PR as a question. 142039 = CLIFTON Samalulu Fuatino Te Aho (ICF nationality/federation SAM, W, b. 1999-03-25); the SAM-for-NZL mismatch is logged as a maintainer exception (nation_change_log, kind maintainer_exception). PWW /athlete/142039 returned no results payload 2026-11-25, so no profile listing; bound by the ruling. Sex rule: W boat, W athlete. RU168: aged 23 in 2022.",
+      "nation_exception": "SAM-for-NZL (RU390)",
+      "icf_list": "bence 2026-11-25T21:23:03Z sha256 14f852038643 (28909 records)",
+      "evidence": "RU390 (maintainer, 2026-11-22; race-desk RULINGS.md @ 48668b8; t135u) with Gate 4 and the same-id-across-a-meeting rule (maintainer 2026-10-15: refill no_icf_id seats of that printed name + Team): the same printed 'Samalulu CLIFTON' (NZL) in the women's U23 K1 200 m (heat 3) takes the meeting's id 142039. Not named by RU390 itself; put on the PR as a question. 142039 = CLIFTON Samalulu Fuatino Te Aho (ICF nationality/federation SAM, W, b. 1999-03-25); the SAM-for-NZL mismatch is logged as a maintainer exception (nation_change_log, kind maintainer_exception). PWW /athlete/142039 returned no results payload 2026-11-25, so no profile listing; bound by the ruling. Sex rule: W boat, W athlete. RU168: aged 23 in 2022.",
+      "superseded": {
+        "source_printed_name": "Samalulu CLIFTON",
+        "action": "no_icf_id",
+        "source": "given_family_unique",
+        "team": "NZL",
+        "detail": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 142039 Samalulu Fuatino Te Aho CLIFTON (ICF nationality SAM / federation SAM) differs from printed NZL and profile 142039 does not list Szeged_2022_JWCH; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)",
+        "candidate_logged": {
+          "id": "142039",
+          "name": "Samalulu Fuatino Te Aho CLIFTON",
+          "birth_date": "1999-03-25",
+          "nationality": "SAM",
+          "federation": "SAM"
+        },
+        "evidence": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 142039 Samalulu Fuatino Te Aho CLIFTON (ICF nationality SAM / federation SAM) differs from printed NZL and profile 142039 does not list Szeged_2022_JWCH; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)",
+        "correction": {
+          "previous_id": "142039",
+          "new_id": "",
+          "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country"
+        },
+        "superseded_by": "RU390 (maintainer, 2026-11-22; race-desk RULINGS.md @ 48668b8; t135u)",
+        "superseded_at_utc": "2026-11-25T21:37:25Z"
       },
-      "evidence": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 142039 Samalulu Fuatino Te Aho CLIFTON (ICF nationality SAM / federation SAM) differs from printed NZL and profile 142039 does not list Szeged_2022_JWCH; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)",
-      "correction": {
-        "previous_id": "142039",
-        "new_id": "",
-        "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country"
-      }
+      "new_id": "142039"
     },
     {
       "results_row": 54,
@@ -24714,23 +24727,36 @@
       "results_row": 353,
       "seat": "ICF_ID1",
       "source_printed_name": "Samalulu CLIFTON",
-      "action": "no_icf_id",
-      "source": "given_family_unique",
+      "action": "corrected",
+      "source": "ruling",
       "team": "NZL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 142039 Samalulu Fuatino Te Aho CLIFTON (ICF nationality SAM / federation SAM) differs from printed NZL and profile 142039 does not list Szeged_2022_JWCH; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)",
-      "candidate_logged": {
-        "id": "142039",
-        "name": "Samalulu Fuatino Te Aho CLIFTON",
-        "birth_date": "1999-03-25",
-        "nationality": "SAM",
-        "federation": "SAM"
+      "detail": "RU390 (maintainer, 2026-11-22; race-desk RULINGS.md @ 48668b8; t135u) with Gate 4 and the same-id-across-a-meeting rule (maintainer 2026-10-15: refill no_icf_id seats of that printed name + Team): the same printed 'Samalulu CLIFTON' (NZL) in the women's U23 K1 200 m (semifinal 2) takes the meeting's id 142039. Not named by RU390 itself; put on the PR as a question. 142039 = CLIFTON Samalulu Fuatino Te Aho (ICF nationality/federation SAM, W, b. 1999-03-25); the SAM-for-NZL mismatch is logged as a maintainer exception (nation_change_log, kind maintainer_exception). PWW /athlete/142039 returned no results payload 2026-11-25, so no profile listing; bound by the ruling. Sex rule: W boat, W athlete. RU168: aged 23 in 2022.",
+      "nation_exception": "SAM-for-NZL (RU390)",
+      "icf_list": "bence 2026-11-25T21:23:03Z sha256 14f852038643 (28909 records)",
+      "evidence": "RU390 (maintainer, 2026-11-22; race-desk RULINGS.md @ 48668b8; t135u) with Gate 4 and the same-id-across-a-meeting rule (maintainer 2026-10-15: refill no_icf_id seats of that printed name + Team): the same printed 'Samalulu CLIFTON' (NZL) in the women's U23 K1 200 m (semifinal 2) takes the meeting's id 142039. Not named by RU390 itself; put on the PR as a question. 142039 = CLIFTON Samalulu Fuatino Te Aho (ICF nationality/federation SAM, W, b. 1999-03-25); the SAM-for-NZL mismatch is logged as a maintainer exception (nation_change_log, kind maintainer_exception). PWW /athlete/142039 returned no results payload 2026-11-25, so no profile listing; bound by the ruling. Sex rule: W boat, W athlete. RU168: aged 23 in 2022.",
+      "superseded": {
+        "source_printed_name": "Samalulu CLIFTON",
+        "action": "no_icf_id",
+        "source": "given_family_unique",
+        "team": "NZL",
+        "detail": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 142039 Samalulu Fuatino Te Aho CLIFTON (ICF nationality SAM / federation SAM) differs from printed NZL and profile 142039 does not list Szeged_2022_JWCH; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)",
+        "candidate_logged": {
+          "id": "142039",
+          "name": "Samalulu Fuatino Te Aho CLIFTON",
+          "birth_date": "1999-03-25",
+          "nationality": "SAM",
+          "federation": "SAM"
+        },
+        "evidence": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 142039 Samalulu Fuatino Te Aho CLIFTON (ICF nationality SAM / federation SAM) differs from printed NZL and profile 142039 does not list Szeged_2022_JWCH; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)",
+        "correction": {
+          "previous_id": "142039",
+          "new_id": "",
+          "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country"
+        },
+        "superseded_by": "RU390 (maintainer, 2026-11-22; race-desk RULINGS.md @ 48668b8; t135u)",
+        "superseded_at_utc": "2026-11-25T21:37:25Z"
       },
-      "evidence": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 142039 Samalulu Fuatino Te Aho CLIFTON (ICF nationality SAM / federation SAM) differs from printed NZL and profile 142039 does not list Szeged_2022_JWCH; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)",
-      "correction": {
-        "previous_id": "142039",
-        "new_id": "",
-        "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country"
-      }
+      "new_id": "142039"
     },
     {
       "results_row": 354,
@@ -33966,23 +33992,36 @@
       "results_row": 847,
       "seat": "ICF_ID1",
       "source_printed_name": "Samalulu CLIFTON",
-      "action": "no_icf_id",
-      "source": "given_family_unique",
+      "action": "corrected",
+      "source": "ruling",
       "team": "NZL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 142039 Samalulu Fuatino Te Aho CLIFTON (ICF nationality SAM / federation SAM) differs from printed NZL and profile 142039 does not list Szeged_2022_JWCH; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)",
-      "candidate_logged": {
-        "id": "142039",
-        "name": "Samalulu Fuatino Te Aho CLIFTON",
-        "birth_date": "1999-03-25",
-        "nationality": "SAM",
-        "federation": "SAM"
+      "detail": "RU390 (maintainer, 2026-11-22; race-desk RULINGS.md @ 48668b8; t135u): CLIFTON Samalulu is ICF athlete 142039; the empty ICF_ID1 seat of the NZL women's U23 K2 500 m boat beside MATEHAERE Lucy 87305 (heat 1, lane 2, 12:45:00) is bound to it, as the ruling names (final B 09:15 lane 7; the heat and semifinal rows alike). 142039 = CLIFTON Samalulu Fuatino Te Aho (ICF nationality/federation SAM, W, b. 1999-03-25); the SAM-for-NZL mismatch is logged as a maintainer exception (nation_change_log, kind maintainer_exception). PWW /athlete/142039 returned no results payload 2026-11-25, so no profile listing; bound by the ruling. Sex rule: W boat, W athlete. RU168: aged 23 in 2022.",
+      "nation_exception": "SAM-for-NZL (RU390)",
+      "icf_list": "bence 2026-11-25T21:23:03Z sha256 14f852038643 (28909 records)",
+      "evidence": "RU390 (maintainer, 2026-11-22; race-desk RULINGS.md @ 48668b8; t135u): CLIFTON Samalulu is ICF athlete 142039; the empty ICF_ID1 seat of the NZL women's U23 K2 500 m boat beside MATEHAERE Lucy 87305 (heat 1, lane 2, 12:45:00) is bound to it, as the ruling names (final B 09:15 lane 7; the heat and semifinal rows alike). 142039 = CLIFTON Samalulu Fuatino Te Aho (ICF nationality/federation SAM, W, b. 1999-03-25); the SAM-for-NZL mismatch is logged as a maintainer exception (nation_change_log, kind maintainer_exception). PWW /athlete/142039 returned no results payload 2026-11-25, so no profile listing; bound by the ruling. Sex rule: W boat, W athlete. RU168: aged 23 in 2022.",
+      "superseded": {
+        "source_printed_name": "Samalulu CLIFTON",
+        "action": "no_icf_id",
+        "source": "given_family_unique",
+        "team": "NZL",
+        "detail": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 142039 Samalulu Fuatino Te Aho CLIFTON (ICF nationality SAM / federation SAM) differs from printed NZL and profile 142039 does not list Szeged_2022_JWCH; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)",
+        "candidate_logged": {
+          "id": "142039",
+          "name": "Samalulu Fuatino Te Aho CLIFTON",
+          "birth_date": "1999-03-25",
+          "nationality": "SAM",
+          "federation": "SAM"
+        },
+        "evidence": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 142039 Samalulu Fuatino Te Aho CLIFTON (ICF nationality SAM / federation SAM) differs from printed NZL and profile 142039 does not list Szeged_2022_JWCH; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)",
+        "correction": {
+          "previous_id": "142039",
+          "new_id": "",
+          "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country"
+        },
+        "superseded_by": "RU390 (maintainer, 2026-11-22; race-desk RULINGS.md @ 48668b8; t135u)",
+        "superseded_at_utc": "2026-11-25T21:37:25Z"
       },
-      "evidence": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 142039 Samalulu Fuatino Te Aho CLIFTON (ICF nationality SAM / federation SAM) differs from printed NZL and profile 142039 does not list Szeged_2022_JWCH; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)",
-      "correction": {
-        "previous_id": "142039",
-        "new_id": "",
-        "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country"
-      }
+      "new_id": "142039"
     },
     {
       "results_row": 847,
@@ -37989,23 +38028,36 @@
       "results_row": 1098,
       "seat": "ICF_ID1",
       "source_printed_name": "Samalulu CLIFTON",
-      "action": "no_icf_id",
-      "source": "given_family_unique",
+      "action": "corrected",
+      "source": "ruling",
       "team": "NZL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 142039 Samalulu Fuatino Te Aho CLIFTON (ICF nationality SAM / federation SAM) differs from printed NZL and profile 142039 does not list Szeged_2022_JWCH; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)",
-      "candidate_logged": {
-        "id": "142039",
-        "name": "Samalulu Fuatino Te Aho CLIFTON",
-        "birth_date": "1999-03-25",
-        "nationality": "SAM",
-        "federation": "SAM"
+      "detail": "RU390 (maintainer, 2026-11-22; race-desk RULINGS.md @ 48668b8; t135u): CLIFTON Samalulu is ICF athlete 142039; the empty ICF_ID1 seat of the NZL women's U23 K2 500 m boat beside MATEHAERE Lucy 87305 (semifinal 1, lane 1, 16:55:00) is bound to it, as the ruling names (final B 09:15 lane 7; the heat and semifinal rows alike). 142039 = CLIFTON Samalulu Fuatino Te Aho (ICF nationality/federation SAM, W, b. 1999-03-25); the SAM-for-NZL mismatch is logged as a maintainer exception (nation_change_log, kind maintainer_exception). PWW /athlete/142039 returned no results payload 2026-11-25, so no profile listing; bound by the ruling. Sex rule: W boat, W athlete. RU168: aged 23 in 2022.",
+      "nation_exception": "SAM-for-NZL (RU390)",
+      "icf_list": "bence 2026-11-25T21:23:03Z sha256 14f852038643 (28909 records)",
+      "evidence": "RU390 (maintainer, 2026-11-22; race-desk RULINGS.md @ 48668b8; t135u): CLIFTON Samalulu is ICF athlete 142039; the empty ICF_ID1 seat of the NZL women's U23 K2 500 m boat beside MATEHAERE Lucy 87305 (semifinal 1, lane 1, 16:55:00) is bound to it, as the ruling names (final B 09:15 lane 7; the heat and semifinal rows alike). 142039 = CLIFTON Samalulu Fuatino Te Aho (ICF nationality/federation SAM, W, b. 1999-03-25); the SAM-for-NZL mismatch is logged as a maintainer exception (nation_change_log, kind maintainer_exception). PWW /athlete/142039 returned no results payload 2026-11-25, so no profile listing; bound by the ruling. Sex rule: W boat, W athlete. RU168: aged 23 in 2022.",
+      "superseded": {
+        "source_printed_name": "Samalulu CLIFTON",
+        "action": "no_icf_id",
+        "source": "given_family_unique",
+        "team": "NZL",
+        "detail": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 142039 Samalulu Fuatino Te Aho CLIFTON (ICF nationality SAM / federation SAM) differs from printed NZL and profile 142039 does not list Szeged_2022_JWCH; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)",
+        "candidate_logged": {
+          "id": "142039",
+          "name": "Samalulu Fuatino Te Aho CLIFTON",
+          "birth_date": "1999-03-25",
+          "nationality": "SAM",
+          "federation": "SAM"
+        },
+        "evidence": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 142039 Samalulu Fuatino Te Aho CLIFTON (ICF nationality SAM / federation SAM) differs from printed NZL and profile 142039 does not list Szeged_2022_JWCH; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)",
+        "correction": {
+          "previous_id": "142039",
+          "new_id": "",
+          "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country"
+        },
+        "superseded_by": "RU390 (maintainer, 2026-11-22; race-desk RULINGS.md @ 48668b8; t135u)",
+        "superseded_at_utc": "2026-11-25T21:37:25Z"
       },
-      "evidence": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 142039 Samalulu Fuatino Te Aho CLIFTON (ICF nationality SAM / federation SAM) differs from printed NZL and profile 142039 does not list Szeged_2022_JWCH; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)",
-      "correction": {
-        "previous_id": "142039",
-        "new_id": "",
-        "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country"
-      }
+      "new_id": "142039"
     },
     {
       "results_row": 1098,
@@ -40185,23 +40237,36 @@
       "results_row": 1215,
       "seat": "ICF_ID1",
       "source_printed_name": "Samalulu CLIFTON",
-      "action": "no_icf_id",
-      "source": "given_family_unique",
+      "action": "corrected",
+      "source": "ruling",
       "team": "NZL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 142039 Samalulu Fuatino Te Aho CLIFTON (ICF nationality SAM / federation SAM) differs from printed NZL and profile 142039 does not list Szeged_2022_JWCH; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)",
-      "candidate_logged": {
-        "id": "142039",
-        "name": "Samalulu Fuatino Te Aho CLIFTON",
-        "birth_date": "1999-03-25",
-        "nationality": "SAM",
-        "federation": "SAM"
+      "detail": "RU390 (maintainer, 2026-11-22; race-desk RULINGS.md @ 48668b8; t135u) with Gate 4 and the same-id-across-a-meeting rule (maintainer 2026-10-15: refill no_icf_id seats of that printed name + Team): the same printed 'Samalulu CLIFTON' (NZL) in the women's U23 K1 200 m (final B) takes the meeting's id 142039. Not named by RU390 itself; put on the PR as a question. 142039 = CLIFTON Samalulu Fuatino Te Aho (ICF nationality/federation SAM, W, b. 1999-03-25); the SAM-for-NZL mismatch is logged as a maintainer exception (nation_change_log, kind maintainer_exception). PWW /athlete/142039 returned no results payload 2026-11-25, so no profile listing; bound by the ruling. Sex rule: W boat, W athlete. RU168: aged 23 in 2022.",
+      "nation_exception": "SAM-for-NZL (RU390)",
+      "icf_list": "bence 2026-11-25T21:23:03Z sha256 14f852038643 (28909 records)",
+      "evidence": "RU390 (maintainer, 2026-11-22; race-desk RULINGS.md @ 48668b8; t135u) with Gate 4 and the same-id-across-a-meeting rule (maintainer 2026-10-15: refill no_icf_id seats of that printed name + Team): the same printed 'Samalulu CLIFTON' (NZL) in the women's U23 K1 200 m (final B) takes the meeting's id 142039. Not named by RU390 itself; put on the PR as a question. 142039 = CLIFTON Samalulu Fuatino Te Aho (ICF nationality/federation SAM, W, b. 1999-03-25); the SAM-for-NZL mismatch is logged as a maintainer exception (nation_change_log, kind maintainer_exception). PWW /athlete/142039 returned no results payload 2026-11-25, so no profile listing; bound by the ruling. Sex rule: W boat, W athlete. RU168: aged 23 in 2022.",
+      "superseded": {
+        "source_printed_name": "Samalulu CLIFTON",
+        "action": "no_icf_id",
+        "source": "given_family_unique",
+        "team": "NZL",
+        "detail": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 142039 Samalulu Fuatino Te Aho CLIFTON (ICF nationality SAM / federation SAM) differs from printed NZL and profile 142039 does not list Szeged_2022_JWCH; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)",
+        "candidate_logged": {
+          "id": "142039",
+          "name": "Samalulu Fuatino Te Aho CLIFTON",
+          "birth_date": "1999-03-25",
+          "nationality": "SAM",
+          "federation": "SAM"
+        },
+        "evidence": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 142039 Samalulu Fuatino Te Aho CLIFTON (ICF nationality SAM / federation SAM) differs from printed NZL and profile 142039 does not list Szeged_2022_JWCH; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)",
+        "correction": {
+          "previous_id": "142039",
+          "new_id": "",
+          "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country"
+        },
+        "superseded_by": "RU390 (maintainer, 2026-11-22; race-desk RULINGS.md @ 48668b8; t135u)",
+        "superseded_at_utc": "2026-11-25T21:37:25Z"
       },
-      "evidence": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 142039 Samalulu Fuatino Te Aho CLIFTON (ICF nationality SAM / federation SAM) differs from printed NZL and profile 142039 does not list Szeged_2022_JWCH; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)",
-      "correction": {
-        "previous_id": "142039",
-        "new_id": "",
-        "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country"
-      }
+      "new_id": "142039"
     },
     {
       "results_row": 1216,
@@ -48730,23 +48795,36 @@
       "results_row": 1742,
       "seat": "ICF_ID1",
       "source_printed_name": "Samalulu CLIFTON",
-      "action": "no_icf_id",
-      "source": "given_family_unique",
+      "action": "corrected",
+      "source": "ruling",
       "team": "NZL",
-      "detail": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 142039 Samalulu Fuatino Te Aho CLIFTON (ICF nationality SAM / federation SAM) differs from printed NZL and profile 142039 does not list Szeged_2022_JWCH; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)",
-      "candidate_logged": {
-        "id": "142039",
-        "name": "Samalulu Fuatino Te Aho CLIFTON",
-        "birth_date": "1999-03-25",
-        "nationality": "SAM",
-        "federation": "SAM"
+      "detail": "RU390 (maintainer, 2026-11-22; race-desk RULINGS.md @ 48668b8; t135u): CLIFTON Samalulu is ICF athlete 142039; the empty ICF_ID1 seat of the NZL women's U23 K2 500 m boat beside MATEHAERE Lucy 87305 (final B, lane 7, 09:15:00) is bound to it, as the ruling names (final B 09:15 lane 7; the heat and semifinal rows alike). 142039 = CLIFTON Samalulu Fuatino Te Aho (ICF nationality/federation SAM, W, b. 1999-03-25); the SAM-for-NZL mismatch is logged as a maintainer exception (nation_change_log, kind maintainer_exception). PWW /athlete/142039 returned no results payload 2026-11-25, so no profile listing; bound by the ruling. Sex rule: W boat, W athlete. RU168: aged 23 in 2022.",
+      "nation_exception": "SAM-for-NZL (RU390)",
+      "icf_list": "bence 2026-11-25T21:23:03Z sha256 14f852038643 (28909 records)",
+      "evidence": "RU390 (maintainer, 2026-11-22; race-desk RULINGS.md @ 48668b8; t135u): CLIFTON Samalulu is ICF athlete 142039; the empty ICF_ID1 seat of the NZL women's U23 K2 500 m boat beside MATEHAERE Lucy 87305 (final B, lane 7, 09:15:00) is bound to it, as the ruling names (final B 09:15 lane 7; the heat and semifinal rows alike). 142039 = CLIFTON Samalulu Fuatino Te Aho (ICF nationality/federation SAM, W, b. 1999-03-25); the SAM-for-NZL mismatch is logged as a maintainer exception (nation_change_log, kind maintainer_exception). PWW /athlete/142039 returned no results payload 2026-11-25, so no profile listing; bound by the ruling. Sex rule: W boat, W athlete. RU168: aged 23 in 2022.",
+      "superseded": {
+        "source_printed_name": "Samalulu CLIFTON",
+        "action": "no_icf_id",
+        "source": "given_family_unique",
+        "team": "NZL",
+        "detail": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 142039 Samalulu Fuatino Te Aho CLIFTON (ICF nationality SAM / federation SAM) differs from printed NZL and profile 142039 does not list Szeged_2022_JWCH; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)",
+        "candidate_logged": {
+          "id": "142039",
+          "name": "Samalulu Fuatino Te Aho CLIFTON",
+          "birth_date": "1999-03-25",
+          "nationality": "SAM",
+          "federation": "SAM"
+        },
+        "evidence": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 142039 Samalulu Fuatino Te Aho CLIFTON (ICF nationality SAM / federation SAM) differs from printed NZL and profile 142039 does not list Szeged_2022_JWCH; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)",
+        "correction": {
+          "previous_id": "142039",
+          "new_id": "",
+          "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country"
+        },
+        "superseded_by": "RU390 (maintainer, 2026-11-22; race-desk RULINGS.md @ 48668b8; t135u)",
+        "superseded_at_utc": "2026-11-25T21:37:25Z"
       },
-      "evidence": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country: candidate 142039 Samalulu Fuatino Te Aho CLIFTON (ICF nationality SAM / federation SAM) differs from printed NZL and profile 142039 does not list Szeged_2022_JWCH; no_icf_id with the candidate logged | resolver: Kind F (no_icf_id): 0 matching records in ICF/PWW for Samalulu CLIFTON (NZL, W)",
-      "correction": {
-        "previous_id": "142039",
-        "new_id": "",
-        "rule": "MAINTAINER_ANSWERS_2026-10-24 RU166 cross-country"
-      }
+      "new_id": "142039"
     },
     {
       "results_row": 1742,
@@ -58858,12 +58936,12 @@
     {
       "kind": "xlsx",
       "name": "Szeged_2022_JWCH_Results.xlsx",
-      "sha256": "e54e1ecd46f0b25ff776035a1d35b70e8a04311c65f7bf0b2ed8369bbda15ef5",
-      "bytes": 222744
+      "sha256": "88e97b3d3102dfa10f0aff303cee3456f08b85e53d11372fd2133e3d7e96ae19",
+      "bytes": 222828
     }
   ],
   "output_xlsx": "Szeged_2022_JWCH_Results.xlsx",
-  "output_xlsx_sha256": "e54e1ecd46f0b25ff776035a1d35b70e8a04311c65f7bf0b2ed8369bbda15ef5",
+  "output_xlsx_sha256": "88e97b3d3102dfa10f0aff303cee3456f08b85e53d11372fd2133e3d7e96ae19",
   "checks": {
     "start-times": "pass",
     "phases": "pass",
@@ -58915,7 +58993,7 @@
       }
     }
   },
-  "updated_at": "2026-11-03T11:38:47Z",
+  "updated_at": "2026-11-25T21:37:25Z",
   "name_change_log": [
     {
       "results_row": 30,
@@ -59374,6 +59452,24 @@
         2445
       ],
       "note": "MAINTAINER_ANSWERS_2026-11-03 t117u item 3: same athlete, moving from UKR to ESP; printed UKR at Szeged 2022 (id issued after this event); ICF list and PWW profile ESP today. Id bound and printed nation kept, logged. MAINTAINER_ANSWERS_2026-11-03 t117u item 3 (2026-11-03 12:36 CET): \"Szeged_2022_JWCH: bind 133078 on Viktoriia YARCHEVSKA's 4 seats, with UKR → ESP logged. It is the same person, moving from UKR to ESP. Her id was issued after this event, and at Auronzo 2023 the ICF prints 133078 as \\\"Viktoriia YARCHEVSKA\\\". One pull request.\""
+    },
+    {
+      "id": "142039",
+      "name": "Samalulu CLIFTON",
+      "printed_team": "NZL",
+      "profile_noc": "SAM",
+      "seats": 6,
+      "results_rows": [
+        53,
+        353,
+        847,
+        1098,
+        1215,
+        1742
+      ],
+      "kind": "maintainer_exception",
+      "note": "RU390 (maintainer, 2026-11-22; race-desk RULINGS.md @ 48668b8; t135u): SAM-for-NZL logged as a maintainer exception, not a nation change: the row keeps the printed team NZL; 142039 is CLIFTON Samalulu Fuatino Te Aho (ICF nationality and federation SAM, b. 1999-03-25). Rows 847, 1098, 1742 are the ruling's K2 500 m seats; rows 53, 353, 1215 (K1 200 m) follow by Gate 4 / same id across a meeting.",
+      "at_utc": "2026-11-25T21:37:25Z"
     }
   ],
   "corrections_log": [
