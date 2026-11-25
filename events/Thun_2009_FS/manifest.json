@@ -14,19 +14,20 @@
  "start_times": "scheduled",
  "start_times_kind": "block",
  "generated_at_utc": "2026-11-11T13:57:12Z",
- "updated_at": "2026-11-19T08:51:25Z",
+ "updated_at": "2026-11-25T21:23:40Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "Thun_2009_FS_start.xlsx",
-   "sha256": "e3da6014d2021956861593d4c9a62c18fb33cdb592e96b6c2cd7411f4b806eae"
+   "sha256": "c82b70facde03661a8ef6f804e40323aa2b876d2752cbcceca0cb3215140fe62"
   }
  ],
  "row_count": 420,
  "authority": [
   "Maintainer 2026-11-11 (t158u/pt158u): freestyle Worlds sheets.",
   "Maintainer 2026-11-19 (t163u), in the Race Desk Lab chat: \"#51 Thun_2009_FS. My ruling RU349 stands: build Thun 2009 from bayak.com on this pull request, not as the empty placeholder. The head `9aeda94` still holds 0 rows. Build the rows, push a new head, and run your own check there.\"",
-  "RU329 (RULINGS.md): new source hosts usable on the history loop where no better source exists; names bayak.com for #51. RU349 is not in race-desk RULINGS.md at ae2c091 (it is on this PR as comment 6973656094)."
+  "RU329 (RULINGS.md): new source hosts usable on the history loop where no better source exists. RU349 (RULINGS.md, now at race-desk main e6cc75c): Thun 2009 is built from bayak.com.",
+  "RU418 (RULINGS.md, race-desk main e6cc75c; maintainer 2026-11-22; relayed in the Race Desk Lab chat t164u, 2026-11-25): \"Thun 2009 freestyle (#51): the revised (NEW) programme; the squirt finals stay 3 September 19:00, the news item's \"this morning\" logged; C1 is M; the names in the order built; Hinkel Thomas → 46159; and Open Canoe is written M (men) too.\""
  ],
  "source": {
   "authority": "Maintainer 2026-11-11 (t158u/pt158u, pt159u): freestyle Worlds sheets; adding freestyle to the contract's disciplines is covered by that message.",
@@ -375,7 +376,7 @@
    "kind": "heat",
    "race_number": 10,
    "rows": 5,
-   "note": "programme (NEW) Do. 3. September 19:00-19:20 Finale Squirt",
+   "note": "programme (NEW) Do. 3. September 19:00-19:20 Finale Squirt; RU418: kept at 3 Sep 19:00 although the organiser news 'Erste Weltmeister stehen fest!' says the squirt titles were decided 'heute Vormittag' (this morning)",
    "source": "programme (NEW)"
   },
   {
@@ -387,7 +388,7 @@
    "kind": "heat",
    "race_number": 11,
    "rows": 5,
-   "note": "programme (NEW) Do. 3. September 19:00-19:20 Finale Squirt",
+   "note": "programme (NEW) Do. 3. September 19:00-19:20 Finale Squirt; RU418: kept at 3 Sep 19:00 although the organiser news 'Erste Weltmeister stehen fest!' says the squirt titles were decided 'heute Vormittag' (this morning)",
    "source": "programme (NEW)"
   },
   {
@@ -680,10 +681,10 @@
  "class_map": {
   "K1 Men": "M SENIOR K1",
   "K1 Women": "W SENIOR K1",
-  "C1": "M SENIOR C1 (finals printed 'Finals C1 Herren'; the revised programme's semifinal reads 'C1 unisex')",
+  "C1": "M SENIOR C1 (RU418: C1 is M; finals printed 'Finals C1 Herren', the revised programme's semifinal reads 'C1 unisex')",
   "K1 Junior Men": "M JUNIOR K1",
   "K1 Junior Women": "W JUNIOR K1",
-  "OC1": "X SENIOR C1 Open Canoe",
+  "OC1": "M SENIOR C1 Open Canoe (RU418: Open Canoe written M)",
   "K1 Squirt Men": "M SENIOR K1 Squirt",
   "K1 Squirt Women": "W SENIOR K1 Squirt"
  },
@@ -2991,13 +2992,15 @@
    "source_printed_name": "Hinkel Thomas",
    "team": "GER",
    "event": "K1 Men",
-   "action": "no_icf_id",
-   "new_id": "",
-   "detail": "tie the rules cannot break: 46159 born 1987-07-30; 127310 born 1973-06-17; neither profile lists the meeting (paddleworldwide.com/athlete/46159 lists freestyle 2014-2023, /127310 lists no competition; fetched 2026-11-19)",
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "46159",
+   "detail": "RU418 (maintainer 2026-11-22): Hinkel Thomas -> 46159. Before the ruling: tie the rules cannot break: 46159 born 1987-07-30; 127310 born 1973-06-17; neither profile lists the meeting (paddleworldwide.com/athlete/46159 lists freestyle 2014-2023, /127310 lists no competition; fetched 2026-11-19)",
    "candidates": [
     "46159",
     "127310"
-   ]
+   ],
+   "rejected_icf_id": "127310",
+   "rejected_reason": "RU418 names 46159"
   },
   {
    "row": 67,
@@ -6906,8 +6909,8 @@
   }
  ],
  "id_summary": {
-  "bound_by_name_unconfirmed": 127,
-  "no_icf_id": 293
+  "bound_by_name_unconfirmed": 128,
+  "no_icf_id": 292
  },
  "id_checks_note": "2008-2012 rule: bind by name (words in any order, accents and case ignored) + nation + gender against the ICF list and race-desk legacy/paddletagger/names.json @ ae2c091, logged bound_by_name_unconfirmed; no_icf_id where no athlete of the boat's country carries the printed name; one entry per row (single seat). Same printed name + Team bound the same on every row.",
  "shared_clock_log": [
@@ -6951,13 +6954,72 @@
    "reason": "programme prints one block for these rounds; order inside the block not published"
   }
  ],
- "issues": [],
- "pending_maintainer": [
-  "Times: the revised programme (archived 2010-02-10, marked NEW) is used over the 2009-08-04 version (prelims 10:00 vs 08:45, squirt 15:00/19:00 vs 12:00/15:00, quarterfinals 4 Sep 13:10 vs 08:45). Right version?",
-  "Squirt finals: the programme puts them on Thu 3 Sep 19:00, but the organiser news 'Erste Weltmeister stehen fest!' says they were decided 'heute Vormittag' (this morning); written 3 Sep 19:00:00. Squirt Men's semifinal (no programme slot) is written in the 3 Sep 15:00 qualification block.",
-  "C1 Gender M (finals 'C1 Herren'); the revised programme calls the semifinal 'C1 unisex' (Ottawa 2015 used X). M or X?",
-  "Name order: bayak.com prints mostly 'Family Given'; 12 given-first prints were turned by ICF given-name counts and the rest kept family-first (name_format_log). Truncated prints (e.g. 'Bergeron Proulx Francoi', 'Milarezi David Stefan Se', 'GARCIA RIBERAYGU', 'ANDERSCH-HARTNER') kept as printed.",
-  "Hinkel Thomas (GER, K1 Men): two ICF athletes of that name (46159 born 1987, 127310 born 1973), neither profile lists 2009; no_icf_id with both logged.",
+ "issues": [
   "Grade FAIL SCHEDULE_MISSING as Plattling 2011: prelim/quarterfinal heats carry only a programme block start; one race per round because heat membership and ride counts are not published (results_missing)."
+ ],
+ "pending_maintainer": [],
+ "ruling_log": [
+  {
+   "ruling": "RU418",
+   "item": "programme",
+   "applied": "revised (NEW) programme kept for every slot, as built"
+  },
+  {
+   "ruling": "RU418",
+   "item": "squirt finals",
+   "applied": "K1 Squirt Men/Women finals (races 10, 11) stay 2009-09-03 19:00:00; the organiser news item 'Erste Weltmeister stehen fest!' (archived https://web.archive.org/web/20110525114057id_/http://www.icf-thun2009.ch/index.php/athleten/wettkampf-news.html) says the squirt titles were decided 'heute Vormittag' (this morning); logged, not written"
+  },
+  {
+   "ruling": "RU418",
+   "item": "C1 gender",
+   "applied": "C1 Gender M on all 39 rows, unchanged (already M)"
+  },
+  {
+   "ruling": "RU418",
+   "item": "Open Canoe gender",
+   "applied": "Gender X -> M on the 27 Open Canoe rows (187-197, 331-341, 392-396)",
+   "cells": [
+    "A187",
+    "A188",
+    "A189",
+    "A190",
+    "A191",
+    "A192",
+    "A193",
+    "A194",
+    "A195",
+    "A196",
+    "A197",
+    "A331",
+    "A332",
+    "A333",
+    "A334",
+    "A335",
+    "A336",
+    "A337",
+    "A338",
+    "A339",
+    "A340",
+    "A341",
+    "A392",
+    "A393",
+    "A394",
+    "A395",
+    "A396"
+   ]
+  },
+  {
+   "ruling": "RU418",
+   "item": "names",
+   "applied": "names kept in the order built (name_format_log)"
+  },
+  {
+   "ruling": "RU418",
+   "item": "Hinkel Thomas",
+   "applied": "row 66 ICF_ID1 bound 46159 (was no_icf_id, tie 46159/127310)",
+   "cells": [
+    "X66"
+   ]
+  }
  ]
 }
