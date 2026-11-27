@@ -9,13 +9,13 @@
  "sheet": "Bratislava_2012_WC_start.xlsx",
  "grade": "PERFECT",
  "gaps": [],
- "generated_at_utc": "2026-10-15T13:00:37Z",
- "updated_at": "2026-10-15T13:02:53Z",
+ "generated_at_utc": "2026-11-25T21:28:39Z",
+ "updated_at": "2026-11-27T18:15:38Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "Bratislava_2012_WC_start.xlsx",
-   "sha256": "07abb8b2bd00543cca26d2cd15abd49234daef33ac2f9919daae47a9d5b68f13"
+   "sha256": "d778c66c3cb6de70a161a234cf278709a8fac48c155b8edc1232cf6e563d353a"
   }
  ],
  "row_count": 589,
@@ -171,8 +171,11 @@
    "printed_name": "KULIKOV Aleksandr",
    "source": "123result Start List PDF (CS_2012/siwidata/208/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
    "published_id": "",
-   "action": "no_icf_id",
-   "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+   "action": "bound_by_name_unconfirmed",
+   "detail": "RU314/RU346 (race-desk main 48668b8): C1 M KAZ bib 38 heats 1 (C1M_HT1_31, sha256 1c95a68c4987...); printed KULIKOV Aleksandr, KAZ; names.json (race-desk main 48668b8) lists KULIKOV Aleksandr as a former name of 39679 KULIKOV Alexandr (KAZ, M, b. 1997-10-26) and keyword `kulikov aleksandr` -> 39679 (RU197); exactly one KAZ athlete carries these words (ICF athlete copy fetchApi/bence fetched 2026-11-27T18:14:12Z); a name-file bind (RU346); 14 on the day; profiles list no result before 2013, so bound by name+nation+gender, unconfirmed (contract); single seat bound with his crew seats so one printed name carries one bind at this meeting",
+   "new_id": "39679",
+   "previous_action": "no_icf_id",
+   "previous_detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
   },
   {
    "row": 19,
@@ -545,8 +548,11 @@
    "printed_name": "KULIKOV Aleksandr",
    "source": "123result Start List PDF (CS_2012/siwidata/208/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
    "published_id": "",
-   "action": "no_icf_id",
-   "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+   "action": "bound_by_name_unconfirmed",
+   "detail": "RU314/RU346 (race-desk main 48668b8): C1 M KAZ bib 38 heats 2 (C1M_HT2_31, sha256 1c95a68c4987...); printed KULIKOV Aleksandr, KAZ; names.json (race-desk main 48668b8) lists KULIKOV Aleksandr as a former name of 39679 KULIKOV Alexandr (KAZ, M, b. 1997-10-26) and keyword `kulikov aleksandr` -> 39679 (RU197); exactly one KAZ athlete carries these words (ICF athlete copy fetchApi/bence fetched 2026-11-27T18:14:12Z); a name-file bind (RU346); 14 on the day; profiles list no result before 2013, so bound by name+nation+gender, unconfirmed (contract); single seat bound with his crew seats so one printed name carries one bind at this meeting",
+   "new_id": "39679",
+   "previous_action": "no_icf_id",
+   "previous_detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
   },
   {
    "row": 137,
@@ -1213,11 +1219,18 @@
    "row": 507,
    "seat": "ICF_ID1",
    "printed_name": "HOSKOVA Katerina",
-   "source": "123result Start List PDF (CS_2012/siwidata/208/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
-   "published_id": "",
+   "source": "race-desk legacy/paddletagger/names.json @ 48668b8: 35048 HAVLICKOVA Katerina (CZE, W, b. 1985-01-05), former name HOSKOVA Katerina; keyword 'hoskova katerina' -> 35048 (RU353)",
+   "published_id": "51792",
    "action": "bound_by_name_unconfirmed",
-   "new_id": "51792",
-   "detail": "2012: ICF profiles do not list results before 2013; bound by name+nation+gender to 51792, unconfirmed (contract)"
+   "new_id": "35048",
+   "detail": "RU405 rebind: 51792 (DUSKOVA Katerina, b. 1998) -> 35048 (HAVLICKOVA Katerina, b. 1985-01-05, formerly HOSKOVA); RU405 (RULINGS.md at race-desk main 48668b8): HOSKOVA Katerina is 35048 (HAVLICKOVA Katerina, b. 1985-01-05; Canoe123 XML of Cardiff 2012 gives 35048); maintainer message t164u, 2026-11-25",
+   "prev_action": "bound_by_name_unconfirmed",
+   "ruling": "RU405",
+   "correction": {
+    "previous_id": "51792",
+    "new_id": "35048",
+    "rule": "RU405"
+   }
   },
   {
    "row": 508,
@@ -1443,11 +1456,18 @@
    "row": 133,
    "seat": "ICF_ID1",
    "printed_name": "HOSKOVA Katerina",
-   "source": "123result Start List PDF (CS_2012/siwidata/208/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
-   "published_id": "",
+   "source": "race-desk legacy/paddletagger/names.json @ 48668b8: 35048 HAVLICKOVA Katerina (CZE, W, b. 1985-01-05), former name HOSKOVA Katerina; keyword 'hoskova katerina' -> 35048 (RU353)",
+   "published_id": "51792",
    "action": "bound_by_name_unconfirmed",
-   "new_id": "51792",
-   "detail": "2012: ICF profiles do not list results before 2013; bound by name+nation+gender to 51792, unconfirmed (contract)"
+   "new_id": "35048",
+   "detail": "RU405 rebind: 51792 (DUSKOVA Katerina, b. 1998) -> 35048 (HAVLICKOVA Katerina, b. 1985-01-05, formerly HOSKOVA); RU405 (RULINGS.md at race-desk main 48668b8): HOSKOVA Katerina is 35048 (HAVLICKOVA Katerina, b. 1985-01-05; Canoe123 XML of Cardiff 2012 gives 35048); maintainer message t164u, 2026-11-25",
+   "prev_action": "bound_by_name_unconfirmed",
+   "ruling": "RU405",
+   "correction": {
+    "previous_id": "51792",
+    "new_id": "35048",
+    "rule": "RU405"
+   }
   },
   {
    "row": 134,
@@ -1607,11 +1627,18 @@
    "row": 251,
    "seat": "ICF_ID1",
    "printed_name": "HOSKOVA Katerina",
-   "source": "123result Start List PDF (CS_2012/siwidata/208/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
-   "published_id": "",
+   "source": "race-desk legacy/paddletagger/names.json @ 48668b8: 35048 HAVLICKOVA Katerina (CZE, W, b. 1985-01-05), former name HOSKOVA Katerina; keyword 'hoskova katerina' -> 35048 (RU353)",
+   "published_id": "51792",
    "action": "bound_by_name_unconfirmed",
-   "new_id": "51792",
-   "detail": "2012: ICF profiles do not list results before 2013; bound by name+nation+gender to 51792, unconfirmed (contract)"
+   "new_id": "35048",
+   "detail": "RU405 rebind: 51792 (DUSKOVA Katerina, b. 1998) -> 35048 (HAVLICKOVA Katerina, b. 1985-01-05, formerly HOSKOVA); RU405 (RULINGS.md at race-desk main 48668b8): HOSKOVA Katerina is 35048 (HAVLICKOVA Katerina, b. 1985-01-05; Canoe123 XML of Cardiff 2012 gives 35048); maintainer message t164u, 2026-11-25",
+   "prev_action": "bound_by_name_unconfirmed",
+   "ruling": "RU405",
+   "correction": {
+    "previous_id": "51792",
+    "new_id": "35048",
+    "rule": "RU405"
+   }
   },
   {
    "row": 252,
@@ -1684,11 +1711,18 @@
    "row": 475,
    "seat": "ICF_ID1",
    "printed_name": "HOSKOVA Katerina",
-   "source": "123result Start List PDF (CS_2012/siwidata/208/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
-   "published_id": "",
+   "source": "race-desk legacy/paddletagger/names.json @ 48668b8: 35048 HAVLICKOVA Katerina (CZE, W, b. 1985-01-05), former name HOSKOVA Katerina; keyword 'hoskova katerina' -> 35048 (RU353)",
+   "published_id": "51792",
    "action": "bound_by_name_unconfirmed",
-   "new_id": "51792",
-   "detail": "2012: ICF profiles do not list results before 2013; bound by name+nation+gender to 51792, unconfirmed (contract)"
+   "new_id": "35048",
+   "detail": "RU405 rebind: 51792 (DUSKOVA Katerina, b. 1998) -> 35048 (HAVLICKOVA Katerina, b. 1985-01-05, formerly HOSKOVA); RU405 (RULINGS.md at race-desk main 48668b8): HOSKOVA Katerina is 35048 (HAVLICKOVA Katerina, b. 1985-01-05; Canoe123 XML of Cardiff 2012 gives 35048); maintainer message t164u, 2026-11-25",
+   "prev_action": "bound_by_name_unconfirmed",
+   "ruling": "RU405",
+   "correction": {
+    "previous_id": "51792",
+    "new_id": "35048",
+    "rule": "RU405"
+   }
   },
   {
    "row": 476,
@@ -2030,8 +2064,11 @@
    "printed_name": "KULIKOV Aleksandr",
    "source": "123result Start List PDF (CS_2012/siwidata/208/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
    "published_id": "",
-   "action": "no_icf_id",
-   "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+   "action": "bound_by_name_unconfirmed",
+   "detail": "RU314/RU346 (race-desk main 48668b8): C2 M KAZ bib 24 heats 1 (C2M_HT1_31, sha256 43a7634195c4...), with ZINOVYEV Pavel 39682; printed KULIKOV Aleksandr, KAZ; names.json (race-desk main 48668b8) lists KULIKOV Aleksandr as a former name of 39679 KULIKOV Alexandr (KAZ, M, b. 1997-10-26) and keyword `kulikov aleksandr` -> 39679 (RU197); exactly one KAZ athlete carries these words (ICF athlete copy fetchApi/bence fetched 2026-11-27T18:14:12Z); a name-file bind (RU346); 14 on the day; profiles list no result before 2013, so bound by name+nation+gender, unconfirmed (contract)",
+   "new_id": "39679",
+   "previous_action": "no_icf_id",
+   "previous_detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
   },
   {
    "row": 256,
@@ -2520,8 +2557,11 @@
    "printed_name": "KULIKOV Aleksandr",
    "source": "123result Start List PDF (CS_2012/siwidata/208/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
    "published_id": "",
-   "action": "no_icf_id",
-   "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
+   "action": "bound_by_name_unconfirmed",
+   "detail": "RU314/RU346 (race-desk main 48668b8): C2 M KAZ bib 24 heats 2 (C2M_HT2_31, sha256 43a7634195c4...), with ZINOVYEV Pavel 39682; printed KULIKOV Aleksandr, KAZ; names.json (race-desk main 48668b8) lists KULIKOV Aleksandr as a former name of 39679 KULIKOV Alexandr (KAZ, M, b. 1997-10-26) and keyword `kulikov aleksandr` -> 39679 (RU197); exactly one KAZ athlete carries these words (ICF athlete copy fetchApi/bence fetched 2026-11-27T18:14:12Z); a name-file bind (RU346); 14 on the day; profiles list no result before 2013, so bound by name+nation+gender, unconfirmed (contract)",
+   "new_id": "39679",
+   "previous_action": "no_icf_id",
+   "previous_detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; no ICF athlete carries given+family"
   },
   {
    "row": 327,
@@ -3427,10 +3467,12 @@
    "printed_name": "NEVARILOVA Kristina",
    "source": "SIWIDATA session CS_2012/siwidata/208/ Code + paddleworldwide.com/athlete/<id>",
    "published_id": "",
-   "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 35467; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
-   "event_log": "forerunner Event C1 from next race block C1M_HT1_31 (first start 09:00:00); source prints no class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "35467",
+   "detail": "RU346 (race-desk main 48668b8): forerunner NEVARILOVA Kristina, SVK; exactly one SVK athlete carries these words: 35467 NEVARILOVA Kristina (W, b. 1991-11-09), ICF athlete copy fetchApi/bence fetched 2026-11-27T18:14:12Z; bound with row 519 so one printed name carries one bind at this meeting; 2008-2012 binds by name only (icf-csl-start-to-tagging-xls-legacy); unconfirmed (contract)",
+   "event_log": "forerunner Event C1 from next race block C1M_HT1_31 (first start 09:00:00); source prints no class",
+   "previous_action": "forerunner",
+   "previous_detail": "forerunner bound by name+nation to 35467; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)"
   },
   {
    "row": 17,
@@ -3491,10 +3533,21 @@
    "printed_name": "NEVARIL Matus",
    "source": "SIWIDATA session CS_2012/siwidata/208/ Code + paddleworldwide.com/athlete/<id>",
    "published_id": "",
-   "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 60314; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
-   "event_log": "forerunner Event C2 from next race block C2M_SF_2 (first start 09:30:00); source prints no class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "60314",
+   "detail": "RU314/RU346 (race-desk main 48668b8): forerunner (2 Sep 2012, FORERUNNERS SEMIFINAL, 123result FR_SF_2@Start List.pdf (CS_2012/siwidata/208/, sha256 e861451dc96a...)); forerunner rule binds by name+nation under the normal rules, and 2008-2012 binds by name only (icf-csl-start-to-tagging-xls-legacy), so the earlier reason 'profile does not list the class' (a 2013+ check) does not empty the seat; RU324 judges forerunner rows like any other; printed NEVARIL Matus, SVK, bib 1; exactly one SVK athlete carries these words: 60314 NEVARIL Matus (M, b. 1997-07-01), ICF athlete copy fetchApi/bence fetched 2026-11-27T18:14:12Z; name-file bind on the current name; unconfirmed (contract)",
+   "event_log": "forerunner Event C2 from next race block C2M_SF_2 (first start 09:30:00); source prints no class",
+   "previous_action": "forerunner",
+   "previous_detail": "forerunner bound by name+nation to 60314; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)"
+  },
+  {
+   "row": 517,
+   "seat": "ICF_ID2",
+   "printed_name": "CERNY Ronald",
+   "source": "123result FR_SF_2@Start List.pdf (CS_2012/siwidata/208/, sha256 e861451dc96a...)",
+   "published_id": "",
+   "action": "no_icf_id",
+   "detail": "forerunner C2 SVK bib 1, second paddler CERNY Ronald printed under NEVARIL Matus (Name2 added from the source); no ICF athlete carries the given+family name CERNY Ronald, of any country (ICF athlete copy fetchApi/bence fetched 2026-11-27T18:14:12Z: the only CERNY is 63514 Jakub CERNY, CZE; no SVK Ronald); not in names.json (race-desk main 48668b8)"
   },
   {
    "row": 518,
@@ -3502,10 +3555,22 @@
    "printed_name": "ZINOVYEV Pavel",
    "source": "SIWIDATA session CS_2012/siwidata/208/ Code + paddleworldwide.com/athlete/<id>",
    "published_id": "",
-   "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 39682; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
-   "event_log": "forerunner Event C2 from next race block C2M_SF_2 (first start 09:30:00); source prints no class"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "39682",
+   "detail": "RU314/RU346 (race-desk main 48668b8): forerunner (2 Sep 2012, FORERUNNERS SEMIFINAL, 123result FR_SF_2@Start List.pdf (CS_2012/siwidata/208/, sha256 e861451dc96a...)); forerunner rule binds by name+nation under the normal rules, and 2008-2012 binds by name only (icf-csl-start-to-tagging-xls-legacy), so the earlier reason 'profile does not list the class' (a 2013+ check) does not empty the seat; RU324 judges forerunner rows like any other; printed ZINOVYEV Pavel, KAZ, bib 2; exactly one KAZ athlete carries these words: 39682 ZINOVYEV Pavel (M, b. 1996-09-02), the id this sheet gives him on rows 58, 176, 255, 326; ICF athlete copy fetchApi/bence fetched 2026-11-27T18:14:12Z; name-file bind on the current name; unconfirmed (contract)",
+   "event_log": "forerunner Event C2 from next race block C2M_SF_2 (first start 09:30:00); source prints no class",
+   "previous_action": "forerunner",
+   "previous_detail": "forerunner bound by name+nation to 39682; Gender M from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)"
+  },
+  {
+   "row": 518,
+   "seat": "ICF_ID2",
+   "printed_name": "KULIKOV Aleksandr",
+   "source": "123result FR_SF_2@Start List.pdf (CS_2012/siwidata/208/, sha256 e861451dc96a...)",
+   "published_id": "",
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "39679",
+   "detail": "RU314/RU346 (race-desk main 48668b8): forerunner (2 Sep 2012, FORERUNNERS SEMIFINAL, 123result FR_SF_2@Start List.pdf (CS_2012/siwidata/208/, sha256 e861451dc96a...)); forerunner rule binds by name+nation under the normal rules, and 2008-2012 binds by name only (icf-csl-start-to-tagging-xls-legacy), so the earlier reason 'profile does not list the class' (a 2013+ check) does not empty the seat; RU324 judges forerunner rows like any other; forerunner C2 KAZ bib 2, second paddler KULIKOV Aleksandr printed under ZINOVYEV Pavel (Name2 added from the source); printed KULIKOV Aleksandr, KAZ; names.json (race-desk main 48668b8) lists KULIKOV Aleksandr as a former name of 39679 KULIKOV Alexandr (KAZ, M, b. 1997-10-26) and keyword `kulikov aleksandr` -> 39679 (RU197); exactly one KAZ athlete carries these words (ICF athlete copy fetchApi/bence fetched 2026-11-27T18:14:12Z); a name-file bind (RU346); 14 on the day; profiles list no result before 2013, so bound by name+nation+gender, unconfirmed (contract)"
   },
   {
    "row": 519,
@@ -3513,10 +3578,21 @@
    "printed_name": "NEVARILOVA Kristina",
    "source": "SIWIDATA session CS_2012/siwidata/208/ Code + paddleworldwide.com/athlete/<id>",
    "published_id": "",
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "35467",
+   "detail": "RU314/RU346 (race-desk main 48668b8): forerunner (2 Sep 2012, FORERUNNERS SEMIFINAL, 123result FR_SF_2@Start List.pdf (CS_2012/siwidata/208/, sha256 e861451dc96a...)); forerunner rule binds by name+nation under the normal rules, and 2008-2012 binds by name only (icf-csl-start-to-tagging-xls-legacy), so the earlier reason 'profile does not list the class' (a 2013+ check) does not empty the seat; RU324 judges forerunner rows like any other; printed NEVARILOVA Kristina, SVK, bib 3; exactly one SVK athlete carries these words: 35467 NEVARILOVA Kristina (W, b. 1991-11-09), ICF athlete copy fetchApi/bence fetched 2026-11-27T18:14:12Z; name-file bind on the current name; unconfirmed (contract)",
+   "event_log": "forerunner Event C2 from next race block C2M_SF_2 (first start 09:30:00); source prints no class",
+   "previous_action": "forerunner",
+   "previous_detail": "forerunner bound by name+nation to 35467; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)"
+  },
+  {
+   "row": 519,
+   "seat": "ICF_ID2",
+   "printed_name": "",
+   "source": "123result FR_SF_2@Start List.pdf (CS_2012/siwidata/208/, sha256 e861451dc96a...)",
+   "published_id": "",
    "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 35467; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
-   "event_log": "forerunner Event C2 from next race block C2M_SF_2 (first start 09:30:00); source prints no class"
+   "detail": "no second paddler: the source prints NEVARILOVA Kristina alone (bib 3); Name2 empty, so this seat has no athlete; its Event C2 is inferred from the next race block C2M_SF_2 (source prints no class); forerunner seat, not a gap"
   },
   {
    "row": 520,
@@ -3527,6 +3603,15 @@
    "action": "forerunner",
    "detail": "forerunner_unbound: no ICF profile for 'HRIVIKOVA Eva' 'SVK'; Gender empty, logged (maintainer 2026-10-13)",
    "event_log": "forerunner Event C2 from next race block C2M_SF_2 (first start 09:30:00); source prints no class"
+  },
+  {
+   "row": 520,
+   "seat": "ICF_ID2",
+   "printed_name": "",
+   "source": "123result FR_SF_2@Start List.pdf (CS_2012/siwidata/208/, sha256 e861451dc96a...)",
+   "published_id": "",
+   "action": "forerunner",
+   "detail": "no second paddler: the source prints HRIVIKOVA Eva alone (bib 4); Name2 empty, so this seat has no athlete; its Event C2 is inferred from the next race block C2M_SF_2 (source prints no class); forerunner seat, not a gap"
   },
   {
    "row": 2,
@@ -3610,10 +3695,12 @@
    "printed_name": "NEVARILOVA Kristina",
    "source": "SIWIDATA session CS_2012/siwidata/208/ Code + paddleworldwide.com/athlete/<id>",
    "published_id": "",
-   "action": "forerunner",
-   "new_id": "",
-   "detail": "forerunner bound by name+nation to 35467; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)",
-   "event_log": "forerunner Event empty: no class printed and no later race block that day (logged)"
+   "action": "bound_by_name_unconfirmed",
+   "new_id": "35467",
+   "detail": "RU346 (race-desk main 48668b8): forerunner NEVARILOVA Kristina, SVK; exactly one SVK athlete carries these words: 35467 NEVARILOVA Kristina (W, b. 1991-11-09), ICF athlete copy fetchApi/bence fetched 2026-11-27T18:14:12Z; bound with row 519 so one printed name carries one bind at this meeting; 2008-2012 binds by name only (icf-csl-start-to-tagging-xls-legacy); unconfirmed (contract)",
+   "event_log": "forerunner Event empty: no class printed and no later race block that day (logged)",
+   "previous_action": "forerunner",
+   "previous_detail": "forerunner bound by name+nation to 35467; Gender W from ICF profile; profile does not list the class, seat empty (forerunner, not a gap)"
   },
   {
    "row": 10,
@@ -6647,12 +6734,204 @@
   }
  ],
  "id_summary": {
-  "bound_by_name_unconfirmed": 516,
-  "no_icf_id": 129,
-  "forerunner": 24,
-  "forerunner_unbound": 6
+  "bound_by_name_unconfirmed": 526,
+  "forerunner": 21,
+  "no_icf_id": 126
  },
  "pending_maintainer": [],
  "issues": [],
- "shared_start_clash": []
+ "shared_start_clash": [],
+ "corrections_log": [
+  {
+   "row": 133,
+   "seat": "ICF_ID1",
+   "printed_name": "HOSKOVA Katerina",
+   "previous_id": "51792",
+   "new_id": "35048",
+   "rule": "RU405",
+   "at": "2026-11-25T21:28:39Z"
+  },
+  {
+   "row": 251,
+   "seat": "ICF_ID1",
+   "printed_name": "HOSKOVA Katerina",
+   "previous_id": "51792",
+   "new_id": "35048",
+   "rule": "RU405",
+   "at": "2026-11-25T21:28:39Z"
+  },
+  {
+   "row": 475,
+   "seat": "ICF_ID1",
+   "printed_name": "HOSKOVA Katerina",
+   "previous_id": "51792",
+   "new_id": "35048",
+   "rule": "RU405",
+   "at": "2026-11-25T21:28:39Z"
+  },
+  {
+   "row": 507,
+   "seat": "ICF_ID1",
+   "printed_name": "HOSKOVA Katerina",
+   "previous_id": "51792",
+   "new_id": "35048",
+   "rule": "RU405",
+   "at": "2026-11-25T21:28:39Z"
+  },
+  {
+   "row": 255,
+   "seat": "ICF_ID2",
+   "printed_name": "KULIKOV Aleksandr",
+   "previous_id": "",
+   "new_id": "39679",
+   "rule": "RU314",
+   "at": "2026-11-27T18:15:38Z"
+  },
+  {
+   "row": 326,
+   "seat": "ICF_ID2",
+   "printed_name": "KULIKOV Aleksandr",
+   "previous_id": "",
+   "new_id": "39679",
+   "rule": "RU314",
+   "at": "2026-11-27T18:15:38Z"
+  },
+  {
+   "row": 18,
+   "seat": "ICF_ID1",
+   "printed_name": "KULIKOV Aleksandr",
+   "previous_id": "",
+   "new_id": "39679",
+   "rule": "RU346",
+   "at": "2026-11-27T18:15:38Z"
+  },
+  {
+   "row": 136,
+   "seat": "ICF_ID1",
+   "printed_name": "KULIKOV Aleksandr",
+   "previous_id": "",
+   "new_id": "39679",
+   "rule": "RU346",
+   "at": "2026-11-27T18:15:38Z"
+  },
+  {
+   "row": 517,
+   "seat": "ICF_ID1",
+   "printed_name": "NEVARIL Matus",
+   "previous_id": "",
+   "new_id": "60314",
+   "rule": "RU314",
+   "at": "2026-11-27T18:15:38Z"
+  },
+  {
+   "row": 518,
+   "seat": "ICF_ID1",
+   "printed_name": "ZINOVYEV Pavel",
+   "previous_id": "",
+   "new_id": "39682",
+   "rule": "RU314",
+   "at": "2026-11-27T18:15:38Z"
+  },
+  {
+   "row": 519,
+   "seat": "ICF_ID1",
+   "printed_name": "NEVARILOVA Kristina",
+   "previous_id": "",
+   "new_id": "35467",
+   "rule": "RU314",
+   "at": "2026-11-27T18:15:38Z"
+  },
+  {
+   "row": 9,
+   "seat": "ICF_ID1",
+   "printed_name": "NEVARILOVA Kristina",
+   "previous_id": "",
+   "new_id": "35467",
+   "rule": "RU346",
+   "at": "2026-11-27T18:15:38Z"
+  },
+  {
+   "row": 16,
+   "seat": "ICF_ID1",
+   "printed_name": "NEVARILOVA Kristina",
+   "previous_id": "",
+   "new_id": "35467",
+   "rule": "RU346",
+   "at": "2026-11-27T18:15:38Z"
+  },
+  {
+   "row": 518,
+   "seat": "ICF_ID2",
+   "printed_name": "KULIKOV Aleksandr",
+   "previous_id": "",
+   "new_id": "39679",
+   "rule": "RU314",
+   "at": "2026-11-27T18:15:38Z"
+  }
+ ],
+ "ru405_log": {
+  "ruling": "RU405 (RULINGS.md at race-desk main 48668b8): HOSKOVA Katerina is 35048 (HAVLICKOVA Katerina, b. 1985-01-05; Canoe123 XML of Cardiff 2012 gives 35048); maintainer message t164u, 2026-11-25",
+  "names_json": "race-desk main 48668b8",
+  "rebound_51792_to_35048": 4,
+  "bound_35048_empty": 0,
+  "bound_35539_hayward": 0,
+  "seats": [
+   {
+    "row": 133,
+    "seat": "ICF_ID1",
+    "phase": "Heats",
+    "unit": "1",
+    "event": "C1",
+    "gender": "W",
+    "name_before": "HOSKOVA Katerina",
+    "name_after": "HOSKOVA Katerina",
+    "id_before": "51792",
+    "id_after": "35048",
+    "prev_action": "bound_by_name_unconfirmed"
+   },
+   {
+    "row": 251,
+    "seat": "ICF_ID1",
+    "phase": "Heats",
+    "unit": "2",
+    "event": "C1",
+    "gender": "W",
+    "name_before": "HOSKOVA Katerina",
+    "name_after": "HOSKOVA Katerina",
+    "id_before": "51792",
+    "id_after": "35048",
+    "prev_action": "bound_by_name_unconfirmed"
+   },
+   {
+    "row": 475,
+    "seat": "ICF_ID1",
+    "phase": "Semifinal",
+    "unit": "1",
+    "event": "C1",
+    "gender": "W",
+    "name_before": "HOSKOVA Katerina",
+    "name_after": "HOSKOVA Katerina",
+    "id_before": "51792",
+    "id_after": "35048",
+    "prev_action": "bound_by_name_unconfirmed"
+   },
+   {
+    "row": 507,
+    "seat": "ICF_ID1",
+    "phase": "Final",
+    "unit": "1",
+    "event": "C1",
+    "gender": "W",
+    "name_before": "HOSKOVA Katerina",
+    "name_after": "HOSKOVA Katerina",
+    "id_before": "51792",
+    "id_after": "35048",
+    "prev_action": "bound_by_name_unconfirmed"
+   }
+  ],
+  "grade_before": "PERFECT",
+  "gaps_before": [],
+  "emptied_seats_remaining": 0,
+  "unlogged_empty_seats": 0
+ }
 }
