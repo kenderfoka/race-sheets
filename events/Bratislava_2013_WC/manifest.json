@@ -12,12 +12,12 @@
   "icf_ids_incomplete"
  ],
  "generated_at_utc": "2026-11-25T21:32:18Z",
- "updated_at": "2026-11-25T21:32:18Z",
+ "updated_at": "2026-11-28T10:11:24Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "Bratislava_2013_WC_start.xlsx",
-   "sha256": "a7689854d6abdfd6807a0171b4a65aec95e25c04c2ccf4e77616bf8e32e889bf"
+   "sha256": "3402f986afe3a48ba78f27d53f6c97dd89151eb0f73e29c9494f606eb35ab82d"
   }
  ],
  "row_count": 681,
@@ -3202,8 +3202,11 @@
    "printed_name": "SASAKI Tsubasa",
    "source": "123result Start List PDF (CS_2013/siwidata/296/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
    "published_id": "",
-   "action": "no_icf_id",
-   "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['42256', '47085']"
+   "action": "bound_by_name_unconfirmed",
+   "detail": "RU314 (race-desk main 48668b8): printed SASAKI Tsubasa, JPN, M C2 bib 20 with SASAKI Shota 41610 (123result CS_2013/siwidata/296/C2M_HT1_23@Start List.pdf sha256 e9023a9f725f..., = C2M_HT2_23, 16:42:00 / 18:16:00); exactly one JPN athlete carries the words SASAKI Tsubasa: 42256 SASAKI Tsubasa, whose PWW profile lists 2013 ICF CANOE SLALOM WORLD CUP FINAL, C2 Men, Heats twice (ranks 18 and 21; partner 41610 lists the same two records); 47085 is SASAKI Tsubasa Terry (profile 2015-2016, K1 Men and K1x3 Men only); names.json at 48668b8 has no sasaki entry, so not a name-file bind (RU346); same seat bound to 42256 on Bratislava_2011_WCH (#139) and Prague_2011_WC (#146); seat filled from empty, not a rebind (RU233)",
+   "previous_detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['42256', '47085']",
+   "new_id": "42256",
+   "prev_action": "no_icf_id"
   },
   {
    "row": 351,
@@ -3675,8 +3678,11 @@
    "printed_name": "SASAKI Tsubasa",
    "source": "123result Start List PDF (CS_2013/siwidata/296/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
    "published_id": "",
-   "action": "no_icf_id",
-   "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['42256', '47085']"
+   "action": "bound_by_name_unconfirmed",
+   "detail": "RU314 (race-desk main 48668b8): printed SASAKI Tsubasa, JPN, M C2 bib 20 with SASAKI Shota 41610 (123result CS_2013/siwidata/296/C2M_HT1_23@Start List.pdf sha256 e9023a9f725f..., = C2M_HT2_23, 16:42:00 / 18:16:00); exactly one JPN athlete carries the words SASAKI Tsubasa: 42256 SASAKI Tsubasa, whose PWW profile lists 2013 ICF CANOE SLALOM WORLD CUP FINAL, C2 Men, Heats twice (ranks 18 and 21; partner 41610 lists the same two records); 47085 is SASAKI Tsubasa Terry (profile 2015-2016, K1 Men and K1x3 Men only); names.json at 48668b8 has no sasaki entry, so not a name-file bind (RU346); same seat bound to 42256 on Bratislava_2011_WCH (#139) and Prague_2011_WC (#146); seat filled from empty, not a rebind (RU233)",
+   "previous_detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['42256', '47085']",
+   "new_id": "42256",
+   "prev_action": "no_icf_id"
   },
   {
    "row": 423,
@@ -8504,11 +8510,11 @@
   }
  ],
  "id_summary": {
-  "bound_by_name_unconfirmed": 4,
+  "bound_by_name_unconfirmed": 6,
   "emptied": 29,
   "forerunner": 27,
   "kept": 667,
-  "no_icf_id": 128
+  "no_icf_id": 126
  },
  "pending_maintainer": [],
  "issues": [],
