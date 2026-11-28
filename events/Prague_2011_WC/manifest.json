@@ -10,12 +10,12 @@
  "grade": "PERFECT",
  "gaps": [],
  "generated_at_utc": "2026-11-25T21:30:27Z",
- "updated_at": "2026-11-25T21:30:27Z",
+ "updated_at": "2026-11-28T02:11:30Z",
  "files": [
   {
    "kind": "xlsx",
    "name": "Prague_2011_WC_start.xlsx",
-   "sha256": "0a457780895e31d8ccc31a1b5503327579aea82c7df8067f91786ff43e157090"
+   "sha256": "05cf2f448496dac80cf25da698577ce6feca450b50cb4181ddd8cf93d2e67089"
   }
  ],
  "row_count": 711,
@@ -2839,8 +2839,10 @@
    "printed_name": "SASAKI Tsubasa",
    "source": "123result Start List PDF (CS_2011/virt_pr11/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
    "published_id": "",
-   "action": "no_icf_id",
-   "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['42256', '47085']"
+   "action": "bound_by_name_unconfirmed",
+   "detail": "RU314/RU323 (race-desk main 48668b8): printed SASAKI Tsubasa, JPN, M C2 bib 33 with SASAKI Shota 41610 (PWW 2011_csl_results_prague.zip sha256 67b46288188f..., Prague/results/start lists/C2M.PDF sha256 98e6eeec1562..., 10:27:00 / 12:29:00; also printed in 2011 WCS 4 Prague C2M Heats.PDF); exactly one JPN athlete carries the words SASAKI Tsubasa: 42256 SASAKI Tsubasa (profile lists C2 Men, C1 Men, C1x3 Men; partner 41610 also C2 Men); 47085 is SASAKI Tsubasa Terry (profile K1 Men and K1x3 Men only); names.json at 48668b8 has no sasaki entry; same seat bound to 42256 on Bratislava_2011_WCH rows 18/132 (main); profiles list no 2011 result, so bound by name+nation+gender, unconfirmed (contract)",
+   "previous_detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['42256', '47085']",
+   "new_id": "42256"
   },
   {
    "row": 93,
@@ -3533,8 +3535,10 @@
    "printed_name": "SASAKI Tsubasa",
    "source": "123result Start List PDF (CS_2011/virt_pr11/); no archive id; name+nation+gender bind + paddleworldwide.com/athlete/<id>",
    "published_id": "",
-   "action": "no_icf_id",
-   "detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['42256', '47085']"
+   "action": "bound_by_name_unconfirmed",
+   "detail": "RU314/RU323 (race-desk main 48668b8): printed SASAKI Tsubasa, JPN, M C2 bib 33 with SASAKI Shota 41610 (PWW 2011_csl_results_prague.zip sha256 67b46288188f..., Prague/results/start lists/C2M.PDF sha256 98e6eeec1562..., 10:27:00 / 12:29:00; also printed in 2011 WCS 4 Prague C2M Heats.PDF); exactly one JPN athlete carries the words SASAKI Tsubasa: 42256 SASAKI Tsubasa (profile lists C2 Men, C1 Men, C1x3 Men; partner 41610 also C2 Men); 47085 is SASAKI Tsubasa Terry (profile K1 Men and K1x3 Men only); names.json at 48668b8 has no sasaki entry; same seat bound to 42256 on Bratislava_2011_WCH rows 18/132 (main); profiles list no 2011 result, so bound by name+nation+gender, unconfirmed (contract)",
+   "previous_detail": "archive other code ; no claimed id and no unique name+NOC+gender repair; given+family ambiguous ids=['42256', '47085']",
+   "new_id": "42256"
   },
   {
    "row": 209,
@@ -8235,9 +8239,9 @@
   }
  ],
  "id_summary": {
-  "bound_by_name_unconfirmed": 522,
+  "bound_by_name_unconfirmed": 524,
   "forerunner": 16,
-  "no_icf_id": 278
+  "no_icf_id": 276
  },
  "pending_maintainer": [],
  "issues": [],
@@ -8440,6 +8444,24 @@
    "new_id": "35048",
    "rule": "RU405",
    "at": "2026-11-25T21:30:27Z"
+  },
+  {
+   "row": 92,
+   "seat": "ICF_ID2",
+   "printed_name": "SASAKI Tsubasa",
+   "previous_id": "",
+   "new_id": "42256",
+   "rule": "RU314",
+   "at": "2026-11-28T02:11:30Z"
+  },
+  {
+   "row": 208,
+   "seat": "ICF_ID2",
+   "printed_name": "SASAKI Tsubasa",
+   "previous_id": "",
+   "new_id": "42256",
+   "rule": "RU314",
+   "at": "2026-11-28T02:11:30Z"
   }
  ],
  "ru405_log": {
